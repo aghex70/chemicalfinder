@@ -31,7 +31,6 @@ class NER(models.Model):
         ('ChemNER', 'ChemNER'),
         ('TrainedNER', 'TrainedNER'),
     )
-    _id = models.ObjectIdField()
     text = models.TextField()
     label = models.CharField(null=True, max_length=50)
     ner_type = models.CharField(choices=NER_TYPE_CHOICES, max_length=10)

@@ -1,17 +1,19 @@
 import logging
 
+from django.conf import settings
 from rest_framework import viewsets, status
 from rest_framework.response import Response
-from django.conf import settings
+from rest_framework.decorators import authentication_classes
+from drf_yasg.utils import swagger_auto_schema
 
-from . import tasks, models
+from . import tasks, models, serializers
 from .utils import parser, helper, trainer, processor, manager
 
 
 class BaseViewSet(viewsets.ViewSet):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self._logger = logging.getLogger('msd')
+        self._logger = logging.getLogger('chemfinder')
 
     @property
     def logger(self):
@@ -33,6 +35,10 @@ class PatentParserViewSet(BaseViewSet):
     permission_classes = ()
 
     def list(self, request):
+        serializer = self.serializer_class(data=request.data)
+        if not serializer.is_valid():
+            self.logger.error(f"Validation error: {serializer.errors}")
+            return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         patents = models.Patent.objects.all().values()
         return Response(data=patents, status=status.HTTP_200_OK)
 
@@ -51,9 +57,24 @@ class NERViewSet(BaseViewSet):
     authentication_classes = []
     permission_classes = ()
 
-    def create(self, request):
+    @swagger_auto_schema(query_serializer=serializers.NERSerializer)
+    def list(self, request):
 
-        return Response(status=status.HTTP_201_CREATED)
+        ners = manager.NERManager.list_ners()
+        return Response(data=ners, status=status.HTTP_200_OK)
+
+
+class ChemNERViewSet(BaseViewSet):
+    """
+    Viewset that retrieves job offers for all sources.
+    """
+
+    authentication_classes = []
+    permission_classes = ()
+
+    def list(self, request):
+        ners = manager.ChemNERManager.list_ners()
+        return Response(data=ners, status=status.HTTP_200_OK)
 
 
 class TrainedNERViewSet(BaseViewSet):
@@ -63,6 +84,10 @@ class TrainedNERViewSet(BaseViewSet):
 
     authentication_classes = []
     permission_classes = ()
+
+    def list(self, request):
+        ners = manager.TrainedNERManager.list_ners()
+        return Response(data=ners, status=status.HTTP_200_OK)
 
     def train(self, request):
         import os
