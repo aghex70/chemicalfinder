@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184712B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184712</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184712</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22978677" extended-family-id="42112543">
+      <document-id>
+        <country>US</country>
+        <doc-number>09258001</doc-number>
+        <kind>A</kind>
+        <date>19990225</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09258001</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43170394</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>25800199</doc-number>
+        <kind>A</kind>
+        <date>19990225</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09258001</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H03K  19/177       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>177</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>326041000</text>
+        <class>326</class>
+        <subclass>041000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>326039000</text>
+        <class>326</class>
+        <subclass>039000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H03K-019/177D2</text>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>019</main-group>
+        <subgroup>177D2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H03K-019/17728</classification-symbol>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>17728</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>10</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>23</number-of-drawing-sheets>
+      <number-of-figures>33</number-of-figures>
+      <image-key data-format="questel">US6184712</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">FPGA configurable logic block with multi-purpose logic/memory circuit</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <patcit num="1">
+          <text>FREEMAN ROSS H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5432719</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5432719</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="2">
+          <text>STANSFIELD ANTHONY I</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5473267</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5473267</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="3">
+          <text>KEAN THOMAS A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5801547</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5801547</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>CLIFF RICHARD G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5828229</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5828229</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>HEILE FRANCIS B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6020759</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6020759</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>ALTERA CORP</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0913944</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-913944</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>"SMAP: Heterogenous Technology Mapping for Area Reduction in FPGAs with Embedded Memory Array," by Steve J. E. Wilton, published Feb., 1998, ACM/SIGDA International Symposium on Field-Programmable Gate Arrays.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Xilinx, Inc.</orgname>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>XILINX</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Wittig, Ralph D.</name>
+            <address>
+              <address-1>Menlo Park, CA, US</address-1>
+              <city>Menlo Park</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Mohan, Sundararajarao</name>
+            <address>
+              <address-1>Cupertino, CA, US</address-1>
+              <city>Cupertino</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Carberry, Richard A.</name>
+            <address>
+              <address-1>Los Gatos, CA, US</address-1>
+              <city>Los Gatos</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Bever, Esq., Patrick T.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Bever, Hoffman &amp; Harms</orgname>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Cartier, Lois D.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Tokar, Michael</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A logic/memory circuit (LMC) utilized in a configurable logic block (CLB) of a programmable logic device (PLD) that implements an eight-input lookup table (LUT) using an array of programmable elements arranged in rows and columns.
+      <br/>
+      A decoder is used to read bit values from one column (e.g., sixteen programmable elements) of the array.
+      <br/>
+      In one embodiment, a separate read bit line is provided to facilitate faster read operations.
+      <br/>
+      A sixteen-to-one multiplexer/demultiplexer circuit is used to pass selected bit values to an output terminal.
+      <br/>
+      The array of programmable elements is programmable both from configuration lines during a configuration mode, and by data transmitted on the interconnect resources through the multiplexer/demultiplexer circuit.
+      <br/>
+      In one embodiment, the programmable elements of the array are connected in pairs to product term generation circuitry.
+      <br/>
+      Product terms generated by the product term circuitry are passed to a macrocell circuit to perform programmable array logic (PAL) logic operations.
+      <br/>
+      In another embodiment, a CLB includes four LMCs and a multiplier circuit such that large amounts of logic are locally implemented, thereby avoiding signal delays associated with transmission over general purpose interconnect resources within a PLD.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+    <p num="1">
+      This application relates to the following commonly assigned, concurrently filed U.S. patent application: Ser.
+      <br/>
+      No. 09/258,024 invented by Ralph D. Wittig, Sundararajarao Mohan, and Richard A. Carberry entitled "FPGA CONFIGURABLE LOGIC BLOCK WITH MULTI-PURPOSE LOGIC/MEMORY CIRCUIT", which is incorporated herein by reference.
+    </p>
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="2">This invention relates to programmable logic devices, and in particular to configurable logic blocks of field programmable gate arrays.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="3">
+      FIG. 1(A) is a simplified diagram showing a basic Field Programmable Gate Array (FPGA) 100, which is a type of Programmable Logic Device (PLD).
+      <br/>
+      FPGA 100 includes an array of configurable logic blocks (CLBS) CLB-1,1 through CLB-4,4 surrounded by input/output blocks (IOBs) IOB-1 through IOB-16, and programmable interconnect resources that include vertical interconnect segments 120 and horizontal interconnect segments 121 extending between the rows and columns of CLBs and IOBs.
+      <br/>
+      Each CLB includes configurable combinational circuitry and optional output registers programmed to implement a portion of a user's logic function.
+      <br/>
+      The interconnect segments of the programmable interconnect resources are configured using various switches to generate signal paths between the CLBs that link the logic function portions.
+      <br/>
+      Each IOB is similarly configured to selectively utilize an associated pin (not shown) of FPGA 100 either as a device input pin, a device output pin, or an input/output pin.
+      <br/>
+      Although greatly simplified, FPGA 100 is generally consistent with FPGAs that are produced by Xilinx, Inc. of San Jose, Calif.
+    </p>
+    <p num="4">
+      FIGS. 1(B) through 1(D) are simplified diagrams showing examples of the various switches associated with the programmable interconnect resources of FPGA 100.
+      <br/>
+      FIG. 1(B) shows an example of a six-way segment-to-segment switch 122 that selectively connects vertical wiring segments 120(1) and 120(2) and horizontal wiring segments 121(1) and 121(2) in accordance with configuration data stored in memory cells M1 through M6.
+      <br/>
+      Alternatively, if horizontal and vertical wiring segments 120 and 121 do not break at an intersection, a single transistor makes the connection.
+      <br/>
+      FIG. 1(C) shows an example of a segment-to-CLB/IOB input switch 123 that selectively connects an input wire 110(1) of a CLB (or IOB) to one or more interconnect wiring segments in accordance with configuration data stored in memory cells M7 and M8.
+      <br/>
+      FIG. 1(D) shows an example of a CLB/IOB-to-segment output switch 124 that selectively connects an output wire 115(1) of a CLB (or IOB) to one or more interconnect wiring segments in accordance with configuration data stored in memory cells M9 through M11.
+    </p>
+    <p num="5">
+      Since the first FPGA was invented in the 1980's, variations on the basic FPGA circuitry have been devised that allow FPGAs to implement specialized functions more efficiently.
+      <br/>
+      For example, special interconnect lines have been added to allow adjacent CLBs to be connected at high speed and without taking up general interconnect lines.
+      <br/>
+      In addition, hardware has been placed between adjacent CLBs that allows fast carry signal transmissions when an FPGA is configured to implement an arithmetic function or certain wide logic functions.
+      <br/>
+      Finally, the circuitry associated with the CLBs has undergone several changes that allow each CLB to implement specialized functions more efficiently.
+      <br/>
+      Such CLB modifications are particularly relevant to the present invention.
+    </p>
+    <p num="6">
+      FIG. 2(A) is a simplified schematic diagram showing a prior art CLB 200 used in the XC4000.RTM. series of FPGAs produced by Xilinx, Inc.
+      <br/>
+      CLB 200 includes a first four-input lookup table (LUT) F, a second four-input LUT G, a three-input LUT H, a set of LUT output multiplexers (MUXes) 210, optional output registers FF-1 and FF-2, and additional circuitry for routing signals within CLB 200.
+      <br/>
+      LUT F receives data input signals F1 through F4 that are transmitted from the interconnect resources of the FPGA.
+      <br/>
+      Similarly, LUT G receives data input signals G1 through G4.
+      <br/>
+      The operation of LUTs F and G is described in detail below.
+      <br/>
+      In addition to the eight data input signals F1 through F4 and G1 through G4, CLB 200 receives a clock signal CLK, and data/control signals H1, DIN/H2, SR/H0, and EC.
+      <br/>
+      By selectively configuring the various programmable elements associated with CLB 200, CLB 200 generates output signals in response to the data and control signals that are consistent with an assigned portion of a user's logic function.
+    </p>
+    <p num="7">
+      FIG. 2(B) is a diagram showing a circuit that can implement four-input LUTs F and G in CLB 200.
+      <br/>
+      Each four-input LUT includes a memory circuit 230 having sixteen memory bits M0 through M15 and a MUX structure 240.
+      <br/>
+      The programmed state of each of memory bits M0 through M15 is transmitted to MUX structure 240 on lines 235.
+      <br/>
+      MUX structure 240 selectively passes the programmed state of one of the memory bits to output terminal 245 in response to the four input signals (either F1 through F4 or G1 through G4).
+      <br/>
+      Functionally described, MUX structure 240 includes a series of two-input MUXes controlled by the four input signals.
+      <br/>
+      Each combination of four input signals produces a unique address that causes the LUT to output the contents of one of memory bits M0 through M15 of memory circuit 230.
+    </p>
+    <p num="8">
+      FIG. 2(C) is a simplified circuit diagram showing memory bit M0 of memory circuit 230 (see FIG. 2(B)).
+      <br/>
+      Memory bit M0 includes first and second inverters connected end-to-end to form a latch 231 that is connected to BIT and BIT_b (inverted bit) lines via pass transistors 232 and 233, respectively, and a third inverter 234 that is connected between latch 231 and the output line 235-1.
+      <br/>
+      Pass transistors 232 and 233 are controlled by a WRITE control line.
+      <br/>
+      During a configuration mode, the WRITE line is pulled high and data is transmitted to the latch via the BIT and BIT_b lines.
+      <br/>
+      During subsequent operation, the data bit stored by the latch is transmitted through the third inverter 234 and applied to output line 235-1, which transmits the data bit to MUX structure 240.
+    </p>
+    <p num="9">
+      Four-input LUTs F and G of CLB 200 have proven extremely useful for implementing many logic functions.
+      <br/>
+      However, a problem arises when certain large logic functions are implemented that require signal transmission through four or more CLBs.
+    </p>
+    <p num="10">
+      FIG. 3 is a simplified diagram showing a portion 300 of an FPGA that includes six CLBS.
+      <br/>
+      The interconnect resources associated with portion 300 are programmed to provide a signal path 310 for transmitting data signals between selected CLBs.
+      <br/>
+      Specifically, signal path 310 defines the transmission path of an input signal transmitted to LUT F of CLB-1,1, the output signal from LUT F of CLB-1,1 that is transmitted to LUT F of CLB-1,2, the output signal from LUT F of CLB-1,2 that is transmitted to LUT G of CLB-2,2, the output signal from LUT G of CLB-2,2 that is transmitted to LUTs G and H of CLB-2,3, and the output signal from LUT H of CLB-2,3.
+    </p>
+    <p num="11">
+      Signal path 310 represents one of many signal paths typically associated with a user's logic function.
+      <br/>
+      Other signal paths are used, for example, to transmit additional input signals to LUT F of CLB-1,1. (These additional signal paths are indicated in an abbreviated manner by the short lines extending from CLB-1,1.) The interconnect resources used by these additional signal paths are not shown, so that signal path 310 is clearly identified.
+    </p>
+    <p num="12">
+      The various components of the CLBs, IOBS, and interconnect resources of a PLD introduce signal delays that delay signals through the PLD.
+      <br/>
+      For example, delays are introduced as the signal passes through the various switches associated with an FPGA (see FIGS. 1(B) through 1(D), discussed above).
+      <br/>
+      Even larger delays are typically produced by the propagation of signals through the CLBs of an FPGA.
+      <br/>
+      As mentioned above, an output signal from each four-input LUT F/G is passed through four MUXes from a selected memory cell that is addressed by the four input signals.
+      <br/>
+      The delay associated with the transmission through the four MUXes of each four-input LUT is approximately 1 nanosecond (ns).
+      <br/>
+      Additional delays are subsequently produced by the LUT output MUXes 210.
+    </p>
+    <p num="13">
+      PLD users often impose timing restrictions on one or more signal paths in a logic function implemented in a target PLD.
+      <br/>
+      These timing restrictions, or "constraints", define a maximum period allowed for a signal to propagate along a particular path.
+      <br/>
+      A signal path is referred to as a "critical" path if it limits the maximum clock rate of a circuit.
+      <br/>
+      Some signals may be transmitted through relatively few CLBs, thereby experiencing a relatively short propagation delay.
+      <br/>
+      Conversely, other signals may be transmitted through a relatively large number of CLBs, thereby experiencing a relatively large delay, and one of these signals is often on the critical path.
+      <br/>
+      Therefore, it is important to minimize the number of CLBs through which a signal travels along a critical path.
+    </p>
+    <p num="14">
+      One approach to minimizing the propagation delay associated with signal transmission through multiple CLBs is to provide large general-purpose logic circuits that can implement large portions of a user's logic function.
+      <br/>
+      As mentioned above, when the CLBs of an FPGA include small logic circuits (e.g., four-input LUTs), a user's logic function must be partitioned into relatively small logic portions that can be implemented in these small logic circuits.
+      <br/>
+      Partitioning a large logic function into multiple small logic portions can cause the failure of one or more paths of the logic function to meet the user's timing constraints.
+      <br/>
+      By providing large logic circuits, it is possible for place-and-route software to partition the user's logic function into larger logic portions that can be efficiently implemented in the large logic circuits such that propagation delays are minimized.
+    </p>
+    <p num="15">
+      Large general-purpose logic circuits have been provided in some PLDs in the form of programmable logic array (PLA) or programmable array logic (PAL) circuits.
+      <br/>
+      Unlike LUTs, PLA and PAL circuits utilize AND/OR logic arrangements to implement logic functions.
+      <br/>
+      While PLA and PAL circuits typically implement wide logic functions faster than LUTs, they are restricted by this AND/OR logic arrangement.
+      <br/>
+      In general, a LUT is capable of implementing more complex logic functions than a PLA and PAL circuit having a comparable size.
+    </p>
+    <p num="16">
+      What is needed is a CLB for an FPGA that allows the implementation of large logic functions using a LUT logic arrangement while utilizing a limited amount of space.
+      <br/>
+      What is also needed is a logic/memory circuit for an FPGA that can be operated as either a LUT or a PLA/PAL, thereby allowing a user to selectively implement portions of a logic function in either of these logic circuit types.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="17">
+      The present invention is directed to a multi-purpose logic/memory circuit (LMC) utilized in a configurable logic block (CLB) of a programmable logic device (PLD) that can implement both high capacity lookup table (LUT) operations and RAM operations using the same array of programmable elements (memory cells).
+      <br/>
+      In some embodiments, the array of programmable elements is also used to perform high-speed programmable array logic (PAL) operations.
+      <br/>
+      Because the same array of programmable elements is selectively used for LUT, RAM or PAL operations, the LMC of the present invention provides a highly versatile logic circuit that can implement a user's logic function in a highly efficient manner.
+    </p>
+    <p num="18">
+      In accordance with one embodiment of the invention, an LMC implements either an eight-input lookup table (LUT) or a 256-bit RAM using the same sixteen-by-sixteen array of programmable elements.
+      <br/>
+      A first set of four input signals is used to address a word (i.e., sixteen programmable elements) stored in one column of the array, and a second set of four input signals is used to pass one or more bits from the selected word to a set of output terminals.
+      <br/>
+      The resulting eight-input LUT provides substantially greater capacity than prior art sixteen-bit LUTs and, therefore, is capable of implementing substantially larger portions of a user's logic function while taking up minimal additional space.
+      <br/>
+      Further, because larger logic functions can be implemented in a single eight-input LUT, the propagation delays associated with signal transmissions between multiple sixteen-bit LUTs can be avoided.
+      <br/>
+      Moreover, in one embodiment independent read bit lines are utilized to minimize capacitance during read operations, thereby providing faster operating speeds.
+    </p>
+    <p num="19">
+      In accordance with another embodiment of the invention, a PAL input signal control circuit is used to transmit input signals directly to the write bit lines of the array.
+      <br/>
+      These input signals, along with the bit values stored in the programmable elements, are transmitted to product term generation circuitry that generates product terms.
+      <br/>
+      The LMC is also provided with a macrocell that generates a sum-of-products term in response to the product terms.
+      <br/>
+      The sum-of-products term is selectively transmitted during PAL operations, thereby allowing a user the option of implementing speed-sensitive logic using the high-speed PAL circuitry.
+    </p>
+    <p num="20">
+      In another embodiment, a CLB includes four LMCs and switch circuits for routing input signals to and output signals from the LMCs.
+      <br/>
+      A multiplier circuit is also provided to perform multiplication functions.
+      <br/>
+      By providing four large general-purpose LMCs and a relatively small special-purpose multiplier circuit in a single CLB, large portions of a user's logic function can be implemented within a CLB, thereby avoiding propagation delays associated with signal transmission through general purpose interconnect resources of a PLD.
+      <br/>
+      In yet another embodiment, the CLB incorporates both LMCs and dedicated PAL circuits with the multiplexer circuit to provide high-speed logic implementations.
+    </p>
+    <p num="21">
+      In yet another embodiment, an LMC includes a logic/memory array including four columns of programmable elements that are addressed by a hard-wired decoder during write operations.
+      <br/>
+      Bit values are read from each programmable element through series pass transistors that are controlled by read address signals generated by the hard-wired decoder, thereby increasing operating speeds during LUT and RAM operations.
+      <br/>
+      Further, by limiting the number of programmable elements connected to each read bit line to four, minimal capacitance is applied to the read bit lines, thereby further increasing operating speeds.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="22">
+      FIG. 1(A) is a diagram showing a portion of a simplified prior art FPGA.
+      <br/>
+      FIGS. 1(B), 1(C), and 1(D) are diagrams showing switch circuits utilized to route signals in the FPGA of FIG. 1(A).
+      <br/>
+      FIG. 2(A) is a simplified schematic diagram showing a CLB of a prior art FPGA.
+      <br/>
+      FIG. 2(B) is a simplified schematic diagram showing a four-input LUT of the CLB shown in FIG. 2(A).
+      <br/>
+      FIG. 2(C) is a simplified schematic diagram showing a memory cell of the four-input LUT shown in FIG. 2(B).
+      <br/>
+      FIG. 3 is a simplified diagram showing a portion of a prior art FPGA and depicting a critical path used to route signals through several four-input LUTs.
+      <br/>
+      FIG. 4 is a block diagram showing a simplified PLD including a logic/memory circuit (LMC) formed in accordance with the present invention.
+      <br/>
+      FIGS. 5(A), 5(B), 5(C), and 5(D) are diagrams showing portions of an LMC according to a first embodiment of the present invention.
+      <br/>
+      FIGS. 6(A), 6(B), 6(C), and 6(D) are diagrams showing portions of an LMC according to a second embodiment of the present invention.
+      <br/>
+      FIGS. 7(A), 7(B), 7(C), and 7(D) are diagrams showing portions of an LMC according to a third embodiment of the present invention.
+      <br/>
+      FIGS. 8(A), 8(B), 8(C), and 8(D) are diagrams showing a CLB in accordance with a fourth embodiment of the present invention.
+      <br/>
+      FIGS. 9(A), 9(B), and 9(C) are diagrams showing a CLB in accordance with a fifth embodiment of the present invention.
+      <br/>
+      FIG. 10 is a block diagram showing a CLB in accordance with a sixth embodiment of the present invention.
+      <br/>
+      FIG. 11 is a block diagram showing a CLB in accordance with a seventh embodiment of the present invention.
+      <br/>
+      FIGS. 12(A), 12(B), and 12(C) are diagrams showing portions of an LMC according to an eighth embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="23">FIG. 4 shows a portion of an FPGA (PLD) 400 including a plurality of substantially identical configurable logic blocks (CLBS) 410 that are selectively connected via interconnect resources 420 in a manner consistent with standard FPGA technologies.</p>
+    <p num="24">
+      Each CLB 410 includes an eight-input logic/memory circuit (LMC) 430 and a register circuit (FFS) 440. Each LMC 430 receives eight data input signals from interconnect resources 420 and generates from one to four data output signals.
+      <br/>
+      Output signals from LMC 430 are either directly transmitted to interconnect resources 420, or transmitted through register circuit 440.
+    </p>
+    <p num="25">
+      Interconnect resources 420 include, for example, interconnect line segments and switching circuitry such as that described above with respect to prior art FPGA 100 (see FIG. 1(A)).
+      <br/>
+      In one embodiment disclosed below, each channel of interconnect resources 420 includes eighty (80) parallel interconnect lines from which input signals are selectively routed to each CLB 410, and to which each CLB 410 transmits output signals.
+      <br/>
+      In other embodiments, each channel of interconnect resources 420 may include a different number of interconnect lines.
+    </p>
+    <p num="26">
+      In accordance with the present invention, each LMC 430 includes an array of programmable elements and other configurable circuitry that is programmed by user-defined configuration data to implement either logic or memory functions.
+      <br/>
+      For example, in a first embodiment of the present invention, each LMC 430 is configurable to operate either (a) as an n-input lookup table (i.e., function generator) in which the array of programmable elements is selectively programmed to implement any arbitrarily defined Boolean function of up to n input signals, or (b) as a 2n -bit random access memory (RAM) in which the array of programmable elements stores bit values associated with memory words addressed by the input signals.
+      <br/>
+      In an alternative embodiment, LMC 430 is also configurable to selectively operate as an n-input programmable logic array (PLA) circuit for performing sum-of-products logic operations.
+      <br/>
+      In the alternative embodiment, the programmable element array is utilized as an AND array for generating one or more product terms (P-terms) in response to the input signals transmitted to LMC 430 via interconnect resources 420.
+      <br/>
+      Selected P-terms are routed to an OR gate to perform the sum-of-products logic operations.
+      <br/>
+      The various embodiments of LMC 430 are discussed in detail below.
+    </p>
+    <p num="27">
+      In the following description, each LMC 430 has eight data input terminals and includes a logic/memory array that includes 256 programmable elements.
+      <br/>
+      Although LMC 430 can advantageously include a different (larger or smaller) number of inputs and an array having a different number of programmable elements, certain benefits are provided by forming LMC 430 with eight input terminals and 256 programmable elements.
+      <br/>
+      First, when LMC 430 is utilized as a LUT, certain logic functions requiring four or more four-input LUTs F/G can be implemented in less time by a single LMC 430, thereby significantly reducing the number of interconnect resources required to implement these logic functions.
+      <br/>
+      Techniques for programming an eight-input LUT are similar to those described in the "SMAP: Heterogeneous Technology Mapping for Area Reduction in FPGAs with Embedded Memory Arrays", by Steve Wilton published February, 1998, ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, which describes mapping combinational logic in block RAM.
+      <br/>
+      Second, the 256-bit logic/memory circuits can be combined in a highly efficient manner when LMC 430 is utilized as a RAM circuit.
+      <br/>
+      These and other benefits of forming LMC 430 as an eight-input, 256 programmable element circuit are described in the following specific embodiments.
+    </p>
+    <p num="28">First Embodiment</p>
+    <p num="29">
+      FIGS. 5(A) through 5(D) show an LMC 430-1 in accordance with a first embodiment of the present invention.
+      <br/>
+      LMC 430-1 includes an array of programmable elements that can be selectively utilized either as an eight-input LUT or as a 256-bit RAM.
+      <br/>
+      Therefore, the array of programmable elements can be used to store portions of a user's logic function that include up to eight input signals.
+      <br/>
+      As such, LMC 430-1 is configurable to store a significantly larger portion of a user's logic function than prior art four-input (sixteen-bit) LUTs, thereby increasing operating speeds in certain applications by reducing signal propagation times.
+    </p>
+    <p num="30">
+      In addition to implementing logic function portions, LMC 430-1 may also be used as a 256-bit RAM.
+      <br/>
+      Although the memory capacity (i.e., 256 bits) associated with each LMC 430-1 is smaller than a typical block RAM circuit, it is much larger than that of a conventional four-input, sixteen-bit LUT.
+      <br/>
+      Further, it is impractical to use conventional sixteen-bit LUTs to form large memory circuits because the overhead (i.e., interconnect resources) needed to operate such memory circuits is too high.
+      <br/>
+      These overhead constraints are reduced in LMC 430-1 because of the localization of 256 bits.
+      <br/>
+      Moreover, in comparison to block RAM structures, LMC 430-1 provides more flexibility for implementing memories of different sizes while minimizing unused memory capacity.
+    </p>
+    <p num="31">
+      FIG. 5(A) is a block diagram showing the basic circuit components of LMC 430-1.
+      <br/>
+      LMC 430-1 includes a decoder 510, a logic/memory (programmable element) array 520 and an LMC multiplexer/demultiplexer (MUX/DEMUX) 530.
+      <br/>
+      A first set of input signals is transmitted from interconnect resources 420 (see FIG. 4) to input terminals 503, and a second set of input signals is transmitted to input terminals 505.
+      <br/>
+      Configuration signals are transmitted from a configuration bus (not shown) on configuration word lines 507 and configuration bit lines 549 to logic/memory array 520.
+      <br/>
+      Output signals are transmitted from LMC MUX/DEMUX 530 on output terminals 535.
+      <br/>
+      Data (bit value) signals are written to logic/memory array 520 from interconnect resources 420 via a data input terminal DIN and LMC MUX/DEMUX 530.
+    </p>
+    <p num="32">
+      Decoder 510 receives four input signals on input terminals 503, and generates therefrom sixteen write address signals on output lines 513 and sixteen read address signals on read word lines 518.
+      <br/>
+      The sixteen write address signals on output lines 513 are selectively transmitted to logic/memory array 520 during a memory write mode (e.g., when data is written to logic/memory array 520 via interconnect resources 420 during "normal" operation of FPGA 400).
+      <br/>
+      Alternatively, sixteen configuration address signals are transmitted to logic/memory array 520 on configuration word lines 507 during a configuration (start-up) mode.
+      <br/>
+      Multiplexer 515 selectively places either the write address signals from decoder 510 or the configuration address signals on a single set of write word lines 517 addressing logic/memory array 520.
+    </p>
+    <p num="33">
+      FIG. 5(C) shows a simplified decoder 510 that decodes two input signals received on input terminals 503-1 and 503-2.
+      <br/>
+      Each input signal is inverted, and selected pairs of the inverted and non-inverted input signals are applied to the input terminals of eight NOR gates N1 through N8.
+      <br/>
+      In addition, a write control signal WRITE is inverted and transmitted to NOR gates N1, N3, N5, and N7 on line 512.
+      <br/>
+      In response to the selected pairs of input signals and the WRITE control signal, NOR gates N1, N3, N5, and N7 generate write address signals on output lines 513 that are applied to four columns of programmable elements in logic/memory array 520.
+      <br/>
+      For example, NOR gate N1 generates a write address signal on line 513-1 in response to the WRITE control signal and the inverted input signals received at input terminals 503-1 and 503-2.
+      <br/>
+      This write address signal is applied to write word line 517-1 via a switch circuit 515A, which forms a part of multiplexer 515, shown in FIG. 5(A).
+      <br/>
+      Similarly, in response to the selected pairs of input signals, NOR gates N2, N4, N6, and N8 generate read address signals on read word lines 518 that are applied to the same four columns of programmable elements in logic/memory array 520.
+      <br/>
+      For example, NOR gate N2 generates a read address signal on read word line 518-1 in response to the inverted input signals received at input terminals 503-1 and 503-2.
+      <br/>
+      The switch circuits 515A are controlled by a configuration signal CFG that is transmitted in a non-inverted form on line 519, and in an inverted form on line 519_b.
+      <br/>
+      As discussed in detail below, switch circuits 515A pass the write address signals generated by NOR gates N1, N3, N5, and N7 in the memory write mode (i.e., when configuration signal CFG is logic low).
+      <br/>
+      Modification of decoder 510 to receive four input terminals and to generate sixteen read address signals and sixteen write address signals, as shown in FIG. 5(A), is easily accomplished in view of the disclosure shown in FIG. 5(C).
+    </p>
+    <p num="34">
+      FIG. 5(B) shows a simplified representation of logic/memory array 520.
+      <br/>
+      Logic/memory array 520 includes 256 programmable elements 540 arranged in sixteen rows and sixteen columns.
+      <br/>
+      For example, a first row includes a first programmable element 540-1 and a second programmable element 540-2, and a sixteenth row includes a third programmable element 540-3 and a fourth programmable element 540-4.
+      <br/>
+      Similarly, a first column includes first programmable element 540-1 and third programmable element 540-3, and a sixteenth column includes second programmable element 540-2 and fourth programmable element 540-4.
+      <br/>
+      Each programmable element 540 receives a write address signal from an associated one of the sixteen (16) write word lines 517 and a read address signal from an associated one of the sixteen read word lines 518.
+      <br/>
+      In addition, each programmable element 540 is connected to an associated write bit line 545, an inverted write bit line 545_b, and a read bit line 525.
+      <br/>
+      For example, during the configuration mode, programmable element 540-1 is programmed by data signals received on write bit line 545-1 and inverted write bit line 545-1_b (from configuration bit line 549 via pass transistors 548, see FIG. 5(C)) in response to a high address signal received on write word line 517-1.
+      <br/>
+      In contrast, during a LUT operation or memory read mode, programmable element 540-1 transmits a stored data signal on read bit line 525-1 through a read/write control circuit 527 in response to a high address signal received on read word line 518-1.
+      <br/>
+      Finally, during a memory write operation, data values are transmitted from LMC MUX/DEMUX 530 (see FIG. 5(A)) to programmable element 540-1 via write bit line 545-1, inverted write bit line 545-1_b, and read/write control circuit 527.
+    </p>
+    <p num="35">
+      Referring again to FIG. 5(C), details regarding programmable element 540-1 of logic/memory array 520 are now described.
+      <br/>
+      Programmable element 540-1 includes a latch for storing a bit value, and control circuitry for controlling writing the bit value to and reading the bit value from programmable element 540-1.
+      <br/>
+      Specifically, programmable element 540-1 includes a first inverter 541 and a second inverter 542 connected end-to-end to form a latch.
+      <br/>
+      This latch is connected to write bit line 545-1 and inverted write bit line 545-1_b via pass transistors 543 and 544, respectively.
+      <br/>
+      The gates of pass transistors 543 and 544 are connected to write word line 517-1.
+      <br/>
+      Therefore, when a high write address signal is applied to write word line 517-1, a bit value transmitted on write bit line 545-1 and inverted write bit line 545-1_b is stored in the latch.
+      <br/>
+      The latch is also connected through a third inverter 546 via a third pass transistor 547 to read bit line 525-1.
+      <br/>
+      The gate of pass transistor 547 is connected to read word line 518-1.
+      <br/>
+      Therefore, when a high read address signal is applied to read word line 518-1, the bit value stored in the latch is transmitted on read bit line 525-1.
+    </p>
+    <p num="36">As shown in FIG. 5(C), logic/memory array 520 also receives several control signals that control the operating mode of LMC 430-1.</p>
+    <p num="37">
+      As discussed above with reference to decoder 510, configuration signal CFG controls the source of address signals on write word lines 517 during the configuration and memory write modes.
+      <br/>
+      That is, during a memory write mode (i.e., when configuration signal CFG is low and the WRITE signal is high), write address signals generated on lines 513 are transmitted via first switch 515A of multiplexer 515 (see FIG. 5(A)) onto write word lines 517.
+      <br/>
+      For example, when CFG is low, the signal generated by NOR gate N1 is transmitted through switch 515A-1 onto write word line 517-1.
+      <br/>
+      This low CFG signal also turns off a second switch 515B of multiplexer 515 (shown at the bottom of logic/memory array 520) so that write word line 517-1 is isolated from configuration word line 507-1.
+      <br/>
+      Conversely, the CFG signal is high during the configuration mode, thereby turning off first switch 515A-1 and turning on second switch 515B to connect write word line 517-1 to configuration address line 507-1.
+    </p>
+    <p num="38">
+      In addition to controlling the write word lines 517, the CFG signal is used with the WRITE signal and a READ signal to control write bit lines 545 and inverted write bit lines 545_b.
+      <br/>
+      That is, during a memory write mode (i.e., when the CFG signal is low, the WRITE signal is high and the READ signal is low), data (bit value) signals are transmitted from LMC MUX/DEMUX 530 (see FIG. 5(A)) onto write bit lines 545 and inverted write bit lines 545_b via read/write control circuit 527.
+      <br/>
+      For example, an inverted data value is transmitted from LMC MUX/DEMUX 530 onto inverted write bit line 545-1_b, and the high WRITE signal passes the data value onto write bit line 545-1.
+      <br/>
+      This data value is then passed to programmable element 540-1 when a high address signal is transmitted on write word line 517-1, which turns on pass transistors 543 and 544.
+      <br/>
+      During this memory write operation, the low CFG signal turns off pass transistors 548, thereby isolating write bit line 545-1 and inverted write bit line 545-1_b from configuration bit line 549-1 and inverted configuration bit line 549-1_b.
+      <br/>
+      During a LUT operation or memory read mode, the CFG signal remains low, the WRITE signal is low, and the READ signal is high, thereby passing data (bit value) signals from memory cell 540-1 in response to a high address signal transmitted on read word line 518-1.
+      <br/>
+      Finally, during the configuration mode (i.e., the CFG signal is high, and both the WRITE signal and the READ signal are low), pass transistors 548 are turned on to connect write bit line 545-1 and inverted write bit line 545-1_b to receive data signals from configuration bit line 549-1 and inverted configuration bit line 549-1_b, respectively.
+    </p>
+    <p num="39">
+      FIG. 5(D) is a simplified schematic diagram showing an embodiment of LMC MUX/DEMUX 530.
+      <br/>
+      LMC MUX/DEMUX 530 includes a sixteen-to-one demultiplexer circuit 531, a sixteen-to-one multiplexer/demultiplexer circuit 532, and a programmable output circuit 534.
+    </p>
+    <p num="40">
+      During the memory write mode, demultiplexer circuit 531 receives an inverted form of a data signal received from input terminal DIN via pass transistor 533-1, and transmits the inverted data signal to a selected one of the inverted write bit lines 545_b.
+      <br/>
+      Demultiplexer circuit 531 includes a series of to-output demultiplexers P1-P8, Q1-Q4, R1, R2, and S with select terminals that receive the input signals transmitted on input terminals 505 (see FIG. 5(A)).
+      <br/>
+      Demultiplexer S receives the inverted data signal and passes it to either demultiplexer R1 or demultiplexer R2 in accordance with a first select signal.
+      <br/>
+      Similarly, demultiplexer R1 or demultiplexer R2 is controlled to pass the inverted data signal to one of demultiplexers Q1 through Q4, which in turn pass the inverted data signal to demultiplexers P1 through P8, which pass the inverted data signal to one of the inverted write bit lines 545_b.
+    </p>
+    <p num="41">
+      Similarly, during the memory write mode, multiplexer/demultiplexer circuit 532 receives the data signal received from input terminal DIN via pass transistor 533-2, and transmits the data signal to a selected one of the write bit lines 545 (via read/write control circuit 527, see FIG. 5(C)).
+      <br/>
+      Multiplexer/demultiplexer circuit 532 includes a series of two-input multiplexer/demultiplexers P11-P18, Q11-Q14, R11, R12, and S1 with select terminals that receive the input signals transmitted-on input terminals 505 (FIG. 5(A)).
+      <br/>
+      Demultiplexer S11 receives the data signal and passes it to either demultiplexer R11 or demultiplexer R12 in accordance with the first select signal.
+      <br/>
+      Similarly, demultiplexer R11 or demultiplexer R12 is controlled to pass the data signal to one of demultiplexers Q11 through Q14, which pass the data signal to demultiplexers P11 through P18, which pass the data signal to one of the write bit lines 545.
+    </p>
+    <p num="42">
+      During LUT operation or memory read mode, multiplexer/demultiplexer circuit 532 transmits one or more of the data (bit value) signals transmitted on read bit lines 525 (via read/write control circuit 527, see FIG. 5(C)) to one or more of the output terminals 535.
+      <br/>
+      Specifically, in response to a first input signal received on input terminals 505 (FIG. 5(A)), multiplexers P11 through P18 pass a total of eight data signals from read bit lines 525 to multiplexers Q11 through Q14.
+      <br/>
+      Each multiplexer Q11 through Q14 receives two of the eight data values passed by multiplexers P11 through P18, and passes a selected one of the two data values in response to a second input signal.
+      <br/>
+      Each multiplexer R11 and R12 receives two of the four data values passed by multiplexers Q11 through Q14, and passes a selected one of the two data values in response to a third address signal.
+      <br/>
+      Finally, two-input multiplexer S11 receives the two data values passed by multiplexers R11 and R12, and passes a selected one of the two data values in response to a fourth address signal.
+    </p>
+    <p num="43">
+      Output signals from LMC 430-1 are transmitted on output terminals 535-1 through 535-4 via programmable output circuit 534.
+      <br/>
+      Programmable output circuit 534 is controlled by configuration data to transmit one, two, or four of the stored data signals on output terminals 535-1 through 535-4.
+      <br/>
+      Specifically, when four of the stored data signals are transmitted from LMC 430-1, multiplexers T, U, and V are controlled by memory cells M-T, M-U, and M-V to pass signals transmitted through multiplexers Q12, Q13, and Q14 to output terminals 535-2, 535-3, and 535-4, respectively. (The signal passed through multiplexer Q11 is applied directly to output terminal 535-1).
+      <br/>
+      Alternatively, when two of the stored data signals are transmitted from LMC 430-1, multiplexers T and V are controlled by memory cells M-T and M-V to pass signals transmitted through multiplexers R11 and R12 to output terminals 535-2 and 535-4, respectively (the signals passed to output terminals 535-1 and 535-3 are ignored by a CLB output control circuit.
+      <br/>
+      Finally, when only one of the stored data signals is transmitted from LMC 430-1, multiplexer U is controlled by memory cell M-U to pass the signal transmitted through multiplexer S11 to output terminal 535-3 (the signals passed to output terminals 535-1, 535-2, and 535-4 are ignored by the CLB output control circuit.
+    </p>
+    <p num="44">Although depicted as a series of two-to-one multiplexers in FIG. 5(D), artisans familiar with multiplexer circuitry will understand that the function of sixteen-to-one multiplexer circuit 531 and multiplexer/demultiplexer circuit 532 can be implemented with, for example, one or more four-to-one multiplexers or multiplexer/demultiplexers.</p>
+    <p num="45">
+      As set forth in the description above, LMC 430-1 selectively utilizes the programmable elements of logic/memory array 520 to form either an eight-input LUT or a 256-bit RAM.
+      <br/>
+      For example, when LMC 430-1 is utilized as an eight-input LUT, the programmable elements are used to implement any arbitrary Boolean function of up to eight input signals.
+      <br/>
+      Of these eight input signals, four input signals received on input terminals 503 are transmitted to decoder 510, which addresses a selected column of programmable elements in logic/memory array 520 such that the data (bit values) stored in the selected column is transmitted on read bit lines 525.
+      <br/>
+      The other four input signals received on input terminals 505 are transmitted to LMC MUX/DEMUX 530 to selectively pass one, two, or four of the signals on read bit lines 525 to output terminals 535.
+      <br/>
+      Similarly, when logic/memory circuit 430-1 is utilized as a RAM circuit, the programmable elements of logic/memory array 520 are used to store sixteen words of information, each word including sixteen bits.
+      <br/>
+      The first four input signals 503 address a selected word (column), and the second four input signals 505 control the serial transmission of the data bits associated with the selected word onto output terminals 535.
+    </p>
+    <p num="46">
+      By selectively configuring LMC MUX/DEMUX 530 to pass one, two, or four stored data signals stored in logic/memory array 520, a user can utilize LMC 430 to implement any single logic function portion having up to eight input terms, some pairs of logic function portions having up to seven input terms, and some sets of four logic function portions having six input terms.
+      <br/>
+      In addition, LMC MUX/DEMUX 530 can be configured to transmit memory data as a single series of sixteen bits, as two groups of eight bits, or as four groups of four bits.
+    </p>
+    <p num="47">Second Embodiment</p>
+    <p num="48">
+      FIGS. 6(A) through 6(D) show an LMC 430-2 in accordance with a second embodiment of the present invention.
+      <br/>
+      Similar to LMC 430-1 (FIG. 5(A)), the programmable elements of LMC 430-2 can be selectively utilized either as an eight-input LUT or as a 256-bit RAM.
+      <br/>
+      However, in addition to these operational modes, LMC 430-2 can be used to selectively operate as an eight-input programmable array logic (PAL) circuit or as a content addressable memory (CAM).
+      <br/>
+      During PAL operations, the same programmable elements used for LUT and RAM operations are used to generate a plurality of product terms in response to input signals received on the same input terminals used for LUT and RAM operations.
+      <br/>
+      These product terms are selectively ORed together in a macrocell to form a sum-of-products term.
+      <br/>
+      As discussed above, logic emulation using PLA/PAL circuitry is generally faster than LUT logic operations.
+      <br/>
+      Therefore, LMC 430-2 allows a user to implement his or her logic functions in either a high-density LUT format or a high-speed PAL format.
+      <br/>
+      In addition, the same programmable elements and input terminals are utilized for both PAL and LUT operations, thereby providing a highly flexible and space efficient configurable logic block for a PLD.
+      <br/>
+      This flexibility is further enhanced by selectively configuring product term generation circuitry to provide CAM operations.
+    </p>
+    <p num="49">
+      Referring to FIG. 6(A), LMC 430-2 includes a decoder 610, a logic/memory array (L/M ARRAY) 620, a LMC multiplexer/demultiplexer (MUX/DEMUX) (switch circuit) 630, a macrocell 660, and a PAL input (PAL IN) control circuit 670.
+      <br/>
+      Similar to decoder 510 of LMC 430-1 (FIG. 5(A)), decoder 610 is connected to receive four input signals on a first set of input terminals 603, and generates sixteen write address signals that are transmitted to logic/memory array 620.
+      <br/>
+      Logic/memory array 620 also receives sixteen configuration address signals on configuration address lines 607 from a configuration bus (not shown).
+      <br/>
+      Control circuitry (discussed below) is provided to apply either the write address signals generated by decoder 610 onto write word lines 617 during memory write operations, or to apply the configuration address signals on configuration address lines 607 onto write word lines 617 during the configuration mode.
+      <br/>
+      Decoder 610 also generates sixteen read address signals on read word lines 618 that are utilized during the LUT operation and memory read modes such that the bit values stored in programmable elements 640 (FIG. 6(C)) are written onto read bit lines 625.
+      <br/>
+      LMC MUX/DEMUX 630 is responsive to input signals received by input terminals 605 such that it transmits bit values from selected read bit lines 625 to output terminals 635 during the LUT operation and memory read modes.
+      <br/>
+      In addition, LMC MUX/DEMUX 630 is responsive to the input signals to transmit input data values from data input terminal DIN to selected write bit lines 645 and inverted write bit lines 645_b during the memory write mode.
+    </p>
+    <p num="50">
+      LMC 430-2 differs from LMC 430-1 (FIG. 5(A)) in that it includes product term generation circuitry (discussed below), a macrocell 660, and PAL input control circuit 670.
+      <br/>
+      During PAL and CAM operations, PAL input control circuit 670 passes the input signals received at input terminals 603 and 605 onto write bit lines 645 of logic/memory array 620.
+      <br/>
+      In addition, logic/memory array 620 includes the product term generation circuitry that generates product terms in response to the input signals on write bit lines 645 and the bit values stored in the programmable elements of logic/memory array 620.
+      <br/>
+      During CAM operations, these product terms also indicate that the input signals match values stored in the memory cells aligned in one column of logic/memory array 620.
+      <br/>
+      These product terms are transmitted on lines 628 to macrocell 660, which generates a sum-of-products term that is transmitted on macrocell output line 665 to LMC MUX/DEMUX 630.
+      <br/>
+      As described below, LMC MUX/DEMUX 630 includes output control circuitry that passes either bit values transmitted on selected read bit lines 625 or the sum-of-products term generated by macrocell 630.
+      <br/>
+      Therefore, LMC 430-2 allows a user to selectively implement logic using either a LUT format or a PAL format.
+      <br/>
+      Because PAL operations are typically faster than LUT operations, this added flexibility makes LMC 430-2 useful for applications in which the speed of small logic portions is important.
+      <br/>
+      The flexibility of LMC 430-2 is further enhanced by selectively performing CAM operations.
+    </p>
+    <p num="51">
+      FIG. 6(B) shows a simplified decoder 610 that decodes two input signals received on input terminals 603-1 and 603-2, and generates write address signals on write word lines 617-1 through 617-4 and read address signals on read word lines 618-1 through 618-4.
+      <br/>
+      Each input signal is inverted, and selected pairs of the inverted and non-inverted input signals are applied to the input terminals of eight NOR gates N1 through N8.
+      <br/>
+      In addition, a write control signal WRITE is inverted and transmitted to NOR gates N1, N3, N5 and N7 on line 612.
+      <br/>
+      In response to the selected pairs of input signals and the WRITE control signal, NOR gates N1, N3, N5, and N7 generate write address signals that are applied to four columns of programmable elements in logic/memory array 620.
+      <br/>
+      For example, NOR gate N1 generates a write address signal in response to the WRITE control signal and the inverted input signals received at input terminals 603-1 and 603-2.
+      <br/>
+      This write address signal is applied to write word line 617-1 via a switch circuit 615A.
+      <br/>
+      Similarly, in response to the selected pairs of input signals, NOR gates N2, N4, N6, and N8 generate read address signals on output lines 618-1 through 618-4 that are applied to the same four columns of programmable elements in logic/memory array 620.
+      <br/>
+      Switch circuit 615A is controlled by a configuration signal CFG on lines 619 and line 619_b to pass the write address signals generated by NOR gates N1, N3, N5, and N7 in the memory write mode.
+      <br/>
+      Modification of decoder 610 to receive four input terminals and to generate sixteen read address signals and sixteen write address signals, as shown in FIG. 6(A), is easily accomplished in view of the disclosure shown in FIG. 6(B).
+    </p>
+    <p num="52">
+      Referring again to FIG. 6(A), logic/memory array 620 includes 256 programmable elements arranged in sixteen rows and sixteen columns that are divided into two groups: a first group of eight columns (PAL/LUT/RAM COLS) 621 that perform PAL/CAM, LUT, and RAM operations, and a second group of eight columns (LUT/RAM COLS) 622 that are used only for LUT and RAM operations.
+      <br/>
+      Each column of first group 621 includes sixteen programmable elements arranged to form eight pairs (referred to below as "PAL/CAM cells").
+      <br/>
+      A representative pair of programmable elements from one column of first group 621 is shown in FIG. 6(C) and is described below.
+      <br/>
+      The programmable elements of second group 622 are essentially identical to programmable element 540-1 shown in FIG. 5(C).
+      <br/>
+      Therefore, a description of the programmable elements provided in second group 622 is omitted for brevity.
+    </p>
+    <p num="53">Logic/memory array 620 utilizes CFG, WRITE, and READ control signals in a manner similar to those used in logic/memory array 520 (see FIG. 5(C)).</p>
+    <p num="54">
+      Configuration signal CFG controls the source of address signals on write word lines 617 during the configuration and memory write modes in a manner similar to that described above with reference to FIG. 5(C).
+      <br/>
+      For example, during a memory write mode (CFG is low), a signal generated by decoder 610 is passed through switch 615A-1 (see FIG. 6(B)) onto write word line 617-1.
+      <br/>
+      Conversely, the CFG signal is high during the configuration mode, thereby turning off first switch 615A-1 and turning on second switch 615B-1 (see FIG. 6(C)) to connect write word line 617-1 to configuration address line 607-1.
+    </p>
+    <p num="55">
+      The WRITE signal and the READ signal are also used with the CFG signal to control write bit lines 645 and inverted write bit lines 645_b.
+      <br/>
+      For example, a data value transmitted from LMC MUX/DEMUX 630 (see FIG. 6(A)) is passed onto write bit line 645-1 or write line 645-2 when the WRITE signal is high, and a data value is passed from read bit lines 625-1 or 625-2 to LMC MUX/DEMUX 630 when the READ signal is high.
+      <br/>
+      Finally, during the configuration mode (i.e., the CFG signal is high, and both the WRITE signal and the READ signal are low), pass transistors 648 are turned on to connect write bit lines 645-1 and 645-2 and inverted write bit lines 645-1_b and 645-2_b to receive data signals from configuration bit lines 649-1 and 649-2 and inverted configuration bit lines 649-1_b and 649-2_b.
+    </p>
+    <p num="56">
+      In addition to the CFG, WRITE, and READ control signals, LMC 430-2 utilizes a PAL enable (PAL ENBL) control signal to cause PAL input control circuit 670 (see FIG. 6(A)) to apply input signals from input terminals 603 onto write bit lines 645 during PAL and CAM operations.
+      <br/>
+      Referring to FIG. 6(C), PAL input control circuit 670-1 includes a first pass transistor 671, an inverter 673, and a second pass transistor 675.
+      <br/>
+      When PAL ENBL is high, PAL input control circuit 670-1 selectively passes an input signal from input terminal 603-1 directly to write bit line 645-1, and through inverter 673 to inverted write bit line 645-1_b.
+      <br/>
+      When PAL ENBL is low, pass transistors 671 and 675 are turned off, thereby preventing the input signal on input terminal 603-1 from being passed to write bit line 645-1 and inverted write bit line 645-1_b.
+    </p>
+    <p num="57">
+      FIG. 6(C) shows one PAL/CAM cell and associated circuitry of logic/memory array 620.
+      <br/>
+      The PAL/CAM cell is formed from an associated pair of programmable elements 640-1 and 640-2 that are arranged sequentially in one column of logic/memory array 620.
+      <br/>
+      Each programmable element 640-1 and 640-2 includes a latch for storing a bit value, and control circuitry for controlling writing to and reading from the latch.
+      <br/>
+      Specifically, programmable element 640-1 includes a first inverter 641-1 and a second inverter 642-1 connected end-to-end to form a first latch, and programmable element 640-2 includes a first inverter 641-2 and a second inverter 642-2 connected end-to-end to form a second latch.
+      <br/>
+      The first latch of programmable element 640-1 is connected to write bit line 645-1 and inverted write bit line 645-1_b via pass transistors 643-1 and 644-1, respectively.
+      <br/>
+      The gates of pass transistors 643-1 and 644-1 are connected to write word line 617-1.
+      <br/>
+      The second latch of programmable element 640-2 is connected to write bit line 645-2 and inverted write bit line 645-2_b via pass transistors 643-2 and 644-2, respectively.
+      <br/>
+      The gates of pass transistors 643-2 and 644-2 are also connected to write word line 617-1.
+      <br/>
+      Therefore, when a high write address signal is applied to write word line 617-1, bit values transmitted on write bit lines 645-1 and 645-2 and on inverted write bit lines 645-1_b and 645-2_b are stored in the first and second latches of programmable elements 640-1 and 640-2, respectively.
+      <br/>
+      The latches are also connected through third inverters 646-1 and 646-2 via third pass transistors 647-1 and 647-2 to read bit lines 625-1 and 625-2, respectively.
+      <br/>
+      The gates of pass transistors 647-1 and 647-2 are connected to read word line 618-1.
+      <br/>
+      Therefore, when a high read address signal is applied to read word line 618-1, the bit values stored by the latches of programmable elements 640-1 and 640-2 are transmitted on read bit lines 625-1 and 625-2, respectively.
+    </p>
+    <p num="58">
+      Product terms are generated by product term circuitry in response to input signals transmitted on write bit line 645-1 and inverted write bit line 645-1_b from PAL input circuit 670-1, and in response to values stored in the PAL/CAM cells (e.g., programmable elements 640-1 and 640-2).
+      <br/>
+      The product term circuitry includes a plurality of PAL/CAM cell logic circuits 680 and one or more AND gates 687.
+    </p>
+    <p num="59">
+      As indicated in FIG. 6(C), each PAL/CAM cell logic circuit 680 is a two-input NOR gate having a first input terminal connected to a node 681 (shown inside of programmable element 640-1) and a second input terminal connected to programmable element 640-2.
+      <br/>
+      Node 681 is connected to write bit line 645-1 through a first pass transistor 682, and to inverted bit line 645-1_b through a second pass transistor 683.
+      <br/>
+      The gates of first pass transistor 682 and second pass transistor 683 are respectively controlled by the non-inverted and inverted value stored by the latch of programmable element 640-1.
+      <br/>
+      For example, when the latch formed by inverters 641-1 and 642-1 stores a logic low value (i.e., a logic low signal is generated at the output of inverter 642-1), then node 681 is connected to inverted write bit line 645-1_b.
+      <br/>
+      Conversely, when the latch formed by inverters 641-1 and 642-1 stores a logic high value (i.e., a logic high signal is generated at the output of inverter 642-1), then node 681 is connected to write bit line 645-1.
+      <br/>
+      Thus, PAL/CAM cell logic circuit 680 generates a PAL/CAM cell output signal based on the programmed state of programmable elements 640-1 and 640-2, and on the PAL input signal on input terminal 603-1 (which is transmitted on write bit line 645-1 and inverted write bit line 645-1_b).
+      <br/>
+      The PAL/CAM cell output signal is transmitted to AND circuit 687.
+    </p>
+    <p num="60">
+      AND circuit 687 receives PAL/CAM cell output signals from PAL/CAM cell logic circuit 680, and also from other PAL/CAM cells and associated logic circuits (not shown) arranged in the column including programmable elements 640-1 and 640-2.
+      <br/>
+      These PAL/CAM cell output signals are utilized (in inverted form) by AND circuit 687 to generate a P-term signal that is transmitted on P-term line 628-1 to macrocell 660.
+    </p>
+    <p num="61">
+      Macrocell 660 includes an OR gate 663 that receives the P-term signals from P-term line 628-1, along with three or seven additional P-term signals from other columns of logic/memory array 620.
+      <br/>
+      Macrocell 660 generates a sum-of-products term in response to these P-term signals that is transmitted to LMC MUX/DEMUX 630 via macrocell output line 665.
+    </p>
+    <p num="62">
+      Logic/memory array 620 is controlled by the configuration signals to operate in a configuration mode, a memory read (i.e., LUT operation or RAM read) mode, a memory write mode, a PAL operation mode, and a CAM operation mode.
+      <br/>
+      The operation of second group 622 (i.e., LUT/RAM COLS) is essentially the same as described above with respect to logic/memory array 520, and therefore is not repeated here.
+      <br/>
+      The operation of first group 621 (i.e., PAL/LUT/RAM COLS) is described as follows with reference to FIG. 6(C).
+    </p>
+    <p num="63">
+      During a configuration mode, the CFG control signal is high, and the WRITE and PLA ENBL control signals are low (the READ signal is either high or low, i.e., "don't care").
+      <br/>
+      The high CFG signal turns off switch circuit 615A-1 (see FIG. 6(B)), and turns on switch circuit 615B-1 so that an address signal is transmitted from configuration address line 607-1 onto write word line 617-1.
+      <br/>
+      In addition, the high CFG signal turns on pass transistors 648 to connect write bit lines 645 and 645_b to configuration bit lines 649 and 649_b, respectively.
+      <br/>
+      Note that the low WRITE signal prevents signals from being passed to write bit lines 645-1, 645-1_b, 645-2, and 645-2_b from LMC MUX/DEMUX 630.
+      <br/>
+      Note also that the low PLA ENBL signal prevents the transmission of input signals from input terminal 603-1 to write bit lines 645-1 and 645-2.
+      <br/>
+      In this state, data values are simultaneously transmitted to programmable element 640-1 via write bit lines 645-1 and 645-1_b, and to programmable element 640-2 via write bit lines 645-2 and 645-2_b.
+      <br/>
+      Programmable elements 640-1 and 640-2 retain these data values until a subsequent data write process is performed (or power is turned off).
+    </p>
+    <p num="64">
+      During the memory write mode, the WRITE signal is high, and the CFG, READ, and PAL ENBL signals are low.
+      <br/>
+      The high WRITE signal enables NOR gates N1, N3, N5, and N7 (see FIG. 6(B)) to generate address signals on write bit lines 617-1 through 617-4 in response to input signals received by input terminals 603-1 and 603-2.
+      <br/>
+      The high WRITE signal is also applied to read/write control circuits 627-1 and 627-2 to connect write bit lines 645-1 and 645-2 to LMC MUX/DEMUX 630.
+      <br/>
+      Note that the low CFG signal turns on switch circuit 615A-1 (see FIG. 6(B)), and turns off switch circuit 615B-1.
+      <br/>
+      In addition, the low CFG signal turns off pass transistors 648.
+      <br/>
+      In this state, data signal DIN is transmitted from LMC MUX/DEMUX 630 to a selected write bit line 645-1 or 645-2 (as well as to a selected inverted write bit line 645-1_b or 645-2_b) in response to operation of LMC MUX/DEMUX 630 (discussed below).
+    </p>
+    <p num="65">
+      During a memory read (LUT operation or RAM read) mode, the READ signal is high, and the CFG, WRITE, and PAL ENBL signals are low.
+      <br/>
+      The high READ signal is applied to read/write control circuits 627-1 and 627-2 to connect read bit lines 625-1 and 625-2 to LMC MWX/DEMUX 630.
+      <br/>
+      The low WRITE signal disables NOR gates N1, N3, N5, and N7 (see FIG. 6(B)), and the low CFG signal turns off switch circuit 615B-1.
+      <br/>
+      In addition, the low CFG signal turns off pass transistors 648.
+      <br/>
+      In this state, bit values stored in programmable elements 640-1 and 640-2 are transmitted on read bit lines 625-1 and 625-2 in response to a high read address signal transmitted from decoder 610 on read word line 618-1.
+      <br/>
+      As discussed below, the stored bit values are transmitted via read bit lines 625-1 and 625-2 to LMC MUX/DEMUX 630.
+    </p>
+    <p num="66">
+      During the PAL and CAM operation modes, the PAL ENBL signal is high, and the WRITE and CFG signals are low (READ is "don't care").
+      <br/>
+      The high PAL ENBL signal turns on pass transistors 671 and 675 of PAL input control circuit 670-1, thereby passing the input signal from input terminal 603-1 to write bit line 645-1, and an inverted form of the input signal to inverted write bit line 645-1_b.
+      <br/>
+      The value stored by programmable element 640-2 enables or disables the PAL/CAM cell formed by programmable elements 640-1 and 640-2.
+      <br/>
+      When programmable element 640-2 stores a logic low value (i.e., a logic high value is generated at the output of inverter 641-2), this logic low value causes PAL/CAM cell logic circuit 680 to generate a low output signal, regardless of the value stored in programmable element 640-1 and the input signals on write bit lines 645-1 and 645-1_b.
+      <br/>
+      When programmable element 640-2 stores a logic high value, PAL/CAM cell logic circuit 680 generates an output signal that is determined by the value stored in programmable element 640-1 and the input signal transmitted in its non-inverted form on write bit line 645-1, and in its inverted form on inverted write bit line 645-1_b.
+      <br/>
+      When both values stored in programmable elements 640-1 and 640-2 are logic high values, then the signal transmitted from PAL/CAM cell logic circuit 680 is the non-inverted input signal from write bit line 645-1.
+      <br/>
+      When programmable element 640-1 stores a logic low value and programmable element 640-2 stores a logic high value, then the signal transmitted from PAL/CAM cell logic circuit 680 is the inverted input signal from inverted write bit line 645-1_b.
+      <br/>
+      For example, PAL/CAM cell logic circuit 680 transmits a low (logic zero) signal to AND gate 687 when both programmable elements 640-1 and 640-2 store high (logic one) values and the non-inverted input signal on write line 645-1 is logic high.
+      <br/>
+      PAL/CAM cell logic circuit 680 transmits a high (logic one) signal to AND gate 687 when programmable element 640-1 stores a low (logic zero) value, programmable element 640-2 stores a high (logic one) value, and the non-inverted input signal on write bit line 645-1 is low.
+    </p>
+    <p num="67">
+      Note that the CAM operation mode is a type of PAL operation in which eight-bit "words" are stored in each of the columns of PAL/CAM cells.
+      <br/>
+      For example, referring to FIG. 6(C), assume that both programmable elements 640-1 and 640-2 of the illustrated PAL/CAM cell store logic high values, and that each PAL/CAM cell in the column including programmable elements 640-1 and 640-2 also store logic high values.
+      <br/>
+      If both the four input signals transmitted from input terminals 603-1 through 603-4 and the four input signals transmitted from input terminals 605 are also logic high values, then eight "match" (logic low) signals are transmitted from the PAL/CAM cell logic circuits (similar to PAL/CAM cell logic circuit 680 in FIG. 6(C)) to AND gate 687, which transmits a "match" signal to macrocell 660.
+      <br/>
+      Because at least one of the four (or eight) P-term signals transmitted on P-term lines 628 is high, macrocell 660 transmits a sum-of-products "match" (logic high) signal to LMC MUX/DEMUX 630.
+      <br/>
+      Conversely, when none of the stored eight-bit words match the input signals, then none of the P-term signals transmitted on P-term lines 628 is high, and macrocell 660 transmits a sum-of-products "no-match" (logic low) signal to LMC MUX/DEMUX 630.
+    </p>
+    <p num="68">
+      FIG. 6(D) is a simplified schematic diagram showing an embodiment of LMC MUX/DEMUX 630.
+      <br/>
+      Similar to LMC MUX/DEMUX 530 (discussed above), LMC MUX/DEMUX 630 includes a sixteen-to-one demultiplexer circuit 631, a sixteen-to-one multiplexer/demultiplexer circuit 632, and a programmable output circuit 634.
+      <br/>
+      Demultiplexer circuit 631 includes two-input multiplexers P1-P8, Q1-Q4, R1, R2, and S, with select terminals that receive the input signals transmitted on input terminals 605.
+      <br/>
+      Second multiplexer circuit 632 includes a series of two-input multiplexers P11-P18, Q11-Q14, R11, R12, and S11 with select terminals also receiving the input signals transmitted on input terminals 605.
+    </p>
+    <p num="69">
+      During the memory write mode, demultiplexer circuit 631 receives an inverted form of a data signal DIN via pass transistor 633-1, and transmits the inverted data signal to one of the inverted write bit lines 645_b via two-input multiplexers P1-P8, Q1-Q4, R1, R2, and S of demultiplexer circuit 631 in accordance with the input signals transmitted on input terminals 605.
+      <br/>
+      Similarly, multiplexer/demultiplexer circuit 632 receives the data signal DIN via pass transistor 633-2, and transmits the data signal to a selected one of the write bit lines 645 (via read/write control circuit 627, see FIG. 6(C)).
+    </p>
+    <p num="70">
+      During the memory read (LUT operation or RAM read) mode, multiplexer/demultiplexer circuit 632 transmits one or more of the data (bit value) signals from read bit lines 625 to one or more of output terminals 635-1 through 635-4 via programmable output circuit 634.
+      <br/>
+      Programmable output circuit 634 is controlled by configuration data to transmit one, two, or four of the stored data signals to output terminals 635-1 through 635-4.
+      <br/>
+      Specifically, when four of the stored data signals are transmitted from LMC 430-2, multiplexers T, U, V, and W are controlled by memory cells M-T, M-U, M-V, and M-W to pass signals transmitted through multiplexers Q11, Q12, Q13, and Q14 to output terminals 635-1, 635-2, 635-3, and 635-4, respectively.
+      <br/>
+      Alternatively, when two of the stored data signals are transmitted from LMC 430-2, multiplexers T and V are controlled by memory cells M-T and M-V to pass signals transmitted through multiplexers R11 and R12 to output terminals 635-1 and 635-3, respectively (the signals passed to output terminals 635-2 and 635-4 are ignored).
+      <br/>
+      Finally, when only one of the stored data signals is transmitted from LMC 430-2, multiplexer U is controlled by memory cell M-U to pass the signal transmitted through multiplexer S11 to output terminal 635-2 (the signals passed to output terminals 635-1, 635-3, and 635-4 are ignored).
+    </p>
+    <p num="71">
+      During PLA/CAM operation modes, the only bit value typically output from LMC 430-2 is the sum-of-products (match/no-match) value generated by macrocell 660.
+      <br/>
+      The sum-of-products value is passed through multiplexer W, which is controlled by memory cell M-U, to output terminal 635-4 (the signals passed to output terminals 635-1, 635-2, and 635-3 are ignored).
+    </p>
+    <p num="72">
+      As set forth in the description above, LMC 430-2 can selectively utilize the programmable elements of logic/memory array 620 to implement logic using either an eight-input LUT or an eight-input PAL.
+      <br/>
+      Therefore, a user can select between the high density and flexibility of LUT operations, and the speed of PAL operations.
+      <br/>
+      This capability allows the user to, for example, implement smaller or speed-critical logic groups using PAL operations in some LMCs, while implementing selected large or complex functions using LUT operations.
+      <br/>
+      Because both operations are performed using the same programmable elements, a PLD incorporating an array of LMCs 430-2 can be used for a wide range of logic applications.
+    </p>
+    <p num="73">Third Embodiment</p>
+    <p num="74">
+      FIGS. 7(A) through 7(D) show an LMC 430-3 in accordance with a third embodiment of the present invention.
+      <br/>
+      Similar to LMC 430-1 (FIG. 5(A)) and LMC 430-2 (FIG. 6(A)), the programmable elements of LMC 430-3 can be selectively utilized either as an eight-input LUT or as a 256-bit RAM.
+      <br/>
+      In addition, similar to LMC 430-2 (FIG. 6(A)), LMC 430-3 can selectively operate as an eight-input programmable array logic (PAL) circuit, thereby allowing a user to implement his or her logic functions in either a high-density LUT format or a high-speed PAL/CAM format.
+      <br/>
+      In addition, the same programmable elements and input terminals are utilized for both PAL/CAM and LUT operations, thereby providing a highly flexible and space-efficient configurable logic block for a PLD.
+    </p>
+    <p num="75">
+      Referring to FIG. 7(A), LMC 430-3 includes a decoder 710, a logic/memory array (L/M ARRAY) 720, a LMC multiplexer/demultiplexer (MUX/DEMUX) (switch circuit) 730, a macrocell 760, and a PAL input (PAL IN) control circuit 770.
+      <br/>
+      Decoder 710 is connected to receive four input signals on a first set of input terminals 703, and generates sixteen address signals that are transmitted to logic/memory array 720 on address lines 717.
+      <br/>
+      Logic/memory array 720 also receives sixteen configuration address signals on lines 707 from a configuration bus (not shown).
+      <br/>
+      LMC MUX/DEMUX 730 is responsive to input signals received by input terminals 705 such that it transmits bit values from selected bit lines 745 to output terminals 735 during the LUT operation and memory read modes.
+      <br/>
+      In addition, LMC MUX/DEMUX 730 is responsive to the input signals to transmit input data values from data input terminal DIN to selected bit lines 745 and inverted bit lines 745_b during the memory write mode.
+    </p>
+    <p num="76">
+      In addition, LMC 430-3 includes product term generation circuitry (discussed below), a macrocell 760, and PAL input control circuit 770.
+      <br/>
+      During PAL and CAM operations, PAL input control circuit 770 passes the input signals received at input terminals 703 and 705 onto bit lines 745 of logic/memory array 720.
+      <br/>
+      In addition, logic/memory array 720 includes the product term generation circuitry that generates product terms in response to the input signals on bit lines 745 and the bit values stored in the programmable elements of logic/memory array 720.
+      <br/>
+      These product terms are transmitted on P-term lines 728 to macrocell 760, which generates a sum-of-products term that is transmitted on macrocell output line 765 to LMC MUX/DEMUX 730.
+      <br/>
+      As described below, LMC MUX/DEMUX 730 includes output control circuitry that passes either bit values transmitted on selected bit lines 745 or the sum-of-products term generated by macrocell 760.
+      <br/>
+      Therefore, LMC 430-3 allows a user to selectively implement logic using either a LUT format or a PAL/CAM format.
+      <br/>
+      Because PAL operations are typically faster than LUT operations, this added flexibility makes LMC 430-3 useful for applications in which the speed of small logic portions is important.
+    </p>
+    <p num="77">
+      FIG. 7(B) shows a simplified decoder 710 that decodes two input signals received on input terminals 703-1 and 703-2, and generates read/write address signals on word lines 717-1 through 717-4.
+      <br/>
+      Each input signal is inverted, and selected pairs of the inverted and non-inverted input signals are applied to the input terminals of four NOR gates N1, N3, N5, and N7.
+      <br/>
+      In addition, a read/write control signal READ/WRITE is inverted and transmitted to NOR gates N1, N3, N5, and N7 on line 712.
+      <br/>
+      In response to the selected pairs of input signals and the READ/WRITE control signal, NOR gates N1, N3, N5, and N7 generate read/write address signals that are applied to four columns of programmable elements in logic/memory array 720.
+      <br/>
+      For example, NOR gate N1 generates an address signal in response to the READ/WRITE control signal and the inverted input signals received at input terminals 703-1 and 703-2.
+      <br/>
+      This address signal is applied to word line 717-1 via a switch circuit 715A.
+      <br/>
+      Switch circuit 715A is controlled by a configuration signal CFG on lines 719 and line 719_b to pass the address signals generated by NOR gates N1, N3, N5, and N7 in the memory write mode.
+      <br/>
+      Modification of decoder 710 to receive four input terminals and to generate sixteen read/write address signals, as shown in FIG. 7(A), is easily accomplished in view of the disclosure shown in FIG. 7(B).
+    </p>
+    <p num="78">
+      Referring again to FIG. 7(A), logic/memory array 720 includes 256 programmable elements arranged in sixteen rows and sixteen columns that are divided into two groups: a first group of eight columns (PAL/LUT/RAM COLS) 721 that perform PAL/CAM, LUT, and RAM operations, and a second group of eight columns (LUT/RAM COLS) 722 that are used only for LUT and RAM operations.
+      <br/>
+      Each column of first group 721 includes sixteen programmable elements arranged to form eight pairs (referred to below as "PAL/CAM cells").
+      <br/>
+      A representative pair of programmable elements from one column of first group 721 is shown in FIG. 7(C), and described below.
+      <br/>
+      The programmable elements of second group 722 are similar to programmable element 540-1 without the high-speed memory read circuitry (i.e., inverter 546, transistor 547, and read bit line 525-1; see FIG. 5(C)).
+      <br/>
+      Therefore, a description of the programmable elements provided in second group 722 is omitted for brevity.
+    </p>
+    <p num="79">
+      Similar to logic/memory array 620 (see FIG. 6(C)), logic/memory array 720 utilizes the configuration CFG control signal and the PAL enable (PAL ENBL) control signal to control the signals applied to bit lines 745 and 745_b, and also uses a READ/WRITE control signal in decoder 710 to control address signals transmitted onto word lines 717 during both memory read and memory write operations.
+      <br/>
+      Note that the separate READ and WRITE control signals utilized by logic/memory array 620 are not used in logic/memory array 720.
+    </p>
+    <p num="80">
+      Configuration signal CFG controls the source of address signals on word lines 717 during the configuration mode in a manner similar to that described above with respect to LMC 430-2 (see FIG. 6(C)).
+      <br/>
+      For example, during a memory write mode (CFG is low and READ/WRITE is high), a signal generated by decoder 710 is passed through switch 715A-1 (see FIG. 7(B)) onto word line 717-1.
+      <br/>
+      Conversely, the CFG signal is high during the configuration mode, thereby turning off first switch 715A-1 and turning on second switch 715B-1 (see FIG. 7(C)) to connect word line 717-1 to configuration address line 707-1.
+      <br/>
+      The CFG signal is also used to control bit lines 745 and inverted bit lines 745_b.
+      <br/>
+      For example, during the memory write mode, CFG is low, and a data value transmitted from LMC MUX/DEMUX 730 (see FIG. 7(A)) is passed onto bit line 745-1.
+      <br/>
+      During LUT operation or RAM read modes, a data value is passed from bit line 745-1 to LMC MUX/DEMUX 730.
+      <br/>
+      In contrast, during the configuration mode (i.e., the CFG signal is high), pass transistors 748 are turned on to connect bit lines 745-1 and 745-2 and inverted bit lines 745-1_b and 745-2_b to receive data signals from configuration bit lines 749-1 and 749-2 and inverted configuration bit lines 749-1_b and 749-2_b.
+    </p>
+    <p num="81">
+      The PAL enable (PAL ENBL) control signal causes PAL input control circuit 770 (see FIG. 7(A)) to apply input signals from input terminals 703 onto bit lines 745 during PAL operations.
+      <br/>
+      Referring to FIG. 7(C), PAL input control circuit 770-1 includes pass gates and an inverter that operate in the manner described above with respect to PAL input control circuit 670-1 (see FIG. 6(C)).
+    </p>
+    <p num="82">
+      FIG. 7(C) shows one PAL/CAM cell and associated circuitry of logic/memory array 720.
+      <br/>
+      The PAL/CAM cell is formed from a pair of programmable elements 740-1 and 740-2 that are arranged sequentially in one column of logic/memory array 720.
+      <br/>
+      Each of programmable elements 740-1 and 740-2 includes a latch for storing a bit value, and control circuitry for controlling writing to and reading from the latch.
+      <br/>
+      Specifically, programmable element 740-1 includes a first inverter 741-1 and a second inverter 742-1 connected end-to-end to form a first latch, and programmable element 740-2 includes a first inverter 741-2 and a second inverter 742-2 connected end-to-end to form a second latch.
+      <br/>
+      The first latch of programmable element 740-1 is connected to bit line 745-1 and inverted bit line 745-1_b via pass transistors 743-1 and 744-1, respectively.
+      <br/>
+      The gates of pass transistors 743-1 and 744-1 are connected to word line 717-1.
+      <br/>
+      The second latch of programmable element 740-2 is connected to bit line 745-2 and inverted bit line 745-2_b via pass transistors 743-2 and 744-2, respectively.
+      <br/>
+      The gates of pass transistors 743-2 and 744-2 are also connected to word line 717-1.
+      <br/>
+      Therefore, when a high address signal is applied to word line 717-1, bit values are either transmitted from bit lines 745-1 and 745-2 and inverted bit lines 745-1_b and 745-2_b to be stored in the first and second latches of programmable elements 740-1 and 740-2, respectively, or are read from the first and second latches onto these bit lines.
+    </p>
+    <p num="83">
+      Product terms are generated by product term circuitry connected to bit lines 745-1 and 745-1_b, and to the PAL/CAM cells (i.e., associated pairs of programmable elements).
+      <br/>
+      The product term circuitry includes a plurality of PAL/CAM cell logic circuits 780 and one or more AND gates 787.
+      <br/>
+      As indicated in FIG. 7(C), each PAL/CAM cell logic circuit 780 is a two-input NOR gate having a first input terminal connected to a node 781 (shown inside of programmable element 740-1) and a second input terminal connected to programmable element 740-2.
+      <br/>
+      Node 781 is connected to write bit line 745-1 through a first pass transistor 783, and to inverted bit line 745-1_b through a second pass transistor 782.
+      <br/>
+      The gates of first pass transistor 783 and second pass transistor 782 are respectively controlled by the inverted and non-inverted value stored by the latch of programmable element 740-1.
+      <br/>
+      Similar to corresponding circuitry described above with reference to FIG. 6(C), PAL/CAM cell logic circuit 780 generates a PAL/CAM cell output signal based on the programmed state of programmable elements 740-1 and 740-2, and on the PAL input signal on input terminal 703-1 (which is transmitted on write bit line 745-1 and inverted write bit line 745-1_b).
+      <br/>
+      The PAL/CAM cell output signal is transmitted to AND circuit 787, which also receives PAL/CAM cell output signals from other PAL/CAM cell logic circuits (not shown) from other programmable elements in the same column as programmable elements 740-1 and 740-2.
+      <br/>
+      These PAL/CAM cell output signals are utilized (in inverted form) by AND circuit 787 to generate a P-term signal that is transmitted on P-term line 728-1 to macrocell 760.
+    </p>
+    <p num="84">
+      Macrocell 760 includes an OR gate 763 that receives the P-term signals from P-term line 728-1, along with three or seven additional P-term signals from other columns of logic/memory array 720.
+      <br/>
+      Macrocell 760 generates a sum-of-products term in response to these P-term signals that is transmitted to LMC MUX/DEMUX 730 via macrocell output line 765.
+    </p>
+    <p num="85">
+      Logic/memory array 720 is controlled by the configuration signals to operate in a configuration mode, a memory read (i.e., LUT operation or RAM read) mode, a memory write mode, and PAL/CAM operation modes.
+      <br/>
+      The operation of second group 722 (i.e., LUT/RAM COLS) is essentially the same as described above with respect to logic/memory array 520, and therefore is not repeated here.
+      <br/>
+      The operation of first group 721 (i.e., PAL/LUT/RAM COLS) is described as follows with reference to FIG. 7(C).
+    </p>
+    <p num="86">
+      During a configuration mode, the CFG control signal is high, and the PLA ENBL control signal is low (READ/WRITE is "don't care").
+      <br/>
+      The high CFG signal turns off switch circuit 715A-1 (see FIG. 7(B)), and turns on switch circuit 715B-1 so that an address signal is transmitted from configuration address line 707-1 onto word line 717-1.
+      <br/>
+      In addition, the high CFG signal turns on pass transistors 748 to connect bit lines 745 and 745_b to configuration bit lines 749 and 749_b.
+      <br/>
+      Note that the low PLA ENBL signal prevents the transmission of input signals from input terminal 703-1 to bit lines 745-1 and 745-_b.
+      <br/>
+      In this state, data values are simultaneously transmitted to programmable element 740-1 via bit lines 745-1 and 745-1_b, and to programmable element 740-2 via bit lines 745-2 and 745-2_b.
+      <br/>
+      Programmable elements 740-1 and 740-2 retain these data values until a subsequent data write process is performed (or power is turned off).
+    </p>
+    <p num="87">
+      During the memory write mode, the CFG and PAL ENBL signals are low, and the READ/WRITE control signal is high.
+      <br/>
+      The low CFG signal turns on switch circuit 715A-1 (see FIG. 7(B)), and turns off switch circuit 715B-1.
+      <br/>
+      Enabled by the high READ/WRITE signal, NOR gates N1, N3, N5, and N7 (see FIG. 7(B)) generate address signals on word lines 717-1 through 717-4 in response to input signals received by input terminals 703-1 and 703-2.
+      <br/>
+      Note that the low CFG signal turns off pass transistors 748.
+      <br/>
+      In this state, data signal DIN is transmitted from LMC MUX/DEMUX 730 to a selected bit line 745-1 or 745-2 (as well as to a selected inverted bit line 745-1_b or 745-2_b) in response to operation of IMC MUX/DEMUX 730 (discussed below).
+    </p>
+    <p num="88">
+      During a memory read (LUT operation or RAM read) mode, the CFG and PAL ENBL control signals are low, and the READ/WRITE control signal is high.
+      <br/>
+      The high READ/WRITE signal causes NOR gates N1, N3, N5, and N7 (see FIG. 7(B)) to generate address signals on word lines 717-1 through 717-4 in response to input signals received by input terminals 703-1 and 703-2.
+      <br/>
+      The low CFG turns on switch circuit 715A-1, and turns off switch circuit 715B-1.
+      <br/>
+      In addition, the low CFG signal turns off pass transistors 748.
+      <br/>
+      In this state, bit values stored in programmable elements 740-1 and 740-2 are transmitted on bit lines 745-1 and 745-2 in response to a high address signal transmitted from decoder 710 on word line 717-1.
+      <br/>
+      As discussed below, the stored bit values are transmitted via bit lines 745-1 and 745-2 to LMC MUX/DEMUX 730.
+    </p>
+    <p num="89">
+      During the PAL/CAM operation modes, the PAL ENBL signal is high, and the CFG signal is low (READ/WRITE is "don't care").
+      <br/>
+      The high PAL ENBL signal turns on PLA enable control circuit 770-1, thereby passing the input signal from input terminal 703-1 to bit line 745-1, and an inverted form of the input signal to inverted bit line 745-1_b.
+      <br/>
+      The PAL input signals on bit lines 745-1 and 745-1_b are transmitted to the first input terminal of PAL/CAM cell logic circuit 780 in accordance with the value stored in programmable element 740-1.
+      <br/>
+      The value stored in programmable element 740-2 is transmitted to the second input terminal of PAL/CAM cell logic circuit 780.
+      <br/>
+      PAL/CAM cell logic circuit 780 generates either a high (logic one) signal or a low (logic zero) signal depending upon the bit values stored in programmable elements 740-1 and 740-2, and in response to the true and compliment PAL input signals transmitted on bit lines 745-1 and 745-1_b.
+      <br/>
+      The logic performed by PAL/CAM cell logic circuit 780 is identical to that described above with reference to PAL/CAM cell logic circuit 680.
+    </p>
+    <p num="90">
+      FIG. 7(D) is a simplified schematic diagram showing one embodiment of LMC MUX/DEMUX 730.
+      <br/>
+      LMC MUX/DEMUX 730 is essentially identical to LMC MUX/DEMUX 630 (discussed above), the only difference being that multiplexer/ demultiplexer 732 is only connected to bit lines 745 (i.e., there is no read/write control circuit).
+      <br/>
+      Therefore, operation of LMC MUX/DEMUX 730 is omitted for brevity.
+    </p>
+    <p num="91">Fourth Embodiment</p>
+    <p num="92">
+      FIGS. 8(A) through 8(D) are diagrams showing a CLB 800 in accordance with a fourth embodiment of the present invention.
+      <br/>
+      CLB 800 includes a first switch circuit (INPUT MUX) 820, four logic/memory circuits (LMCs) 430-A through 430-D, a second switch circuit (OUTPUT MUX) 860, a register circuit (FFs) 870 and a CLB output multiplexer circuit 875.
+      <br/>
+      CLB 800 receives up to twenty-four (24) input signals from eighty (80) interconnect lines of interconnect resources (not shown) that are located adjacent to CLB 800.
+      <br/>
+      These input signals are transmitted via CLB input terminals 810 to first switch circuit 820, which also receives up to 12 feedback signals on feedback lines 885.
+      <br/>
+      First switch circuit 820 includes programmable switch elements for routing any eight of these input and feedback signals to LMCs 430-A through 430-D via LMC input lines 830.
+      <br/>
+      First switch circuit 820 selectively routes these input signals such that, for example, LMC 430-A receives a first group of eight input signals and LMC 430-B receives a second, completely different group of eight input signals.
+    </p>
+    <p num="93">
+      Each LMC 430-A through 430-D includes programmable circuitry consistent with LMC 430-1 (see FIG. 5(A)), LMC 430-2 (see FIG. 6(A)), or LMC 430-3 (see FIG. 7(A)).
+      <br/>
+      Accordingly, the group of eight input signals transmitted on LMC input lines 830 to each LMC 430-A through 430-D includes a first set of four input signals, and a second set of four input signals.
+      <br/>
+      Each LMC 430-A through 430-D includes a logic/memory array for storing a plurality of data words that are addressable by the first set of input signals such that a selected word is transmitted on bit lines of the logic/memory array.
+      <br/>
+      Each LMC 430-A through 430-D also includes a switch circuit for passing a selected data value from a selected bit line to LMC output lines 850 in response to the second set of input signals.
+      <br/>
+      Additional signals, such as control signals CFG, PAL ENBL, READ, and WRITE, as well as data input signal DIN, are either transmitted directly from the surrounding interconnect lines to the LMCs, or are transmitted on additional LMC input lines (not shown).
+      <br/>
+      The selected data values transmitted from LMCs 430-A through 430-D via LMC output lines 850 are transmitted to second switch circuit (OUTPUT MUX) 860.
+      <br/>
+      Second switch circuit 860 passes the selected data values transmitted from LMCs 430-A through 430-D to twelve output lines 865.
+      <br/>
+      Depending upon whether a CLB 800 is utilized as a combinational logic circuit or as a state machine by a user, the data signals on output lines 865 are transmitted to first terminals, or through register circuit (FFs) 870 to second terminals, respectively, of CLB output multiplexer circuit 875.
+      <br/>
+      CLB output multiplexer circuit 875 passes one of these sets of signals to CLB output terminals 880 for transmission onto the interconnect lines (not shown), or to feedback lines 885 for transmission back to first switch circuit 820.
+    </p>
+    <p num="94">FIGS. 8(B), 8(C), and 8(D) are diagrams showing portions of CLB 800 in additional detail.</p>
+    <p num="95">
+      FIG. 8(B) is a block diagram showing first switch circuit 820.
+      <br/>
+      First switch circuit 820 includes four switch blocks 820-A through 820-D, each switch block including eight multiplexer circuits (MXC).
+      <br/>
+      For example, switch block 820-A includes MXC A-1 through MXC A-8.
+      <br/>
+      Each switch block 820-A through 820-D receives input signals from interconnect resources on CLB input terminals 810 and feedback signals on feedback lines 885.
+      <br/>
+      Each MXC of each switch block 820-A through 820-D includes programmable switching elements for passing a selected signal from CLB input terminals 810 or feedback lines 885 to an associated LMC input line 830.
+      <br/>
+      For example, MXC A-1 is programmable to pass one signal selected from either input terminals 810 or feedback lines 885 to LMC input line 830-1.
+    </p>
+    <p num="96">
+      FIG. 8(C) is a simplified schematic diagram showing the programmable switch elements of MXC A-1, which is representative of all MXCs of switch blocks 820-A through 820-D.
+      <br/>
+      MXC A-1 receives twenty-four (24) input signals on CLB input terminals 810 and twelve (12) feedback signals on feedback lines 885.
+      <br/>
+      The twenty-four input terminals 810 and twelve feedback lines 885 are collected in groups of four, and each group is programmably connected via pass transistors 812 to a common node.
+      <br/>
+      For example, a group of four input terminals 810-1 through 810-4 are connected to common node 815.
+      <br/>
+      Input terminal 810-1 is connected to common node 815 via pass transistor 812-1, and input terminals 810-2 through 810-4 are similarly controlled.
+      <br/>
+      A first set of four memory elements Ma through Md are connected to the gates of pass transistors 812 and programmed by a user to pass one signal from each group of four input terminals.
+      <br/>
+      For example, an input signal from input terminal 810-1 is passed to common node 815 by programming memory element Ma to turn on pass transistor 812-1 (memory elements Mb through Md are programmed to turn off their associated pass transistors).
+      <br/>
+      Each common node is in turn connected to an output node 817 via associated pass transistors that are controlled by memory elements Me through Mm.
+      <br/>
+      For example, common node 815 is connected to output node 817 via pass transistor 816, which is controlled by memory element Me.
+      <br/>
+      Therefore, MXC A-1 is selectively controlled by programming memory elements Ma through Mm to route a selected one of the twenty-four input terminals 810 and twelve feedback lines 885 through output node 817 to LMC input line 830-1.
+    </p>
+    <p num="97">
+      FIG. 8(D) is a simplified diagram showing the second switch circuit 860, register circuit 870, and CLB output multiplexer circuit 875 of CLB 800.
+      <br/>
+      Referring briefly to FIG. 8(A), each LMC 430-A through 430-D generates one, two, or four output signals that are transmitted on LMC output lines 850 to second switch circuit 860.
+      <br/>
+      Returning to FIG. 8(D), second switch circuit 860 includes twelve output multiplexer circuits (OMXC) 860-1 through 860-12 connected to LMC output lines 850 such that each OMXC receives all sixteen LMC output signals.
+      <br/>
+      Each OMXC 860-1 through 860-12 includes a sixteen-to-one multiplexer that is programmed to pass a selected LMC output signal to an associated output line 865.
+      <br/>
+      Output lines 865 are fed to register circuit 870 and to a set of input terminals of CLB output multiplexer circuit 875.
+      <br/>
+      Register circuit 870 includes flip-flops FF-1 through FF-12, each having a data terminal connected to receive signals passed on an associated output line 865.
+      <br/>
+      Flip-flops FF-1 through FF-12 have output terminals connected to a second set of input terminals of CLB output multiplexer circuit 875.
+      <br/>
+      CLB output multiplexer circuit 875 includes twelve two-to-one multiplexers Z1 through Z12 that are controlled by configuration memory cells M to pass either the selected LMC output signal transmitted directly on an associated output line 865, or the registered signal transmitted from an associated flip-flop FF-1 through FF-12.
+      <br/>
+      The signal passed by CLB output multiplexer circuit 875 is transmitted to an associated feedback line and to the interconnect resources.
+    </p>
+    <p num="98">
+      CLB 800 provides an advantage over prior art CLBs in that the sixteen-bit LUTs used in the prior art are replaced by four 256-bit LMCs 430 that implement substantially larger logic function portions while taking up minimal additional space.
+      <br/>
+      Increasing the LUT (i.e., LMC) size decreases the number of logic levels so that logic functions are performed at a faster rate than is possible using multiple sixteen-bit LUTs.
+      <br/>
+      Further, the additional space necessary for forming 256-bit LMCs is offset by the additional amounts of user logic implemented by each LMC.
+    </p>
+    <p num="99">Fifth Embodiment</p>
+    <p num="100">
+      FIGS. 9(A) through 9(C) are diagrams showing a CLB 900 in accordance with a fifth embodiment of the present invention.
+      <br/>
+      CLB 900 differs from CLB 800 (see FIG. 8(A)) in that second switch circuit 860 and CLB output multiplexer circuit 875 of CLB 800 are not used in CLB 900.
+      <br/>
+      To compensate for the absence of these output control circuits, twenty-four (24) output terminals are provided for transmitting output signals from CLB 900 to the surrounding interconnect resources (not shown), as compared to the twelve provided by CLB 800.
+      <br/>
+      Although increasing the number of output terminals requires additional programmable circuitry to provide connections with the interconnect resources, the elimination of the output control circuits reduces signal delays, thereby providing the benefit of faster operating speeds.
+    </p>
+    <p num="101">
+      CLB 900 includes a switch circuit (INPUT MUX) 920, four logic/memory circuits (LMCs) 430-A through 430-D, and register circuits (FFs) 970-1 through 970-4.
+      <br/>
+      CLB 900 receives up to twenty-four (24) input signals on input terminals 910 that are programmably connected to interconnect lines of interconnect resources (not shown) located adjacent to CLB 900 on a host PLD.
+      <br/>
+      These input signals are transmitted to switch circuit 920, which also receives eight feedback signals on a feedback line bus 985.
+      <br/>
+      Switch circuit 920 includes programmable switch elements for routing any eight of these input and feedback signals to LMCs 430-A through 430-D via LMC input lines 930-A through 930-A.
+    </p>
+    <p num="102">
+      Each LMC 430-A through 430-D includes programmable circuitry consistent with the LMCs of the present invention; for example, LMC 430-1 (see FIG. 5(A)), LMC 430-2 (see FIG. 6(A)), or LMC 430-3 (see FIG. 7(A)).
+      <br/>
+      Accordingly, each LMC 430-A through 430-D includes a switch circuit for providing up to four output signals on CLB output terminals 950-1 through 950-4 in response to the input signals received on LMC input lines 910-A through 910-D.
+      <br/>
+      Additional signals, such as control signals CFG, PAL ENBL, READ, and WRITE, as well as data input signal DIN, are either transmitted directly from the surrounding interconnect lines to LMCs 430-A through 430-D, or are transmitted on additional LMC input lines (not shown).
+      <br/>
+      Feedback line pairs 985-A through 985-D route feedback signals from associated output terminals 950-1 through 950-4.
+      <br/>
+      For example, feedback signals are transmitted on feedback line pair 985-A from two of the four lines making up CLB output terminal 950-1.
+      <br/>
+      Feedback line pairs 965-A through 985-D form feedback line bus 985 that is connected to switch circuit 920.
+      <br/>
+      When CLB 900 is utilized as a combinational logic circuit by a user, the data signals on CLB output terminals 950-1 through 950-4 are transmitted directly to the interconnect lines (not shown).
+      <br/>
+      In contrast, when CLB 900 is utilized as a state machine, signals on two of the four lines associated with each CLB output terminal 950-1 through 950-4 are transmitted to register circuits (FFs) 970-1 through 970-4, which transmit registered output signals on CLB registered output terminals 975-1 through 975-4.
+    </p>
+    <p num="103">FIGS. 9(B) and 9(C) are diagrams showing switch circuit (INPUTM MUX) 920 in additional detail.</p>
+    <p num="104">
+      FIG. 9(B) is a block diagram of switch circuit 920.
+      <br/>
+      Switch circuit 920 includes four switch blocks 920-A through 920-D, each switch block including eight multiplexer circuits (MXC).
+      <br/>
+      For example, switch block 920-A includes MXC A-11 through MXC A-18.
+      <br/>
+      Each switch block 920-A through 920-D receives twenty-four (24) input signals from interconnect resources on associated CLB input terminals 910-A through 910-D, respectively, and six (6) feedback signals on feedback line bus 985.
+      <br/>
+      Each multiplexer circuit MXC of each switch block 920-A through 920-D includes programmable switching elements for passing a selected signal from CLB input terminals 910-A through 910-D, or feedback signals from feedback line bus 985, to an associated line of LMC input lines 930-A through 930-D.
+      <br/>
+      For example, MXC A-11 is programmable to pass one signal either from the twenty-four lines of CLB input terminal 910-A or from six feedback lines of feedback line bus 985 to LMC input line 930-A1, which is then transmitted to LMC 430-A (see FIG. 9(A)).
+    </p>
+    <p num="105">
+      Note that only six of the eight feedback lines of feedback line bus 985 are routed to each switch block 920-A through 920-D.
+      <br/>
+      In the pictured embodiment, output signals from one of the LMCs are not utilized as feedback by that LMC.
+      <br/>
+      Therefore, the feedback line pairs of feedback line bus 985 that are connected to the output terminals of an LMC are not fed back to the switch block associated with that LMC.
+      <br/>
+      For example, as shown in FIG. 9(B), switch block 920-A receives feedback signals from feedback line pairs 985-B, 985-C, and 985-D (respectively generated by LMCs 430-B, 430-C, and 430-D).
+      <br/>
+      Therefore, feedback line pairs 985-A are not transmitted to switch block 920-A.
+      <br/>
+      Similarly, switch block 920-B receives feedback signals from feedback line pairs 985-A, 985-C, and 985-D, switch block 920-C receives feedback signals from feedback line pairs 985-A, 985-B, and 985-D, and switch block 920-D receives feedback signals from feedback line pairs 985-A, 985-B, and 985-C.
+    </p>
+    <p num="106">
+      FIG. 9(C) is a simplified schematic diagram showing the programmable switch elements of MXC A-11, which is representative of all multiplexer circuits of switch blocks 920-A through 920-D.
+      <br/>
+      MXC A-11 receives twenty-four (24) input signals on CLB input terminals 910-A and six (6) feedback signals from feedback line pairs 985-B, 985-C, and 985-D.
+      <br/>
+      The twenty-four input signals are transmitted in groups of four via pass transistors 912.
+      <br/>
+      A first set of four memory elements Ma through Md is connected to the gates of pass transistors 912 and is programmed by a user to pass one signal from each group of four input signals.
+      <br/>
+      Similarly, the six feedback signals are transmitted in groups of two via pass transistors 912.
+      <br/>
+      Memory elements Ma and Mb control these pass transistors to pass one signal from each group of two feedback signals.
+      <br/>
+      A selected input signal or feedback signal from one of these groups is passed via associated pass transistors that are controlled by memory elements Me through Mm to LMC input line 930-A1.
+      <br/>
+      Therefore, MXC A-11 is selectively controlled by programming memory elements Ma through Mm to route a selected one of the twenty-four input signals from input terminal 910-A and six feedback signals from feedback line pairs 985-B, 985-C, and 985D to LMC 430-A via LMC input line 930-A1.
+    </p>
+    <p num="107">
+      Referring again to FIG. 9(A), each IMC 430-A through 430-D generates from one, two, or four output signals that are transmitted on CLB output terminals 950-1 through 950-4 to the surrounding interconnect resources (not shown).
+      <br/>
+      Alternatively, two signals from each CLB output terminal 950-1 through 950-4 can be provided from CLB 900 as registered output signals transmitted from register circuits 970-1 through 970-4 on CLB registered output terminals 975-1 through 975-4.
+    </p>
+    <p num="108">Sixth Embodiment</p>
+    <p num="109">Although CLB 800 and CLB 900 include four LMCs 430 to perform logic/memory functions, special purpose circuits and other logic circuits may be utilized in conjunction with LMCs to provide additional logic capability with a minimal increase in circuit size.</p>
+    <p num="110">
+      FIG. 10 is a block diagram showing a CLB 1000 in accordance with a sixth embodiment of the present invention.
+      <br/>
+      Similar to CLB 800 (FIG. 8(A)), CLB 1000 includes a first switch circuit (INPUT MUX) 1020, four logic/memory circuits (LMCs) 430-A through 430-D, a second switch circuit (OUTPUT MUX) 1060, a register circuit (FFS) 1070, and a CLB output multiplexer circuit 1075.
+      <br/>
+      In addition, CLB 1000 includes a four-by-four array multiplier circuit 1090 that receives a total of eight input signals from first switch circuit 1020, and generates eight output signals that are transmitted to second switch circuit 1060.
+      <br/>
+      Suitable four-by-four array multiplier circuits are taught, for example, in Principles of CMOS VLSI Design, Second Edition, by Neil Weste and Kamran Eshraghian (Addison-Wesley, 1993), pages 545 to 547.
+      <br/>
+      Multiplier circuits are substantially smaller in size than the general-purpose circuitry of LMC 430, and are often used in DSP applications.
+      <br/>
+      By providing multiplier circuit 1090, CLB 1000 improves multiplication speeds for these applications by three times or more.
+    </p>
+    <p num="111">Seventh Embodiment</p>
+    <p num="112">
+      FIG. 11 is a block diagram showing a CLB 1100 in accordance with a seventh embodiment of the present invention.
+      <br/>
+      Similar to CLB 1000 (FIG. 10), CLB 1100 includes logic/memory circuits (LMCs) 430-A and 430-B for performing general purpose logic operations, and includes a four-by-four array multiplier circuit 1190 for performing multiplication operations.
+      <br/>
+      In the seventh embodiment, LMCs 430-A and 430-B are implemented using, for example, LMC 430-1 (FIG. 5(A)), which only performs LUT and RAM functions.
+      <br/>
+      In addition, two dedicated PAL circuits 1195-1 and 1195-2 are provided to implement logic function portions using the AND-OR logic format.
+      <br/>
+      Dedicated PAL circuits are well-established, and, as discussed above, are typically faster than LUT circuits.
+      <br/>
+      By incorporating both the large capacity of LMCs 430 with the high speed of dedicated PAL circuits in a single CLB 1100, a highly versatile PLD is produced that can implement both high speed and large capacity logic functions.
+    </p>
+    <p num="113">Eighth Embodiment</p>
+    <p num="114">
+      As described above, the logic/memory arrays of LMCs 430-1 (FIG. 5(A)), 430-2 (FIG. 6(A)), and 430-3 (FIG. 7(A)) include 256 programmable elements arranged in a sixteen-by-sixteen matrix.
+      <br/>
+      While this arrangement provides for high capacity LUT implementations of any eight-input logic function, it also reduces the operating speed of these LMCs.
+      <br/>
+      Specifically, the sixteen programmable elements connected to each bit line create a significant load on each bit line.
+      <br/>
+      As mentioned above, the "fast read" arrangement disclosed in the logic/memory arrays of LMC 430-1 (see FIG. 5(C)) and 430-2 (see FIG. 6(C)) produces a relatively faster operating speed than that provided by LMC 430-3 (see FIG. 7(C)).
+      <br/>
+      However, even when the "fast read" arrangement is used, the load produced by sixteen programmable elements on each "fast read" bit line contributes significantly to signal delays.
+      <br/>
+      Consequently, to further increase the operating speed, programmable elements may be eliminated from each bit line in the logic/memory array.
+      <br/>
+      While removing programmable elements from the logic/memory array sacrifices LUT and RAM capacity, the resulting increase in operating speed is highly beneficial for high speed logic implementations.
+    </p>
+    <p num="115">
+      FIGS. 12(A) through 12(C) show an LMC 430-4 in accordance with an eighth embodiment of the present invention.
+      <br/>
+      Similar to LMC 430-2 (FIG. 6(A)), the programmable elements of LMC 430-4 can be selectively utilized as a LUT, a RAM, or a PAL/CAM.
+      <br/>
+      However, unlike LMC 430-2, the logic/memory array of LMC 430-4 includes only 64 bits arranged in sixteen rows and four columns.
+      <br/>
+      As such, LMC 430-4 is capable of implementing six-input LUT operations (as opposed to the eight-input LUT operations of LMC 430-2), and is capable of implementing 64-bit RAM operations (as opposed to 256 bits).
+      <br/>
+      However, by reducing the number of programmable elements in each row of the logic/memory array, significantly less capacitance is applied on each read bit line, thereby increasing the operating speed during the memory read (LUT operation and RAM read) mode.
+      <br/>
+      In addition, by reducing the number of columns to four, a hard-wired decoder can be utilized to further increase the operating speed during the memory read mode.
+    </p>
+    <p num="116">
+      Referring to FIG. 12(A), LMC 430-4 includes a decoder 1210, a hard-wired decoder (HARD DEC) 1216, a logic/memory array 1220, a LMC multiplexer/demultiplexer (MUX/DEMUX) (switch circuit) 1230, a macrocell 1260, and a PAL input (PAL IN) control circuit 1270.
+      <br/>
+      Decoder 1210 is connected to receive two input signals from a first set of four input terminals 1203, and generates four write address signals on write word lines 1217 that are transmitted to the columns of programmable elements of logic/memory array 1220.
+      <br/>
+      Hard-wired decoder 1216 is also connected to receive the same two input signals from input terminals 1203, and generates eight read address signals on read word lines 1218, two read address signals being transmitted to each column of logic/memory array 1220.
+      <br/>
+      Logic/memory array 1220 also receives four configuration address signals on lines 1207 from a configuration bus (not shown).
+      <br/>
+      Control circuitry (discussed below) is provided to apply either the address signals generated by decoder 1210 onto write word lines 1217 during memory write operations, or to apply the configuration address signals onto write word lines 1217 during the configuration mode.
+      <br/>
+      LMC MUX/DEMUX 1230 is responsive to input signals received by input terminals 1205 to pass bit values from selected read bit lines 1225 to output terminals 1235 during the memory read mode.
+      <br/>
+      In addition, LMC MUX/DEMUX 1230 is responsive to the input signals to transmit input data values from data input terminal DIN to selected write bit lines 1245 and inverted write bit lines 1245_b during the memory write mode.
+    </p>
+    <p num="117">
+      FIG. 12 (B) shows a simplified decoder 1210 and hard-wired decoder 1216 that decode the two input signals received on input terminals 1203-1 and 1203-2.
+      <br/>
+      Each input signal is inverted, and selected pairs of the inverted and non-inverted input signals are applied to the input terminals of four NOR gates N1, N3, N5, and N7 of decoder 1210, which also receive an inverted WRITE control signal.
+      <br/>
+      In response to the selected pairs of input signals and the WRITE control signal, NOR gates N1, N3, N5, and N7 generate write address signals that are applied to four columns of programmable elements in logic/memory array 1220 via a switch circuit 1215.
+      <br/>
+      The inverted and non-inverted input signals are also utilized by hard-wired decoder 1216, which provides selected pairs of the inverted and non-inverted input signals on read lines 1218-1 through 1218-8 to the four columns of programmable elements in logic/memory array 1220.
+    </p>
+    <p num="118">
+      Referring again to FIG. 12(A), logic/memory array 1220 includes 64 programmable elements arranged in sixteen rows and four columns.
+      <br/>
+      Each column includes sixteen programmable elements arranged to form eight pairs (referred to below as "PAL/CAM cells").
+      <br/>
+      A representative pair of programmable elements from one column of logic/memory array 1220 is shown in FIG. 12(C).
+      <br/>
+      The remaining pairs of programmable elements of logic/memory array 1220 are essentially identical to the pair shown in FIG. 12(C).
+    </p>
+    <p num="119">
+      FIG. 12(C) shows one PAL/CAM cell formed by programmable elements 1240-1 and 1240-2 that are arranged sequentially in one column of logic/memory array 1220.
+      <br/>
+      Similar to programmable elements 640-1 and 640-2 described above with reference to FIG. 6(C), each programmable element 1240-1 and 1240-2 includes a latch for storing a bit value, and control circuitry for controlling the process of writing bit values to each latch from write bit lines 1245-1, 1245-1_b, 1245-2, and 1245-2_b.
+      <br/>
+      In addition, programmable elements 1240-1 and 1240-2 include third inverters 1246-1 and 1246-2 for driving bit values onto read bit lines 1225-1 and 1225-2, respectively.
+      <br/>
+      Programmable element 1240-1 differs from programmable element 640-1 (FIG. 6(C)) in that memory read operations are controlled by two series pass transistors 1247-1A and 1247-1B, with gates that are connected to read word lines 1218-1 and 1218-2, respectively.
+      <br/>
+      Specifically, the bit value stored by the latch of programmable element 1240-1 is transmitted to read bit line 1225-1 only when high address signals are applied to both read word lines 1218-1 and 1218-2, thereby turning on both pass transistors 1247-1A and 1247-1B.
+      <br/>
+      Referring briefly to FIG. 12(B), read word lines 1218-1 and 1218-2 receive high address signals only when the input signals received at both of input terminals 1203-1 and 1203-2 are low (i.e., the inverted input signals applied to read word lines 1218-1 and 1218-2 are high).
+      <br/>
+      Similarly, memory read operations for programmable element 1240-2 are controlled by two series pass transistors 1247-2A and 1247-2B, with gates that are also connected to read word lines 1218-1 and 1218-2, respectively.
+    </p>
+    <p num="120">
+      Because logic/memory array 1220 includes only four columns of programmable elements, the formation of hard-wired decoder 1216 and the addition of a second pass transistor for memory read operations do not introduce significant complexity to logic/memory array 1220.
+      <br/>
+      Further, the decoder delay eliminated by hard-wired decoder 1216 is greater than the additional delay caused by transmitting bit values through the series pass transistors, thereby resulting in a net increase in operating speed.
+      <br/>
+      Operating speed of LMC 430-4 is further increased because only four programmable elements are connected to each bit line.
+      <br/>
+      Therefore, LMC 430-4 operates at significantly faster operating speeds in the memory read (LUT operation and RAM read) mode than that provided by LMCs having sixteen-by-sixteen logic/memory arrays.
+    </p>
+    <p num="121">
+      Other than the modified memory read operation of programmable elements 1240-1 and 1240-2, the operation of LMC 430-4 is similar to that described above with reference to LMC 430-2.
+      <br/>
+      In addition, LMC MUX/DEMUX 1230 is essentially identical to LMC MUX/DEMUX 630 (see FIG. 6(D)).
+      <br/>
+      Therefore, description of LMC MUX/DEMUX 1230 and the configuration, PAL/CAM, and memory write modes are omitted herein for brevity.
+    </p>
+    <p num="122">
+      Although the present invention has been described in considerable detail with reference to certain preferred embodiments thereof, other embodiments are possible.
+      <br/>
+      For example, in another embodiment the memory cells of LMC 430-1 are arranged as a sixteen-by-four matrix (similar to that utilized in LMC 430-4, described above), and a decoder arrangement is provided including a hard-wired decoder (similar to hard-wired decoder 1216; see FIG. 12(B)).
+      <br/>
+      By combining the hard-wired decoder 1216 with the high-speed memory read circuitry of LMC 430-1, a logic/memory circuit is provided that performs extremely fast read operations.
+      <br/>
+      In yet another embodiment, CLB 800 or 900 may receive more than 24 input signals.
+      <br/>
+      Further, the LMCs disclosed herein may include logic/memory arrays having larger numbers of programmable elements to support LUTs of nine or more inputs, but such LMCs would be sub-optimal because of the problems associated with partitioning logic functions to utilize nine (or more) input LUTS.
+      <br/>
+      Moreover, instead of the 1:1 input-to-output ratio of the multiplier circuit used in CLBs 1000 and 1100, an adder circuit having a 2:1 input-to-output ratio, or another special-purpose circuit, may be used.
+      <br/>
+      Therefore, the spirit and scope of the appended claims should not be limited to the description of the preferred embodiments contained herein.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>We claim:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A lookup table circuit, comprising:</claim-text>
+      <claim-text>a decoder for generating a plurality of read address signals and a plurality of write address signals in response to a first set of input signals; a logic/memory array including:</claim-text>
+      <claim-text>- a plurality of programmable elements arranged in rows and columns, each programmable element including a latch for storing a bit value, a first write transistor, an inverter, and a read transistor, - a plurality of write word lines for transmitting write address signals generated by the decoder, the plurality of write word lines including a first write word line connected to a gate of the first write transistor of a first programmable element, - a plurality of write bit lines including a first write bit line connected to the first write transistor of the first programmable element such that a bit value transmitted on the first write bit line is written to the latch of the first programmable element in response to a first write address signal transmitted on the first write word line, - a plurality of read word lines for transmitting read address signals generated by the decoder, the plurality of read word lines including a first read word line connected to a gate of the read transistor of the first programmable element, and - a plurality of read bit lines including a first read bit line connected to the read transistor of the first programmable element such that a bit value stored in the latch of the first programmable element is transmitted through the inverter and the read transistor of the first programmable element onto the first read bit line in response to a first read address signal transmitted on the first read word line;</claim-text>
+      <claim-text>and a multiplexing circuit connected to the plurality of read bit lines for passing a bit value transmitted on one of the plurality of read bit lines in response to a second set of input signals, wherein the decoder comprises: a first input terminal for receiving a first input signal; a second input terminal for receiving a second input signal; a write control terminal for receiving a write control signal; a first logic gate for generating the first write address signal in response to the first and second input signals and the write control signal;</claim-text>
+      <claim-text>and a second logic gate for generating the first read address signal in response to the first and second input signals.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The lookup table circuit of claim 1, wherein the decoder further comprises: a fourth input terminal for receiving a configuration control signal;</claim-text>
+      <claim-text>and a write control circuit for passing the first write address signal in response to the configuration control signal.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A lookup table circuit, comprising: a decoder for generating a plurality of read address signals and a plurality of write address signals in response to a first set of input signals; a logic/memory array including: - a plurality of programmable elements arranged in rows and columns, each programmable element including a latch for storing a bit value, a first write transistor, an inverter, and a read transistor, - a plurality of write word lines for transmitting write address signals generated by the decoder, the plurality of write word lines including a first write word line connected to a gate of the first write transistor of a first programmable element, - a plurality of write bit lines including a first write bit line connected to the first write transistor of the first programmable element such that a bit value transmitted on the first write bit line is written to the latch of the first programmable element in response to a first write address signal transmitted on the first write word line, - a plurality of read word lines for transmitting read address signals generated by the decoder, the plurality of read word lines including a first read word line connected to a gate of the read transistor of the first programmable element, and - a plurality of read bit lines including a first read bit line connected to the read transistor of the first programmable element such that a bit value stored in the latch of the first programmable element is transmitted through the inverter and the read transistor of the first programmable element onto the first read bit line in response to a first read address signal transmitted on the first read word line;</claim-text>
+      <claim-text>and a multiplexing circuit connected to the plurality of read bit lines for passing a bit value transmitted on one of the plurality of read bit lines in response to a second set of input signals, wherein the logic/memory array further comprises: a plurality of inverted write bit lines including a first inverted write bit line connected to a second write transistor of the first programmable element such that an inverted bit value transmitted on the first inverted write bit line is written to the latch of the first programmable element in response to the first write address signal transmitted on the first write word line;</claim-text>
+      <claim-text>and a read/write control circuit including a first pass transistor connected between the first write bit line and the multiplexing circuit, and a second pass transistor connected between the first read bit line and the multiplexing circuit, wherein the first pass transistor is enabled to connect the first write bit line to the multiplexing circuit during a write mode, and the second pass transistor is enabled to connect the first read bit line to the multiplexing circuit during a read mode.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The lookup table circuit of claim 3, wherein the multiplexing circuit comprises: a multiplexer circuit having a data input terminal for receiving a write bit value, a plurality of second terminals connected to the inverted write bit lines, and first switching circuitry for selectively passing the write bit value from the data input terminal to a selected one of the plurality of inverted write bit lines in response to the second set of input signals during the write mode;</claim-text>
+      <claim-text>and a multiplexer/demultiplexer circuit having a plurality of first terminals connected to the read/write control circuit, and second switching circuitry for selectively passing a read bit value transmitted on one of the plurality of read bit lines to an output terminal in response to the second set of input signals during read mode, and for selectively transmitting the write bit value from the data input terminal to a selected one of the plurality of write bit lines in response to the second set of input signals during the write mode.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A programmable logic device, comprising: a logic/memory array including: - a plurality of programmable elements arranged in rows and columns, each programmable element including a latch for storing a bit value, a first write transistor, an inverter, a first read transistor, and a second read transistor, the first read transistor being connected in series between the inverter and the second read transistor, - a plurality of write word lines for transmitting a plurality of write address signals, the plurality of write word lines including a first write word line connected to a gate of the first write transistor of a first programmable element, - a plurality of write bit lines including a first write bit line connected to the first write transistor of the first programmable element such that a bit value transmitted on the first write bit line is written to the latch of the first programmable element in response to a first write address signal transmitted on the first write word line, - a plurality of read word lines for transmitting read address signals, the plurality of read word lines including a first read word line connected to a gate of the first read transistor of the first programmable element, and a second read word line connected to a gate of the second read transistor of the first programmable element, and - a plurality of read bit lines including a first read bit line connected to the second read transistor of the first programmable element such that a bit value stored in the latch of the first programmable element is transmitted through the inverter and the first and second read transistors onto the first read bit line in response to a first read address signal transmitted on the first read word line and a second read address signal transmitted on the second read word line; a decoder for generating the plurality of write address signals in response to a first set of input signals, wherein the decoder generates a first write address signal on the first write word line in response to a first input signal and a second input signal of the first set of input signals, and also in response to a write control signal;</claim-text>
+      <claim-text>and a hard-wired decode circuit for connecting the first set of input signals to the plurality of read word lines, wherein the hard-wired decode circuit applies the first input signal onto the first read word line as a first read address signal, and applies the second input signal onto the second read word line as a second read address signal.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The programmable logic device according to claim 5, wherein the decoder further comprises: a first line for transmitting the first input signal; a first inverter for inverting the first input signal; a second line connected to the first inverter for transmitting the inverted first input signal; a third line for transmitting the second input terminal; a second inverter for inverting the second input signal; a fourth line connected to the second inverter for transmitting the inverted second input signal; a write control terminal for receiving the write control signal;</claim-text>
+      <claim-text>and a first logic gate for generating a first write address signal in response to the first and second input signals and the write control signal.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The programmable logic device according to claim 6, wherein the decoder further comprises: a fourth input terminal for receiving a configuration control signal;</claim-text>
+      <claim-text>and a write control circuit for passing the first write address signal to the array in response to the configuration control signal.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The programmable logic device according to claim 6, wherein the first read word line is connected by the hard-wired decoder circuit to one of the first, second, third, and fourth lines for transmitting the first read address signal;</claim-text>
+      <claim-text>and wherein the second read word line is connected by the hard-wired decoder to another of the first, second, third, and fourth lines for transmitting the second read address signal.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The programmable logic device according to claim 5, wherein the programmable elements of the array are arranged in rows and columns, each row of programmable elements being connected to an associated write bit line and an associated read bit line, each column of programmable elements being connected to an associated write word line and an associated pair of read word lines; wherein the first write address signal generated by the decoder is transmitted onto the first write word line; wherein the first read address signal is transmitted onto the first read word line;</claim-text>
+      <claim-text>and wherein the second read address signal is transmitted onto the second read word line.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The programmable logic device according to claim 5, wherein the logic/memory array comprises sixty-four programmable elements arranged in sixteen rows and four columns.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185524B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185524</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185524</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22838707" extended-family-id="42113585">
+      <document-id>
+        <country>US</country>
+        <doc-number>09223959</doc-number>
+        <kind>A</kind>
+        <date>19981231</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09223959</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171852</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>22395998</doc-number>
+        <kind>A</kind>
+        <date>19981231</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09223959</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/27        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>27</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>704009000</text>
+        <class>704</class>
+        <subclass>009000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/27R2</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>017</main-group>
+        <subgroup>27R2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/277</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>277</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>6</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6185524</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for automatic identification of word boundaries in continuous text and computation of word boundary scores</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>VITALE ANTHONY J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5040218</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5040218</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>CHURCH KENNETH W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5146405</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5146405</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KAPLAN RONALD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5488719</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5488719</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>RICHARDSON STEVE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5926784</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5926784</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>SHARMAN RICHARD A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5949961</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5949961</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>SKIENA STEVEN S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5960385</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5960385</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>RICHARDSON STEPHEN DARROW, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5999896</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5999896</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>CARUS ALWIN B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6035268</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6035268</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>KAJI HIROYUKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4750122</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4750122</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>MOROHASI MASAYUKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5029084</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5029084</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>ZAMORA ANTONIO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5448474</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5448474</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>KAPLAN RONALD M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5721939</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5721939</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>CHEN CHENGJUN JULIAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5806021</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5806021</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Harry Tennant: "Case Study: The Chart Parser", Natural Language Processing, Petrocelli book, New York/Princeton Press, pp. 75-101, 1981.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>Bates, et al.: "Recognizing Substrings of LR(k) Languages in Linear Time", ACM Transactions on Programming Languages and Systems, vol. 16,No. 3, pp. 1051-1077, May 1994.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="3">
+          <text>EL Guedjo, P.O., et al.:"A Chart parser to Analyze Large Medical Corpora", Proceedings of the 16th Annual Inter. Conf. of IEEE Eng. in Med. &amp; Biol. Soc., vol. 2, pp. 1404-1405, Nov. 1994.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>"Efficient String Matching: An Aid to Bibliographic Search", Aho and Corasick, Bell Laboratories, Communications of the ACM, Jun. 1975, vol.18, No. 6, pp. 333-340.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>"The N-Best Algorithm: An Efficient and Exact Procedure for Finding The N Most Likely Sentence Hypotheses", Schwartz et al., BBN Systems and Technologies Corp., 1990 IEEE.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>"A Statistical Method for Finding Word Boundaries in Chinese Textp", Sproat and Shih, Computer Processing of Chinese &amp; Oriental Languages, vol. 4, No. 4, Mar. 1990.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>"A Stochastic Finite-State Word-Segmentation Algorithm For Chinese", Sproat et al., 32nd Annual Meeting of the Association for Computational Linguistics, (Jun. 27, 1994, Las Cruces, New Mexico,) (1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>"An Efficient and Complete Algorithm for Unambiguous Word Boundary Identification", Jin, G., http://sunzi.iss.nus.sg:1996/guojin/papers/acbci/acbci.html.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Lernout &amp; Hauspie Speech Products N.V.</orgname>
+            <address>
+              <address-1>Ieper, BE</address-1>
+              <city>Ieper</city>
+              <country>BE</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>BE</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>LERNOUT &amp; HAUSPIE SPEECH PRODUCTS</orgname>
+          </addressbook>
+          <nationality>
+            <country>BE</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Carus, Alwin B.</name>
+            <address>
+              <address-1>Burlington, MA, US</address-1>
+              <city>Burlington</city>
+              <state>MA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Good, Kathleen</name>
+            <address>
+              <address-1>Providence, RI, US</address-1>
+              <city>Providence</city>
+              <state>RI</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Bromberg &amp; Sunstein LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Thomas, Joseph</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and device for identifying word boundaries in continuous text compares the continuous text to a set of varying length strings to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text.
+      <br/>
+      Each candidate word-initial boundary and candidate word-final boundary has an associated probability value.
+      <br/>
+      Each candidate word boundary in the continuous text is identified by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries.
+      <br/>
+      The set of varying length strings may include words and n-grams.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">The present invention relates to the identification of word boundaries in continuous text.</p>
+    <heading>BACKGROUND ART</heading>
+    <p num="2">
+      The identification of word boundaries in continuous text is used in several areas such as word processing, text processing, machine translation, fact extraction, and information retrieval.
+      <br/>
+      Prior art methods for identifying word boundaries have used various approaches including whole words; word-initial and word-final n-grams and their frequencies; or a hidden Markov model of n-grams, word boundaries and their frequencies.
+    </p>
+    <p num="3">
+      The article J. Guo, "An Efficient and Complete Algorithm for Unambiguous Word Boundary Identification", formerly found at http://sunzi.iss.nus.sg:1996/guojin/papers/acbci/acbci.html and as referenced in J. Guo, A Comparative Experimental Study on English and Chinese Word Boundary Ambiguity," Proceedings of the International Conference on Chinese Computing 96 (ICC 96) June 4-7, 1996 Singapore (National University of Singapore, Singapore), pp. 50-55, discloses a method which uses whole words implemented by an Aho-Corasick finite-state automaton.
+      <br/>
+      Another prior art method which uses a dictionary of whole words is U.S. Pat. No. 5,448,474, "Method for isolation of Chinese words from connected text".
+      <br/>
+      The foregoing references are herein incorporated by reference.
+      <br/>
+      A disadvantage to methods using whole words or entire vocabularies is the amount of storage space required.
+      <br/>
+      In addition, only words included in the dictionary may be identified.
+      <br/>
+      Finally, it is not possible to rank or order competing possible word boundary candidates or to establish the best word boundary among competing possible word boundary candidates.
+    </p>
+    <p num="4">
+      Several methods have attempted to overcome the problems presented by using a dictionary of whole words.
+      <br/>
+      In U.S. Pat. No. 5,806,021, "Automatic Segmentation of Continuous Text Using Statistical Approaches," Chen et. al., a method is disclosed which uses two statistical methods.
+      <br/>
+      First, forward and backward matching is performed using a vocabulary with unigram frequencies.
+      <br/>
+      Then, a score is calculated using statistical language models.
+      <br/>
+      Another prior art method uses a combination of rules, statistics and a dictionary. (See U.S. Pat. No. 5,029,084, "Japanese Language Sentence Dividing Method and Apparatus", Morohasi et. al.) The foregoing references are herein incorporated by reference.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="5">
+      In accordance with an embodiment of the invention, a method for identifying word boundaries in continuous text comprises: (a) comparing the continuous text to a set of varying length strings to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text, each candidate word-initial boundary and candidate word-final boundary having an associated probability value and (b) identifying each candidate word boundary in the continuous text by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries identified in step (a).
+      <br/>
+      The set of varying length strings may include words.
+      <br/>
+      In a preferred embodiment, the set of varying length strings includes words and n-grams.
+      <br/>
+      In a further preferred embodiment for the English language, the words are one and two character words and the n-gams are trigrams.
+    </p>
+    <p num="6">
+      In another embodiment, the probability value associated with a candidate word-initial boundary is the probability that the string, beginning with the candidate word-initial boundary, begins a word.
+      <br/>
+      The probability value associated with a candidate word-final boundary is the probability that the string, ending with the candidate word-final boundary, ends a word.
+      <br/>
+      In a further embodiment, the method further includes verifying each segment defined by the candidate word boundaries identified in step (b) against a string database.
+    </p>
+    <p num="7">
+      In accordance with a further embodiment of the invention, a device for identifying word boundaries in continuous text comprises a string comparator, to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text by comparing the continuous text to a set of varying length strings, each candidate word-initial boundary and candidate word-final boundary having an associated probability value and a boundary checker, coupled to the string comparator, to identify each candidate word boundary in the continuous text by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries identified by the string comparator.
+      <br/>
+      In another further embodiment, the device further comprises a string database and a chart parser, coupled to the boundary checker, to verify each segment defined by the candidate word boundaries identified by the boundary checker against the string database.
+    </p>
+    <p num="8">
+      The set of varying length strings may include words.
+      <br/>
+      In a preferred embodiment, the set of varying length strings includes words and n-grams.
+      <br/>
+      In a further preferred embodiment for the English language, the words are one and two character words and the n-grams are trigrams.
+      <br/>
+      In another embodiment, the probability value associated with a candidate word-initial boundary is the probability that the string, beginning with the candidate word-initial boundary, begins a word.
+      <br/>
+      The probability value associated with a candidate word-final boundary is the probability that the string, ending with the candidate word-final boundary, ends a word.
+    </p>
+    <p num="9">In accordance with another further embodiment, a digital storage medium encoded with instructions which, when loaded into a computer, may establish any of the devices previously discussed.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="10">
+      The present invention will be more readily understood by reference to the following detailed description taken with the accompanying drawings, in which:
+      <br/>
+      FIGS. 1A-1E are block diagrams showing a flow chart of the method for identifying word boundaries in accordance with a preferred embodiment of the invention.
+      <br/>
+      FIG. 2 is a block diagram showing a device for identifying word boundaries in accordance with an embodiment of the invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF SPECIFIC EMBODIMENTS</heading>
+    <p num="11">
+      FIGS. 1A-1E are block diagrams of a flow chart of the method of identifying word boundaries in continuous text in accordance with an embodiment of the invention.
+      <br/>
+      The method of identifying word boundaries may be used in natural language processing applications such as word processing, text processing, machine translation, fact extraction, and information retrieval.
+      <br/>
+      The method may be used for any natural language.
+      <br/>
+      For example, the method may be used to identify words contained in user names or URLs.
+      <br/>
+      In a preferred embodiment of the invention, the method is used to identify vulgar, obscene and offensive words in user names and URLs.
+    </p>
+    <p num="12">
+      The method of identifying word boundaries may use words of any length and their associated probabilities or a combination of both words of any length and n-grams of varying length and their associated probabilities.
+      <br/>
+      In this description and the following claims the varying length words and n-grams are collectively referred to as "strings." In one embodiment, all words in a natural language may be used in combination with n-grams.
+      <br/>
+      In yet another embodiment, only the most frequently occurring words in a natural language may be used in combination with n-grams.
+      <br/>
+      In a preferred embodiment for the English language, one-and two-character words are used in combination with trigrams.
+      <br/>
+      In the preferred embodiment for the English language, the use of varying length strings, as opposed to only whole words or uniform n-grams, allows for the identification of more candidate word boundaries in the continuous text.
+      <br/>
+      In addition, it is possible to identify boundaries for words which may not be known.
+      <br/>
+      The method of identifying word boundaries as described in this description and the following claims is language independent.
+    </p>
+    <p num="13">
+      In FIG. 1A in step 100, the text input is received and then processed to identify candidate word-final boundaries in step 101 and candidate word-initial boundaries in step 102.
+      <br/>
+      A "candidate word-final boundary" is a character which may end a word and a "candidate word-initial boundary" is a character which may begin a word.
+      <br/>
+      In steps 101 and 102, the candidate word-final boundaries and candidate word-initial boundaries are identified by matching the text against a stored list of strings (words and n-grams).
+      <br/>
+      In particular, a current character in the text together with a number (which may be zero) of immediately preceding characters is matched against the stored list of strings.
+    </p>
+    <p num="14">
+      Stored with each string is a set of probabilities.
+      <br/>
+      In a preferred embodiment, the set of probabilities for each string has two members: (I) the probability the string begins a word and; (ii) the probability the string ends a word.
+      <br/>
+      In a preferred embodiment, the strings and their associated probabilities are implemented as a single Aho-Corasick finite state automaton (FSA) model (see Aho, V., Corasick, M. J., "Efficient String Matching: An Aid to Bibliographic Search," Communications of the ACM, 18(6) (1975), pp. 333-340, herein incorporated by reference).
+      <br/>
+      The FSA model contains all valid beginning and ending n-grams, as well as words of any length, along with information about the probability that these strings end and begin a word.
+      <br/>
+      These probabilities are used to compute candidate word boundaries within the continuous text.
+      <br/>
+      By using the probability information, it is possible to rank and order competing candidate word boundaries and establish the best word boundary among competing candidate word boundaries.
+    </p>
+    <p num="15">
+      Each successive character of text is subject to analysis to produce probability values.
+      <br/>
+      When a string of text characters ending in the current character is matched with a stored string from the FSA model, the set of probabilities stored with the matched string in the FSA model is associated with the current character.
+      <br/>
+      In general, for an embodiment using words of any length and n-grams, the probability values which may be associated with the current character include: (I) the probability that each word, defined by consecutive characters of text ending in the current character, ends a word; (ii) the probability that each word, defined by consecutive characters of text ending in the current character, begins a word ( equal to the probability that the same word ends a word); (iii) the probability that each n-gram, defined by consecutive characters of text ending in the current character, ends a word; and, (iv) the probability that each n-gram, defined by consecutive characters of text ending in the current character, begins a word.
+    </p>
+    <p num="16">
+      In a preferred embodiment for the English language, the words are one and two character words and the n-grams are trigrams.
+      <br/>
+      In the preferred embodiment, each successive character of text is subject to analysis to produce up to six probability values:
+    </p>
+    <p num="17">
+      1.
+      <br/>
+      The probability that the trigram, defined by three consecutive characters of text ending in the current character, ends a word.
+      <br/>
+      2. The probability that the two-character word, defined by two consecutive characters of text ending in the current character, ends a word.
+      <br/>
+      3. The probability that the one-character word, defined as the current character, ends a word.
+      <br/>
+      4. The probability that the trigram, defined by three consecutive characters of text ending in the current character, begins a word
+      <br/>
+      5.
+      <br/>
+      The probability that the two-character word, defined by two consecutive characters of text ending in the current character, begins a word (equal to the probability that the same two-character word ends a word)
+      <br/>
+      6.
+      <br/>
+      The probability that the one-character word, defined as the current character, begins a word (equal to the probability that the same one-character word ends a word)
+    </p>
+    <p num="18">
+      In this description and the accompanying claims, the probability that a string ends a word will be referred to as a "word-final probability" and the probability that a string begins a word will be referred to as a "word-initial probability".
+      <br/>
+      As used in this description and the following claims, a "candidate word-initial boundary" is a character in the text with at least one word-initial probability and a "candidate word-final boundary" is a character in the text with at least one word-final probability.
+      <br/>
+      A "candidate word boundary" is defined by an adjacent word-initial boundary and word-final boundary.
+      <br/>
+      Indeed, an embodiment of the invention is to utilize probability data to determine whether a candidate word-initial boundary and a candidate word-final boundary coincide and hence define a candidate word boundary.
+    </p>
+    <p num="19">
+      The probabilities associated with each character in the text are recorded in a table.
+      <br/>
+      Table 1 shows the results for the example text "badwordme" using an FSA model with one and two character words and trigrams.
+      <br/>
+      The left hand column includes the characters occurring in the text.
+      <br/>
+      The right hand column includes the probability data associated with the input character obtained by a lookup in the FSA model as described above.
+      <br/>
+      In each pair of parentheses, is first, the number of characters of the string matched and second, a probability associated with the matched string.
+      <br/>
+      In a preferred embodiment, the word-final probabilities are represented as positive values and the word-initial probabilities are represented as negative values.
+      <br/>
+      For example, the character "a" has a word-final probability for a one character word (19878) and a word-initial probability for a one character word (-19878).
+      <br/>
+      The character "r" has four probability values (two probability pairs) stored in the table.
+      <br/>
+      The character "r" has a word-initial probability and a word-final probability for both a two character word (1776, -1776) and a trigram (1,-6388).
+    </p>
+    <p num="20">
+      Table 2 is a reorganization of the data in Table 1 showing the candidate word-initial boundaries and candidate word-final boundaries.
+      <br/>
+      In Table 2, the probabilities associated with each character in the text are shown broken out separately for each type of probability.
+      <br/>
+      In this example, there are three word-initial probabilities and three word-final probabilities.
+      <br/>
+      In general, the table will include a word-initial probability column for each length word and n-gram used and a word-final probability column for each length word and n-gram used.
+      <br/>
+      In Table 2, the words are one and two character words and the n-grams are trigrams.
+    </p>
+    <p num="21">
+      In constructing Table 2 from Table 1, the word-final probabilities remain associated with the character with which they are associated in Table 1.
+      <br/>
+      Hence, the word-final probability for the character "a", namely 19878, is shown in the "a" row of Table 2 as the 1-character word-final probability.
+      <br/>
+      Similarly, the trigram word-final probability, 391, for the first "d" in Table 1, is in the first "d" row of Table 2 as the trigram word-final probability.
+    </p>
+    <p num="22">
+      On the other hand, the word-initial probabilities in Table 2 are associated with the character beginning the string in question.
+      <br/>
+      Hence, the trigram word-initial probability associated with the first "d" in Table 1, namely -555, is reproduced in Table 2 in the row for the beginning character of the trigram, namely "b".
+      <br/>
+      Similarly, the trigram word-initial probability associated with the "o" in Table 1, namely -1, is reproduced in Table 2 in the row for the beginning character of the trigram, namely, the first "d".
+    </p>
+    <p num="23">
+      -- TABLE 1
+      <br/>
+      -- Information returned by the FSA for the text "badwordme"
+      <br/>
+      -- Input Character       Lengths and Probability Pairs
+      <br/>
+      -- b                     None
+      <br/>
+      -- a                     (1,19878), (1,-19878)
+      <br/>
+      -- d                     (3,391), (3,-555)
+      <br/>
+      -- w                     None
+      <br/>
+      -- o                     (3,-1)
+      <br/>
+      -- r                     (2,1776), (2,-1776), (3,1), (3,-6388)
+      <br/>
+      -- d                     (3,1557), (3,-1776)
+      <br/>
+      -- m                     None
+      <br/>
+      -- e                     (2,8019), (2,-8019), (3,3), (3,-1)
+    </p>
+    <p num="24">
+      -- TABLE 2
+      <br/>
+      -- Information stored in the word boundary array using values from Table 1
+      <br/>
+      --           1-character 2-character trigram   1-character   2-character
+      <br/>
+      --  trigram
+      <br/>
+      -- character word-final  word-final  word-final word-initial  word-initial
+      <br/>
+      --  word-initial
+      <br/>
+      -- b         0           0           0         0             0            -555
+      <br/>
+      -- a         19878   0           0         -19878     0               0
+      <br/>
+      -- d         0           0           391  0             0             -1
+      <br/>
+      -- w         0           0           0         0             0           -6388
+      <br/>
+      -- o         0           0           0         0             -1776     -1766
+      <br/>
+      -- r         0           1776   1         0             0               0
+      <br/>
+      -- d         0           0           1557   0             0             -1
+      <br/>
+      -- m         0           0           0         0             -8019         0
+      <br/>
+      -- e         0           8019   3         0             0               0
+    </p>
+    <p num="25">
+      The processing described below has the effect of utilizing data of the kind shown in Table 2 to identify the coincidence of a candidate word-initial boundary and a candidate word-final boundary, thereby identifying a candidate word boundary.
+      <br/>
+      In describing FIGS. 1A-1E, reference will be made to Tables 1 and 2 for the example text "badwordme" to more clearly illustrate the method of identifying word boundaries.
+      <br/>
+      The application of a preferred embodiment of the invention to the text "badwordme" will be discussed in full detail following the description of FIGS. 1A-1E.
+    </p>
+    <p num="26">
+      Returning to FIG. 1A, in order to segment the input text, the text must end in possible word-final characters in steps 104-106 and begin with possible word-initial characters in steps 107-109.
+      <br/>
+      In other words, the last character in the text must have at least one word-final probability value and the first character in the text must have at least one word-initial probability value.
+      <br/>
+      The example text "badwordme" may be segmented because, as shown in Table 2, the first character "b" has at least one word-initial probability and the last character "e" has at least one word-final probability.
+      <br/>
+      If there is at least one word-final probability value for the last character in the text in step 105 and there is at least one word initial probability value for the first character in the text in step 108, then processing continues as shown in FIG. 1B. If there is not at least on word-final probability value for the last character in the text and at least one word-initial boundary for the first character in the text, then the processing ends in steps 106 and 109.
+    </p>
+    <p num="27">
+      In FIGS. 1B-1E, a word boundary check is performed for each candidate word-final boundary in the continuous text.
+      <br/>
+      For example, the text "badwordme" has five candidate word-final boundaries, namely "a", "d", "r", "d", and "e", as shown in Table 2.
+      <br/>
+      During the word boundary check, candidate word boundaries are identified and a word boundary score is calculated for each candidate word boundary.
+      <br/>
+      A candidate word boundary is defined by an adjacent word-initial boundary and word-final boundary.
+      <br/>
+      The word boundary score is calculated using the word-initial probabilities and word-final probabilities associated with the word-initial boundary and the word-final boundary which define the candidate word boundary.
+    </p>
+    <p num="28">
+      In FIG. 1B, if the candidate word-final boundary being processed is the end of the text (i.e., the last character of the text) in step 110, a list of candidate word boundaries and word boundary scores are returned in step 111.
+      <br/>
+      If the candidate word final boundary being processed is not the end of the text in step 110, processing continues with steps 112-116.
+      <br/>
+      In steps 112-116, a one character word-final check is performed on the current candidate word-final boundary being processed.
+    </p>
+    <p num="29">
+      In step 112, if there is not a non-zero value in the one character word-final position, processing continues to a two character word-final check as shown in FIG. 1C. For example, the candidate word-final boundary "a", has a non-zero value in the one-character word final position, namely 19878, as shown in Table 2.
+      <br/>
+      Since there is a non-zero value, then it is determined whether there is a word-final probability value for the character immediately preceding the current character in step 113.
+      <br/>
+      For the candidate word-final boundary "a", the character immediately preceding the "a" is the "b".
+      <br/>
+      In step 113, if there is not a word-final probability value for the immediately preceding character, the probability value for the one-character word-final position for the current character is set to zero in step 114 and processing continues as shown in FIG. 1C. For example, the "b" does not have a word-final probability as shown in Table 2, therefore, the one character word-final probability for the "a" is set to zero and processing continues with the steps as shown in FIG. 1C.
+    </p>
+    <p num="30">
+      If, however, there is a word-final probability value for the immediately preceding character, it is determined whether there is a word-initial probability value for the character immediately following the current character in step 115.
+      <br/>
+      If there is not a word-initial probability value for the immediately following character, then the probability value for the one character word-final position is set to zero in step 116 and processing continues as shown in FIG. 1C. If there is a word-initial probability value for the immediately following character, then the probability value for the one character word-final position remains the same and processing continues as shown in FIG. 1C.
+    </p>
+    <p num="31">
+      FIG. 1C shows the steps for a two character word-final check in steps 117-119.
+      <br/>
+      First, it is determined whether there is a non-zero value in the two character word-final position in step 117.
+      <br/>
+      If there is not a non-zero value, then the processing continues with step 122.
+      <br/>
+      For example, the candidate word-final boundary "a" has a zero value for the two character word-final position, as shown in Table 2, therefore, processing will continue with step 122.
+      <br/>
+      If there is a non-zero value, then it is determined if there is a word final probability value for the character before the immediately preceding character in step 118.
+      <br/>
+      For example, the candidate word-final boundary "r" has a non-zero value for the two character word-final position, namely 1776, as shown in Table 2.
+      <br/>
+      The character before the immediately proceeding character is the "w".
+      <br/>
+      The "w" does not have a word-final probability value as shown in Table 2, therefore, the probability value for the two character word final position for the "r" is set to zero in step 119 and processing continues with step 122.
+      <br/>
+      If, however, there is a word-final probability value in step 118 for the character before the immediately proceeding character, it is determined whether there is a word-initial probability value for the character immediately following the current character in step 120.
+      <br/>
+      If there is not a word-initial probability value for the immediately following character, then the probability value for the one character word-final position is set to zero in step 121 and processing continues with step 122.
+      <br/>
+      If there is a word-initial probability value for the immediately following character, then the probability for the two character word final position remains the same and processing continues with step 122.
+    </p>
+    <p num="32">
+      In general, for an embodiment using words of any length, a j-character word-final check would be performed for each word of length j ending at a given position.
+      <br/>
+      First, it would be determined if there is a non-zero probability value in the j-character word-final position for the current character being processed.
+      <br/>
+      If there is not a non-zero value, then processing continues.
+      <br/>
+      If there is a non-zero value, then it is determined if there is a word-final probability value on the character j characters before the current character.
+      <br/>
+      If there is not a word-final probability value on the character j characters before, then the probability for the j-character word-final position is set to zero and the processing continues.
+      <br/>
+      If there is a word-final probability value for the character j characters before the current character, it is determined whether there is a word-initial probability for the character immediately following the current character.
+      <br/>
+      If there is not a word-initial probability for the character immediately following the current character, the probability for the j-character word-final position of the current character is set to zero.
+      <br/>
+      If, however, there is a word-initial probability for the character immediately following the current character, then the probability for the j-character word-final position remains the same and processing continues.
+      <br/>
+      The above steps are repeated for each word length.
+      <br/>
+      After the final j-character word-final check processing will continue with step 122 in FIG. 1C.
+    </p>
+    <p num="33">
+      Returning to FIG. 1C, a word-final score is then calculated for the current position (i.e. the current candidate word-final boundary being processed) in step 122.
+      <br/>
+      The word-final score is calculated by summing the word-final probability values for the current character being processed.
+      <br/>
+      For example, the word-final score for the candidate word-final boundary "a" will be the sum of the three word-final probability values.
+      <br/>
+      It is important to note that, as discussed above, the one-character word-final probability of the "a" will be set to zero based on the one-character word-final check analysis.
+      <br/>
+      Therefore, the word-final score for the "a" will be zero.
+      <br/>
+      If the absolute value of the word final score is zero in step 123, then the process moves to the next word-final boundary in step 124 and processing returns to step 110 in FIG. 1B. If the absolute value of the word-final score is greater than zero, a word-initial check is then performed on the next consecutive character in the text after the candidate word-final boundary as shown in FIG. 1D. The word-initial check determines whether the next character in the text after the candidate word-final boundary is a candidate word-initial boundary.
+      <br/>
+      For example, if the word-final score for the "a" had not been zero, then a word-initial check would be performed on the next character in the text, namely the first "d".
+      <br/>
+      The first "d" does have a word-initial probability value (-1), as shown in Table 2, and would therefore, be a candidate word-initial boundary.
+    </p>
+    <p num="34">
+      If there is a non-zero value for any word-initial probability for the next consecutive character in the text in step 126, then the processing continues with step 129.
+      <br/>
+      For example, the "w" has a non-zero trigram word-initial probability, as shown in Table 2 and will be processed to determine if it is a valid word-initial boundary.
+      <br/>
+      If there is not a non-zero word-initial probability value, then the word-final score of the previous position is set to zero in step 127, and process moves to the next candidate word-final boundary in step 128 and processing returns to step 110 in FIG. 1B.
+    </p>
+    <p num="35">
+      In FIG. 1D in steps 129-131, a one character word-initial check is performed on the current character.
+      <br/>
+      It is important to note that the current character is now the character immediately following the candidate word-final boundary (see step 125).
+      <br/>
+      First, it is determined if there is a non-zero value for the one character word-initial position for the current character in step 129.
+      <br/>
+      If there is not a non-zero value, the processing continues to a two character word-initial check as shown in FIG. 1E. For example, the "w" has a zero value for the one character word-initial position in Table 2, therefore, the processing will continue to FIG. 1E. If there is a non-zero value, it is determined whether there is a word-initial probability value on the immediately following character in step 130.
+      <br/>
+      If there is not a word-initial probability on the immediately following character, then the probability value of the one character word initial position is set to zero in step 131 and processing continues as shown in FIG. 1E. If there is a word-initial probability value, then the probability value for the one character word-initial position remains the same and processing continues as shown in FIG. 1E.
+    </p>
+    <p num="36">
+      FIG. 1E shows the steps for the two-character word-initial check.
+      <br/>
+      First, it is determined whether there is a non-zero value for the two character word-initial position in step 132.
+      <br/>
+      If there is not a non-zero value, the processing continues with step 135.
+      <br/>
+      For example, the "w" has a zero value in the two character word-initial position in Table 2, therefore, processing will continue with step 135.
+      <br/>
+      If there is a non-zero value, it is determined whether there is a word-initial probability value on the character after the immediately following character in step 138.
+      <br/>
+      If there is a word-initial probability value, the probability value for the two character word-initial position for the current character remains the same and processing continues with step 135.
+      <br/>
+      If there is not a word initial probability value, the probability value of the two character word-initial position for the current character is set to zero in step 134 and processing continues with step 135.
+    </p>
+    <p num="37">
+      In general, for an embodiment with words of any length, a j-character word-initial check is performed for each word of length j. First, it is determined whether there is a non-zero value for the j-character word-initial position for the current character.
+      <br/>
+      If there is not a non-zero value, then processing continues.
+      <br/>
+      If there is a non-zero value, it is determined whether there is a word initial probability value on the character j-characters after the current character.
+      <br/>
+      If there is a word-initial probability value, the probability value for the j-character word initial position remains the same and processing continues.
+      <br/>
+      If there is not a word-initial probability value, the probability value of the j-character word-initial position is set to zero and processing continues.
+      <br/>
+      The above steps are repeated for each word length for all words identified as ending at the given character.
+      <br/>
+      After the final j-character word-initial check, processing continues with step 135.
+    </p>
+    <p num="38">
+      As shown in FIG. 1F, in step 135 a word-initial score is calculated for the current character.
+      <br/>
+      The word-initial score is calculated by summing the word initial probability values for the character being processed.
+      <br/>
+      For example, the word-initial score for the candidate word-initial boundary "w" will be the sum of the three word-initial probability values.
+      <br/>
+      The word-initial score for the "w" will be -6388.
+      <br/>
+      If the absolute value of the word initial score is zero in step 136, then the process moves to the next candidate word-final boundary in step 137 and processing returns to step 110 in FIG. 1B. If the absolute value of the word-initial score is greater than zero in step 136, then a word boundary score is calculated for this position in step 138.
+      <br/>
+      The word boundary score is calculated by multiplying the word-final score for the previous character (the candidate word-final boundary) with the absolute value of the word-initial score for the current character (the next consecutive character in the text after the candidate word-final boundary).
+      <br/>
+      For example, the word boundary score for a candidate word boundary between the first "d" and the "w" is calculated by multiplying the word-final score for the first "d" by the word-initial score for the "w".
+      <br/>
+      In step 139, the word boundary score is stored with the previous character (the candidate word-final boundary).
+      <br/>
+      For the previous example, the word boundary score will be stored with the first "d".
+      <br/>
+      The process then moves to the next candidate word-final boundary in the text in step 140 and processing continues with step 110 in FIG. 1B. Returning to FIG. 1B, if the next candidate word-final boundary is the last character of the text in step 110, a list of candidate word boundaries and their associated scores is returned in step 111.
+    </p>
+    <p num="39">
+      As mentioned above, Tables 1 and 2 show results for the example continuous text "badwordme".
+      <br/>
+      This example illustrates a preferred embodiment of the method using one and two character words and trigrams.
+      <br/>
+      References will be made to the corresponding steps from FIGS. 1A-1E. First, the last character "e" of the text is checked to make sure it has at least one word-final probability value (steps 104-105).
+      <br/>
+      In this example, the "e" has a non-zero probability value (8019) in the 2-character word-final position, as shown in Table 2.
+      <br/>
+      Next, the first character in the text "b" is checked to make sure it has at least one word-initial probability value (steps 107-108).
+      <br/>
+      As shown in Table 2, the "b" has a non-zero value (-555) in the 3 character word initial position.
+      <br/>
+      Therefore, the text may be segmented.
+    </p>
+    <p num="40">
+      The first candidate word-final boundary is on the "a" as shown in Table 2.
+      <br/>
+      The "a" is not the end of the text, therefore, processing may continue (step 110).
+      <br/>
+      First, the one-character word-final position for the "a" is checked (step 112).
+      <br/>
+      There is a non-zero value (19878) so the immediately preceding character, "b", is inspected to determine if the "b" has a word-final probability value (step 113).
+      <br/>
+      The "b" does not have a word-final probability value (see Table 2), so the one character word-final value on the "a" is set to zero (step 114).
+    </p>
+    <p num="41">
+      Next, the two character word-final check is performed on the "a" (FIG. 1C, steps 117-121).
+      <br/>
+      There is zero value in the two character word-final position (step 117), so a word-final score is calculated for the "a" (step 122).
+      <br/>
+      The word-final score is equivalent to the sum of the three word final probabilities for the "a".
+      <br/>
+      In this example, the word-final score for the "a" is zero because the one character word-final probability was set to zero.
+      <br/>
+      Since the word-final score is not greater than zero (step 123), processing moves to the next word-final boundary (step 124) and a word-boundary check is performed.
+    </p>
+    <p num="42">
+      The next candidate word-final boundary is on the first "d" (see Table 2).
+      <br/>
+      The first "d" is not the end of the text (FIG. 1B,step 110), therefore, processing may continue.
+      <br/>
+      The one character word-final position has a zero value (step 112), therefore processing continues with the two character word final check (FIG. 1C, step 117).
+      <br/>
+      The two character word-final position also has a zero value (step 117).
+      <br/>
+      Therefore, a word-final score is calculated for the first "d" (step 122).
+      <br/>
+      The word-final score for the first "d" is 391.
+      <br/>
+      Since the absolute value of the word-final score is greater than zero, processing continues with the word initial check (steps 125-126, FIG. 1D).
+      <br/>
+      The word-initial check is performed on the next consecutive character in the text ("w").
+      <br/>
+      The "w" has a non-zero value in one of the word-initial positions in Table 2 (step 126), therefore, processing continues with a one character word-initial check (steps 129-131).
+    </p>
+    <p num="43">
+      The "w" does not have a one character word-initial probability value (step 129), therefore, processing continues with a two character word-initial check (steps 132-134, FIG. 1E).
+      <br/>
+      The two character word initial probability value for the "w" is zero, therefore, a word-initial score is calculated for the "w" (step 135).
+      <br/>
+      The word-initial score is calculated by summing the three word initial probability values for the "w".
+      <br/>
+      The word-initial score for the "w" is -6388.
+    </p>
+    <p num="44">
+      Since the absolute value of the word-initial score (6388) is greater than zero (step 136), a word boundary score for the candidate word boundary between the "d" and "w" is calculated (step 138) by multiplying the probability of a word final boundary on the "d" (391) by the absolute value of the probability of a word initial boundary on the "w" (6388).
+      <br/>
+      The resulting word boundary score is associated with the "d" (step 139).
+    </p>
+    <p num="45">
+      The next candidate word-final boundary in the text is the "r".
+      <br/>
+      The "r" is not the end of the text (step 110, FIG. 1B), therefore, processing may continue.
+      <br/>
+      The one character word-final position has a zero value (step 112).
+      <br/>
+      There is a non-zero value in the two character word final position (step 117, FIG. 1C), therefore, the probability values on the "w" (the character before the preceding character) are checked to see if there are any word-final probability values (step 118).
+      <br/>
+      There are no word-final probability values for the "w", so the two character word-final probability value on the "r" is set to zero (step 119).
+      <br/>
+      A word-final score is then calculated for the "r" (step 122).
+      <br/>
+      The word-final score for the "r" is one.
+      <br/>
+      Since the absolute value of word-final score for the "r" is greater than zero (step 123), the word initial check is performed on the next consecutive character in the text, the second "d".
+    </p>
+    <p num="46">
+      The second "d" has a non-zero value in one of the word initial positions in Table 2 (step 126, FIG. 1D).
+      <br/>
+      Both the one character (step 129) and two character (step 132, FIG. 1E) word-initial positions have zero values, therefore, a word-initial score is calculated for the second "d" (step 135).
+      <br/>
+      The word-initial score for the second "d" is one.
+      <br/>
+      Since the absolute value of the word initial score is greater than zero (step 136), a word boundary score is calculated for the candidate word boundary between the "r" and the "d" by multiplying the word final score from the "r" and the absolute value of the word initial score from the "d" (step 138).
+      <br/>
+      The word boundary score is one.
+      <br/>
+      The resulting word boundary score is associated with the "r" (step 139).
+    </p>
+    <p num="47">
+      The next candidate word-final boundary the second "d".
+      <br/>
+      The second "d" is not the end of the text (step 110, FIG. 1B), therefore, processing may continue.
+      <br/>
+      Both the one character (step 112) and two character (step 117, FIG. 1C) word-final positions have zero values, so a word-final score is calculated for the second "d" (step 122).
+      <br/>
+      The word-final score for the second "d" is 1557.
+      <br/>
+      Since the absolute value of the word-final score is greater than zero (step 123), a word initial check is performed on the next consecutive character in the text, "m".
+    </p>
+    <p num="48">
+      The "m" has a word-initial probability value (step 126, FIG. 1D), so processing continues with a one character word-initial check (steps 129-131).
+      <br/>
+      The one character word-initial position has a zero value (step 129).
+      <br/>
+      There is, however, a non-zero value in the two character word initial position (step 132, FIG. 1E), therefore, the probability values of the character after the immediately following character are checked to determine if that character has a non-zero word-initial probability value.
+      <br/>
+      The end of the text is one character after the "m", so the two character word initial boundary on "m" is valid.
+      <br/>
+      A word-initial score is calculated for the "m" (step 135).
+      <br/>
+      The word initial score for the "m" is -8019.
+      <br/>
+      Since the absolute value of the word-initial score is greater than zero (step 136), a word boundary score is calculated for the candidate word boundary occurring between the "d" and the "m" (step 138).
+      <br/>
+      The word boundary score is determined by multiplying the word-final score on the second "d" (1557) by the absolute value of the word initial score on the "m" (8019).
+      <br/>
+      The resulting word boundary score is associated with the second "d" (step 139).
+    </p>
+    <p num="49">
+      The next candidate word final boundary is on the "e" .
+      <br/>
+      The "e" is the last character of the text (step 110, FIG. 1B), therefore, the process halts.
+      <br/>
+      A list of the candidate word boundaries and scores are returned (step 111).
+      <br/>
+      In this example, there are three candidate word boundaries:
+      <br/>
+      1.
+      <br/>
+      Between the first "d" and the "w"
+      <br/>
+      2.
+      <br/>
+      Between the "r" and the second "d"
+      <br/>
+      3.
+      <br/>
+      Between the second "d" and the "m"
+    </p>
+    <p num="50">
+      In a preferred embodiment, the results of the word boundary identification method are submitted to a chart parser.
+      <br/>
+      The chart parser may be one of general use in the art, for example, Norvig, P., "Techniques for Automatic Memoization with Applications to Context-Free Parsing," Computational Linguistics 17(1) 1991, pp91-98; Winograd, T., "Charts and the active chart parser," Language as a Cognitive Process, v 1, pp 116-128 (Addison-Wesley 1983).
+      <br/>
+      The foregoing references are herein incorporated by reference.
+      <br/>
+      The chart parser looks up the segments identified by the highest scoring candidate word boundary to the lowest scoring candidate word boundary in a lexicon to verify the segments.
+    </p>
+    <p num="51">
+      FIG. 2 is a block diagram showing a device for identifying word boundaries in accordance with an embodiment of the invention.
+      <br/>
+      The text input 20 is processed by the word boundary identifier 25 to identify candidate word boundaries in the continuous text.
+      <br/>
+      The word boundary identifier 25 includes a string matcher 21 coupled to a boundary checker 22.
+      <br/>
+      The string matcher 21 compares the text to a stored list of varying length strings in order to identify candidate word-initial and word-final boundaries in the text.
+      <br/>
+      In a preferred embodiment, the varying length strings include words and n-grams.
+      <br/>
+      In a further preferred embodiment for the English language, the varying length strings include one and two character words and trigrams.
+      <br/>
+      Each stored string has an associated set of probabilities.
+      <br/>
+      As discussed with respect to FIG. 1, the strings and their associated probabilities may be implemented using a single Aho-Corasick finite-state automaton model.
+      <br/>
+      The string matcher matches a current character in the text together with a number (which may be zero) of immediately proceeding characters against the stored list of strings.
+      <br/>
+      The process of identifying candidate word-initial boundaries and candidate word-final boundaries is described in detail above with respect to FIGS. 1A-1E.
+    </p>
+    <p num="52">
+      The probability values associated with each candidate word-initial and word-final boundary identified by the string matcher 21 are used by the boundary checker 22 to identify candidate word boundaries.
+      <br/>
+      As discussed previously a "candidate word boundary" is defined by an adjacent word-initial boundary and word-final boundary.
+      <br/>
+      The boundary checker 22 calculates a word boundary score for each candidate word boundary using the probabilities associated with the word-initial boundary and word-final boundary which define each candidate word boundary.
+    </p>
+    <p num="53">
+      The word boundary identifier 25 returns a list of the candidate word boundaries and score as an output 23.
+      <br/>
+      The output 23 is then sent to a chart parser 24.
+      <br/>
+      The chart parser 24 verifies the candidate word boundaries by looking up each segment defined by the candidate word boundaries in a lexicon from the highest scoring word boundary to the lowest scoring word boundary.
+      <br/>
+      As discussed previously, the chart parser may be one of general use in the art.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A computerized method for identifying word boundaries in a continuous text input, the method comprising the following digital processes:</claim-text>
+      <claim-text>(a) comparing the continuous text to a set of varying length strings to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text, each candidate word-initial boundary and candidate word-final boundary being a character in the continuous text and having an associated probability value; (b) identifying each candidate word boundary in the continuous text by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries identified in step (a), the candidate word boundaries defining segments of the continuous text;</claim-text>
+      <claim-text>and (c) verifying each segment defined by the candidate word boundaries identified in step (b) against a string database.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A method according to claim 1, wherein the set of varying length strings includes words.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method according to claim 1, wherein the set of varying length strings includes words and n-grams.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A method according to claim 3, wherein the words are one and two character words and the n-gams are trigrams.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A method according to claim 3, wherein the probability value associated with a candidate word-initial boundary is the probability the string, beginning with the candidate word-initial boundary, begins a word.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method according to claim 5, wherein the probability value associated with a candidate word-final boundary is the probability that the string, ending with the candidate word-final boundary, ends a word.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A computerized data processing device for identifying word boundaries in a continuous text input, the device comprising: a string comparator, to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text by comparing the continuous text to a set of varying length strings, each candidate word-initial boundary and candidate word-final boundary being a character in the continuous text and having an associated probability value; a boundary checker, coupled to the string comparator, to identify each candidate word boundary in the continuous text by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries identified by the string comparator, the candidate word boundaries defining segments of the continuous text.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A device according to claim 7, further comprising: a string database;</claim-text>
+      <claim-text>and a chart parser, coupled to the boundary checker, to verify each segment defined by the candidate word boundaries identified by the boundary checker against the string database.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A device according to claim 7, wherein the set of varying length strings includes words.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A device according to claim 7, wherein the set of varying length strings includes words and n-grams.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A device according to claim 10, wherein the words are one and two character words and the n-grams are trigrams.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A device according to claim 10, wherein the probability value associated with a candidate word-initial boundary is the probability that the string, beginning with the candidate word-initial boundary, begins a word.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A device according to claim 12, wherein the probability value associated with a candidate word-final boundary is the probability that the string, ending with the candidate word-final boundary, ends a word.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A digital storage medium encoded with instructions which, when loaded into a computer, establishes a device for identifying word boundaries in continuous text, the device including: a string comparator, to identify candidate word-initial boundaries and candidate word-final boundaries in the continuous text by comparing the continuous text to a set of varying length strings, each candidate word-initial boundary and candidate word-final boundary being a character in the continuous text and having an associated probability value;</claim-text>
+      <claim-text>and a boundary checker, coupled to the string comparator, to identify each candidate word boundary in the continuous text by calculating a word boundary score for such candidate word boundary using the probability values associated with the candidate word-initial boundaries and candidate word-final boundaries identified by the string comparator, the candidate word boundaries defining segments of the continuous text.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A storage medium according to claim 14, the device further including: a string database;</claim-text>
+      <claim-text>and a chart parser, coupled to the boundary checker, to verify each segment defined by the candidate word boundaries identified by the boundary checker against the string database.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A digital storage medium according to claim 14, wherein the set of varying length strings includes words.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A storage medium according to claim 14, wherein the set of varying length strings includes words and n-grams.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A storage medium according to claim 17, wherein the words are one and two character words and the n-grams are trigrams.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A storage medium according to claim 17, wherein the probability value associated with a candidate word-initial boundary is the probability that the string, beginning with the candidate word-initial boundary, begins a word.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A storage medium according to claim 19, wherein the probability value associated with a candidate word-final boundary is the probability that the string, ending with the candidate word-final boundary, ends a word.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

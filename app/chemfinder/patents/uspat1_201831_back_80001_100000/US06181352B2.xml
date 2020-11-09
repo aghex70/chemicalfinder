@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181352B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181352</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181352</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="23045559" extended-family-id="42107810">
+      <document-id>
+        <country>US</country>
+        <doc-number>09273826</doc-number>
+        <kind>A</kind>
+        <date>19990322</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09273826</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43164116</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>27382699</doc-number>
+        <kind>A</kind>
+        <date>19990322</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09273826</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T  15/00        20110101A I20110122RMEP</text>
+        <ipc-version-indicator>
+          <date>20110101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>15</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20110122</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>345506000</text>
+        <class>345</class>
+        <subclass>506000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>345503000</text>
+        <class>345</class>
+        <subclass>503000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>345582000</text>
+        <class>345</class>
+        <subclass>582000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>345589000</text>
+        <class>345</class>
+        <subclass>589000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-015/00A</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>015</main-group>
+        <subgroup>00A</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-015/005</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>15</main-group>
+        <subgroup>005</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>4</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>5</number-of-drawing-sheets>
+      <number-of-figures>5</number-of-figures>
+      <image-key data-format="questel">US6181352</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Graphics pipeline selectively providing multiple pixels or multiple textures</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>LAUZON LAURENT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5977982</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5977982</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KITAMURA KENYA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6005584</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6005584</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KUO DONG-YING, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6011565</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6011565</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>LIN TAO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6016151</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6016151</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>SIMS EDWARD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4586038</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4586038</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>MERZ DONALD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4692880</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4692880</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>BUNKER WILLIAM M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4727365</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4727365</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>GONZALEZ-LOPEZ JORGE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4866637</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4866637</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>ALCORN BYRON A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5185856</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5185856</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>LARSON RONALD D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5222205</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5222205</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>PEASLEE JOHN M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5255360</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5255360</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>KATO MAKOTO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5369736</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5369736</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>GOVE ROBERT J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5371896</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5371896</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>JARVIS EUGENE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5469535</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5469535</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>GOVE ROBERT J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5471592</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5471592</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>VECCHIONE MAURIZIO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5504845</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5504845</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>SAKURABA TAKAHIRO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5586234</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5586234</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>BALDWIN DAVID R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5594854</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5594854</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>KOSS LOUISE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5720019</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5720019</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>TAROLLI GARY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5740343</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5740343</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>HUXLEY PHILIP</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5742796</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5742796</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>ALCORN BYRON A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5745118</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5745118</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>BALDWIN DAVID ROBERT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5764243</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5764243</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>PETERSON JAMES R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5767856</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5767856</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>BALDWIN DAVID ROBERT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5777629</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5777629</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>BALDWIN DAVID ROBERT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5798770</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5798770</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="27">
+          <text>BALDWIN DAVID ROBERT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5815166</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5815166</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="28">
+          <text>NEGISHI HIROYASU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5831623</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5831623</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="29">
+          <text>TAROLLI GARY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5831624</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5831624</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="30">
+          <text>WILDE DANIEL P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5844576</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5844576</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="31">
+          <text>BERRY KYLE R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5847717</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5847717</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="32">
+          <text>TAROLLI GARY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5870102</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5870102</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="33">
+          <text>HANAOKA TOSHIHARU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5877770</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5877770</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="34">
+          <text>GOLDBERG RICHARD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5877779</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5877779</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="35">
+          <text>ALCORN BYRON A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5886706</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5886706</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="36">
+          <text>RICH HENRY H</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5949426</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5949426</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="37">
+          <text>KAJIYA JAMES T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5977977</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5977977</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="38">
+          <text>RIVARD WILLIAM G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5987567</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5987567</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="39">
+          <text>PHILIPS ELECTRONICS UK LTD, et al</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0438194</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-438194</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>"The Voodoo Architecture Advantage, Graphics Performance and Image Quality", Revision 1.2, Feb. 5, 1999, Copyright 1998 3Dfx Interactive, Inc.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>"Bacon's Stop Press: Voodoo3," Next Generation Magazine, Brisbane, California, Jan. 1999, one page.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Chronis, George T., "Technobabble Screamin'Like a Banshee, " PC Games, Apr. 1999, pp. 106-107.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Shimpi, Anand Lal, "3dfx Voodoo3," Apr. 3, 1999, pp. 1-8, download from Internet (http://anandtech.com/html/article display.cfm ?document=923).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>Shaw, et al., A VLSI Architecture for Image Composition, in Advances in Computer Graphics Hardware III, A.A.M. Kuijk (Ed.), pp. 183-199 (1991).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>Aono, et al., A 30 NS (600 MOPS) Image Processor with a Reconfigurable Pipeline Architecture, IEEE 1989 Custom Integrated Circuits Conference, pp. 24.4.1-24.4.4 (1989).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>Texas Instruments TMS320C80 (MVP) User's Guide (Mar. 1995).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Molnar, Steven, Combining Z-buffer Engines for Higher-Speed Rendering, in Advances in Computer Graphics Hardware III, A.A.M. Kuijk (Ed.), pp. 171-182 (1991).</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Nvidia Corporation</orgname>
+            <address>
+              <address-1>Santa Clara, CA, US</address-1>
+              <city>Santa Clara</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>NVIDIA</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Kirk, David B.</name>
+            <address>
+              <address-1>San Francisco, CA, US</address-1>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Solanki, Gopal</name>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Priem, Curtis</name>
+            <address>
+              <address-1>Fremont, CA, US</address-1>
+              <city>Fremont</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Donovan, Walter</name>
+            <address>
+              <address-1>Milpitas, CA, US</address-1>
+              <city>Milpitas</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="5">
+          <addressbook lang="en">
+            <name>Yeun, Joe L.</name>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Limbach &amp; Limbach, L.L.P.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Chauhan, Ulka J.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A graphics accelerator pipeline including a combiner stage capable of producing output values during each clock interval of the pipeline which map a plurality of textures to a single pixel or an individual texture to two pixels.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">This invention relates to computer display systems and, more particularly, to methods and apparatus for providing a graphics accelerator capable of selectively providing during any clock period color values for at least two pixels blended with a single texture or color values for a single pixel blended with a plurality of textures.</p>
+    <p num="3">2. History of the Prior Art</p>
+    <p num="4">
+      In three dimensional graphics, surfaces are typically rendered by assembling a plurality of polygons in a desired shape.
+      <br/>
+      The polygons are conventionally triangles having vertices which are defined by three dimensional coordinates in world space, by color values, and by texture coordinates.
+    </p>
+    <p num="5">
+      To display a surface on a computer monitor, the three dimensional world space coordinates are transformed into screen coordinates in which horizontal and vertical values (x, y) define screen position and a depth value (z) determines how near a vertex is to the screen and thus whether that vertex is viewed with respect to other points at the same screen coordinates.
+      <br/>
+      The color values (r, g, b) define the brightness of each of red/green/blue colors at each vertex and thus the color (often called diffuse color) at each vertex.
+      <br/>
+      Texture coordinates (u, v) define texture map coordinates for each vertex on a particular texture map defined by values stored in memory.
+    </p>
+    <p num="6">
+      A texture map typically describes a pattern to be applied to the surface of the triangle to vary the color in accordance with the pattern.
+      <br/>
+      The texture coordinates of the vertices of a triangular surface area fix the position of the vertices of the triangle on the texture map and thereby determine the texture detail applied to each portion of the surface within the triangle in accordance with the particular texture.
+      <br/>
+      In turn, the three dimensional coordinates of the vertices of a triangle positioned on the texture map define the plane in which the texture map and the surface lie with respect to the screen surface.
+    </p>
+    <p num="7">
+      A texture which is applied to a surface in space may have a wide variety of characteristics.
+      <br/>
+      A texture may define a pattern such as a stone wall.
+      <br/>
+      It may define light reflected from positions on the surface.
+      <br/>
+      It may describe the degree of transparency of a surface and thus how other objects are seen through the surface.
+      <br/>
+      A texture may provide characteristics such a dirt and scratches which make a surface appear more realistic.
+      <br/>
+      A number of other variations may be provided which fall within the general description of a texture.
+      <br/>
+      In theory, a number of different textures may be applied to any triangular surface.
+    </p>
+    <p num="8">
+      In order to apply more than one texture to a surface, prior art graphics accelerators initially were designed to progress through a series of steps in which pixel coordinates and color values describing each triangle are first generated one pixel at a time in sequence, a first texture is mapped to the triangle using the texture coordinates of the vertices and texture coordinates are generated for each pixel as the pixel coordinates are generated, texture values describing the variation of each pixel in the triangle for the first texture are generated using the texture coordinates for each pixel, the texture value describing the first texture for one pixel and the diffuse color values describing that pixel of the triangle are blended to produce a textured color value for the pixel, and the resulting triangle generated from all of the textured color values is blended with any image residing in a frame buffer from which the image may be presented on an output display.
+      <br/>
+      Then, texture values for a second texture mapped to the same triangle are generated and blended with the same sequence of pixel color values in the same manner, and the triangle blended with the second texture is blended with the image residing in the frame buffer.
+    </p>
+    <p num="9">
+      The need to transit the graphics pipeline to blend each texture to the surface of each triangle defining an output image slows the process drastically.
+      <br/>
+      In many cases involving rapidly changing images, it has limited significantly the number of textures which can be applied.
+      <br/>
+      For this reason, a more recent development provides a pair of texture stages and a pair of texture blend stages in the pipeline.
+      <br/>
+      The first texture stage generates texture values describing a first texture from texture coordinates provided as each pixel is generated.
+      <br/>
+      These first texture values are blended with the pixel color values at the first texture blend stage as each set of pixel color values is generated.
+      <br/>
+      The textured color value output of the first texture blend stage is then furnished to the second texture blend stage.
+      <br/>
+      The textured color value output of the first texture blend stage is blended with texture values generated by the second texture stage using texture coordinates provided as each pixel is generated.
+      <br/>
+      The output of the second texture blend stage is ultimately transferred to the frame buffer blend stage to be blended with the image data already in the frame buffer.
+      <br/>
+      This more advanced pipeline allows two textures to be blended with a surface in a single pass through the graphics pipeline.
+    </p>
+    <p num="10">
+      Although this most recent development is useful in accelerating texture blending in a graphics pipeline, it is limited to producing a single pixel having at most two textures during any clock of the graphics pipeline and cannot be utilized for any other purposes.
+      <br/>
+      More complicated functions require the use of the host processor and the frame buffer blending stage and drastically slow the rendering of surfaces by the graphics accelerator.
+    </p>
+    <p num="11">There are no prior art systems which have been capable of providing two or more textured pixels during each clock period.</p>
+    <p num="12">It is desirable to provide a new computer graphics pipeline capable of rapidly selectively providing a plurality of textured pixels or a single pixel blended with a plurality of textures during any clock period.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="13">The present invention is realized by a graphics accelerator pipeline including a rasterizer stage, a texture stage, and a combiner stage capable of producing output values during each clock interval of the pipeline which map an individual texture to a plurality of pixels.</p>
+    <p num="14">These and other features of the invention will be better understood by reference to the detailed description which follows taken together with the drawings in which like elements are referred to by like designations throughout the several views.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="15">
+      FIG. 1 is a block diagram illustrating a computer graphics pipeline designed in accordance with the teaching of the prior art.
+      <br/>
+      FIG. 2 is a block diagram illustrating another computer graphics pipeline designed in accordance with the teaching of the prior art.
+      <br/>
+      FIG. 3 is a block diagram illustrating a computer graphics pipeline designed in accordance with the present invention.
+      <br/>
+      FIG. 4 is a block diagram illustrating in detail a portion of the computer graphics pipeline of FIG. 3.
+      <br/>
+      FIG. 5 is block diagram illustrating in more detail another portion of the computer graphics pipeline of FIG. 3
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="16">
+      Referring now to FIG. 1, there is illustrated a block diagram of a computer graphics pipeline 10 constructed in accordance with the prior art.
+      <br/>
+      The pipeline 10 includes a plurality of stages for rendering pixels defining a three dimensional image to a frame buffer 12 from which the image may be provided at an output stage 13, typically an output display.
+    </p>
+    <p num="17">
+      The pipeline 10 includes a front end stage 15 at which data positioning each of a plurality of triangles defining an output image is received and decoded.
+      <br/>
+      The front end stage 15 receives from an application program the data defining each of the vertices of each triangle which is to appear in the output image being defined in the frame buffer 12.
+      <br/>
+      This data may include the three dimensional world coordinates of each of the vertices of each triangle, red/green/blue color values (diffuse color values) at each of the vertices, texture coordinates fixing positions on a texture map for each of the vertices for each texture modifying the color values of each triangle, and various factors for combining the textures and diffuse color values.
+    </p>
+    <p num="18">
+      The front end stage 15 determines the manner and order in which the pixels of the various triangles will be processed to render the image of the triangle.
+      <br/>
+      When this processing order has been determined, the front end stage 15 passes the data defining the vertices of the triangle to a setup stage 16.
+      <br/>
+      The setup stage 16 carries out a number of processes known to those skilled in the art that make the operations of generating pixels and applying textures to those pixels progress rapidly.
+      <br/>
+      The processes actually carried out by the setup stage 16 may vary depending on the particular implementation of the graphics accelerator.
+      <br/>
+      In some circuitry, certain of these processes are implemented by a rasterizer stage 18 and a texture stage 19 which follow the setup stage.
+    </p>
+    <p num="19">
+      The setup stage 16 utilizes the world space coordinates provided for each triangle to determine the two dimensional coordinates at which those vertices are to appear on the two dimensional screen space of an output display.
+      <br/>
+      If the vertices of a triangle are known in screen space, the pixel positions vary linearly along scan lines within the triangle in screen space and may be determined.
+      <br/>
+      The setup stage 16 and the rasterizer stage 18 together use the three dimensional world coordinates to determine the position of each pixel defining each of the triangles.
+      <br/>
+      Similarly, the diffuse color values of a triangle vary linearly from vertex to vertex in world space.
+      <br/>
+      Consequently, setup processes based on linear interpolation of pixel values in screen space, linear interpolation of depth and color values in world space, and perspective transformation between the two spaces will provide pixel coordinates and color values for each pixel of each triangle being described.
+      <br/>
+      The end result of this is that the rasterizer stage generates in some sequence screen coordinates and red/green/blue color values (conventionally referred to as diffuse color values) for each pixel describing each triangle.
+    </p>
+    <p num="20">
+      The setup stage 16 and the rasterizer stage 18 also cooperate in the computation of the texture coordinates for each pixel in each triangle and send those texture coordinates to a texture stage 19.
+      <br/>
+      The texture coordinates vary linearly from vertex to vertex in world space.
+      <br/>
+      Because of this, texture coordinates at any position throughout the triangle may be determined in world space and related to the pixels to be displayed on the display through processes combining linear interpolation and perspective transformation.
+      <br/>
+      The texture coordinates generated are then utilized by the texture stage 19 to index into a selected texture map to determine texels (texture color values at the position defined by the texture coordinates for each pixel) to vary the diffuse color values for the pixel.
+      <br/>
+      Often the texture stage 19 interpolates texels at a number of positions surrounding the texture coordinates of a pixel to determine a texture value for the pixel.
+      <br/>
+      In one arrangement, texels from four positions surrounding the texture coordinates of the pixel are interpolated to determine a texture value for the pixel.
+      <br/>
+      The end result of this is that the texture stage 19 generates in some sequence a texture value for each pixel describing each triangle.
+    </p>
+    <p num="21">
+      The results provided by the rasterizer and texture stages 18 and 19 are furnished to a texture blend stage 20 in which the diffuse color values generated by the rasterizer for each pixel are blended with the texel value for the pixel in accordance with some combinatorial value often referred to as alpha.
+      <br/>
+      Typically, an alpha value is carried as a component of the texture values and determines the amounts of each of the diffuse color values and the texture values to be included in the final color defining that particular pixel.
+      <br/>
+      The output of the texture blend stage 20 is a sequence of color values defining the pixels of the particular triangle as blended with a first texture.
+    </p>
+    <p num="22">
+      Although other stages (not shown) may be included in the pipeline for other effects, the sequence of color values defining the pixels of the particular triangle blended with a first texture generated by the texture blend stage 20 are transferred to a frame buffer blending stage 22.
+      <br/>
+      In the frame buffer blending stage, the sequence of color values defining the pixels of the particular triangle blended with a first texture are combined with the pixels already in the frame buffer 12 at the screen position of the triangle in a read/modify/write operation.
+      <br/>
+      Then, the color values for the pixels produced by the frame buffer blend stage 22 are stored in the frame buffer 12 replacing the values previously at the pixels positions defining the triangle.
+    </p>
+    <p num="23">
+      In a prior art graphics pipeline including only one texture stage and only one texture blend stage, only one pixel is produced during any clock interval and only one texture is blended with the diffuse color of the pixel produced.
+      <br/>
+      In order to apply an additional texture to the triangle, the pipeline must be traversed a second time.
+      <br/>
+      In this second traversal, the rasterizer stage 18 is again utilized to provide the pixels defining the diffuse color output of the triangle and texture coordinates related to a second texture map defining the second texture.
+      <br/>
+      The texture coordinates are utilized by the texture stage 19 to produce a second texture value output related to the individual pixels in the triangle.
+      <br/>
+      The second set of texture values produced by the texture stage 19 are then blended with the diffuse color values produced by the rasterizer in the texture blending stage 20.
+      <br/>
+      Finally, the destination pixel color values in the frame buffer 12 defining the triangle with a first texture are read out of the frame buffer and combined in the frame buffer blend stage 22 with the pixels providing the second texture for the triangle typically utilizing alpha values associated with the second texture values.
+      <br/>
+      The result then replaces the destination pixel color values in the frame buffer 22.
+    </p>
+    <p num="24">
+      As those skilled in the art understand, the time required to overlay the pixels of a triangle with two sets of texture values is very significant.
+      <br/>
+      In fact, the time is so great that typically only a single texture is applied to any triangle unless the computer processing the images is very fast or the action of the image is quite slow.
+    </p>
+    <p num="25">
+      Because of this, more advanced graphics pipelines have been designed.
+      <br/>
+      In an advanced graphics pipelines known to the prior art illustrated in FIG. 2, two texture stages 29a and 29b and two texture blend stages 30a and 30b are utilized.
+      <br/>
+      In such a pipeline arrangement, each texture stage 29a and 29b receives texture coordinates and generates texture values for a distinct one of two textures which are to be blended with the pixels of the triangle being generated sequentially by the rasterizer stage 18.
+      <br/>
+      Thus, as individual diffuse colors are produced by the rasterizer stage 38 to serially describe the pixels of a triangle, a texture value may be produced by each of the texture stages 29a and 29b to be blended with the pixel color values.
+    </p>
+    <p num="26">
+      As each set of color values of each sequential pixel defining the particular triangle is generated, it is blended in the first texture blend stage 30a with texture values defining a first texture for that pixel furnished by the first texture stage 29a.
+      <br/>
+      Each set of textured color values resulting from the blending is transferred as it is generated to the second texture blend stage 30b and blended with the second sequence of texture values produced by the second texture stage 29b.
+      <br/>
+      The color values resulting from blending diffuse color values with one or two textures are ultimately transferred to a frame buffer blending stage 22 from the second texture blend stage 30b and combined with the pixels already in the frame buffer 12 at the screen position of the triangle in a read/modify/write operation.
+      <br/>
+      The color values for the pixels produced by the frame buffer blend stage 21 are stored in the frame buffer 12 replacing the values previously at the pixels positions defining the triangle.
+    </p>
+    <p num="27">Although the advanced prior art pipeline illustrated in FIG. 2 is capable of producing a stream of color values for pixels one pixel at a time defining a surface blended with two textures during a single pass through the pipeline, this is all that the pipeline is able to accomplish.</p>
+    <p num="28">It is desirable to provide a graphics accelerator which is capable of both (1) producing a sequence of pixels each combined with one or more textures during each clock interval, and (2) producing more than one pixel blended with a texture during each clock interval.</p>
+    <p num="29">
+      The present invention provides a graphics pipeline that fulfills these requirements.
+      <br/>
+      To accomplish this, the present invention provides a new graphics pipeline including unique processing stages.
+      <br/>
+      These new processing stages allow a plurality of pixels each modified by the same texture to be produced during any clock interval of the pipeline thereby significantly accelerating the rendering of graphics images.
+      <br/>
+      The processing stages also allow texture values for a plurality of different textures to be processed simultaneously through the graphics pipeline and applied to a stream of single pixels.
+      <br/>
+      Thus, the new pipeline is faster and much more flexible than are prior art graphics pipelines.
+    </p>
+    <p num="30">
+      FIG. 3 is a block diagram illustrating components of a new graphics pipeline in accordance with the present invention.
+      <br/>
+      The new graphics pipeline includes front end, setup, and rasterizer stages 35, 36, and 38 which accomplish the functions described in detail above with respect to similar stages illustrated in FIG. 1.
+      <br/>
+      In addition to the usual functions accomplished by rasterizers of the prior art, the rasterizer 38 is designed to provide pixel coordinates and color values for two adjacent pixels and texture coordinates for each of the two pixels during the same clock interval.
+      <br/>
+      This may be accomplished in one embodiment by furnishing output values which include not only the normal X value in screen coordinates, but an X+1 value as well.
+      <br/>
+      Alternatively, output values including Y and Y+1 values might be furnished.
+      <br/>
+      The pipeline includes a pair of texture stages 39a and 39b each of which is adapted to produce texture values in the manner described in detail above for individual textures being applied to a surface.
+      <br/>
+      In other embodiments, additional texture stages may be incorporated into the pipeline in the manner described herein.
+    </p>
+    <p num="31">
+      FIG. 4 illustrates one embodiment of a texture stage 39a or 39b.
+      <br/>
+      Each texture stage 39a and 39b is adapted to receive input signals which include texture coordinates for each of the two pixels of a triangle being rendered as the individual pixel coordinates are simultaneously generated by the rasterizer stage 38.
+      <br/>
+      The texture stages also receive a texture identification (id) value indicating a texture to be mapped to the triangle.
+      <br/>
+      The texture identification sent to each of the texture stages may be the same or different.
+    </p>
+    <p num="32">
+      Each texture stage is capable of selecting one set of texture coordinates furnished to generate a texture value using the texture map identified for one set of pixel coordinates.
+      <br/>
+      The texture coordinates may be those for either the first or the second of the two texture coordinates furnished after computation by the rasterizer.
+      <br/>
+      In one arrangement, the texture stage uses the typically non-integer set of texture coordinates to determine a set of four integer texture coordinates surrounding the texture coordinate provided and retrieves texels at each of the integer positions from a cache 41 storing texels of the identified texture map.
+      <br/>
+      A detailed description of a texture cache arrangement capable of providing such texels to a texture stage is provided in U.S. patent application Ser.
+      <br/>
+      No. 09/273,827, entitled Improved Texture Caching Arrangement For A Computer Graphics Accelerator, G. Solanki et al, filed on even date herewith and assigned to the assignee of the present invention.
+    </p>
+    <p num="33">
+      The texture stage blends the four texels obtained from the cache 41 and provides a texture value output for the set of texture coordinates utilized.
+      <br/>
+      Thus, the outputs produced by the two texture stages 39a and 39b are two sequences of texture values defining two textures to be mapped to the triangle the pixels for which are simultaneously being furnished by the rasterizer stage 28.
+    </p>
+    <p num="34">Since the rasterizer stage 38 produces a pair of adjacent pixels at each clock interval of the pipeline and furnishes a pair of texture coordinates for these pixels to each of the texture stages 39a and 39b, a number of possible output sequences may be selectably produced by the texture stages.</p>
+    <p num="35">
+      If an application program desires to apply two different textures to each pixel of a sequence of pixels produced by the rasterizer 38, then each texture stage receives a different texture map identification as an input value so that the coordinates furnished are used with a different texture map.
+      <br/>
+      Moreover, in order to apply two textures to each individual pixel of the sequence being generated, each individual texture stage is furnished the unique texture coordinates for the individual texture to be applied by that texture stage to that pixel.
+      <br/>
+      This causes the two texture stages 39a and 39b to generate sequences of texture values from two texture maps which may be blended in a single pass through the pipeline to the sequence of pixels being generated in the manner described with respect to FIG. 2.
+    </p>
+    <p num="36">
+      On the other hand, if an application program desires to produce two sequential pixels having the same texture during any clock interval of the pipeline, then each texture stage receives the same texture map identification as an input value so that the coordinates furnished are used with the same texture map.
+      <br/>
+      However, in order to apply a single textures to each of two simultaneously generated pixels of the sequence being generated, one of the texture stages is furnished the unique texture coordinates for the first of the individual pixels, while the other texture stage is furnished the unique texture coordinates for the second of the individual pixels.
+      <br/>
+      This causes the two texture stages 39a and 39b to generate sequences of texture values from a single texture map each of which may be blended with the diffuse colors of one of the pair of pixels generated by the rasterizer 38 in a single pass through the pipeline in the manner described with respect to FIG. 2.
+    </p>
+    <p num="37">
+      In addition to the multiple texture stages 39a and 39b, the pipeline of the present invention shown in FIG. 3 also includes two combiner stages 40a and 40b and does not include the texture blend stage or stages of the prior art.
+      <br/>
+      The combiner stages 40a and 40b each are capable of receiving input from a plurality of possible sources.
+      <br/>
+      For example, the combiner stages may each utilize as input, among other values, the output texture values produced by either of the texture stages 39a or 39b, the diffuse color output of the rasterizer stage 38, the output of the other combiner stage, and input signals defining various factors useful in combining various textures and colors together.
+      <br/>
+      A detailed description of a graphics pipeline including combiner stages is provided in U.S. patent application Ser.
+      <br/>
+      No. 09/273,975, entitled Improved Graphics Pipeline Including Combiner Stages, D. Kirk et al, filed on even date herewith and assigned to the assignee of the present invention.
+    </p>
+    <p num="38">
+      The combiner stages allow the diffuse color image furnished by the rasterizer stage 38 to be combined with each of at least two individual textures during the same pass through the pipeline.
+      <br/>
+      These stages also allow a plurality of other functions to be accomplished which greatly accelerate the operation of the pipeline.
+      <br/>
+      FIG. 5 is a block diagram describing the general form of the combiners 40a and 40b which should help to better illustrate their facilities.
+      <br/>
+      As FIG. 5 illustrates, each of the combiners includes a pair of multiply circuits 43 the output from each of which provides input to an add circuit 44.
+      <br/>
+      Each of the multiply circuits 43 is organized to multiply two input operands together and furnish the result as output.
+      <br/>
+      In contrast to prior art circuits which allow the blending of at most two textures and a single set of diffuse color pixels, the two input operands of each of the two multiply circuits may each be selected from any of a number of different sources among which are those described in the figure.
+      <br/>
+      This allows combinations to be accomplish in a single pass through the pipeline which could not be accomplished in any realistic manner by prior art circuitry.
+      <br/>
+      The add circuit 44 adds the results of the two multiplications accomplished by the multiply circuits 43 and accomplishes certain other operations.
+    </p>
+    <p num="39">
+      As those skilled in the art will recognize, the typical operation by which a texture is mapped to a triangle utilizes a factor for selecting the amount of each diffuse pixel color to combine with the texture value color for that pixel.
+      <br/>
+      Typically, the factor is included with the texture information as an alpha value between zero and one.
+      <br/>
+      One of the two elements to be combined is multiplied by the alpha value while the other is multiplied by one minus the alpha value.
+      <br/>
+      This assures that each color will be made up of some percentage of diffuse color and a remaining percentage of a modifying texture color as determined by the alpha.
+    </p>
+    <p num="40">
+      As may be seen, the combiners 40a and 40b are each adapted to easily handle the blending of textures with diffuse images in this manner.
+      <br/>
+      If the diffuse color pixels defining the triangle and an alpha value provided with the texture information are furnished as the two operands to one of the multipliers 43, the result is the diffuse pixel color multiplied by the alpha value.
+      <br/>
+      Similarly, if the texture values related to each of those pixels and one minus the alpha value are furnished as operands to the other of the two multipliers 43, the result is the texture value for each pixel multiplied by one minus alpha.
+      <br/>
+      Then the result may be added by the add circuit 44 to map the texture to the triangle.
+    </p>
+    <p num="41">
+      The two combiner stages are adapted to provide two individual streams of pixels combined with samples from the same texture and thereby provide an output at a rate of two pixels per clock interval of the pipeline.
+      <br/>
+      In one embodiment, this is accomplished by sending color values generated by the rasterizer 38 for alternate pixels to the two combiners.
+      <br/>
+      For example, each first pixel generated may be sent to the combiner 40a and each second pixel generated sent to combiner 40b.
+      <br/>
+      Then, each pixel color value is combined with a set of texture values produced by one of the texture stages 39 selected to provide texture values at the correct pixel positions.
+    </p>
+    <p num="42">
+      Thus, the control circuitry may be utilized to provide diffuse color values of separate pixels to the first and second combiners.
+      <br/>
+      In one case, the diffuse color values of sequential pixels may be provided as input values to the first and second combiners.
+      <br/>
+      Simultaneously, texture values for these sequential pixels derived from a single texture map may be provided as input values to the first and second combiners to be blended with the diffuse color values of the two sequential pixels.
+      <br/>
+      This allows each combiner to blend the same texture with sequential pixels in the same clock interval.
+      <br/>
+      This operation produces pixels twice as fast as prior art arrangements.
+    </p>
+    <p num="43">
+      On the other hand, the diffuse pixel colors for each pixel in the sequence may be provided to the same combiner 40a.
+      <br/>
+      At the same time, the texture values provided to the first and second combiners to be blended with the diffuse color values of the single pixel may differ in accordance with two different texture maps.
+      <br/>
+      The combiner 40a then blends a first texture with the stream of pixel color values and send the resulting stream of textured color values to the second combiner 40b to be combined with a second different texture in the same clock interval.
+    </p>
+    <p num="44">As will be understood, if more than two textures are to be mapped, then an embodiment having additional texture stages and combiners may be utilized.</p>
+    <p num="45">It should also be noted that a pipeline utilizing a single combiner stage may be used to accomplish the same functions since the output of the stage may be routed as input so that multiple textures may be blended to each pixel.</p>
+    <p num="46">
+      Although the present invention has been described in terms of a preferred embodiment, it will be appreciated that various modifications and alterations might be made by those skilled in the art without departing from the spirit and scope of the invention.
+      <br/>
+      The invention should therefore be measured in terms of the claims which follow.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A graphics accelerator pipeline, comprising:</claim-text>
+      <claim-text>a rasterizer stage configured to generate pixel coordinates and color values for at least two pixels during each clock interval of the pipeline in response to data indicative of a single polygonal primitive; a texture stage configured to generate at least two texture values, each for a different pixel, during each clock interval of the pipeline;</claim-text>
+      <claim-text>and a combiner stage coupled to receive the pixel coordinates, the color values, and the texture values for each pixel of a set of at least two pixels, and configured to generate, in response thereto, output values for said each pixel of said set during each clock interval of the pipeline.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The graphics accelerator pipeline of claim 1, also comprising: a frame buffer blend stage coupled to receive the output values for each pixel of a set of at least two pixels and configured to generate blended color values for said each pixel of the set, during each clock interval of the pipeline, by blending said output values with color values having pixel coordinates matching those of said each pixel of the set.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method for operating a single graphics accelerator pipeline in response to a clock signal, to accomplish pipelined generation of output values for a sequence of pixels, said method comprising the steps of: (a) generating pixel coordinates and color values, for each pixel of a set of at least two pixels, during a first clock interval of the clock signal, in response to data indicative of a single polygonal primitive; (b) generating texture values for said each pixel of the set during a second clock interval of the clock signal, wherein the second clock interval is a single clock interval of the clock signal subsequent to the first clock interval;</claim-text>
+      <claim-text>and (c) in response to the pixel coordinates, the color values, and the texture values for said each pixel of the set, generating the output values for said each pixel of said set during a third clock interval of the clock signal, wherein the third clock interval is a single clock interval of the clock signal subsequent to the second clock interval.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 3, wherein the texture values generated in step (b) include a first texture value determined by a first texture map, and a second texture value determined by the first texture map.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

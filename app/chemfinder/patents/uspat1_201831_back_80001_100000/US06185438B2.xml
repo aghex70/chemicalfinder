@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185438B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185438</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185438</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22597179" extended-family-id="42113480">
+      <document-id>
+        <country>US</country>
+        <doc-number>09165044</doc-number>
+        <kind>A</kind>
+        <date>19981001</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09165044</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171700</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>16504498</doc-number>
+        <kind>A</kind>
+        <date>19981001</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09165044</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04W  88/08        20090101A I20090105RMEP</text>
+        <ipc-version-indicator>
+          <date>20090101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>88</main-group>
+        <subgroup>08</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20090105</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>455560000</text>
+        <class>455</class>
+        <subclass>560000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>455073000</text>
+        <class>455</class>
+        <subclass>073000</subclass>
+      </further-classification>
+    </classification-national>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04W-088/08</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>88</main-group>
+        <subgroup>08</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>5</number-of-drawing-sheets>
+      <number-of-figures>5</number-of-figures>
+      <image-key data-format="questel">US6185438</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Processor using virtual array of buffer descriptors and method of operation</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>LUIJTEN GUIDO JOZEF HUBERTUS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5926757</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5926757</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>HARDOUIN LARRY J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5966655</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5966655</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>DAJER MIGUEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6094585</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6094585</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Samsung Electronics Co., Ltd.</orgname>
+            <address>
+              <address-1>KR</address-1>
+              <country>KR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SAMSUNG ELECTRONICS</orgname>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Fox, Robert G.</name>
+            <address>
+              <address-1>Richardson, TX, US</address-1>
+              <city>Richardson</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Han, John C.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hunter, Daniel S.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A communication processor that uses a group of hardware buffer descriptors and a virtual array of buffer descriptors to control the communication ports of the communication processor.
+      <br/>
+      The virtual array of buffer descriptors is a data structure stored in a local memory that contains data fields that are similar to the hardware buffer descriptors of the communication processor.
+      <br/>
+      The processor swaps data between the hardware buffer descriptors and the virtual array of buffer descriptors to provide "just in time" storage of control and status information used by the communication ports to transmit and receive data.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD OF THE INVENTION</heading>
+    <p num="1">The present invention is directed, in general, to wireless communication networks and, more specifically, to a processor that uses a virtual buffer descriptor array to control communication ports of the processor.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      Reliable predictions indicate that there will be over 300 million cellular phone customers by the year 2000.
+      <br/>
+      In the U.S., cellular service is offered not only by dedicated cellular service providers, but also by the regional Bell companies, such as U.S. West, Bell Atlantic and Southwestern Bell, and the national long distance companies, such as AT&amp;T and Sprint.
+      <br/>
+      The enhanced competition has driven the price of cellular service down to the point where it is affordable to a large segment of the population.
+    </p>
+    <p num="3">
+      Wireless subscribers use a wide variety of wireless devices, including cellular phones, personal communication services (PCS) devices, and wireless modem-equipped personal computer (PCs), among others.
+      <br/>
+      The large number of subscribers and the many applications for wireless communications have created a heavy subscriber demand for RF bandwidth.
+      <br/>
+      To maximize usage of the available bandwidth, a number of multiple access technologies have been implemented to allow more than one subscriber to communicate simultaneously with each base transceiver station (BTS) in a wireless system.
+      <br/>
+      These multiple access technologies include time division multiple access (TDMA), frequency division multiple access (FDMA), and code division multiple access (CDMA).
+      <br/>
+      These technologies assign each system subscriber to a specific traffic channel that transmits and receives subscriber voice/data signals via a selected time slot, a selected frequency, a selected unique code, or a combination thereof.
+    </p>
+    <p num="4">
+      To further maximize frequency reuse, wireless carriers frequently implement smaller cells, sometimes referred to as "microcells" or "picocells." The base transceiver station in a microcell (or picocell) broadcasts at relatively lower power over a smaller geographical regions, so that cells may be packed tighter together.
+      <br/>
+      This requires a greater amount of infrastructure equipment, but a greater number of subscribers to be serviced by the entire wireless network.
+    </p>
+    <p num="5">
+      A base transceiver station in a wireless network contains numerous standard-commodity digital processors, such as the MPC860 PowerQUICC (tm)  from Motorola, that process the calls being handled by the base transceiver station.
+      <br/>
+      The digital processors establish, maintain, and terminate wireless connections between mobile stations (i.e., cell phones, PCS devices, wireless PCs, pagers, etc.) used by subscribers and the wireless network.
+      <br/>
+      The digital processors contain hardware communication ports that are used in the process of transmitting and receiving data in the base transceiver station.
+      <br/>
+      The communication ports are in turn controlled by internal registers, called buffer descriptors, which set up the communication ports.
+      <br/>
+      These registers form a buffer descriptor array that may be used to store status and control information about the communication ports and the data being communicated.
+    </p>
+    <p num="6">
+      The status and control information is used for both the transmission and the reception of data.
+      <br/>
+      This status and control information includes 1) the starting address of the data buffer holding the needed data, 2) the length of the data in the data buffer and 3) bits that may be used to activate and deactivate the digital processor or to indicate certain conditions, including errors.
+    </p>
+    <p num="7">
+      However, the architecture of digital processors provide only a relatively limited number of registers to be used as buffer descriptors.
+      <br/>
+      Since the buffer descriptors are used to control communication ports, and the communication ports control the number of calls handled by the base transceiver station, any limitation on the size of the buffer descriptor array also limits the throughput of the base transceiver station.
+      <br/>
+      If the transmitter buffer descriptors of a digital processor are filled when additional data packets are available for processing and transmission, the additional packet processing must wait until a transmitter buffer descriptor becomes available to store them.
+      <br/>
+      On the receiver side, if the receiver buffer descriptors are waiting to transfer data to the transmitter buffer descriptors while the transmitter buffer descriptors are unavailable, then incoming data to the receiver is lost because there are no registers in which to store the newly received data.
+    </p>
+    <p num="8">
+      There is therefore a need in the art for improved transceiver systems for use in wireless networks.
+      <br/>
+      In particular, there is a need for communications systems that are not limited by the hardware design of commercially available communications processors.
+      <br/>
+      More particularly, there is a need for communications systems that are able to expand the call handling capabilities of communications processors.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="9">
+      To address the above-discussed deficiencies of the prior art, it is a primary object of the present invention to provide, for use in a communications device, a transceiver controller that uses hardware buffer descriptors and a virtual array of buffer descriptors to control the communication ports of a communication processor.
+      <br/>
+      The virtual array of buffer descriptors is a data structure comprising data fields that is similar to the hardware buffer descriptors of the communication processor and provides "just in time" storage of control and status information used by the communication ports of the communication processor to transmit and receive data.
+      <br/>
+      An interrupt controller detects a full condition in the hardware receiver buffer descriptors and loads the contents of the hardware receiver buffer descriptors into a receiver virtual array of buffer descriptors with as many buffer descriptors as needed.
+      <br/>
+      After the receiver virtual array of buffer descriptors is loaded, the hardware receiver buffer descriptor is initialized to received more data.
+    </p>
+    <p num="10">
+      With respect to transmitter functions, the communication processor, under control of application software, takes outbound data from a receiver port or from other data sources in, or connected to, the transceiver controller and fills the transmitter virtual array of buffer descriptors and sets the proper control bits.
+      <br/>
+      An interrupt controller detects an emptiness condition, or is triggered by a timer, and moves the contents of the transmitter virtual array of buffer descriptors to the hardware transmitter buffer descriptors.
+      <br/>
+      The transmitter virtual array of buffer descriptors is cleared and control bits are reset to allow incoming data to be stored in the transmitter virtual array of buffer descriptors.
+    </p>
+    <p num="11">Accordingly, in one embodiment of the present invention, there is provided, for use in a communications network, a communications controller capable of transmitting outbound data to a receiving node and receiving incoming data from a transmitting node comprising: 1) a processor comprising: a) a plurality of transmit buffer descriptors, each of the plurality of transmit buffer descriptors comprising at least one register capable of storing transmit configuration information used by the processor to control a transmission of the outbound data; and b) a plurality of receive buffer descriptors, each of the plurality of receive buffer descriptors comprising at least one register capable of storing receive configuration information used by the processor to control a reception of the incoming data; and 2) a memory coupled to the processor and capable of storing the transmit configuration information in a virtual transmit buffer descriptors array and storing the receive configuration information in a virtual receive buffer descriptors array, wherein the processor transfers the receive configuration information from at least one of the plurality of receive buffer descriptors to the virtual receive buffer descriptors array when the plurality of receive buffer descriptors are full.</p>
+    <p num="12">According to another embodiment of the present invention, the processor transfers the transmit configuration information from the virtual transmit buffer descriptors array to at least one of the plurality of transmit buffer descriptors when the plurality of transmit buffer descriptors are available.</p>
+    <p num="13">According to yet another embodiment of the present invention, the processor further comprises a plurality of receiver ports capable of receiving the incoming data.</p>
+    <p num="14">According to still another embodiment of the present invention, the processor uses the receive configuration data to control an operation of at least one of the plurality of receiver ports.</p>
+    <p num="15">According to a further embodiment of the present invention, the processor further comprises a plurality of transmitter ports capable of transmitting the outbound data.</p>
+    <p num="16">According to a still further embodiment of the present invention, the processor uses the transmit configuration data to control an operation of at least one of the plurality of transmit ports.</p>
+    <p num="17">According to a yet further embodiment of the present invention, the virtual transmit buffer descriptors array comprises a high priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with high priority outbound data and a low priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with low priority outbound data.</p>
+    <p num="18">According to another embodiment of the present invention, the virtual receive buffer descriptors array comprises a high priority virtual receive buffer descriptors array capable of storing receive configuration data associated with high priority incoming data and a low priority virtual receive buffer descriptors array capable of storing receive configuration data associated with low priority incoming data.</p>
+    <p num="19">
+      The foregoing has outlined rather broadly the features and technical advantages of the present invention so that those skilled in the art may better understand the detailed description of the invention that follows.
+      <br/>
+      Additional features and advantages of the invention will be described hereinafter that form the subject of the claims of the invention.
+      <br/>
+      Those skilled in the art should appreciate that they may readily use the conception and the specific embodiment disclosed as a basis for modifying or designing other structures for carrying out the same purposes of the present invention.
+      <br/>
+      Those skilled in the art should also realize that such equivalent constructions do not depart from the spirit and scope of the invention in its broadest form.
+    </p>
+    <p num="20">
+      Before undertaking the DETAILED DESCRIPTION, it may be advantageous to set forth definitions of certain words and phrases used throughout this patent document: the terms "include" and "comprise," as well as derivatives thereof, mean inclusion without limitation; the term "or," is inclusive, meaning and/or; the phrases "associated with" and "associated therewith," as well as derivatives thereof, may mean to include, be included within, interconnect with, contain, be contained within, connect to or with, couple to or with, be communicable with, cooperate with, interleave, juxtapose, be proximate to, be bound to or with, have, have a property of, or the like; and the term "controller" means any device, system or part thereof that controls at least one operation, such a device may be implemented in hardware, firmware or software, or some combination of at least two of the same.
+      <br/>
+      It should be noted that the functionality associated with any particular controller may be centralized or distributed, whether locally or remotely.
+      <br/>
+      Definitions for certain words and phrases are provided throughout this patent document, those of ordinary skill in the art should understand that in many, if not most instances, such definitions apply to prior, as well as future uses of such defined words and phrases.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="21">
+      For a more complete understanding of the present invention, and the advantages thereof, reference is now made to the following descriptions taken in conjunction with the accompanying drawings, wherein like numbers designate like objects, and in which:
+      <br/>
+      FIG. 1 illustrates an exemplary wireless network according to one embodiment of the present invention;
+      <br/>
+      FIG. 2 illustrates an exemplary base transceiver station in accordance with one embodiment of the present invention;
+      <br/>
+      FIG. 3 illustrates a virtual array of buffer descriptors within a RAM and a processor in BTS controller in accordance with one embodiment of the present invention;
+      <br/>
+      FIG. 4 is a flow diagram illustrating a data receiving operation of a BTS controller containing a virtual array of buffer descriptors in accordance with one embodiment of the present invention; and
+      <br/>
+      FIG. 5 is a flow diagram illustrating a data transmitting operation of a BTS controller containing a virtual array of buffer descriptors in accordance with one embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="22">
+      FIGS. 1 through 5, discussed below, and the various embodiments used to describe the principles of the present invention in this patent document are by way of illustration only and should not be construed in any way to limit the scope of the invention.
+      <br/>
+      Those skilled in the art will understand that the principles of the present invention may be implemented in any suitably arranged communications network.
+    </p>
+    <p num="23">
+      The following descriptions of the present invention disclose a specific embodiment in which a communication processor in accordance with the principles of the present invention is incorporated into BTS controller in a wireless network.
+      <br/>
+      Those skilled in the art will understand that this is by way of example only and should not be construed to limit the types of devices in which the present invention may be implemented.
+      <br/>
+      In fact, a communication processor operating in conjunction with a virtual array of buffer descriptors may be implemented in a wide variety of both wireless and wireline communication systems, including switches, routers, bridges, concentrators, and the like.
+      <br/>
+      Those skilled in the art will be able to modify the specific embodiments disclosed herein in order to implement the present invention in those other types of communication equipment.
+    </p>
+    <p num="24">
+      FIG. 1 illustrates an exemplary wireless network 100 according to one embodiment of the present invention.
+      <br/>
+      The wireless telephone network 100 comprises a plurality of cell sites 121-123, each containing one of the base transceiver stations, BTS 101, BTS 102, or BTS 103.
+      <br/>
+      Base transceiver stations 101-103 are operable to communicate with a plurality of mobile stations (MS) 111-114.
+      <br/>
+      Mobile stations 111-114 may be any suitable cellular devices, including conventional cellular telephones, PCS handset devices, portable computers, metering devices, and the like.
+    </p>
+    <p num="25">
+      Dotted lines show the approximate boundaries of the cells sites 121-123 in which base stations 101-103 are located.
+      <br/>
+      The cell sites are shown approximately circular for the purposes of illustration and explanation only.
+      <br/>
+      It should be clearly understood that the cell sites may have other irregular shapes, depending on the cell configuration selected and natural and man-made obstructions.
+    </p>
+    <p num="26">
+      In one embodiment of the present invention, BTS 101, BTS 102, and BTS 103 may comprise a base station controller (BSC), as well as conventional base transceiver station equipment.
+      <br/>
+      A base station controller is a device that manages wireless communications resources, including the base transceiver station, for specified cells within a wireless communications network.
+      <br/>
+      A base transceiver station comprises the RF transceivers, antennas, and other electrical equipment located in each cell site.
+      <br/>
+      This equipment may include air conditioning units, heating units, electrical supplies, telephone line interfaces, and RF transmitters and RF receivers.
+    </p>
+    <p num="27">
+      BTS 101, BTS 102 and BTS 103 transfer voice and data signals between each other and the public telephone system (not shown) via communications line 131 and mobile switching center (MSC) 140. Communications line 131 may be any suitable connection means, including a T1 line, a T3 line, a fiber optic link, a network backbone connection, and the like.
+      <br/>
+      Mobile switching center 140 is well known to those skilled in the art.
+      <br/>
+      Mobile switching center 140 is a switching device that provides services and coordination between the subscribers in a wireless network and external networks, such as the public telephone system.
+      <br/>
+      In some embodiments of the present invention, communications line 131 may be several different data links, where each data link couples one of BTS 101, BTS 102, or BTS 103 to MSC 140.
+    </p>
+    <p num="28">
+      In the exemplary wireless network 100, MS 111 is located in cell site 121 and is in communication with BTS 101, MS 113 is located in cell site 122 and is in communication with BTS 102, and MS 114 is located in cell site 123 and is in communication with BTS 103.
+      <br/>
+      The MS 112 is also located in cell site 121, close to the edge of cell site 123.
+      <br/>
+      The direction arrow proximate MS 112 indicates the movement of MS 112 towards cell site 123.
+      <br/>
+      At some point, as MS 112 moves into cell site 123 and out of cell site 121, a "handoff" will occur.
+    </p>
+    <p num="29">
+      As is well know, the "handoff" procedure transfers control of a call from a first cell to a second cell.
+      <br/>
+      For example, if MS 112 is in communication with BTS 101 and senses that the signal from BTS 101 is becoming unacceptably weak, MS 112 may then switch to a BTS that has a stronger signal, such as the signal transmitted by BTS 103.
+      <br/>
+      MS 112 and BTS 103 establish a new communication link and a signal is sent to BTS 101 and the public telephone network to transfer the on-going voice, data, or control signals through BTS 103.
+      <br/>
+      The call is thereby seamlessly transferred from BTS 101 to BTS 103.
+      <br/>
+      An "idle" handoff is a handoff between cells of a mobile device that is communicating in the control or paging channel, rather than transmitting voice and/or data signals in the regular traffic channels.
+    </p>
+    <p num="30">
+      FIG. 2 illustrates exemplary base transceiver station 101 in accordance with one embodiment of the present invention.
+      <br/>
+      Base transceiver station 101 comprises BTS controller 210, transceiver interface 220, transceiver units 231-233, and antennas 241-243.
+      <br/>
+      BTS controller 215 further comprises processors 211-213 and random access memory (RAM) 215. Processors 211-213 process inbound data and outbound data and buffer the inbound and outbound data in RAM 215.
+      <br/>
+      RAM 215 is also used to hold the application programs executed by processors 211-213.
+      <br/>
+      Although processors 211-213 are shown sharing a common RAM 215, this is by way of illustration only.
+      <br/>
+      RAM 215 may actually be several distinct RAM memories, such that each of processor 211-213 is coupled to its own dedicated RAM.
+    </p>
+    <p num="31">
+      In the receive path, inbound RF signals transmitted by mobile stations in the coverage area of BTS 101 are picked by antennas 241, 242 and 243 and are demodulated by transceiver units 231, 232 and 233, respectively.
+      <br/>
+      The demodulated data are transferred by transceiver interface 220, which switches the inbound data to an appropriate one of processors 211, 212, or 213.
+    </p>
+    <p num="32">
+      In the transmit path, processors 211-213 produce outbound data that are transferred to transceiver interface 220, which switches the outbound data to an appropriate one of transceiver units 231, 232, or 233.
+      <br/>
+      Transceiver units 231-233 modulate the outbound data and transmit the outbound RF signals to mobile stations in the coverage area of BTS 101.
+    </p>
+    <p num="33">
+      FIG. 3 illustrates exemplary virtual array of buffer descriptors 370 within RAM 215 and processor 211 in BTS controller 210 in accordance with one embodiment of the present invention.
+      <br/>
+      Exemplary processor 211 comprises a CPU core 305, interrupt controller 310, transmit/receive (TX/RX) ports 315, input/output (I/O) interface (IF) 320, and a group of registers that comprise transmit/receive (TX/RX) buffer descriptors 330.
+      <br/>
+      Data are transferred between these units via internal bus 340.
+      <br/>
+      RAM 215 comprises transmit (TX) data buffer 350, receive (TX) data buffer 360, and a virtual array of buffer descriptors (VABD) 370.
+    </p>
+    <p num="34">
+      CPU core 305 comprises the fundamental arithmetic and logic circuits, data and instruction caches, and other sequencing logic that controls the overall operation of processor 211.
+      <br/>
+      Processor 211 receives demodulated incoming data (RX DATA IN) from transceiver interface 220 via I/O IF 320 and TX/RX ports 315.
+      <br/>
+      Processor 211 also transmits outbound data (TX DATA OUT) to transceiver interface 220 via I/O IF 320 and TX/RX ports 315.
+      <br/>
+      TX/RX ports 315 are configured by status and control bits, data length, and data address information stored in TX/RX buffer descriptors 320.
+      <br/>
+      This configuration information allows TX/RX ports 315 to transmit and receive according to different protocols.
+      <br/>
+      The actual transmit data and receive data are stored in transmit data buffer 350 and receive data buffer 360 in RAM 215.
+    </p>
+    <p num="35">
+      The allocation of TX/RX buffer descriptors 330 between TX/RX ports 315 may be user defined.
+      <br/>
+      Thus, TX/RX buffer descriptors 330 may be logically subdivided into transmit buffer descriptors table 331 and receive buffer descriptors table 332.
+      <br/>
+      The transmit buffer descriptors are arbitrarily labeled "TBDl" through "TBDn" and the receive buffer descriptors are arbitrarily labeled "RBD1" through "RBDm," where the indexes "n" and "m" may or may not be equal.
+      <br/>
+      Each of TBD1-TBDn points to a location in transmit data buffer 350 where outbound data are stored.
+      <br/>
+      Each of RBD1-RBDn points to a location in receive data buffer 360 where inbound data are to be stored.
+    </p>
+    <p num="36">
+      If the hardware receive buffer descriptors, RBD1-RBDm, are filled, incoming data cannot be received and an error is recorded.
+      <br/>
+      Additional incoming data is lost as long as the hardware receive buffer descriptors stay in this state.
+      <br/>
+      A buffer descriptor overflow error occurs and an error counter is incremented.
+      <br/>
+      The error may be detected by an interrupt service routine executed by interrupt controller 310, or by a polling application.
+      <br/>
+      The interrupt controller 310 or the polling application reports the error to a fault management system, and moves the contents of RBD1-RBDm to virtual array of buffer descriptors (VABD) 370 in RAM 215.
+    </p>
+    <p num="37">
+      VABD 370 contains data structures similar to TX/RX buffer descriptors in processor 211.
+      <br/>
+      VABD 370 is logically subdivided into virtual transmit buffer descriptors table 371 and virtual receive buffer descriptors table 372.
+      <br/>
+      The virtual transmit buffer descriptors are arbitrarily labeled as "VTBD1" through "VTBDn" and the virtual receive buffer descriptors are arbitrarily labeled "VRBD1" through "VRBDm," where the indexes "n" and "m" may or may not be equal.
+      <br/>
+      Each of VTBD1-VTBDn points to a location in transmit data buffer 350 where outbound data are stored.
+      <br/>
+      Each of VRBD1-VRBDn points to a location in receive data buffer 360 where inbound data are to be stored.
+    </p>
+    <p num="38">
+      FIG. 4 is a flow diagram 400 illustrating a data receiving operation of BTS controller 210 and virtual array of buffer descriptors 370 in accordance with one embodiment of the present invention.
+      <br/>
+      In the ordinary course of operation, the receive side of one of TX/RX ports 315 is enabled and the RX port accesses a corresponding one of RBD1-RBDn, such as RBD2 for example, in TX/RX buffer descriptors 330.
+      <br/>
+      Depending on the values stored in RBD2, processor 211 may perform required protocol processing and store the resultant data in the location in receive data buffer 360 pointed to by RBD2 (process step 405).
+    </p>
+    <p num="39">
+      At some point, an interrupt service routine or a polling application detects a full condition in RBD1-RBDm and moves the contents of RBD1-RBDm from TX/RX buffer descriptors 330 into VRBD1-VRBDm in VABD 370 in RAM 215 (process step 410).
+      <br/>
+      The address of the newly allocated memory replaces the starting address of the received data and the control bits are reset to allow incoming data into TX/RX buffer descriptors 330 (process step 415).
+      <br/>
+      Application software removes the address and length of the data packet from each of VRBD1-VRBDm and either transfers the data to a transmission port or processes the data if it is a message (process step 420).
+    </p>
+    <p num="40">
+      If VRBD1-VRBDm are filled and RBD1-RBDm are also filled, another error indicating that virtual receive buffer descriptors table 372 is full occurs, and the fault management system is informed of this condition by the application software or interrupt service routine that discovers the full condition.
+      <br/>
+      Virtual receive buffer descriptors table 372 is emptied by the application software and the data from each of VRBD1-VRBDm is either routed or processed.
+    </p>
+    <p num="41">
+      FIG. 5 is a flow diagram 400 illustrating a data transmitting operation of BTS controller 210 and VABD 370 in accordance with one embodiment of the present invention.
+      <br/>
+      In the ordinary course of operation, the transmit side of one of TX/RX ports 315 is enabled and the TX port accesses a corresponding one of VTBD1-VRBDn, such as VTBD2 for example, in VABD 370 (process step 505).
+      <br/>
+      This may be done by application software that places outbound data in VTBD2 from either a receiver port in RX/TX ports 315 or from any other data generating source in BTS 101.
+      <br/>
+      The application software or other data source fills each of VTBD1-VTBDn and sets the proper control bits.
+    </p>
+    <p num="42">
+      At some point, a timer function, a polling application, or an interrupt service routine that detects an empty condition in TBD1-TBDn, moves the contents of VTBD1-VTBDn from VABD 370 in RAM 215 into TBD1-TBDn in TX/RX buffer descriptors 330 in processor 211 (process step 510).
+      <br/>
+      The addresses of VTBD1-VTBDn are cleared and control bits are reset to allow new outbound data to be stored in VTBD1-VTBDn.
+      <br/>
+      The control bits of TBD1-TBDn are then set to start transmission (process step 515).
+    </p>
+    <p num="43">
+      If VTBD1-VTBDn are filled before the interrupt service routine responding moves the contents of VTBD1-VTBDn into TBD1-TBDn, then an error is returned to any application that attempts to add more buffer descriptors to virtual transmit buffer descriptors table 371.
+      <br/>
+      The application will increment an error counter indicting a buffer descriptor "under run" condition.
+      <br/>
+      When one of TBD1-TBDn completes the transmission of outbound data, the memory used by the outbound data is released by the interrupt service routine (process step 520).
+    </p>
+    <p num="44">
+      The present invention uses a software mechanism to expand processor capabilities that are now served handled exclusively by hardware.
+      <br/>
+      A virtual array of buffer descriptors may be implemented in any processor that uses a hardware memory-mapped array of buffer descriptors.
+      <br/>
+      The present invention increases the performance of any telecommunication equipment in which it is implemented.
+      <br/>
+      The result is to improve call traffic throughput, allowing the equipment to handle more calls than it could otherwise handle without the disclosed invention.
+    </p>
+    <p num="45">
+      In a preferred embodiment of the present invention, multiple virtual arrays of buffer descriptors are implemented in order to allow increased prioritization of the transmission of data types.
+      <br/>
+      In telecommunications, one type of data transmission frequently has a higher priority than other types of data transmissions.
+      <br/>
+      For example, data containing an encoded voice signal requires delivery more promptly than a message regarding some routine system status information, though both of these data types can be created at the same time.
+      <br/>
+      Data types can be prioritized by logically subdividing the transmit VABD into a high-priority transmit VABD and a low-priority transmit VABD and by subdividing the receive VABD into a high-priority receive VABD and a low-priority receive VABD.
+    </p>
+    <p num="46">
+      Communications processors incorporating hardware buffer descriptors, such as processors 211-213 described above, are well known in the art.
+      <br/>
+      For example, the Motorola MPC860 PowerQUICC (tm)  processor is one such processor.
+      <br/>
+      Additional details regarding the Motorola MPC860 PowerQUICC (tm)  processor are contained in the "MPC860 PowerQUICC (tm)  User's Manual," Motorola, Inc., 1996, which is hereby incorporated by reference into the present disclosure as if fully set forth herein.
+      <br/>
+      The MPC860 PowerQUICC (tm)  User's Manual may be obtained at the web site of Motorola, Inc.
+    </p>
+    <p num="47">Although the present invention has been described in detail, those skilled in the art should understand that they can make various changes, substitutions and alterations herein without departing from the spirit and scope of the invention in its broadest form.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>For use in a communications network, a communications controller capable of transmitting outbound data to a receiving node and receiving incoming data from a transmitting node comprising:</claim-text>
+      <claim-text>a processor comprising:</claim-text>
+      <claim-text>- a plurality of transmit buffer descriptors, each of said plurality of transmit buffer descriptors comprising at least one register capable of storing transmit configuration information used by said processor to control a transmission of said outbound data;</claim-text>
+      <claim-text>and - a plurality of receive buffer descriptors, each of said plurality of receive buffer descriptors comprising at least one register capable of storing receive configuration information used by said processor to control a reception of said incoming data;</claim-text>
+      <claim-text>and a memory coupled to said processor and capable of storing said transmit configuration information in a virtual transmit buffer descriptors array and storing said receive configuration information in a virtual receive buffer descriptors array, wherein said processor transfers said receive configuration information from at least one of said plurality of receive buffer descriptors to said virtual receive buffer descriptors array when said plurality of receive buffer descriptors are full.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The communications controller set forth in claim 1 wherein said processor transfers said transmit configuration information from said virtual transmit buffer descriptors array to at least one of said plurality of transmit buffer descriptors when said plurality of transmit buffer descriptors are available.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The communications controller set forth in claim 1 wherein said processor further comprises a plurality of receiver ports capable of receiving said incoming data.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The communications controller set forth in claim 3 wherein said processor uses said receive configuration data to control an operation of at least one of said plurality of receiver ports.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The communications controller set forth in claim 1 wherein said processor further comprises a plurality of transmitter ports capable of transmitting said outbound data.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The communications controller set forth in claim 5 wherein said processor uses said transmit configuration data to control an operation of at least one of said plurality of transmit ports.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The communications controller set forth in claim 1 wherein said virtual transmit buffer descriptors array comprises a high priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with high priority outbound data and a low priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with low priority outbound data.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The communications controller set forth in claim 1 wherein said virtual receive buffer descriptors array comprises a high priority virtual receive buffer descriptors array capable of storing receive configuration data associated with high priority incoming data and a low priority virtual receive buffer descriptors array capable of storing receive configuration data associated with low priority incoming data.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. For use in a wireless network, a base transceiver station (BTS) capable of transmitting outbound data to a mobile station and receiving incoming data from said mobile station, said base transceiver station comprising: a plurality of transceivers capable of transmitting said outbound data and receiving said incoming data; a BTS controller coupled to said plurality of transceivers comprising: a processor comprising: - a plurality of transmit buffer descriptors, each of said plurality of transmit buffer descriptors comprising at least one register capable of storing transmit configuration information used by said processor to control a transmission of said outbound data;</claim-text>
+      <claim-text>and - a plurality of receive buffer descriptors, each of said plurality of receive buffer descriptors comprising at least one register capable of storing receive configuration information used by said processor to control a reception of said incoming data;</claim-text>
+      <claim-text>and a memory coupled to said processor and capable of storing said transmit configuration information in a virtual transmit buffer descriptors array and storing said receive configuration information in a virtual receive buffer descriptors array, wherein said processor transfers said receive configuration information from at least one of said plurality of receive buffer descriptors to said virtual receive buffer descriptors array when said plurality of receive buffer descriptors are full.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The base transceiver station set forth in claim 9 wherein said processor transfers said transmit configuration information from said virtual transmit buffer descriptors array to at least one of said plurality of transmit buffer descriptors when said plurality of transmit buffer descriptors are available.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The base transceiver station set forth in claim 9 wherein said processor further comprises a plurality of receiver ports capable of receiving said incoming data.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The base transceiver station set forth in claim 11 wherein said processor uses said receive configuration data to control an operation of at least one of said plurality of receiver ports.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The base transceiver station set forth in claim 9 wherein said processor further comprises a plurality of transmitter ports capable of transmitting said outbound data.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The base transceiver station set forth in claim 13 wherein said processor uses said transmit configuration data to control an operation of at least one of said plurality of transmit ports.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The base transceiver station set forth in claim 9 wherein said virtual transmit buffer descriptors array comprises a high priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with high priority outbound data and a low priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with low priority outbound data.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The base transceiver station set forth in claim 9 wherein said virtual receive buffer descriptors array comprises a high priority virtual receive buffer descriptors array capable of storing receive configuration data associated with high priority incoming data and a low priority virtual receive buffer descriptors array capable of storing receive configuration data associated with low priority incoming data.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. For use in a communications processor capable of transmitting outbound data to a receiving node and receiving incoming data from a transmitting node, the method comprising the steps of: storing transmit configuration information used by the processor to control a transmission of the outbound data in a plurality of transmit buffer descriptors in the processor, each of the plurality of transmit buffer descriptors comprising a data register;</claim-text>
+      <claim-text>and storing receive configuration information used by the processor to control a reception of the incoming data in a plurality of receive buffer descriptors, each of the plurality of receive buffer descriptors comprising a data register;</claim-text>
+      <claim-text>and when the plurality of receive buffer descriptors are full, transferring the receive configuration information from at least one of the plurality of receive buffer descriptors to a virtual receive buffer descriptors array disposed in a memory coupled to the processor.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method set forth in claim 17 wherein the virtual receive buffer descriptors array comprises a high priority virtual receive buffer descriptors array capable of storing receive configuration data associated with high priority incoming data and a low priority virtual receive buffer descriptors array capable of storing receive configuration data associated with low priority incoming data.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method set forth in claim 17 including the further step of transferring the transmit configuration information from a virtual transmit descriptors array disposed in the memory to at least one of the plurality of transmit buffer descriptors when the plurality of transmit buffer descriptors are available.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The method set forth in claim 19 wherein the virtual transmit buffer descriptors array comprises a high priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with high priority outbound data and a low priority virtual transmit buffer descriptors array capable of storing transmit configuration data associated with low priority outbound data.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

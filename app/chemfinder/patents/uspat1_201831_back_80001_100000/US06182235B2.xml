@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182235B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182235</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182235</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22842319" extended-family-id="42109117">
+      <document-id>
+        <country>US</country>
+        <doc-number>09224813</doc-number>
+        <kind>A</kind>
+        <date>19981230</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09224813</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165788</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>22481398</doc-number>
+        <kind>A</kind>
+        <date>19981230</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09224813</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   1/025       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>1</main-group>
+        <subgroup>025</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>713501000</text>
+        <class>713</class>
+        <subclass>501000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-001/025</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>1</main-group>
+        <subgroup>025</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-001/025</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>1</main-group>
+        <subgroup>025</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>19</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>6</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6182235</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Microcontroller with a user configurable pulse width modulator</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MITRA SUMIT K</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5577235</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5577235</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>SOENEN ERIC G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5615228</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5615228</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="3">
+          <text>LITTLE WENDELL L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4908790</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4908790</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>LITTLE WENDELL L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5237699</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5237699</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>LITTLE WENDELL L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5303390</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5303390</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>GRIDER STEPHEN N, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5515540</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5515540</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>LITTLE WENDELL L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5754462</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5754462</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>LITTLE WENDELL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832207</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832207</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>LITTLE WENDELL L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5903767</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5903767</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Dallas Semiconductor Corporation</orgname>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>DALLAS SEMICONDUCTOR</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Ma, Edward Tang Kwai</name>
+            <address>
+              <address-1>Plano, TX, US</address-1>
+              <city>Plano</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Taylor, III, Frank Victor</name>
+            <address>
+              <address-1>Highlandvillage, TX, US</address-1>
+              <city>Highlandvillage</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Wong, Sai Bun Samuel</name>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Jenkens &amp; Gilchrist</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Heckler, Thomas M.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A microcontroller integrated circuit incorporating a user configurable pulse width modulator.
+      <br/>
+      The pulse width modulator circuitry is configurable to be a single, for example 32-bit pulse width modulator, or a plurality of pulse width modulators each having a bit width that is divisible by the single 32-bit pulse width modulator (e.g., 2, 4, 8 or 16-bit pulse width modulators).
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE PRESENT INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Technical Field of the Invention
+    </p>
+    <p num="2">The present invention relates to integrated circuit devices and more particularly to microcontrollers that incorporate pulse width modulation circuitry.</p>
+    <p num="3">2. Description of Related Art</p>
+    <p num="4">
+      The 8051 style microcontroller core is a microcontroller core that is commonly used in "embedded control" applications.
+      <br/>
+      The term "8051 microcontroller" hereinafter includes any microcontroller that executes, at least, a substantial portion of the well-known 8051 microcontroller instruction set.
+      <br/>
+      Embedded microcontrollers are frequently found in appliances (microwave ovens, toaster ovens, mixers, bread making machines), computers and computer related equipment (printers, modems, I/O cards, disk drives, scanners), automotive related devices (engine control, suspension control, diagnostics, traction control, anti-lock brakes), and manufacturing machinery (numeric control, stepper motor control, hydraulic presses, machine control, robotic control).
+      <br/>
+      Often more than one microcontroller can be found in a given machine, unit or device.
+    </p>
+    <p num="5">
+      An 8-bit microcontroller is designed into many products and devices because of its small size, low power consumption and versatility.
+      <br/>
+      As the market for 8-bit microcontrollers continues to grow, manufacturers of microcontrollers scramble to make more efficient and useful microcontrollers which meet the needs of the industry.
+    </p>
+    <p num="6">
+      Some microcontrollers include pulse width modulation circuitry in the integrated circuit.
+      <br/>
+      To date there have been drawbacks to the pulse width modulators incorporated into microcontroller circuitry.
+      <br/>
+      Such drawbacks include the inability of the user to change important aspects of the pulse width modulator such as the bit-width or resolution.
+      <br/>
+      Furthermore, prior pulse width modulators found in microcontrollers cannot be concatenated or divided to establish one large pulse width modulator or a plurality of smaller bit-width pulse width modulators.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">It is an object of the present invention to provide a single integrated circuit which combines a microcontroller with a user configurable pulse width modular.</p>
+    <p num="8">It is an object of the present invention to provide a microcontroller and a user configurable pulse width modulator on the same integrated circuit wherein the bit width of the pulse width modulator can be configured by a user.</p>
+    <p num="9">It is also an object of the present invention to provide a user configurable pulse width modulator that can be divided into a plurality of pulse width modulators.</p>
+    <p num="10">These and other objects are provided by the below described invention by providing a microcontroller that includes a user configurable pulse width modulator circuit that can be configured to provide, for example, one 16-bit, two 8-bit, or four 4-bit pulse width modulators.</p>
+    <p num="11">A more complete appreciation of the present invention and the scope thereof can be obtained from the accompanying drawings which are briefly summarized below, the following detailed description of the presently-preferred embodiments of the invention, and the appended claims.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="12">
+      A more complete understanding of the method and apparatus of the present invention may be obtained by referring to the following Detailed Description of the Presently Preferred Exemplary Embodiments of the present invention in conjunction with the accompanying drawings wherein:
+      <br/>
+      FIG. 1 depicts a block diagram of an exemplary microcontroller incorporating an exemplary user configurable pulse width modulator;
+      <br/>
+      FIG. 2 depicts an exemplary microcontroller core of the exemplary micrcontroller of FIG. 1;
+      <br/>
+      FIG. 3 depicts a block diagram of exemplary pulse width modulator circuitry in accordance with the present invention;
+      <br/>
+      FIG. 4 depicts a block diagram of an exemplary clock generator in accordance with the present invention;
+      <br/>
+      FIG. 5 depicts a block diagram of an exemplary pulse width modulator generator in accordance with the present invention; and
+      <br/>
+      FIG. 6 depicts a high level schematic/block diagram of an exemplary pulse width modulator configuration.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PRESENTLY PREFERRED EXEMPLARY EMBODIMENTS</heading>
+    <p num="13">
+      The present invention will now be described more fully hereinafter with reference to the accompanying drawings, in which preferred embodiments of the invention are shown.
+      <br/>
+      This invention may, however, be embodied in many different forms and should not be construed as limited to the embodiments set forth herein; rather, these embodiments are provided so that this disclosure will be thorough and complete, and will fully convey the scope of the invention to those skilled in the art.
+    </p>
+    <p num="14">
+      An exemplary microcontroller is preferably a "high speed" 8-bit microcontroller operating at a crystal oscillator speed of up to about 33 MHZ.
+      <br/>
+      It is compatible with the 8051 microcontroller instruction set and offers additional hardware and firmware capabilities beyond the standard 8051 instruction set.
+      <br/>
+      Furthermore, the exemplary microcontroller may include an 8051-compatible high-speed microcontroller core which may have been redesigned to reduce the original 8051's 12 clocks per instruction cycle to four clocks per instruction cycle, while using less power.
+    </p>
+    <p num="15">
+      In addition to providing standard 8051 functions with higher throughput, the exemplary microcontroller may include four 8-bit pulse width modulated output channels that generate programmable lengths and intervals.
+      <br/>
+      Each pulse width modulator has a dedicated clock generator that accepts one of four internal clock sources or external clocks as its clock reference.
+      <br/>
+      The exemplary four 8-bit pulse width modulators can be configured into two 16-bit pulse width modulators to provide longer repetition intervals and increased pulse width resolutions.
+    </p>
+    <p num="16">
+      A preferred exemplary microcontroller may include a variety of features.
+      <br/>
+      Such features may include, but are not limited to, being 8051 instruction set compatible; having bi-directional I/O ports; having three 16-bit timers/counters with selectable up/down count as well as capture and compare features; having a scratchpad RAM; having a power on reset flag; having a stop mode which exits on a reset pulse; and utilizing low power CMOS logic.
+    </p>
+    <p num="17">
+      The preferred microcontroller has a four cycle 8051 microcontroller style core which operates at a clock rate of about 0 to 33 MHZ.
+      <br/>
+      Higher clock rates are potentially achievable.
+      <br/>
+      It may contain bandgap circuitry to prevent low or high input power crashes.
+      <br/>
+      The bandgap circuitry may comprise a bandgap reference reset and/or a power-up reset time-out circuit.
+    </p>
+    <p num="18">
+      The exemplary microcontroller further contains useful circuitry and functionalities.
+      <br/>
+      The exemplary microcontroller provides six external and ten internal interrupt sources.
+      <br/>
+      It has 1K bytes of on-chip data SRAM, 8K bytes of EPROM.
+      <br/>
+      The microcontroller may include timed access protection circuitry for control of "sensitive" secure or anti-pirating functions such as preventing accidental writes to critical functions.
+      <br/>
+      A programmable watchdog timer and a selectable internal ring oscillator for lower power operation may also be provided.
+      <br/>
+      There may also be two full-duplex hardware serial ports and four pulse width modulated output channels.
+      <br/>
+      The preferred exemplary microcontroller may further include an 8-channel 10-bit analog to digital ("A/D") converter as well as an oscillator failure detection circuit.
+    </p>
+    <p num="19">
+      The exemplary embodiment provides four, or potentially more, pulse width modulated output channels.
+      <br/>
+      There may also be four capture and three compare logic modules.
+      <br/>
+      The preferred 8051 style 8-bit microcontroller core can also have a programmable data pointer decrement function with a toggle between two or more data pointers.
+    </p>
+    <p num="20">
+      FIG. 1 depicts the main functional blocks of a preferred exemplary 8051 style microcontroller 10.
+      <br/>
+      It is understood that various aspects of the present invention are not limited to incorporation into an 8051 style microcontroller, but could also be incorporated into virtually any 8-bit, 16-bit, 32-bit, etc. microcontroller.
+      <br/>
+      A central processing unit, CPU, 12 contains an arithmetic logic unit, ALU, for calculations and logic functions, as well as the accumulator, program status words and the B-register (see FIG. 2).
+    </p>
+    <p num="21">
+      A program counter and data pointer block, PC and DPTR, 14 block contains the program counter and two data pointers (DPTR and DPTR 1), which support fast data movement in data memory.
+      <br/>
+      The PC and DPTR 14 block also contains a data pointer select, DPS, register to support user selected data pointer options.
+    </p>
+    <p num="22">An internal registers block 16 is preferably an on-chip RAM that is divided into a scratchpad register area and a special function register (SFR) area.</p>
+    <p num="23">An instruction decode and control block 18 contain the instruction register, the NOR-plane and the timing plane of a programmable logic array ("PLA") which generates the majority of the control signals for each instruction.</p>
+    <p num="24">
+      A stack pointer 20 contains a stack pointer register that is accessed during interrupts, LCALL, PUSH, and POP instructions.
+      <br/>
+      The stack pointer block 20 can be used to address memory locations in the scratchpad RAM.
+    </p>
+    <p num="25">
+      An interrupt block 22 contains the control logic that detects and services all incoming interrupts from the micro.
+      <br/>
+      This interrupt block 22 can detect an interrupt and force an "LJMP" instruction into the instruction register.
+      <br/>
+      The "special function registers" which directly support the interrupts are contained in this interrupt block 22.
+    </p>
+    <p num="26">
+      A timers block 24 includes three timers (timer 0, timer 1, and timer 2) as well as the necessary control logic for the timers.
+      <br/>
+      The special function registers that directly support a timer function and a capture/compare logic modules are also located in this block 24.
+    </p>
+    <p num="27">
+      A power management block 26 includes a band-gap reference and analog circuitry to monitor power supply conditions to the integrated circuit.
+      <br/>
+      A watchdog timer and reset block 28 contains reset control logic, a watchdog timer register and a power control register which operates in communication with the power management block 26.
+    </p>
+    <p num="28">
+      A memory control and clocks block 30 generates four phases of clocks C1-C4, machine cycle clocks B1-B5, and the peripheral clocks P1-P4.
+      <br/>
+      The clock block 30 also includes a clock control register.
+    </p>
+    <p num="29">
+      A self-contained 8-channel 10-bit A/D converter 30 and four pulse width modulators are incorporated to support real-time applications.
+      <br/>
+      The A/D converter contains a 10-bit successive approximation analog to digital converter, an eight input analog multiplexer, an analog (digital) comparator, control SFRs and a result register.
+      <br/>
+      The pulse width modulators contain an independent selectable prescaled clock reference and external connections for clock references for their clock generators.
+      <br/>
+      The output of the clock generator is used for clocking the 8-bit free running timer in the pulse generator.
+      <br/>
+      SFRs provide programmable clock selection and controls.
+      <br/>
+      Each pulse width (PWM) modulator has its own frequency generator register and pulse width value register.
+      <br/>
+      The four 8-bit PWM channels can be used as two independent 16-bit PWM channels or be configured to be a plurality of variable length pulse width modulators (PWMs).
+    </p>
+    <p num="30">
+      Seven I/O ports 32 are composed of parallel bi-directional pins, with each pin having an associated latch accessed via a SFR.
+      <br/>
+      Ports 0 to 5 are 8-bit ports.
+      <br/>
+      Port 0 and Port 2 can be used as a memory bus for off-chip memory access.
+      <br/>
+      Ports 1 and 3 have alternate functions that can be used in place of general I/O.
+      <br/>
+      Port 1 supports timer 2, serial Port 1 and four external capture trigger inputs.
+      <br/>
+      Port 3 supports serial port 0, two external interrupts, external inputs for Timers 0 and 1, and control strobes for external memory access.
+      <br/>
+      Port 4 can be used as Timer 2 compare match outputs.
+      <br/>
+      Port 5 provides analog inputs to the A/D converter.
+      <br/>
+      Port 6 is a 7-bit port, supporting the pulse width modulators' I/O and the A/D converter external trigger.
+    </p>
+    <p num="31">
+      The exemplary microcontroller 10 is a high speed 8-bit microcontroller designed with an 8-channel 10-bit A/D converter and four pulse width modulators that are user configurable.
+      <br/>
+      Referring to FIG. 2, the exemplary high speed core 40 is an accumulator based architecture using internal registers for data storage and peripheral control.
+      <br/>
+      It executes the industry standard 8051 instruction set with a machine cycle that consists of four periods of the base oscillator, as compared to a machine cycle in the original 8051 microcontroller which consists of twelve cycles of the base oscillator.
+    </p>
+    <p num="32">
+      The exemplary CPU 50 operates at four clocks per machine cycle.
+      <br/>
+      The main functional blocks of the exemplary microcontroller core is illustrated in FIG. 2.
+      <br/>
+      In general, an instruction is fetched and sent over the 8-bit internal data bus to a register of the execution unit ALU.
+      <br/>
+      The arithmetic logic unit, ALU 42, performs math functions, logical operations and makes comparisons and general decisions.
+      <br/>
+      The ALU 42 primarily uses the Accumulator 44 and a B register 46 as the source or destination for operations.
+      <br/>
+      It is understood that the CPU may operate at 1, 2, 4, 8, 12 or other numbers of clock cycles per machine cycles without leaving the spirit of the present invention.
+    </p>
+    <p num="33">
+      All peripherals and operations that are not explicit instructions in the exemplary microcontroller are controlled via Special Function Registers (SFRs) 48. The Accumulator 44 is the primary register used in the CPU 50.
+      <br/>
+      It is the source or destination of most operations.
+      <br/>
+      The B register 46 is used as the second 8-bit argument in multiply and divide operations.
+      <br/>
+      When not used for these purposes, the B register 46 can be used as a general purpose register.
+    </p>
+    <p num="34">A Program Status Word (PSW) 52 contains several flags, including the Carry Flag, Auxiliary Carry Flag, General purpose Flag, Register Bank Select bits, Overflow Flag, and Parity Flag.</p>
+    <p num="35">
+      The Data Pointers (DPTR, DPTR1) 54, 55 are used to assign a memory address for a MOVX instruction.
+      <br/>
+      Two pointers are useful when moving data from one memory area to another memory area, or when using a memory mapped peripheral for both source and destination addresses.
+    </p>
+    <p num="36">
+      The exemplary microcontroller 10 provides a stack in the on-chip RAM area 56 (FIG. 1).
+      <br/>
+      The Stack Pointer 20 denotes the register location at the top of the stack, which is the last used value.
+    </p>
+    <p num="37">
+      Referring to both FIGS. 1 and 2, there are three main internal buses: one 16-bit address bus 58 and two 8-bit data buses (DA 60 and DB 62).
+      <br/>
+      The address bus provides address for opcode/operand fetching and all external instructions.
+      <br/>
+      The DA data bus 60 is used for addressing of SFRs 48 for fetched instructions and operands from external memory, and for providing addresses to the internal stack.
+      <br/>
+      The DB data bus 62 is used for data exchange between SFRs 48 and for output of all ALU 42 operations.
+    </p>
+    <p num="38">
+      The Special Function Registers (SFRs) 48 provide the user selected functions that are not explicit instructions in the exemplary microcontroller 10, to control peripherals and programming modes.
+      <br/>
+      In many cases, an SFR controls an individual function or reports the function's status.
+      <br/>
+      The SFRs 48 preferably reside in register locations 80h-FFh and are only accessible by direct addressing.
+      <br/>
+      SFRs that end in 0h or 8h are preferably bit addressable.
+    </p>
+    <p num="39">
+      All standard SFR locations from the 8051 style microcontroller are duplicated in the exemplary microcontroller 10.
+      <br/>
+      Several SFRs have been added to aid the additional novel features of the exemplary microcontroller 10.
+      <br/>
+      Most of these additional features are controlled by bits in SFRs located in unused SFR locations in the standard 8051 SFR map.
+      <br/>
+      This allows for increased functionality while maintaining complete instruction set compatibility.
+    </p>
+    <p num="40">
+      The exemplary microcontroller 10 incorporates four independent 8-bit pulse width modulators (PWMs) with independently selectable clock sources for their timer function.
+      <br/>
+      Each pulse width modulator is capable of generating an output waveform with a programmable duty cycle of n/256%, where n is between 0 and 255.
+      <br/>
+      The four 8-bit PWMs can be used as two 16-bit PWMs or two 8-bit PWMs and one 16-bit PWM by setting the corresponding 16-bit mode enable bits in the PWM Mode SFR.
+      <br/>
+      FIG. 3 illustrates the functional blocks for the pulse width modulators in the 8-bit mode.
+      <br/>
+      It is understood that the plurality of pulse width modulators do not each have to be the same bit-size.
+      <br/>
+      For example, each pulse width modulator circuit could be a different bit-size and still be concatentable.
+    </p>
+    <p num="41">
+      Within the pulse width modulator circuitry 70, the prescaler 72 takes the CPU machine clock (MCLK) and divides it to produce four reduced clock outputs to the clock generators.
+      <br/>
+      The CPU machine clock period tMCLK is derived from the oscillator clock period multiplied by 1, 2, 4 or 1024 as determined by programming of the system clock divider bits.
+      <br/>
+      The prescaler 72 is capable of generating four clock speeds: tMCLK * 1, TMCLK * 4, tMCLK * 16, and tMCLK * 64.
+      <br/>
+      All clock speeds are available simultaneously if required.
+      <br/>
+      It is understood that other multipliers could also be used thereby producing a wider variety of clock speeds.
+    </p>
+    <p num="42">
+      Four substantially identical clock generators 74, one for each of the four independent pulse width generators 76, each may contain an 8-bit auto-reloadable counter that provides a selectable clock frequency to an 8-bit free running timer contained therein.
+      <br/>
+      The timer value is compared to zero and to a user selectable value to set and reset a flip-flop, thereby determining and establishing the PWM duty cycle.
+    </p>
+    <p num="43">
+      All four clock generators 74 are identical and operate substantially independent of each other.
+      <br/>
+      Each clock generator 74 accepts either the prescaled clock outputs or an external pin signal as inputs.
+      <br/>
+      PWMC0 may be selected as the external clock generator input for PWM0 and PWM1.
+      <br/>
+      PWMC1 may be selected as the external clock generator input for PWM2 and PWM3.
+      <br/>
+      If either of the external PWMC pins is to be used as the clock source, then the associated port bit latch must be programmed as an input by setting it to 1 to enable the alternate function of the pin.
+      <br/>
+      The external clock sources are sampled and synchronized to the internal CPU timing as with other 8051 compatible timer inputs.
+      <br/>
+      The dotted PWMC busses indicate that an external clock source potentially can clock any combination of the four clock generators.
+    </p>
+    <p num="44">
+      FIG. 4 shows the exemplary clock generator 80 functional blocks.
+      <br/>
+      There are five clock sources available to the clock generators, four of which are created and distributed by the prescaler 72.
+    </p>
+    <p num="45">Each clock generator, via the clock select Register 82, selects one of the five clock sources to drive an 8-bit auto-reloadable counter 84 by programming its associated clock select bits in the clock select registers 82.</p>
+    <p num="46">
+      The counter 84 output provides a divide by N+1 selectable frequency for its PWM channel.
+      <br/>
+      N is the value programmed into the frequency select register 86 of the PWM channel.
+      <br/>
+      When a value of 00h is programmed into the counter the input clock frequency is passed through as the clock output to the channel's pulse width generator 76.
+      <br/>
+      A value of FFh results in the clock input frequency being divided by 256 and output to the associated pulse width generator 76.
+    </p>
+    <p num="47">
+      A frequency generator enable bit PWnEN in the clock select register 82 has to be set to enable the clock generator 80.
+      <br/>
+      The clock generator 80 is disabled after all forms of a reset signal and/or no clock is generated.
+    </p>
+    <p num="48">
+      The four 8-bit PWM channels are substantially identical and independent of each other.
+      <br/>
+      The pulse width generator 76 for each of the PWM channels is illustrated in FIG. 5.
+    </p>
+    <p num="49">
+      Each pulse width generator 76 contains an 8-bit free running timer 90 which is clocked by its associated PWM clock generator.
+      <br/>
+      The timer value is compared to zero in the zero comparator 92 and to a user selectable value in the match comparator 94.
+      <br/>
+      Each time the timer value reaches zero, the zero comparator 92 sets a flip-flop 96.
+    </p>
+    <p num="50">
+      When the timer 90 reaches the user selected PWM match value, the match comparator 94 resets the flip-flop 96.
+      <br/>
+      The user selected PWM match value thereby determines the PWM duty cycle.
+    </p>
+    <p num="51">
+      If the channel's associated output enable bit PWnOE is set, the output of this flip-flop 96 is driven onto the associated port pin.
+      <br/>
+      The port pin's full complementary push-pull driver is enabled on the corresponding pin when the output enable bit is set.
+      <br/>
+      A weak pull-up on the pin is deactivated, and the general purpose port bit function is logically disconnected from the pin.
+    </p>
+    <p num="52">
+      The zero rollover condition sets the PWnF bit for the associated channel.
+      <br/>
+      Since there is no interrupt vector in the exemplary microcontroller 10 that is dedicated to any PWM channel flag, this flag is useful only for polling purposes.
+      <br/>
+      This bit (PWnF) must be cleared by software to remove the flagged condition.
+    </p>
+    <p num="53">
+      The PWM channel timer 90 value can be accessed via the PWM value register 98 with its associated PWnT/C bit set to 1.
+      <br/>
+      The PWM compare value can be read or written to the PWM value register 98 with its associated PWnT/C bit cleared to 0.
+      <br/>
+      The PWM match value is transferred from the value register 98 to the match comparator 94 after the next match occurs.
+      <br/>
+      Thus, the match value can be changed once every 256 clock cycles.
+      <br/>
+      This prevents software from creating glitches on the PWM output.
+    </p>
+    <p num="54">
+      A PWM value of 00h creates a PWM output that is always zero.
+      <br/>
+      This special condition is deglitched to prevent a simultaneous set and reset.
+      <br/>
+      A PWM value of FFh creates a waveform that is high for 255 of 256 clock cycles.
+      <br/>
+      A DC override bit PWnDC which forces a constant 1 on the PWM output, is provided for each channel.
+    </p>
+    <p num="55">The exemplary microcontroller 10 also supports 16-bit PWMs by setting the corresponding 16-bit mode enable bit to a logic 1 in the 16-Bit PWM Mode Enable SFR.</p>
+    <p num="56">
+      Enabling the 16-bit PWM mode of operation concatenates two of the 8-bit free-running timers 90 together to form a 16-bit timer.
+      <br/>
+      The corresponding Zero 92 and Match comparators 94 also concatenate.
+    </p>
+    <p num="57">
+      Setting a PMEO SFR bit to logic 1 enables 16-bit PWM0, formed by combining the 8-bit PMW0 (least significant byte) and PWM1 (most significant byte).
+      <br/>
+      Setting PME1 to logic 1 enables 16-bit PWM1, formed by combining 8-bit PWM2 (least significant byte) and PWM3 (most significant byte).
+      <br/>
+      Clearing the enable bit to 0 automatically enables the 8-bit PWM mode for the corresponding PWM channels.
+      <br/>
+      The 16-bit PWM mode enable bits default to 0 on all forms of reset.
+      <br/>
+      The feature allows the user the selection of four 8-bit PWMs, two 16-bit PWMs, or two 8-bit PWMs and one 16-bit PWM for various applications.
+      <br/>
+      It is understood, that the PWM could also be set for one 32-bit PWM if needed.
+      <br/>
+      More PWM channels could be added to provide more PWM resolution/bit-width combinations.
+    </p>
+    <p num="58">
+      The PW0EN and PW0S bits provide the programmable clock controls to the 16-bit PWM channel 0, while the PW2EN and PW2S bits provide the programmable clock controls to the 16-bit PWM channel 1.
+      <br/>
+      The divisor values for the 16-bit PWM operating frequency are contained in the PW0FG and PW2FG registers.
+      <br/>
+      The four least significant bits in the PW01CS and PW23CS registers have no effect on PWM clock generation in 16-bit mode.
+    </p>
+    <p num="59">
+      The 16-bit pulse generators function just like the 8-bit PWMs except the pulse generators act on a 16-bit boundary instead of 8-bit.
+      <br/>
+      If the channel's associated output enable bit PW0OE or PW2OE is set, the modulator pulses are driven out on the associated port pin P6.0 or P6.2, respectively.
+      <br/>
+      Port pins P6.1 and P6.3 can be used as general purpose I/Os.
+      <br/>
+      The 16-bit PWM match values are transferred from the value register to the match comparator after the next match occurs.
+      <br/>
+      Thus, the match value can be changed once every 65,536 cycles.
+    </p>
+    <p num="60">The SFR registers most relevant to the pulse width modulator functionality are described in the chart below:</p>
+    <p num="61">
+      --
+      <br/>
+      -- REGISTER                DESCRIPTION
+      <br/>
+      -- PW0FG (D2h)             PWM0 Frequency Generator Register
+      <br/>
+      --  Initialization:   This register is cleared to 00h on all
+      <br/>
+      --                         forms of reset.
+      <br/>
+      --  Read/Write Access: Unrestricted read/write.
+      <br/>
+      --  PW0FG.7-PW0FG.0   This register contains the divisor
+      <br/>
+      --                         value for the 8-bit PWM0 (also for the
+      <br/>
+      --                         16-bit PWM0 if PWE0 = 1) operating
+      <br/>
+      --                         frequency, which is derived from the
+      <br/>
+      --                         clock source selected by PW0S2-PW0S0
+      <br/>
+      --                         divided by the value of PW0FG + 1.
+      <br/>
+      --                         This value is the reload value for the
+      <br/>
+      --                         clock generator's 8-bit auto-reload
+      <br/>
+      --                         timer. the PWM0 frequency is correct
+      <br/>
+      --                         after one reload.
+      <br/>
+      -- PW1FG (D3h)             PWM1 Frequency Generator Register
+      <br/>
+      --  Initialization:   This register is cleared to 00h on all
+      <br/>
+      --                         forms of reset.
+      <br/>
+      --  Read/Write Access: Unrestricted read/write.
+      <br/>
+      --  PW1FG.7-PW1FG.0   This register contains the divisor
+      <br/>
+      --                         value for the 8-bit PWM1 operating
+      <br/>
+      --                         frequency, which is derived from the
+      <br/>
+      --                         clock source selected by PW1S2-PW1S0
+      <br/>
+      --                         divided by the value of PW1FG + 1.
+      <br/>
+      --                         This value for the clock generator's 8-
+      <br/>
+      --                         bit auto-reload timer.
+      <br/>
+      The PWM1
+      <br/>
+      --                         frequency is correct after one reload.
+      <br/>
+      --                         This register has no effect on 16-bit
+      <br/>
+      --                         PWM operation.
+      <br/>
+      -- PW2FG (D4h)             PWM2 Frequency Generator Register
+      <br/>
+      --  Initialization:   This register is cleared to 00h on all
+      <br/>
+      --                         forms of reset.
+      <br/>
+      --  Read/Write Access: Unrestricted read/write.
+      <br/>
+      --  PW2FG.7-PW2FG.0   This register contains the divisor
+      <br/>
+      --                         value for the 8-bit PWM2 (also for the
+      <br/>
+      --                         16-bit PWM1 when PWE1 = 1) operating
+      <br/>
+      --                         frequency, which is derived from the
+      <br/>
+      --                         clock source selected by PW2S2-PW2S0
+      <br/>
+      --                         divided by the value of PW2FG + 1.
+      <br/>
+      This
+      <br/>
+      --                         value is the reload value for the clock
+      <br/>
+      --                         generator's 8-bit auto-reload timer.
+      <br/>
+      --                         The PWM2 frequency is correct after one
+      <br/>
+      --                         reload.
+      <br/>
+      -- PW3FG (D5h)             PWM3 Frequency Generator Register
+      <br/>
+      --  Initialization:   This register is cleared to 00h on all
+      <br/>
+      --                         forms of reset.
+      <br/>
+      --  Read/Write Access: Unrestricted read/write.
+      <br/>
+      -- PW3FG.7-PW3FG.0         This register contains the divisor
+      <br/>
+      --                         value for the 8-bit PWM3 operating
+      <br/>
+      --                         frequency, which is derived from the
+      <br/>
+      --                         clock source selected by PW3S2-PW3S0
+      <br/>
+      --                         divided by the value of PW3FG + 1.
+      <br/>
+      --                         This value is the reload value for the
+      <br/>
+      --                         clock generator's 8-bit auto-reload
+      <br/>
+      --                         timer.
+      <br/>
+      The PWM3 frequency is correct
+      <br/>
+      --                         after one reload.
+      <br/>
+      This bit has no
+      <br/>
+      --                         effect on 16-bit PWM operation.
+      <br/>
+      -- PWMADR (D6h)            16-Bit PWM Mode Enable and A/D
+      <br/>
+      --                         Reference Select
+      <br/>
+      --  Initialization:   This register is initialized to
+      <br/>
+      --                         0xxxx00b on all forms of reset.
+      <br/>
+      --  Read/Write Access: Unrestricted read/write.
+      <br/>
+      -- PWMADR.0: PWE0          16-bit PWM Enable 0.
+      <br/>
+      Setting this bit
+      <br/>
+      --                         to 1 enables the 16-bit PWM channel 0.
+      <br/>
+      --                         The 16-bit PWM0 is formed by combining
+      <br/>
+      --                         the 8-bit PWM0 and PWM1 channels.
+      <br/>
+      The
+      <br/>
+      --                         corresponding free-running Timers, the
+      <br/>
+      --                         Zero and Match Comparators, and the
+      <br/>
+      --                         value registers are concatenated to
+      <br/>
+      --                         form the 16-bit PWM0 channel.
+      <br/>
+      Clearing
+      <br/>
+      --                         this bit to 0 disables the 16-bit PWM0
+      <br/>
+      --                         and automatically enables the 8-bit
+      <br/>
+      --                         PWM0 and PWM1.
+      <br/>
+      -- PWMADR.1: PWE1          16-bit PWM Enable 1.
+      <br/>
+      Setting this bit
+      <br/>
+      --                         to 1 enables the 16-bit PWM channel 1.
+      <br/>
+      --                         The 16-bit PWM1 is formed by combining
+      <br/>
+      --                         the 8-bit PWM2 and PWM3 channels.
+      <br/>
+      The
+      <br/>
+      --                         corresponding free-running Timers, the
+      <br/>
+      --                         Zero and Match Comparators, and the
+      <br/>
+      --                         value registers are concatenated to
+      <br/>
+      --                         form the 16-bit PWM1 channel.
+      <br/>
+      Clearing
+      <br/>
+      --                         this bit to 0 disables the 16-bit PWM1
+      <br/>
+      --                         and automatically enables the 8-bit
+      <br/>
+      --                         PWM2 and PWM3.
+      <br/>
+      -- PWMADR.2-PWMADR.6       Reserved.
+      <br/>
+      -- PWMADR.7:ADRS           A/D Reference Select.
+      <br/>
+      Setting this bit
+      <br/>
+      --                         to 1 selects an external source as the
+      <br/>
+      --                         reference voltage for A/D conversions.
+      <br/>
+      --                         Clearing this bit to 0 selects the
+      <br/>
+      --                         internal bandgap as the reference
+      <br/>
+      --                         voltage.
+    </p>
+    <p num="62">
+      The pulse width modulator circuitry of the present exemplary embodiments is not limited to incorporation with only an 8051 style microcontroller core.
+      <br/>
+      It could also be slightly modified, without leaving the spirit of the invention, to be a 32-bit or 64-bit pulse width modulator.
+      <br/>
+      Furthermore, the channels could be designed to be less than an 8-bit PWM channel.
+    </p>
+    <p num="63">
+      The present exemplary embodiment provides a microcontroller combined with a plurality of pulse width modulators.
+      <br/>
+      The plurality of pulse width modulators can be configured by a user to be combined to provide different bit-size pulse width modulators depending on the needs of the user.
+      <br/>
+      Thus, a single microcontroller de vice can be configured to operate in various systems requiring varying ranges of pulse width modulation resolution.
+      <br/>
+      Potentially 4, 8, 16, 32, 64, and other pulse width modulation resolutions can be made available by a single device.
+      <br/>
+      An innovation of the exemplary microcontroller is the two separate 8-bit pulse width modulation channels can be linked together to operate as a single 16-bit pulse width modulator via a user programmable configuration.
+    </p>
+    <p num="64">
+      The exemplary microcontroller c an provide four 8-bit modulators, two 16-bit modulators or two 8-bit and one 16-bit modulators.
+      <br/>
+      Simple modifications would allow one 8-bit and one 24-bit modulator or one 32-bit.
+    </p>
+    <p num="65">
+      Referring now to FIG. 6, there is depicted how two pulse width modulators can be used separately or be concantenated to provide one larger pulse width modulator.
+      <br/>
+      Two 8-bit PWM modules 100, which are independent, are labeled PMW0 and PWM1.
+      <br/>
+      Each of the 8-bit PWM modules may have a different clock source.
+      <br/>
+      The different clock sources could be ClK0 and ClK1 as shown.
+      <br/>
+      In the dual 8-bit PWM configuration, each PWM (PMW0 and PwM1) have separate outputs labeled out0 and out1, respectively.
+    </p>
+    <p num="66">
+      If a user wants to switch from the dual 8-bit mode to a 16-bit PWM mode, the control line, CNTR, can be used.
+      <br/>
+      The CNTR line will switch the MUX circuit 102 to allow CLK0 to be used by both PMW0 and PWM1.
+      <br/>
+      The CNTR line will also switch MUX 104 to provide a single 16-bit PWM output.
+      <br/>
+      Furthermore, the CNTR line will require PMW0 to provide a carry bit to PWM1.
+      <br/>
+      Such that the two PWM modules are concatenated.
+      <br/>
+      Thus, a user can configure the size of the PWM required for a particular need or design.
+    </p>
+    <p num="67">
+      As is clearly seen, the present invention is a significant improvement in the art by providing, at least, a microcontroller with a user configurable pulse width modulator(s).
+      <br/>
+      Such a device can be used in a variety pulse width modulation activities and allow an electronic designer to become familiar with a single microcontroller device rather than a plurality of different microcontroller devices.
+      <br/>
+      The present invention is believed to be specifically effective when configured and employed as described herein, however, those skilled in the art will readily recognize that numerous variations and substitutions may be made in the invention and its use and configuration to achieve substantially the same results as achieved by the embodiments and, in particular, the preferred embodiments described herein.
+      <br/>
+      Each of the variations is intended to be included in the description herein and forms a part of the present invention.
+      <br/>
+      The foregoing detailed description is, thus, to be clearly understood as being given by way of illustration and example only, the spirit and scope of the present invention being limited solely by the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A microcontroller integrated circuit comprising:</claim-text>
+      <claim-text>a microcontroller core; a first data bus connected to said microcontroller core; a first user configurable pulse width modulation circuit connected to said first data bus;</claim-text>
+      <claim-text>and a second user configurable pulse width modulation circuit connected to said first data bus, said first user configurable pulse width modulation circuit and said second user configurable pulse width modulation circuit being concatenatable to thereby create a third user configurable pulse width modulator circuit.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The microcontroller integrated circuit of claim 1, further comprising special function registers mapped substantially in accordance with an 8051 style microcontroller requirement.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The microcontroller integrated circuit of claim 1, wherein said first user configurable pulse width modulation circuit comprises: a clock generator circuit for configuring a pulse width modulation clock signal, and a pulse generator circuit for generating a pulse width modulation output.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The microcontroller integrated circuit of claim 3, wherein said second user configurable pulse width modulation circuit comprises: a clock generator circuit for configuring a pulse width modulation clock signal, and a pulse generator circuit for generating a pulse width modulation output.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The microcontroller integrated circuit of claim 1, wherein said first user configurable pulse width modulation circuit and said second user configurable pulse width modulation circuit are each 8-bit pulse modulation circuits.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The microcontroller integrated circuit of claim 1, wherein said third user configurable pulse width modulator circuit is a 16-bit pulse width modulation circuit.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The microcontroller integrated circuit of claim 1, wherein said first user configurable pulse width modulator is an X-bit pulse width modulation circuit, said second user configurable pulse width modulator is a Y-bit pulse width modulation circuit, and said third user configurable pulse width modulator circuit is an X+Y bit pulse width modulation circuit.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The microcontroller integrated circuit of claim 1, wherein said microcontroller core is substantially an 8051 compatible microcontroller core.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The microcontroller integrated circuit of claim 1, wherein said microcontroller core is a four-cycle 8051 compatible microcontroller core.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A microcontroller comprising: a central processing circuit; a data bus connected to said central processing circuit;</claim-text>
+      <claim-text>and at least two user-configurable pulse width modulation circuits that are user configurable said at least two pulse width modulation circuits being connected to said data bus.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The microcontroller of claim 10, further comprising dual data pointer circuitry connected to said data bus.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The microcontroller of claim 10, wherein said central processing circuit is at least one of a four-cycle central processing core and a one-cycle central processing core.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The microcontroller of claim 10, wherein said at least two pulse width modulation circuits are each 8-bit pulse width modulation circuits.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The microcontroller of claim 10, wherein said at least two pulse width modulation circuits are each different bit-length pulse width modulation circuits.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A microcontroller comprising: a central processing core; a first pulse width modulation circuit; a second pulse width modulation circuit; at least one data bus connected to said central processing core, said first pulse width modulation circuit, and to said second pulse width modulation circuit, said first pulse width modulation circuit and said second pulse width modulation circuit each being user configurable so that said first pulse width modulation circuit can operate independently of said second pulse width modulation circuit and so that said first pulse width modulation circuit and said second pulse width modulation circuit can be combined to provide a third pulse width modulation circuit.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The microcontroller of claim 15, wherein said central processing core is an 8051 instruction set compatible microcontroller.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The microcontroller of claim 15, wherein said first pulse width modulation circuit is an 8-bit pulse width modulation circuit.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The microcontroller of claim 17, wherein said second pulse width modulation circuit is other than an 8-bit pulse width modulation circuit.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The microcontroller of claim 15, wherein said central processing core is a four-cycle microprocessing core.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

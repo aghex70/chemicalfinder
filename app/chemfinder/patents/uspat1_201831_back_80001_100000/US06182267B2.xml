@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182267B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182267</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182267</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22728539" extended-family-id="42109139">
+      <document-id>
+        <country>US</country>
+        <doc-number>09197225</doc-number>
+        <kind>A</kind>
+        <date>19981120</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09197225</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165821</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>19722598</doc-number>
+        <kind>A</kind>
+        <date>19981120</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09197225</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  11/10        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>11</main-group>
+        <subgroup>10</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>714807000</text>
+        <class>714</class>
+        <subclass>807000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>714052000</text>
+        <class>714</class>
+        <subclass>052000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>714746000</text>
+        <class>714</class>
+        <subclass>746000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>714E11032</text>
+        <class>714</class>
+        <subclass>E11032</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-011/10</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>11</main-group>
+        <subgroup>10</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-011/10</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>11</main-group>
+        <subgroup>10</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20131210</date>
+        </action-date>
+      </patent-classification>
+      <patent-classification sequence="2">
+        <classification-scheme office="EP" scheme="ICO"/>
+        <classification-symbol>T05K-999/99</classification-symbol>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>9</number-of-claims>
+    <exemplary-claim>6</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>14</number-of-drawing-sheets>
+      <number-of-figures>20</number-of-figures>
+      <image-key data-format="questel">US6182267</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Ensuring accurate data checksum</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>OSKOUY RASOUL M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5673279</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5673279</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>YOSHIDA OSAMU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5928372</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5928372</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>WEAVER JEFFREY C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5935268</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5935268</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>MEYER JAMES W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6061822</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6061822</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>JANSON PHILIPPE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4482999</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4482999</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>RENOULIN ROGER J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4549291</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4549291</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>HAHNE ELLEN L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5014265</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5014265</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>ENNS FREDERICK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5072449</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5072449</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>ENNS FREDERICK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5128945</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5128945</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>BARDET GERARD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260936</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260936</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>BUHRKE ROLFE E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5280470</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5280470</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>TRAVIS JR ROBERT L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5341478</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5341478</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>CRISMAN MARY B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5386512</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5386512</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>THOMPSON MICHAEL I, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5430842</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5430842</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>THOMPSON MICHAEL I, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5491802</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5491802</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>BARRETT LINDA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5546549</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5546549</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>ARMERDING DONALD G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5555374</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5555374</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>MENEZES ARUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5621894</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5621894</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>JENNINGS WILLIAM E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5632021</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5632021</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>YU KIN C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5636371</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5636371</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>GENTRY JR DENTON E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5663952</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5663952</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>BARRETT LINDA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5699532</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5699532</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>ARNDT MANFRED R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5708654</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5708654</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>KELLS TIMOTHY ROGER, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5764887</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5764887</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>KEARNS KEVIN A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5964831</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5964831</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>DIGITAL EQUIPMENT INT</text>
+          <document-id>
+            <country>GB</country>
+            <doc-number>2283645</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>GB2283645</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>AIX Version 3.2, "Enterprise Systems Connection Adapter: User's Guide and Service Information," IBM, 1993, pp. 6.1-6.16.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>"Chapter 2 Signal Definition," PCI Local Bus, pp. 7-48.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>"GT-64011 PCI System Controller for R4640 Processors," Galileo, pp. 29-34.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Cisco Technology, Inc.</orgname>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>CISCO TECHNOLOGY</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Kidd, Jeffrey W.</name>
+            <address>
+              <address-1>Hillsborough, NC, US</address-1>
+              <city>Hillsborough</city>
+              <state>NC</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Jennings, William E.</name>
+            <address>
+              <address-1>Cary, NC, US</address-1>
+              <city>Cary</city>
+              <state>NC</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Cesari and McKenna, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>De Cady, Albert</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method are provided that permit an accurate checksum to be generated of a block of data being transmitted via a prefetched bus, despite repeated transmissions of identical portions of the block and presentation of those identical to checksum logic simultaneously with their transmission by the bus, by ensuring that only those portions of the data block that have yet to be checksummed are checksummed.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+    <p num="1">
+      This application is related to the following applications: U.S. patent application Ser.
+      <br/>
+      No. 08/920,714, filed Aug. 29, 1997, entitled "Option Request Protocol"; U.S. patent application Ser.
+      <br/>
+      No. 08/921,158, filed Aug. 29, 1997, entitled "IP Checksum Off-Load"; and U.S. patent application Ser.
+      <br/>
+      No. 09/149,719, filed Sep. 8, 1998, entitled "Enhanced CLAW Packing Protocol".
+      <br/>
+      Each of these applications is assigned to the Assignee of the subject application and is incorporated herein by reference in its entirety.
+      <br/>
+      An additional related application is U.S. patent application Ser.
+      <br/>
+      No. 08/920,713, filed Aug. 29, 1997, entitled "Method and Apparatus for Dynamic Link Name Negotiation".
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="3">The present invention relates generally to a system and method for use in detecting errors in data transmission, and more specifically, to a system and method for ensuring accurate checksumming of data transferred via at least one pre-fetchable bus.</p>
+    <p num="4">2. Brief Description of Related Prior Art</p>
+    <p num="5">
+      In modern computer systems, data is transferred among various processing/communications modules of the system.
+      <br/>
+      Errors may be introduced during transmission of the data.
+      <br/>
+      Consequently, error control has become an integral part of the design of such computer systems.
+    </p>
+    <p num="6">
+      In order for the system to be able to control data transmission errors, it must be able to accurately determine when such errors occur.
+      <br/>
+      A checksum procedure is one conventional technique for determining when errors have been introduced into a data stream (e.g., a data block or packet).
+      <br/>
+      In a typical checksum procedure, a numerical value ("checksum" or "checksum value") is generated by the sender ("the sender's checksum") of the packet in the system by applying a computational algorithm (e.g., a parity or cyclic redundancy check, hashing function, summation of the number of bits in the packet equal to "1", summation of the numerical values represented by the data, etc.) to the contents of packet.
+      <br/>
+      This value is then sent with the packet when the packet is transmitted.
+      <br/>
+      After the recipient receives the packet, the recipient computes a new checksum value ("the recipient's checksum") by applying the same algorithm to the received data packet, and compares the recipient's checksum to that transmitted with the data packet.
+      <br/>
+      If the two checksums match, it is assumed that transmission of the packet was successful (i.e., no errors were introduced into the packet during transmission).
+      <br/>
+      Alternatively, if the two values do not match, it is assumed that errors where introduced into the packet during its transmission, and the recipient typically undertakes action (e.g., requesting that the packet be re-transmitted by the sender) to remedy the situation.
+    </p>
+    <p num="7">
+      In order to speed data transfer and reduce software processing overhead in the system, it is often desirable to calculate the sender's checksum using a checksum system that is substantially or entirely hardware, and wherein, as portions of the data block to checksummed are transmitted to the recipient, they are substantially simultaneously presented to the checksum logic, in parallel with their transmission to the recipient.
+      <br/>
+      Each time a portion of the data block is presented to the checksum logic, the checksum logic generates a new subtotal checksum by essentially accumulating checksums of the data block portion being presented (using a predetermined checksum algorithm implemented by the checksum logic) and a subtotal checksum of those portions of the data block previously presented to the checksum logic.
+      <br/>
+      Once the final portion of the data block has been presented to the checksum logic, the resulting total accumulated checksum of the data block is generated, and transmitted to the recipient, which then uses this total checksum to determine whether the transmission of the data block was successful.
+    </p>
+    <p num="8">
+      Unfortunately, problems can arise in accurately calculating the sender's checksum using the above-described technique, if the data block is transmitted from the sender to the recipient via a pre-fetched bus system.
+      <br/>
+      As used herein, a bus system is said to be "pre-fetched" if data latency may exist between different portions of the bus.
+      <br/>
+      Such data latency may arise, e.g., if the bus (1) comprises one or more bus controllers (or other data buffering devices) through which data transmitted via the bus from the source must pass before it can reach the recipient, and/or (2) the bus permits the recipient to command that data be transmitted from the source to the recipient via a "burst mode" data transfer operation (e.g., via direct memory accessing (DMA) of the data source wherein the source is commanded to transmit data to the recipient, starting with portions of the data associated with a memory location specified in the DMA command, and continuing during subsequent bus read cycles, with portions of the block associated with subsequent sequential memory locations, until assertion of the transfer command terminates, and without specification in the command of the total amount of data that is to be provided to the recipient from the source in the transfer operation).
+      <br/>
+      One example of a prefetched bus, as that term is used herein, is a conventional Peripheral Component Interconnect ("PCI") bus.
+    </p>
+    <p num="9">
+      As a result of the data latency that may exist in a pre-fetched bus system wherein data checksummed in parallel with its transmission to the recipient, if the total length of the data packet exceeds the maximum data word length that can be transferred via the bus in a single bus data transfer operation cycle (i.e., the "bus width") and the transfer operation is terminated prior to receipt of all of the portions of the data block transmitted by the source, portions of the data block to be checksummed may be transmitted from the source via the bus, but not received by the recipient.
+      <br/>
+      Thus, in this type of system, repeated transmission of identical portions of the data block may be required in order for the recipient to receive the entire data block.
+    </p>
+    <p num="10">
+      Unfortunately, since in this type of system the data is checksummed by the source's checksum logic in parallel with its transmission to the recipient, portions of the data block that undergo repeated transmission to the recipient also undergo repeated checksumming by the checksum logic.
+      <br/>
+      This causes the data block's total checksum as generated by the checksum logic to be invalid, and likely results in unnecessary retransmission of the entire data block from the source to the recipient.
+    </p>
+    <p num="11">
+      Partial solutions to these problems may involve (1) clearing and recalculating of the checksum logic's subtotals after repeated transfers of the same data from the source, or (2) calculating the checksum of the entire data block in a separate checksum operation prior to transmitting any of the data block to the recipient.
+      <br/>
+      Disadvantageously, these partial solutions decrease overall data transfer speed, and increase data processing overhead.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="12">
+      In accordance with the present invention, a system and method are provided that overcome the aforesaid and other disadvantages and drawbacks of the prior art.
+      <br/>
+      More specifically, the system and method of the present invention ensures that an accurate total checksum is generated of a data block being transmitted via a prefetched bus, by ensuring that only portions of the data block that have yet to undergo checksumming are checksummed by checksum logic, in parallel with their transmission via the bus, despite repeated transmissions of identical portions of the data block.
+    </p>
+    <p num="13">
+      Advantageously, the present invention permits only those portions of the data block that have not yet been previously checksummed by the checksumming logic to be so checksummed, despite repeated transfers of the same portions of data from the data source.
+      <br/>
+      Advantageously, this ensures that an accurate total checksum of the entire data block is generated, despite repeated reads of identical memory locations in the block, and without requiring either the clearing of the checksum logic and restoring of the block's previously calculated partial checksum after such repeated reads, or a separate checksum calculation operation (i.e., wherein the checksum of the entire block would be calculated prior to being transferred to the recipient).
+      <br/>
+      Thus, the present invention is able to generate an accurate total checksum of a data packet being transferred via a prefetchable bus, without decreasing data transfer speed or substantially increasing data processing overhead.
+    </p>
+    <p num="14">These and other features and advantages of the present invention will become apparent as the following Detailed Description proceeds, and upon reference to the Drawings, wherein like numerals depict like parts, and in which:</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="15">
+      FIG. 1 is a highly schematic functional block diagram of computer network system which utilizes one embodiment of the present invention.
+      <br/>
+      FIG. 2 is a highly schematic functional block diagram illustrating construction of relevant portions of the router shown in FIG. 1.
+      <br/>
+      FIG. 3 is a highly schematic functional block diagram illustrating construction of a port adapter system of the network system shown in FIG. 1.
+      <br/>
+      FIG. 4 is a highly schematic functional block diagram illustrating construction of the memory system of the port adapter system of FIG. 3.
+      <br/>
+      FIG. 5 is a highly schematic functional block diagram of the checksum system used in the port adapter of FIG. 3.
+      <br/>
+      FIGS. 6A-6O are highly schematic functional block diagrams of the logic used to control checksumming of data by the checksum logic shown in FIG. 5.
+    </p>
+    <p num="16">
+      As will be appreciated by those skilled in the art, although the following Detailed Description will proceed with reference being made to specific embodiments and methods of use, the present invention is not intended to be limited to these embodiment and methods of use.
+      <br/>
+      Rather, the present invention is intended to be viewed broadly as encompassing all alternatives, modifications, and variations from these embodiments and methods of use as are included within the spirit and broad scope of the hereinafter appended claims.
+    </p>
+    <heading>DETAILED DESCRIPTION OF AN ILLUSTRATIVE EMBODIMENT</heading>
+    <p num="17">
+      Turning now to the Figures, one preferred embodiment of the present invention will be described in connection with use in a network computer system 10.
+      <br/>
+      System 10 includes a host computer router system 12 coupled to a plurality of host system/channel port adapters 14, 16, 18, which provide input/output ports to connect the host system 12 to respective conventional IBM Enterprise System Connection (ESCON) serial communications channels 20, 22, 24 to one or more respective remote mainframe computer systems (not shown).
+      <br/>
+      As will be described in greater detail below, each of the mainframe computers can communicate with the router 12, other mainframes, and/or network devices (not shown) external to system 10 by causing the I/O subsystem associated with the mainframe's ESCON channel to transmit data packets (containing e.g., appropriate routing information) from the mainframe to the host computer 12 via the respective ESCON channel and port adapter associated with the mainframe from which the packets are transmitted.
+      <br/>
+      The router 12 is adapted to receive the data packets and forward the packets to appropriate destination stations (not shown) via the router's ports (not shown), based upon the packets' respective routing information and the router's routing tables stored in the router's memory.
+    </p>
+    <p num="18">
+      Router 12 comprises an internal bus (e.g., a PCI-based bus) 26 to which each of the adapters 14, 16, 18 is respectively connected.
+      <br/>
+      Bus 26 is also connected to a system controller 28, which in turn, is connected to the router's central processor and associated memory 32, and router memory system 30.
+    </p>
+    <p num="19">
+      FIG. 3 is a high-level functional block diagram of channel port adapter 14.
+      <br/>
+      It should be understood that although for purposes of brevity only the function and operation of adapter 14 will be described in detail herein, each of the other two port adapters 16, 18 is functionally and operationally identical to adapter 14, except that adapters 16, 18 are connected to channels 22, 24, respectively.
+      <br/>
+      Adapter 14 includes a host interface 50 which is connected both to the host bus 26 via connection 52, and to host interface bus 38.
+      <br/>
+      Bus 38 preferably comprises a PCI bus and connects the port adapter system controller 36 (which, e.g., comprises a commercially available Galileo Technology, Inc.
+      <br/>
+      GT 64011 PCI system controller) to host interface (e.g., comprising a bridging system for ameliorating electrical loading problems that might occur in absence of same) 50.
+      <br/>
+      A central processor system bus 40 connects the port adapter's central processor (e.g., a commercially available Integrated Device Technology, Inc.
+      <br/>
+      IDT79RV4640-100 MU RISC processor) and associated cache, SRAM, etc. memory 34 to the controller 36.
+      <br/>
+      Local port adapter bus 42 connects the controller 36 to the port adapter packet memory system 44 and processor's system memory 34 (e.g., comprising 4 megabytes of EDO DRAM for storing operating code and exception vectors for the processor 34), and is capable of burst mode data transfer operations.
+      <br/>
+      ESCON channel interface logic 46 provides physical and low level logical functions, and a serial link controller (SLC) for appropriately processing/controlling data flow between the memory system 44 and the ESCON channel 20.
+      <br/>
+      The interface logic 46 may comprise conventional IBM Enabler Technologies' ESCON integrated circuits.
+    </p>
+    <p num="20">
+      Memory system 44 comprises a memory system bus and associated circuitry 72 for connecting packet memory and associated circuitry 70 to the ESCON interface logic 46, and to the local bus 42.
+      <br/>
+      Packet memory and associated circuitry 70 preferably comprises 32 megabytes of EDO DRAM having 32 bits of data width and byte parity, thereby resulting in a total memory width of 36 bits, and control/memory refresh logic provided in the form of a field programmable gate array (FPGA) or other complex programmable logic device (CPLD) for use with the DRAM for DRAM address multiplexing and controlling direct memory access (DMA) writes/reads, and refreshes, etc. of data to and in the DRAM.
+      <br/>
+      The memory system bus and associated circuitry 72 preferably comprises a non-multiplexed 32 bit address/36 bit data bus with burst transfer capabilities based upon the Intel i960CA bus architecture and bus controller/arbitrator logic for controlling mastery of the bus.
+      <br/>
+      The bus controller/arbitrator logic of element 72 and the data checksum system 200 preferably are embodied in a single CPLD.
+    </p>
+    <p num="21">
+      In adapter 14, the memory bus controller/arbitrator logic of element 72 controls whether the SLC or the system controller 36 is the "master" of the memory bus.
+      <br/>
+      The memory 70 is the "slave" device for whichever of these two components is currently the master of the memory bus.
+    </p>
+    <p num="22">
+      When a data packet is to be written to the memory 70 from the ESCON channel 20, the SLC 46 obtains mastery of the memory bus by issuing bus control requests to the memory bus controller/arbitrator logic, which logic, if the system controller 36 is not currently the master of the bus, grants such mastery to the SLC 46.
+      <br/>
+      Once granted mastery of the memory bus, the SLC 46 transfers the data packet from the ESCON channel 20 to the memory 70, using DMA techniques, such that the entire packet is located in a contiguous block in memory 70.
+      <br/>
+      The byte length of the packet typically exceeds the respective bus widths of the buses 26, 38, 42; each of these bus widths may be identical.
+      <br/>
+      The SLC 46 also transmits to the processor 34 (via the memory bus, local bus 42, controller 36, and bus 40), the starting location, block length, and initial offset (i.e., size of the first portion to be transferred router 12) of the packet in the memory 70.
+    </p>
+    <p num="23">
+      In this embodiment of the present invention, each of the adapters 14, 16, 18 may implement IP checksum offload techniques described in the aforesaid copending applications.
+      <br/>
+      Thus, at least certain packets received by the port adapters from the mainframe systems may not comprise respective packet checksums, and the port adapters receiving such packets may instead generate the packets' respective checksums.
+    </p>
+    <p num="24">
+      In each port adapter, the data to be checksummed by the checksum logic 72 does not pass serially through the checksum logic 76 prior to being placed on the memory system bus.
+      <br/>
+      Rather, if the SLC 46 is the master of the memory bus, data/control signals from the SLC 46 may pass through the memory bus to the controller 36 and vice versa, without having to pass through the checksum logic 76.
+      <br/>
+      The system 200 generates the checksum of the entire packet in memory 70, in parallel with transmission of the packet from memory 70 to the router 12.
+      <br/>
+      As will be described in greater detail below, the system 200 makes these calculations based upon control signals and values generated and supplied by the processor 34 based upon the starting location, block length, and initial offset (i.e., size of the first portion to be transferred) of the packet in the memory 70.
+    </p>
+    <p num="25">
+      More specifically, as shown in FIG. 5, the checksum generator 200 comprises both (1) checksum logic 76 for actually generating checksums of data presented thereto, and (2) a checksum controller 206 for controlling which data is checksummed by the checksum logic.
+      <br/>
+      It should be understood that although the checksum generator 200 is described as being used solely in connection with operations for transferring data from the memory 70 (i.e., data read operations of the memory 70), if appropriately modified, port adapter 14 may include two such checksum generators, one generator 200 as described herein for use in connection with data read operations of the memory 70, and another checksum generator (not shown) that is for use in connection with operations for transferring data to the memory 70 (i.e., data write operations for writing data received from the ESCON channel or from the router to the memory 70).
+    </p>
+    <p num="26">
+      Turning now to FIGS. 6A-6O, logic used to control checksumming by checksum logic 76 will be described.
+      <br/>
+      More specifically, FIGS. 6A and 6E to 6O illustrate the logic of the checksum controller 206, while FIGS. 6B to 6D illustrate checksum control logic implemented by processor 34.
+      <br/>
+      Controller 206 comprises multiplexer logic 600 which generates a four-bit output signal based upon which of the lines 602, 606, 610, 614, 618, 622, 626, 630, 634, 638, 642 is propagating a high logic state signal.
+      <br/>
+      The logic of controller 206 is configured such that only one of the signals being propagated via lines 602, 606, 610, 614, 618, 622, 626, 630, 634, 638, 642 can be in high logic state any given time.
+      <br/>
+      When the signal on line 602 is in high logic state, the signal on line 604 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 606 is in high logic state, the signal on line 608 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 610 is in high logic state, the signal on line 612 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 614 is in high logic state, the signal on line 616 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 618 is in high logic state, the signal on line 620 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 622 is in high logic state, the signal on line 624 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 626 is in high logic state, the signal on line 628 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 630 is in high logic state, the signal on line 632 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 634 is in high logic state, the signal on line 636 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 638 is in high logic state, the signal on line 640 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      When the signal on line 642 is in high logic state, the signal on line 644 is selected by logic 600 for output to flip-flop 646.
+      <br/>
+      The signals on lines 604, 608, 612, 616, 620, 624, 628, 632, 636, 640, 644 are respective four-bit signals, and respectively, are equal to 1111, 1110, 1100, 1000, 0111, 0110, 0100, 0011, 0010, 0001, and 1111, where "1" represents a high logic state and "0" represents a low logic state.
+    </p>
+    <p num="27">
+      The signal on line 602 is generated as the result of a logical OR operation, executed by OR logic 676, of the outputs of AND gates 668, 670, 672, 674.
+      <br/>
+      The output of gate 668 is generated as the result of a logical AND operation of a "first_pending" signal on line 750, the logical inversion of a "last_pending" signal on line 752, "checksum_offset1" signal on line 754, and "checksum_offset0" signal on line 756.
+      <br/>
+      The signals on lines 750, 752, 754, and 756 are generated by the processor 34 based upon the starting location, block length, and initial offset of the packet in memory 70 to be transferred to the router 12.
+      <br/>
+      The signal on line 750 is in a high logic state when the data transfer of the packet is first initialized, and enters a low logic state after transfer of the first word of the packet from memory 70.
+      <br/>
+      The signal on line 752 enters high logic state when four or fewer bytes of the packet remain to be transferred.
+      <br/>
+      The signals on lines 754 and 756 indicate the offset of the first data transfer of the packet.
+      <br/>
+      That is, the signals on lines 754, 756 are both in low logic state if there is no offset; the signal on line 754 is in low logic state and the signal on line 756 is in high logic state, respectively, if there is an offset of one byte; the signal on line 754 is in high logic state and the signal on line 756 is in low logic state, respectively, if there is an offset of two bytes; and, both signals on lines 754, 756 are in a high logic state if there is an offset of three bytes.
+    </p>
+    <p num="28">
+      The output of gate 670 is generated as the result of a logical AND operation of the logical inversion of the signal on line 750, the signal on line 754, the logical inversion of a "checksum_cnt1" signal on line 758, and a "checksum_cnt0" signal on line 760.
+      <br/>
+      The signals on lines 758, 760 are generated by the processor and are used to indicate the number of valid bytes (i.e., containing data from the packet in memory 70) that will be made in the final transfer of data of the packet to the router 12.
+    </p>
+    <p num="29">
+      The output of gate 672 is generated as a result of a logical AND operation of logical inverses of the signals on lines 750 and 752.
+      <br/>
+      The output of gate 674 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 756 and the logical inverses of the signals on lines 758, 760.
+    </p>
+    <p num="30">
+      The signal on line 606 is generated as the result of a logical OR operation, executed by OR logic 682, of the outputs of AND gates 678, 680.
+      <br/>
+      The output of gate 678 is generated as the result of a logical AND operation of the logical inversion of the signal on line 750, and the signals on lines 752, 758, and 760.
+      <br/>
+      The output of gate 680 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 756, 758, and 760.
+    </p>
+    <p num="31">
+      The signal on line 610 is generated as the result of a logical OR operation, executed by OR logic 690, of the outputs of AND gates 684, 686.
+      <br/>
+      The output of gate 684 is generated as the result of a logical AND operation of the signals on lines 752, 758 and the logical inverses of the signals on lines 750, 760.
+      <br/>
+      The output of gate 686 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 756, 758, and the logical inverse of the signal on line 760.
+    </p>
+    <p num="32">
+      The signal on line 614 is generated as the result of a logical OR operation, executed by OR logic 696, of the outputs of AND gates 692, 694.
+      <br/>
+      The output of gate 682 is generated as the result of a logical AND operation of signals on lines 752, 756 and the logical inverses of the signals on lines 750, 754.
+      <br/>
+      The output of gate 694 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 756, 760 and the logical inverse of the signal on line 758.
+    </p>
+    <p num="33">
+      The signal on line 618 is generated as the result of a logical OR operation, executed by OR logic 699, of the outputs of AND gates 698, 700.
+      <br/>
+      The output of gate 698 is generated as the result of a logical AND operation of the signals on lines 750, 754 and the logical inverses of the signals on lines 752, 756.
+      <br/>
+      The output of gate 700 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 758, 760, and the logical inverse of the signal on line 756.
+    </p>
+    <p num="34">
+      The signal on line 622 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 758, and the logical inverses of the signals on lines 756, 760.
+      <br/>
+      The signal on line 626 is generated as the result of a logical AND operation of the signals on lines 750, 752, 754, 760, and the logical inverses of the signals on lines 756, 758.
+    </p>
+    <p num="35">
+      The signal on line 630 is generated as the result of a logical OR operation, executed by OR logic 708, of the outputs of AND gates 706, 710.
+      <br/>
+      The output of gate 706 is generated as the result of a logical AND operation of the signals on lines 750, 756, and the logical inverses of the signals on lines 752, 754.
+      <br/>
+      The output of gate 710 is generated as the result of a logical AND operation of the signals on lines 750, 752, 756, 758, and the logical inverses of the signals on lines 754, 760.
+    </p>
+    <p num="36">
+      The signal on line 634 is generated as the result of a logical AND operation of the signals on lines 750, 752, 756, 760, and the logical inverses of the signals on lines 754, 758.
+      <br/>
+      The signal on line 638 is generated as the result of a logical OR operation, executed by OR logic 716, of the outputs of AND gates 714, 718.
+      <br/>
+      The output of gate 714 is generated as the result of a logical AND operation of the signal on line 750 and the logical inverses of the signals on lines 752, 754, 756.
+      <br/>
+      The output of gate 718 is generated as the result of a logical AND operation of the signals on lines 750, 752, 756, and the logical inverses of the signals on lines 754, 756, 758.
+    </p>
+    <p num="37">
+      The logic implemented by the processor 34 to generate the signal on line 750 is illustrated in FIG. 6C. As shown in FIG. 6C, the signal on line 750 is provided by the non-inverting output of a clocked flip-flop 656 based upon an input signal provided from the output of OR gate 654.
+      <br/>
+      The output of gate 654 is the result of a logical OR operation of an initial byte count write signal 804 and the output of an AND gate 652.
+      <br/>
+      The signal on line 804 is in a high logic state when the processor 34 stores in a register (not shown) in the adapter 14 a value indicating the total size of the packet (i.e., in bytes) to be checksummed.
+      <br/>
+      The output of gate 652 is generated as the result of a logical AND operation of the signal on line 750 and an enable signal on line 802.
+      <br/>
+      The logic used by processor 34 to generate the signal on line 752 is shown in FIG. 6D. As shown in FIG. 6D, the non-inverting output of clocked flip-flop 664 provides the signal on line 752, which output is based upon the signal input to flip-flop 664 from the output of OR logic 662.
+      <br/>
+      The output of logic 662 is the result of a logical OR operation of the outputs of AND gates 658, 660.
+      <br/>
+      The output of gate 658 is generated as the result of a logical AND operation of a "CNT_LESSTHAN9" signal on line 800 and the enable signal on line 802.
+      <br/>
+      The output of AND gate 660 is the result of a logical AND operation of the signal on line 752 and the logical inverse of the signal on line 802.
+    </p>
+    <p num="38">
+      The signal on line 800 is generated by logic implemented by processor 34, which logic is shown in FIG. 6B. As shown in FIG. 6B, the signal on line 800 is provided by the non-inverted output of clocked flip-flop 650, which output is based upon the input provided to flip-flop 650 by the output of comparitor 648.
+      <br/>
+      Comparitor 648 receives as inputs the current value contained in the data block size register (i.e., the register written to when the write signal on line 804 is in a high logic state) and the numerical value 9.
+      <br/>
+      The checksum control logic 206 is configured to decrement the value contained in this register, after each data transfer from the memory 70, by an amount equal to the number of bytes of the packet transferred via bus 42 as a result of the last preceding read cycle of memory 70.
+      <br/>
+      Comparitor 648 is configured to generate a high logic state output signal only when the value contained in the size register is less than 9.
+    </p>
+    <p num="39">The signal on line 642 is generated as the result of a logical AND operation, executed by AND logic 666, of the logical inverses of the signals on lines 602, 608, 610, 614, 618, 622, 626, 630, 634, and 638.</p>
+    <p num="40">
+      Flip-flop 646 generates a four-bit output signal, each bit of which signal is used to enable checksumming by logic 76 of a respective data byte of the data word being transferred to the host 12 in the current read cycle of the bus 42.
+      <br/>
+      Logic 76 comprises a conventional one's complement checksum generator which is also provided with control signals from the processor 34 via the bus 40, controller 36, and bus 42.
+      <br/>
+      These control signals permit, among other things, selective loading of a "seed" (i.e., starting value) into the logic 76.
+      <br/>
+      The checksum values output by the logic 76 may be stored in memory locations (not shown) that may be accessed by the processor 34.
+    </p>
+    <p num="41">
+      In operation of system 10, after a packet to be transferred to the router 12 has been received by the port adapter 14 and stored in memory 70, when the router processor 32 desires that the packet be transferred from memory 70 to memory 30, the processor 32 issues appropriate burst mode read commands for same to controller 28.
+      <br/>
+      In response, the controller 28 issues a burst mode read command to controller 36 via PCI bus 26, interface 50 and bus 38.
+      <br/>
+      Controller 36 then notifies processor 34 via bus 40 that controller 36 has received a burst mode read request from the router 12 for the packet in memory 70.
+      <br/>
+      In response to this notification, processor 34 issues commands to controller 36 via bus 40 to transfer the packet in memory 70 to the router 12 using a burst mode read operation.
+    </p>
+    <p num="42">
+      In response to this command from the processor 34, controller 36 issues burst mode read commands to the memory system 44 via bus 42 for causing the memory system 44 to transfer to system controller 36 the packet data in memory 70.
+      <br/>
+      Memory system 44 then transfers to controller 36 portions of the packet data while simultaneously checksumming these portions of data, using system 200.
+      <br/>
+      The portions of packet data received by controller 36 from system 44 are then transferred by controller 36 to controller 28 via PCI bus 38, interface 50, and PCI bus 26.
+      <br/>
+      Controller 28 stores received portions of packet data in memory 30 and notifies processor 32 of receipt of such data.
+    </p>
+    <p num="43">
+      For the reasons discussed previously, since system 10 includes multiple pre-fetched buses 38, 26 and multiple intermediate devices 36, 50, and 28 between memory 30 and memory 44, data latency exists between memory 30 and memory 44 when data is transferred from memory 44 to memory 30.
+      <br/>
+      Thus, if the data transfer operation between memory 44 and memory 30 is interrupted (e.g., as a result of processing by the processor 32 of an interrupt service routine that requires access to memory 30 via controller 28 during the transfer of data from memory 44 to memory 30), the address (i.e., in memory 70) of the portion of packet data most recently received by router 12 may differ from that of the portion of packet data most recently provided by memory 44 to controller 36 (and thus, also provided to system 200 for checksumming).
+      <br/>
+      Thus, when router 12 recommences transfer of packet data from system 44, the initial memory address specified for transfer in the burst mode read command issued by the controller 28 may specify the next sequential memory address following that of the portion of packet most recently received by controller 28 from adapter 14, not the memory address of the portion of packet data most recently received by controller 36.
+      <br/>
+      Thus, since in burst mode read operations, packet data is read from memory 44 starting from the data address initially specified in the burst mode read command issued by controller 28, and data is read out from memory 44 sequentially thereafter (i.e., in sequential address order), if a burst mode read operation of packet data in memory 44 is interrupted and thereafter recommenced by router 12, identical portions of packet data is memory 44 may be repeatedly transferred from memory 44 to controller 36 and presented to system 200 for checksumming.
+    </p>
+    <p num="44">
+      Advantageously, however, the logic comprised in controller 206 is configured to provide checksum enablement signals to checksum logic 76 that prevent checksum logic 76 from checksumming portions of the data packet that have already been checksummed once by the logic 76.
+      <br/>
+      That is, the enable signals provided to logic 76 by controller 206 only enable logic 76 to checksum portions of the data packet that have not yet been checksummed by the logic 76.
+      <br/>
+      Thus, controller 206 ensures that an accurate checksum is generated of the total data packet being transmitted from the memory 70 to the memory 30, by ensuring that only portions of the data packet that have not yet undergone checksumming are checksummed by logic 76, despite repeated presentation of identical portions of the data packet to logic 76 as a result of repeated transmission of such identical portions of the data packet to the controller 36.
+    </p>
+    <p num="45">
+      Once the total checksum of the data block transferred to the host system 12 has been calculated, the processor 34 causes the controller 36 to transfer the total checksum to the router 12, after the last byte of the data block has also been transferred to the host system 12.
+      <br/>
+      The system controller 28 of the router 12 then receives the checksum and forwards it to the processor and associated memory 32 and/or stores it in memory 30.
+      <br/>
+      The processor 32 may calculate its own checksum of the copy of the data block stored in memory system 30, or memory system 30 may comprise a checksum generator (not shown) for generating a checksum of the copy of the data block.
+      <br/>
+      In either case, after the router 12 has generated its own checksum of the copy of the data block in memory 30, the processor 32 compares the checksum it has generated with that supplied by the adapter 14.
+      <br/>
+      If the two checksums match, the processor 32 determines that the transfer of the data block was successful, and if they do not match, the processor 32 determines that the transfer was not successful.
+    </p>
+    <p num="46">Alternatively, if the router is not the final destination of the packet, the router may not verify the packet's checksum, but rather, may forward the packet and checksum to the final destination where such verification may take place.</p>
+    <p num="47">
+      Thus, it is evident that there has been provided, in accordance with the present invention, a system and method for ensuring accurate checksumming of data to be transferred via at least one bus that fully satisfy the aims and objectives, and achieve the advantages, set forth above.
+      <br/>
+      As will be apparent to those skilled in the art, many alternatively, modifications, and variations of the embodiments described above are possible.
+      <br/>
+      For example, although the router 12 preferably comprises a 72XX series computer router system commercially available from the Assignee of the instant application, and each of the port adapters 14, 16, 18 preferably comprises a printed circuit card for being connected to the bus 26 of the host system 12 by being inserted into a respective internal bus slot of said system 12, if appropriately modified in ways apparent to those of skill in the art, the router and adapters may comprise other constructions and configurations without departing from the present invention.
+      <br/>
+      Also, although the interface 50 is shown in FIG. 3 as being comprised within the port adapter system 14, if system 10 is appropriately modified, interface 50 may alternatively be comprised within the router 12, or further alternatively may be a separate (i.e., standalone) system to which the router 12 and adapter 14 are coupled.
+    </p>
+    <p num="48">
+      Other modifications are also possible.
+      <br/>
+      For example, although the adapters 14, 16, 18 have been described as being for interfacing the router 12 to respective ESCON channels, 20, 22, 24, if appropriately modified, adapters 14, 16, 18 may instead be used to interface the router 12 to other types of communications links.
+      <br/>
+      Accordingly, the present invention should be viewed broadly, as being limited only as set forth in the hereinafter appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6.</claim-text>
+      <claim-text>A method for accurately generating a checksum of a data block as said data block is being transferred via at least one pre-fetchable bus from memory, said method comprising: controlling checksum logic so as to permit to be checksummed, only portions of the data block that have yet to be checksummed, during transfer from the memory, even if identical portions of the data block are repeatedly transferred via the bus and presented to the checksum logic, the controlling of the checksum logic being based upon a starting location of the block in the memory, a length of the block in the memory, and a size of a first portion of the data block to be transferred during an initial data transfer operation comprised in said transfer.</claim-text>
+      <claim-text>1. A system for accurately generating a checksum of a data block during transfer of said data block from memory via at least one pre-fetchable bus, said system comprising:</claim-text>
+      <claim-text>a controller for controlling checksum logic such that only portions of said data block that have yet to be checksummed are checksummed during said transfer, despite repeated presentation of identical portions of said data block to the checksum logic for checksumming during said transfer, the controller being controlled by a processor based upon a starting location of the data block in the memory, a length of the data block in the memory, and a size of a first portion of the data block to be transferred during an initial data transfer operation comprised in said transfer.</claim-text>
+      <claim-text>2. A system according to claim 1, wherein said at least one bus comprises at least one PCI bus.</claim-text>
+      <claim-text>3. A system according to claim 1, wherein said block is contained within a computer-readable memory device of a channel port adapter.</claim-text>
+      <claim-text>4. A system according to claim 3, wherein at least one bus comprises at least a first bus comprised in said adapter, and a second bus for connecting said adapter and a router, each of said first and second buses being pre-fetchable.</claim-text>
+      <claim-text>5. A system according to claim 4, wherein said transfer of said data is from said memory device to said router via said first and second buses.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A method according to claim 6, wherein said transfer involves repeated read operations of the same memory location in said block.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method according to claim 6, wherein said at least one pre-fetchable bus comprises at least one PCI bus.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method according to claim 6, wherein said transfer is from said memory to a router via at least two pre-fetchable buses.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

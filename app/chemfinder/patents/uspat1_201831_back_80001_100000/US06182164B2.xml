@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182164B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182164</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182164</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22760269" extended-family-id="42109003">
+      <document-id>
+        <country>US</country>
+        <doc-number>09204978</doc-number>
+        <kind>A</kind>
+        <date>19981203</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09204978</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165619</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>20497898</doc-number>
+        <kind>A</kind>
+        <date>19981203</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09204978</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  12/08        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>12</main-group>
+        <subgroup>08</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710015000</text>
+        <class>710</class>
+        <subclass>015000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710019000</text>
+        <class>710</class>
+        <subclass>019000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710052000</text>
+        <class>710</class>
+        <subclass>052000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>711111000</text>
+        <class>711</class>
+        <subclass>111000</subclass>
+      </further-classification>
+      <further-classification sequence="4">
+        <text>711118000</text>
+        <class>711</class>
+        <subclass>118000</subclass>
+      </further-classification>
+      <further-classification sequence="5">
+        <text>711147000</text>
+        <class>711</class>
+        <subclass>147000</subclass>
+      </further-classification>
+      <further-classification sequence="6">
+        <text>711E12035</text>
+        <class>711</class>
+        <subclass>E12035</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-012/08B4P4P</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>012</main-group>
+        <subgroup>08B4P4P</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-012/0835</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>12</main-group>
+        <subgroup>0835</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6182164</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Minimizing cache overhead by storing data for communications between a peripheral device and a host system into separate locations in memory</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>STILES DAVID R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5826052</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5826052</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KIMMEL JEFFREY S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5956754</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5956754</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TRAN THANG M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6012125</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6012125</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>DANIEL THOMAS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6115761</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6115761</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Advanced Micro Devices, Inc.</orgname>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>ADVANCED MICRO DEVICES</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Williams, Robert A.</name>
+            <address>
+              <address-1>Cupertino, CA, US</address-1>
+              <city>Cupertino</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Choi, Monica H.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lee, Thomas C.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus for storing, in a data storage device, status data and control data used for communications between a peripheral device and a host system with a mechanism for minimizing cache data processing overhead.
+      <br/>
+      The data storage device of the present invention includes a status portion, at a first location within the data storage device, for storing status data corresponding to a buffer.
+      <br/>
+      The first location of the data storage device corresponds to a first cache line, and the peripheral device generates the status data for providing status information to the host system.
+      <br/>
+      The data storage device further includes a control portion, at a second location within the data storage device, for storing control data corresponding to the descriptor.
+      <br/>
+      The second location of the data storage device corresponds to a second cache line, and the host system generates the control data for providing control information to the peripheral device.
+      <br/>
+      The host system reads the status information from cache and a cache controller transfers the status data from the data storage device to the cache for reading of the status data by the host system from the cache.
+      <br/>
+      With the present invention, the first cache line is different from the second cache line such that cache data processing overhead is minimized when coordinating access to the control data and the status data by the peripheral device and by the host system.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">This invention relates to interaction of a peripheral device with a host system, and more particularly to a method and apparatus for storing data used for communications between the peripheral device and the host system into separate locations in memory corresponding to different cache lines to minimize cache data processing overhead.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      The present invention will be described with an example application for an Ethernet computer network peripheral device which couples a host computer system to a network of computers.
+      <br/>
+      In this example application, a CPU of the host computer system and the Ethernet computer network peripheral device share access to a shared memory within the host computer system.
+      <br/>
+      In particular, the present invention is described with respect to a list of descriptors that are shared for access between the CPU and the computer network peripheral device as described herein.
+      <br/>
+      However, from this example application, it should be appreciated by one of ordinary skill in the art of electronic systems design that the present invention may be practiced for other computer peripheral devices that share access to a shared memory with the host computer system.
+    </p>
+    <p num="3">
+      Referring to FIG. 1, a computer peripheral device 102 may be an Ethernet computer network peripheral device which allows a host computer 104 to communicate with other computers within a network of computers 106.
+      <br/>
+      Such a computer peripheral device 102 receives and transmits data packets on the network of computers 106.
+      <br/>
+      The computer peripheral device 102, which may be an Ethernet computer network peripheral device, receives and transmits data packets on the network of computers 106 in accordance with standard data communications protocols such as the IEEE 802.3 network standard or the DIX Ethernet standard as is commonly known to one of ordinary skill in the art of Ethernet computer network peripheral device design.
+    </p>
+    <p num="4">
+      The host computer 104 may be a PC or a workstation, and has a host system which includes a CPU 108 and a shared memory 110 which may be any data storage device found in a PC or a workstation.
+      <br/>
+      The CPU 108 further processes a data packet received from the network of computers 106 or generates a data packet to be transmitted on the network of computers 106.
+      <br/>
+      The shared memory 110 is shared between the CPU 108 of the host system 104 and the computer network peripheral device 102.
+      <br/>
+      In a DMA (Direct Memory Access) mode of operation, the computer network peripheral device 102 has direct access to the shared memory 110 within the host system of the computer 104.
+    </p>
+    <p num="5">
+      When the computer network peripheral device 102 receives a data packet from the network of computers 106, that data packet is written into the shared memory 110 directly by the computer network peripheral device 102 for further processing by the host system CPU 108.
+      <br/>
+      The CPU 108 also accesses the shared memory 110 to further process the data packet stored within the shared memory 110.
+    </p>
+    <p num="6">
+      Alternatively, the CPU 108 accesses the shared memory 110 to write a data packet to be transmitted on the network of computers 106.
+      <br/>
+      The computer network peripheral device 102 then accesses the shared memory 110 to read the stored data packet in order to transmit such a data packet over the network of computers 106.
+    </p>
+    <p num="7">
+      Since both the CPU 108 and the computer network peripheral device 102 access the shared memory 110, such shared access to the shared memory 110 is coordinated between the CPU 108 and the computer network peripheral device 102 for harmonious interaction between the two devices.
+      <br/>
+      Thus, referring to FIG. 2, the CPU 108 of the host system 104 and the computer peripheral device 102 share at least one buffer including a first buffer 212, a second buffer 214, and a third buffer 216 in the shared memory 110.
+      <br/>
+      A buffer may be used to store a data packet received or to be transmitted over the network of computers 106.
+    </p>
+    <p num="8">
+      Access to the shared memory 110 between the CPU 108 and the computer network peripheral device 102 is coordinated by the use of descriptors.
+      <br/>
+      Referring to FIG. 2, a respective descriptor is within the shared memory 110 for each buffer within the shared memory 110.
+      <br/>
+      A first descriptor 222 corresponds to the first buffer 212, a second descriptor 224 corresponds to the second buffer 214, and a third descriptor 226 corresponds to the third buffer 216.
+      <br/>
+      Each descriptor has respective control data and respective status data corresponding to the respective buffer associated with that descriptor.
+    </p>
+    <p num="9">
+      Thus, the first descriptor 222 has first control data 232 and first status data 242 corresponding to the first buffer 212.
+      <br/>
+      The second descriptor 224 has second control data 234 and second status data 244 corresponding to the second buffer 214.
+      <br/>
+      The third descriptor 226 has third control data 236 and third status data 246 corresponding to the third buffer 216.
+    </p>
+    <p num="10">
+      In the prior art, the control data and the status data corresponding to a buffer are typically located in a same memory location.
+      <br/>
+      For example, the control data and the status data corresponding to a buffer may be located within a single byte within the shared memory 110.
+    </p>
+    <p num="11">
+      The CPU 108 writes the control data corresponding to a buffer to communicate control information to the peripheral device 102, including for example the completion of processing by the CPU 108 data within the corresponding buffer.
+      <br/>
+      In that case, the peripheral device 102 reads the control data corresponding to a buffer to determine the completion of processing by the CPU 108 data within that corresponding buffer.
+      <br/>
+      On the other hand, the peripheral device 102 writes the status data corresponding to a buffer to communicate status information to the CPU 108, including for example the completion of processing by the peripheral device 102 data within the corresponding buffer.
+      <br/>
+      Thus, the CPU 108 reads the status data corresponding to a buffer to determine the completion of processing by the peripheral device 102 data within that corresponding buffer.
+    </p>
+    <p num="12">
+      In the prior art, the control data and the status data of a descriptor are located closely together within the shared memory 110 such that the control data and the status data usually are in the same cache line within the shared memory 110.
+      <br/>
+      For example, the first control data 232 and the first status data 242 may be in a first cache line 252.
+      <br/>
+      The second control data 234 and the second status data 244 may be in a second cache line 254.
+      <br/>
+      The third control data 236 and the third status data 246 may be in a third cache line 256.
+      <br/>
+      Alternatively, more than one descriptor may be in any one cache line with the prior art.
+    </p>
+    <p num="13">
+      The CPU 108 of the host system when reading data from the shared memory 110 caches data from memory before reading that data from cache.
+      <br/>
+      Because the CPU 108 operates in loops, data from memory is cached for faster speed when the CPU 108 repeatedly reads that data from cache.
+      <br/>
+      Referring to FIG. 3, the peripheral device 102 accesses data in the shared memory 110 via a system interface bus 302.
+      <br/>
+      The CPU 108 reads data in the shared memory 110 via a cache 304.
+      <br/>
+      The cache 304 includes a dirty bit 306 and a valid bit 308 as known to one of ordinary skill in the art of digital system design.
+      <br/>
+      A cache and memory controller 310 coordinates the availability of data from the shared memory 110 to the CPU 108 and to the peripheral device 102.
+    </p>
+    <p num="14">
+      When the control data and the status data corresponding to a buffer are in the same cache line within shared memory 110, both the control data and the status data are loaded into cache 304 when any part of data corresponding to that cache line is loaded into cache 304.
+      <br/>
+      In that case, the coordination of the availability of data from the shared memory 110 to the CPU 108 and to the peripheral device 102 requires relatively high cache data processing overhead as illustrated in the table of FIG. 4 for a typical write-through cache system, as known to one of ordinary skill in the art.
+    </p>
+    <p num="15">
+      Referring to the table of FIG. 4 and to FIGS. 2 and 3, if the CPU 108 requires writing control data to the shared memory 110, and if there is a cache hit (i.e., the cache line corresponding to that control data is already within the cache 304), then the cache and memory controller 310 updates that cache line within the cache 304.
+      <br/>
+      In that case also, the cache and memory controller 310 marks that cache line dirty via the dirty bit 306 to indicate that the content within the shared memory 110 corresponding to that cache line has been modified within the cache 304.
+      <br/>
+      Thus, the content within the shared memory 110 corresponding to that cache line should be updated to the current data that is within the cache 304.
+      <br/>
+      On the other hand, if the CPU 108 requires writing control data to the shared memory 110, and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that control data is not within the cache 304), then the cache and memory controller 310 writes that control data from the CPU 108 to the corresponding location within the shared memory 110.
+    </p>
+    <p num="16">
+      If the CPU 108 requires reading status data from the shared memory 110 and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if that cache line is invalid (i.e., the status data within the cache 304 is not current data as indicated by the valid bit 308), then the cache and memory controller 310 reloads the status data into the cache 304 from the shared memory 110.
+      <br/>
+      Thereafter, the CPU 108 reads that status data from the cache 304.
+      <br/>
+      If the CPU 108 requires reading status data from the shared memory 110 and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if that cache line is valid (i.e., the status data within the cache 304 is current data as indicated by the valid bit 308), then the CPU 108 simply reads that status data from the cache 304.
+      <br/>
+      If the CPU 108 requires reading status data from the shared memory 110 and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that status data is not within the cache 304), then the cache and memory controller 310 loads the status data into the cache 304 from the shared memory 110.
+      <br/>
+      Thereafter, the CPU 108 reads that status data from the cache 304.
+    </p>
+    <p num="17">
+      If the peripheral device 102 requires writing status data to the shared memory 110, and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if the cache line corresponding to that status data has not been modified within the cache 304 (as indicated by the dirty bit 306), then the peripheral device 102 writes that status data directly to the corresponding location within the shared memory 110.
+      <br/>
+      In addition, the cache and memory controller 310 invalidates that cache line via the valid bit 308 in the cache 304 to indicate that the status data within the cache 304 is not current data since that status data has been updated by the peripheral device 102 within the shared memory 110.
+    </p>
+    <p num="18">
+      If the peripheral device 102 requires writing status data to the shared memory 110, and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if the cache line corresponding to that status data has been modified within the cache 304 (as indicated by the dirty bit 306), then the cache and memory controller 310 copies that cache line from the cache 304 into the shared memory 110.
+      <br/>
+      Thereafter, the cache and memory controller 310 writes that status data directly to the corresponding location within the shared memory 110.
+      <br/>
+      In addition, the cache and memory controller 310 invalidates that cache line via the valid bit 308 in the cache 304 to indicate that the status data within the cache 304 is not current data since that status data has been updated by the peripheral device 102 within the shared memory 110.
+    </p>
+    <p num="19">If the peripheral device 102 requires writing status data to the shared memory 110, and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that status data is not within the cache 304), then the peripheral device 102 writes that status data directly to the corresponding location within the shared memory 110.</p>
+    <p num="20">
+      If the peripheral device 102 requires reading of control data from the shared memory 110, and if there is a cache hit (i.e., the cache line corresponding to that control data is already within the cache 304) and if the cache line corresponding to that control data has been modified within the cache 304 (as indicated by the dirty bit 306), then the cache and memory controller 310 writes that cache line from the cache 304 to the shared memory 110.
+      <br/>
+      Then, the peripheral device 102 reads that control data from the corresponding location within the shared memory 110 (via the system interface bus 302).
+    </p>
+    <p num="21">If the peripheral device 102 requires reading of control data from the shared memory 110, and if there is a cache hit (i.e., the cache line corresponding to that control data is already within the cache 304) and if the cache line corresponding to that control data has not been modified within the cache 304 (as indicated by the dirty bit 306), then the peripheral device 102 reads that control data from the corresponding location within the shared memory 110 (via the system interface bus 302).</p>
+    <p num="22">If the peripheral device 102 requires reading of control data from the shared memory 110, and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that control data is not within the cache 304), then the peripheral device 102 reads that control data from the corresponding location within the shared memory 110 (via the system interface bus 302).</p>
+    <p num="23">
+      As illustrated by the table of FIG. 4, relatively heavy cache data processing overhead is required to coordinate access to control data and status data that are on the same cache line for the cases of a cache hit and a cache miss according to the prior art.
+      <br/>
+      A mechanism to minimize cache data processing overhead during coordination of access to the shared memory 110 by the CPU 108 and the peripheral device 102 is desired for minimizing data processing overhead within the host system 104.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="24">Accordingly, the present invention stores control data and status data within the shared memory such that cache data processing overhead is minimized.</p>
+    <p num="25">
+      In a general aspect, the present invention is an apparatus and method for storing, in a data storage device, status data and control data used for communications between a peripheral device and a CPU of a host system.
+      <br/>
+      The present invention includes a data storage device further including a status portion, at a first location within the data storage device, for storing status data corresponding to a buffer.
+      <br/>
+      The first location of the data storage device corresponds to a first cache line.
+      <br/>
+      The peripheral device generates the status data for providing status information to the host system.
+      <br/>
+      The data storage device further includes a control portion, at a second location within the data storage device, for storing control data corresponding to the buffer.
+      <br/>
+      The second location of the data storage device corresponds to a second cache line.
+      <br/>
+      The host system generates the control data for providing control information to the peripheral device.
+      <br/>
+      The host system reads the status information from cache, and a cache controller transfers status data to cache for reading of the status data by the host system from cache.
+    </p>
+    <p num="26">
+      In addition, the first cache line is different from the second cache line, according to the present invention.
+      <br/>
+      Because the control data and the status data corresponding to a buffer are located in separate cache lines within the data storage device, cache data processing overhead is minimized with the present invention.
+    </p>
+    <p num="27">These and other features and advantages of the present invention will be better understood by considering the following detailed description of the invention which is presented with the attached drawings.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="28">
+      FIG. 1 shows a computer network peripheral device within a host system having a data storage device for communications between the host system and the computer network peripheral device;
+      <br/>
+      FIG. 2 shows a mechanism for storing control data and status data within the data storage device of FIG. 1 for communications between the host system and the computer network peripheral device, according to the prior art;
+      <br/>
+      FIG. 3 shows a cache memory system for coordinating access to the data storage device between the host system and the computer network peripheral device;
+      <br/>
+      FIG. 4 shows a table of cache data processing overhead with the mechanism for storing control data and status data of FIG. 3, according to the prior art;
+      <br/>
+      FIG. 5 shows a mechanism for storing control data and status data within the data storage device for minimizing cache data processing overhead, according to the present invention; and
+      <br/>
+      FIG. 6 shows a table of cache data processing overhead with the mechanism for storing control data and status data of FIG. 5, according to the present invention.
+    </p>
+    <p num="29">
+      The figures referred to herein are drawn for clarity of illustration and are not necessarily drawn to scale.
+      <br/>
+      Elements having the same reference number in FIGS. 1-6 refer to elements having similar structure and function.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="30">
+      Referring to FIG. 5, the present invention is a mechanism for storing control data and status data within the shared memory 110 such that cache data processing overhead is minimized.
+      <br/>
+      More particularly, the control data and the status data corresponding to a buffer are stored in locations within the shared memory 110 corresponding to different cache lines to minimize cache data processing overhead.
+    </p>
+    <p num="31">
+      Referring to FIG. 5, for the first descriptor corresponding to the first buffer 212 for example, the shared memory 110 includes a first status portion 502 at a first location within the shared memory 110 for storing status data corresponding to the first descriptor.
+      <br/>
+      The shared memory 110 includes a first control portion 504 at a second location within the shared memory 110 for storing control data corresponding to the first descriptor.
+    </p>
+    <p num="32">
+      Similarly, the shared memory 110 includes a second status portion 506 at a third location within the shared memory for storing status data corresponding to the second descriptor.
+      <br/>
+      The shared memory 110 includes a second control portion 508 at a fourth location within the shared memory 110 for storing control data corresponding to the second descriptor.
+      <br/>
+      The shared memory 110 includes a third status portion 510 at a fifth location within the shared memory 110 for storing status data corresponding to the third descriptor.
+      <br/>
+      The shared memory 110 includes a third control portion 512 at a sixth location within the shared memory 110 for storing control data corresponding to the third descriptor.
+    </p>
+    <p num="33">
+      The CPU 108 of the host system 104 generates the control data to be stored in the control portions 504, 508, and 512 for providing control information to the peripheral device 102, including for example the completion of processing by the CPU 108 of the data within the buffers.
+      <br/>
+      The peripheral device 102 reads from any of the control portions 504, 508, and 512 to determine the completion of processing by the CPU 108 of the data within a corresponding buffer.
+    </p>
+    <p num="34">
+      The peripheral device 102 generates the status data to be stored in the status portions 502, 506, and 510 for providing status information to the CPU 108 of the host system 104, including for example the completion of processing by the peripheral device 102 of the data within the buffers.
+      <br/>
+      The CPU 108 reads from any of the status portions 502, 506, and 510 to determine the completion of processing by the peripheral device 102 of the data within a corresponding buffer.
+      <br/>
+      Referring to FIG. 3, the cache and memory controller 310 typically loads the status data into the cache 304 from the shared memory 110 before the CPU 108 reads the status data from the cache 304.
+    </p>
+    <p num="35">
+      According to the present invention, the locations of the status portion and the control portion corresponding to a buffer are on different cache lines.
+      <br/>
+      Referring to FIG. 5, the first location of the first status portion 502 corresponds to a first cache line, and the second location of the first control portion 504 corresponds to a second cache line.
+      <br/>
+      The first cache line and the second cache line are different such that the status data within the first status portion 502 and the control data within the first control portion 504 are not together loaded into the cache 304 in FIG. 3.
+    </p>
+    <p num="36">
+      Similarly, the third location of the second status portion 506 corresponds to a third cache line, and the fourth location of the second control portion 508 corresponds to a fourth cache line.
+      <br/>
+      The third cache line and the fourth cache line are different such that the status data within the second status portion 506 and the control data within the second control portion 508 are not together loaded into the cache 304 in FIG. 3.
+      <br/>
+      The fifth location of the third status portion 510 corresponds to a fifth cache line, and the sixth location of the third control portion 512 corresponds to a sixth cache line.
+      <br/>
+      The fifth cache line and the sixth cache line are different such that the status data within the third status portion 510 and the control data within the third control portion 512 are not together loaded into the cache 304 in FIG. 3.
+    </p>
+    <p num="37">
+      Furthermore, note that a plurality of status portions may be located in any one cache line, and a plurality of control portions may be located in any one cache line.
+      <br/>
+      However, with the present invention, any one cache line does not include both a status portion and a control portion corresponding to a buffer.
+    </p>
+    <p num="38">
+      The peripheral device 102 and a peripheral device driver within the CPU 108, during initialization of the host system 104, configure the shared memory 110 to maintain the status portion and the control portion corresponding to a buffer to be in different cache lines.
+      <br/>
+      For example, the peripheral device 102 may generate a first descriptor list of control portions and a second descriptor list of status portions for a list of buffers within the shared memory.
+      <br/>
+      The CPU 108, during initialization of the host system 104 specifies a first starting memory location within the shared memory 110 for the first descriptor list and a second starting memory location within the shared memory 110 for the second descriptor list.
+      <br/>
+      The control portions within the first descriptor list are stored sequentially within the shared memory 110 starting from the first starting memory location.
+      <br/>
+      The status portions within the second descriptor list are stored sequentially within the shared memory 110 starting from the second starting memory location.
+      <br/>
+      The CPU 108 specifies the first starting memory location and the second starting memory location such that the control portion and status portion corresponding to a buffer are in different cache lines.
+    </p>
+    <p num="39">
+      In this manner, the control data and the status data corresponding to a buffer are not loaded into the cache 304 at the same time.
+      <br/>
+      Thus, cache data processing overhead is minimized as illustrated in the table of FIG. 6.
+    </p>
+    <p num="40">
+      Referring to the table of FIG. 6 and to FIGS. 3 and 5, if the CPU 108 requires writing control data to the shared memory 110, then the CPU 108 simply writes that control data to the corresponding location within the shared memory 110.
+      <br/>
+      On the other hand, if the peripheral device 102 requires reading control data from the shared memory 110, then the peripheral device 102 simply reads that control data from the corresponding location within the shared memory 110.
+      <br/>
+      Since control data is written by the CPU 108 and read by the peripheral device 102 and since control data is on a cache line that is different from the cache line of status data according to the present invention, control data is not loaded into the cache 304.
+      <br/>
+      The cache 304 is not used for handling of the control data with the present invention.
+      <br/>
+      Thus, cache data processing is not needed for coordinating access to control data within the shared memory 110, and cache data processing is thus further minimized with the present invention.
+    </p>
+    <p num="41">
+      In addition, if the CPU 108 requires reading status data from the shared memory 110 and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if that cache line is invalid (i.e., the status data within the cache 304 is not current data as indicated by the valid bit 308), then the cache controller 310 loads the status data into the cache 304 from the shared memory 110.
+      <br/>
+      Thereafter, the CPU 108 reads that status data from the cache 304.
+      <br/>
+      If the CPU 108 requires reading status data from the shared memory 110 and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304) and if that cache line is valid (i.e., the status data within the cache 304 is current data as indicated by the valid bit 308), then the CPU 108 simply reads that status data from the cache 304.
+      <br/>
+      If the CPU 108 requires reading status data from the shared memory 110 and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that status data is not within the cache 304), then the cache controller 310 loads the status data into the cache 304 from the shared memory 110.
+      <br/>
+      Thereafter, the CPU 108 reads that status data from the cache 304.
+    </p>
+    <p num="42">
+      On the other hand, if the peripheral device 102 requires writing status data to the shared memory 110 and if there is a cache hit (i.e., the cache line corresponding to that status data is already within the cache 304), then the peripheral device 102 writes that status data directly to the corresponding location within the shared memory 110.
+      <br/>
+      In addition, the cache and memory controller 310 invalidates that cache line via the valid bit 308 in the cache 304 to indicate that the status data within the cache 304 is not current data since that status data has been updated by the peripheral device 102 within the shared memory 110.
+      <br/>
+      If the peripheral device 102 requires writing status data to the shared memory 110 and if there is a cache miss (i.e., there is no cache hit because the cache line corresponding to that status data is not within the cache 304), then the peripheral device 102 writes that status data directly to the corresponding location within the shared memory 110.
+    </p>
+    <p num="43">
+      In this manner, status data is loaded into the cache 304 for reading of the status data by the CPU 108.
+      <br/>
+      However, because control data is on a cache line that is different from the cache line of status data according to the present invention, control data is not modified within the cache 304 before the peripheral device 102 requires reading of that control data from the shared memory 110.
+      <br/>
+      Thus, the content of the cache 304 is not first copied to the shared memory 110 before the peripheral device 102 reads that control data from the shared memory 110.
+      <br/>
+      In effect, the dirty bit 306 within the cache 304 is not used according to the present invention.
+      <br/>
+      Because the dirty bit 306 within the cache 304 does not need processing according to the present invention, cache data processing overhead is thus further minimized with the present invention.
+    </p>
+    <p num="44">
+      The foregoing is by way of example only and is not intended to be limiting.
+      <br/>
+      For example, the present invention may be used for any number of buffers within the shared memory 110.
+      <br/>
+      In addition, the present invention may be practiced for any type of computer peripheral device aside from just the example of the computer network peripheral device.
+      <br/>
+      The present invention may also be practiced for any type of data storage device located either within the host system 104 or on the peripheral device 102 for storing control data and status data, as known to one of ordinary skill in the art.
+      <br/>
+      The invention is limited only as defined in the following claims and equivalents thereof.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>I claim:</claim-text>
+      <claim-text>1. A method for storing, in a data storage device, status data and control data used for communications between a peripheral device and a host system, the method including the steps of:</claim-text>
+      <claim-text>A. storing status data, corresponding to a buffer, in a first location of the data storage device, wherein said first location of said data storage device corresponds to a first cache line, and wherein said peripheral device generates said status data for providing status information to said host system; B. storing control data, corresponding to said descriptor, in a second location of the data storage device, wherein said second location of said data storage device corresponds to a second cache line, and wherein said host system generates said control data for providing control information to said peripheral device;</claim-text>
+      <claim-text>and C. maintaining said first cache line to be different from said second cache line, and wherein said host system reads said status information from cache.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein said host system writes said control data to said second location of said data storage device.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, wherein said peripheral device reads said control data from said second location of said data storage device.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1, wherein said host system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is valid within said cache.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1, wherein said status data is reloaded from said first location of said data storage device into said cache before said host system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is invalid within said cache.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1, wherein said status data is loaded from said first location of said data storage device into said cache before said host system reads said status data from said cache if the first cache line is not a hit within said cache.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1, wherein said peripheral device writes said status data to said first location of said data storage device.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 7, wherein the first cache line is invalidated within said cache if the first cache line is a hit within said cache when said peripheral device writes said status data to said first location.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 1, wherein said peripheral device is a computer network peripheral device that couples a host computer system to a network of computers, and wherein said descriptor corresponds to a buffer in said data storage device for storing a data packet.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A method for storing, in a data storage device, status data and control data used for communications between a computer network peripheral device and a host computer system, the method including the steps of: A. storing status data, corresponding to a buffer, in a first location of the data storage device, wherein said first location of said data storage device corresponds to a first cache line, and wherein said computer network peripheral device generates said status data for providing status information to said host computer system, and wherein said descriptor corresponds to a buffer in said data storage device for storing a data packet; B. storing control data, corresponding to said descriptor, in a second location of the data storage device, wherein said second location of said data storage device corresponds to a second cache line, and wherein said host computer system generates said control data for providing control information to said computer network peripheral device;</claim-text>
+      <claim-text>and C. maintaining said first cache line to be different from said second cache line; and wherein said host computer system reads said status information from cache; and wherein said host computer system writes said control data to said second location of said data storage device; and wherein said computer network peripheral device reads said control data from said second location of said data storage device; and wherein said host computer system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is valid within said cache; and wherein said status data is reloaded from said first location of said data storage device into said cache before said host computer system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is invalid within said cache; and wherein said status data is loaded from said first location of said data storage device into said cache before said host computer system reads said status data from said cache if the first cache line is not a hit within said cache; and wherein said computer network peripheral device writes said status data to said first location of said data storage device, and wherein the first cache line is invalidated within said cache if the first cache line is a hit within said cache when said computer network peripheral device writes said status data to said first location.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. An apparatus for coordinating communications between a peripheral device and a host system, the apparatus comprising: a data storage device further including:</claim-text>
+      <claim-text>- a status portion, at a first location within said data storage device, for storing status data corresponding to a buffer, wherein said first location of said data storage device corresponds to a first cache line, and wherein said peripheral device generates said status data for providing status information to said host system;</claim-text>
+      <claim-text>and - a control portion, at a second location within said data storage device, for storing control data corresponding to said descriptor, wherein said second location of said data storage device corresponds to a second cache line, and wherein said host system generates said control data for providing control information to said peripheral device; means for maintaining said first cache line to be different from said second cache line; and wherein said host system reads said status information from cache, and a cache controller for transferring said status data to said cache for reading of said status data by said host system from said cache.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The apparatus of claim 11, wherein said host system writes said control data to said second location of said data storage device.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The apparatus of claim 11, wherein said peripheral device reads said control data from said second location of said data storage device.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The apparatus of claim 11, wherein said host system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is valid within said cache.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The apparatus of claim 11, wherein said cache controller reloads said status data from said first location of said data storage device into said cache before said host system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is invalid within said cache.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The apparatus of claim 11, wherein said cache controller loads status data from said first location of said data storage device into said cache before said host system reads said status data from said cache if the first cache line is not a hit within said cache.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The apparatus of claim 11, wherein said peripheral device writes said status data to said first location of said data storage device.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The apparatus of claim 17, wherein the first cache line is invalidated within said cache if the first cache line is a hit within said cache when said peripheral device writes said status data to said first location.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The apparatus of claim 18, wherein said peripheral device is a computer network peripheral device that couples a host computer system to a network of computers, and wherein said descriptor corresponds to a buffer in said data storage device for storing a data packet.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. An apparatus for coordinating communications between a peripheral device and a host system, the apparatus comprising: a data storage device further including: - a status portion, at a first location within said data storage device, for storing status data corresponding to a buffer, wherein said first location of said data storage device corresponds to a first cache line, and wherein said peripheral device generates said status data for providing status information to said host system;</claim-text>
+      <claim-text>and - a control portion, as a second location within said data storage device, for storing control data corresponding to said descriptor, wherein said second location of said data storage device corresponds to a second cache line, and wherein said host system generates said control data for providing control information to said peripheral device, means for maintaining said first cache line to be different from said second cache line; and wherein said host system reads said status information from cache, and a cache controller for transferring said status data to said cache for reading of said status data by said host system from said cache; and wherein said host computer system writes said control data to said second location of said data storage device; and wherein said computer network peripheral device reads said control data from said second location of said data storage device; and wherein said host computer system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is valid within said cache; and wherein said status data is reloaded from said first location of said data storage device into said cache before said host computer system reads said status data from said cache if the first cache line is a hit within said cache and if the first cache line is invalid within said cache; and wherein said status data is loaded from said first location of said data storage device into said cache before said host computer system reads said status data from said cache if the first cache line is not a hit within said cache; and wherein said computer network peripheral device writes said status data to said first location of said data storage device, and wherein the first cache line is invalidated within said cache if the first cache line is a hit within said cache when said computer network peripheral device writes said status data to said first location.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185332B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185332</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185332</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="23144150" extended-family-id="42113351">
+      <document-id>
+        <country>US</country>
+        <doc-number>09296933</doc-number>
+        <kind>A</kind>
+        <date>19990422</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09296933</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171534</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>29693399</doc-number>
+        <kind>A</kind>
+        <date>19990422</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09296933</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06K   9/46        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>9</main-group>
+        <subgroup>46</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>382186000</text>
+        <class>382</class>
+        <subclass>186000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>382219000</text>
+        <class>382</class>
+        <subclass>219000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06K-009/46B1</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>009</main-group>
+        <subgroup>46B1</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06K-009/4647</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>9</main-group>
+        <subgroup>4647</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20150409</date>
+        </action-date>
+      </patent-classification>
+      <patent-classification sequence="2">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06K-2209/01</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>2209</main-group>
+        <subgroup>01</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>A</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20150407</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>27</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>3</number-of-figures>
+      <image-key data-format="questel">US6185332</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Character recognition technique</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>KAWA RYUICHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4155072</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4155072</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>MORI NOBUHIKO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4510617</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4510617</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HONGO YASUO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4556985</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4556985</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>UEDA TORU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5271068</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5271068</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>RAJASEKARAN PERIAGARAM K, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4712242</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4712242</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>DAUGMAN JOHN G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5291560</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5291560</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>CHEFALAS THOMAS E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5319721</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5319721</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>VOGT III ROBERT C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5325447</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5325447</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>DAI XIAO-WEI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5438631</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5438631</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>TANAKA MASATO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5479533</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5479533</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>GOVINDARAJU VENUGOPAL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5515455</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5515455</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>BASEHORE PAUL M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5802204</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5802204</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>HUANG YEA-SHIAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5802207</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5802207</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>NAKANO HIROKI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5805727</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5805727</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>BRADFORD ROGER B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5805747</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5805747</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>PLATT JOHN C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5812698</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5812698</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>BERGMAN ANTHONY J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5838820</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5838820</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>ARAI TOSHIFUMI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5841901</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5841901</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>FaxTrieve, Inc.</orgname>
+            <address>
+              <address-1>Mountain View, CA, US</address-1>
+              <city>Mountain View</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>FAXTRIEVE</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Thompson, Archie L.</name>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Van Saun, Richard A.</name>
+            <address>
+              <address-1>Menlo Park, CA, US</address-1>
+              <city>Menlo Park</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Townsend and Townsend and Crew LLP</orgname>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Allen, Kenneth R.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Chang, Jon</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      The present invention includes a method, a computer product and a system each of which features fitting a spatial recognition technique to enable a microprocessor to recognize hand-written characters, referred to herein as a cipher.
+      <br/>
+      This is achieved by fitting the cipher to a matrix having a plurality of cells with each cell having a plurality of pixels corresponding thereto and determining whether said cipher may be equally distributed among the plurality of cells.
+      <br/>
+      In this fashion, a subset of the pixels of a subgroup of the plurality of cells have a sub-portion of the cipher associated therewith and it is determined whether the number of pixels associated with each portion of the cipher are equal.
+      <br/>
+      If not, cells have excess pixels associated with a portion of the cipher, compared to other cells in the matrix, have the excess pixels assigned to a different cell.
+      <br/>
+      This facilitates creating a digital word that describes the cipher that is then compared with information in a look-up table.
+      <br/>
+      The digital information of each entry in the look-up table is compared with the digital word.
+      <br/>
+      A fuzzy logic algorithm determines the closest matches in the look-up table, and the cipher that corresponds to the closest match is identified.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">The present invention relates to pattern and cipher recognition, particularly where a hand-written character has been digitized and is presented in the form of a pixel matrix.</p>
+    <p num="2">
+      Known character recognition systems achieve accuracy by either placing restrictions on the writer or by requiring substantial computer processing time and/or memory.
+      <br/>
+      Current character recognition techniques typically include normalizing and thinning an image corresponding to a character before determining image representation.
+      <br/>
+      This typically requires use of an extensive database for template matching necessitating a memory consuming dictionary to find possible matches between the image and words.
+      <br/>
+      The computer resources required reduces the efficiency of these techniques in computers having limited computational power.
+      <br/>
+      Some techniques for recognition of hand-written characters necessitates formation of the characters with a predetermined sequence of strokes, often having predetermined start and end points.
+      <br/>
+      Other techniques require that characters be formed with a single continuous stroke.
+      <br/>
+      The aforementioned constraints associated with prior art hand-written character recognition techniques requires users to create characters unnaturally.
+      <br/>
+      This often increases the time required for a user to become proficient with a particular character recognition system.
+      <br/>
+      The user must become accustomed to the constraints and learn to create characters in accordance with the same.
+    </p>
+    <p num="3">What is needed, therefore, is a character recognition technique that substantially reduces the constraints imposed upon a user when creating characters.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="4">
+      The present invention includes a method, a computer product and a system, each of which features a static recognition technique that facilitates accurate character recognition while substantially reducing the constraints placed on an end-user.
+      <br/>
+      To that end, a hand-written character, referred to herein as a cipher, is overlayed with a matrix having a plurality of cells with each cell having a plurality of pixels corresponding thereto.
+      <br/>
+      A subset of the pixels of a subgroup of the plurality of cells have a sub-portion of the cipher associated therewith, and it is determined whether the number of pixels associated with each portion of the cipher are equal.
+      <br/>
+      If not, cells having excess pixels compared to other cells in the matrix, have the excess pixels assigned to a different cell.
+      <br/>
+      This facilitates creating a digital word that describes the cipher that is then compared with information in a look-up table.
+      <br/>
+      The bits in the digital word correspond to a binary state of each of the cells in the matrix, i.e., whether a logical "0" corresponds to a cell or a logical "1".
+      <br/>
+      An additional digital word is created that corresponds to the spatial position within the matrix where excess pixels are assigned.
+      <br/>
+      The information in the look-up table includes a plurality of known ciphers, each of which includes a corresponding digital representation.
+      <br/>
+      The digital information of each entry in the look-up table is compared with the digital word.
+      <br/>
+      A fuzzy logic algorithm determines the closest matches in the look-up table, and the cipher that corresponds to the closest match is identified.
+      <br/>
+      If more than one cipher in the look-up table is identified as a match, the digital representations corresponding thereto are processed and chosen as a function of the number of times the same cipher is identified as a match.
+      <br/>
+      The known cipher that is determined to match the digital word is provided, as needed.
+      <br/>
+      In other words, a visual representation of the known cipher may be presented on a display, or the known cipher may be stored in either a volatile of non-volatile memory.
+    </p>
+    <p num="5">These and other embodiments of the present invention, as well as its advantages and features, are described in more detail in conjunction with the text below and attached figures.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="6">
+      FIG. 1 is a plan view of a character recognition system in accordance with the present invention;
+      <br/>
+      FIG. 2 is a plan view of a cipher overlayed with a quantization matrix in accordance with the present invention; and
+      <br/>
+      FIG. 3 is a flow chart showing a method of recognizing a hand-written character in accordance with the present invention.
+    </p>
+    <heading>DESCRIPTION OF THE SPECIFIC EMBODIMENTS</heading>
+    <p num="7">
+      Referring to FIG. 1, an exemplary cipher recognition system 20 in accordance with the present invention includes one or more system buses 22 placing various components of the system 20 in data communication.
+      <br/>
+      For example, a microprocessor 24 is placed in data communication with both a read only memory (ROM) 26 and random access memory (RAM) 28 via the system bus 22.
+      <br/>
+      The ROM 26 contains among other code, the Basic Input-Output system (BIOS) which controls basic hardware operation such as the interaction with peripheral devices.
+      <br/>
+      Examples of the peripheral devices include a keyboard 30, a display 32, a digital tablet 39 and an optical scanning system 40.
+      <br/>
+      The RAM 28 is the main memory into which the operating system 34 and the present invention resides.
+      <br/>
+      The operating system 34 may be any known system.
+    </p>
+    <p num="8">
+      Referring to both FIGS. 1 and 2, the present invention operates in response to the detection of a graphical object, such as a cipher 38.
+      <br/>
+      The cipher 38 may be detected by the optical scanning system 40 in data communication with the microprocessor 24, or it may be detected by sensing pressure or capacitive changes on the display 32 or digital tablet 39, as is well known in the character recognition art.
+    </p>
+    <p num="9">
+      Referring to FIGS. 1, 2 and 3, after the cipher 38 has been detected, at step 300, character information corresponding thereto is stored in RAM 28, at step 302.
+      <br/>
+      To that end, the cipher 38 is retrieved as an array of information, with each bit in the array representing a pixel in the cipher 38 that has been overlayed with a quantization matrix 40.
+      <br/>
+      Specifically, the plurality of pixels associated with the display 32 correspond to a subset of memory address locations in the RAM 28.
+      <br/>
+      The width, W, and length, L, of the cipher is then retrieved as additional input parameters.
+      <br/>
+      The processor operates on the cipher information in the RAM 28 to quantize the same and determines the size of the quantization matrix cells 42.
+      <br/>
+      In this fashion, the quantization matrix 40 includes a plurality of cells 42 arranged in N rows and M columns, with each of the plurality of cells 42 having a plurality of pixels 44 corresponding thereto.
+      <br/>
+      Although any size of quantization matrix 40 may be employed, it is preferred that the quantization matrix 40 have a size suitable to maintain an aspect ratio of the cipher.
+      <br/>
+      Preferably, the quantization matrix is sized so that N=M.
+      <br/>
+      Further, the number of pixels in a cell is dependent on the size of the cipher under analysis, i.e., the width and length of the cipher.
+    </p>
+    <p num="10">
+      After the cipher 38 is overlayed with the quantization matrix 40, a subset of the plurality of pixels 44, of a subgroup of the plurality of cells 42, have a portion of the cipher associated therewith, defining a plurality of portions of the cipher, shown as 38a, 38b, 38c.
+      <br/>
+      Next, it is determined whether each of the subset of pixels includes an equal number of pixels, at step 304.
+      <br/>
+      This is achieved by determining whether the width, W, is evenly divisible by the width of the quantization matrix 40, as well as determining whether the length, L, is evenly divisible by the length of the quantization matrix 40.
+      <br/>
+      If the width, W, is not evenly divisible, then at least one subset of pixels includes pixels in excess of the pixels associated with the remaining subsets of pixels.
+      <br/>
+      In this case the excess pixels, referred to as remainder pixels, are associated with memory addresses in the RAM 28 that correspond to pixels 44 located in the cells 42 associated with column M1 and M6.
+      <br/>
+      For example, were remainder pixels identified, due to the width, W, not being evenly divisible, then the same would be reassigned an address in RAM 28 that corresponds to column M1 and an image of the cipher would be formed.
+      <br/>
+      Then, a second image of the cipher 38 is formed with the remainder pixels being associated with M6.
+      <br/>
+      Were the length, L, determined not to be evenly divisible, as discussed above, the remainder pixels identified would be assigned to column N1 and an image of the cipher would be formed.
+      <br/>
+      Then, a second image of the cipher 38 would be formed with the remainder pixels being assigned to column N6.
+    </p>
+    <p num="11">
+      Thereafter, each of the cells 42 of each image are assigned a binary state, i.e., either a logical zero (0) or a logical (1), at step 306.
+      <br/>
+      This is achieved by analyzing each cell 42 sequentially, beginning with the cell 42 disposed in row N1 and column M1 and proceeding to analyze the subsequent cells 42 in row N1.
+      <br/>
+      Then, the cells 42 of the subsequent rows N2 -N6 are analyzed until all cells 42 have been analyzed, with each cell 42 in a given row being analyzed before proceeding to a subsequent row.
+      <br/>
+      A cell 42 is assigned a binary state of logical one (1) when two or more pixels are in a subset that corresponds to a portion of the cipher 38.
+      <br/>
+      In the example shown, cell 42 disposed at row N5 and column M2 would be one of many cells 42 assigned a logical one (1).
+      <br/>
+      If none of the pixels 44 are associated with a sub-portion of the cipher 38, then the cell 42 is assigned a logical zero (0).
+      <br/>
+      In the example shown cell 42 disposed at row N6 and column M5 would be one of many cells 42 assigned a logical zero (0).
+      <br/>
+      If a cell 42 has only one pixel in the subset associated with the portion of the cipher 38 and contains less than four pixels total, then the cell 42 is assigned a logical (1).
+      <br/>
+      If the subset of pixels 44 in the cell 42 defines a portion of the cipher 38 that is arcuate the cell is assigned a logical zero (0) unless one pixel, located proximate to a corner of the cell 42, is associated with the subset and either the cells 42 adjacent in the same row N or adjacent in the same column M is assigned a logical zero (0), then the cell 42 is assigned a logical one (1).
+      <br/>
+      A cell 42 is assigned a logical one (1) if the subset of pixels 44 in a cell 42 defines a portion of the cipher 38 that is not arcuate and one pixel, located proximate to a corner of the cell 42, is associated with the subset, unless either the cells 42 adjacent in the same row N or adjacent in the same column M have a corner pixel that is associated with the subset of pixels.
+      <br/>
+      Then the cell of interest is assigned a logical zero (0).
+    </p>
+    <p num="12">
+      After a binary state has been assigned to each of the cells 42 in the matrix 40, a digital word is generated by the microprocessor 24, at step 308.
+      <br/>
+      Each bit in the digital word corresponds to a cell 42 in the matrix 40 and is assigned a value that is dependent upon the binary state assigned to the cell 42 that corresponds to the bit.
+      <br/>
+      To that end, cell 42 disposed in row N1 and column M1 corresponds to the least significant bit of the digital word, and the cell 42 disposed in row N6 and column M6 corresponds to the most significant bit of the same.
+    </p>
+    <p num="13">
+      If remainder pixels are present, an additional digital word is generated with each bit corresponding to a cell 42 in the matrix 40 being assigned a value that is dependent upon the binary state assigned to the cell 42 that corresponds to the bit.
+      <br/>
+      In this manner, four additional digital words may be generated, as shown below in Table I.
+    </p>
+    <heading>-- TABLE I</heading>
+    <p num="14">
+      -- Remainder Pixel Matrix Location
+      <br/>
+      --                Column M6  Row N6  Column M1  RowN1
+      <br/>
+      -- Digital Word 1 1             1         0             0
+      <br/>
+      -- Digital Word 2 0             1         1             0
+      <br/>
+      -- Digital Word 3 0             0         1             1
+      <br/>
+      -- Digital Word 4 1             0         0             1
+    </p>
+    <p num="15">
+      After the digital word has been generated, along with any additional words in the presence of remainder pixels, the digital word is compared to information in a look-up table 50 that is stored in RAM 28, at step 310.
+      <br/>
+      The information in the look-up table 50 includes multiple entries, each of which includes a cipher with a corresponding digital representation.
+      <br/>
+      The digital word is compared to the digital representation of each entry to identify one or more ciphers corresponding to digital representations that closely match the digital word.
+      <br/>
+      To that end, the information in the look-up table 50 is generated using the procedures described above with respect to generating the digital word.
+      <br/>
+      To facilitate the comparison, it is preferred that the matrix employed to generate the information in the look-up table 50 have the same dimensions as the quantization matrix 40.
+    </p>
+    <p num="16">
+      The comparison between the digital word and the digital representation is achieved by comparing the digital word corresponding to a single row, N, to the digital representation in the look-up table 50.
+      <br/>
+      Then comparison between each bit is assigned one of three comparison values, a positive value, a negative value and a shift value.
+      <br/>
+      For each bit that must be changed to a logical one (1) in the digital word to match the corresponding bit in the digital representation, the total positive value is increased.
+      <br/>
+      For each bit that must be changed to a logical zero (0) in the digital word to match the corresponding bit in the digital representation, the total negative value is increased.
+      <br/>
+      If a match between the digital word and the digital representation is achieved by shifting the position of value of a bit in the digital word, the positive value total is increased by one-half and the shift total is increased.
+      <br/>
+      In this manner, a shift is defined as exchanging the value of adjacent bit positions in the digital word.
+      <br/>
+      The following provides an example:
+    </p>
+    <p num="17">
+      --
+      <br/>
+      -- (1)              digital word            00001000
+      <br/>
+      --                  digital representation  00010000
+    </p>
+    <p num="18">
+      A match is achieved by exchanging value of bit five (5) with bit six (6) in the digital word, i.e., a single position which equates to a single shift in the digital representation.
+      <br/>
+      It is preferred never to shift any one bit more than one position.
+    </p>
+    <p num="19">
+      As mentioned above, assignment of the comparison values must be achieved for each of the rows N1 -N6.
+      <br/>
+      Thereafter, all the total positive values are summed, all the negative values are summed, as are all the shift values.
+      <br/>
+      An exclusive-or function is applied to the digital word and the digital representation and the number of resulting bits having a value of logical one (1) are summed, defining an X or total.
+      <br/>
+      The Xor total is then multiplied by 0.15, and a final total value is increased by the resulting product.
+      <br/>
+      The positive values and the negative values are summed together and multiplied by 0.25, with final total being increased by the resulting product.
+      <br/>
+      Next, the total negative value is subtracted from the total positive value and the absolute value of the difference, which is multiplied by 0.25, with the final total being increased by the resulting product.
+      <br/>
+      The shift total is subtracted from the positive total with the difference being multiplied by 0.35 and the product, thereof, added to the final total.
+      <br/>
+      This is repeated for each of the entries in the look-up table 50.
+      <br/>
+      In this manner, a plurality of final values are provided, with the ciphers associated with the digital representations that provide final value of the least magnitude, defining minimum final values, being identified as a match.
+    </p>
+    <p num="20">
+      An alternative method for comparing the digital word and digital representation that improves computational efficiency includes computation of only the shift value and Xor value.
+      <br/>
+      The final value is computed by subtracting twice the shift value from the Xor value.
+      <br/>
+      If the final value is less than zero then the final value is set to the value of the Xor value.
+      <br/>
+      Thereafter, a second "final value" is determined by computing the shift value by columns instead of rows and again subtracting twice the shift value from the Xor value.
+      <br/>
+      The two "final values" are then passed to the fuzzy logic voting procedure, discussed more fully below.
+    </p>
+    <p num="21">
+      Were more than one digital representation found to provide the minimum final value, a further distinguishing routine is invoked to distinguish between the ciphers of the set of matches.
+      <br/>
+      One such distinguishing routine employs dynamic character recognition that involves locating opposed end points 39a and 39b of the cipher, as well as the number of strokes required to form the cipher 38.
+      <br/>
+      The opposed end points 39a and 39b are commonly referred to as start points and end points, respectively, of the cipher 38.
+      <br/>
+      In this instance the cipher 38 is formed by drawing the portions in the following sequence: 38a, 38b, 38c, 38d, 38e, 38f, 38g, 38h, 38i, 38j, 38k, 38l, 38m, 38n, and 38o.
+      <br/>
+      The spatial position of the opposed end points 39a and 39b in the quantization matrix 40 is identified by mapping of the same to a quadrant system.
+      <br/>
+      The baselines of the quadrant system extends through the center of the cipher 38 and defines four quadrants.
+      <br/>
+      The four quadrants each have a unique address: 0, 2, 4 and 6 starting with the top right quadrant and moving clockwise.
+      <br/>
+      Regions between quadrants are assigned addresses of 1, 3, 5 and 7, with 1 being between located proximate to quadrants 0 and 2.
+      <br/>
+      The center of the quadrant system is assigned an address 8.
+      <br/>
+      In the present example, the cipher 38 starts in quadrant 4 and the start point 39a is assigned a value of 4.
+      <br/>
+      The cipher 38 ends in quadrant 6, and the end point 39b is assigned a value of 6.
+      <br/>
+      Usually the start and end point information will be present upon digitization of the cipher 38 in an on-line process.
+      <br/>
+      However, information concerning the opposed end points 39a and 39b may be extracted from the cipher generated in an off-line process, such as a facsimile transmission, by using methods described in U.S. Pat. No. 5,825,923 to Thompson et. al., which is incorporated by reference herein.
+    </p>
+    <p num="22">
+      Another distinguishing routine could employ a second look-up table 51 stored in RAM 28 that includes user-defined information therein.
+      <br/>
+      In this fashion, the first look-up table 50 may include information of known ciphers produced by the general population, e.g., ciphers generated by a random sample of general population.
+      <br/>
+      The second look-up table 51 contains information concerning ciphers generated by the user.
+    </p>
+    <p num="23">
+      Next, the set of all of the ciphers along with their final totals determined above are processed by a fuzzy logic voting procedure that may include start point, end point and stroke count information or information from the second look-up table 51, if available.
+      <br/>
+      The fuzzy logic voting procedure examines the redundancy of each cipher in the set of matches and assigns a value (nt) to each cipher in the set, based upon the same.
+      <br/>
+      An example of value (nt) is shown below in Table II.
+    </p>
+    <heading>--             TABLE II</heading>
+    <p num="24">
+      --             Character Count Value of nt
+      <br/>
+      --             1              0.125
+      <br/>
+      --             2              0.250
+      <br/>
+      --             3              0.375
+      <br/>
+      --             4              0.500
+      <br/>
+      --             5              0.625
+      <br/>
+      --             6              0.750
+      <br/>
+      --             7              0.875
+      <br/>
+      --             &gt;=8  1.000
+    </p>
+    <p num="25">
+      Thereafter, each cipher of the set is assigned a value (minc) based on its minimum final total.
+      <br/>
+      An example of values (minc) for ciphers in the set is shown below in Table III.
+    </p>
+    <heading>--           TABLE III</heading>
+    <p num="26">
+      --           Minimum Final Total Value of minc
+      <br/>
+      --           &gt;=0.0 and &lt;=.50 1.0
+      <br/>
+      --           &gt;0.5 and &lt;=1.0 0.9
+      <br/>
+      --           &gt;1.0 and &lt;=1.5 0.8
+      <br/>
+      --           &gt;1.5 and &lt;=2.0 0.7
+      <br/>
+      --           &gt;2.0 and &lt;3.0 0.6
+      <br/>
+      --           &gt;=3.0 and &lt;4.0 0.5
+      <br/>
+      --           &gt;=4.0 and &lt;5.0 0.4
+      <br/>
+      --           &gt;=5.0 and &lt;7.0 0.3
+      <br/>
+      --           &gt;=7.0 and &lt;9.0 0.2
+      <br/>
+      --           &gt;=9.0    0.1
+    </p>
+    <p num="27">
+      Then, each cipher of the set is assigned a value (maxc) based on its maximum final total.
+      <br/>
+      An example of values (maxc) of the ciphers associated with the set shown below in Table IV.
+    </p>
+    <heading>--           TABLE IV</heading>
+    <p num="28">
+      --           Maximum Final Total Value of maxc
+      <br/>
+      --           &lt;=0.0    0.0
+      <br/>
+      --           &gt;0.0 and &lt;=.50 0.1
+      <br/>
+      --           &gt;0.5 and &lt;=1.0 0.2
+      <br/>
+      --           &gt;1.0 and &lt;=1.5 0.3
+      <br/>
+      --           &gt;1.5 and &lt;=2.0 0.4
+      <br/>
+      --           &gt;2.0 and &lt;3.0 0.5
+      <br/>
+      --           &gt;=3.0 and &lt;4.0 0.6
+      <br/>
+      --           &gt;=4.0 and &lt;5.0 0.7
+      <br/>
+      --           &gt;=5.0 and &lt;7.0 0.8
+      <br/>
+      --           &gt;=7.0 and &lt;9.0 0.9
+      <br/>
+      --           &gt;=9.0    1.0
+    </p>
+    <p num="29">
+      If end point information is associated with the cipher 38, then a value (pv) is generated.
+      <br/>
+      The value (pv) is a function of the similarity between the endpoint and stroke count information in both the digital word and the digital representation.
+      <br/>
+      Upon identification of a match, a match total is increased by one.
+      <br/>
+      Table V provides values of (pv) for various match totals.
+    </p>
+    <heading>--             TABLE V</heading>
+    <p num="30">
+      --             Match Total Value of pv
+      <br/>
+      --             0           -0.99
+      <br/>
+      --             1           -0.33
+      <br/>
+      --             2           0.33
+      <br/>
+      --             3           0.99
+    </p>
+    <p num="31">
+      A first fuzzy value (fv1) for the cipher 38 is generated in accordance with the following:
+      <br/>
+      (fv 1)=(pv * 0.125)+(nt * 0.355)+(minc * 0.25)-(maxc * 0.17) (3)
+    </p>
+    <p num="32">
+      The above routine is repeated for each cipher in the set with the cipher having a fuzzy-value (fv1) with the greatest magnitude being selected.
+      <br/>
+      If two or more ciphers have the same value (fv1), then the routine is repeated without including endpoint and stroke count information.
+      <br/>
+      To that end, the values (nt), (minc), (maxc) and (pv) are generated as described above.
+      <br/>
+      From this information a second fuzzy value (fv2) is generated in accordance with the following:
+      <br/>
+      (fv2)=0.10175+(nt * 0.335)+(minc * 0.26)-(maxc * 0.18) (4)
+    </p>
+    <p num="33">
+      If no endpoint data is present in the cipher information, then the cipher associated with fv2 is selected.
+      <br/>
+      If endpoint data is present in the cipher information, then the cipher associated with fv1 is selected.
+      <br/>
+      If two or more ciphers have the same value (fv1), then cipher associated with the maximum value fv2 is selected.
+      <br/>
+      If the same cipher is associated with both the maximum value fv1 and the maximum value fv2, then that cipher is selected.
+      <br/>
+      If the maximum value (fv2) is greater than the maximum value (fv1), but less than the maximum (fv1) plus a threshold value, then no selection is made.
+      <br/>
+      If the maximum value (fv2) is less than the maximum value (fv1), then select the maximum value (fv1).
+      <br/>
+      If the maximum value (fv2) equals the maximum value (fv1) then no selection is made.
+      <br/>
+      Otherwise, the cipher associated with maximum value (fv2) is selected.
+      <br/>
+      At step 312, after the cipher is chosen, it may be provided as necessary.
+      <br/>
+      For example, a visual representation of the cipher may be provided on a display, such as a monitor.
+      <br/>
+      In addition, the cipher may be stored in a computer-readable memory or output to a peripheral device, such as a printer.
+    </p>
+    <p num="34">
+      Although the foregoing has been described with respect to single cipher recognition, it should be understood that the present invention is typically employed to recognize multiple ciphers disposed adjacent to one another as may be found in hand-written words or sentences.
+      <br/>
+      Further, the present invention may be employed to recognize any type of object so long as information corresponding to the object may be put in a form that may be analyzed by a microprocessor.
+      <br/>
+      To that end, the present invention may be used to detect remotely disposed objects, the images of which have been captured using known optical sensing technology, such as a charge-coupled device array, electron beam camera and the like.
+      <br/>
+      The scope of the invention should, therefore, be determined not with reference to the above description, but instead should be determined with reference to the appended claims along with their full scope of equivalents.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for recognizing a cipher, said method comprising:</claim-text>
+      <claim-text>associating said cipher with a plurality of cells of a matrix having N rows and M columns, with each of said plurality of cells having a plurality of pixels corresponding thereto, with a subset of said plurality of pixels, of a subgroup of said plurality of cells, having a portion of said cipher associated therewith, defining a plurality of portions of said cipher, wherein subsets of said plurality of pixels having a number of pixels associated therewith in excess of a number of pixels associated with the remaining subsets, defining remainder pixels, are positioned in predetermined cells of said matrix; determining whether each of said subset of pixels includes an equal number of pixels; assigning a binary state identifier with each cell of said plurality of cells; assigning a digital word to said matrix, with said digital word being a function of the binary state of said plurality of cells, wherein said assigning includes forming digital data which corresponds to said predetermined position, with said digital work including said digital data; comparing said digital word with information in a look-up table, said information including a plurality of known ciphers, each of which includes a corresponding digital representation;</claim-text>
+      <claim-text>and providing the known cipher corresponding to the digital representation in said look-up table that most closely matches said digital word.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method as recited in claim 1 wherein comparing said digital word includes comparing a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method as recited in claim 1 wherein said information includes user defined data.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method as recited in claim 1 wherein said cipher includes opposed ends and sub-portions of said digital word includes information corresponding to spatial positions of said opposed ends.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method as recited in claim 1 wherein comparing said digital word with information in said look-up table includes comparing a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix for each row in said matrix and obtaining a final value, with said final value being a function of a difference characteristic between said digital word and said digital representation.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method as recited in claim 1 wherein comparing said digital word with each digital representation in said look-up table includes obtaining multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and providing said known cipher corresponding to the digital representation in said look-up table including providing said known cipher associated with the digital representation corresponding to a subset of said multiple final values, said subset including final values having a least magnitude of said multiple final values.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method as recited in claim 1 wherein comparing said digital word with each digital representation in said look-up table includes obtaining multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and providing said known cipher corresponding to the digital representation in said look-up table including providing said known cipher associated with the digital representation corresponding to each of a subset of said multiple final values, said subset including final values having a least magnitude of said multiple final values and further including distinguishing between multiple final values of said subset by associating a fitness value with each of the final value of said subset, with said fitness value being a function of a number of times a digital representation is associated with one of said multiple values of said subset.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method as recited in claim 1 wherein N equals M.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method as recited in claim 1 wherein said binary state is a one (1) or a zero (0).</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A computer program product that controls a computer to recognize a cipher, said computer program product comprising a computer readable medium encoded with code comprising: code to associate said cipher with a plurality of cells of a matrix having N rows and M columns, with each of said plurality of cells having a plurality of pixels corresponding thereto, with a subset of said plurality of pixels, of a subgroup of said plurality of cells, having a portion of said cipher associated therewith, defining a plurality of portions of said cipher, wherein subsets of said plurality of pixels having a number of pixels associated therewith in excess of a number of pixels associated with the remaining subsets, defining remainder pixels, are positioned in predetermined cells of said matrix; code to determine whether each of said subset of pixels includes an equal number of pixels; code to assign a binary state identifier with each cell of said plurality of cells; code to assign a digital word to said matrix, with said digital word being a function of the binary state of plurality of cells, wherein said code to assign a digital word to said matrix includes code to form digital data which corresponds to said predetermined position, with said digital word including said digital data; code to compare said digital work with information in a look-up table, said information including a plurality of known ciphers, each of which includes a corresponding digital representation;</claim-text>
+      <claim-text>and code to provide the known cipher corresponding to the digital representation in said look-up table that most closely mataches said digital word.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The computer program product as recited in claim 10 wherein said code to compare said digital word includes code to compare a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The computer program product as recited in claim 10 wherein said information includes user defined data.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The computer program product as recited in claim 10 wherein said cipher includes opposed ends and sub-portions of said digital word includes information corresponding to spatial positions of said opposed ends.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The computer program product as recited in claim 10 wherein said code to compare said digital word with information in said look-up table includes code to compare a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix for each row in said matrix and obtaining a final value, with said final value being a function of a difference characteristic between said digital word and said digital representation.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The computer program product as recited in claim 10 wherein said code to compare said digital word with each digital representation in said look-up table includes code to obtain multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and said code to provide said known cipher corresponding to the digital representation in said look-up table including code to provide said known cipher associated with the digital representation corresponding to a subset of said multiple final values, said subset including final values having a least magnitude of said multiple final values.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The computer program product as recited in claim 10 wherein code to compare said digital word with each digital representation is said look-up table includes code to obtain multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and said code to provide said known cipher corresponding to the digital representation in said look-up table includes code to provide said known cipher associated with the digital representation corresponding to each of a subset of said multiple final values, said subset including final values having a least magnitude of said multiple final values and further including distinguishing between multiple final values of said subset by associating a fitness value with each of the final values of said subset, with said fitness value being a function of a number of times a digital representation is associated with one of said multiple values of said subset.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The computer program product as recited in claim 10 wherein N equals M.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The computer program product as recited in claim 10 wherein said binary state is a one (1) or a zero (0).</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A system for recognizing a cipher comprising: means for associating said cipher with a plurality of cells of a matrix having N rows and M columns, with each of said plurality of cells having a plurality of pixels corresponding thereto, with a subset of said plurality of pixels, of a subgroup of said plurality of cells, having a portion of said cipher associated therewith, defining a plurality of portions of said cipher, wherein subsets of said plurality of pixels having a number of pixels associated therewith in excess of a number of pixels associated with the remaining subsets, defining remainder pixels, are positioned in predetermined cells of said matrix; means, in data communication with said means for associating, for determining whether each of said subset of pizels includes an equal number of pixels; means, in data communication with said means for determining, for assigning a binary state identifier with each cell of said plurality of cells; means, in data communication with said means for assigning a binary state identified, for assigning a digital word to said matrix, with said digital word being a function of the binary state of said plurality of cells, wherein said means for assigning a digital word to said matrix includes a means for forming digital data which corresponds to said predetermined position, with said digital word including said digital data; means, in data communication with said means for assigning a digital word, for comparing said digital word with information in a look-up table, said information including a plurality of known ciphers, each of which includes a corresponding digital representation;</claim-text>
+      <claim-text>and means, in data communication with said means for comparing, for providing the known cipher corresponding to the digital representation in said look-up table that most closely matches said digital word.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The system as recited in claim 19 wherein comparing said digital word includes comparing a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The system as recited in claim 19 wherein said information includes user defined data.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The system as recited in claim 19 wherein said cipher includes opposed ends and sub-portions of said digital word includes information corresponding to spatial positions of said opposed ends.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The system as recited in claim 19 wherein said means for comparing said digital word with information in said look-up table includes means for comparing a sub-portion of said digital word with said information, with said sub-portion corresponding to said binary state of pixels in a single row of said matrix for each row in said matrix and obtaining a final value, with said final value being a function of a difference characteristic between said digital word and said digital representation.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The system as recited in claim 19 wherein means for comparing said digital word with each digital representation in said look-up table includes means for obtaining multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and means for providing said known cipher corresponding to the digital representation in said look-up table includes means for providing said known cipher associated with the digital representation corresponding to a subset of said multiple final values, said subset including final values having a least magnitude of said multiple final values.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The system as recited in claim 19 wherein said means for comparing said digital word with each digital representation in said look-up table includes means for obtaining multiple final values, each of said multiple final values being a function of a difference characteristic between said digital word and said digital representation and said means for providing said known cipher corresponding to the digital representation in said look-up table including means for providing said known cipher associated with the digital representation corresponding to each of a subset of said multiple final values, said subset including final value having a least magnitude of said multiple final values and further including distinguishing between multiple final values of said subset by associating a fitness value with each of the final values of said subset, with said fitness value being a function of a number of times a digital representation is associated with one of said multiple value of said subset.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The system as recited in claim 19 wherein N equals M.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The system as recited in claim 19 wherein said binary state is a one (1) or a zero (0).</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06179491B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06179491</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6179491</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25164299" extended-family-id="42112841">
+      <document-id>
+        <country>US</country>
+        <doc-number>08794986</doc-number>
+        <kind>A</kind>
+        <date>19970205</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08794986</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43170807</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>79498697</doc-number>
+        <kind>A</kind>
+        <date>19970205</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08794986</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/44        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>44</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>717116000</text>
+        <class>717</class>
+        <subclass>116000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>717153000</text>
+        <class>717</class>
+        <subclass>153000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>717154000</text>
+        <class>717</class>
+        <subclass>154000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-009/44F2B</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>009</main-group>
+        <subgroup>44F2B</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20180201</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/4492</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>4492</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20180203</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>26</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>10</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6179491</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for slicing class hierarchies</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MAYS ROBERT GEORGE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5652899</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5652899</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Chen, Xiaoping; Tsai, Wei-Tek; Huang, Hai; Poonawala, Mustafa; Rayadurgam, Sanjai; Wang, Yamin; Omega-an Integrated Environment for C + + Program Maintenance; Proceedings of the 1996 IEEE Conference on Software Maintenance; pp. 114-123, 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>ACM Transactions on Programming Languages and Systems, vol. 12, No. 1, Jan. 1990, pp.26-60 "Interprocedural Slicing Using Dependence Graphs", S. Horwitz, T. Reps and D. Brinkley, University of Wisconsin-Madison.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>IEEE Transactions on Software Engineering, vol. SE-10, No. 4, Jul. 1984, pp. 352-357,"Programming Slicing", Mark Weiser.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>SIGPLAN 94-6/94 Orlando, Florida, pp. 302-312, On Slicing Programs with Jump Statements, H. Agrawal, Bellcore, Morristown, NJ.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>Journal of Programming Languages 3 (1995) 121-189, pp. 121-189 "A Survey of Program Slicing Techniques", Frank Tip, IBM, T.J. Watson Research Center, Yorktown Heights, NY.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>OOPSLA 94-10/94 Portland, Oregon USA, Sifting Out the Gold, Delivering Compact Applications from an Exploratory Object-Oriented Programming Environment, Ole Agesen, David Ungar, pp. 355-369.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>Proceedings of ICSE-18, Mar. 1996, Berlin, pp. 495-505 "Slicing Object-Oriented Software", L. Larsen and M. J. Harrold, Clemson University.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Computer Sciences Dept. University of Wisconsin, pp. 206-222, Slicing Programs with Arbitrary Control-Flow T. Ball and S. Horwitz.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="9">
+          <text>POPL '95 1/95 San Francisco, CA, pp. 379-392, "Parametric Program Slicing", J. Field, G. Ramalingam, IBM, T.J. Watson Research Center, Yorktown Heights, NY.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="10">
+          <text>Proceedings of the ACM Fourth Symposium on Testing, Analysis, and Verification (TAV4), Victoria, British Columbia, Canada, Oct. 8-9, 1991, pp. 60-73, "Dynamic Slicing in the Presence of Unconstrained Pointers", H. Agrawal, Bellcore; R. DeMillo, E. Spafford, Purdue University.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="11">
+          <text>Microsoft Research Advanced Technology Division, Technical Report MSR-TR-94-14, Jul. 26, 1994, "Practical Fine-Grained Static Slicing of Optimized Code", Michael Ernst.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="12">
+          <text>"Program Slicing", pp. 1-31, Panos Livadas, Stephen Croll, Computer and Information Sciences Dept., University of Florida.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="13">
+          <text>Thomas Reps, Susan Horwitz and Mooly Sagiv, University of Copenhagen; Genevieve Rosay, University of Wisconsin-Madison, pp. 1-13, "Speeding up Slicing".</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="14">
+          <text>ACM Letters on Programming Languages and Systems, vol. 1, No. 4, Dec. 1992, pp. 355-364 "Unreachable Procedures in Object-Oriented Programing", Amitabh Srivastava, Digital Equipment Western Research Laboratory.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="15">
+          <text>Dept. of Computer Science, Clemson University , pp. 1-38, "Program Slicing: An Application of Object-Oriented Program Dependency Graphs", A. Krishnaswamy.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="16">
+          <text>OOPSLA '96 CA, "Slicing Class Hierarchies in C++", F. Tip, J-D. Choi, J. Field, G. Ramalingam, IBM T.J. Watson Research Center, Yorktown Heights, NY, PP. 179-197.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Choi, Jong-Deok</name>
+            <address>
+              <address-1>Mount Kisco, NY, US</address-1>
+              <city>Mount Kisco</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Field, John H.</name>
+            <address>
+              <address-1>Middlebury, CT, US</address-1>
+              <city>Middlebury</city>
+              <state>CT</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Ramalingam, Ganesan</name>
+            <address>
+              <address-1>Croton-on-Hudson, NY, US</address-1>
+              <city>Croton-on-Hudson</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Tip, Frank</name>
+            <address>
+              <address-1>Mount Kisco, NY, US</address-1>
+              <city>Mount Kisco</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Sbrollini, Jay P.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hafiz, Tariq R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Given a class hierarchy (a collection of classes and inheritance relations among them) and a program P that uses the hierarchy, a slice of the class hierarchy is computed with respect to the program by eliminating from the hierarchy those data members, member functions, classes, and inheritance relations that are unnecessary for ensuring that the semantics of P is maintained.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention generally relates to object oriented programming (OOP) systems, and, more particularly, to OOP systems supporting the C++ programming language.</p>
+    <p num="3">2. Background Description</p>
+    <p num="4">
+      The C++ programming language provides a number of features such as classes, inheritance, multiple inheritance, and virtual inheritance.
+      <br/>
+      These object oriented features have several advantages.
+      <br/>
+      Most importantly they enable the creation of class libraries that can be reused in several different applications.
+      <br/>
+      However, such code reuse comes at a price.
+      <br/>
+      To enable reusability, object oriented programming encourages the use of classes that incorporate a high degree of functionality.
+      <br/>
+      Programs that use such classes, however, may pay a penalty for functions they do not use.
+      <br/>
+      One of the resulting penalties is that of increased code size resulting from linking unused functions.
+      <br/>
+      The prior art has focused on addressing this penalty.
+      <br/>
+      An example of such prior art is A. Srivastava, "Unreachable procedures in object oriented programming", ACM Letters on Programming Languages and Systems, 1(4), pp. 355-364, December 1992.
+    </p>
+    <p num="5">
+      Other prior art has focused on determining unused code at the statement level.
+      <br/>
+      In particular, program slicing techniques have been developed for isolating computational threads in programs.
+      <br/>
+      A program slice is generally defined as the set of statements that either contribute to, or are affected by, the values computed at some designated point of interest in the program.
+      <br/>
+      A more detailed description of program slicing may be found in F. Tip, "A Survey of Program Slicing Techniques", Journal of Programming Languages 3, 3 (1995), pp. 121-189. The combination of a program point and a set of variables of interest at that point is referred to as the slicing criterion.
+      <br/>
+      In particular, previous work on program slicing has focused on eliminating from a program those executable statements that are unnecessary with respect to the given slicing criterion.
+    </p>
+    <p num="6">
+      However, a less obvious penalty of the use of class libraries in object oriented programming is that objects may contain unnecessary data members and subjects.
+      <br/>
+      Larger objects can not only increase the space requirements of the program, but also decrease its execution speed, due to the extra time required for object construction and destruction, and the effects of paging and caching.
+      <br/>
+      The presence of unused or unnecessary data members and inheritance relations in a program has another disadvantage as well.
+      <br/>
+      It makes it unnecessarily more difficult for programmers to understand the code.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">
+      The problems presented above and the related problems of the prior art are solved by the present invention, method and apparatus for slicing class hierarchies.
+      <br/>
+      The present invention computes a slice of a given class hierarchy of a program P by eliminating from the hierarchy those data members, member functions, classes, and inheritance relations that are unnecessary for ensuring that the semantics of P is maintained.
+      <br/>
+      The invention may be used in optimization by reducing the space and time requirements of a program.
+      <br/>
+      In the alternative, the invention may be used in program understanding and debugging.
+      <br/>
+      The invention is preferably used subsequent to program slicing.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="8">
+      FIG. 1 is a block diagram illustrating a hardware configuration on which the subject invention may be implemented.
+      <br/>
+      FIG. 2 is a block diagram of a compilation routine in which the subject invention may be implemented.
+      <br/>
+      FIG. 3 is a pictorial illustration depicting the structure of an object D.
+      <br/>
+      FIG. 4 is a subobject graph for the type D of FIG. 3.
+      <br/>
+      FIG. 5 is a flow chart illustrating the class slicing technique of the present invention.
+      <br/>
+      FIGS. 6(A)-(C) illustrate a data structure for storing data that identifies a class hierarchy slice.
+      <br/>
+      FIGS. 7(A)-(D) illustrates an exemplary class hierarchy slice generated by the class slicing technique of the present invention.
+      <br/>
+      FIG. 8 illustrates a software application for program understanding that utilizes the class slicing technique of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="9">
+      Referring now to the drawings, and more particularly to FIG. 1, there is shown a representative computer processing apparatus on which the subject invention may be implemented.
+      <br/>
+      The computer processing apparatus includes a central processing unit (CPU) 10 and an instruction cache and data cache, which may be combined into a single cache 101 as shown.
+      <br/>
+      The instruction cache stores instructions to be executed by the CPU 10.
+      <br/>
+      The data cache stores data to be used in the execution of such instructions.
+      <br/>
+      The CPU 10 includes a plurality of execution units.
+      <br/>
+      The execution units may include a branch processor 102, one or more integer units (FXU) 103, and one or more floating point units (FPU) 104 as shown.
+      <br/>
+      The branch processor 102 executes branch instructions issued from the instruction cache.
+      <br/>
+      The FXU 103 executes integer based instructions issued from the instruction cache.
+      <br/>
+      And the FPU 104 executes floating point instructions issued from the instruction cache.
+      <br/>
+      The computer processing apparatus may also include additional execution units (not shown), for example a multimedia execution unit, for executing varying sets of instructions issued from the instruction cache.
+      <br/>
+      The instruction and data caches communicate with the bus interface 105.
+    </p>
+    <p num="10">
+      The CPU 10 is attached to a system bus 12 to which are attached a random access memory (RAM) 14, a read only memory (ROM) 16, an input/output (I/O) adapter 18, and a user interface adapter 22.
+      <br/>
+      Typically, the user interface adapter 22 has attached to it a keyboard 24, a mouse 26, and/or other user interface devices such as a touch screen device (not shown).
+      <br/>
+      Such a touch screen device would optionally be installed on the display 38, here represented as a cathode ray tube (CRT) display but which may be a liquid crystal display (LCD) or other suitable display device.
+      <br/>
+      The display 38 is connected to the system bus 12 via a display adapter 36.
+    </p>
+    <p num="11">
+      The computer system's operating system (and other utilities), application program code and data are stored in persistent memory and temporarily loaded into RAM 14 for execution by the CPU 10.
+      <br/>
+      The persistent memory is typically provided by a disk drive 20 coupled to the CPU via an I/O adapter 18.
+      <br/>
+      In addition, persistent memory may be provided by resources coupled to the CPU 10 via the system bus and a network adapter 19.
+      <br/>
+      In this case, portions of the computer system's operating system (or other utilities), and portions of the application program code and data may be retrieved from network resources and loaded into RAM 14 for execution by the CPU 10.
+    </p>
+    <p num="12">In order to better understand the invention, some background material is presented regarding the notion of class hierarchies and subobjects in object-oriented programming languages such as C++.</p>
+    <p num="13">A class hierarchy specifies the following:</p>
+    <p num="14">
+      a set of classes;
+      <br/>
+      for every class, a set of members which may be either data members or member functions; further, a member function may be either a virtual function or non-virtual function;
+      <br/>
+      the inheritance relations among the classes; in particular, for every class, the set of base classes it inherits from is specified.
+      <br/>
+      The inheritance may be further qualified as a virtual or non-virtual inheritance.
+    </p>
+    <p num="15">As an example, consider the class hierarchy specified by the following C++ code:</p>
+    <p num="16">
+      --
+      <br/>
+      --               class S +
+      <br/>
+      --               public:
+      <br/>
+      --                    int y;
+      <br/>
+      --                    virtual void foo();
+      <br/>
+      --                    void bar();
+      <br/>
+      --               };
+      <br/>
+      --               class A +
+      <br/>
+      --               public:
+      <br/>
+      --                    int x;
+      <br/>
+      --               };
+      <br/>
+      --               class B : public A, public virtual S +
+      <br/>
+      --               public:
+      <br/>
+      --                    virtual void foo();
+      <br/>
+      --               };
+      <br/>
+      --               class C : public A, public virtual S +
+      <br/>
+      --               public:
+      <br/>
+      --                    void bar();
+      <br/>
+      --               };
+      <br/>
+      --               class D : public B, public C +
+      <br/>
+      --               };
+    </p>
+    <p num="17">In this example, the class hierarchy consists of the following components:</p>
+    <heading>CLASSES</heading>
+    <p num="18">S, A, B, C, and D</p>
+    <heading>MEMBERS</heading>
+    <p num="19">
+      class S has (data) member y
+      <br/>
+      class S has virtual member (function) foo
+      <br/>
+      class S has nonvirtual member (function) bar
+      <br/>
+      class A has (data) member x
+      <br/>
+      class B has virtual member (function) foo
+      <br/>
+      class C has nonvirtual member (function) bar
+      <br/>
+      class D has no members of its own
+    </p>
+    <heading>INHERITANCE RELATIONS</heading>
+    <p num="20">
+      class B inherits nonvirtually from class A
+      <br/>
+      class B inherits virtually from class S
+      <br/>
+      class C inherits nonvirtually from class A
+      <br/>
+      class C inherits virtually from class S
+      <br/>
+      class D inherits nonvirtually from class B
+      <br/>
+      class D inherits nonvirtually from class C
+    </p>
+    <p num="21">Given a class hierarchy and a program that uses the class hierarchy, the techniques described here can be used to identify components of the class hierarchy that are necessary to preserve the program's execution behavior and to compute a slice of the class hierarchy that omits any unnecessary classes, members and inheritance relations.</p>
+    <p num="22">
+      C++ classes are essentially descriptions of objects or class instances that may be created during program execution.
+      <br/>
+      Let us say a class X inherits from a class Y. The essential meaning of this inheritance relation is that every instance (object) of class X will contain an instance (object) of class Y. Consider the class hierarchy described above, which consists of 5 classes A, B, C, D, and S. Class B inherits from both classes A and S. Consequently, every B object will contain an A subobject as well as an S subobject.
+      <br/>
+      Similarly, C also inherits from both A and S. Hence, every C object will also contain an A subobject as well as an S subobject.
+    </p>
+    <p num="23">
+      There are some differences between virtual and non-virtual inheritance, which is illustrated by the structure of a D object as shown in FIG. 3.
+      <br/>
+      Consider class D. Since D inherits from B and C, every D object will contain a B object as a subobject and a C object as a subobject.
+      <br/>
+      Of course, the B subobject contained within a D object will itself, in turn, contain an A subobject and an S subobject.
+      <br/>
+      Similarly, the C subobject contained within a D object will itself, in turn, contain a A subobject and a S subobject.
+      <br/>
+      However, since B and C inherit virtually from S, both the B subobject contained within a D object and the C subobject contained within the same D object will share a single unique S subobject.
+      <br/>
+      In contrast, since B and C inherit non-virtually from A, each of the B and C subobjects contained within a D object contain their own A subobject.
+      <br/>
+      FIG. 3 depicts the structure of an object of type D. Observe that, due to the use of a combination of virtual and non-virtual inheritance, an object of type D contains a single subobject of type S, but two distinct subobjects of type A each of which have a distinct data member x.
+    </p>
+    <p num="24">
+      For the sake of clarity, the following naming scheme will be used to refer to the various subobjects.
+      <br/>
+      In general, every subobject can be given a name of the form �Z; Xi.
+      <br/>
+      Xi-1 . . . X2. X1 � where Xi is a (direct or indirect) virtual base of Z and Xi-1 . . . X1 is the sequence of class names where Xj is a direct non-virtual base of Xj+1.
+      <br/>
+      Thus, the sequence denotes the X1 subobject contained within the X2 subobject contained within the X3 subobject, and so on, contained within the Xi-1 subobject contained within the unique Xi subobject contained within a Z object.
+      <br/>
+      The most derived class of such a subobject is Z, and the least derived class of such a subobject is X1.
+      <br/>
+      For example, the A subobject contained within the B subobject contained within a D object is referred to as the �D; D.B.A� subobject.
+      <br/>
+      Likewise, �D; D.C.A� denotes the A subobject contained within the C subobject contained within a D object.
+      <br/>
+      As explained above, there is an unique S subobject within a D subobject since both B and C inherit virtually from S. This unique subobject is referred to as �D; S�. A more detailed description of the naming scheme may be found in J. Rossie and D. Friedman, "An algebraic semantics of subobjects", Proceeding of the Tenth Annual Conference on Object-Oriented Programming Systems, Languages and Applications (OOPSLA '95), Austin, Tex., 1995, pp. 187-199.
+    </p>
+    <p num="25">
+      One defines the concept of immediately contained subobject as follows.
+      <br/>
+      For the example presented above, �D; D.B� and �D; D.C� are immediately contained subobjects of �D; D�; while �D; D.B.A�, �D; D.C.A�, and �D; S� are not immediately contained subobjects of �D; D�, yet they are indirectly contained subobjects of �D; D�.
+    </p>
+    <p num="26">
+      The layout of objects can be depicted conveniently using a graph-based representation called the subobject graph.
+      <br/>
+      The subobject graph consists of a node for every subobject.
+      <br/>
+      Edges in the graph denote "immediate containment".
+      <br/>
+      In particular, the graph includes an edge from a subobject n to another subobject n' iff n' is an immediately contained subobject of n. FIG. 4 shows the subobject graph for type D. That is, it shows only the part of the graph consisting of all subobjects of most-derived class D.
+    </p>
+    <p num="27">A subobject contains a member m if the least derived class of that subobject has a member m. Let n' be a subobject contained within another subobject n. Further, let n' contain a member m. The member m of the subobject n' is visible in n if there exists a sequence of subobjects n1 to nk such that n'=n1, each ni is immediately contained in ni+1, and nk =n, and none of the ni other than n1 contains a member m. Otherwise, the member m of n' is said to be hidden in n. The set VisibleDefs (n; m) is defined to be the set of all subobjects contained in n that have a member m that is visible at n.</p>
+    <p num="28">
+      The method for computing a class hierarchy slice according to the present invention is shown in FIG. 5.
+      <br/>
+      The operation begins in step 501 by identifying the classes of objects created in the given program P. In step 503, for each type-cast in the program P, class hierarchy slice data that identifies the part of the class hierarchy that is necessary to preserve the behavior of the type cast operation is generated and stored in persistent storage for subsequent use.
+      <br/>
+      Finally, in step 505, for every member lookup operation in the program P, class hierarchy slice data that identifies the part of the class hierarchy that is necessary to preserve the behavior of the member lookup operation is generated and stored in persistent storage for subsequent use.
+    </p>
+    <p num="29">
+      FIGS. 6(A)-(C) illustrate an example of a data structure for storing data that identifies a class hierarchy slice.
+      <br/>
+      FIG. 6(A) illustrates a table for storing data that identifies the classes of a class hierarchy slice.
+      <br/>
+      The table includes a plurality of entries each corresponding to a class of objects in the program P. Each entry includes a first field 601 that identifies the associated class.
+      <br/>
+      For example, the first field 601 may store the name of the associated class.
+      <br/>
+      The entry may also include a second field 603 that identifies whether or not the associated class is part of the class hierarchy slice.
+      <br/>
+      FIG. 6(B) illustrates a table for storing data that identifies the members of a class hierarchy slice.
+      <br/>
+      The table includes a plurality of entries each corresponding to a member in the program P. Each entry includes a first field 605 and a second field 607.
+      <br/>
+      The first field 605 identifies the class for the associated member.
+      <br/>
+      The second field 607 identifies the associated member.
+      <br/>
+      For example, the first field 605 may store the name of the associated class and the second field 607 may store the name of the associated member.
+      <br/>
+      The entry may also include a third field 609 that identifies whether or not the associated member is part of the class hierarchy slice.
+      <br/>
+      FIG. 6(C) illustrates a table for storing data that identifies the inheritance relations of a class hierarchy slice.
+      <br/>
+      The table includes a plurality of entries each corresponding to an inheritance relation between a pair of classes, wherein one of the classes of the pair (i.e., the derived class) is derived, either through virtual or non-virtual inheritance, from the other class of the pair (the base class).
+      <br/>
+      Each entry includes a first field 611 and a second field 613.
+      <br/>
+      The first field 611 and the second field 613 identify the associated derived class and base class, respectively.
+      <br/>
+      For example, the first and second fields 611,613 may store the name of the associated derived class and base class, respectively.
+      <br/>
+      The entry may also include a third field 615 that identifies whether or not the associated inheritance relation is part of the class hierarchy slice.
+      <br/>
+      Those skilled in the art will realize that the data structures of FIGS. 6(A)-(C) are exemplary, and that there exist many other data structures that may be used to store the class hierarchy slice data; all of which may be used with the present invention.
+    </p>
+    <p num="30">A more detailed description of the method of steps 501 to 505 is set forth in the following pseudo-code:</p>
+    <p num="31">
+      --
+      <br/>
+      -- /* top-level function: computes a class hierarchy slice (slice) for a given
+      <br/>
+      --  program P */
+      <br/>
+      -- �1� function Slice (Program P) : hierarchy;
+      <br/>
+      --         /* Initialize the slice to be empty */
+      <br/>
+      -- �2� let slice be the empty set;
+      <br/>
+      --         /* Determine which classes are needed due to object creation
+      <br/>
+      --  constructs */
+      <br/>
+      --         /* (i.e, declarations and applications of the `new` operator) */
+      <br/>
+      -- �3� for each (implicit or explicit) object creation construct e in P do
+      <br/>
+      -- �4� Add to slice the class instantiated by e;
+      <br/>
+      -- �5� end for
+      <br/>
+      --         /* Add to slice parts of the hierarchy that are needed for
+      <br/>
+      --  executing type casts */
+      <br/>
+      -- �6� for each (implicit or explicit) upcast expression (T*) e or (T&amp;) e or
+      <br/>
+      --  (T) e in P do
+      <br/>
+      -- �7� Let T' be the static type of expression e;
+      <br/>
+      -- �8� Add to slice all classes and inheritance relations that lie "between"
+      <br/>
+      --  classes T'
+      <br/>
+      --             and T;
+      <br/>
+      -- �9� end for
+      <br/>
+      -- /* Add to slice parts of the original class hierarchy that are needed for
+      <br/>
+      --  member lookups */
+      <br/>
+      -- �11� for each member selection expression e.m or e  --&gt;  m in P do
+      <br/>
+      -- �12� Let runTimeTypes(e) be the set of potential run-time types that e may
+      <br/>
+      --  assume
+      <br/>
+      --             during execution of P;
+      <br/>
+      -- �13� Let staticType be the static type of e;
+      <br/>
+      -- �14� SubObjSet = CorrespondingSubobjects(runTimeTypes(e),  staticType);
+      <br/>
+      -- �15� for each subobject n in SubObjSet do
+      <br/>
+      -- �16� MemberLookupSlice (n; m);
+      <br/>
+      -- �17� end for
+      <br/>
+      -- �18� end for
+      <br/>
+      -- �19� return slice;
+      <br/>
+      -- �20� end;
+      <br/>
+      -- /* Determine all subobjects whose most derived class is a class in T and
+      <br/>
+      --  whose least derived
+      <br/>
+      -- */
+      <br/>
+      -- /*      class is X */
+      <br/>
+      -- �21� function CorrespondingSubobjects(TypeSet  T ; Class X): SubObjectSet;
+      <br/>
+      -- �22� SubObjSet = 0;
+      <br/>
+      -- �23� for each class C in the set T do
+      <br/>
+      -- �24� Add to SubObjSet all subobjects whose most derived class is C and
+      <br/>
+      --                whose least derived class is X;
+      <br/>
+      -- �25� end for
+      <br/>
+      -- �26� return SubObjSet;
+      <br/>
+      -- �27� end;
+    </p>
+    <p num="32">
+      In step 501, the identification of the classes of the objects in the program P is preferably performed by initializing sliced class hierarchy data to be empty (line �2�), determining which classes are needed due to object creation constructs, and adding such classes to the sliced class hierarchy data (lines �3�-�5�).
+      <br/>
+      A class X is said to be instantiated when an object of type X (i.e., an instance of the subobject �X; X�) is created.
+      <br/>
+      Objects may be created through the use of various program constructs.
+      <br/>
+      For example, in C++, objects may be created through the use of a new operator (e.g., "new X") and variable definitions (e.g., "X x;").
+      <br/>
+      In addition, programs typically have a number of implicit constructs: constructs that are generated by the compiler if the programmer omits them.
+      <br/>
+      For instance, a constructor for a class may contain implicit instantiations of all its data members.
+      <br/>
+      These are all considered to be class instantiations as well.
+    </p>
+    <p num="33">
+      In step 503,the parts of the hierarchy that are needed for executing type casts are preferably added to the class slice hierarchy data by identifying all upcasts in the program P (line �6�); and, for each upcast, adding the parts of the class hierarchy corresponding to the upcast to the class slice hierarchy data (lines �7�-�9�).
+      <br/>
+      A type cast may be an upcast or a downcast.
+      <br/>
+      A typecast from a class F to a class T is said to be a upcast if F is a derived class of T and a downcast if T is a derived class of F.
+    </p>
+    <p num="34">
+      Preferably, both implicit and explicit upcast expressions are identified in step 503.
+      <br/>
+      An explicit typecast is one included in the program by the programmer.
+      <br/>
+      An implicit typecast is one introduced into the program by the compiler.
+      <br/>
+      For example, if the program uses a pointer to class X in a context where a pointer to a class Y is expected, and X is a derived class of Y, then the compiler automatically inserts a typecast here from class X to class Y.
+    </p>
+    <p num="35">
+      In addition, in step 503, the part of the class hierarchy that corresponds to a given upcast from a class F to a class T is preferably the part of the class hierarchy that lies between classes F and T. Thus, the part of the class hierarchy that corresponds to an upcast from a class F to a class T includes:
+      <br/>
+      1) the classes F and T;
+      <br/>
+      2) any class Z such that
+    </p>
+    <p num="36">
+      - i) Z is a derived class of T (either directly or indirectly); and
+      <br/>
+      - ii) F is a derived class of Z (either directly or indirectly);
+      <br/>
+      3) any inheritance relations that exist between any of the classes identified in 1) and 2).
+    </p>
+    <p num="37">
+      In step 505, the member lookup operations, denoted e.m or e --&gt; m, in the program P are identified and, for each member lookup operation, the part of the class hierarchy that is necessary to preserve the behavior of that member lookup operation is determined.
+      <br/>
+      Because the behavior of the lookup operation depends on the subobject on which the lookup is performed, step 505 is preferably partitioned into the following two tasks:
+      <br/>
+      (i) identify the set SubObjSet of possible subobjects that e may denote at this program point; and
+    </p>
+    <p num="38">(ii) for each possible subobject n in the set SubObjSet, identify the part of the class hierarchy that is necessary to preserve the behavior of a lookup for member m on subobject n.</p>
+    <p num="39">
+      In order to perform the first task i) of step 505 (i.e., identifying the set SubObjSet of possible subobjects that e may denote at this program point), the operation preferably begins by identifying the least derived class of any subobject that e may denote: this is simply the static type of e (line �13�).
+      <br/>
+      This can be computed using standard compiler analysis techniques.
+      <br/>
+      The second step is to identify the possible most derived classes of any subobject that e may denote, which can be done using any one of several known type inference algorithms as described in D. F. Bacon, M. Wegman, and F. K. Zadeck, "Rapid type inference for C++", Technical Report RC 1234, IBM Thomas J. Watson Research Center, 1995; M. F. Fernandez, "Simple and effective link-time optimization of modula-3 programs", Proceedings of the ACM SIGPLAN '95 Conference on Programming Language Design and Implementation, pages 103-115, June 1995; David F. Bacon and Peter F. Sweeney, "Past static analysis of C++ virtual function calls", Proceeding of the Eleventh Annual Conference on Object-Oriented Programming Systems, Languages and Applications (OOPSLA '96), San Jose, Calif., 1996, pp. 324-341; J. Dean and C. Chambers, "Optimization of object-oriented programs using static class hierarchy analysis", Technical Report 94-12-01, Department of Computer Science, University of Washington at Seattle, December 1994; Hemant D. Pande and Barbara G. Ryder, "Static type determination and aliasing for C++", Report LCSR-TR-250-A, Rutgers University, October 1995; and Paul R. Carini, Michael Hind, and Harini Srinivasan, "Flow-sensitive type analysis for C++", Technical Report RC 20267, IBM T.J. Watson Research Center, 1995, and J. Dean and C. Chambers, "Optimization of Object-Oriented Programs Using Static Class Hierarchy Analysis", Tech.
+      <br/>
+      Rep. 94-12-01, Department of Computer Science, University of Washington at Seattle, December 1994, herein incorporated by reference in their entirety.
+      <br/>
+      Finally, after determining the least derived class and the set of possible most derived classes, for each combination of the least derived class and most derived class, the set of all subobjects with the combination can be identified from the subobject graph.
+      <br/>
+      For example, suppose that for a given expression e in the class hierarchy presented above, the least derived class is class A and the set of most derived classes is class D and class C. Then, for the combination of class D and class A, the set of subobjects includes the subobject �D; D.B.A� and the subobject �D; D.C.A�. For the combination of class C and class A, the set of subobjects consists of the set containing the sole subobject �C; C.A�.
+    </p>
+    <p num="40">The second task ii) of step 505 identifies, for each possible subobject n in the set SubObjSet, the part of the class hierarchy that is necessary to preserve the behavior of a lookup for member m on subobject n. An example of the substeps of step 505 is illustrated in the following pseudo-code:</p>
+    <p num="41">
+      --
+      <br/>
+      -- /* Determine the parts of the hierarchy necessary for a lookup of member m
+      <br/>
+      --  from subobject n
+      <br/>
+      -- */
+      <br/>
+      -- �101� procedure MemberLookupSlice (Subobject n; member m);
+      <br/>
+      -- �102� n' = biggest (VisibleDefs  (n; m) );
+      <br/>
+      -- �103� Add to slice the parts of hierarchy "between" subobjects n and n';
+      <br/>
+      -- �104� Let C be the least derived class of n';
+      <br/>
+      -- �105� Add member C::m to slice;
+      <br/>
+      -- �106� for each subobject n" in VisibleDefs  (n; m) do
+      <br/>
+      -- �107� Add to slice the parts of hierarchy "between" subobjects n' and n";
+      <br/>
+      -- �108� end for
+      <br/>
+      -- �109� if member m in class C is a virtual method then /* virtual member
+      <br/>
+      --  lookup */
+      <br/>
+      -- �110� Let D be the most derived Class of n;
+      <br/>
+      -- �111� Let n full be the subobject �D; D�;
+      <br/>
+      -- �112� n' = biggest (VisibleDefs  (n full ; m));
+      <br/>
+      -- �113� Add to slice the parts of hierarchy "between" subobjects n full
+      <br/>
+      --  and n';
+      <br/>
+      -- �114� Let C be the least derived class of n';
+      <br/>
+      -- �115� Add C::m to slice;
+      <br/>
+      -- �116� for each subobject n" in VisibleDefs (n full ; m) do
+      <br/>
+      -- �117�  Add to slice the parts of hierarchy "between" subobjects n'
+      <br/>
+      --                  and n";
+      <br/>
+      -- �118� end for
+      <br/>
+      -- �119� end if
+      <br/>
+      -- �120� end;
+      <br/>
+      -- /* VisibleDefs finds all "visible definitions" of a member m in a given
+      <br/>
+      --  subobject. */
+      <br/>
+      -- �121� function VisibleDefs(subobject n, member m): SubObjectSet;
+      <br/>
+      -- �122� if (the least derived class of n contains a definition of member m)
+      <br/>
+      --  then
+      <br/>
+      --           /* If the static class of n contains a definition of m */
+      <br/>
+      --           /* then this is the only visible definition, because it hides all
+      <br/>
+      --  */
+      <br/>
+      --           /* other definitions of m */
+      <br/>
+      -- �123� S = +n };
+      <br/>
+      -- �124� else
+      <br/>
+      --           /* Otherwise, subobject n doesn't have a definition of m itself,
+      <br/>
+      --  and */
+      <br/>
+      --           /* we go "up" in the subobject graph to all "parent nodes" */
+      <br/>
+      --           /* of n, and look for visible definitions there */
+      <br/>
+      -- �125� S =  PHI ; /* the empty set */
+      <br/>
+      -- �126� for each immediately contained subobject n' of ndo
+      <br/>
+      -- �127�  S := S .orgate.
+      <br/>
+      VisibleDefs  (n' ; m);
+      <br/>
+      -- �128� end for
+      <br/>
+      -- �129� end if
+      <br/>
+      -- �130� return S;
+      <br/>
+      -- �131� end;
+      <br/>
+      -- /* given a set of subobjects that contain a member m, this function will
+      <br/>
+      --  select the
+      <br/>
+      -- "dominating" definition*/
+      <br/>
+      -- �132� function biggest(SubObjectSet S) : SubObject
+      <br/>
+      -- �133� BSO = the subobject n in S such that every n' in S is contained
+      <br/>
+      --  within n
+      <br/>
+      -- �134� return BSO;
+      <br/>
+      -- �134� end;
+    </p>
+    <p num="42">
+      First, a "static lookup" is performed on the specified subobject for the specified member.
+      <br/>
+      This is done by computing the "biggest" subobject of the set VisibleDefs (n; m).
+      <br/>
+      Recall that VisibleDefs (n; m) returns the set of all subobjects contained within the subobject n that have a member named m that is visible at the subobject n. Here, a subobject n' is said to be the "biggest" subobject in a set S of subobjects if every subobject in S is directly or indirectly contained within n'. Assume that the result of this "lookup" is a subobject n' of least derived class C. In this case, the following components of the class hierarchy are added to the class hierarchy slice data being computed:
+      <br/>
+      the first component added to the class hierarchy slice data is the part of the hierarchy that lies between-subobjects n and n', which may be determined by first identifying the set of subobjects that lie between subobjects n and n': This set includes the subobjects n, n', as well as any other subobject nmid such that n' is a subobject contained in n mid and nmid is a subobject contained in n. Let R denote this set of subobjects.
+      <br/>
+      Then, for every subobject in the set R, the least derived class of the subobject is added to the class hierarchy slice data.
+      <br/>
+      In addition, for any two subobjects n1 and n2 in R such that n2 is an immediate subobject of n1, the corresponding inheritance relation between the least derived classes of n1 and n2 is added to the class hierarchy slice data. (line �103�.)
+      <br/>
+      the member m in the least derived class of n' is added to the class hierarchy slice data (Lines �104�-�105�.)
+      <br/>
+      for every subobject n" in the set VisibleDefs (n; m), the part of the hierarchy that lies between subobjects n' and n" is added to the class hierarchy slice data (Lines �106�-�108�).
+    </p>
+    <p num="43">If the member m is a non-virtual member in the least derived class of n', the operation is complete.</p>
+    <p num="44">
+      However, if the member m is a virtual method, additional steps are performed.
+      <br/>
+      More specifically, let D denote the most derived class of n. Then, the "full" subobject containing n may be denoted �D; D�, which is the biggest subobject that contains n. We will henceforth refer to this full subobject as nfull.
+      <br/>
+      The operation begins by performing a "lookup" on nfull for m, which is accomplished by identifying the biggest subobject among all the subobjects contained within nfull that have a member named m (step �112�).
+      <br/>
+      Assume that the lookup returns a subobject n' of least derived class C. In this case, the following components of the class hierarchy are added to the class hierarchy slice data being computed:
+      <br/>
+      the part of the hierarchy that lies between subobjects nfull and n' (line �113�);
+      <br/>
+      the member m in the least derived class of n' (Lines �114�-�115�.)
+      <br/>
+      for every subobject n" in the set VisibleDefs (nfull ; m), the part of the hierarchy that lies between subobjects n' and n" is added to the class hierarchy slice data (Lines �116�-�118�).
+    </p>
+    <p num="45">
+      Given a subobject n and a member m, the finction VisibleDefs (lines �121�-�131�) determines a set of subobjects n' that are (directly or indirectly) contained in n and whose least derived class has a member m. Specifically, the operation works as follows.
+      <br/>
+      If subobject n itself contains a member m (line �122�), then the member m in subobject n is the only visible definition because it hides all other definitions of m in subobjects n' that are contained in subobject n (line �123�).
+      <br/>
+      Otherwise, if subobject n does not have a definition of member m in itself, any definition of member m that is visible in an immediately contained subobject n' is visible in n as well (lines �125�-�128�).
+      <br/>
+      A discussion of member visibility appears earlier.
+    </p>
+    <p num="46">
+      The function biggest selects from a set of subobjects that contain a member m the "dominating" definition.
+      <br/>
+      An example of a "dominating" member is set forth below where foo() in �D; D.B� dominates the foo() in �D; S�.
+    </p>
+    <p num="47">An example of the method for computing a class hierarchy slice of the present invention is now presented with reference to the class hierarchy presented earlier in conjunction with the following C++ program:</p>
+    <p num="48">
+      --
+      <br/>
+      -- �201� void main()+
+      <br/>
+      -- �202� D d; // Instantiation of class D
+      <br/>
+      -- �203� C* cp = (C*) &amp;d; // Explicit cast from D to C
+      <br/>
+      -- �204� S* sp = cp; // Implicit cast from C to S
+      <br/>
+      -- �205� sp -&gt; foo(); // Virtual member lookup
+      <br/>
+      -- �206� }
+      <br/>
+      -- �207� void S::bar()+ this-&gt;y = 20}; // Non-virtual member lookup
+      <br/>
+      -- �208� void S::foo()+ };
+      <br/>
+      -- �209� void B::foo()+ this-&gt;x = 10; }; // Non-virtual member lookup
+      <br/>
+      -- �210� void C::bar()+ this-&gt;foo(); }; // Virtual member lookup
+    </p>
+    <p num="49">
+      In this example, the statement D d of line �202� instantiates class D. No other class is instantiated anywhere in the program, and, hence, the first step of our algorithm would add class D to the class hierarchy slice (lines �3�-�5�).
+      <br/>
+      An example of the class hierarchy slice data at this stage is shown in FIG. 7(A).
+    </p>
+    <p num="50">
+      In addition, there are two typecasts in the program.
+      <br/>
+      Line �203� contains an explicit cast from the class D to the class C, while line �204� contains an implicit cast from class C to class S. To handle the first cast, the part of the class hierarchy that lies between classes D and C is added to the slice.
+      <br/>
+      In particular, the class C (class D was already added), as well as the inheritance relation between class D and C are added to the class hierarchy slice (lines �6�-�9�).
+      <br/>
+      To handle the second cast, class S (class C was already added) as well as the inheritance relation between class C and class S are added to the class hierarchy slice (lines �6�-�9�).
+      <br/>
+      An example of the class hierarchy slice data at this stage is shown in FIG. 7(B).
+    </p>
+    <p num="51">
+      The final step in the algorithm is to examine every member lookup operation e.m or e --&gt; m in the program and identify the part of the class hierarchy that is necessary to preserve the behavior of that member lookup operation.
+      <br/>
+      There are several member lookup expressions in the example presented above.
+    </p>
+    <p num="52">
+      Let us first consider the lookup expression this --&gt; x in function B::foo of line �209�. Assume that the type inference algorithm used identifies that the set of possible run-time types for expression "this" is +D}. The function CorrespondingSubObjects (lines �21�-�27�) will associate the subobject �D; D.B� with the "this" pointer.
+      <br/>
+      The class hierarchy slice associated with the member lookup for object �D; D.B� and member x is then computed as follows:
+      <br/>
+      1.
+      <br/>
+      Line �102�. Function VisibleDefs is invoked with arguments �D; D.B� and member x.
+      <br/>
+      2. Lines �121� to �131�. Function VisibleDefs cannot find a member x in class B, and goes "up" in the subobject graph to subobjects �D; D.B.A� and �D; S�. Only �D; D.B.A� contains a definition of x, so VisibleDefs returns the singleton set +�D; D.B.A�}.
+      <br/>
+      3. Line �102�. Function biggest is invoked with the set +�D; D.B.A�} and returns the subobject �D; D.B.A�. Hence, n' is assigned �D; D.B.A�.
+      <br/>
+      4. Line �103�. the part of the hierarchy between subobjects �D; D.B� and �D; D.B.A� are added to the class hierarchy slice data.
+      <br/>
+      That is, the classes B and A, as well as the inheritance relation between them, are added to the class hierarchy slice data.
+      <br/>
+      5. Lines �104� and �105�. the member x in class A is added to the class hierarchy slice data.
+      <br/>
+      6. Lines �106� to �108�. In these lines, nothing more is added to the class hierarchy slice data since the set VisibleDefs contains only one element.
+      <br/>
+      7. Lines �109� to �119�. Member x in class A is not a virtual method, so nothing more needs to be done.
+    </p>
+    <p num="53">An example of the class hierarchy slice data at this stage is shown in FIG. 7(C).</p>
+    <p num="54">
+      Let us now consider the call to sp --&gt; foo() in line �205� of the main program.
+      <br/>
+      Assume that the type inference algorithm used identifies that the set of possible run-time types for expression "sp" is +D}. The function CorrespondingSubObjects (lines �21�-�27�) will associate the subobject �D; S� with the expression sp.
+      <br/>
+      The class hierarchy slice associated with the member lookup for object �D; S� and member foo() is then computed as follows:
+      <br/>
+      1.
+      <br/>
+      Line �102�. Function VisibleDefs is invoked for �D; S� and member foo.
+      <br/>
+      2. Lines �121�-�131�. Function VisibleDefs finds that there is one visible definition of foo, in subobject �D; S�, and therefore returns the set +�D; S�}.
+      <br/>
+      3. Line �102�. Function biggest is invoked with the set +�D; S�} and returns the subobject �D; S�. So, n' is set to �D; S�.
+      <br/>
+      4. Line �103�. the part of the class hierarchy between �D; S� and �D; S� is added to the class hierarchy slice data.
+      <br/>
+      This consists of just class S.
+      <br/>
+      5. Lines �104�-�105�. the member foo of class S is added to the class hierarchy slice data.
+      <br/>
+      6. Lines �106�-�108�. In these lines, nothing more is added to the class hierarchy slice data since the set VisibleDefs contains only one element.
+      <br/>
+      7. Line �109�. Member foo() in class S is a virtual method, so lines �110� through �118� are executed.
+      <br/>
+      8. Lines �110�-�111�. Determines nfull =�D; D�
+      <br/>
+      9.
+      <br/>
+      Line �112�. Function VisibleDefs is invoked with arguments �D; D� and foo.
+      <br/>
+      10. Lines �121� to �131�. Function VisibleDefs finds two visible definitions of foo, in subobjects �D; D.B� and �D; S�, and returns the set +�D; S�; �D; D.B�}.
+      <br/>
+      11. Line �112� .
+      <br/>
+      Function biggest is invoked for the set +�D; S�; �D; D.B�}and returns the subobject �D; D.B�, so n' is set to �D; D.B�.
+    </p>
+    <p num="55">
+      12. Line �113�. the part of the class hierarchy that lies between subobjects �D; D� and �D; D.B� is added to the class hierarchy slice data.
+      <br/>
+      This consists of classes D and B. Classes D and B are already in the slice; the inheritance relation between the classes D and B is added to the slice.
+      <br/>
+      13. Lines �114�-�115�. the member foo of class B is added to the class hierarchy slice data.
+      <br/>
+      14. Lines �116�-�118�. the part of the class hierarchy that lies between subobjects �D; D.B� and �D; S� is added to slice.
+      <br/>
+      This consists of classes B and S. The classes B and S have already been added to the slice; yet the inheritance relation between the classes B and S is added to the slice.
+    </p>
+    <p num="56">
+      There are two more member lookups in the example program (in lines �207� and �210�).
+      <br/>
+      However, these lookups will never be invoked during program execution and, hence, nothing more needs to be added to the class hierarchy slice data.
+      <br/>
+      The resulting class hierarchy slice is shown in FIG. 7(D).
+    </p>
+    <p num="57">In an alternate embodiment, if there are multiple inheritance paths between two classes, only one of these paths may be included in the class hierarchy slice data.</p>
+    <p num="58">
+      The class slicing technique of the present invention may be used in the compilation of program in order to reduce the space and time requirements of the program.
+      <br/>
+      The compilation process compiles a source program thereby generating a run-time representation of the source program.
+      <br/>
+      As shown in FIG. 2, the compilation process 210 accepts as an input (I) 212 a source program, and operates on it to an end of generating an output (O) 214 comprising a run-time representation of the source program.
+      <br/>
+      The run-time representation 210 is typically executable on a specific computer architecture.
+      <br/>
+      The compilation process 210 typically includes front end processing (FE) 218, a symbol table 220 for recording information about symbols in the input program, intermediate language generation (ILG) 222, optimization (OPT) 224, and back end processing (BE) 226.
+    </p>
+    <p num="59">
+      The FE stage 218 typically converts the source program 212 to a (possibly) different internal form (IF) that may be conveyed to the ILG stage 222.
+      <br/>
+      As part of the preparation of the internal form, the FE stage 218 typically parses and performs semantic analysis on the source program 212.
+      <br/>
+      The front end processing may save information in, and possibly retrieve information from, the symbol information data structure(s) 220. These symbol information data structures, if they are used, may either be separate from or adjoined to the intermediate form.
+      <br/>
+      In addition, the FE stage 218 may perform optimization techniques such as program slicing techniques on the source program 212.
+      <br/>
+      Program slicing can be used to eliminate from the source program 212 those statements whose execution does not affect the observable behavior of the program.
+      <br/>
+      A more detailed description of program slicing may be found in F. Tip, "A Survey of Program Slicing Techniques", Journal of Programming Languages 3, 3 (1995), pp. 121-189, hereinafter incorporated by reference in its entirety.
+    </p>
+    <p num="60">
+      The ILG stage 222 produces intermediate language instructions (IL) from the internal form of the program, possibly consulting the symbol table 220.
+      <br/>
+      The intermediate language form of the program may be conveyed to the BE stage 226 either directly or by way of the optimization stage 224.
+      <br/>
+      If the intermediate language (IL) form of the program is conveyed to the optimization stage 224, then the optimization stage 224 produces a functionally equivalent and preferably faster or smaller version of the program, typically again in the intermediate form.
+      <br/>
+      This version of the program may then be conveyed to the BE stage 226.
+      <br/>
+      To this end, the optimization stage 224 may be in communication with the symbol table 220.
+      <br/>
+      Once an intermediate language form of the program is received by the BE stage 226, either directly or after optimization, the BE stage 226 generates executable code that is functionally equivalent to the intermediate language form of the program.
+      <br/>
+      In addition, for object oriented programming languages, the BE stage 226 implements an object model and generates code that implements the object oriented features used by the source program 212.
+      <br/>
+      In addition, the BE stage 226 may optimize the generated code.
+      <br/>
+      The executable code generated by the BE stage 226 is a run-time representation of the source program. and is typically compatible with a specific computer architecture, for example the Windows.RTM.-Intel.RTM. architecture or a virtual machine architecture such as the architecture specified for the JAVA (tm)  virtual machine.
+      <br/>
+      The constitutions and functions of these elements are well known in the art and will not be otherwise described here.
+      <br/>
+      For example, further description on the various intermediate language generators and other functionality of the compiler may be found in A. V. Aho et al., "Compilers Principles, Techniques and Tools, Addison-Wesley, 1986.
+    </p>
+    <p num="61">
+      The class slicing technique of the present invention is preferably integrated into the front end processing stage 218 of the compilation process 210 presented above thereby eliminating classes, members, and inheritance relations that are not necessary for the execution of the program P. The class slicing technique of the present invention is preferably performed subsequent to an operation that removes from the program code whose execution does not affect the observable execution behavior of the program.
+      <br/>
+      An example of such an operation is a program slicing operation.
+      <br/>
+      Program slicing can be used to eliminate from the source program 212 those statements whose execution does not affect the observable behavior of the program.
+      <br/>
+      A more detailed description of program slicing may be found in F. Tip, "A Survey of Program Slicing Techniques", Journal of Programming Languages 3, 3 (1995), pp. 121-189, incorporated by reference above in its entirety.
+    </p>
+    <p num="62">
+      In an alternate embodiment, the class slicing technique of the present invention may be performed on a source program, thereby generating an optimized source program.
+      <br/>
+      In this case, the optimized source would be supplied as input 212 to the compilation process 210.
+    </p>
+    <p num="63">
+      By eliminating parts of class hierarchies such as classes, members, and inheritance relations, objects become smaller and require less memory.
+      <br/>
+      In particular, when an inheritance relation between a base class X and a derived class Y is omitted, the corresponding X subobject in the Y object will be omitted at execution time.
+      <br/>
+      Time requirements are also reduced due to reduced object creation/deletion time, and cache effects.
+      <br/>
+      In addition, eliminating parts of a class hierarchy may enable the compilation process to perform other optimizations such as virtual-call elimination (i.e., replacing virtual method calls by direct method calls) and virtual inheritance elimination (i.e., replacing virtual inheritance by nonvirtual inheritance) that could previously not be applied.
+    </p>
+    <p num="64">
+      The class slicing mechanism of the present invention may also be integrated into a software application for program understanding and debugging.
+      <br/>
+      Preferably, the class slicing mechanism of the present invention is utilized in conjunction with an operation that removes from the program any code whose execution does not affect the observable execution behavior of the program.
+      <br/>
+      An example of such an operation is a program slicing operation, details of which is described earlier.
+      <br/>
+      Class hierarchy slicing extends the applicability of program slicing to object-oriented languages by indicating which parts of a class hierarcy are used in obtaining a value computed at some point of interest in a program.
+    </p>
+    <p num="65">
+      FIG. 8 illustrates an example of the class slicing technique used for program -understanding.
+      <br/>
+      More specifically, in step (a), a program is executed and analyzed, yielding a set of values or representations of values.
+      <br/>
+      In step (b), one or more analysis results (e.g, values of variables) are selected by a user.
+      <br/>
+      For example, a variable that has an incorrect value can be selected.
+      <br/>
+      In step (c), a program slicing algorithm may be used to determine the set of statements that contribute to the results selected in step (b).
+      <br/>
+      Finally, in step (d), the class hierarchy slicing technique of the present invention is used to determine the parts of the class hierarchy that are used (or not used) for obtaining the execution/analysis results selected in step (b), and the user is notified of the parts of the class hierarchy that are used (or not used) for obtaining such execution/analysis results.
+    </p>
+    <p num="66">While the invention has been described above with respect to particular embodiments thereof, those skilled in the art will recognize that the invention can be practiced with modification within the spirit and scope of the appended claims.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>We claim:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>In a system wherein a computer program has a class hierarchy comprising a plurality of components including classes of objects, a method for generating a run-time representation of said computer program, the method comprising the steps of:</claim-text>
+      <claim-text>i) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program; ii) generating said run-time representation of said computer program that includes said first class of objects yet omits said inheritance relation between said first class and said second class;</claim-text>
+      <claim-text>and wherein said step i) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein omitting said inheritance relation between said first class and said second class results in omission from every object belonging to said first class a corresponding subobject belonging to said second class.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. In a system wherein a computer program has a class hierarchy comprising a plurality of components including classes of objects, a method for generating information characterizing said computer program, the method comprising the steps of: i) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program; ii) notifying a user that objects of the said first class may be created and accessed during execution, but that said subobject representing said second class is never accessed during any execution of said computer program; wherein said step i) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 5, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 5, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. In a system wherein a computer program has a class hierarchy comprising a plurality of components including classes of objects and members of said classes, a method for generating a run-time representation of said computer program, the method comprising the steps of: i) identifying at least one member m of said members of said computer program, wherein said member m is not accessed during any execution of said computer program;</claim-text>
+      <claim-text>and ii) generating a run-time representation of said computer program that omits said member m;</claim-text>
+      <claim-text>wherein step i) includes the step of examining components of said class hierarchy; wherein step ii) includes the steps of: iii) identifying a set of all members MT of said class hierarchy of said computer program; iv) identifying a set of members M of said class hierarchy of said computer program, wherein each member within said set M may be accessed during some execution of said computer program;</claim-text>
+      <claim-text>and v) identifying all members of said computer program that are not accessed during any execution of said computer program as those members belonging to the set MT yet omitted from the set M;</claim-text>
+      <claim-text>- further comprising the step of: vi) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program;</claim-text>
+      <claim-text>-  wherein said step ii) generates said run-time representation of said computer program that includes said first class of objects yet omits said inheritance relation between said first class and said second class;</claim-text>
+      <claim-text>and -  wherein said step vi) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 8, further comprising the steps of: identifying in said computer program at least one member lookup operation wherein a member m1 is accessed from an expression e;</claim-text>
+      <claim-text>and identifying components of said class hierarchy that are necessary to preserve execution behavior of said member lookup operation.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 9, further comprising the steps of: identifying a first set of subobjects that e may denote during execution of said member lookup operation;</claim-text>
+      <claim-text>and for each subobject n within said first set of subobjects, - identifying a second set of subobjects contained within said subobject n that contains a visible definition of said member m1, - identifying a dominant subobject n' in said second set of subobjects, - identifying a least derived class C for said dominant subobject n', and - adding member m1 belonging to said least derived class C to said set of members M;</claim-text>
+      <claim-text>and - if member m1 belonging to said least derived class C is a virtual method, -  identifying a most derived class D for said subobject n, -  identifying a full subobject corresponding to said most derived class D, -  identifying a third set of subobjects contained within said full subobject that contain a visible definition of said member m1, -  identifying a dominant subobject n1' in said third set of subobjects, -  identifying a least derived class C1 for said dominant subobject n1', and -  adding member m1 belonging to said least derived class C1 to said set of members M.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 8, wherein omitting said inheritance relation between said first class and said second class results in omission from every object belonging to said first class a corresponding subobject belonging to said second class.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 8, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 8, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A program storage device readable by a machine, tangibly embodying a computer program executable by said machine to perform a method for generating a run-time representation of said computer program, wherein said computer program has a class hierarchy comprising a plurality of components including classes of objects, said method comprising the steps of: i) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program; ii) generating said run-time representation of said computer program that includes said first class of objects yet omits said inheritance relation between said first class and said second class;</claim-text>
+      <claim-text>and wherein said step i) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The program storage device of claim 14, wherein omitting said inheritance relation between said first class and said second class results in omission from every object belonging to said first class a corresponding subobject belonging to said second class.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The program storage device of claim 14, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The program storage device of claim 14, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A program storage device readable by a machine, tangibly embodying a program executable by said machine to perform a method for generating information characterizing a computer program having a class hierarchy comprising a plurality of components including classes of objects, the method comprising the steps of: i) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program; ii) notifying a user that objects of the said first class may be created and accessed during execution, but that said subobject representing said second class is never accessed during any execution of said computer program; wherein said step i) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The program storage device of claim 18, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The program storage device of claim 18, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A program storage device readable by a machine, tangibly embodying a computer program executable by said machine to perform a method for generating a run-time representation of said computer program, wherein said computer program has a class hierarchy comprising a plurality of components including classes of objects and members of said classes, said method comprising the steps of: i) identifying at least one member m of said members of said computer program, wherein said member m is not accessed during any execution of said computer program;</claim-text>
+      <claim-text>and ii) generating a run-time representation of said computer program that omits said member m; wherein step i) includes the step of examining components of said class hierarchy; wherein step ii) includes the steps of: iii) identifying a set of all members MT of said class hierarchy of said computer program; iv) identifying a set of members M of said class hierarchy of said computer program, wherein each member within said set M may be accessed during some execution of said computer program;</claim-text>
+      <claim-text>and v) identifying all members of said computer program that are not accessed during any execution of said computer program as those members belonging to the set MT yet omitted from the set M; - further comprising the step of: vi) identifying a first class of objects and a second class of objects, wherein said first class inherits from said second class, said second class being known as a base class and said first class being known as a derived class, and wherein components of said class hierarchy include an inheritance relation that identifies said second class as a base class with respect to said first class and that identifies said first class as a derived class with respect to said second class, wherein each object within said first class of objects includes an object of said second class as a subobject, and wherein for any object O of said first class of objects, said subobject of O belonging to the said second class of objects is not accessed during any execution of said computer program; -  wherein said step ii) generates said run-time representation of said computer program that includes said first class of objects yet omits said inheritance relation between said first class and said second class;</claim-text>
+      <claim-text>and -  wherein said step vi) includes the step of examining components of said class hierarchy.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The program storage device of claim 21, further comprising the steps of: identifying in said computer program at least one member lookup operation wherein a member m1 is accessed from an expression e;</claim-text>
+      <claim-text>and identifying components of said class hierarchy that are necessary to preserve execution behavior of said member lookup operation.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The program storage device of claim 22, further comprising the steps of: identifying a first set of subobjects that e may denote during execution of said member lookup operation;</claim-text>
+      <claim-text>and for each subobject n within said first set of subobjects, - identifying a second set of subobjects contained within said subobject n that contains a visible definition of said member m1, - identifying a dominant subobject n' in said second set of subobjects, - identifying a least derived class C for said dominant subobject n', and - adding member m1 belonging to said least derived class C to said set of members M;</claim-text>
+      <claim-text>and - if member m1 belonging to said least derived class C is a virtual method, -  identifying a most derived class D for said subobject n, -  identifying a full subobject corresponding to said most derived class D, -  identifying a third set of subobjects contained within said full subobject that contain a visible definition of said member m1, -  identifying a dominant subobject n1' in said third set of subobjects, -  identifying a least derived class C1 for said dominant subobject n1', and -  adding member m1 belonging to said least derived class C1 to said set of members M.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The program storage device of claim 21, wherein omitting said inheritance relation between said first class and said second class results in omission from every object belonging to said first class a corresponding subobject belonging to said second class.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The program storage device of claim 21, wherein said first class of objects of said computer program inherits from multiple classes of objects.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The program storage device of claim 21, wherein said first class of objects of said computer program virtually inherits from said second class of objects.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

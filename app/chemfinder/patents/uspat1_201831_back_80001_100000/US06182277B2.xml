@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182277B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182277</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182277</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22030085" extended-family-id="42109148">
+      <document-id>
+        <country>US</country>
+        <doc-number>09060531</doc-number>
+        <kind>A</kind>
+        <date>19980415</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09060531</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165830</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>6053198</doc-number>
+        <kind>A</kind>
+        <date>19980415</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09060531</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/44        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>44</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>717115000</text>
+        <class>717</class>
+        <subclass>115000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>717116000</text>
+        <class>717</class>
+        <subclass>116000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>717117000</text>
+        <class>717</class>
+        <subclass>117000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-008/24</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>8</main-group>
+        <subgroup>24</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-008/24</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>8</main-group>
+        <subgroup>24</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>17</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6182277</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Methods and apparatus for declarative programming techniques in an object oriented environment</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>ENDICOTT JOHN C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5404525</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5404525</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>DANFORTH SCOTT H</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5493680</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5493680</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TYRA KRISTOPHER L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5493682</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5493682</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>IMAMURA SATOSHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5560014</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5560014</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>COWSAR GEORGE C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5615400</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5615400</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>BURKE FRED H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5644770</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5644770</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>LEACH PAUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5710925</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5710925</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>KRIENS PETER, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5864862</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5864862</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>KLENCKE DAVID L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5867709</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5867709</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>MA HENRY CHI-TO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5920725</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5920725</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>CENCIK PETER</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5933638</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5933638</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>BUXTON JEFFREY J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5978579</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5978579</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>NAKAJIMA SATOSHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6008806</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6008806</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Title: Method of Extended linking Using Identification files, IBM Technical Disclosure Bulletin, Mar. 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>Title: Automatically generating formatted documentation for object oriented class libraries, IBM Technical Disclosure Bulletin, Dec. 1994.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="3">
+          <text>Title: Generalization based data mining in object oriented database using an object cube model, Data &amp; knowledge engineering, Mar. 1998.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="4">
+          <text>Title: Consistency enforcement in entity relationship and object oriented models, Data &amp; knowledge engineering, Oct. 1998.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Oracle Corporation</orgname>
+          </addressbook>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>ORACLE</orgname>
+          </addressbook>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>DeGroot, Michael</name>
+            <address>
+              <address-1>Cupertino, CA, US</address-1>
+              <city>Cupertino</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Lemke, Ralph</name>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Stattler Johansen &amp; Adeli LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hafiz, Tariq R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An object oriented software environment permits, through declarative programming techniques, customization of functionality of an object.
+      <br/>
+      The object oriented software environment includes a plurality of objects, wherein each object contains at least one method.
+      <br/>
+      A user of the object oriented software environment submits one or more declarative statements to augment the functionality of a method on an object.
+      <br/>
+      In response, the object oriented software environment associates the declarative statements to the method identified on the object such that when the method on the object is called, the declarative statements, associated with the object, are executed in addition to the methods on the object.
+      <br/>
+      The declarative programming technique permits augmenting the functionality of a method on an object with "rules." In addition, two or more methods may be associated together to generate an event that propagates from one method to another method.
+      <br/>
+      The programming techniques disclosed also permit integration of declarative, compiled and scripting approaches to integrate three styles of applications program development.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention is directed toward the field of object oriented programming, and more specifically to methods, apparatus, and computer readable medium for enhancing declarative programming in an object-oriented system.</p>
+    <p num="3">2. Art Background</p>
+    <p num="4">
+      An object oriented approach to programming provides many advantages over traditional procedural programming approaches.
+      <br/>
+      For example, an object oriented approach permits code reuse through inheritance and modularity through encapsulation.
+      <br/>
+      There are many views as to what concepts define object oriented programming, and there are many terms and definitions for defining these concepts.
+      <br/>
+      In general, objects incorporate procedures, also called methods or operations, and data, also called attributes or properties.
+      <br/>
+      Objects are instantiated from and described by structures known as classes or types.
+      <br/>
+      For purposes of nomenclature, the object oriented programming environment described herein defines classes as types.
+      <br/>
+      A type is a general abstract specification, and an object instantiated from a type is a specific concrete instance of the type.
+    </p>
+    <p num="5">
+      A type consists of an interface and an implementation.
+      <br/>
+      The interface comprises variables and function declarations, wherein the variables represent the attributes of the type, and the function declarations specify methods for manipulating those attributes as well as performing other operations.
+      <br/>
+      The declaration specifies the name, return type, and argument, known collectively as the signature.
+      <br/>
+      The implementation refers to the actual code that implements the methods specified in the interface.
+      <br/>
+      Types may consist of abstract types or implementation types.
+      <br/>
+      Objects are not instantiated from abstract types.
+      <br/>
+      Instead, objects are instantiated from an implementation type.
+    </p>
+    <p num="6">
+      In general, objects communicate through message passing mechanisms.
+      <br/>
+      An object, known as a client object, may call a method of another object.
+      <br/>
+      A client object invokes a method of another object by accessing the object via the defined interfaces.
+      <br/>
+      Thus, to invoke a method in an object or to query an object, the client object requires knowledge of the signatures of the methods in the interface of the target object.
+      <br/>
+      The client object calls the methods and passes the appropriate parameters.
+      <br/>
+      For example, to obtain the value of an attribute in an object, a client object calls a method, via an interface, to obtain the value.
+    </p>
+    <p num="7">
+      The concept of isolating the implementation of the methods and attributes within an object is known as encapsulation.
+      <br/>
+      Encapsulation is a powerful feature of object oriented systems because it separates the external part of an object (e.g., the part exposed to the objects user) from the internal part (e.g., the structure and implementation).
+      <br/>
+      Therefore, encapsulation permits changing the object implementation without affecting the interaction with other functions or objects as long as the interface does not change.
+    </p>
+    <p num="8">
+      Object oriented languages, such as the C++ programming language, permit the creation of special types via inheritance.
+      <br/>
+      In general, inheritance is a mechanism for passing attributes and methods from a parent or base type to one or more child or derived types.
+      <br/>
+      Inheritance permits code reuse because interfaces and implementations need not be duplicated in the child type.
+      <br/>
+      Instead, the interfaces and implementations may be incorporated in any child type through reference of the parent or base type.
+    </p>
+    <p num="9">
+      Just as there are many different concepts that define object oriented programming, there are also many different and diverse object oriented systems.
+      <br/>
+      One example of how object oriented systems differ is in methods of code reuse.
+    </p>
+    <p num="10">
+      As discussed above, object oriented programming techniques permit code reuse through reuse of objects.
+      <br/>
+      However, in certain circumstances, a programmer may desire to alter an existing object without creating an entirely new object.
+      <br/>
+      Instead of creating a new and distinct object, current object oriented programming techniques permit a program developer to "subclass" the object.
+      <br/>
+      Generally, subclassing techniques permit a developer to generate a new method on a subclass, such that the new subclass has a method different from a method in the original class.
+      <br/>
+      Redirecting a call from an old method of a class to a new method in a subclass is known as method overriding.
+    </p>
+    <p num="11">
+      Typically, object interfaces include a plurality of pointers that point to a table of pointers, known as a virtual table (v_table.) In general, subclassing techniques involve changing the pointer in an object's v_table to point to a new function or method.
+      <br/>
+      When the method on that object is called, the v_table directs the call to the new function or method.
+      <br/>
+      To implement subclassing, a program developer requires access to the object's metadata to modify the object's v_table.
+      <br/>
+      However, a software developer does not always have access to an object's metadata.
+      <br/>
+      For example, if the software developer is using an object that consists of C++ compiled code, then the developer does not have access to the object's v_table, and the subclassing technique is not available to augment or change the methods on the object.
+      <br/>
+      The software developer also requires knowledge of the signatures of all of the methods on the object.
+      <br/>
+      The location of the v_table is compiler dependent, and thus is not readily known from objects compiled from different compilers.
+      <br/>
+      In addition, to alter the v_table, the software developer requires knowledge of the location of the object's v_table.
+      <br/>
+      Furthermore, the subclassing technique requires re-compiling the code, which in turn requires shutting down the application and reloading both the new and old code.
+      <br/>
+      Thus, it is desirable to provide a technique to permit augmentation of a method, to alter the behavior of an object, even though the source metadata is not available to the software developer.
+    </p>
+    <p num="12">
+      There are various ways to approach application program development in an object oriented programming environment.
+      <br/>
+      A declarative approach permits an application developer to express declarations by coding these declarations into the system.
+      <br/>
+      Although the declarative approach works best for certain tasks, such as adding features to an existing system, some functions cannot be expressed in a declarative manner.
+    </p>
+    <p num="13">
+      Other systems permit application development through traditional code development cycles.
+      <br/>
+      For example, programming languages, such as third generation languages (3GL), may be used to specify functionality through development of class objects.
+      <br/>
+      This approach to application development requires compiling code to generate executable run time code.
+      <br/>
+      Although the 3GL compiled approach is perhaps the most powerful approach, it is also the most resource intensive and time consuming approach.
+    </p>
+    <p num="14">
+      A third approach to application development in an object oriented system is through use of fourth generation languages (4GL).
+      <br/>
+      The 4GL approach permits adding functionality to currently existing systems.
+      <br/>
+      Although each approach has benefits, it is desirable to permit integration of all three styles of application building.
+    </p>
+    <p num="15">
+      To support application program development, a number of tools and editors are used.
+      <br/>
+      One such tool permits diagramming events to model an application program.
+      <br/>
+      Although these diagrammers provide a starting point for code development, they do not adequately capture how objects are affected as the objects progress through the system.
+      <br/>
+      The modeling tools do not describe the structure and behavior of the objects.
+      <br/>
+      For example, prior art systems capture information about the system so that the user may query to determine the relationship between objects, and how these objects move through the system.
+      <br/>
+      Although these queries are informative, they do not provide a means to enforce, through declarations, this relational information.
+      <br/>
+      Therefore, it is desirable to provide an object oriented system that enforces declarations to effect the relationships among objects in the system.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="16">
+      FIG. 1 illustrates one embodiment for implementing rules with an object.
+      <br/>
+      FIG. 2 is a flow diagram illustrating one embodiment for a program flow that implements rules.
+      <br/>
+      FIG. 3 illustrates an abstract representation of event propagation in the type system.
+      <br/>
+      FIG. 4 illustrates an example state model for a sales order application.
+      <br/>
+      FIG. 5 illustrates state models for the example order entry and accounts receivable applications as well as their linking through events.
+      <br/>
+      FIG. 6 illustrates a simplified state model consisting of a "New Order" state, an "Approved State", a "Place Order" state, and a "Filled Order" state.
+      <br/>
+      FIG. 7 illustrates adding a rule to the order entry state model of FIG. 6 to implement the specialized case of a rush order.
+      <br/>
+      FIG. 8 is a block diagram illustrating program modules for implementing rules of the present invention.
+      <br/>
+      FIG. 9 is a block diagram illustrating a plurality of bit maps for use with one embodiment of the optimization thunk.
+      <br/>
+      FIG. 10 is a flow diagram illustrating one embodiment for implementing rules.
+      <br/>
+      FIG. 11 is a block diagram illustrating an object oriented development environment that incorporates the techniques of the present invention.
+      <br/>
+      FIG. 12 is a flow diagram illustrating one embodiment for installing a rule.
+      <br/>
+      FIG. 13 illustrates a high level block diagram of a general purpose computer system in which the object oriented development system of the present invention may be implemented.
+      <br/>
+      SUMMARY OF THE INVENTION
+      <br/>
+      Declarative programming techniques in an object oriented software environment permit customizing functionality of an object. The object oriented software environment includes a plurality of objects, wherein each object contains at least one method. The user of the object oriented software environment, such as an applications developer, submits one or more declarative statements to augment the functionality of at least one method of an object. In response, the object oriented software environment associates the declarative statements to the method identified on the object such that when the method on the object is called, the declarative statements, associated with the object, are executed in addition to the methods on the object. The declarative programming technique permits augmenting the functionality of a method on an object with "rules." In addition, two or more methods may be associated together to generate an event that propagates from one method to another method.
+      <br/>
+      In one embodiment, the rules may be either "before" rules, which are executed prior to execution of the associated method, or "after" rules, which are executed subsequent to the associated method. The declarative programming techniques permit augmentation of methods both on the type system level and on the instance level. Thus, the user is permitted to associate declarative statements to a method on a specific instance of the object, or associate declarative statements to a method on all instances of the object.
+      <br/>
+      The programming techniques of the present invention also permit integration of declarative, compiled and scripting approaches for developing application programs in an object oriented environment. An abstract specification for an extended definition type system, which includes members to enforce rules through the type system, is implemented. Declarative rules, which implement functionality for applications program development, are enforced as rules in the type system. Complied code, developed from an object oriented language and compiled to include the extended definitions for the type system, operates in conjunction with the declarative rules. Scripts, developed from a fourth generation language (4GL), which specify additional functionality for applications program development, are also integrated so that the scripts are enforced as rules in the type system.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="17">An Overview of Rules</p>
+    <p num="18">
+      In general, rules are high level requirements or functions that augment the functionality of methods of an object.
+      <br/>
+      In one embodiment, rules are declarative techniques, that set forth requirements or parameters that define object behavior.
+      <br/>
+      As is described more fully below, the rules of the present invention may be implemented with different editors and tools, including editors and tools that are not designed to operative cooperatively (e.g., editors and tools that are not generally compatible to operate with different type systems).
+      <br/>
+      Also, rules may be added to objects of an applications program, even though the underlying method is compiled, and the source metadata for the underlying object is not available.
+    </p>
+    <p num="19">
+      FIG. 1 illustrates one embodiment for implementing rules with an object.
+      <br/>
+      An object interface 100 includes, in part, a plurality of operations, labeled operation1, operation2, operation3 . . . operationn.
+      <br/>
+      For purposes of nomenclature, an operation as used herein describes a "slot" in a virtual table ("v_table").
+      <br/>
+      Unlike a method, an operation does not connote a specific implementation.
+      <br/>
+      As shown in FIG. 1, each operation on the object interface 100 has a corresponding list of "before rules" 120.
+      <br/>
+      Also shown in FIG. 1 is a plurality of actual methods 130.
+      <br/>
+      The actual methods 130 represent the original implementation of the object prior to augmentation by the rules of the present invention.
+      <br/>
+      A decision block 110 directs the thread of execution of the program from an operation on the object interface 100 to either the corresponding list of before rules 120 or the actual method 130.
+    </p>
+    <p num="20">
+      A list of "after rules" 140 corresponds to each of the actual methods 130 as indicated by the lines on FIG. 1.
+      <br/>
+      The after rules 140 includes a list of one or more rules for execution subsequent to execution of the corresponding actual method 130.
+      <br/>
+      Similar to the before rules 120, the actual methods 130 are shown coupled to the after rules 140 via decision blocks 110.
+      <br/>
+      The decision blocks 110 indicate whether the thread of execution of a program is directed from the actual methods 130 to the after rules 140, or whether the thread of execution returns directly to return to the caller (e.g., the caller that invoked the operation on the object interface 100).
+    </p>
+    <p num="21">
+      FIG. 2 is a flow diagram illustrating one embodiment for a program flow that implements rules.
+      <br/>
+      The calling code (e.g., the caller) initiates the flow through calling an operation identified on an object interface as shown in block 200.
+      <br/>
+      In response to the call, the thread of execution for the program flow jumps to an operation "pinch-point." In one embodiment, the pinch-point operation is implemented efficiently with a thunk, as explained more fully below.
+      <br/>
+      The pinch-point operation determines whether there are any rules associated with the corresponding operation as illustrated by block 220.
+      <br/>
+      If rules exist for the corresponding operation, the "outer" shell is entered and a determination/execution of before rules is made.
+      <br/>
+      The implementation method is called as shown in block 230.
+      <br/>
+      As shown in block 235, the after rules determination/execution is made in the outer shell.
+      <br/>
+      To exit the outer shell, a closure method is called as shown in block 250.
+      <br/>
+      Alternatively, if there are no rules for the corresponding operation, the program flow jumps to call the implementation method (block 250.)
+    </p>
+    <p num="22">
+      The rules of the present invention have many applications in software programs to add or alter the functionality of an object.
+      <br/>
+      One application for rules is to define the range of parameters acceptable for execution of a method on an object.
+      <br/>
+      For example, a "time" method may utilize, as a parameter, a day of a month (e.g., day attribute).
+      <br/>
+      A rule, implemented as a before rule for the time method, checks whether the value stored in the "day" attribute is a valid day for the corresponding "month" parameter (e.g., the day parameter is a value between 1 and 30 for the month of September).
+    </p>
+    <p num="23">
+      The rules of the present invention have application to implement conditions or requirements prior to execution of methods on an object.
+      <br/>
+      This application of rules permits a user to set certain requirements prior to invocation of the method (e.g., a method).
+      <br/>
+      For example, in an order entry application program, the user may specify the requirement that before the "ship" method is executed, the shipping information, used by the ship method, must exist.
+    </p>
+    <p num="24">
+      The rules of the present invention may also operate in conjunction with states and state models.
+      <br/>
+      State models, defined to model the behavior of an applications program, transition from one state to another state based on conditions and events that occur during the execution of the application program.
+      <br/>
+      For an object oriented system that utilizes state models, rules may be used in conjunction with state models.
+      <br/>
+      In general, state rules determine and enforce state conditions before and after execution of a rule, as well as enforce transition from one state to another state.
+      <br/>
+      Another application for rules for use in state models is to determine that an object is in a proper state prior to invocation of the associated method.
+      <br/>
+      For example, a rule may check that an object is in a proper state prior to calling a method.
+      <br/>
+      If it is not, the rule may execute an error routine, such as displaying information on the output display to indicate the nature of the error.
+    </p>
+    <p num="25">
+      Rules also have application to implement help or instructional messages in software programs.
+      <br/>
+      For example, a before rule may be executed to display, in a dialog box, a help message that provides instructions to walk the user through the applications program prior to executing the actual method.
+    </p>
+    <p num="26">
+      Rules have further application to relate prior methods, and their results, to actual methods of the operation called.
+      <br/>
+      For example, a rule may declare that no method, previously executed, may fail, or else an error is generated.
+    </p>
+    <p num="27">
+      The after rules have application to add functionality based on the outcome of the actual method.
+      <br/>
+      For example, if a parameter, as a result of executing the actual method, is set to a value within a predetermined range, then the rule executes an action.
+      <br/>
+      The before rules of the present invention may be used for error recovery.
+      <br/>
+      For example, if a method requires a specific range of values for a parameter, one or more before rules may check to determine if the values of the parameters are within the range, and if not, truncate the values for subsequent execution of the method.
+      <br/>
+      As an error recovery technique, a before rule may also display a dialog box to request new parameter values within the required range.
+    </p>
+    <p num="28">
+      The declarative statement of a rule may be expressed in any form.
+      <br/>
+      In one embodiment, rules are expressed using the basic programming language.
+      <br/>
+      The declarative statement may call a different routine or method depending upon the output of the actual method associated with the rule.
+      <br/>
+      For example, to implement an after rule that calls a routine based on a parameter value, the rule may set forth:
+    </p>
+    <p num="29">If Attribute A &gt;= X, then call method Y. Similarly, several conditions may be linked together through logical operands (e.g., AND, OR, XOR, NOR, etc.).</p>
+    <p num="30">
+      In addition to parameter validation, rules may enforce conditions that check and enforce certain conditions including, cardinality, mandatory presence of a parameter, inclusive (e.g. one must have a value), exclusive (e.g., only one must have a value).
+      <br/>
+      Derivation rules are of the type that support attribute dependency chaining, generating default values, etc.
+    </p>
+    <p num="31">Modeling Approach To Applications Program Development</p>
+    <p num="32">
+      In one embodiment, the type system for the object oriented development environment permits the use of state models.
+      <br/>
+      The behavior of an object may be specified through one or more state models.
+      <br/>
+      Within an object, a condition, which is identified by an application developer, controls the logical progression of the application.
+      <br/>
+      These conditions, which control the progression of the application, are called "states." Each state is provided with a list of one or more valid predecessor and successor states.
+      <br/>
+      For example, a "sales order" object, developed for a sales order entry application, may include state declarations that an instance of the object must pass through an "approved state" before reaching a "shipped state." In addition, the states are specified with conditions to be observed and events to be raised when a transition from one state to another is proposed.
+    </p>
+    <p num="33">
+      In general, rules support the declarative style of application development.
+      <br/>
+      Specifically, rules permit an application developer to specify declarations about the function of the system, and the system enforces these declarations on the type system level.
+      <br/>
+      Rules, if they are linked to states, can be turned on and off.
+      <br/>
+      There are many triggers that may invoke enforcement of a rule.
+      <br/>
+      For example, triggers may include receiving an event, calling a method, entering or leaving a state, moving through a state transition, and changing and/or assessing an attribute of an object.
+    </p>
+    <p num="34">
+      For each rule, a trigger invokes the rule, a condition determines a course of action, and an action implements or enforces the rule.
+      <br/>
+      An example rule may be triggered when a method is called.
+      <br/>
+      For this example rule, the condition may be based on the state of an attribute in the called method's object.
+      <br/>
+      Based on the condition (e.g., the state of the attribute), an action is executed such as returning an error or an exception.
+      <br/>
+      An action may also include changing the state for a state model.
+    </p>
+    <p num="35">
+      For purposes of nomenclature, an event is a notification or an announcement from an object.
+      <br/>
+      Events are a special case of rules.
+      <br/>
+      Objects register or subscribe to events in order to receive the event notification upon occurrence of the specified event.
+      <br/>
+      Unlike an attribute, an event communicates to other objects that something has occurred.
+      <br/>
+      An event is not a method call, but methods may be invoked as a result of the occurrence of an event.
+      <br/>
+      A method call invokes a one to one relationship between the caller and the method.
+      <br/>
+      In contrast, with events, there is a one to many relationship between the object that raises the event and the objects that receive the event.
+    </p>
+    <p num="36">
+      In certain circumstances, a single user action may precipitate the firing of a sequence of related events.
+      <br/>
+      While the object is in the process of firing this sequence of events, the object relinquishes the thread of execution to event handlers which, may in turn, attempt to set properties and call methods on the object that is the source object of the event.
+      <br/>
+      Because of this, an object may enter a special state that disallows some subset of normally permissible activities on the source object.
+      <br/>
+      Objects are required to handle reentrant situations, but they are not required to be arbitrarily functional when reentered.
+      <br/>
+      For example, while firing a request event, it may be illegal to call a method on the object which would itself fire the request event.
+      <br/>
+      The limitation to disallow certain functions is up to the object, but user written code may attempt implausible actions on the object.
+    </p>
+    <p num="37">
+      As discussed above, an event is a notification or announcement made by an object.
+      <br/>
+      Like a method, an event has a signature that includes a name, parameter list, return value, and exception list.
+      <br/>
+      Information about a particular event is passed via the parameter specified in the event signature.
+      <br/>
+      The parameters may be simple values or complex structures.
+      <br/>
+      In one embodiment, source objects package information into a packet that represents information common to all events.
+      <br/>
+      Additional arguments may be passed as extra parameters.
+      <br/>
+      Event categories provide a convenient way to classify and organize events.
+    </p>
+    <p num="38">
+      An object that raises an event is called a source object, and an object that receives an event is called a sink object.
+      <br/>
+      Thus, the source object generates the event, and the sink object is the recipient or subscriber for the particular event.
+      <br/>
+      A request event is utilized to ask permission from the sink objects.
+      <br/>
+      The sink objects can either grant permission or refuse.
+      <br/>
+      Events, known as "before" events, are fired before a specified action occurs.
+      <br/>
+      The "before" events provide sink objects an opportunity to prepare for the event.
+      <br/>
+      Events, known as "after" events, are fired after a specified action.
+      <br/>
+      The after events give sink objects an opportunity to respond to this action.
+      <br/>
+      The "before" and "after" events may not be canceled.
+    </p>
+    <p num="39">
+      In addition to "before" and "after" events, "do" events are fired to provide sink objects an opportunity to supplement default behavior.
+      <br/>
+      The "do" event is called directly before the source object performs the action.
+      <br/>
+      The sink object returns a value that determines whether the source action should be done.
+    </p>
+    <p num="40">
+      In general, objects respond to events by calling related methods.
+      <br/>
+      For example, an order object may respond to a "ship order" event by calling a "ship order" method.
+      <br/>
+      For purposes of nomenclature, the process of raising and responding to events is entitled "event propagation." Event propagation begins with a source object raising an event, and it ends with a method being called on the sink object.
+      <br/>
+      One or more sink objects register or subscribe to a source object's event.
+      <br/>
+      In addition, event signatures or categories may be dynamically added at run time.
+      <br/>
+      Sink objects may register interest in event signatures even if the source object does not currently export the event (e.g., in a programming environment, the source can raise events dynamically without prior notice of their existence).
+      <br/>
+      Consequently, events form a one to many relationship among the events source object, the type of event, and the event sink.
+    </p>
+    <p num="41">
+      An event transformer is an object that is logically situated between a source object and a sink object.
+      <br/>
+      The purposes of an event transformer are to perform impedance matching between the source and sink objects and to perform calculation and event flow.
+      <br/>
+      In general, event propagation relies on the fact that the sink object implements the exact event signature.
+      <br/>
+      For example, if an event signature is specified with two parameters, then the source object passes two parameters and all of the sink objects are implemented with the two parameters.
+      <br/>
+      If the sink object does not implement the exact signature required by the source object, then an event transformer is required to provide matching of signatures.
+      <br/>
+      The event transformers then receive the event on behalf of the sink object, perform some rearrangement or calculation of the event information, and then redispatch the event to the sink object.
+    </p>
+    <p num="42">
+      FIG. 3 illustrates an abstract representation of event propagation in the type system.
+      <br/>
+      A plurality of sink objects, labeled sink object1, sink object2, and sink objectn, subscribe to an event, such as event1.
+      <br/>
+      The source object, upon occurrence of the specified trigger, generates the event1 notification for the event transformer objects.
+      <br/>
+      In turn, the event transformer objects relays the events to the sink objects.
+    </p>
+    <p num="43">
+      As discussed above, objects may have explicitly defined states, and for each state, one or more legitimate predecessor and successor states are specified.
+      <br/>
+      Furthermore, the objects, through use of events, specify actions to perform before and after the state transition occurs.
+      <br/>
+      The use of rules, states and events in the type system of the present invention results in a powerful approach to application development, namely the application modeling approach.
+    </p>
+    <p num="44">
+      An example of the application modeling approach may be illustrated through a sales order application.
+      <br/>
+      FIG. 4 illustrates an example state model for a sales order application.
+      <br/>
+      For the sales order application, the state model tracks the process through a complete cycle.
+      <br/>
+      Specifically, the state model of FIG. 4 contains a state for each step in the sales order cycle.
+      <br/>
+      The states designated in FIG. 4 are encompassed within a circle.
+      <br/>
+      The sales order state model starts with the a customer that submits an order.
+      <br/>
+      This is signified in the state model with the "Order Submitted" state.
+      <br/>
+      The state model also includes states for "Order Approval", "Check Stock", "Print Shipping Documents", "Ship Order", "Back Order", and "Archive Order."
+    </p>
+    <p num="45">
+      In addition to defining each state to model the application, the application developer specifies permissible state transitions to define the behavior of the state model.
+      <br/>
+      Specifically, the user defines one or more state transitions that specify the permissible paths from each predecessor state to one or more successor states.
+      <br/>
+      In the state model example of FIG. 4, the lines and arrows that connect the states designate the legitimate state transitions that may occur from one state to another in the sales order application.
+    </p>
+    <p num="46">
+      For the order entry state model shown in FIG. 4, the state model behavior is specified such that the state model transitions from the state "Check Stock" to the "Back Order" state only if the goods are not found to be in stock.
+      <br/>
+      Also, it is permissible to enter both the "Order Approval" state and the "Check Stock" state from the "Order Submitted" state.
+      <br/>
+      Furthermore, a rule, which requires approval of an order and printing of shipping documents before it is shipped, is specified such that the "Ship Order" state is entered from a path that includes the "Order Approved" state and the "Print Shipping Document" state.
+      <br/>
+      As illustrated by the above example, a real life application may be modeled to develop an application program based on the behavior of a state model.
+    </p>
+    <p num="47">
+      States used in the type system of the present invention are defined at any point in an object by a user defined field.
+      <br/>
+      Thus, the states are not defined in terms of derived attributes that determine their values based on the current state.
+      <br/>
+      Therefore, the system does not directly perceive a significance of being in one state rather than another, but it only regulates the conditions under which a transition may occur from a predecessor state to one or more successor states.
+    </p>
+    <p num="48">
+      In one embodiment, states are grouped together in composites for treatment as a single state.
+      <br/>
+      The composite state embodiment has application for transition testing purposes.
+      <br/>
+      Grouping states into composites may be analogized to grouping graphics objects in a drawing system.
+      <br/>
+      The groupings of objects in the drawing system permits treating, for some purposes, the graphics objects as a single group.
+      <br/>
+      For example, the single group of graphics objects may be moved together to retain relative spacing among individual objects.
+    </p>
+    <p num="49">
+      In one implementation, applications may, if explicitly specified by an applications developer, foresee transition between states to occur even if the transition is forbidden by conditions specified earlier by a developer.
+      <br/>
+      This permits foreign objects and legacy applications to be interfaced to this system.
+    </p>
+    <p num="50">
+      The events in the type system of the present invention may be associated with states.
+      <br/>
+      Events may be associated with any entry into or exit from a state.
+      <br/>
+      In addition, events may be associated with individual paths into or out of a state.
+      <br/>
+      Events associated with states are specified with run time triggers that cause the execution of arbitrary user specified procedures.
+      <br/>
+      For example, in the sales order application illustrated in the state model of FIG. 4, entry into the "Back Order" state may raise an event to "notify the customer of the delay."
+    </p>
+    <p num="51">
+      Events may be used to link two independent applications.
+      <br/>
+      For example, order entry and accounts receivable applications may be run as stand alone applications.
+      <br/>
+      These applications may be linked through defining input and output events.
+      <br/>
+      For this example, the order entry and accounts receivable applications may be Linked to interact as follows.
+      <br/>
+      The action of approving an order generates an event to create an invoice, and the action of creating an invoice generates an event to print order shipping documents.
+      <br/>
+      The action of shipping an order generates an event to mail the bill, and the act of receiving bill payments generates an event to close the order.
+    </p>
+    <p num="52">To implement the preceding actions between an order entry application and an accounts receivable application, an applications developer may define the following event filters defined in Table I.</p>
+    <p num="53">
+      --        TABLE 1
+      <br/>
+      --        Output Event                Input Event
+      <br/>
+      --        Order Entry: APPROVED       Receivables: CREATE
+      <br/>
+      --        Receivables: NEW            Order Entry: PRINT
+      <br/>
+      --        Order Entry: SHIPPED        Receivables: MAIL
+      <br/>
+      --        Receivables: PAID           Order Entry: CLOSE
+    </p>
+    <p num="54">
+      For each event filter, any arguments required by the input events are defined.
+      <br/>
+      For the accounts receivable "create" event example, an argument for the "bill amount" requires definition such that the bill amount is equal to the order entry total.
+    </p>
+    <p num="55">
+      As illustrated by the above example, state models and events provide a standard integration mechanism among applications.
+      <br/>
+      Through use of the type system events, users may define event filters to integrate a company's entire suite of applications, if desired, even if the applications derived from different parties.
+      <br/>
+      Even if an application was not developed using a state model, a user or later developer may easily build a state model for the applications afterwards, by invoking methods and then creating event filters for integrating the application with other applications.
+    </p>
+    <p num="56">
+      FIG. 5 illustrates state models for the example order entry and accounts receivable applications as well as their linking through events.
+      <br/>
+      The solid lines indicate the permissible state transitions, and the dashed lines indicate the events and their association with other states.
+      <br/>
+      Note that the functionality indicated by the state may be implemented in one or more methods.
+      <br/>
+      For example, a method is called to execute the "ship order" function, and the calling of the "ship order" method triggers the event "shipped." On the receiving end, a method is called to "mail invoice" to perform the functionality specified by this state.
+    </p>
+    <p num="57">
+      As discussed above, rules may be triggered as states transition through a state model.
+      <br/>
+      Also, rules may cause the transition through the state model.
+      <br/>
+      An association may be described in terms of rules.
+      <br/>
+      For example, a rule may be defined such that if an attribute of an object is changed, then the action of the rule may change an attribute of a specified object (e.g., the triggering of the rule invokes a set attribute call to the associated object.
+      <br/>
+      Therefore, applications may be built by specifying when an object fires events and by defining events that cause motion through a state model.
+      <br/>
+      In turn, motion through the state model causes other events and other methods to be invoked.
+    </p>
+    <p num="58">
+      Associations and events permit augmentation of state model behavior.
+      <br/>
+      FIG. 6 illustrates a simplified state model consisting of a "New Order" state, an "Approved State", a "Place Order" state, and a "Filled Order" state.
+      <br/>
+      In addition to this order entry state model, a user may wish to include an invoicing function that is implemented in an "Invoice Object."
+    </p>
+    <p num="59">
+      To accomplish this, the user associates the invoice object with the object used to implement the place order function.
+      <br/>
+      Also, the transition between the "Approved Order" state and the "Placed Order" state is utilized to fire off a notification event.
+      <br/>
+      During execution, when the "Place Order" state is transitioned to the "Filled Order" state, the invoice object receives the event notification to implement the account receivable functionality.
+      <br/>
+      Thus, additional functionality may be implemented to an existing state model through use of events and associations.
+    </p>
+    <p num="60">
+      In addition to augmenting state models with events and associations to provide additional functionality, state models may be specialized after implementation.
+      <br/>
+      For the example order entry state model illustrated in FIG. 6, a user may wish to add specialized rules that apply to a rush order.
+      <br/>
+      FIG. 7 illustrates adding a rule to the order entry state model of FIG. 6 to implement the specialized case of a rush order.
+      <br/>
+      This example includes changing the permissible state transitions for a rush order.
+      <br/>
+      Specifically, to expedite the order entry process, a rush order rule permits transitioning from the "New Order" state directly to the "Place Order" state.
+      <br/>
+      Table 2 shows the rule trigger, condition, and action for implementing the rush order rule.
+    </p>
+    <p num="61">
+      -- TABLE 2
+      <br/>
+      -- Rule Trigger          Condition        Action
+      <br/>
+      -- "New Order" State State of Rush Order Call "Place Order"
+      <br/>
+      -- Entered               attribute        Method
+    </p>
+    <p num="62">
+      The rule is triggered when the "New Order" state is entered.
+      <br/>
+      The object, which is associated with the state model, contains a rush order attribute.
+      <br/>
+      The state of the attribute determines whether the order is a rush order.
+      <br/>
+      If the rush order attribute indicates that the order is a rush order, then the action of calling both the place order method and the approved order method is executed.
+      <br/>
+      Alternatively, if the state of the rush order attribute indicates that this is not a rush order, then the normal state flow (e.g. transitioning only from the "New Order" to the "Approved order" state occurs).
+      <br/>
+      Thus, a rule that governs the behavior of a state model may be added without affecting the existing rules as well as without requiring new implementation of the state model.
+    </p>
+    <p num="63">
+      In one embodiment for application program development, the application program developer describes the structural nature of a class type.
+      <br/>
+      The developer then describes states as well as the legal transitions among the states.
+      <br/>
+      Also, associations and events are used to link objects.
+      <br/>
+      Furthermore, rules may be used to specify object behavior.
+      <br/>
+      To support the events, event handlers may be written in 4GL scripting language.
+      <br/>
+      This technique allows combining state models, rules and handlers to implement a diagram.
+      <br/>
+      Thus, the behavior of objects, including the relationship among the objects, may be described, and the system will enforce this specified behavior at run time.
+    </p>
+    <p num="64">
+      The type system of the present invention is dynamic.
+      <br/>
+      For example, a user may add or remove a rule which results in the rule immediately being enforced.
+      <br/>
+      In addition, a script may be generated that ties in additional rules for enforcement by the type system.
+      <br/>
+      Therefore, rules are dynamic such that they may be added and subsequently enforced by the system after a state model has been defined.
+    </p>
+    <p num="65">An Implementation of Rules In An Object Oriented System</p>
+    <p num="66">
+      FIG. 8 is a block diagram illustrating program modules for implementing rules of the present invention.
+      <br/>
+      In general, the block diagram of FIG. 8 conceptually illustrates routine and methods that execute the program flow for one implementation of rules.
+      <br/>
+      As shown in FIG. 8, an object interface 300 includes a plurality of redirectors.
+      <br/>
+      The redirectors are configured as the operation (See FIG. 1).
+      <br/>
+      The term "redirector" refers to the operation that re-directs the program flow from the actual method called to the pinch-point operation.
+      <br/>
+      Typically, an object interface calls methods, implemented for that particular interface, through use of the virtual tables ("v_tables").
+    </p>
+    <p num="67">
+      From the object interface 300, program flow is directed to an optimization thunk 310.
+      <br/>
+      In general, the optimization thunk 310 implements the pinch point operation to determine whether any rules, either before rules or after rules, exist for the corresponding operation.
+      <br/>
+      One embodiment for the pinch point operation follows.
+      <br/>
+      find before rules and evaluate them
+    </p>
+    <p num="68">- if (rules succeed)</p>
+    <p num="69">
+      -  find override or default method and invoke it
+      <br/>
+      - find after rules and evaluate them
+      <br/>
+      - end if
+    </p>
+    <p num="70">
+      If no rules exist, the optimization thunk 310 calls the actual method (e.g., mptr()).
+      <br/>
+      If any rules exist, the optimization thunk invokes the I_Operation 320 to invoke the rules identified on the before rules list 120 and/or the rules identified on the after rules list 140 (FIG. 1).
+      <br/>
+      For this embodiment, the I_Operation metaobject contains the Invoke method that manages the look-up and dispatch of instance and class level rules.
+      <br/>
+      The I_Operation metaobject also appropriately dispatches the original method.
+      <br/>
+      Pseudo code for implementing I_Operation is shown in block 320 of FIG. 8.
+      <br/>
+      The actual method (i.e., mptro), is invoked, as appropriate, from I_Operation as is illustrated by the arrows connecting I_Operation block 320 to the I_method blocks 330 on FIG. 8.
+      <br/>
+      For this embodiment, as shown in FIG. 8, the v_tables include redirectors to an optimation thunk, which in turn calls I_operation.
+      <br/>
+      If appropriate, I_Operation invokes the rules, either before or after the actual method.
+      <br/>
+      The I_method, invoked from I_Operation, calls the actual method.
+      <br/>
+      After all rules and the actual method are executed, the I_Operation, through a "closure" procedure, returns to the caller.
+    </p>
+    <p num="71">
+      For the embodiment shown in FIG. 8, the process for implementing rules includes two levels: an "outer" and an "inner." The inner level invokes, from the method closures, the actual methods, whereas the outer level invokes, based on the redirector v_table or operation, the rules.
+      <br/>
+      Static v_table calls (e.g., prior compiled static code) go to the same location as dynamically loaded calls of the operation pinch point.
+      <br/>
+      From the callers point of view, the distinction between the outer invocation of the actual method and the inner invocation of the actual method is transparent.
+      <br/>
+      For this implementation, the operation evaluates rules, whereas the method closure strictly calls the actual method.
+      <br/>
+      However, in another embodiment, such as for deferred notifications, a method closure is implemented around the outer v_table member functions.
+      <br/>
+      In this case, the pinch point operation is bypassed for efficiency or semantic reasons.
+      <br/>
+      Distinction between the outer and inner calls when implementing different variations disclosed herein may help reduce spurius events, slow down, or infinite recursion.
+    </p>
+    <p num="72">
+      In one embodiment, the closures are utilized to allow deferred calling or continuations.
+      <br/>
+      In general, the closures maintain or hold all parameters/variables in the current context (i. e., the context when the operation was called) until the later time in which the actual method is invoked.
+      <br/>
+      One embodiment for implementing a closure to support rules follows.
+    </p>
+    <p num="73">
+      --
+      <br/>
+      -- Interface I_Closure : Iunknown � Alias(Closure)
+      <br/>
+      -- +
+      <br/>
+      --         Document
+      <br/>
+      --         +%
+      <br/>
+      --         The I_Closure interface supports deferred calling.
+      <br/>
+      --         It can be used to save the state of the parameters for a call
+      <br/>
+      --         so that the call can be invoked later from a different context.
+      <br/>
+      --         %}
+      <br/>
+      --      Production
+      <br/>
+      --      +
+      <br/>
+      --        File      ="imclos";
+      <br/>
+      --        UUID  = 581AF132-BA46-11CF-BC3C-524153480003;
+      <br/>
+      --        FullName = "Closure Interface";
+      <br/>
+      --      }
+      <br/>
+      --      typedef ULONG VALIST � ProtectBy(_VARARG_Visible);
+      <br/>
+      --      //TODO;
+      <br/>
+      -- marshal
+      <br/>
+      --      Methods
+      <br/>
+      --      +
+      <br/>
+      --         HRESULT SetFormal(I_Method *pConv, I_Operation *pSig)
+      <br/>
+      --         � Document
+      <br/>
+      --         +% SetFormal analyzes the operation's signature and caches
+      <br/>
+      -- resolved
+      <br/>
+      --           information such as size, type, parameter indirection, vtable
+      <br/>
+      -- index etc.
+      <br/>
+      --           Should be called once to initialize the closure.
+      <br/>
+      --           Note: that if the closure is created from the context of a
+      <br/>
+      --           method
+      <br/>
+      --           via CreateClosure, SetFormal need not be called.
+      <br/>
+      The method
+      <br/>
+      -- would
+      <br/>
+      --           already have performed the initialization.
+      <br/>
+      --         %};
+      <br/>
+      --         HRESULT SetActualData(
+      <br/>
+      --             I_Array* ParamArray
+      <br/>
+      --             � Document +% The parameters for this
+      <br/>
+      -- method. %},
+      <br/>
+      --             Iunknown *Object �(in, iid_is(rIID))
+      <br/>
+      --             � Document (% The object on which this
+      <br/>
+      -- method is a member.%},
+      <br/>
+      --             REFIID rIID
+      <br/>
+      --             )
+      <br/>
+      --         � Document
+      <br/>
+      --         +% SetActualData copies data from the array of I_Data into the
+      <br/>
+      -- closure,
+      <br/>
+      --           where it is held until Invoke is called.
+      <br/>
+      --         %};
+      <br/>
+      --         HRESULT SetActual(IUnknown *Object, VALIST Parameters)
+      <br/>
+      --         � Document
+      <br/>
+      --         +% copies data from the va_list into the closure.
+      <br/>
+      --           Its separate from Invoke to allow holding data for deferred
+      <br/>
+      --           calls.
+      <br/>
+      --         %};
+      <br/>
+      --         HRESULT Invoke ()
+      <br/>
+      --         � Document
+      <br/>
+      --         +% Invoke makes the call using the information cached by
+      <br/>
+      -- SetFormal
+      <br/>
+      --           and SetActual
+      <br/>
+      --         %};
+      <br/>
+      --         HRESULT GetActualData(I_Data **pRet, I_Array *pArg)
+      <br/>
+      --         � Document
+      <br/>
+      --         +% GetActualData retrieves the actual parameters from the
+      <br/>
+      -- closure and
+      <br/>
+      --           places them into the array of I_Data.
+    </p>
+    <p num="74">
+      --           Used to retrieve the outbound parameters after Invoke is
+      <br/>
+      --           called.
+      <br/>
+      --         %};
+      <br/>
+      --         HRESULT GetActual(VALIST Parameters)
+      <br/>
+      --         � Document
+      <br/>
+      --         +% Copies data from the closure into the va_list.
+      <br/>
+      --           Used to retrieve the outbound parameters after Invoke is
+      <br/>
+      --           called.
+      <br/>
+      --         %};
+      <br/>
+      --      }
+      <br/>
+      -- }
+    </p>
+    <p num="75">
+      In one embodiment, the pinch point operation is executed with a thunk.
+      <br/>
+      In general, a thunk is compiler generated code executed between the callers code and the calling code.
+      <br/>
+      Typically, thunks in the prior art have been utilized to convert calling conventions between the caller code and the calling code.
+      <br/>
+      For efficiency reasons, in one embodiment, the thunk is generated in assembly level code so as to minimize the execution time.
+      <br/>
+      For the rules implementation, for each call to a method, the redirector in the object interface redirects the call to the thunk routine.
+      <br/>
+      This process is executed even if no additional rules are added to the called method.
+      <br/>
+      Accordingly, if the "checking" routine, which determines whether any overrides or rules exist, is inefficient, the overall performance of the software may be substantially degraded.
+      <br/>
+      Thus, in the preferred embodiment, the "checking" routine is implemented with extremely efficient assembly language level code.
+    </p>
+    <p num="76">
+      FIG. 9 is a block diagram illustrating a plurality of bit maps for use with one embodiment of the optimization thunk.
+      <br/>
+      For this embodiment, a type level bit map 400 identifies whether any override or rule exists for the corresponding object, on the type or class level.
+      <br/>
+      The type level bit map 400 may be implemented with a single bit for each object that indicates whether a method or override exists.
+      <br/>
+      In one embodiment, the bit maps are 32 bits in length to permit checking of bits in a single operation.
+      <br/>
+      As is well known in object oriented programming, each object may be identified through a global unique identifier ("GUID").
+    </p>
+    <p num="77">
+      The bit maps of FIG. 9 further include, to implement rules on a per instance basis, an object instance bit map 410.
+      <br/>
+      As shown by the line and arrow on FIG. 9 that connects object1 in the type level bit map 400 to the object1 instance bit map 410, each object includes an object instance bit map 410.
+      <br/>
+      For simplicity, only one such object instance bit map 410 is shown in FIG. 9.
+      <br/>
+      In general, the object instance bit map 410 identifies, for the corresponding object, whether the specific instance includes method overrides or rules.
+      <br/>
+      The object instance bit map 410 is implemented with a single bit for each object instance (e.g., instance1, instance2, instance3, . . . instancen).
+    </p>
+    <p num="78">
+      For each object instance in the object instance bit map 410, a corresponding instance method bit map 420 exists.
+      <br/>
+      The instance method bit map 420 indicates whether a specific method, on the corresponding object instance, includes any method overrides or rules.
+      <br/>
+      The bit maps illustrated in FIG. 9 provide information, on a per type level and instance level, to identify methods with rules, by simply examining a single bit for each bit map.
+      <br/>
+      The thunk implementation, which only checks a single bit initially, requires very little program overhead.
+      <br/>
+      In contrast, checking for rules by calling the corresponding method would result in a significant amount of overhead that would reduce the efficiency and performance of the software.
+      <br/>
+      Because the thunk is generated by the compiler, the user, implementing rules on methods, is not required to program code to check each method called for rules.
+    </p>
+    <p num="79">
+      FIG. 10 is a flow diagram illustrating one embodiment for implementing rules.
+      <br/>
+      When a method is called, a determination is made as to whether any rules associated with the class type of the method called exists, as shown in blocks 500 and 510.
+      <br/>
+      If no rules are associated on the class level, a determination is made as to whether any rules are associated on the instance level, for the particular instance of the method called as shown in block 520.
+      <br/>
+      As shown in block 530, if any rules are associated with the class of the method called, either on the type level or instance level, then a determination is made as to whether the method called has any associated rules.
+      <br/>
+      If so, the before rules list is checked, and any such before rules are executed as shown in blocks 540 and 550.
+      <br/>
+      As shown in block 560, the actual method is called.
+      <br/>
+      If any after rules exist, the after rules are executed as shown in blocks 570 and 580.
+      <br/>
+      If no rules are associated with the object, on either the class or the instance level, then the actual method is called as shown in block 590.
+    </p>
+    <p num="80">Object Oriented Development Environment</p>
+    <p num="81">
+      FIG. 11 is a block diagram illustrating an object oriented development environment that incorporates the techniques of the present invention.
+      <br/>
+      An object mediator 605 permits users of the object oriented development environment create new object types, edit object types as well as to instantiate and manipulate objects from the object types.
+      <br/>
+      The object mediator 605 operates in conjunction with any number of program development tools, such as CASE tools, and application programs, such as a form building program.
+      <br/>
+      The program development tools and application programs are illustrated by the development tools/applications block 616.
+      <br/>
+      The development tools/applications programs 616 includes fourth generation language (4GL) capability, that permits the user to generate scripts for execution in conjunction with compiled 3GL classes and declarative rules and events.
+    </p>
+    <p num="82">
+      For this embodiment, the object mediator 605 accesses metadata 680, including object interfaces 640, rules 610, events 630, and abstract specifications (type system) 675.
+      <br/>
+      In general, the object mediator 605 permits a user to instantiate objects based on the type system 675.
+      <br/>
+      The object mediator 605 is intended to represent a layer of software that permits a user to manipulate the metadata for use in programming development.
+      <br/>
+      For example, the object mediator 605 may support a C++ programming platform.
+      <br/>
+      The object mediator 605 executes those functions typically found in an object oriented development environment, including, but not limited to, creating new object types, editing object types as well as instantiating objects from the object types and in fact object mediator 605 is intended to represent a broad class of software that performs these functions.
+    </p>
+    <p num="83">
+      As shown in FIG. 11, the object oriented development environment also includes an object store 660.
+      <br/>
+      In general, the object store 660 stores object instances defined by the abstract specification (type system ) 675 (i.e., object instances persist in the object store 660).
+      <br/>
+      For example, the object store 660 may comprise an object oriented database or a relational database.
+    </p>
+    <p num="84">
+      The object oriented development environment 600 further includes a graphical user interface (GUI) 670 that permits a user to interface with the object oriented software development environment.
+      <br/>
+      In one embodiment, the GUI 670 displays, on an output display of a computer, a dialog box to permit a user of the system to input parameters that specify rules and events.
+      <br/>
+      The user may both add and delete rules and events from objects.
+      <br/>
+      Also shown in FIG. 11, for this embodiment, the GUI 670 transfers the rule/event parameter information to the rules/event installation module 677.
+      <br/>
+      In general, the rules/event installation module 677 installs rules 610 and events 630 that correspond with types and/or instances of the system.
+      <br/>
+      In one embodiment, the rules/events installation module 677 comprises, in part, a Basic Programming Language Compiler.
+      <br/>
+      For this embodiment, the Basic Programming Language Compiler receives rules and events, expressed in the Basic Programming Language, and compiles the code for execution by the system.
+      <br/>
+      The rules/events installation module also updates the list of rules 610 and the list of events 630, as described below in conjunction with a description of FIG. 12.
+    </p>
+    <p num="85">
+      The object oriented software development environment 600 further includes an interface definition language (IDL) compiler 620 that generates the object interfaces 640 and the thunk 310.
+      <br/>
+      As described above, the object interfaces 640 include "re-directors" to execute the thunk 310 in response to the calling of a method supported by an object interface 640.
+      <br/>
+      As shown in FIG. 6, the thunk 310 is also generated by the IDL compiler 620.
+    </p>
+    <p num="86">
+      The rules of the present invention permit augmenting a method with rules even though the method is already compiled (e.g., a C++ compiled class).
+      <br/>
+      FIG. 12 is a flow diagram illustrating one embodiment for installing a rule.
+      <br/>
+      As shown in block 710, the object oriented development environment provides a means for selecting an object to alter.
+      <br/>
+      The developer, through a prompt, defines the rule as a "before rule" or an "after rule" as shown in block 720.
+      <br/>
+      As shown in block 725, the developer enters the declarative rule.
+      <br/>
+      To commit the rule, the user enters an indication (i.e., double clicks on a commit box within a dialog box).
+      <br/>
+      In response to committing the rule, if the rule is an after rule, then the rule is added to the after rule list for the corresponding class/instance/method as shown in blocks 740 and 750.
+      <br/>
+      If the rule is a before rule, then the rule is added to the before rule list for the class/instance/method as shown in blocks 760 and 765.
+      <br/>
+      In addition, the bit flags for the type/instance/methods are set as shown in block 770.
+    </p>
+    <p num="87">The following example code adds and deletes rules from the object oriented software environment.</p>
+    <p num="88">
+      --
+      <br/>
+      -- interface I_Object and I_AbstractDataType
+      <br/>
+      -- +
+      <br/>
+      --      HRESULT AddRuleBenefactor(I_InheritableType * pBenefactor)
+      <br/>
+      --        � Document +%
+      <br/>
+      -- AddRuleBenefactor notifies this object that pBenefactor has
+      <br/>
+      -- inheritable rules for this type.
+      <br/>
+      This could turn out to be a pointer
+      <br/>
+      -- to the object's type, but if the immediate type doesn't have
+      <br/>
+      -- any rules it would refer directly to the first supertype which has rules.
+      <br/>
+      --         %};
+      <br/>
+      --      HRESULT RemoveRuleBenefactor(I_InheritableType *
+      <br/>
+      --      pBenefactor)
+      <br/>
+      --        � Document +%
+      <br/>
+      -- RemoveRuleBenefactor removes an I_InheritableType that no longer has
+      <br/>
+      -- rules for this object.
+      <br/>
+      --         %};
+      <br/>
+      --      HRESULT HasRules(OMRuleTriggerType trigger, I_Member *
+      <br/>
+      --      Member
+      <br/>
+      --      � Document +% The specific member being evaluated.
+      <br/>
+      For high level
+      <br/>
+      -- rules pertaining
+      <br/>
+      -- to all members this parameter may be 0. %},
+      <br/>
+      --      I_Iterator * Rules
+      <br/>
+      --      �(out)
+      <br/>
+      --      � Document +% Receives an iterator if the object has rules that are
+      <br/>
+      -- evaluated in
+      <br/>
+      -- response to any of the rule triggers
+      <br/>
+      --      identified by trigger, otherwise returns NULL. %}
+      <br/>
+      --      I_InheritableType ** NextSource
+      <br/>
+      --      �(out)
+      <br/>
+      --      �Document +% Receives an I_InheritableType if the object's type
+      <br/>
+      --      has
+      <br/>
+      -- further rules
+      <br/>
+      -- that might be evaluated in response to any of the rule triggers identified
+      <br/>
+      --  by
+      <br/>
+      -- trigger,
+      <br/>
+      -- otherwise returns NULL.
+      <br/>
+      You need to call NextSource's FindRule method
+      <br/>
+      -- to ensure an
+      <br/>
+      -- exhaustive search for rules. %}
+      <br/>
+      --       )
+      <br/>
+      --      � (Virtual)
+      <br/>
+      --      � Document +% Check to see if an object has rules
+      <br/>
+      --         that are evaluated in response to particular situations identified
+      <br/>
+      -- by
+      <br/>
+      -- trigger.
+      <br/>
+      You can pass a list of trigger types as trigger with each trigger
+      <br/>
+      -- type separated
+      <br/>
+      -- by the logical OR symbol.
+      <br/>
+      The iterator may be used to find the specific
+      <br/>
+      -- OMRuleTriggerTypes
+      <br/>
+      -- which trigger the evaluation of the object's rules.
+      <br/>
+      For example, if you
+      <br/>
+      --  pass
+      <br/>
+      -- three MruleTriggerType values as trigger and result is TRUE, the object's
+      <br/>
+      -- rules might be
+      <br/>
+      -- evaluated in response to 1, 2, or all 3 of the OMRuleTriggerType triggers.
+      <br/>
+      -- %};
+      <br/>
+      --      I_Collection * I_Object::Rules
+      <br/>
+      -- }
+      <br/>
+      -- Interface I_CodeUnit : Iunknown
+      <br/>
+      --  +
+      <br/>
+      --      Document
+      <br/>
+      --      +%
+      <br/>
+      --        The interface I_CodeUnit manages one compilation unit of source
+      <br/>
+      -- code.
+      <br/>
+      --      A compilation unit is a group of snippets of source code.
+      <br/>
+      --      Usually they correspond to all the overides for a class by one
+      <br/>
+      -- language.
+      <br/>
+      --      %}
+      <br/>
+      --      Attributes
+      <br/>
+      --      +
+      <br/>
+      --        I_AbstractDataTypeComp * ContextType � Association
+      <br/>
+      --        (UnitContext)
+      <br/>
+      --        � Document
+      <br/>
+      --         +% Context this code unit should be compiled within.
+      <br/>
+      --         %};
+      <br/>
+      --        I_Collection * Methods // I_Collection&lt;I_Method *&gt;
+      <br/>
+      --        � (Read)
+      <br/>
+      --        � Association (MethodToUnit)
+      <br/>
+      --        � Document
+      <br/>
+      --         +% Snippets returns a collection of the methods in this
+      <br/>
+      -- compilation unit.
+      <br/>
+      --         %};
+      <br/>
+      --      I_ErrorMgr *Errors
+      <br/>
+      --      � (Read)
+      <br/>
+      --      � Document
+      <br/>
+      --        +% Errors returns a list of syntax errors.
+      <br/>
+      --        %};
+      <br/>
+      --        BOOL Dirty
+      <br/>
+      --        � Document
+      <br/>
+      --         +% Dirty returns TRUE if any snippet has been changed;
+      <br/>
+      --           otherwise, it returns FALSE.
+      <br/>
+      --         %};
+      <br/>
+      --      GUID Language
+      <br/>
+      --      � Document
+      <br/>
+      --        +% Language identifies the language interpreter for this unit.
+      <br/>
+      -- .backslash.+
+      <br/>
+      -- par
+      <br/>
+      --        .backslash.par
+      <br/>
+      --        Read/write attribute.
+      <br/>
+      --        %};
+      <br/>
+      --        INT UnitId
+      <br/>
+      --        � (Read)
+      <br/>
+      --        � Document
+      <br/>
+      --         +% UnitId is used internally to identify the unit. .backslash.par
+      <br/>
+      --         .backslash.par
+      <br/>
+      --         Read-only attribute.
+      <br/>
+      --         %};
+      <br/>
+      -- };
+    </p>
+    <p num="89">Integration of Three Styles of Programming</p>
+    <p num="90">
+      The type system of the present invention supports integration of three styles of application program development in an object oriented environment.
+      <br/>
+      In one approach, the type system supports the use of a declarative approach to application program development.
+      <br/>
+      For the declarative approach, a user specifies the functional operation of the application program.
+      <br/>
+      In one embodiment, the user specifies the functional operation of the application program through use of rules and events, as described above.
+      <br/>
+      The declarations are enforced by the type system.
+      <br/>
+      Thus, the user is not required to write code to enforce the declarations.
+    </p>
+    <p num="91">
+      The type system also supports a third generation languages (3GL) compiled approach to applications program development.
+      <br/>
+      For the 3GL compiled approach, the user develops classes, through use of languages such as C++ and Pascal, to implement the application program.
+      <br/>
+      The code is then compiled for run time operation.
+      <br/>
+      The 3GL compiled approach to application program develop provides a powerful tool for implementing a wide range of functionality for the program.
+      <br/>
+      In one embodiment, the 3GL compiled approach is developed through use of an extended interface definition language (EIDL).
+      <br/>
+      The EIDL permits a user to define types in accordance with the extended type system of the present invention.
+      <br/>
+      The EIDL code is then compiled, through use of an EIDL compiler, for run time operation in the object oriented environment.
+    </p>
+    <p num="92">
+      The object oriented development environment of the present invention further supports applications development through use of fourth generation language (4GL) scripting.
+      <br/>
+      As will be appreciated by one skilled in the art, the integration of the declarative, the 3GL compiled and the 4GL scripting approaches provides the greatest flexibility and power to develop application programs.
+      <br/>
+      For example, a declarative approach to application program development provides a good way to add features or functionality that is not part of the original system.
+      <br/>
+      However, traditional declarative systems have limitations such that some objectives cannot be expressed in a declarative manner.
+      <br/>
+      Therefore, integrating the declarative, 3GL compiled and 4GL scripting approaches provides the application program developer the ability to select a style that most suits the particular needs for a given problem.
+    </p>
+    <p num="93">Computer System</p>
+    <p num="94">
+      FIG. 13 illustrates a high level block diagram of a general purpose computer system in which the object oriented development system of the present invention may be implemented.
+      <br/>
+      A computer system 1000 contains a processor unit 1005, main memory 1010, and an interconnect bus 1025.
+      <br/>
+      The processor unit 1005 may contain a single microprocessor, or may contain a plurality of microprocessors for configuring the computer system 1000 as a multi-processor system.
+      <br/>
+      The main memory 1010 stores, in part, instructions and data for execution by the processor unit 1005.
+      <br/>
+      The main memory 1010 stores the executable code of the object oriented development system when in operation.
+      <br/>
+      The main memory 1010 may include banks of dynamic random access memory (DRAM) as well as high speed cache memory.
+    </p>
+    <p num="95">
+      The computer system 1000 further includes a mass storage device 1020, peripheral device(s) 1030, portable storage medium drive(s) 1040, input control device(s) 1070, a graphics subsystem 1050, and an output display 1060.
+      <br/>
+      For purposes of simplicity, all components in the computer system 1000 are shown in FIG. 13 as being connected via the bus 1025.
+      <br/>
+      However, the computer system 1000 may be connected through one or more data transport means.
+      <br/>
+      For example, the processor unit 1005 and the main memory 1010 may be connected via a local microprocessor bus, and the mass storage device 1020, peripheral device(s) 1030, portable storage medium drive(s) 1040, graphics subsystem 1050 may be connected via one or more input/output (I/O) busses.
+      <br/>
+      The mass storage device 1020, which may be implemented with a magnetic disk drive or an optical disk drive, is a non-volatile storage device for storing data and instructions for use by the processor unit 1005.
+      <br/>
+      In the software embodiment, the mass storage device 1020 stores the object oriented development system software for loading to the main memory 1010.
+    </p>
+    <p num="96">
+      The portable storage medium drive 1040 operates in conjunction with a portable non-volatile storage medium, such as a floppy disk or a compact disc read only memory (CD-ROM), to input and output data and code to and from the computer system 1000.
+      <br/>
+      In one embodiment, the object oriented development system software is stored on such a portable medium, and is input to the computer system 1000 via the portable storage medium drive 1040.
+      <br/>
+      The peripheral device(s) 1030 may include any type of computer support device, such as an input/output (I/O) interface, to add additional functionality to the computer system 1000.
+      <br/>
+      For example, the peripheral device(s) 1030 may include a network interface card for interfacing the computer system 1000 to a network.
+      <br/>
+      The object oriented development system software may be input to the computer system 1000 via a portable storage medium or a network.
+    </p>
+    <p num="97">
+      The input control device(s) 1070 provide a portion of the user interface for a user of the computer system 1000.
+      <br/>
+      The input control device(s) 1070 may include an alphanumeric keypad for inputting alphanumeric and other key information, a cursor control device, such as a mouse, a trackball, stylus, or cursor direction keys.
+      <br/>
+      In order to display textual and graphical information, the computer system 1000 contains the graphics subsystem 1050 and the output display 1060.
+      <br/>
+      The output display 1060 may include a cathode ray tube (CRT) display or liquid crystal display (LCD).
+      <br/>
+      The graphics subsystem 1050 receives textual and graphical information, and processes the information for output to the output display 1060.
+      <br/>
+      The components contained in the computer system 1000 are those typically found in general purpose computer systems, and in fact, these components are intended to represent a broad category of such computer components that are well known in the art.
+    </p>
+    <p num="98">
+      The object oriented development system may be implemented in either hardware or software.
+      <br/>
+      For the software implementation, the object oriented development system is software that includes a plurality of computer executable instructions for implementation on a general purpose computer system.
+      <br/>
+      Prior to loading into a general purpose computer system, the object oriented development system software may reside as encoded information on a computer readable medium, such as a magnetic floppy disk, magnetic tape, and compact disc read only memory (CD-ROM).
+      <br/>
+      In one hardware implementation, the object oriented development system may comprise a dedicated processor including processor instructions for performing the functions described herein.
+      <br/>
+      Circuits may also be developed to perform the functions described herein.
+    </p>
+    <p num="99">Although the present invention has been described in terms of specific exemplary embodiments, it will be appreciated that various modifications and alterations might be made by those skilled in the art without departing from the spirit and scope of the invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for customizing functionality of an object in an object oriented software system, said method comprising the steps of:</claim-text>
+      <claim-text>receiving an identification of at least one compiled object, wherein said compiled object comprises at least one method; receiving one or more declarative statements to augment the functionality of said method of said compiled object, wherein a declarative statement comprises a constraint or requirement generally associated with said method of said compiled object; generating a dynamic association between said one or more declarative statements and said method identified on said compiled object, wherein said dynamic association links said declarative statements to said method on said compiled object without re-compiling said object;</claim-text>
+      <claim-text>and executing said declarative statements such that when said method on said object is called, said one or more declarative statements, associated with said method, are executed in addition to said method.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method as set forth in claim 1, wherein the step of generating a dynamic association between said one or more declarative statements and said method comprises the step of associating a rule to said method.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method as set forth in claim 2, wherein the step of associating a rule to said method comprises the step of associating a rule to execute before execution of said method.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method as set forth in claim 2, wherein the step of associating a rule to said method comprises the step of associating a rule to execute after execution of said method.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method as set forth in claim 1, wherein the step of generating a dynamic association between said one or more declarative statements a method on an object comprises the step of associating one or more declarative statements to a method on a specific instance of said object.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method as set forth in claim 1, wherein the step of generating a dynamic association between said one or more declarative statements a method on an object comprises the step of associating one or more declarative statements to a method on a type level that defines said object.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method as set forth in claim 1, wherein the step of generating a dynamic association between said one or more declarative statements and said method comprises the steps of: associating said method to a second method;</claim-text>
+      <claim-text>and generating an event to fire from said method to said second method.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method as set forth in claim 1, wherein the step of associating one or more declarative statements to a method on an object comprises the steps of: redirecting said call to said method to a pinch-point operation; determining, in said pinch-point operation, whether any declarative statements are associated with said method called;</claim-text>
+      <claim-text>and executing said one or declarative statements when any declarative statements are associated with said method called.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method as set forth in claim 8, wherein said the step of redirecting said call to said method to a pinch-point operation comprises the step of redirecting said call to said method in an interface for said object that exposes said method.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method as set forth in claim 8, wherein said pinch point operation comprises an optimization thunk implemented in assembly language.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A method for customizing functionality of objects in an object oriented environment, said method comprising the steps of: storing a plurality of objects, each object comprising at least one method and an interface, said interface comprising a redirector; storing a pinch-point operation; receiving one or more declarative statements to augment the functionality of said method of said object; receiving a call, via said interface, to execute said method; redirecting, said call from said method to said pinch-point operation;</claim-text>
+      <claim-text>determining, from said pinch-point operation, whether said method on said object includes one or more declarative statements associated with said method;</claim-text>
+      <claim-text>and executing said one or more declarative statements if said declarative statements are associated with said method.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A method for customizing functionality of objects in an object oriented environment, said method comprising the steps of: storing a repository of compiled objects, wherein a compiled object comprises at least one method and said compiled objects being defined by one or more object type systems; providing to a user a means to specify one or more declarative statements; dynamically associating said one or more declarative statements to at least one method of an object, wherein said dynamic association links said one or more declarative statements to said method on said compiled object without re-compiling said object so as to re-direct calls from said method to said declarative statements;</claim-text>
+      <claim-text>and executing said one or more declarative statements when said method on said object is called.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A method for integrating declarative, compiled and scripting approaches for developing application programs in an object oriented environment, the method comprising the steps of: implementing an abstract specification for an extended definition type system that comprises members to enforce rules through the type system; receiving declarative rules to implement functionality for application program development by adding one or more declarative rules to at least one method; dynamically associating said declarative rules to at least one method of an object, wherein said dynamic association links said one or more declarative statements to said method on said compiled object without re-compiling said object so as to re-direct calls from said method to said declarative statements; enforcing the declarative rules as rules in the type system; receiving complied code developed from an object-oriented language and compiled to include the extended definitions for the type system, wherein the code comprises a plurality of types; providing access to the types of the compiled code for application development; receiving scripts developed from a four generation language (4GL) to specify functionality for application program development;</claim-text>
+      <claim-text>and enforcing the scripts as rules in the type system.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A computer readable medium comprising a plurality of instructions, which when executed by a computer, causes the computer to perform the steps of: receiving an identification of at least one compiled object, wherein said compiled object comprises at least one method; receiving one or more declarative statement to augment the functionality of said method of said compiled object, wherein a declarative statement comprises a constraint or requirement generally associated with said method of said compiled object; generating a dynamic association between said one or more declarative statements and said method identified on said compiled object, wherein said dynamic association links said declarative statements to said method on said compiled object without re-compiling said object;</claim-text>
+      <claim-text>and executing said declarative statements such that when said method on said object is called, said one or more declarative statements, associated with said method, are executed in addition to said method.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The computer readable medium of claim 14, wherein: the step of generating a dynamic association between said one or more declarative statements and said method identified on said compiled object comprises the step of generating redirectors, on an interface exposing said object, to redirect a method call to a pinch-point operation;</claim-text>
+      <claim-text>and the step of executing said declarative statements comprises the step of executing said pinch-point operation to determine if any declarative statements are linked to said method.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The computer readable medium of claim 14, wherein the step of generating a dynamic association between said one or more declarative statements and said method comprises the step of generating a dynamic association between one or more declarative statements to a method on a specific instance of said object.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The computer readable medium of claim 14, wherein the step of generating a dynamic association between said one or more declarative statements and said method comprises the step of generating a dynamic association between one or more declarative statements to a method on a type level that defines said object.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

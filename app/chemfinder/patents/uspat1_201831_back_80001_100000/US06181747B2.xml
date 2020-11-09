@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181747B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181747</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181747</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="24382771" extended-family-id="42108400">
+      <document-id>
+        <country>US</country>
+        <doc-number>08595321</doc-number>
+        <kind>A</kind>
+        <date>19960201</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996US-08595321</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43164843</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>59532196</doc-number>
+        <kind>A</kind>
+        <date>19960201</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1996US-08595321</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   9/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>9</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>375240090</text>
+        <class>375</class>
+        <subclass>240090</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-009/00F</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>009</main-group>
+        <subgroup>00F</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-009/001</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>9</main-group>
+        <subgroup>001</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>32</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>3</number-of-figures>
+      <image-key data-format="questel">US6181747</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Methods and systems for high compression rate encoding and decoding of quasi-stable objects in video and film</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>AONO TOMOKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5109451</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5109451</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KANEKO MASAHIDE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5136659</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5136659</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KADONO SHINYA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5376971</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5376971</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>RABBANI MAJID, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5442458</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5442458</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>DAVIS HEDLEY</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5461680</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5461680</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>LEE MIN-SUP</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5546129</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5546129</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>LEE MIN-SUB</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5581308</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5581308</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>SCLAROFF STANLEY E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5590261</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5590261</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>JUNG HAE-MOOK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5654761</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5654761</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>BURNS RONNIE R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5940129</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5940129</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>MEANS ROBERT W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4196448</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4196448</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>MORI SUMIO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4454546</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4454546</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>NAGANO FUMIKAZU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4809083</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4809083</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>SHIMONI YAIR, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4809350</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4809350</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>FERRE ALAIN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5063524</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5063524</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>GERSDORFF DETLEF G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5182642</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5182642</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>SIEVERDING DAVID L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5495539</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5495539</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Huang, et al., A New Motion Compensation Method for Image Sequence Coding Using Hierarchical Grid Interpolation, IEEE ToCaSfVt, vol. 4, No. 1, pp. 42-51, Feb. 1994.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Hughes Electronics Corporation</orgname>
+            <address>
+              <address-1>El Segundo, CA, US</address-1>
+              <city>El Segundo</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>HUGHES ELECTRONICS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Burns, Ronnie R.</name>
+            <address>
+              <address-1>Irvine, CA, US</address-1>
+              <city>Irvine</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Crook, John A.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Sales, Michael W.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Kelley, Chris</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Methods and systems for encoding a video signal representative of a plurality of image frames which include a starting frame and at least one subsequent frame, include a step of identifying at least one object in the image frames.
+      <br/>
+      A plurality of feature points of the at least one object are located in the image frames.
+      <br/>
+      A mathematical transformation which maps locations of the feature points in the starting frame to locations in each subsequent frame is determined.
+      <br/>
+      The bit plane representation of the starting frame and the mathematical transformation are encoded and multiplexed to form a bit stream.
+      <br/>
+      Methods and systems for decoding the bit stream perform a step of transforming the bit plane representation of the starting frame in accordance with the mathematical transformation to form a bit plane representation for each subsequent frame.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">The present invention relates to methods and systems for encoding and decoding digital video data.</p>
+    <heading>BACKGROUND ART</heading>
+    <p num="2">
+      Video compression systems are employed to reduce the number of bits needed to transmit and store a digital video signal.
+      <br/>
+      As a result, a lower bandwidth communication channel can be employed to transmit a compressed video signal in comparison to an uncompressed video signal.
+      <br/>
+      Similarly, a reduced capacity of a storage device, which can comprise a memory or a magnetic storage medium, is required for storing the compressed video signal.
+      <br/>
+      A general video compression system includes an encoder, which converts the video signal into a compressed signal, and a decoder, which reconstructs the video signal based upon the compressed signal.
+    </p>
+    <p num="3">
+      In the design of a video compression system, an objective is to reduce the number of bits needed to represent the video signal while preserving its visual content.
+      <br/>
+      Current methods and systems for video compression have achieved a reasonable quality of content preservation at a transmission bit rate of 56 kilobits per second.
+      <br/>
+      These methods and systems are based upon directly compressing a waveform representation of the video signal.
+    </p>
+    <p num="4">
+      Motion compensation is one approach which is utilized in many video compression schemes.
+      <br/>
+      Current approaches model motion in terms of simple displacements of blocks or a global transformation of an entire scene to model camera motion.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="5">The need exists for a video compression system which significantly reduces the number of bits needed to transmit and store a video signal, and which simultaneously preserves the visual content of the video signal.</p>
+    <p num="6">It is thus an object of the present invention to significantly reduce the bit rate needed to transmit a video signal.</p>
+    <p num="7">Another object of the present invention is to provide an efficient encoding of redundant temporal data contained within a digital video signal.</p>
+    <p num="8">
+      In carrying out the above objects, the present invention provides a method of encoding a video signal representative of a plurality of image frames.
+      <br/>
+      The plurality of image frames includes a starting frame and at least one subsequent frame.
+      <br/>
+      The method includes steps of identifying at least one object in the image frames, and locating a plurality of feature points of the at least one object.
+      <br/>
+      A step of determining a mathematical transformation which maps locations of the feature points in the starting frame to locations in each of the at least one subsequent frame is performed.
+      <br/>
+      The method also includes steps of encoding the mathematical transformation and a bit plane representation of the starting frame.
+    </p>
+    <p num="9">
+      Further, in carrying out the above objects, the present invention provides a method of decoding an encoded representation of a plurality of image frames.
+      <br/>
+      The plurality of image frames includes a starting frame and at least one subsequent frame.
+      <br/>
+      The method includes a step of receiving an encoded signal containing an encoded bit plane representation for the starting frame and an encoded mathematical transformation.
+      <br/>
+      A step of decoding the encoded bit plane representation is performed to extract a bit plane representation for the starting frame.
+      <br/>
+      A step of decoding the encoded mathematical transformation is performed to extract a mathematical transformation which maps locations of feature points in the starting frame to locations in each of the at least one subsequent frame.
+      <br/>
+      A step of transforming the bit plane representation of the starting frame in accordance with the mathematical transformation is performed to form a bit plane representation for each subsequent frame.
+    </p>
+    <p num="10">Further in carrying out the above objects, systems are provided which perform the steps of the above-described methods.</p>
+    <p num="11">
+      Embodiments of the present invention advantageously produce high compression rates for coding small object motions or deformations in video and film digital data.
+      <br/>
+      A practical temporal description of quasi-rigid, as well as rigid body motion for generic objects that are constant during a sequence of interest, i.e., objects which are neither created nor destroyed during the sequence being coded, is provided.
+      <br/>
+      The motion is based on actual object deformation rather than artificial motion descriptions based on arbitrary block matching techniques.
+      <br/>
+      This approach complements methods that provide a global description of camera motions such as zoom and pan.
+    </p>
+    <p num="12">
+      These and other features, aspects, and embodiments of the present invention will become better understood with regard to the following description, appended claims, and accompanying drawings.
+      <br/>
+      BRIEF DESCRIPTION OF THE DRAWINGS
+      <br/>
+      FIG. 1 is a flow diagram of an embodiment of a method of encoding a video signal representative of a plurality of image frames;
+      <br/>
+      FIG. 2 is a block diagram of a video compression system in accordance with an embodiment of the present invention; and
+      <br/>
+      FIG. 3 is a block diagram of a system for decoding a bit stream representative of a plurality of image frames.
+    </p>
+    <heading>BEST MODES FOR CARRYING OUT THE INVENTION</heading>
+    <p num="13">
+      Referring to FIG. 1, there is shown a flow diagram of an embodiment of a method of encoding a video signal representative of a plurality of image frames.
+      <br/>
+      The plurality of image frames includes a starting frame and at least one subsequent frame.
+      <br/>
+      The at least one subsequent frame may be either sequentially forward (i.e. forward in time) from the starting frame, or sequentially backward (i.e. backward in time) from the starting frame.
+    </p>
+    <p num="14">
+      As indicated by block 10, the method includes a step of identifying at least one object in the image frames.
+      <br/>
+      The at least one object can be identified using object identification methods known in the art of image processing.
+      <br/>
+      Many object identification methods include a step of segmenting the image frames, i.e., subdividing each image frame into at least one object.
+      <br/>
+      For the purpose of this application, an object of an image frame can be representative of a constituent part of the image frame, a region of the image frame, or another entity of interest in the image frame.
+    </p>
+    <p num="15">
+      As indicated by block 12, step of locating a plurality of feature points of the at least one object identified in block 10 is performed.
+      <br/>
+      A step of determining a mathematical transformation which maps locations of the feature points in the starting frame to locations in each of the at least one subsequent frame is performed as indicated by block 14.
+      <br/>
+      In effect, the mathematical transformation estimates a bit plane representation of each of the at least one subsequent frame from a bit plane representation of the starting frame.
+      <br/>
+      Consequently, the mathematical transformation maps picture element points in the starting frame to their new location in each of the at least one subsequent frame.
+      <br/>
+      The feature points and the mathematical transformation can be determined on a frame-to-frame basis, and hence the delay of encoding the video signal can be very low.
+    </p>
+    <p num="16">
+      Alternatively, the mathematical transformation can also be based upon a bit plane representation of an ending frame.
+      <br/>
+      In particular, the mathematical transformation maps the locations of the feature points in the ending frame to locations in each of at least one previous frame.
+    </p>
+    <p num="17">
+      In general, different types of mathematical transformations may be utilized.
+      <br/>
+      For example, the mathematical transformation may be based upon a motion vector representative of translational motion between the starting frame and a subsequent frame.
+      <br/>
+      For translational motion of a rigid object, the mathematical transformation would consist of a single motion vector.
+      <br/>
+      Alternatively, the mathematical transformation can include an affine transformation representative of a zooming and a panning between the starting frame and the subsequent frame.
+    </p>
+    <p num="18">
+      As a further alternative, the mathematical transformation can be a morphing transformation based upon the feature points.
+      <br/>
+      Here, the feature points are identified for the at least one object in at least the starting frame and a subsequent frame.
+      <br/>
+      A mapping of some number of chosen feature points is calculated to smoothly transform the image from the starting frame to an intermediate frame.
+      <br/>
+      The mapping may be either linear or non-linear.
+      <br/>
+      The synthesized set of object images can be generated by an interpolation transforming the original images to each of the new image times that can correspond to the subsequent original frame times.
+      <br/>
+      However, an advantage of this approach is that the new image times do not necessarily have to correspond to the original frame times.
+    </p>
+    <p num="19">
+      As indicated by block 16, an optional step of compressing the bit plane representation of the starting frame is performed.
+      <br/>
+      This step may be performed prior to a step of encoding the bit plane representation of the starting frame, as indicated by block 18.
+      <br/>
+      Various compression and encoding schemes known in the art of image processing may be utilized in these steps.
+    </p>
+    <p num="20">
+      As indicated by block 24, a step of encoding the mathematical transformation is performed.
+      <br/>
+      This step typically entails encoding one or more formulae and/or parameters.
+      <br/>
+      Hence, a sequence of frames can be described by an encoded original frame along with the encoded mathematical transformation.
+      <br/>
+      A high compression ratio is achieved because of the reduced number of bits required to encode a mathematical formula in comparison to encoding detailed pixel data.
+    </p>
+    <p num="21">
+      The realism of any subsequent frame can be increased and the coding error reduced to any level by determining an error signal between the original intermediate frame and a predicted subsequent frame.
+      <br/>
+      Here, an optional step of determining a predicted bit plane representation of a subsequent frame is performed as indicated by block 26.
+      <br/>
+      The predicted bit plane representation is determined using the mathematical transform and the bit plane representation of the starting frame.
+      <br/>
+      Further, a step of encoding an error between the bit plane representation of the subsequent frame and the predicted bit plane representation is performed, as indicated by block 28.
+    </p>
+    <p num="22">
+      All of the encoded data for an object is multiplexed to form a bit stream, as indicated by the step in block 30.
+      <br/>
+      The bit stream can be either transmitted to a remote location or stored in a storage device for decoding by a corresponding decoder.
+    </p>
+    <p num="23">
+      The above-described steps can be repeated for a second plurality of image frames, subsequent to the plurality of image frames which were encoded, to form a second bit stream.
+      <br/>
+      Consequently, an entire video sequence can be encoded by dividing the video sequence into a plurality of image frame sets, and encoding each image frame set in accordance with the above-described method.
+    </p>
+    <p num="24">
+      FIG. 2 is a block diagram of a video compression system in accordance with an embodiment of the present invention.
+      <br/>
+      The video compression system includes an image processor 40 which receives a plurality of image frames 42 indexed from frame N (the starting frame) to frame N+M (an ending frame).
+      <br/>
+      For an index n running from 0 to M, an original frame N+n is extracted in block 44.
+    </p>
+    <p num="25">
+      A mathematical transformation for the intermediate frames is determined based on the original frame N by block 48.
+      <br/>
+      As described earlier herein, the mathematical transformation can be formed based upon the location of feature points within the image frames 42.
+    </p>
+    <p num="26">
+      The original frame N is applied to a compressor 50.
+      <br/>
+      The compressed first original frame is decompressed and held by a decompressor 52.
+      <br/>
+      A predicted bit plane representation of frame N+n, where 0&lt;n&lt;M, is generated by block 54 based on the mathematical transformation and the decompressed frame N. The error between the predicted bit plane representation and the original bit plane representation of the frame is determined by block 56.
+    </p>
+    <p num="27">
+      The mathematical transformation is encoded by an encoder 58.
+      <br/>
+      The compressed first frame is encoded by an encoder 60.
+      <br/>
+      The error is encoded by an encoder 62.
+      <br/>
+      The encoders 58, 60, and 62 are applied to a multiplexer 64 which forms a bit stream.
+      <br/>
+      The bit stream can be transmitted to a receiver for decoding the bit stream to produce a decoded sequence of images.
+    </p>
+    <p num="28">
+      After forming the bit stream representative of frames N to N+M, a subsequent plurality of frames starting at frame N+M+1 can be encoded in a similar manner to form a second bit stream.
+      <br/>
+      This can be repeated for other subsequent plurality of frames to encode an entire video sequence.
+    </p>
+    <p num="29">
+      FIG. 3 shows a block diagram of a system for decoding an image bit stream formed using an embodiment of the video compressor of the present invention.
+      <br/>
+      The system includes a receiver 80 to receive an encoded signal containing an encoded bit plane representation for the starting frame.
+      <br/>
+      The encoded signal further contains an encoded mathematical transformation.
+      <br/>
+      Optionally, the encoded signal includes a representation of an error between a bit plane representation of a subsequent frame and a predicted bit plane representation.
+    </p>
+    <p num="30">
+      A decoder 82 is coupled to the receiver 80 to decode each encoded bit plane representation to extract a bit plane representation for the starting frame.
+      <br/>
+      Another decoder 84 decodes the encoded mathematical transformation to extract a mathematical transformation which maps locations of the feature points in the starting frame to locations in each subsequent frame.
+      <br/>
+      Optionally, a third decoder 86 decodes an encoded error signal to extract an error signal for one or more of the subsequent frames.
+    </p>
+    <p num="31">
+      A processor 90 communicates with the decoders 82, 84, and 86.
+      <br/>
+      This communication can occur via a decompressor 91 which decompresses the bit plane representation of the starting frame.
+      <br/>
+      The processor 90 transforms the bit plane representation of the starting frame in accordance with the mathematical transformation.
+      <br/>
+      As a result, a bit plane representation for each is formed.
+      <br/>
+      The processor 90 repeatedly transforms the starting frame to form a series of subsequent frames.
+      <br/>
+      The processor 90 forms subsequent frames until a new starting frame and/or a new mathematical transformation is received.
+      <br/>
+      At this point, the processor 90 forms subsequent frames based on the new starting frame and/or the new mathematical transformation.
+      <br/>
+      All subsequent frames which are formed can be displayed for view on a display device.
+    </p>
+    <p num="32">
+      After forming a bit plane representation of a first subsequent frame, the first subsequent frame can be utilized as a new anchor frame for forming a bit plane representation of a second subsequent frame.
+      <br/>
+      Here, the processor 90 transforms the bit plane representation of the first subsequent frame in accordance with the mathematical transformation to form the bit plane representation of the second subsequent frame.
+      <br/>
+      This step can be repeated in a chaining manner to produce a plurality of subsequent frames from a single starting frame.
+    </p>
+    <p num="33">
+      If received, the error signal between the generated subsequent frame and the real subsequent frame can be utilized by the processor 90 to improve the realism of the subsequent frame.
+      <br/>
+      The error signal, including one for the original compressed frame, is received in dependence upon available channel bandwidth.
+      <br/>
+      Consequently, the error signal allows improvement of the subsequent frame to the extent that the data rate allows transmission of the residual bits.
+    </p>
+    <p num="34">
+      The above-described embodiments of the present invention have many advantages.
+      <br/>
+      By describing rigid or quasi-rigid object motions by means of a transformation which maps a previous frame into the current frame's configuration, embodiments of the present invention provide an efficient encoding method of redundant temporal data in digital video or film data.
+    </p>
+    <p num="35">
+      By transmitting a representation of one frame along with a mathematical transformation which describes other frames, a high compression ratio is achieved by not having to transmit redundant, detailed pixel data.
+      <br/>
+      By transmitting error data between the generated subsequent frame and the real subsequent frame, the realism of the subsequent frame can be improved to the extent that the data rate allows transmission of the residual bits.
+    </p>
+    <p num="36">
+      Further, embodiments of the present invention allow object data to be reconstructed at any frame subsequent to the starting frame.
+      <br/>
+      This allows for conversion of frame rate from the original video signal, if desired.
+    </p>
+    <p num="37">Embodiments of the present invention are well suited for use in applications such as videoconferencing or information videos having a "talking head" which remains essentially the same during the sequence of interest, and undergoes only small movements and deformations.</p>
+    <p num="38">
+      It should be noted that the present invention may be used in a wide variety of different constructions encompassing many alternatives, modifications, and variations which are apparent to those with ordinary skill in the art.
+      <br/>
+      Accordingly, the present invention is intended to embrace all such alternatives, modifications, and variations as fall within the spirit and broad scope of the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of encoding a video signal representative of a plurality of image frames including a starting frame and at least one subsequent frame, the method comprising the steps of:</claim-text>
+      <claim-text>identifying at least one object in the image frames; locating a plurality of feature point on the at least one object in the image frames; determining a mathematical transformation which maps locations of the feature points on the object in the starting frame to locations in each of the at least one subsequent frame; encoding a bit plane representation of the starting frame so as to form a first component of an encoded video signal;</claim-text>
+      <claim-text>and encoding the mathematical transformation so as to form a second component of said encoded video signal.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 further comprising the step of compressing the bit plane representation of the starting frame prior to its encoding.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1 wherein the at least one subsequent frame is sequentially forward from the starting frame.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 wherein the at least one subsequent frame is sequentially backward from the starting frame.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1 wherein the mathematical transformation is a morphing transformation based upon the feature points.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1 wherein the mathematical transformation includes a motion vector representative of translational motion from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1 wherein the mathematical transformation includes an affine transformation representative of a zooming and a panning from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 1 further comprising the steps of: determining a predicted bit plane representation of one subsequent frame of the at least one subsequent frame, the predicted bit plane representation determined using the mathematical transformation;</claim-text>
+      <claim-text>and encoding an error between the bit plane representation of the one subsequent frame and the predicted bit plane representation so as to form a third component of said encoded video signal.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A system for encoding a video signal representative of a plurality of image frames, the plurality of image frames including a starting frame and at least one subsequent frame, the system comprising: an image processor operative to identify at least one object in the image frames and to locate a plurality of feature points on the at least one object in the starting frame, the image processor further operative to determine a mathematical transformation which maps locations of feature points on the object in the starting frame to locations in each of the at least one subsequent frame; a first encoder operatively associated with the image processor to encode the bit plane representation of the starting frame; a second encoder operatively associated with the image processor to encode the mathematical transformation;</claim-text>
+      <claim-text>and a multiplexer operatively associated with said first and second encoders for multiplexing the outputs of said first and second encoders so as to form the encoded video signal.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system of claim 9 further comprising a compressor operatively associated with the image processor and the first encoder to compress the bit plane representation of the starting frame prior to its encoding.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The system of claim 9 wherein the at least one subsequent frame is sequentially forward from the starting frame.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The system of claim 9 wherein the at least one subsequent frame is sequentially backward from the starting frame.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The system of claim 9 wherein the mathematical transformation is a morphing transformation based upon the feature points.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The system of claim 9 wherein the mathematical transformation includes a motion vector representative of translational motion from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The system of claim 9 wherein the mathematical transformation includes an affine transformation representative of a zooming and a panning from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The system of claim 9 wherein the image processor is further operative to determine a predicted bit plane representation of one subsequent frame of the at least one subsequent frame, wherein the predicted bit plane representation is determined using the mathematical transformation;</claim-text>
+      <claim-text>and wherein the image processor is operative to determine an error between the bit plan representation of the one subsequent frame and the predicted bit plane representation, the system further comprising a third encoder for encoding the error, wherein said multiplexer is operatively associated with said third encoder for multiplexing the outputs of said first, said second, and said third encoders so as to form the encoded video signal.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A method of decoding an encoded representation of a plurality of image frames, the plurality of image frames including a starting frame and at least one subsequent frame, the method comprising the steps of: receiving an encoded signal having first and second components, said first component containing an encoded bit plane representation for the starting frame, and said second component containing an encoded mathematical transformation; decoding the first component to extract a bit plane representation for the starting frame; decoding the second component to extract a mathematical transformation which maps locations of feature points in the starting frame to locations in each of the at least one subsequent frame;</claim-text>
+      <claim-text>and transforming the bit plane representation of the starting frame in accordance with the mathematical transformation to form a bit plane representation for each subsequent frame.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 17 further comprising the step of transforming the bit plane representation of a first subsequent frame in accordance with the mathematical transformation to form the bit plane representation of a second subsequent frame.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method of claim 17 wherein the at least one subsequent frame is sequentially forward from the starting frame.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The method of claim 17 wherein the at least one subsequent frame is sequentially backward from the starting frame.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The method of claim 17 wherein the mathematical transformation is a morphing transformation based upon the locations of the feature points in the starting frame and the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The method of claim 17 wherein the mathematical transformation is based upon a motion vector representative of translational motion from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method of claim 17 wherein the mathematical transformation includes an affine transformation representative of a zooming and a panning from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The method of claim 17 further comprising the steps of: receiving a representation of an error between the bit plane representation of one subsequent frame of the at least one subsequent frame and a predicted bit plane representation of the one subsequent frame using the mathematical transformation;</claim-text>
+      <claim-text>and correcting the transformed bit plane representation for the one subsequent frame based upon the error.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. A system for decoding an encoded representation of a plurality of image frames, the plurality of image frames including a starting frame and at least one subsequent frame, the system comprising: a receiver to receive an encoded signal having first and second components, said first component containing an encoded bit plane representation of the starting frame, said second component containing an encoded mathematical transformation; a first decoder which decodes the first component to extract a bit plane representation of the starting frame; a second decoder which decodes the second component to extract a mathematical transformation which maps locations in each of the at least one subsequent frame;</claim-text>
+      <claim-text>and a processor which transforms the bit plane representation of the starting frame in accordance with the mathematical transformation to form a bit plane representation for each subsequent frame.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The system of claim 25 wherein the processor further transforms the bit plane representation of a first subsequent frame in accordance with the mathematical transformation to form the bit plane representation of a second subsequent frame.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The system of claim 25 wherein the at least one subsequent frame is sequentially forward from the starting frame.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The system of claim 25 wherein the at least one subsequent frame is sequentially backward from the starting frame.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The system of claim 25 wherein the mathematical transformation is a morphing transformation based upon the locations of the feature points in the starting frame and the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. The system of claim 25 wherein the mathematical transformation is based upon a motion vector representative of translational motion from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. The system of claim 25 wherein the mathematical transformation includes an affine transformation representative of a zooming and a panning from the starting frame to the at least one subsequent frame.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The system of claim 25 wherein the receiver further receives a representation of an error between the bit plane representation of one subsequent frame of the at least one subsequent frame and a predicted bit plane representation of the one subsequent frame using the mathematical transformation, and wherein the processor is operative to correct the bit plane representation for the one subsequent frame based upon the error.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

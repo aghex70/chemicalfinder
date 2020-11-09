@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184900B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184900</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184900</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21723042" extended-family-id="42112810">
+      <document-id>
+        <country>US</country>
+        <doc-number>09006874</doc-number>
+        <kind>A</kind>
+        <date>19980114</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09006874</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43170762</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>687498</doc-number>
+        <kind>A</kind>
+        <date>19980114</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09006874</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   1/60        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>345473000</text>
+        <class>345</class>
+        <subclass>473000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>375240240</text>
+        <class>375</class>
+        <subclass>240240</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>382248000</text>
+        <class>382</class>
+        <subclass>248000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-001/60</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-001/60</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>13</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>4</number-of-drawing-sheets>
+      <number-of-figures>5</number-of-figures>
+      <image-key data-format="questel">US6184900</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Memory management techniques for large sprite objects</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>RIOLFO BENEDETTO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4660078</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4660078</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>MEAD DONALD C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5861920</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5861920</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HAIR ARTHUR R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6014491</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6014491</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Hughes Electronics Corporation</orgname>
+            <address>
+              <address-1>El Segundo, CA, US</address-1>
+              <city>El Segundo</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>HUGHES ELECTRONICS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Nagarajan, Ram</name>
+            <address>
+              <address-1>Los Angeles, CA, US</address-1>
+              <city>Los Angeles</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Crook, John A.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Sales, Michael W.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Zimmerman, Mark</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method for reducing the amount of decoder memory and the number of transformation calculations used in generating a plurality of frames of a video sequence includes separating the video object into a plurality of blocks, storing those blocks in decoder memory, transforming and displaying blocks as a sequence of frames, determining blocks that will no longer be required to display future frames, and removing these blocks from memory.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">The present invention relates to reducing the storage and transformation processing requirements of digital video sequences.</p>
+    <heading>BACKGROUND ART</heading>
+    <p num="2">
+      Digital video technology is used in a growing number of applications such as cable television, direct broadcast satellite or other direct to home satellite services, terrestrial digital television services including high-definition television, and the like.
+      <br/>
+      Digital representations of video signals often require a very large number of bits.
+      <br/>
+      As such, a number of systems and methods are currently being developed to accommodate transmission and storage of still images and video sequences using various types of compression technology implemented in both hardware and software.
+    </p>
+    <p num="3">
+      The availability of economically feasible and increasingly more powerful microprocessors allows integration of natural and synthetic audio and video sequences.
+      <br/>
+      Information in the form of audio and video sequences may be integrated to present real-time and non-real-time information in a single sequence.
+      <br/>
+      To provide audio and video sequences having acceptable quality at a minimum cost requires having the greatest efficiency possible in the decoding mechanism so as to require the least amount of memory and processing resources.
+    </p>
+    <p num="4">
+      Decoding efficiency can be expressed as the ratio of resources used to generate a frame to total resources in use.
+      <br/>
+      For memory, this is the amount of storage holding data for the displayed portions of sprites in proportion to the total storage required to hold all sprite data.
+      <br/>
+      For CPUs, this is the number of machine cycles used to transform the data for the displayed portions of sprites in proportion to the total number of cycles used to transform all sprite data.
+    </p>
+    <p num="5">
+      An audio/visual (AV) object may be used to represent a physical (real) or virtual article or scene.
+      <br/>
+      AV objects may be defined in terms of other AV objects which are referred to as sub-objects.
+      <br/>
+      An AV object which is not a composite or a compound AV object is referred to as a primitive.
+      <br/>
+      A sprite or basis object is an AV object created within a block of pixels that can be manipulated as a unit using geometrical transformations.
+      <br/>
+      Rather than re-transmitting and re-displaying the sprite object, new transformation parameters are provided to generate subsequent video frames.
+      <br/>
+      This results in a significant reduction in the amount of data necessary to represent such frames.
+    </p>
+    <p num="6">
+      A small sprite object may represent a character in a video game whereas a large sprite object may represent an image which is larger than an individual frame and may span a number of frames.
+      <br/>
+      For example, a still image of a video layer of a scene, such as the background of a room, may be represented by a large sprite object (basis object).
+      <br/>
+      A particular video sequence in which a camera pans across the room would have a number of frames to depict motion of the camera.
+      <br/>
+      Rather than transmitting a still image for each frame, only the transformation parameters are required to manipulate a portion of the sprite object which is reused multiple times as the video frames are generated.
+    </p>
+    <p num="7">
+      Transmission of a sprite image requires either that the entire sprite is encoded and transmitted prior to its use in the video sequence or that the sprite is transmitted piece by piece as additional portions of the image are required for display.
+      <br/>
+      Then the image at the decoder is transformed to its correct representation at each instance of time prior to its display.
+      <br/>
+      The larger the sprite image, the larger the required decoder memory and the greater the required CPU time necessary to transform the image to its correct representative view at each time instance (frame).
+    </p>
+    <p num="8">
+      Prior art implementations do not specify a mechanism for signaling the decoder that portions of the sprite, which may have been necessary at some point in the video sequence, are no longer needed.
+      <br/>
+      The entire sprite is held in decoder memory until the entire sprite is no longer needed.
+      <br/>
+      This leads to much larger decoder memory and computational ability requirements than necessary for many video sequences utilizing sprite technology.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="9">As such, one object of the present invention is to provide a system and method for reducing the amount of memory required to decode a fragmented image.</p>
+    <p num="10">Another object of the present invention is to provide a system and method for reducing the number of CPU calculations necessary to transform a fragmented image.</p>
+    <p num="11">
+      In carrying out the above objects and other objects and features of the present invention, a method is provided for transmitting a video object used in generating a plurality of frames of a video sequence.
+      <br/>
+      The method includes separating the video object into a plurality of identifiable blocks, transmitting the plurality of blocks, then generating and displaying at least one of the plurality of frames based on the first one of the plurality of blocks.
+      <br/>
+      The method further provides for transmitting the identity of blocks no longer needed in the sequence so that those blocks can be purged from decoder memory and not transformed in future frame calculations.
+    </p>
+    <p num="12">
+      A system is also provided in accordance with the present invention for displaying a plurality of frames defining a video sequence based on a stored representation of at least one video object.
+      <br/>
+      The system includes a first memory for storing video data in communication with a display for rendering a visual representation of the video data for each of the frames in the video sequence, and a second memory for storing data representing the video object.
+      <br/>
+      The system also includes control logic in communication with the display, the first memory, and the second memory.
+      <br/>
+      This control logic decodes the encoded video object, loads the second memory with data representing blocks of one or more video objects, transforms object data representing one of a plurality of frames in the sequence based on the portion of the video object, and stores the generated data in the first memory to effect display of the visual representation of the frame.
+      <br/>
+      The control logic also interprets and implements commands to remove blocks of video objects from the second memory.
+    </p>
+    <p num="13">The above objects and other objects, features, and advantages of the present invention are readily apparent from the following detailed description of the best mode for carrying out the invention when taken in connection with the accompanying drawings.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="14">
+      FIG. 1 is a graphical representation of various video objects represented in frames of a video sequence;
+      <br/>
+      FIG. 2 is a graphical representation of a single video object illustrating fragmentation of the object into blocks according to an embodiment of the present invention;
+      <br/>
+      FIG. 3 is a graphical representation of a data stream for a video sequence according to the present invention which reduces decoder memory and transformation computation by removing object blocks after the blocks are no longer needed to generate frames;
+      <br/>
+      FIG. 4 is a flow diagram representing operation of a system or method according to the present invention; and
+      <br/>
+      FIG. 5 is a block diagram of a system according to the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="15">
+      Referring now to FIG. 1, a graphical representation of a video scene represented by a plurality of frames is shown.
+      <br/>
+      Scene 10 includes a number of video objects (O1-O4), any one or more of which may be designated as basis objects or sprite objects.
+      <br/>
+      Object 12 may represent the background of scene 10 while object 14 may represent a real object and object 16 may represent a virtual or synthetic object.
+      <br/>
+      A number of sequential views (V1-V5) are shown and indicated generally by reference numeral 18 including a first three views in the sequence 19, 20 and 21.
+      <br/>
+      The video sequence is displayed as a sequence of frames (F1-F5), shown generally as 22 and including individual frames 24 (F1) and 25 (F3).
+      <br/>
+      In the example illustrated in FIG. 1, a camera pans from view V1 to view V5.
+      <br/>
+      To generate the images of sequence 20, transformation parameters are applied to the various objects 12, 14, and 16.
+      <br/>
+      All or part of at least object 12 and object 16 must be encoded, transmitted and decoded along with the corresponding transformation parameters prior to display of frame 24.
+      <br/>
+      It can be noted that no portion of object 12 required to generate frame 24 is required to generate frame 25 or subsequent frames in the sequence.
+    </p>
+    <p num="16">
+      As illustrated, object 12 is significantly larger than a single frame of video.
+      <br/>
+      This may result in a substantial storage requirement at the decoder due to the large amount of data required to represent object 12.
+      <br/>
+      Furthermore, transformation calculations operate on all available sprite data before determining what portion of the sprite will be displayed in the next frame.
+    </p>
+    <p num="17">
+      In the preferred embodiment of the present invention, information about what portions of the sprite image are required for each view is available prior to the encoding process.
+      <br/>
+      This may occur, for example, in sequences which have been prerecorded and where the sprite and its trajectories can be pre-analyzed (non-real-time encoding).
+      <br/>
+      This may also occur in sequences which are composed with computer generated sprite images for which the sprite trajectories are directly specified prior to encoding.
+      <br/>
+      In either of these or in similar classes of applications, the encoder has the knowledge prior to encoding the sequence as to which portions of the sprite are necessary for the decoder at each time interval.
+      <br/>
+      This information can be used to delete block data from memory or to swap the data to long-term storage such as a disk.
+    </p>
+    <p num="18">
+      Referring now to FIG. 2, the large background object 12 is shown together with the first three views 19, 20 and 21.
+      <br/>
+      The present invention separates a large video object into a plurality of blocks.
+      <br/>
+      The blocks are composed of 16-by-16 subblocks of pixels, are rectangular in shape, and have a size and position determined by the data required to display the video sequence.
+      <br/>
+      As an example, the first three views are divided into five blocks (B1-B5) as indicated by 30, 31, 32, 33, and 34.
+      <br/>
+      Note that, for clarity in FIG. 2, the blocks are shown slightly smaller than necessary to cover all pixels in the view.
+      <br/>
+      Also note that rectangular blocks have been used for this example, but blocks of any shape may be substituted within the scope of this invention.
+    </p>
+    <p num="19">
+      The portion of the object required to generate the first view 19 is represented as a single block 30.
+      <br/>
+      For each of the two successive views, the portion of the object required to generate the view that is not provided by overlap from a previous view is covered by two blocks.
+      <br/>
+      The two blocks for view 20 are represented by 31 (B2) and 32 (B3).
+      <br/>
+      Views with no overlap from a previous frame or where the overlap results from either pure horizontal or pure vertical panning will require no more than one block.
+      <br/>
+      A view that has no movement from the previous view relative to the object or that moves into a region of data previously covered will require no new blocks.
+      <br/>
+      A view that zooms out to cover an area completely including the previous view will require at least four blocks.
+      <br/>
+      A view showing tilt (rotation) may use many blocks in order to minimize the number of pixels included in blocks but not required to generate the view.
+    </p>
+    <p num="20">
+      As is shown in FIG. 2, blocks can be represented by four values.
+      <br/>
+      The origin of the object is taken to be the upper left corner.
+      <br/>
+      Two of the values specify the distance from the origin to the upper left corner of the block.
+      <br/>
+      This is shown for block 31 as x2, the distance from the origin in the x direction, and y2, the distance from the origin in the y direction.
+      <br/>
+      The other two values are the width and height of the block.
+      <br/>
+      This is shown for block 31 as w2 and h2, respectively.
+      <br/>
+      However, such an arrangement is not to be construed as limiting since other methods for dividing an object into blocks are possible within the context of this invention.
+    </p>
+    <p num="21">
+      Objects may be encoded, transmitted and displayed in accordance with a standard, such as the MPEG-4 international standard for coding of moving pictures and associated audio information, currently under joint development by ISO and IEC.
+      <br/>
+      Under the current version of that standard, the present invention may be implemented with modifications limited to the video coding section.
+    </p>
+    <p num="22">
+      Referring now to FIG. 3, a graphical representation of a data stream for a video sequence according to an embodiment of the present invention is shown.
+      <br/>
+      An object O1 is broken into blocks including B1, B2 and B3.
+      <br/>
+      The sample data stream 50 includes data representing object blocks B1, shown as 52, B2, shown as 56, and B3, shown as 58.
+      <br/>
+      Transformation parameters indicating how object O1 will be used in two frames are represented as T(O1)-l shown as 54 and T(O1)-2 shown as 58.
+      <br/>
+      At some point in time, it is determined that block B1 will not be used for any future frame displaying object O1.
+      <br/>
+      A message releasing the data corresponding to block B1, referenced as 62, is sent notifying the decoder that the block can be released.
+    </p>
+    <p num="23">
+      Referring now to FIG. 4, a flow diagram illustrating operation of a system and method according to the present invention is shown.
+      <br/>
+      As will be appreciated by one of ordinary skill in the art, the operations illustrated are not necessarily sequential operations.
+      <br/>
+      Similarly, operations may be performed by software, hardware, or a combination of both.
+      <br/>
+      The present invention transcends any particular implementation and is shown in a sequential flow chart form for ease of illustration.
+    </p>
+    <p num="24">
+      Reference 70 of FIG. 4 represents dividing the object into blocks.
+      <br/>
+      A method for dividing the object into blocks based on view coverage has been discussed in relation to FIG. 2.
+    </p>
+    <p num="25">
+      Once fragmented, the data is encoded and identified as shown in 72.
+      <br/>
+      This identification is, in the preferred embodiment, a set of numbers indicating the size and location of the block within the object.
+      <br/>
+      Also, transformation parameters for each frame are developed.
+    </p>
+    <p num="26">
+      At least one block and transformation parameters are transmitted to the decoder, as shown in 74.
+      <br/>
+      In the preferred embodiment, only those blocks required to generate the first frame or set of frames is transmitted, with the remaining blocks following at a later time.
+      <br/>
+      This reduces the latency required to generate the first frame.
+    </p>
+    <p num="27">
+      The blocks are decoded and stored as referenced by 76.
+      <br/>
+      A first frame is developed and displayed, as in 80.
+      <br/>
+      Reference 82 indicates that this is followed by one or more subsequent frames.
+    </p>
+    <p num="28">
+      A determination is made that one or more blocks will no longer be used to generate frames, as shown in 84.
+      <br/>
+      In the preferred embodiment of the present invention, a message is sent to the decoder indicating that one or more blocks can be released from the decoder memory, as shown in block 86.
+      <br/>
+      The decoder then releases the memory required for the block, as referenced by 88.
+    </p>
+    <p num="29">The above process is continued until all frames have been completed, as shown by the sequence of blocks representing encode and transmit 90, decode and store 92, generate and display 94, and identify and remove 96.</p>
+    <p num="30">
+      Referring now to FIG. 5, a system for displaying frames defining a video sequence based on a stored representation of at least one video object according to the present invention is shown.
+      <br/>
+      The system includes a processor 110 in communication with a display and keyboard 112.
+      <br/>
+      Processor 110 is also in communication with other input devices, such as a mouse 116, and a storage device 118 such as a magnetic tape or disk.
+      <br/>
+      Processor 110 also includes internal storage such as memories 120 and 122, as represented in phantom.
+      <br/>
+      Memory 120 represents video memory.
+      <br/>
+      Display 112 renders a visual representation of the data stored in video memory 120 as is well known in the art.
+      <br/>
+      Memory 122 may contain various instructions and data which are used by processor 110 in generating data representing a video sequence.
+    </p>
+    <p num="31">
+      Processor 110 includes control logic which may be in the form of hardware, software, or a combination thereof.
+      <br/>
+      The control logic loads memory 122 with data representing a portion of at least one video object.
+      <br/>
+      Processor 110 then generates data representing a first one of the video frames based on the portion of the video object stored in memory 122.
+      <br/>
+      The generated data is stored in memory 120 to effect display of the visual representation corresponding to the video sequence.
+      <br/>
+      The control logic also removes portions of video objects no longer required to generate frames.
+      <br/>
+      The operation of control logic within processor 110 has been illustrated and described with reference to FIG. 4 above.
+    </p>
+    <p num="32">Thus, the amount of memory required to store video objects and the amount of processing required to transform video objects can be reduced by removing portions of the video object no longer required to form future frames.</p>
+    <p num="33">While the best mode for carrying out the invention has been described in detail, those familiar with the art to which this invention relates will recognize various alternative designs and embodiments for practicing the invention as defined by the following claims.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for communicating a video object used in generating a plurality of frames of a video sequence, the method comprising:</claim-text>
+      <claim-text>separating the object into a plurality of blocks; transmitting at least a first one of the plurality of blocks; decoding and storing into a memory at least a first one of the plurality of blocks; generating and displaying at least one of the plurality of frames based on at least one of the plurality of blocks; receiving a message indicating that at least one of the plurality of blocks will no longer be required to generate future frames; determining at least one block to release based on the received message;</claim-text>
+      <claim-text>and releasing from the memory the at least one determined block.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 wherein each of the plurality of blocks is a region of pixels.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1 wherein the size and position of each of the plurality of blocks are determined in part by coverage of the object in one of the plurality of frames.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The of claim 1 wherein the video object comprises a basis object.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1 wherein the video object comprises a sprite object.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A system for displaying a plurality of frames defining a video sequence based on a stored representation of at least one video object, the system comprising: a first memory for storing video data; a display in communication with the first memory for rendering a visual representation of the video data corresponding to each of the plurality of frames; a second memory for storing data representing the at least one video object;</claim-text>
+      <claim-text>and control logic in communication with the display, the first memory, and the second memory, the control logic operative to load the second memory with data representing a portion of the at least one video object, receive a message indicating that a portion of at least one video object will no longer be required to generate future frames, remove from the second memory data representing the portion of the at least one video object no longer required in any future frame, generate data representing a first one of the plurality of frames based on only the necessary portions of the at least one video object, and store the generated data in the first memory.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The system of claim 6 wherein the portion of at least one video object comprises blocks, each block being a region of pixels.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system of claim 6 wherein the size and position of each block are determined in part by coverage of the object in one of the plurality of frames.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The system of claim 6 wherein the at least one video object comprises a basis object.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system of claim 6 wherein the at least one video object comprises a sprite object.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A method for communicating a video object used in generating a plurality of frames of a video sequence, the method comprising: separating the object into a plurality of blocks, the size and position of each block based on coverage of the object in one of the plurality of frames; transmitting at least a first one of the plurality of blocks; decoding and storing into a memory at least a first one of the plurality of blocks; generating and displaying at least one of the plurality of frames based on at least one of the plurality of blocks stored into the memory;</claim-text>
+      <claim-text>and releasing from the memory at least one block based on a received message.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 11 wherein the video object comprises a basis object.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 11 wherein the video object comprises a sprite object.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

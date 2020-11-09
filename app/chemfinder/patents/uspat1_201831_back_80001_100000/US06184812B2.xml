@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184812B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184812</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184812</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="22788059" extended-family-id="1198355">
+      <document-id>
+        <country>US</country>
+        <doc-number>09211716</doc-number>
+        <kind>A</kind>
+        <date>19981214</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09211716</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>1241234</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>21171698</doc-number>
+        <kind>A</kind>
+        <date>19981214</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09211716</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H03M   3/02        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>03</class>
+        <subclass>M</subclass>
+        <main-group>3</main-group>
+        <subgroup>02</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>341143000</text>
+        <class>341</class>
+        <subclass>143000</subclass>
+      </main-classification>
+    </classification-national>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H03M-003/372</classification-symbol>
+        <section>H</section>
+        <class>03</class>
+        <subclass>M</subclass>
+        <main-group>3</main-group>
+        <subgroup>372</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20131003</date>
+        </action-date>
+      </patent-classification>
+      <patent-classification sequence="2">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H03M-003/464</classification-symbol>
+        <section>H</section>
+        <class>03</class>
+        <subclass>M</subclass>
+        <main-group>3</main-group>
+        <subgroup>464</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>A</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20131003</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>40</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6184812</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for eliminating clock jitter in continuous-time Delta-Sigma analog-to-digital converters</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>RIBNER DAVID BYRD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5754131</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5754131</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KUO CHUNG J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5870048</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5870048</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>FERGUSON JR PAUL F, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6040793</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6040793</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Article-"An Overview of Sigma Delta Converters", by Aziz et al., IEEE Signal Processing Magazine, Jan. 1996-pp. 61-84.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Qualcomm Incorporated</orgname>
+            <address>
+              <address-1>San Diego, CA, US</address-1>
+              <city>San Diego</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>QUALCOMM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Younis, Saed G.</name>
+            <address>
+              <address-1>San Diego, CA, US</address-1>
+              <city>San Diego</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Butterfield, Daniel Keyes</name>
+            <address>
+              <address-1>San Diego, CA, US</address-1>
+              <city>San Diego</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Wadsworth, Phillip</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Brown, Charles D.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Greenhaus, Bruce</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Young, Brian</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An inventive high-resolution Delta-Sigma analog-to-digital converter using a Continuous-Time implementation having suppressed sensitivity to clock jitter.
+      <br/>
+      The inventive method and apparatus suppresses the sensitivity to jitter by the square of the oversampling ratio when compared to current Continuous-Time implementations of Delta-Sigma modulators.
+      <br/>
+      The present invention eliminates the clock jitter disadvantage between sampled-data and Continuous-Time implementations of Delta-Sigma modulators.
+      <br/>
+      The present invention preferably includes a digital-to-analog converter that ensures that the integral of an output voltage is constant over a clock duty cycle regardless of clock jitter.
+      <br/>
+      The digital-to-analog converter preferably includes at least two switches and a capacitor.
+      <br/>
+      A first switch is used to charge the capacitor and a second switch is used to discharge the capacitor.
+      <br/>
+      Each switch is controlled by a clock phase wherein the sum of the two phases equals the clock duty cycle.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">This invention relates to methods and apparatus for eliminating clock jitter in Delta-Sigma, Analog-to-Digital Converters, and more particularly methods and apparatus for eliminating clock jitter in Continuous-Time Delta-Sigma Analog-to-Digital Converters.</p>
+    <p num="3">2. Description of Related Art</p>
+    <p num="4">
+      Recently there has been a rapid rise in the use of Delta-Sigma analog-to-digital converters.
+      <br/>
+      They are capable of high-resolution data conversion without need for tight component matching or trimming of components.
+      <br/>
+      Because Delta-Sigma A/D converters are insensitive to a wide range of component non-idealities present in situations where they are implemented, high resolution sampling with relaxed component specifications is obtained by employing a single-bit digital-to-analog (DAC) inside a noise-shaping loop.
+      <br/>
+      The noise-shaping loop operates at a sampling rate that is typically much higher than the Nyquist rate of the data that is sampled.
+      <br/>
+      This causes sampling and component noise to be pushed to bands that are outside the band of interest.
+      <br/>
+      A paper by C. Candy and G. C. Temes, entitled "Oversampling methods for A/D and DIA conversion," in Oversampling Delta-Sigma Data Converters, and published by IEEE Press, 1991, on pages 1-25 describes such converters and is incorporated by reference for its teachings on such.
+      <br/>
+      Due to the oversampling performed by Delta-Sigma converters, they typically require a simple anti-aliasing filter at their input.
+    </p>
+    <p num="5">
+      Many Delta-Sigma converters available and in commercial use today are Switched-Capacitor ("SC") implementations.
+      <br/>
+      Delta-Sigma converters are commonly employed as modulators.
+      <br/>
+      In the simplest case, a modulator may comprise a single Delta-Sigma converter.
+      <br/>
+      SC converter designs are used because the design and simulation of SC filters is well understood.
+      <br/>
+      Consequently, SC filters may be easily integrated into a design.
+      <br/>
+      However, because the capacitors employed in SC Delta-Sigma converter loops sample continuous valued voltage levels SC implementations require highly linear floating capacitors.
+      <br/>
+      In addition, both leads of these SC capacitors are generally switched during operation.
+      <br/>
+      These characteristics of SC designs complicate the manufacture of SC converters because the need for high linearity floating capacitors usually necessitates a double-poly manufacturing process.
+    </p>
+    <p num="6">
+      In order to overcome these shortcomings, a new methodology called Switch-Current ("SI") has emerged as an alternative to SC designs for implementing sampled analog converter designs.
+      <br/>
+      SI designs are described in the following references: a paper by T. S. Fiez and D. S. Allstot, entitled "CMOS Switched-Current Ladder Filters," published in IEEE J. of Solid-State Circuits, Vol. 25, No.6. December 1990, on pages 1360-1366; a paper by J. B. Hughes, N. C. Bird, and I. C. Macbeth, entitled "Switched Currents: A New Technique for Analog Sampled-Data Signal Processing," published in Proceedings of the IEEE International Symposium on Circuits and Systems, May 1989, on pages 1584-1587; and a paper by J. B. Hughes and K. W. Moulding, entitled "S-I: A Two-Step approach to Switched-Currents," published in the Proceedings of IEEE International Symposium on Circuits and Systems, 1993 on pages 1235-1238.
+      <br/>
+      These papers are hereby incorporated by reference for their teachings on SI designs.
+      <br/>
+      SI implementations advantageously can be at reduced implemented cost using standard CMOS processes.
+      <br/>
+      However, SI implementations have not yet achieved the same performance levels that have been achieved by the SC designs.
+      <br/>
+      Both SC and SI circuit implementations are examples of sampled-data systems.
+      <br/>
+      In a sampled-data system, a number of analog switches toggle at the rising edge of a clock signal.
+      <br/>
+      The sampled-data circuit is then given sufficient time to settle sampled voltages according to the circuit's switched topology.
+      <br/>
+      As a consequence, all voltages and currents are static in-between clock pulses in a sampled-data system.
+    </p>
+    <p num="7">
+      An alternative to sampled-data systems is "Continuous-Time" ("CT") systems.
+      <br/>
+      In CT systems, sampling is performed at the converter output.
+      <br/>
+      As a consequence, the circuit nodes in the system operate in a CT mode.
+      <br/>
+      The implementation of Delta-Sigma modulators using the CT design approach advantageously performs sampling operations inside the modulator loop.
+      <br/>
+      Accordingly, sampling errors and out-of-band signals that alias into the passband are suppressed by the high gain of the loop in the passband.
+      <br/>
+      This advantageous effect is described in a paper by J. Schreier and B. Zhang, entitled "Delta-Sigma Modulators Employing Continuous-Time Circuitry," published in EEE Transactions on Circuits and Systems-I: Fundamental Theory and Applications," Vol. 43, No.4, April 1996, on pages 324-332, which is incorporated by reference for its teachings on CT Delta-Sigma Modulators.
+    </p>
+    <p num="8">
+      The above described effect is particularly important for passband or bandpass Delta-Sigma modulators where the input signal is varying at a rate close to or higher than the sampling rate.
+      <br/>
+      Bandpass modulators have become more frequently employed in IF sampling receivers.
+      <br/>
+      Further, because of their continuous nature of operation, CT circuits advantageously use relatively low power bandwidth amplifiers to achieve the same performance as SC and SI circuits.
+      <br/>
+      As a consequence, CT Delta-Sigma modulator circuits may have lower power consumption due to relatively low amplifier bias currents.
+    </p>
+    <p num="9">
+      Despite these advantages, two obstacles have impeded the use of CT circuits in Delta-Sigma modulator implementations.
+      <br/>
+      The first obstacle is that CT circuits are much more difficult to design and simulate than are SC and SI circuits.
+      <br/>
+      The second obstacle is that CT circuits are orders of magnitude more susceptible to clock jitter than are SC and SI circuits.
+      <br/>
+      With regard to the first obstacle, recently there has been significant research into the development of tools that map simulation results for sampled-data systems (such as SC &amp; SI circuits) to their CT counterparts.
+      <br/>
+      In addition, CT simulations, although tedious and time consuming, are routinely performed by designers of ICs that implement CT RF, or base band filters.
+      <br/>
+      Therefore, the first obstacle is not an absolute deterrent against the use of CT Delta-Sigma designs.
+    </p>
+    <p num="10">
+      The second obstacle, the susceptibility to clock jitter, is much more critical and has not yet been traversed by previous designs.
+      <br/>
+      The CT circuit's sensitivity to clock jitter has been a serious barrier against CT implementation of Delta-Sigma converters employed in modulators as noted in the following references: a paper by O. Shoaei and M. Snelgrove, entitled "Optimal (Bandpass) Continuous-Time Sigma-Delta Modulator." published in the Proceedings of the IEEE international Symposium on Circuits and Systems, Vol. 5, May 30-Jun. 2, 1994, on pages 489-492; the Ph.d Thesis of L. Williams for the University of California, Berkeley, 1993 on pages 71-74; and in the Masters Thesis of N. Wongkomet, entitled "A Comparison of Continuous-Time and Discrete-Time Sigma-Delta Modulators," for the University of California on pages 13-17.
+      <br/>
+      These references are incorporated by reference for their teachings on CT circuits and implementations.
+    </p>
+    <p num="11">
+      In contrast to CT implementations, in sampled-data implementations clock jitter affects only the sampling capacitors at the front-end of the modulator.
+      <br/>
+      Once signals are sampled by these capacitors, clock jitter has no further effect in the sampled-data systems.
+      <br/>
+      This is due in part because the clock period in sampled-data systems is much longer than the required settling time.
+      <br/>
+      Hence, clock jitter effects for sampled-data systems may be modeled as modulation of input signals due to nonuniform sampling.
+      <br/>
+      Assuming the effects of clock jitter to be uncorrelated with the input signal and that the effects have a white noise spectrum, the clock jitter in a sampled-data system generates a white noise component that is added to the sampled signal.
+      <br/>
+      Due to an oversampling ratio ("OSR"), however, the noise caused by the clock jitter in the band of interest is attenuated.
+    </p>
+    <p num="12">
+      In contrast, in CT implementations, clock jitter substantially adversely affects the operation of CT circuits.
+      <br/>
+      In contrast to the sampled-data designs, in CT circuits, the feedback DAC is implemented as a current source that is gated by the clock.
+      <br/>
+      In most Delta-Sigma modulator topologies, the signal from the DAC is subtracted from the input signal and thereafter a first integrator in the circuit integrates the result.
+      <br/>
+      As a consequence, in CT implementations, clock jitter generates a non-uniform ON-Time in the current source.
+      <br/>
+      The current source is directly summed with the input signal and is therefore, indistinguishable from the input signal.
+      <br/>
+      Assuming a spectrally "white" clock jitter, the noise added by the current source is proportional to the OSR because during every clock cycle an uncorrelated amount is added to the input signal.
+      <br/>
+      Therefore, the clock jitter tolerances for CT systems must be better than that of sampled-data systems by approximately the square of the OSR (e.g. -1000 for a typical OSR of 32).
+      <br/>
+      This results in clock jitter tolerances and specifications that are not easily achievable in most systems.
+      <br/>
+      Thus, a need exists for an apparatus and method that reduces or eliminates the deleterious effects of clock jitter on CT Delta-Sigma converters and the modulators employing the converters.
+      <br/>
+      In particular, a need exists for an apparatus and method that reduces the effects of clock jitter in CT implementations to levels comparable to those in sampled-data implementations.
+      <br/>
+      The present invention provides such an apparatus and methods.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="13">
+      The present invention includes a novel method and apparatus for generating an analog signal "V" as a function of a received digital signal "D" and a clock signal having a first and a second phase.
+      <br/>
+      The apparatus includes a capacitor coupled to a ground and a first, two-position switch coupled to the capacitor and a second, two-position switch coupled to the capacitor.
+      <br/>
+      The first switch receives an analog reference signal that is generated as a function of the digital signal D and charges the capacitor with the analog reference signal during the first phase of the clock signal.
+      <br/>
+      The second switch generates the analog signal V by discharging the capacitor during the second phase of the clock signal.
+    </p>
+    <p num="14">
+      In one embodiment, the apparatus may include a resistor coupled to the second switch and a ground.
+      <br/>
+      In this embodiment, the capacitor is discharged across the resistor during the second phase of the clock signal.
+      <br/>
+      In another embodiment, the apparatus may include a transconductor coupled to the second switch.
+      <br/>
+      In this embodiment, the capacitor is discharged across the transconductor during the second phase of the clock signal.
+      <br/>
+      Further, in both embodiments, the apparatus may include a dipole switch coupled to the first switch.
+      <br/>
+      The dipole switch receives a first analog signal and a second analog signal and supplies one of the first and the second analog signals as the analog reference signal to the first switch based on the value of the digital signal D.
+    </p>
+    <p num="15">
+      The first analog signal, the second analog signal, and the analog reference signal may be voltages.
+      <br/>
+      In addition, the digital signal D may be a single bit binary signal having two possible values.
+      <br/>
+      Further, the magnitude of the first analog signal may be equal to the magnitude of the second analog signal.
+    </p>
+    <p num="16">
+      The present invention also includes a novel continuous-time, Delta-Sigma, analog-to-digital converter for generating a digital signal, "D" as a function of an analog signal, "U" and a clock signal having a first and a second phase.
+      <br/>
+      The converter includes a loop filter capable of receiving the analog signal U and an analog feedback signal "V".
+      <br/>
+      In this embodiment, the loop filter generates an analog difference signal Y wherein the difference signal Y is equal to the difference between the analog signal U and the analog feedback signal V. The converter also includes a quantizer capable of receiving the analog difference signal Y. The quantizer generates the digital signal D as a function of the analog difference signal Y. In one embodiment, the quantizer includes a capacitor coupled to a ground, a first, two-position switch coupled to the capacitor and a second, two position switch also coupled to the capacitor.
+      <br/>
+      The first two-position switch receives an analog reference signal that is generated as a function of the digital signal D. The capacitor is charged with the analog reference signal during the first phase of the clock signal.
+      <br/>
+      The second two-position switch generates the analog feedback signal V by discharging the capacitor during the second phase of the clock signal.
+    </p>
+    <p num="17">
+      In one embodiment of the present invention, the converter may also include a resistor coupled to the second switch and a ground.
+      <br/>
+      In this embodiment, the capacitor is discharged across the resistor during the second phase of the clock signal.
+      <br/>
+      In another embodiment, the converter may include a transconductor that is operatively coupled to the second switch.
+      <br/>
+      In this embodiment, the capacitor is discharged across the transconductor during the second phase of the clock signal.
+      <br/>
+      Further, in both embodiments, the converter may include a dipole switch coupled to the first switch.
+      <br/>
+      The dipole switch receives a first analog level signal and a second analog level signal and supplies one of the first and the second analog level signals as the analog reference signal to the first switch based upon the value of the digital signal D.
+    </p>
+    <p num="18">
+      Similar to the embodiment described above, the first analog level signal, the second analog level signal, and the analog reference signal may be voltage signals.
+      <br/>
+      In addition, the digital signal D may be a single bit binary signal having two values.
+      <br/>
+      Further, the magnitude of the first analog level signal may be equal to the magnitude of the second analog level signal.
+      <br/>
+      The loop filter of the converter may also include at least one integrator wherein the integrator receives the analog feedback signal V.
+    </p>
+    <p num="19">
+      The present invention also includes a novel method of generating an analog signal V as a function of a received digital signal D and a clock signal having a first and a second phase.
+      <br/>
+      The method includes generating an analog reference signal as a function of the digital signal D. Further, the method includes charging a capacitor with the analog reference signal during the first phase of the clock signal.
+      <br/>
+      The method also includes generating the analog signal V by discharging the capacitor during the second phase of the clock signal.
+    </p>
+    <p num="20">
+      In one embodiment of the present inventive method, the step of generating the analog signal V may include discharging the capacitor across a resistor during the second phase of the clock signal.
+      <br/>
+      In another embodiment, the step of generating the analog signal V may include discharging the capacitor across a transconductor during the second phase of the clock signal.
+      <br/>
+      In both embodiments, the step of generating the analog reference signal may include receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as the analog reference signal based upon the value of the digital signal D. Similar to the apparatus and converter described above, the first analog level signal, the second analog level signal, and the analog reference signal may be voltage signals.
+      <br/>
+      Further, the digital signal D may be a single bit binary signal having two values and the magnitude of the first analog level signal may be equal to the magnitude of the second analog level signal.
+    </p>
+    <p num="21">
+      The present invention further includes a novel method of generating a digital signal, D, as a function of an analog signal, U, and a clock signal having a first and a second phase.
+      <br/>
+      This method includes a step of receiving the analog signal U and an analog feedback signal V and generating an analog difference signal Y, wherein the difference signal Y is equal to the difference between the analog signal U and the analog feedback signal V. The method also includes the step of receiving the analog difference signal Y and generating the digital signal D as a function of the analog difference signal Y. The method further includes the step of generating an analog reference signal as a function of the digital signal D. In addition, the method includes charging a capacitor with the analog reference signal during the first phase of the clock signal.
+      <br/>
+      Finally, the method includes the step of generating the analog feedback signal V by discharging the capacitor during the second phase of the clock signal.
+    </p>
+    <p num="22">
+      The details of the preferred and alternative embodiments of the present invention are set forth in the accompanying drawings and the description below.
+      <br/>
+      Once the details of the invention are known, numerous additional innovations and changes will be obvious to one skilled in the art.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="23">
+      FIG. 1 shows a block diagram of an exemplary prior art CT Delta-Sigma circuit suitable for use with the present invention.
+      <br/>
+      FIG. 2 shows one embodiment of the present invention realized as a discrete component implementation of a circuit that may be employed as a digital-to-analog (DAC) of a quantizer of a CT Delta-Sigma circuit such as the CT Delta-Sigma of FIG. 1.
+      <br/>
+      FIG. 3 shows an alternative embodiment of the present invention realized as an integrated component implementation of a circuit that may be employed as the DAC of the quantizer of a CT Delta-Sigma circuit such as the circuit shown in FIG. 1.
+      <br/>
+      FIG. 4 shows an integrated circuit that may be used with the present invention to automatically determine a voltage, Vtune, that is input to a transconductor to correct for circuit tolerance variations.
+    </p>
+    <p num="24">Like reference numbers and designations in the various drawings indicate like elements.</p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="25">Throughout this description, the preferred embodiment and examples shown should be considered as exemplars, rather than as limitations on the present invention.</p>
+    <p num="26">
+      Continuous-Time ("CT") Delta-Sigma modulators or converters may be separated into two groups: "single-quantizers" and "multiple quantizers".
+      <br/>
+      In general, single-quantizers include a single feedback loop with a single stream of digital output.
+      <br/>
+      Multiple or Multi-quantizer Delta-Sigma converters include a cascade of single loop modulators, each modulator having its own quantizer.
+      <br/>
+      Advantageously, the present invention may be utilized by both single-quantizer and multiple-quantizer modulators that employ CT circuitry.
+      <br/>
+      For the sake of simplicity, the present invention is described herein as applied to single-quantizer architectures only.
+      <br/>
+      However, those skilled in the Delta-Sigma converter art will appreciate that the present invention may also be applied to multi-quantizer architectures.
+      <br/>
+      An exemplary model of a single-quantizer Delta-Sigma analog-to-digital converter in which the present invention is utilized is shown in FIG. 1.
+    </p>
+    <p num="27">
+      As shown in FIG. 1, the modulator 10 includes a loop filter 12, a quantizer 14, and an analog feedback loop 16.
+      <br/>
+      An analog signal, "U", is processed by the modulator 10 in order to generate a binary digital output signal, "D", based on the difference of U and the previous value of D (which is represented by an analog signal "V").
+      <br/>
+      The loop filter 12 is a 2-input (shown as inputs U and V in FIG. 1) linear network with a transfer function from V to Y and from U to Y. The loop filter 12 determines the difference between V and U and generates a difference signal "Y".
+      <br/>
+      The loop filter 12 preferably includes as least one integrator 13.
+    </p>
+    <p num="28">
+      As shown in FIG. 1, the difference signal Y, which is a continuous-valued analog signal, is input to the quantizer 14 of the modulator 10.
+      <br/>
+      The quantizer 14 preferably produces a voltage that is equal to a value from a pre-selected set of values, generates D as a function of the voltage, and generates the analog feedback voltage V on feedback loop 16 as a function of D. The quantizer 14 preferably includes an analog-to-digital converter ("ADC") 15 and a digital-to-analog converter ("DAC") 17. The ADC 15 generates the digital output D which is the digital output of the modulator as a function of the voltage selected from the predetermined set.
+      <br/>
+      The DAC 17 receives the output of the ADC 15, D, and produces the analog feedback voltage V as a function of D.
+    </p>
+    <p num="29">
+      V is set to either +Vref or -Vref as a function of the digital value of D. As shown in FIG. 1, the analog voltage V generated by the D/A converter ("DAC") 17 is passed to the loop filter 12 via feedback loop 16.
+      <br/>
+      The analog voltage V is input to at least a summing input of the integrator 13 of the loop filter 12.
+      <br/>
+      The analog voltage V may also be input to other nodes.
+      <br/>
+      The input signal U is also provided as input to the integrator 13.
+      <br/>
+      The output of the integrator 13 is the difference signal Y. For both Sampled-Data and Continuous-Time modulators, the quantizer 14 is a clocked circuit.
+      <br/>
+      The output D and V remain static for the duration of the clock period.
+    </p>
+    <p num="30">
+      In a single-bit modulator D is a single-bit-wide digital data stream.
+      <br/>
+      Also, V is an analog signal (voltage or current) which can be one of two levels,  +- Vref, based upon the clocked value of D. Sampled-data Delta-Sigma modulators are immune to scaling as well as offset variations of the generation of  +- Vref provided that these variations are static on the time scale of the memory of the input signal.
+      <br/>
+      In CT modulators that use switched-current sources to generate V, however, clock jitter directly manifests itself as a signal component of V. To prevent clock jitter from adversely affecting the generation of V in CT modulators, V must be generated in such a manner as not to be dependent upon the duty cycle of the clock.
+      <br/>
+      When V is produced using this approach, clock variations or jitter will not become manifest as a signal component of V.
+    </p>
+    <p num="31">
+      In common loop filters such as that shown in FIG. 1, the analog feedback voltage V always terminates at a summing input of the integrator 13.
+      <br/>
+      Consequently, only the integral of the analog feedback signal V over a clock period is important.
+      <br/>
+      Thus, only the integral of the feedback signal V must remain static from clock cycle to clock cycle.
+      <br/>
+      By taking advantage of this observation, a CT Delta-Sigma modulator that includes a circuit or method for generating a pulsed or feedback signal V having an integral that is constant from clock cycle to clock cycle can be produced.
+      <br/>
+      Such a CT Delta-Sigma modulator advantageously is immune to clock jitter.
+    </p>
+    <p num="32">
+      FIG. 2 is a diagram of a discrete component circuit 20 that can be used to replace the DAC 17 of quantizer 14 of the modulator 10 of FIG. 1.
+      <br/>
+      The inventive circuit 20 ensures that the integral of the feedback signal V is constant for each clock cycle.
+      <br/>
+      As shown in FIG. 2, circuit 20 preferably includes a dipole switch 32, a first two-position switch 24, a second two-position switch 22, a capacitor 28, a resistor 26, and a plurality of grounds 34.
+      <br/>
+      The dipole switch 32 is a two position, dipole switch that causes a signal having a voltage level of either +Vref or -Vref to be input to the circuit 20 as a function of the digital value of D. In some alternative embodiments of the present invention, circuit 20 may be part of the DAC 17 included in the quantizer 14 as described above.
+      <br/>
+      In a preferred embodiment, the capacitance of capacitor 28 is about 1 pF, the resistance of resistor 26 is about 25 KOhms, and the voltage of Vref is 1 volt.
+    </p>
+    <p num="33">
+      The capacitor 28 is charged to +Vref or to -Vref dependent upon the digital bit value of D. Here, D corresponds to the digital output of the quantizer ADC 15 (FIG. 1).
+      <br/>
+      In the embodiment shown in FIG. 2, the sampling clock of the modulator 10 has two clock phases " PHI 1 " and " PHI 2 ". It is assumed that D is valid at, or very shortly after, the rising edge of  PHI 1.
+      <br/>
+      The first switch 24 is controlled as a function of  PHI 1 and the second switch 22 is controlled as a function of  PHI 2.
+      <br/>
+      Consequently, during  PHI 1 the capacitor 28 is charged to be equal to one of the reference voltages (either +Vref or -Vref).
+      <br/>
+      In this embodiment,  PHI 1 is made sufficiently long to charge the capacitor 28 to a level beyond which variations in the clock cycle will no longer adversely affect the signal-to-noise-ratio ("SNR") of the modulator 10 (FIG. 1).
+    </p>
+    <p num="34">
+      During  PHI 2, the charge that was stored on capacitor 28 during  PHI 1 is discharged through the resister 26 to ground 34.
+      <br/>
+      It can be easily seen by those skilled in the art that this produces a pulse on Vout having a time integral that is constant regardless of the clock jitter given each level of the reference voltages.
+      <br/>
+      As described above, the feedback signal is always provided as input to the summing input of a CT integrator 13 of loop filter 12.
+      <br/>
+      CT implementations of Delta-Sigma modulators are either implemented using discrete components or are integrated on an integrated circuit.
+      <br/>
+      For integrated circuit implementations, e.g. "Gm /C" implementations, the input is a gate of either a Negative-Channel Metal Oxide Semiconductor ("NMOS") or Positive-Channel Metal Oxide Semiconductor ("PMOS") transistor.
+      <br/>
+      In such an integrated Delta-Sigma modulators, in order to ensure immunity against capacitive coupling of unwanted signals to this input, the capacitor 28 of FIG. 2 may be made many times larger than the effective capacitance of the input node of the integrator 13.
+      <br/>
+      Thus, the resistor 26 is necessary to fully discharge the capacitor 28 from the reference charge to ground.
+      <br/>
+      This also ensures that the shape of the waveform of Vout is dependent only on the capacitor 28 and the resistor 26 of the DAC 17 of the quantizer 14, and not on parasitics of other components.
+    </p>
+    <p num="35">
+      Because only the edge of a clock phase initiates the discharging of the capacitor 28 through the resistor 26, and because the phase is sufficiently long to discharge the capacitor 28 to a level below which the SNR of the modulator 10 is unaffected, any error caused by clock jitter through the feedback DAC is vastly reduced or eliminated.
+      <br/>
+      Clock jitter may still affect the SNR of the modulator 10 due to non-uniform sampling of the ADC 15 in the quantizer 14.
+      <br/>
+      The same distortion may occur in sampled-data implementations.
+      <br/>
+      Consequently, CT circuits employing the present invention may have the same sensitivity to clock jitter as their sampled-data counterparts.
+      <br/>
+      However, as described above the effects of jitter are attenuated by the oversampling ratio.
+      <br/>
+      Regardless, a CT modulator 10 that uses a DAC 20 made in accordance with the present invention will not be affected by clock jitter as significantly as are the current CT circuits that use switched current sources in their feedback loops.
+      <br/>
+      As described above, such circuits have increased sensitivity to clock jitter due to the oversampling ratio.
+      <br/>
+      Indeed, a CT circuit that uses a DAC 20 made in accordance with the present invention operating at an oversampling ratio of  (congruent to) 32 has its sensitivity to clock jitter reduced by 1000 fold compared to switch current source designs.
+    </p>
+    <p num="36">
+      As described above, the loop filter 12 of FIG. 1 may be implemented using discrete components or integrated circuits.
+      <br/>
+      In discrete component designs, the summing integrators 13 of the loop filter 12 of modulator 10 (FIG. 1) generally comprise high-speed operational amplifiers having feedback capacitors.
+      <br/>
+      By using a sufficiently high open loop gain the input to the integrator 13 is a virtual ground.
+      <br/>
+      When the circuit 20 of FIG. 2 is used together with such a discrete implementation of the loop filter 12, the resistor 26 of the discrete component embodiment of the DAC of FIG. 2 may be eliminated because its function is performed by the operational amplifier of the discrete loop filter 12.
+    </p>
+    <p num="37">
+      FIG. 3 shows an alternative embodiment of the invention wherein the DAC 17 of FIG. 1 is implemented in an integrated circuit design.
+      <br/>
+      As shown in FIG. 3, the resistor 26 is replaced with a transconductor 42.
+      <br/>
+      As those skilled in the art will appreciate, the transconductor 42 is much smaller and thereby easier to implement in an integrated circuit than is the resistor 26.
+      <br/>
+      The DAC 40 of FIG. 3 is identical to the DAC 20 of FIG. 2 provided 1/gm is made equal to the impedance of resistor 26.
+      <br/>
+      Ideally, to reduce the effects of process variations, the impedance gm of the transconductor 42 is dynamically tuned based on Vtune as described below with reference to FIG. 4.
+      <br/>
+      The current in the block when sunk to ground is equal to Vout *gm due to the high input impedance of the transconductor 42.
+      <br/>
+      Therefore, if the value of 1/gm is made equal to the resistance value of the resistor 26 of FIG. 2 the two circuits are for all intensive purposes equivalent, i.e., the transconductance of transconductor 42 is equal to 40  MU Siemens in the preferred embodiment (1/25 Kohms).
+    </p>
+    <p num="38">
+      While the present inventive method and apparatus has been described using single-bit DAC circuit (e.g., the DAC, 20 and 40 of FIGS. 2 and 3, respectively), the invention is easily extended for use with multi-bit DACs.
+      <br/>
+      Multi-bit implementations use more than two reference levels and include a switching network capable of connecting to the correct reference level based upon the multi-bit value of D. In the case of a multi-bit D value, the linearity of the DAC is not guaranteed due to the difficulty in matching the reference voltage values.
+      <br/>
+      A number of techniques have been purposed for producing a very highly linear multi-bit DAC given less than ideal reference voltages.
+      <br/>
+      These techniques generally rely on having 2N unity reference voltages where N is equal to the number of bits comprising D. DACs made in accordance with these techniques generate an output signal by summing N of them in a summing amplifier.
+      <br/>
+      The perceived high linearity of such DACs is achieved by continuously altering the selected unity voltage node to be summed on a cycle-by-cycle basis.
+      <br/>
+      Such techniques of producing highly linear multi-bit DACs are described in the following references: a paper by B. H. Leung and S. Sutarja, entitled "Multibit Z-A Converter Incorporating a Novel Class of Dynamic Element Matching Techniques," published in IEEE Transactions an Circuits and Systems-II: Analog and Digital Signal Processing, Vol. 39, No. 1, January 1992, on pages 35-51; a paper by R. Schreier and B. Zhang, entitled "Noise-Shaped Multi-bit D/A Converter Employing Unit Elements," published in Electronics Letters, Vol. 31, No. 20, September 1995, on pages 1712-1713; a paper by R. T. Baird and T. S. Fiez, entitled "Improved Delta-Sigma DAC Linearity Using Data Weighted Averaging," published in Proceedings of IEEE International Symposium on Circuits and Systems, Seattle, USA 1995, on pages 17-20; and a paper by I. Galton, entitled "Spectral Shaping of Circuit Errors in Digital-to-Analog Converters." These references are incorporated by reference for their teachings on multi-bit DACs.
+      <br/>
+      The circuits shown in FIGS. 2 and 3 can use any of these techniques to generate a highly linear, multi-bit DAC for use in CT implementations.
+      <br/>
+      One skilled in the DAC art will appreciate that these techniques may be easily included in the topologies of FIGS. 2 and 3.
+      <br/>
+      The resultant circuits of FIGS. 2 and 3 yield the same performance improvements as the sampled-data circuits.
+    </p>
+    <p num="39">
+      Due to tolerance variations inherent to integrated circuits, particularly analog integrated circuits, an adjustment may need to be made to the DACs (20, 40) of FIGS. 2 and 3 to ensure that the time integral of the feedback signal corresponds to the correct value.
+      <br/>
+      Although absolute tolerance variations of integrated circuits may be poor, relative tolerance variations are usually fairly good.
+      <br/>
+      This is significant because the DACs 20, 40 of FIGS. 2 and 3, respectively, are preferably incorporated into the feedback of a CT Delta-Sigma A/D converter.
+      <br/>
+      The loop filter 12 of the Delta-Sigma converter 10 of FIG. 1 may include a plurality of Gm /C integrators.
+      <br/>
+      The time constant of the integrators may need adjustment so that the integrators will have unity gain during one period of the quantizer clock.
+      <br/>
+      This is routinely done for integrated gm /C implementations of CT filters as noted in a paper by J. Van der Plas, "MOSPET-C Piker with Low Excess Noise and Accurate Automatic Tuning," published in IEEE Journal of Solid-State Circuits, Vol.
+      <br/>
+      SC-26, No. 7, July 1991, on pages 922-929, which is incorporated herein by reference for its teachings of gm /C adjustment techniques.
+      <br/>
+      An exemplary circuit 50 made in accordance with the present invention and used to adjust the value of gm and thereby achieve the desired integrator time-constant (regardless of process and environment variations) is shown in FIG. 4.
+    </p>
+    <p num="40">
+      The circuit 50 of FIG. 4 preferably includes a transconductor 52, switches 22, 24, and 54, a capacitor 28, a summing integrator 56 and a loop filter 57.
+      <br/>
+      Switches 22, 24, and 54 are preferably individually controlled by clock phases  PHI 1,  PHI 2, and  PHI 3, respectively, where the clock phases  PHI 1,  PHI 2, and  PHI 3 are non-overlapping.
+      <br/>
+      The width of  PHI 1 is preferably equal to the period of the quantizer clock of circuits 20 and 40.
+      <br/>
+      In operation, the capacitor 28 is fully discharged during the clock phase  PHI 2 and the capacitor 28 is charged back with a current that is equal to Vref * gm during the period of  PHI 1.
+      <br/>
+      At the end of  PHI 1, the voltage that is held by the charged capacitor 28 is sampled and compared to a reference voltage, Vref by the summing integrator 56.
+      <br/>
+      It is noted that a different reference voltage, Vref2 may be input to the summing integrator 56 in other embodiments.
+      <br/>
+      The result of this comparison is used to adjust the tuning voltage, Vtune, such that the final voltage on capacitor 28 at the end of the charging cycle is always equal to Vref.
+      <br/>
+      The determined tuning voltage Vtune is then used to tune all of the gm blocks of the circuit 50.
+    </p>
+    <p num="41">
+      Similar to the DAC 20 of FIG. 2, the gm block of DAC 40 of FIG. 3 requires a tuning voltage.
+      <br/>
+      For the DAC 40 of FIG. 3, gm must be adjusted such that the time integral of the exponential discharge of the capacitor voltage having an initial voltage of Vref is equal to Vref.
+      <br/>
+      The necessary tuning voltage, Vtune of the gm block in FIG. 3 is, however, identical to the tuning voltage Vtine.
+      <br/>
+      The voltage Vtune is used by the other gm blocks for the loop filter 12 integrators and is produced by the circuit of FIG. 4.
+      <br/>
+      Thus, using the same tuning voltage, Vtune, the DAC 40 of FIG. 3 produces the correct integral value of Vout regardless of the process and environment variations.
+    </p>
+    <p num="42">
+      The DAC 20 of FIG. 2 is particularly immune to component non-linearities.
+      <br/>
+      For example, the capacitor 28 of the DAC 20, the resistor 26 and the ON resistance of the switches 22 and 24 may have highly non-linear behavior and yet not adversely affect the performance of the circuit 10 (FIG. 1).
+      <br/>
+      This is because for a given reference voltage the DAC 20 always discharges from a time static voltage value to ground.
+      <br/>
+      As long as the values of the components follow the same non-linear behavior function for a given reference voltage from cycle to cycle, the performance of the DAC 20 will be unaffected by the component non-linearities.
+    </p>
+    <p num="43">
+      Consequently, for a CT Delta-Sigma modulator that uses the inventive circuit of FIG. 2 or FIG. 3, the only source of transients in the feedback DAC is caused by the voltage spike of Vout when the capacitor 28 is discharged through the resistor 26.
+      <br/>
+      Because only the integral of the signal waveform of Vout is significant, it is possible to reduce this transient by reducing the turn-on time of the  PHI 2 switch.
+      <br/>
+      If a slow RC circuit is used to round-off the square edges of  PHI 2, Vout will rise quadratically and decay exponentially.
+      <br/>
+      With this waveform, the continuous-time amplifiers are not exposed to sharp transients except for those that are generated by the sampled signal.
+      <br/>
+      The sampled signal, however, is usually filtered.
+      <br/>
+      The turn-on time of the switch 22 may be reduced because the circuit is immune to static non-linearities.
+    </p>
+    <p num="44">
+      By eliminating the transients from the feedback DAC, the signal settling can be improved, and thus, the required bandwidth of the integrator amplifiers can be correspondingly reduced.
+      <br/>
+      In turn, the circuit size and related circuit power consumption are also reduced.
+      <br/>
+      It should be noted that regardless of the value of the ON resistance of the switch 22, the time integral shall remain constant.
+      <br/>
+      This is because the charge deposited on the capacitor 28 is constant for a given reference voltage.
+      <br/>
+      Thus, the integral of the current passed through the resistor 26 is also constant because it is equal to the charge stored by the capacitor 28.
+      <br/>
+      Therefore, as long as the resistance of resistor 26 remains constant the integral of Vout will also remain constant regardless of the ON resistance of the switch controlled by the clock phase  PHI 2.
+      <br/>
+      Thus, numerous modifications may be made to the DACs 20 and 40 of FIGS. 2 and 3, respectively, without departing from the scope of the present inventive method and apparatus.
+      <br/>
+      Thus, it is to be understood that the invention is not to be limited by the specific illustrated embodiments, but only by the scope of the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A digital-to-analog converter for generating an analog signal V as a function of a received digital signal D, wherein the converter receives a clock signal having a first and a second phase and wherein the converter has a ground, the converter comprising:</claim-text>
+      <claim-text>a) a capacitor coupled to the ground; b) a first two-position switch coupled to the capacitor, the first switch receiving an analog reference signal that is generated as a function of the digital signal and wherein the capacitor is charged with the analog reference signal during the first phase of the clock signal;</claim-text>
+      <claim-text>and c) a second two-position switch coupled to the capacitor, the second switch generating the analog signal V by discharging the capacitor during the second phase of the clock signal; wherein the first phase and second phase of the clock are each long enough to ensure that minor variations in the clock cycle have a minimal effect on the integral of a voltage across the capacitor taken over the second phase of the clock.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The converter according to claim 1, further comprising a resistor coupled to the second switch and to a ground, and wherein the capacitor is discharged across the resistor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The converter according to claim 1, further comprising a transconductor coupled to the second switch and wherein the capacitor is discharged across the transconductor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The converter according to claim 2, further comprising a dipole switch coupled to the first switch, the dipole switch receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as the analog reference signal to the first switch based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The converter according to claim 3, further comprising a dipole switch coupled to the first switch, the dipole switch receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as the analog reference signal to the first switch based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The converter according to claim 4, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The converter according to claim 5, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The converter according to claim 6, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The converter according to claim 7, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A continuous-time, Delta-Sigma, analog-to-digital converter for generating a digital signal, D as a function of an analog signal, U, wherein the converter receives a clock signal having a first and a second phase, and wherein the converter has a ground, the converter comprising: a) a loop filter receiving the analog signal U and an analog feedback signal V and generating an analog difference signal Y where the difference signal Y is equal to the difference between the analog signal U and the analog feedback signal V;</claim-text>
+      <claim-text>and b) a quantizer receiving the analog difference signal Y and generating the digital signal D as a function of the analog difference signal Y, the quantizer including:</claim-text>
+      <claim-text>- i) a capacitor coupled to the ground; - ii) a first two-position switch coupled to the capacitor, the first switch receiving an analog reference signal that is generated as a function of the digital signal and wherein the capacitor is charged with the analog reference signal during the first phase of the clock signal;</claim-text>
+      <claim-text>and - iii) a second two-position switch coupled to the capacitor, the second switch generating the analog feedback signal V by coupling the capacitor to the loop filter and generating a discharge path for the capacitor during the second phase of the clock signal; - wherein the first phase and second phase of the clock are each long enough to ensure that minor variations in the clock cycle have a minimal effect on the integral of a voltage across the capacitor taken over the second phase of the clock.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The converter according to claim 10, the quantizer further including a resistor coupled to the second switch and to a ground, and wherein the capacitor is discharged across the resistor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The converter according to claim 10, the quantizer further including a transconductor coupled to the second switch and wherein the capacitor is discharged across the transconductor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The converter according to claim 11, the quantizer further comprising a dipole switch coupled to the first switch, the dipole switch receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as the analog reference signal to the first switch based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The converter according to claim 12, the quantizer further comprising a dipole switch coupled to the first switch, the dipole switch receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as the analog reference signal to the first switch based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The converter according to claim 13, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The converter according to claim 14, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The converter according to claim 15, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The converter according to claim 16, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The converter according to claim 17, wherein the loop filter includes at least one integrator, the at least one integrator receiving the analog feedback signal V.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The converter according to claim 18, wherein the loop filter includes at least one integrator, the at least one integrator receiving the analog feedback signal V.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A method of generating an analog signal V as a function of a received digital signal D and a clock signal having a first and a second phase, the method comprising the steps of: a) generating an analog reference signal as a function of the digital signal D; b) charging a capacitor with the analog reference signal during the first phase of the clock signal; c) generating the analog signal V by discharging the capacitor during the second phase of the clock signal such that the capacitor is essentially fully charged before the end of each first clock phase and essentially fully discharged prior to the end of each second clock phase, making the integral of the analog signal V over the second phase of the clock constant for each cycle of the clock.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The method according to claim 21, wherein step c) comprises generating the analog signal V by discharging the capacitor across a resistor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method according to claim 21, wherein step c) comprises generating the analog signal V by discharging the capacitor across a transconductor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The method according to claim 22, wherein step a) comprises receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as an analog reference signal based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The method according to claim 23, wherein step a) comprises receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as an analog reference signal based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The method according to claim 24, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method according to claim 25, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method according to claim 26, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method according to claim 27, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. A method for generating a digital signal, D as a function of an analog signal, U and a clock signal having a first and a second phase, the method comprising the steps of: a) receiving the analog signal U and an analog feedback signal V and generating an analog difference signal Y where the difference signal Y is equal to the difference between the analog signal U and the analog feedback signal V; b) receiving the analog difference signal Y and generating the digital signal D as a function of the analog difference signal Y; c) generating an analog reference signal as a function of the digital signal D; d) charging a capacitor with the analog reference signal during the first phase of the clock signal;</claim-text>
+      <claim-text>and e) generating the analog feedback signal V by discharging the capacitor during the second phase of the clock signal such that the capacitor is essentially fully charged before the end of each first clock phase and essentially fully discharged prior to the end of each second clock phase, making the integral of the analog signal V over the second phase of the clock constant for each cycle of the clock.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. The method according to claim 30, wherein step e) comprises generating the analog feedback signal V by discharging the capacitor across a resistor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The method according to claim 30, wherein step e) comprises generating the analog feedback signal V by discharging the capacitor across a transconductor during the second phase of the clock signal.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. The method according to claim 31, wherein step c) comprises receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as an analog reference signal based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. The method according to claim 32, wherein step c) comprises receiving a first analog level signal and a second analog level signal and supplying one of the first and the second analog level signals as an analog reference signal based on the value of the digital signal D.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The method according to claim 33, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="36">
+      <claim-text>36. The method according to claim 34, wherein the first analog level signal, the second analog level signal, and the analog reference signal are voltage signals.</claim-text>
+    </claim>
+    <claim num="37">
+      <claim-text>37. The method according to claim 35, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="38">
+      <claim-text>38. The method according to claim 36, wherein the digital signal D is a single bit binary signal having two values and wherein the magnitude of the first analog level signal is equal to the magnitude of the second analog level signal.</claim-text>
+    </claim>
+    <claim num="39">
+      <claim-text>39. A digital-to-analog converter for generating an analog signal V as a function of a received digital signal D, the converter receiving a clock signal having a first and a second phase, the converter comprising: a) means for generating an analog reference signal as a function of the digital signal D; b) means for charging a capacitor with the analog reference signal during the first phase of the clock signal;</claim-text>
+      <claim-text>and c) means for generating the analog signal V by discharging the capacitor during the second phase of the clock signal such that the capacitor is essentially fully charged before the end of each first clock phase and essentially fully discharged prior to the end of each second clock phase, making the integral of the analog signal V over the second phase of the clock constant for each cycle of the clock.</claim-text>
+    </claim>
+    <claim num="40">
+      <claim-text>40. A continuous-time, Delta-Sigma, analog-to-digital converter for generating a digital signal, D as a function of an analog signal, U, the converter receiving a clock signal having a first and a second phase, the converter comprising: a) means for receiving the analog signal U and an analog feedback signal V and generating an analog difference signal Y where the difference signal Y is equal to the difference between the analog signal U and the analog feedback signal V; b) means for receiving the analog difference signal Y and generating the digital signal D as a function of the analog difference signal Y; c) means for generating an analog reference signal as a function of the digital signal D; d) means for charging a capacitor with the analog reference signal during the first phase of the clock signal;</claim-text>
+      <claim-text>and e) means for generating the analog feedback signal V by discharging the capacitor during the second phase of the clock signal.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

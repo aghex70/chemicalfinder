@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182147B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182147</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182147</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22427324" extended-family-id="42108986">
+      <document-id>
+        <country>US</country>
+        <doc-number>09126907</doc-number>
+        <kind>A</kind>
+        <date>19980731</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09126907</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165596</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>12690798</doc-number>
+        <kind>A</kind>
+        <date>19980731</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09126907</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04L  12/18        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>L</subclass>
+        <main-group>12</main-group>
+        <subgroup>18</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>709238000</text>
+        <class>709</class>
+        <subclass>238000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>370392000</text>
+        <class>370</class>
+        <subclass>392000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>709217000</text>
+        <class>709</class>
+        <subclass>217000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>709221000</text>
+        <class>709</class>
+        <subclass>221000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H04L-012/18M</text>
+        <section>H</section>
+        <class>04</class>
+        <subclass>L</subclass>
+        <main-group>012</main-group>
+        <subgroup>18M</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04L-012/185</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>L</subclass>
+        <main-group>12</main-group>
+        <subgroup>185</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>12</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>2</number-of-figures>
+      <image-key data-format="questel">US6182147</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Multicast group routing using unidirectional links</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>KINOSHITA MITSUYA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4965767</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4965767</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>SASAI KIYOTAKA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5034919</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5034919</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>WHITE RICHARD E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5477541</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5477541</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>MOURA EDUARDO J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5586121</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5586121</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>OHIRA TSUYOSHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5602770</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5602770</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>BRUNSON GORDON RICHARDS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5647002</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5647002</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>SATOH AKASHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5740097</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5740097</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>WHITE ROBERT G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5742905</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5742905</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>HOLMES RALPH</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5790809</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5790809</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>ROSSMANN ALAIN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5809415</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5809415</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>NAGAMI KENICHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5835710</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5835710</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>KEMPKE ROBERT ALAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5841874</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5841874</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>COLBY STEVEN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6006264</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6006264</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="14">
+          <text>PUENTE DAVID S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6038594</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6038594</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <document-id>
+            <country>US</country>
+            <doc-number>RE33900</doc-number>
+            <kind>E</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>USRE33900</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>WEINSTEIN STEPHEN B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4131767</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4131767</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>DHARIA PRABODH M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4161719</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4161719</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>HOWSON ROBERT D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4316284</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4316284</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>HOWSON ROBERT D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4397020</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4397020</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>LARSON ALLEN L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4419728</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4419728</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>LARSON ALLEN L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4424565</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4424565</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>PETR DAVID W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4437087</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4437087</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>BARAN PAUL</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4438511</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4438511</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>LIMB JOHN O</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4439763</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4439763</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>BAUGH CHARLES R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4445213</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4445213</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>DEVAULT MICHEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4446555</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4446555</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="27">
+          <text>SCHIELTZ STEVEN W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4456957</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4456957</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="28">
+          <text>THELEN WILLIAM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4464658</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4464658</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="29">
+          <text>FRASER ALEXANDER G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4499576</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4499576</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="30">
+          <text>MONTGOMERY WARREN A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4506358</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4506358</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="31">
+          <text>FRASER ALEXANDER G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4507760</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4507760</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="32">
+          <text>FLORES CHRISTOPHER, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4532626</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4532626</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="33">
+          <text>GEORGE FREDERICK D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4644532</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4644532</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="34">
+          <text>LARSON MIKIEL L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4646287</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4646287</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="35">
+          <text>BENVENUTO NEVIO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4677423</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4677423</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="36">
+          <text>OLSON JEFFREY J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4679189</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4679189</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="37">
+          <text>HUGHES-HARTOGS DIRK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4679227</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4679227</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="38">
+          <text>JONES KENNETH D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4723267</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4723267</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="39">
+          <text>HUGHES-HARTOGS DIRK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4731816</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4731816</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="40">
+          <text>ARPIN LEE J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4750136</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4750136</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="41">
+          <text>DECKER DWIGHT W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4757495</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4757495</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="42">
+          <text>GORDON TRAVIS H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4763191</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4763191</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="43">
+          <text>ECKBERG JR ADRIAN E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4769810</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4769810</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="44">
+          <text>ECKBERG JR ADRIAN E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4769811</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4769811</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="45">
+          <text>BARAN PAUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4771425</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4771425</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="46">
+          <text>BARAN PAUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4819228</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4819228</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="47">
+          <text>ARROWOOD ANDREW H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4827411</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4827411</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="48">
+          <text>HUGHES-HARTOGS DIRK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4833706</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4833706</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="49">
+          <text>HERRIG HANZ W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4835737</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4835737</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="50">
+          <text>GEORGIOU CHRISTOS J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4879551</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4879551</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="51">
+          <text>CHAO HUNG-HSIANG J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4893306</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4893306</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="52">
+          <text>BARAN PAUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4903261</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4903261</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="53">
+          <text>LIDINSKY WILLIAM P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4922486</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4922486</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="54">
+          <text>KONISHI KUNIYOSHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4933937</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4933937</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="55">
+          <text>CUSHING DAVID H</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4960310</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4960310</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="56">
+          <text>FERENC JAMES J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4962497</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4962497</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="57">
+          <text>KASIRAJ CHANDER, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4962532</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4962532</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="58">
+          <text>DANIEL ARTHUR A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4965772</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4965772</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="59">
+          <text>SLADOWSKI ROBERT, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4970678</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4970678</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="60">
+          <text>KHERADPIR SHAYGAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4979118</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4979118</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="61">
+          <text>DECKER DWIGHT W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4980897</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4980897</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="62">
+          <text>VAN DEN BERG JAN W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4991169</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4991169</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="63">
+          <text>COLLINS CYNTHIA B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5003595</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5003595</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="64">
+          <text>HAHNE ELLEN L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5014265</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5014265</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="65">
+          <text>HOLDEN BRIAN D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5020058</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5020058</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="66">
+          <text>JONES WILLIAM C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5033076</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5033076</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="67">
+          <text>HUGHES-HARTOGS DIRK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5054034</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5054034</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="68">
+          <text>WEISBLOOM JOHN D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5059925</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5059925</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="69">
+          <text>ENNS FREDERICK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5072449</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5072449</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="70">
+          <text>BOSACK LEONARD</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5088032</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5088032</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="71">
+          <text>FENNER PETER R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5095480</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5095480</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="72">
+          <text>WILLIAMS CHARLES S T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5115431</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5115431</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="73">
+          <text>ENNS FREDERICK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5128945</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5128945</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="74">
+          <text>VIDELOCK GARY B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5136580</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5136580</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="75">
+          <text>BRAFF MARTIN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5166930</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5166930</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="76">
+          <text>WILSON WILLIAM B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5199049</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5199049</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="77">
+          <text>BINGHAM JOHN A C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5206886</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5206886</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="78">
+          <text>KASHIO JIRO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5208811</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5208811</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="79">
+          <text>JOY ANDREW K, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5212686</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5212686</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="80">
+          <text>CORBALIS CHARLES M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5224099</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5224099</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="81">
+          <text>BROWN BRIAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5226120</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5226120</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="82">
+          <text>BINGHAM JOHN A C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5228062</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5228062</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="83">
+          <text>BALZANO JEAN-MICHEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5229994</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5229994</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="84">
+          <text>LESPAGNOL ALBERT, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5237564</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5237564</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="85">
+          <text>BRYANT DAVID B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5241682</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5241682</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="86">
+          <text>KATTEMALALAVADI SHRIKANTH S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5243342</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5243342</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="87">
+          <text>PORT ADRIAN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5243596</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5243596</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="88">
+          <text>BERNSTEIN SIMON, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5247516</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5247516</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="89">
+          <text>KURANO TAKATOSHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5249178</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5249178</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="90">
+          <text>ARAMAKI TOSHIYA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5253251</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5253251</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="91">
+          <text>HOLDEN BRIAN D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5255291</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5255291</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="92">
+          <text>ROUSE GERALD L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260933</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260933</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="93">
+          <text>FLEISCHER PAUL E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260978</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260978</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="94">
+          <text>BELLAMY PAUL D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5268592</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5268592</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="95">
+          <text>HLUCHYJ MICHAEL G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5268900</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5268900</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="96">
+          <text>PROCTOR RICHARD J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5271004</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5271004</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="97">
+          <text>BHARDWAJ VINOD K</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5274631</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5274631</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="98">
+          <text>RAHMAN SYED A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5274635</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5274635</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="99">
+          <text>FISK BENJAMIN W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5274643</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5274643</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="100">
+          <text>BUHRKE ROLFE E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5280470</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5280470</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="101">
+          <text>PITT DANIEL A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5280480</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5280480</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="102">
+          <text>MAZZOLA MARIO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5280500</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5280500</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="103">
+          <text>NGUYEN TRUONG Q, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5283783</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5283783</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="104">
+          <text>KASPRZYK MARLON Z, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5287103</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5287103</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="105">
+          <text>ROBERTS WILLIAM F</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5287453</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5287453</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="106">
+          <text>MCHARG CHRISTOPHER G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5291482</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5291482</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="107">
+          <text>LYLES JOSEPH B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5305311</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5305311</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="108">
+          <text>BOSTICA BRUNO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5307343</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5307343</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="109">
+          <text>PERLMAN RADIA J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5309437</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5309437</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="110">
+          <text>HEDDES MARCO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5311509</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5311509</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="111">
+          <text>BUSTINI LIONEL A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313454</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313454</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="112">
+          <text>HENDEL ARIEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313582</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313582</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="113">
+          <text>NARDIN RAFFAELE P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5317562</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5317562</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="114">
+          <text>LIANG CHAO-YU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5319644</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5319644</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Allen, M., "Novell IPX Over Various WAN Media (IPXW AN)," Network Working Group, RFC 1551, Dec. 1993, pp. 1-22.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Becker, D., "3c589.c: A 3c589 EtherLink3 ethernet driver for linux," becker @CESDIS.gsfc.nasa.gov, May 3, 1994, pp. 1-13.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Chowdhury, et al., "Alternative Bandwidth Allocation Algorithms for Packet Video in ATM Networks," INFOCOM 1992, pp. 1061-1068.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Doeringer, W., "Routing on Longest-Matching Prefixes," IEEE/ACM Transactions in Networking, vol. 4, No. 1, Feb. 1996, pp. 86-97.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>Esaki, et al., "Datagram Delivery in an ATM-Internet," 2334b IEICE Transactions on Communications, Mar. 1994, No. 3, Tokyo, Japan.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>IBM Corporation, "Method and Apparatus for the Statistical Multiplexing of Voice, Data and Image Signals," IBM Technical Disclosure Bulletin, No. 6, Nov. 1992, pp. 409-411.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>Pei, et al., "Putting Routing Tables in Silicon," IEEE Network Magazine, Jan. 1992, pp. 42-50.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Perkins, D., "Requirements for an Internet Standard Point-to-Point Protocol," Network Working Group, RFC 1547, Dec. 1993, pp. 1-19.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="9">
+          <text>Simpson, W., "The Point-to-Point Protocol (PPP)," Network Working Group, RFC 1548, Dec. 1993, pp. 1-53.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="10">
+          <text>Zhang, et al., "Rate-Controlled Static-Priority Queueing," INFOCOM 1993, pp. 227-236.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="11">
+          <text>William Stallings, Data and Computer Communications, pp: 329-333, Prentice Hall, Upper Saddle River, New Jersey 07458, 1997.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Cisco Technology, Inc.</orgname>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>CISCO TECHNOLOGY</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Farinacci, Dino</name>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Cesari and McKenna, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Maung, Zarni</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      The invention provides a method and system for multicast group routing using unidirectional links.
+      <br/>
+      A set of uplink routers and a set of downlink routers provide a primary unidirectional distribution path from a set of sources to a set of destinations.
+      <br/>
+      A relatively smaller reverse communication channel is provided between the destinations and the sources.
+      <br/>
+      When a destination desires to add itself to, or take itself off, a multicast distribution group, one of the downlink routers acts as a proxy for that destination and so informs the relevant source.
+      <br/>
+      The selection of the proxy reporter for downlink routers or the querier for uplink routers does not require bi-directional communication between either of them, respectively.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">This invention relates to multicast packet routing.</p>
+    <p num="3">2. Related Art</p>
+    <p num="4">
+      In a computer network, it is often desirable to transmit messages from a single source to a selected plurality of destinations.
+      <br/>
+      This activity is often referred to as "multicast routing." It is further desirable for the plurality of destinations to be capable of self-selection, so as to add themselves to, or to take themselves off, multicast distribution groups.
+    </p>
+    <p num="5">
+      One method in the known art is the IGMP (Internet Group Management Protocol), in which messages are transmitted from a single source to a plurality of destinations, and in which destination devices can add themselves to, or take themselves off, multicast distribution groups.
+      <br/>
+      One problem with IGMP is that it uses bi-directional communication between routing devices (that receive messages from the source device) and the destination devices, so that routing devices intermediate between the source and destinations can determine how to route multicast messages.
+      <br/>
+      IGMP is not well suited when a primary communication path between the source and the destinations is unidirectional, such as in distribution systems using satellite communication.
+    </p>
+    <p num="6">
+      Accordingly, it would be desirable to provide a method and system for multicast group routing using unidirectional links.
+      <br/>
+      This advantage is achieved in an embodiment of the invention in which a set of uplink routers and a set of downlink routers provide a unidirectional distribution path from a set of sources to a set of destinations, and in which some (but not all) downlink routers act as proxies for others to inform uplink routers whether distribution should occur over that unidirectional distribution path.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">
+      The invention provides a method and system for multicast group routing using unidirectional links.
+      <br/>
+      A set of uplink routers and a set of downlink routers provide a primary unidirectional distribution path from a set of sources to a set of destinations.
+      <br/>
+      A relatively smaller reverse communication channel is provided between the destinations and the sources.
+      <br/>
+      When a destination desires to add itself to, or take itself off, a multicast distribution group, one of the downlink routers acts as a proxy for that destination and so informs the relevant source.
+      <br/>
+      The selection of the proxy does not require bi-directional communication between either uplink routers or downlink routers.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="8">
+      FIG. 1 shows a block diagram of a system for multicast group routing using unidirectional links.
+      <br/>
+      FIG. 2 shows a process flow diagram for a method of operating a system for multicast group routing using unidirectional links.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="9">
+      In the following description, a preferred embodiment of the invention is described with regard to preferred process steps and data structures.
+      <br/>
+      Those skilled in the art would recognize after perusal of this application that embodiments of the invention can be implemented using circuits adapted to particular process steps and data structures described herein, and that implementation of the process steps and data structures described herein would not require undue experimentation or further invention.
+    </p>
+    <p num="10">System Elements</p>
+    <p num="11">FIG. 1 shows a block diagram of a system for multicast group routing using unidirectional links.</p>
+    <p num="12">A system 100 includes a set of source devices 110, a set of uplink routers 120, a unidirectional communication pathway 130, a set of downlink routers 140, a set of destination devices 150, and a reverse communication channel 160.</p>
+    <p num="13">
+      As used herein, a "source device" includes any device taking on the role of a source in a multicast environment.
+      <br/>
+      There is no particular requirement that the source devices 110 must be individual devices; they can each be a single device, a set of cooperating devices, a portion of a device, or some combination thereof.
+    </p>
+    <p num="14">
+      Similarly, as used herein, a "destination device" includes any device taking on the role of a destination in a multicast environment, such as using IGMP or a similar protocol.
+      <br/>
+      There is no particular requirement that the destination devices 150 must be individual devices; they can each be a single device, a set of cooperating devices, a portion of a device, or some combination thereof.
+    </p>
+    <p num="15">
+      Each source device 110 is coupled to an uplink router 120 using a communication pathway 111, such as a direct communication link, a LAN (local area network), a WAN (wide area network), a network using IP (such as the internet), or some combination thereof.
+      <br/>
+      Each source device 110 is associated with an uplink router 120, and is disposed for bi-directional communication with its associated uplink router 120.
+    </p>
+    <p num="16">
+      Each uplink router 120 is coupled to the unidirectional communication pathway 130 and is disposed for transmitting messages using the unidirectional communication pathway 130.
+      <br/>
+      Each uplink router 120 is also disposed for receiving messages using the reverse communication channel 160 or using a (relatively limited) reverse communication capability of the unidirectional communication pathway 130.
+    </p>
+    <p num="17">
+      An uplink router 120 can be coupled to more than one unidirectional communication pathway 130 if the system 100 includes more than one unidirectional communication pathway 130.
+      <br/>
+      In this case, the uplink router 120 identifies multicast messages sent using one of the unidirectional communication pathways 130 to indicate which uplink router 120 and which unidirectional communication pathway 130 is being used.
+    </p>
+    <p num="18">An uplink router 120 can also perform a unicast communication protocol that doe s not require bi-directional communication, using the unidirectional communication pathway 130.</p>
+    <p num="19">The unidirectional communication pathway 130 is disposed for communicating messages from uplink routers 120 to downlink routers 140.</p>
+    <p num="20">
+      In a preferred embodiment, the unidirectional communication pathway 130 comprises a satellite communication system, the uplink routers 120 comprise uplink transmitters in the satellite communication system, and the downlink routers 140 comprise downlink transmitters in the satellite communication system.
+      <br/>
+      Thus, each uplink transmitter is disposed for transmitting, but not necessarily for receiving; similarly, each downlink transmitter is disposed for receiving, but not necessarily for transmitting.
+    </p>
+    <p num="21">Each downlink router 140 is coupled to the unidirectional communication pathway 130 and is disposed for receiving messages using the unidirectional communication pathway 130.</p>
+    <p num="22">
+      The unidirectional communication pathway 130 is described herein as being disposed for communicating messages from uplink routers 120 to downlink routers 140, and the invention does not rely on any other capability of the unidirectional communication pathway 130.
+      <br/>
+      However, there is no particular requirement that the unidirectional communication pathway 130 is limited to that capability.
+      <br/>
+      For example, the unidirectional communication pathway 130 can have a relatively limited capability for communication in a reverse direction, and thus serve as part of or in cooperation with the reverse communication channel 160.
+    </p>
+    <p num="23">
+      For example, in an embodiment where the unidirectional communication pathway 130 comprises a satellite communication system, it is possible for uplink routers 120 and downlink routers 140 to be co-located or logically coupled, so that a single device can have both capabilities and possibly perform both functions.
+      <br/>
+      Similarly, it is possible for some of the source devices 110 and some of the destination devices 150 to be co-located or logically coupled, so that 3 single device can have both capabilities and possibly perform both functions.
+    </p>
+    <p num="24">
+      Each destination device 150 is coupled to a downlink router 140 using a communication pathway 151 similar to the communication pathway 111.
+      <br/>
+      Each destination device 150 is similarly associated with a downlink router 140, and is disposed for bi-directional communication with its associated downlink router 140.
+    </p>
+    <p num="25">
+      A reverse communication channel 160 couples each downlink router 140 to each uplink router 120, so that the downlink routers 140 can send messages to the uplink routers 120.
+      <br/>
+      In a preferred embodiment, the reverse communication channel 160 is similar to the communication pathway 111.
+    </p>
+    <p num="26">The reverse communication channel 160 can also be unidirectional (in the reverse of the unidirectional communication pathway 130), but there is no particular requirement that the reverse communication channel 160 be either bi-directional or unidirectional.</p>
+    <p num="27">
+      The reverse communication channel 160 need not have a particularly wide bandwidth, as the number, frequency, and size of messages to be transmitted using the reverse communication channel 160 is expected to be relatively minor.
+      <br/>
+      However, there is no particular requirement that the reverse communication channel 160 be either fast or slow, or wide bandwidth or narrow bandwidth.
+    </p>
+    <p num="28">Method of Operation</p>
+    <p num="29">FIG. 2 shows a process flow diagram for a method of operating a system for multicast group routing using unidirectional links.</p>
+    <p num="30">A method 200 is performed by the system 100, including the source devices 110, the uplink routers 120, the unidirectional communication pathway 130, the downlink routers 140, the destination devices 150, and the reverse communication channel 160.</p>
+    <p num="31">Transmitting Multicast Messages</p>
+    <p num="32">At a flow point 210, one of the source devices 110 is ready to send multicast messages to selected destination devices 150.</p>
+    <p num="33">At a step 211, one of the source devices 110 sends a message to its associated uplink router 120 for multicast distribution.</p>
+    <p num="34">
+      At a step 212, the associated uplink router 120 determines if there are any destination devices 150 that are group members associated with the group that is the target for the message and coupled to associated downlink routers 140.
+      <br/>
+      If so, the associated uplink router 120 transmits the message using the unidirectional communication pathway 130.
+    </p>
+    <p num="35">
+      At a step 213, the downlink routers 140 receive the multicast message using the unidirectional communication pathway 130.
+      <br/>
+      Each particular downlink router 140 determines if there are any destination devices 150 that are group members associated with the group that is the target for the message, and associated with that particular downlink router 140.
+      <br/>
+      Each particular downlink router 140 discards the message if it does not have any such associated destination devices 150.
+    </p>
+    <p num="36">At a step 214, each downlink router 140 determines if it has one or more associated destination devices 150 that are selected for receipt of the multicast message.</p>
+    <p num="37">At a step 215, each downlink router 140, forwards the multicast message to those associated destination devices 150 selected for receipt, if any.</p>
+    <p num="38">At a flow point 220, the multicast messages have been delivered to selected destination devices 150.</p>
+    <p num="39">Adding Destinations to Multicast Groups</p>
+    <p num="40">At a flow point 230, one particular destination device 150 is ready to add itself to a multicast group.</p>
+    <p num="41">At a step 231, the destination device 150 sends an IGMP Report message (that is, a request to be added to a multicast group), to its associated downlink router 140.</p>
+    <p num="42">At a step 232, the associated downlink router 140 adds the particular destination device 150 to its distribution list for that group.</p>
+    <p num="43">
+      At a step 233, the associated downlink router 140 determines if there is any reason for it to report the addition to the multicast group.
+      <br/>
+      There is no reason for the associated downlink router 140 to make any report for either of the following conditions:
+    </p>
+    <p num="44">The uplink router 120 is already transmitting multicast message for the indicated group. or</p>
+    <p num="45">The downlink router 140 is already receiving and distributing multicast messages for the indicated group.</p>
+    <p num="46">
+      These two conditions are functionally the same.
+      <br/>
+      There is also no reason for the associated downlink router 140 to report the addition if another downlink router 140 is already a proxy reporter for the indicated multicast group.
+    </p>
+    <p num="47">
+      In any of these cases where no action is required, the associated downlink router 140 takes no further action, and the method 200 proceeds with the flow point 240.
+      <br/>
+      If not, the method 200 proceeds with the next step.
+    </p>
+    <p num="48">At a step 234, the associated downlink router 140 sends an IGMP Report message to the uplink router 120 associated with that multicast group, using the reverse communication channel 160.</p>
+    <p num="49">
+      In a preferred embodiment, the downlink router 140 sending the IGMP Report message uses an IP address for the uplink router 120 as the destination IP address for the uplink router 120.
+      <br/>
+      The destination IP address is not equal to the IP address for the interface the uplink router 120 has to the unidirectional communication pathway 130.
+      <br/>
+      Thus, the IGMP Report message is transmitted using the reverse communication channel 160.
+      <br/>
+      In the IGMP Report message, the downlink router 140 includes its own IP address for the unidirectional communication pathway 130 as the source IP address for the IGMP Report message.
+    </p>
+    <p num="50">In a preferred embodiment, the uplink router 120 should be configured so that all downlink routers 140 coupled thereto using the unidirectional communication pathway 130 are on the same subnet.</p>
+    <p num="51">
+      At a step 235, the associated uplink router 120 receives the IGMP Report message and adds the interface the uplink router 120 has to the unidirectional communication pathway 130 to its distribution list for the multicast group.
+      <br/>
+      The uplink router 120 can determine which such interface to a unidirectional communication pathway 130 to use in response to the source IP address in the IGMP Report message.
+      <br/>
+      Thereafter, the uplink router 120 receives and distributes messages for that multicast group using the unidirectional communication pathway 130.
+    </p>
+    <p num="52">
+      At a step 236, the associated uplink router 120 transmits the IGMP Report message using the unidirectional communication pathway 130.
+      <br/>
+      All downlink routers 140 thus receive a copy of the IGMP Report message.
+    </p>
+    <p num="53">At a step 237, each downlink router 140 note that the downlink router 140 that initiated the IGMP Report message is the proxy reporter for all IGMP Report messages for that multicast group.</p>
+    <p num="54">At a flow point 240, the particular destination device 150 has been added to the multicast group.</p>
+    <p num="55">Removing Destinations from Multicast Groups</p>
+    <p num="56">At a flow point 250, one particular destination device 150 is ready to leave a multicast group.</p>
+    <p num="57">At a step 251, the destination device 150 sends an IGMP Leave message (that is, a request to leave a multicast group), to its associated downlink router 140.</p>
+    <p num="58">
+      At a step 252, the associated downlink router 140 removes the output interface associated with the particular destination device 150 from its distribution list for that group if there are no more group members associated with that output interface.
+      <br/>
+      If not, the associated downlink router 140 takes no further action, and the method 200 proceeds with the flow point 260.
+      <br/>
+      If so, the method 200 proceeds with the next step.
+    </p>
+    <p num="59">
+      At a step 253, the associated downlink router 140 determines if another downlink router 140 is already a proxy reporter for the indicated multicast group.
+      <br/>
+      If so, the downlink router 140 takes no further action, and the method 200 proceeds with the flow point 260.
+      <br/>
+      If not, the method 200 proceeds with the next step.
+    </p>
+    <p num="60">At a step 254, the associated downlink router 140 sends an IGMP Leave message to the uplink router 120 associated with that multicast group, using the reverse communication channel 160.</p>
+    <p num="61">At a step 255, the uplink router 120 associated with that multicast group, after a (relatively small) period of time, removes the unidirectional interface if no other downlink router 140 sends an IGMP Report message (thus becoming a new proxy reporter).</p>
+    <p num="62">
+      At a step 256, the uplink router 120 transmits the IGMP Leave message using the unidirectional communication pathway 130.
+      <br/>
+      All downlink routers 140 thus receive a copy of the IGMP Leave message.
+    </p>
+    <p num="63">
+      At a step 257, each downlink router 140 determines that the proxy reporter for that multicast group is no longer performing that function.
+      <br/>
+      As a consequence, another one of the downlink routers 140 is selected as a proxy reporter.
+      <br/>
+      This occurs when the next downlink router 140 sends an IGMP Report message.
+      <br/>
+      It is expected that the next downlink router 140 to be selected as the proxy reporter will be randomly distributed among the downlink routers 140.
+    </p>
+    <p num="64">At a flow point 260, the particular destination device 150 has left the indicated multicast group.</p>
+    <p num="65">IGMP Query Messages</p>
+    <p num="66">At a flow point 270, the uplink routers 120 are ready to send IGMP Query messages.</p>
+    <p num="67">
+      At a step 271, each uplink router 120 sends an IGMP Query message, using the unidirectional communication pathway 130.
+      <br/>
+      Each uplink router 120 does not receive the IGMP Query messages sent by each other uplink router 120.
+    </p>
+    <p num="68">At a step 272, each downlink router 140 receives the IGMP Query message, and notes the status of a single elected uplink querier.</p>
+    <p num="69">
+      At a step 273, each downlink router 140 sets its RPF interface, for all sources, in response to the IGMP Query message sent by the elected uplink querier.
+      <br/>
+      However, the unicast interface is not Necessarily the same interface as the multicast interface between each particular downlink router 140 and each particular uplink router 120.
+    </p>
+    <p num="70">At a step 274, each downlink router 140 selects one of the uplink routers 120 as the destination for IGMP helpered reports.</p>
+    <p num="71">
+      In a preferred embodiment, each downlink router 140 selects the uplink routers 120 with the lowest IP address as the elected uplink querier.
+      <br/>
+      However, in alternative embodiments, other techniques could be used that each downlink router 140 can determine individually and that result in consensus among the downlink routers 140 as to which uplink router 120 should be the elected uplink querier.
+    </p>
+    <p num="72">At a step 275, when the downlink routers 140 each determine that any uplink router 120 is no longer sending IGMP Query messages (such as due to a service interruption or configuration charge), each such downlink router 140 selects a new elected uplink querier for each multicast group.</p>
+    <p num="73">At a flow point 280, the IGMP Query messages have been processed.</p>
+    <p num="74">Alternative Embodiments</p>
+    <p num="75">Although preferred embodiments are disclosed herein, many variations are possible which remain within the concept, scope, and spirit of the invention, and these variations would become clear to those skilled in the art after perusal of this application.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method, comprising the following steps:</claim-text>
+      <claim-text>transmitting multicast messages from a set of sending devices to a set of uplink routers; transmitting said multicast messages from said set of uplink routers to a set of downlink routers, using a substantially unidirectional communication path; transmitting said multicast messages from said set of downlink routers to a set of destination devices;</claim-text>
+      <claim-text>and altering distribution of said multicast messages from said set of sending devices to said set of destination devices using a multicast group management protocol, said steps for altering including communicating protocol messages from said set of downlink routers to said set of uplink routers using a reverse communication path, said reverse communication path having substantially less bandwidth than said substantially unidirectional communication path, wherein one of said downlink routers acts as a proxy for said set of downlink routers, the altering of the distribution of the multicast messages also involving changing a membership status of at least one destination device in the set of destination devices, the membership status being with regard to membership in at least one of a plurality of multicast message destination groups, the changing of the membership status being initiated by transmission by the one destination device to one downlink router associated with the one destination device of a request to change the membership status, the one downlink router reporting the request to one uplink router associated with the group, unless at least one predetermined condition exists, via the reverse communication path.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A method according to claim 1, wherein the condition comprises the one uplink router already transmitting multicast messages associated with the group.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method according to claim 1, wherein the condition comprises the one downlink router already receiving and distributing multicast messages associated with the group.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A method according to claim 1, wherein the condition comprises another downlink router being a proxy reporter for the group.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A method, comprising the following steps: transmitting multicast messages from a set of sending devices to a set of uplink routers; transmitting said multicast messages from said set of uplink routers to a set of downlink routers, using a substantially unidirectional communication path; transmitting said multicast messages from said set of downlink routers to a set of destination devices;</claim-text>
+      <claim-text>and altering distribution of said multicast messages from said set of sending devices to said set of destination devices using a multicast group management protocol, said steps for altering including communicating protocol messages from said set of downlink routers to said set of uplink routers using a reverse communication path, said reverse communication path having substantially less bandwidth than said substantially unidirectional communication path, wherein one of said uplink routers acts as an elected querier for said set of uplink routers, the altering of the distribution of the multicast messages also involving changing a membership status of at least one destination device in the set of destination devices, the membership status being with regard to membership in at least one of a plurality of multicast message destination groups, the changing of the membership status being initiated by transmission by the one destination device to one downlink router associated with the one destination device of a request to change the membership status, the one downlink router reporting the request to one uplink router associated with the group, unless at least one predetermined condition exists, via the reverse communication path.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method according to claim 5, wherein the condition comprises the one uplink router already transmitting multicast messages associated with the group.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A method according to claim 5, wherein the condition comprises the one downlink router already receiving and distributing multicast messages associated with the group.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method according to claim 5, wherein the condition comprises another downlink router being a proxy reporter for the group.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A system comprising: a receiver that receives multicast messages transmitted from uplink routers via a substantially unidirection communication path; a transmitter that transmits the messages received from the uplink routers to destination devices;</claim-text>
+      <claim-text>and the system being able to effect an alteration in distribution of the messages to the destination devices using a multicast group protocol, the system effecting the alteration by communicating protocol messages to the uplink routers using a reverse communication path having substantially less bandwidth than said substantially unidirectional communication path, the alteration involving changing a membership status of at least one destination device, the membership status being with regard to membership in at least one of a plurality of multicast message destination groups, the changing of the membership status being initiated by transmission by the one destination device to the system of a request to change the membership status, the system reporting the request to one uplink router associated with the group, unless at least one predetermined condition exists, via the reverse communication path.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A system according to claim 9, wherein the condition comprises the one uplink router already transmitting multicast messages associated with the group.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. Apparatus comprising: means for receiving multicast messages transmitted from uplink routers via a substantially unidirection communication path; means for transmitting the messages received from the uplink routers to destination devices;</claim-text>
+      <claim-text>and means for effecting an alteration in distribution of the messages to the destination devices using a multicast group protocol, the system effecting the alteration by communicating protocol messages to the uplink routers using a reverse communication path having substantially less bandwidth than said substantially unidirectional communication path, the alteration involving changing a membership status of at least one destination device, the membership status being with regard to membership in at least one of a plurality of multicast message destination groups, the changing of the membership status being initiated by transmission by the one destination device to the system of a request to change the membership status, the system reporting the request to one uplink router associated with the group, unless at least one predetermined condition exists, via the reverse communication path.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. Apparatus according to claim 11, wherein the condition comprises the one uplink router already transmitting multicast messages associated with the group.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184548B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184548</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184548</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="21788034" extended-family-id="42042486">
+      <document-id>
+        <country>US</country>
+        <doc-number>09257837</doc-number>
+        <kind>A</kind>
+        <date>19990225</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09257837</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43073553</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>25783799</doc-number>
+        <kind>A</kind>
+        <date>19990225</date>
+        <priority-active-indicator>N</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09257837</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="2">
+        <country>US</country>
+        <doc-number>1845798</doc-number>
+        <kind>A</kind>
+        <date>19980204</date>
+        <priority-linkage-type>3</priority-linkage-type>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="2">
+        <doc-number>1998US-09018457</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H01L  27/108       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>01</class>
+        <subclass>L</subclass>
+        <main-group>27</main-group>
+        <subgroup>108</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>257301000</text>
+        <class>257</class>
+        <subclass>301000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>257303000</text>
+        <class>257</class>
+        <subclass>303000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>257306000</text>
+        <class>257</class>
+        <subclass>306000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>257E27084</text>
+        <class>257</class>
+        <subclass>E27084</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H01L-027/108</text>
+        <section>H</section>
+        <class>01</class>
+        <subclass>L</subclass>
+        <main-group>27</main-group>
+        <subgroup>108</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H01L-027/108</classification-symbol>
+        <section>H</section>
+        <class>01</class>
+        <subclass>L</subclass>
+        <main-group>27</main-group>
+        <subgroup>108</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>23</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>8</number-of-drawing-sheets>
+      <number-of-figures>11</number-of-figures>
+      <image-key data-format="questel">US6184548</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">DRAM cell and array to store two-bit data having merged stack capacitor and trench capacitor</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>HARA TAKAHIKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5293055</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5293055</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>SUH JUNG WON</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5814851</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5814851</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>CHI MIN-HWA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5909619</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5909619</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>MASHIKO KOICHIRO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4896197</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4896197</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>KIM SEONG-TAE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5066608</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5066608</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>KANG YOUNGTAE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5146425</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5146425</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>KIM SEONG-TAE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5217918</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5217918</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>AN TAE-HYEOK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5234854</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5234854</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>MORITA SHIGERU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5410509</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5410509</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>JEON JUN-YOUNG</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5455192</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5455192</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>"The Evolution of DRAM Cell Technology" by B. El-Kareh et al, Solid State Technology, May 1997, pp. 89-101.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <related-documents>
+      <division>
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>US</country>
+              <doc-number>1845798</doc-number>
+              <kind>A</kind>
+              <date>19980204</date>
+            </document-id>
+          </parent-doc>
+        </relation>
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>US</country>
+              <doc-number>5920785</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </parent-doc>
+        </relation>
+      </division>
+    </related-documents>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Vanguard International Semiconductor Corporation</orgname>
+            <address>
+              <address-1>Hsin-Chu, TW</address-1>
+              <city>Hsin-Chu</city>
+              <country>TW</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>TW</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>VANGUARD INTERNATIONAL SEMICONDUCTOR</orgname>
+          </addressbook>
+          <nationality>
+            <country>TW</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Chi, Min-Hwa</name>
+            <address>
+              <address-1>Hsinchu, TW</address-1>
+              <city>Hsinchu</city>
+              <country>TW</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>TW</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Cherng, George Meng-Jaw</name>
+            <address>
+              <address-1>Hsinchu, TW</address-1>
+              <city>Hsinchu</city>
+              <country>TW</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>TW</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Saile, George O.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Ackerman, Stephen B.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Knowles, Billy J.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Chaudhuri, Olik</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A twin bit DRAM cell capable of storing two bits of digital data as stored charge within the DRAM cell is disclosed.
+      <br/>
+      The twin bit DRAM cell has two pass transistors, a trench capacitor, and a stack capacitor.
+      <br/>
+      The pass transistors each have a source connected to a bit line voltage generator to control placement of the charge within the twin bit DRAM cell, a gate connected to a word line voltage generator to control activation of the DRAM cells, and a drain.
+      <br/>
+      The trench capacitor has a top plate connected to the drain of the first pass transistor and a bottom plate connected to a first biasing voltage source.
+      <br/>
+      The stack capacitor has a first plate connected to the drain of the second pass transistor and a second plate connected to a second biasing voltage generator.
+      <br/>
+      Twin bit DRAM cells will be arranged in a plurality of rows and columns to form an array of twin bit DRAM cells.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <p num="1">
+      This is a division of patent application Ser.
+      <br/>
+      No. 09/018,457, filing date Feb. 4, 1998, now U.S. Pat. No. 5,920,785 A Dram Cell Adn Array To Store Two-Bit Data Having Merged Stack Capacitor And Trench Capacitor, assigned to the same assignee as the present invention.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="3">This invention relates to the dynamic random access memories (DRAM) and more particularly to the structures and methods of fabrication of DRAM's storing multiple data bits per DRAM cell.</p>
+    <p num="4">2. Description of Related Art</p>
+    <p num="5">
+      The fabrication and structure of DRAM cells and DRAM arrays are well known in the art.
+      <br/>
+      Typical cell structures for high density DRAM in prior art is composed of one transistor M1 70 for switching charges and one storage capacitor C 65 for storing charges is illustrated in FIGS. 1a and 1c. The transistor M1 70 will be an n-MOS transistor fabricated as shown in FIGS. 1b and 1c. A deep N-well 10 will be formed in a p-type substrate 5.
+      <br/>
+      The area for DRAM cells will be formed as openings during the formation of insulation.
+      <br/>
+      The insulation is formed by the local oxidation of the silicon substrate (LOCOS) 20. Within the deep n-well 10 a shallower p-well 15 will be formed.
+      <br/>
+      The gate 40 of the n-MOS transistor M1 70 will be formed as a conductive material such as polysilicon placed over an insulating gate oxide 35 to define the channel area that will be between the drain 30 and source 25 of the n-MOS transistor M1 70.
+    </p>
+    <p num="6">
+      The drain 30 and the source 25 will be formed by masking the semiconductor substrate 5 and implanting an N+ material to form the N+ drain 30 and the N+ source 25.
+      <br/>
+      The gate 40 of the MOS transistor M1 70 will be connected to the word line control circuitry (not shown).
+    </p>
+    <p num="7">
+      The capacitor C 25 is formed by placing a conductive metal connected to the substrate biasing voltage source Vss on a dielectric placed over the N+ drain of the transistor M1 70.
+      <br/>
+      The capacitor C 25 as shown is diagrammatic.
+      <br/>
+      The particular structure of the capacitor C 25 is well known and shown in "The Evolution Of DRAM Cell Technology" by B. El-Kareh et al., Solid State Technology, May 1997, pp. 89-101. In order to maintain the minimum storage capacitance of 30-40 fF of a cell, the structure of the DRAM cell results in complex semiconductor processing to develop these structures.
+    </p>
+    <p num="8">
+      Refer now to FIGS. 1c and 1d, The trench capacitor CT 165 is formed by etching a deep trench 167 in the surface of the semiconductor substrate 105.
+      <br/>
+      An N+ material is implanted in the surface of the trench 167 and to the N+ drain 130 to form an N+ strap 152.
+      <br/>
+      An insulating material such as oxidized silicon nitride ONO, silicon dioxide, or silicon nitride will then be deposited on the surface of the trench 167 to form the capacitor dielectric 155.
+      <br/>
+      A conductive material such as polysilicon will be deposited in the trench 167 to fill the trench 167.
+      <br/>
+      The polysilicon "plug" 160 will then be attached to the substrate biasing voltage source Vss 175 to form a bottom plate of the capacitor CT 165.
+      <br/>
+      The top plate of the capacitor CT 165 will be the N+ diffusion 150 that is connected by the N+ strap 152 to the N+ drain 130 of the MOS transistor M1 170.
+      <br/>
+      Again FIG. 1d is diagrammatic.
+      <br/>
+      The particular structure is well known in the art and illustrated in B. El-Kareh et al.
+    </p>
+    <p num="9">
+      The deep n-well 110 is typically biased to the power supply voltage source Vcc (i.e. the highest potential on chip) and the p-well is biased to substrate biasing voltage source Vss 175 (i.e. the lowest voltage on chip).
+      <br/>
+      The substrate biasing voltage source Vss 175 may be biased below ground (i.e. negative potential) so that the leakage current through the pass transistor is reduced.
+      <br/>
+      The presence of charge in the storage capacitor C 165 indicates a logical "1" and its absence of charge indicates a logical "0".
+      <br/>
+      The storage capacitor C 165 is connected to N+ drain 130 of the transistor M1170, and the other N+ source 125 of the transistor M1170 is connected to bit-line Vbit 180 that controls the reading and writing of the DRAM cell.
+      <br/>
+      The gate 140 of the MOS transistor M1 170 is connected to the word line Vword 185 to control the selection of the DRAM cell.
+    </p>
+    <p num="10">
+      U.S. Pat. No. 4,896,197 (Mashiko) describes a DRAM cell incorporating a trench capacitor to store one bit and a stack capacitor to store a second bit.
+      <br/>
+      A first pass transistor controls the charge of the trench capacitor, while a second pass transistor controls the charge of the stacked capacitor.
+      <br/>
+      The trench capacitor and the stack capacitor have a common L shaped plate between them.
+      <br/>
+      The L shaped common plate would be coupled to the substrate biasing voltage source Vss of FIGS. 1a and 1c.
+    </p>
+    <p num="11">
+      U.S. Pat. No. 5,066,608 (Kim et al.) describes a method for manufacture of a stacked-trench capacitor.
+      <br/>
+      The stacked-trench capacitor will incorporate both a trench capacitor and stack capacitor to increase the capacitance of the DRAM cell.
+    </p>
+    <p num="12">
+      U.S. Pat. No. 5,217,918 (Kim et al.) discloses an integrated semiconductor memory device incorporating stacked capacitors and combined stack-trench capacitors to form column and rows of memory cells.
+      <br/>
+      The stacked capacitors and the stack-trench capacitors are alternated to allow improved density, while preventing leakage current and soft errors.
+      <br/>
+      Again the stack capacitor and the stack-trench capacitor have a common plate that would be connected to the substrate biasing voltage source Vss of FIGS. 1a and 1c.
+    </p>
+    <p num="13">U.S. Pat. No. 5,234,854 (An et al.) describes a method for manufacturing a stack-trench capacitor.</p>
+    <p num="14">
+      U.S. Pat. No. 5,410,509 (Morita) discloses a DRAM array employing a combination of stacked capacitor memory cells and trench capacitor memory cells to form the array.
+      <br/>
+      The stacked capacitor memory cells will occupy on column of the array while the trench capacitor memory cells will occupy alternate columns of the memory array.
+      <br/>
+      The memory array will also have the stacked capacitor cells and the trench capacitor memory cells used as dummy memory cells within the array.
+      <br/>
+      The structure of the memory array is such that when the stacked capacitor memory cells are selected, the dummy stacked memory cells are selected and like wises for the trench capacitor memory cells and the dummy trench capacitor memory cells.
+    </p>
+    <p num="15">
+      U.S. Pat. No. 5,455,192 (Jeon) describes a method of fabricating a DRAM cell incorporating stacked capacitors and trench capacitors.
+      <br/>
+      The structure of the stacked capacitors and the trench capacitors is such that the stacked capacitors and the trench capacitors are connected in parallel to increase the capacitance of the DRAM cell.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="16">An object of this invention is to provide a DRAM cell capable of storing two bits of digital data as discrete levels of stored charge within the DRAM cell.</p>
+    <p num="17">Another object of this invention is to provide a DRAM cell incorporating a stacked capacitor and a trench capacitor to retain the discrete levels of charge representing the two bits of digital data.</p>
+    <p num="18">Further another object of this invention is to provide an array of DRAM cells, each DRAM cell capable of storing two bits of digital data.</p>
+    <p num="19">Still further another object of this invention is to provide a method of fabrication of a DRAM cell capable of storing two bits of digital data.</p>
+    <p num="20">
+      To accomplish these and other objects, a twin bit DRAM cell has two pass transistors, a trench capacitor, and a stack capacitor.
+      <br/>
+      The first pass transistor has a source connected to a first bit line voltage generator, a gate connected to a word line voltage generator, and a drain.
+      <br/>
+      The trench capacitor is placed in close proximity of the first pass transistor and is formed within the semiconductor substrate.
+      <br/>
+      The trench capacitor includes a top plate connected to the drain of the first pass transistor, a bottom plate connected to a first biasing voltage source, and a first capacitor dielectric separating the top and bottom plates.
+    </p>
+    <p num="21">
+      The second pass transistor has a source connected to a second bit line voltage generator, a gate connected to a word line voltage generator, and a drain.
+      <br/>
+      The stack capacitor is formed above the trench capacitor on the semiconductor substrate.
+      <br/>
+      The stack capacitor has a first plate connected to the drain of the second pass transistor, a second plate connected to a second biasing voltage source, and a second capacitor dielectric separating the first and second plates.
+      <br/>
+      An insulating layer isolates the stack capacitor from the trench capacitor.
+    </p>
+    <p num="22">
+      The twin bit DRAM cell will be formed into an integrated circuit memory.
+      <br/>
+      The integrated circuit memory will have a plurality of twin bit DRAM cells arranged in a plurality of rows and columns.
+    </p>
+    <p num="23">
+      The integrated circuit memory will have a plurality of word lines such that each word line is located on each row of the twin bit DRAM cells and connected to the gates of the pass transistors on each row of the twin bit DRAM cells.
+      <br/>
+      Further, the integrated circuit memory will have a plurality of bit lines.
+      <br/>
+      A pair of bit lines is located at the boundary of each column of twin bit DRAM cells.
+      <br/>
+      One bit line is connected to the source of the first pass transistor of each twin bit DRAM cell on each column of twin bit DRAM cells and the other bit line of the pair of bit lines is connected to the source of the second pass transistor of each twin bit DRAM cell on each column of twin bit DRAM cells.
+    </p>
+    <p num="24">There is a plurality of word line control circuits coupled to each word line to select all the twin bit DRAM cells of one row of twin bit DRAM cells, and a plurality of bit line control circuits connected to one bit line to establish a necessary bit line voltage level during a writing and reading of the twin bit DRAM cells on a column of twin bit DRAM cells.</p>
+    <p num="25">
+      The integrated circuit memory will have a plurality of sense amplifiers such that each sense amplifier is connected to one bit line to sense a level of charge representing the two bits of digital data retained within the twin bit DRAM cell.
+      <br/>
+      A peripheral control circuit will provide control signals for the plurality of word line control circuits, bit line control circuits, twin bit sense amplifiers, and coupling-gate control circuits.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="26">
+      FIGS. 1a and 1b show a schematic diagram and a cross sectional view of a stack capacitor DRAM cell of the prior art.
+      <br/>
+      FIGS. 1c and 1d show a schematic diagram and a cross sectional view of a trench capacitor DRAM cell of the prior art.
+      <br/>
+      FIGS. 2a and 2b show schematic diagrams of a twin bit DRAM cell of this invention.
+      <br/>
+      FIG. 3 shows a cross sectional view of a twin bit DRAM cell of this invention.
+      <br/>
+      FIG. 4 shows a partial schematic of an array of twin bit DRAM cells of this invention configured for twin bit read operation.
+      <br/>
+      FIG. 5 shows a partial schematic of an array of twin bit DRAM cells of this invention configured for single bit read operation configured with differential sense amplifiers.
+      <br/>
+      FIG. 6 shows a partial schematic of an array of twin bit DRAM cells of this invention configured for single bit read operations with latched type sense amplifiers.
+      <br/>
+      FIG. 7 is a process flow diagram of the fabrication of twin bit DRAM cells on a semiconductor substrate of this invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="27">
+      Refer now to FIGS. 2a and 2b to understand the structure of the twin bit DRAM cell of this invention.
+      <br/>
+      The n-MOS transistor M1a 200 acts as a pass transistor to control the transfer the digital data in the form of an electrical Charge from the bit line BLa 220 to the top plate of the trench capacitor CT 210.
+      <br/>
+      The bulk of the transistor M1A 200 and the bottom plate of the trench capacitor 210 will be connected to a first biasing voltage source Vb1 240.
+    </p>
+    <p num="28">
+      The n-MOS transistor M1b 205 will act as a pass transistor to control the transfer of digital data in the form of electrical charge to the first plate of the stack capacitor Cs 215.
+      <br/>
+      The second plate of the stack capacitor Cs 215 will be connected to the second biasing voltage source Vb2 245.
+      <br/>
+      The bulk of the n-MOS transistor M1b 205 will be connected to the first biasing voltage source Vb1 240.
+    </p>
+    <p num="29">
+      The gates of the n-MOS transistors M1a 200 and M1b 205 will be connected the word line 250.
+      <br/>
+      To activate the pass transistors M1a 200 and M1b 205, the word line voltage generator Vword 255 will be set to a boosted voltage level Vh, that exceeds the level of the power supply voltage source (Vcc) by at least the threshold voltage level (VT) of the pass transistors M1a 200 and M1b 205.
+    </p>
+    <p num="30">To write digital data to the trench capacitor Ct 210 and the stack capacitor Cs 215, the bit line voltage generators VBITA 230 and VBITB 235 will be respectively placed at a voltage level approaching the ground reference voltage potential (0V) to represent a first logic level (0), or a voltage level approaching the power supply voltage source (Vcc) to represent a second logic level (1).</p>
+    <p num="31">
+      The trench capacitor Ct 210 and the stack capacitor Cs 215 may not have exactly the same in magnitude of capacitance due to process variations, such as dielectric thickness, trench opening or depth.
+      <br/>
+      Therefore, if the bit line voltage generators VBITA 230 and VBITB 235 are placed at equal voltage levels (either the first logic level (0) or the second logic level (1)) during write operation, the amount of charge stored in either trench capacitor Ct 210 and the stack capacitor Cs 215 is not the same.
+      <br/>
+      This inequality of the stored signal charge causes problems of with the speed of the detecting or sensing the charge.
+      <br/>
+      The capacitor (trench capacitor Ct 210 and the stack capacitor Cs 215) with the lessor charge, will have its charge sensed slower.
+      <br/>
+      With first biasing voltage source Vb1 240 and the second biasing voltage source Vb2 245 separately biased on capacitor plates, the charge storage in each cell can be force to the same level.
+      <br/>
+      That is by setting the charge of the second logic level (1) in the stack capacitor Cs 215 to the value of (Vcc -Vb2) * Cs equal to the charge for the second logic level (1) in trench capacitor Ct 210.
+      <br/>
+      The level of the charge of the trench capacitor Ct 210 will be (Vcc -Vb1)CT.
+      <br/>
+      The relationship of the voltage levels of the first biasing voltage source Vb1 240 and the second biasing voltage source Vb2 245 will be:
+      <br/>
+      Vb2 =Vb1 (CT /CS)+Vcc (I-CT /Cs).
+    </p>
+    <p num="32">It will be obvious that if capacitance of the trench capacitor Ct 210 is equal to the capacitance of the stack capacitor Cs 215, then the first biasing voltage source Vb1 240 and the second biasing voltage source Vb2 245 will be equal.</p>
+    <p num="33">
+      In order to adjust the charge level for the second logic level (1) of the second logic level (1)) during write operation, the amount of charge stored in either trench capacitor Ct 210 and the stack capacitor Cs 215.
+      <br/>
+      The level of the first biasing voltage source Vb1 240 and the second biasing voltage source Vb2 245 will be set to 0V.
+      <br/>
+      The time for sensing or detecting the charge stored in the trench capacitor Ct 210 and the stack capacitor Cs 215 will be experimentally determined.
+      <br/>
+      If the times are significantly are systematically different, (e.g. trench capacitor Ct 210 is always larger than the stack capacitor Cs 215), then the charge stored on the stack capacitor Cs 215 will be systematically detected slower than that of the charge stored on the trench capacitor Ct 210.
+      <br/>
+      By gradually reducing the second biasing voltage source Vb2 245 (toward negative) until the charge stored on the stack capacitor Cs 215 is sensed as fast as the charge stored on the trench capacitor Ct 210.
+      <br/>
+      The second biasing voltage source Vb2 245 can be thus experimentally adjusted.
+    </p>
+    <p num="34">
+      To read the digital data from the trench capacitor CT 210 and the stack capacitor Cs 215, the bit line voltage generators VBITA 230 and VBITB 235 will precharge the bit lines BLa 220 and BLb 225 to a voltage level that is one half the level of the power supply voltage source (Vcc /2).
+      <br/>
+      Sense amplifiers (not shown) connected to each of the bit lines BLa 220 and BLb 225 will sense the presence or absence of charge respectively on the trench capacitor CT 210 and the stack capacitor Cs 215 and interpret the contents of the twin bit DRAM cell as two bits of digital data (either the first logic level (0) or the second logic level (1)).
+      <br/>
+      That is the combinations of the digital data bits will be either both bits will be the first logic level (0), both bits will be the second logic level (1), the first bit will be the first logic level (0) and the second bit will be the second logic level (1), or the first bit will be the second logic level (1) and the second bit will be the first logic level (0) for the four possible combinations of charge in the trench capacitor CT 210 and the stack capacitor Cs 215.
+    </p>
+    <p num="35">
+      The popular "latch-type" sense amplifier commonly used in DRAM is not suitable in an array of twin bit DRAM cells of this invention.
+      <br/>
+      The well-known differential sense amplifier, however, is very suitable and preferred in an array of twin bit DRAM cells of this invention.
+      <br/>
+      A typical differential sense amplifier has output that will be at the second logic level (1) if the input voltage Vin is greater than the voltage level of a reference voltage source Vref, and will be at the first logic level (0) if the input voltage Vin is less than the voltage level of the reference voltage source Vref.
+      <br/>
+      If a latch-type sense amplifier were to be used in an array of twin bit DRAM cells of this invention, the time required for the detection of the charge present on the in the trench capacitor Ct 210 and the stack capacitor Cs 215 would be very slow; the power would be large; and the sensitivity would be degraded significantly.
+    </p>
+    <p num="36">
+      Each differential sense amplifier is connected to a bit-line Bl1a 220 and Bl1b 225 and a reference voltage source Vref, which is biased to one half the power supply voltage source Vcc /2 at all times.
+      <br/>
+      After the word line voltage generator Vword 255 is biased to the voltage level Vh (&gt;Vcc +VT) and the pass transistors M1a 200 and M1b 205 have been activated, the potential of signals appears on bit-lines Bl1a 220 and Bl1b 225 and are amplified to either the second logic level (1) or the second logic level (0).
+      <br/>
+      Thus, the four levels of twin-bit data is represented by the voltage levels present at the output of the differential sense amplifiers.
+      <br/>
+      A more complete description of the operation of an array of twin bit DRAM cells of this invention is explained, hereinafter, in FIG. 4.
+    </p>
+    <p num="37">
+      The trench capacitor CT 210 is shown diagrammatically as the top plate being a polysilicon plug poly1260 in a trench that forms the bottom plate.
+      <br/>
+      Similarly, a polysilicon layer poly2265 will form the first plate of the stack capacitor Cs 215.
+      <br/>
+      The structure also demonstrates that the trench capacitor CT 210 and the stack capacitor Cs 215 will be vertically aligned with one another.
+    </p>
+    <p num="38">
+      Referring now to FIG. 3.
+      <br/>
+      The trench capacitor CT 210 is formed by deep etching a trench 302 into a surface of the p-type semiconductor substrate 300.
+      <br/>
+      A capacitor dielectric ONO1305 is deposited on the surface of the trench 302.
+      <br/>
+      The capacitor dielectric ONO1305 will be formed of insulating materials such as silicon nitride, silicon dioxide, or oxidized silicon nitride (ONO).
+      <br/>
+      The trench will be then filled with a polysilicon plug poly1260 to form the top plate of the trench capacitor CT 210.
+      <br/>
+      The bottom plate of the trench capacitor CT 210 is the p-type substrate 300.
+    </p>
+    <p num="39">
+      The pass transistors M1a 200 and M1b 205 are formed by masking the surface of the p-type substrate and depositing and insulating material to form the gate oxide 330 and 335.
+      <br/>
+      On the surface of the gate oxide 330 and 335, a polysilicon layer is deposited and etched to form the gates 332 and 337 of the pass transistors M1a 200 and M1b 205.
+      <br/>
+      The surface of the p-type semiconductor substrate 300 will be masked and implanted with an n-type impurity to form the lightly doped drains NLDD 315 and 325.
+      <br/>
+      Insulating material will be deposited on the surface of the semiconductor substrate 300 adjacent to the gates 332 and 337 to form spacers for the lightly doped drains.
+      <br/>
+      The surface of the semiconductor substrate 300, again, will be masked and implanted with an n-type impurity to form the N+ sources 310 and 320.
+    </p>
+    <p num="40">
+      A second layer of polysilicon poly2265 will be deposited to form the connection between the drain 315 of the first pass transistor M1a 200 and the top plate of the trench capacitor CT 210.
+      <br/>
+      Above the top plate of the trench capacitor CT 210, a capacitor insulating material 350 is deposited to electrically insulate the trench capacitor CT 210 and the stack capacitor Cs 215.
+    </p>
+    <p num="41">
+      The capacitor insulating material 350 has to be sufficiently thick to prevent interaction from between the trench capacitor CT 210 and the stack capacitor Cs 215.
+      <br/>
+      The thickness of the capacitor insulating material 350 typically will be approximately 2000  Angstrom .
+      <br/>
+      The trench capacitor CT 210 and the stack capacitor Cs 215 will have capacitance values on the order of 50 fF.
+      <br/>
+      The stray capacitance between the trench capacitor CT 210 and the stack capacitor Cs 215 will be much larger than the stray capacitance between the first layer of polysilicon poly1260 and second layer of polysilicon poly2265 with an insulating layer as described above for the capacitor insulating material 350.
+      <br/>
+      Thus the stray capacitance between the trench capacitor CT 210 and the stack capacitor Cs 215 will have no adverse effect.
+    </p>
+    <p num="42">The N+ source 310 is connected to the bit line BLa 230 and the N+ source 320 is connected to the bit line BLb 235.</p>
+    <p num="43">
+      The first plate of the stack capacitor Cs 215 is formed by depositing the polysilicon material poly2265 above the capacitor insulating layer 350.
+      <br/>
+      A second capacitor dielectric ONO2340 is placed over the polysilicon material poly2265.
+      <br/>
+      Depositing a third polysilicon material poly3345 on the surface of the capacitor dielectric ONO2340 forms the second plate.
+      <br/>
+      The third polysilicon material poly3345 will be extended to connect to second biasing voltage source Vb2 245.
+    </p>
+    <p num="44">Although not shown, the deep N-well 10 and shallow p-well 15 of FIGS. 1a and 1d could be optionally incorporated in the twin bit DRAM cell.</p>
+    <p num="45">
+      FIG. 4 illustrates a partial array of twin bit DRAM cells organized to provide a twin bit read operation.
+      <br/>
+      The twin bit DRAM cells Cell11400, Cell12405 and Cell21410 are arranged in rows Row1 and Row2 and columns Col1, Col2, and Col3.
+      <br/>
+      Each row Row1 or Row2 of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410 have the gates of the n-MOS transistors M1a and M1b connected to the word line of each row.
+      <br/>
+      For instance, the twin bit DRAM cells Cell11400 and Cell12405 or the first row Row1 have the gates of the n-MOS transistors M1a and M1b connected to the first word line WL1485.
+      <br/>
+      The first word line WL1485 will be connected to the word line voltage generator Vword1 435.
+      <br/>
+      The word line voltage generator Vword1 435 will selectively activate and deactivate the n-MOS transistors M1a and M1b of the twin bit DRAM cells Cell11400, and Cell12405 of the first row Row1.
+      <br/>
+      Likewise, the gates of the n-MOS transistors M1a and M1b of the twin bit DRAM cells Cell21410 on the second row Row2 will be connected to the second word line WL2490.
+      <br/>
+      The second word line WL2490 will then be connected to the second word line voltage generator Vword2 440.
+    </p>
+    <p num="46">
+      The bit lines BL1445, BL2450, BL3455, and BL4460 will be placed at the boundaries of each of the columns Col1, Col2, and Col3.
+      <br/>
+      The sources of the n-MOS transistors M1a and M1b will be connected to the individual bit lines at the opposite sides of the columns Col1, Col2, and Col3.
+      <br/>
+      An example is the twin bit DRAM cell Cell11400 is on the first column Col1.
+      <br/>
+      The source of the n-MOS transistor M1a of the twin bit DRAM cell Cell11400 is connected to the bit line BL1445, while the source of the n-MOS transistor M1b of the twin bit DRAM cell Cell11400 is connected to the bit line BL2450.
+      <br/>
+      The twin bit DRAM cell Cell21410 will have the source of the n-MOS transistor M1a connected to the bit line BL2450 and the source of the n-MOS transistor M1b is connected to the bit line BL3455.
+      <br/>
+      And, likewise, the n-MOS transistors M1a and M1b of the twin bit DRAM cell Cell12405 will be connected respectively to the bit lines BL3455 and BL4460.
+    </p>
+    <p num="47">The bit line voltage generators VBIT1 415, VBIT2 420, VBIT3 425, and VBIT4 430 will respectively be connected to the bit lines BL1445, BL2450, BL3455, and BL4460 provide the correct voltages to the bit lines BL1445, BL2450, BL3455, and BL4460 to control the flow of charges to write and read the twin bit DRAM cells Cell11400, Cell12405 and Cell21410.</p>
+    <p num="48">The sense amplifiers SA1465, SA2470, SA1475, and SA1480 will be connected to the bit lines BL1445, BL2450, BL3455, and BL4460 to sense the flow of charge from a selected cell to determine the level of charge present on the trench capacitor CT and the stack capacitor Cs of the selected cell during a read operation.</p>
+    <p num="49">
+      For example, if the twin bit DRAM cell Cell21410 is to be read, word line voltage generator Vword2 440 will be set to the voltage Vh that is boosted to a level greater than the power supply voltage source (Vcc).
+      <br/>
+      This level of voltage at the gates of the n-MOS transistors M1a and M1b will activate the n-MOS transistors M1a and M1b.
+      <br/>
+      At this time the bit line voltage generators VBIT2 420 and VBIT3 425 will have precharged the bit lines BL2450 and BL3455 respectively to the voltage level that is one half the level of the power supply voltage source (Vcc /2).
+      <br/>
+      The charge that is present on the trench capacitor CT of Cell21410 will flow to the sense amplifier SA2470 and the charge present on the stack capacitor Cs of Cell21410 will flow to the sense amplifier SA3475.
+      <br/>
+      Each sense amplifier will create the twin bit digital data represented by the charge present on the trench capacitor CT and the stack capacitor Cs of Cell21410.
+    </p>
+    <p num="50">
+      FIG. 5 illustrates a partial array of twin bit DRAM cells organized to provide a single bit read operation.
+      <br/>
+      The twin bit DRAM cells Cell11400, Cell12405 and Cell21410 are arranged in rows and columns Col1, Col2, and Col3.
+      <br/>
+      Each row of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410 have the gates of the n-MOS transistors M1a connected to the first word line WL1 485 of the row and the gates of the n-MOS transistors M1b connected to the second word line WL2 490 of the row.
+      <br/>
+      The first word line WL1485 will be connected to the word line voltage generator Vword1 435.
+      <br/>
+      The word line voltage generator Vword1 435 will selectively activate and deactivate the n-MOS transistors M1a of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410.
+      <br/>
+      Likewise, the second word line WL2490 will then be connected to the second word line voltage generator Vword2 440.
+      <br/>
+      The word line voltage generator Vword2 440 will selectively activate and deactivate the n-MOS transistors M1b of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410.
+      <br/>
+      This configuration will allow the individual bits of the twin bit DRAMS cells Cell11400, Cell12405 and Cell21410 to be written or read by selectively activating the appropriate first word line voltage generator Vword1 435 or the second word line voltage generator Vword2 440.
+    </p>
+    <p num="51">
+      The bit lines BL1445, BL2450, BL3455, and BL4460 will be placed at the boundaries of each of the columns Col1, Col2, and Col3.
+      <br/>
+      The sources of the n-MOS transistors M1a and M1b will be connected to the individual bit lines at the opposite sides of the columns Col1, Col2, and Col3.
+      <br/>
+      An example is the twin bit DRAM cell Cell11400 is on the first column Col1.
+      <br/>
+      The source of the n-MOS transistor M1a of the twin bit DRAM cell Cell11400 is connected to the bit line BL1445, while the source of the n-MOS transistor M1b of the twin bit DRAM cell Cell11400 is connected to the bit line BL2450.
+      <br/>
+      The twin bit DRAM cell Cell21410 will have the source of the n-MOS transistor M1a connected to the bit line BL2450 and the source of the n-MOS transistor M1b is connected to the bit line BL3455.
+      <br/>
+      And, likewise, the n-MOS transistors M1a and M1b of the twin bit DRAM cell Cell12405 will be connected respectively to the bit lines BL3455 and BL4460.
+    </p>
+    <p num="52">The bit line voltage generators VBIT1 415, VBIT2 420, VBIT3 425, and VBIT4 430 will respectively be connected to the bit lines BL1445, BL2450, BL3455, and BL4460 provide the correct voltages to the bit lines BL1445, BL2450, BL3455, and BL4460 to control the flow of charges to write and read the twin bit DRAM cells Cell11400, Cell12405, and Cell21410.</p>
+    <p num="53">The sense amplifiers SA1465, SA2470, SA1475, and SA1480 will be connected to the bit lines BL1445, BL2450, BL3455, and BL4460 to sense the flow of charge from a selected cell to determine the level of charge present on the trench capacitor CT and the stack capacitor Cs of the selected cell during a read operation.</p>
+    <p num="54">
+      FIG. 6 illustrates a partial array of twin bit DRAM cells organized to provide a single bit read operation using a latched-type sense amplifier.
+      <br/>
+      The twin bit DRAM cells Cell11400, Cell12405 and Cell21410 are arranged in rows and columns Col1, Col2, and Col3.
+      <br/>
+      Each row of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410 have the gates of the n-MOS transistors M1a connected to the first word line WL1 485 of the row and the gates of the n-MOS transistors M1b connected to the second word line WL2 490 of the row.
+      <br/>
+      The first word line WL1485 will be connected to the word line voltage generator Vword1 435.
+      <br/>
+      The word line voltage generator Vword1 435 will selectively activate and deactivate the n-MOS transistors M1a of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410.
+      <br/>
+      Likewise, the second word line WL2490 will then be connected to the second word line voltage generator Vword2 440.
+      <br/>
+      The word line voltage generator Vword2 440 will selectively activate and deactivate the n-MOS transistors M1b of the twin bit DRAM cells Cell11400, Cell12405 and Cell21410.
+      <br/>
+      This configuration will allow the individual bits of the twin bit DRAMS cells Cell11400, Cell12405 and Cell21410 to be written or read by selectively activating the appropriate first word line voltage generator Vword1 435 or the second word line voltage generator Vword2 440.
+    </p>
+    <p num="55">
+      The bit lines BL1615, BL2620, BL3625, BL4630, BL5635, and BL6640, will be placed at the boundaries of each of the columns Col1, Col2, and Col3.
+      <br/>
+      The sources of the n-MOS transistors M1a and M1b will be connected to the individual bit lines at the opposite sides of the columns Col1, Col2, and Col3.
+      <br/>
+      An example is the twin bit DRAM cell Cell11400 is on the first column Col1.
+      <br/>
+      The source of the n-MOS transistor M1a of the twin bit DRAM cell Cell11400 is connected to the bit line BL1615, while the source of the n-MOS transistor M1b of the twin bit DRAM cell Cell11400 is connected to the bit line BL2620.
+      <br/>
+      The twin bit DRAM cell Cell21410 will have the source of the n-MOS transistor M1a connected to the bit line BL3625 and the source of the n-MOS transistor M1b is connected to the bit line BL4630.
+      <br/>
+      And, likewise, the n-MOS transistors M1a and M1b of the twin bit DRAM cell Cell12405 will be connected respectively to the bit lines BL5635 and BL4640.
+    </p>
+    <p num="56">The bit line voltage generators VBIT1 650, VBIT2 655, VBIT3 660, VBIT4 665, VBIT5 670, and VBIT6 675 will respectively be connected to the bit lines BL1615, BL2620, BL3625, BL4630, BL5635, and BL6640 provide the correct voltages to the bit lines BL1615, BL2620, BL3625, BL4630, BL5635, and BL6640 to control the flow of charges to write and read the twin bit DRAM cells Cell11400, Cell12405, and Cell21410.</p>
+    <p num="57">The latched type sense amplifiers LSA1680, LSA2685, and LSA3690 will be connected to the bit BL1615, BL2620, BL3625, BL4630, BL5635, and BL6640 to sense the flow of charge from a selected cell to determine the level of charge present on the trench capacitor CT and the stack capacitor Cs of the selected cell during a read operation.</p>
+    <p num="58">
+      It will be noticed that the trench capacitors CT for each twin bit DRAM cell Cell11400, Cell12405 and Cell21410 and the stack capacitors Cs for each twin bit DRAM cells Cell11400, Cell12405 and Cell21410 are respectively connected to common word lines.
+      <br/>
+      That is the trench capacitors CT for each twin bit DRAM cell Cell11400, Cell12405 and Cell21410 are connected to first word line WL1 485 of the row and the stack capacitors Cs for each twin bit DRAM cells Cell11400, Cell12405 and Cell21410 are connected to the second word line WL2 490 of the row.
+    </p>
+    <p num="59">
+      Refer now to FIG. 7.
+      <br/>
+      The process of fabricating a twin bit DRAM cell on a semiconductor substrate begins by the definition of the area of the twin bit DRAM cell by the formation of the LOCOS isolation 501 on the surface of the semiconductor substrate.
+      <br/>
+      The areas within the LOCOS isolation are then optionally masked and implanted 502 to form the deep N-well and the shallower P-well.
+    </p>
+    <p num="60">
+      The trench capacitor is then formed 503 by first masking and deep etching to a depth of approximately 7  MU m the surface of the semiconductor substrate to form the trenches.
+      <br/>
+      The trenches are coated with a thin insulating material such as silicon dioxide to a thickness of approximately 50  Angstrom , silicon nitride to a thickness of approximately 100  Angstrom , or oxidized silicon nitride ONO to a thickness of approximately 120  Angstrom .
+      <br/>
+      The trenches are then filled with a first polysilicon material to form the top plate of the trench capacitor.
+      <br/>
+      The first polysilicon material is then etched back such that it is level with the surface of the semiconductor substrate.
+    </p>
+    <p num="61">
+      The pass transistors and transistors for the peripheral circuitry are formed 504 by first masking areas that are to define the channel regions of the transistors.
+      <br/>
+      A second insulating material is then grown in the channel regions to form a gate oxide that has a thickness of approximately 80  Angstrom .
+      <br/>
+      A gate polysilicon material will be deposited and etched back on the gate oxide to form the gates of the transistors.
+      <br/>
+      The gates of the pass transistors will be connected as above described to the word lines.
+      <br/>
+      The source and drain regions will be masked and implanted with P-type or N-type material to form lightly doped drain area PLDD/NLDD.
+      <br/>
+      LDD spacers are then deposited adjacent to the gates of the transistors.
+      <br/>
+      The source and drain regions are masked and implanted again with P-type or N-type material to complete the formation of the drains and sources of the transistors.
+    </p>
+    <p num="62">
+      The bit lines are then formed 505 by first depositing a third insulating material IPO1.
+      <br/>
+      The third insulating material IPO1 will be a thick insulating material such as silicon dioxide deposited to a thickness of 75,000  Angstrom .
+      <br/>
+      Bit line contacts are then formed to the contacts of the sources of the pass transistors.
+      <br/>
+      Additionally, contacts will be formed to contact the drains of the pass transistors and the top plate of the trench capacitor.
+    </p>
+    <p num="63">
+      The stack capacitor is formed 506 by first depositing a fourth insulating material IPO2 such that it will be in contact with the drain of another of the pass transistors.
+      <br/>
+      The fourth insulating material IPO2 is a thick insulating material such as silicon dioxide deposited to a thickness of approximately 5000  Angstrom .
+      <br/>
+      Contacts are formed to the interconnecting block.
+      <br/>
+      A third polysilicon material P3 is deposited, masked, and etched to form the first plate of the stack capacitor.
+      <br/>
+      A fifth insulating material is deposited on the first plate of the stack capacitor to form the dielectric for the stack capacitor.
+      <br/>
+      The fifth insulating material is a thin insulating material such as silicon dioxide deposited to a thickness of approximately 50  Angstrom , silicon nitride deposited to a thickness of approximately 100  Angstrom , or oxidized silicon nitride ONO deposited to a thickness of approximately 120  Angstrom .
+    </p>
+    <p num="64">
+      A fourth polysilicon material P4 is deposited, masked, and etched to form the second plate of the stack capacitor.
+      <br/>
+      The fourth polysilicon material P4 will be extended to contact the second biasing voltage source Vb2.
+    </p>
+    <p num="65">The back-end formation 507 will provide the contacts and metalization necessary to interconnect the peripheral circuits and the circuitry of the twin bit DRAM array.</p>
+    <p num="66">While this invention has been particularly shown and described with reference to the preferred embodiments thereof, it will be understood by those skilled in the art that various changes in form and details may be made without departing from the spirit and scope of the invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>The invention claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A twin bit DRAM cell fabricated on a semiconductor substrate having a surface implanted with a material of a first conductivity type, to retain two bits of digital data, comprising:</claim-text>
+      <claim-text>a) a first pass transistor having a source connected to a first bit line voltage generator, a gate connected to a word line voltage generator, and a drain; b) a trench capacitor in close proximity of said first pass transistor formed within the semiconductor substrate, whereby said trench capacitor includes a top plate connected to said drain of said first pass transistor, a bottom plate connected to a first biasing voltage source, and a first capacitor dielectric separating said top and bottom plates; c) a second pass transistor having a source connected to a second bit line voltage generator, a gate connected to a word line voltage generator, and a drain; d) a stack capacitor formed above the semiconductor substrate, having a first plate connected to the drain of the second pass transistor, a second plate connected to a second biasing voltage source, and a second capacitor dielectric separating said first and second plates;</claim-text>
+      <claim-text>and e) an insulating layer placed between said trench capacitor and said stack capacitor to electrically isolate the trench capacitor from the stack capacitor.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The twin bit DRAM cell of claim 1 wherein the first and second pass transistors are formed in the semiconductor substrate by: a) growing a gate oxide on the surface of said semiconductor substrate in the area between the source and the drain;</claim-text>
+      <claim-text>and b) creating the gate by depositing a depositing a first polysilicon material above the gate oxide;</claim-text>
+      <claim-text>and c) creating the source and drain by implanting the material of the second conductivity type into said shallow well at a channel distance apart.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The twin bit DRAM cell of claim 1 wherein the trench capacitor is formed in the semiconductor substrate by: a) etching a trench into the surface of the semiconductor substrate such that the semiconductor substrate is the bottom plate of said trench capacitor; b) depositing a trench dielectric on an inner surface of said trench;</claim-text>
+      <claim-text>and c) filling said trench with a second polysilicon material to form the top plate of said trench capacitor.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The twin bit DRAM cell of claim 3 wherein the trench dielectric is selected from insulating materials consisting of silicon dioxide, silicon nitride, and oxidized silicon nitride.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The twin bit DRAM cell of claim 1 wherein the insulating layer is formed by depositing a first insulating material on the surface of the semiconductor substrate.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The twin bit DRAM cell of claim 5 wherein the first insulating material is silicon dioxide.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The twin bit DRAM cell of claim 1 wherein the stack capacitor is formed by: a) depositing a fourth polysilicon layer upon said insulating layer; b) depositing a second insulating material upon said first plate to form a stack capacitor dielectric;</claim-text>
+      <claim-text>and c) depositing a fifth polysilicon layer upon said capacitor dielectric to form the second plate.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The twin bit DRAM cell of claim 7 wherein the stack capacitor dielectric is silicon dioxide.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The twin bit DRAM cell of claim 1 wherein the semiconductor substrate is connected to a first biasing voltage source.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The twin bit DRAM cell of claim 1 wherein the two bits of digital data are simultaneously written to said twin bit DRAM cell by activating said word voltage generator to a voltage that is greater than a level of a power supply voltage source, and placing the two bits of digital data at the first and second bit line voltage generators to charge the trench capacitor and the stack capacitor to appropriate levels representing the two bits of digital data.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The twin bit DRAM cell of claim 1 wherein a first sense amplifier is connected to said first bit line to sense a level of charge representing the one of the two bits of digital data retained on said trench capacitor and a second sense amplifier is connected to said second bit line to sense a level of charge representing the other of the two bits of digital data retained on said stack capacitor within said twin bit DRAM cell.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The twin bit DRAM cell of claim 11 wherein said twin bit DRAM cell is read by activating said word line voltage generator to a voltage that is greater than a level of a power supply voltage source to activate said pass transistor, the first and second bit line voltage generators will be set to a level approximately on half the power supply voltage source to precharge said bit line, and the first and second sense amplifiers sensing the level of charge present on said trench capacitor and said stack capacitor.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. An integrated circuit memory to retain digital data, fabricated on a semiconductor substrate having a surface implanted with a material of a first conductivity type, comprising: a) a plurality of twin bit DRAM cells arranged in a plurality of rows and columns, whereby each twin bit DRAM cell comprises:</claim-text>
+      <claim-text>- a first pass transistor having a source connected to a first bit line voltage generator, a gate connected to a word line voltage generator, and a drain, - a trench capacitor in close proximity of said first pass transistor formed within the semiconductor substrate, whereby said trench capacitor includes a top plate connected to said drain of said first pass transistor, a bottom plate connected to a first biasing voltage source, and a first capacitor dielectric separating said top and bottom plates, - a second pass transistor having a source connected to a second bit line voltage generator, a gate connected to a word line voltage generator, and a drain, - a stack capacitor formed above the semiconductor substrate, having a first plate connected to the drain of the second pass transistor, a second plate connected to a second biasing voltage source, and a second capacitor dielectric separating said first and second plates, and - an insulating layer placed between said trench capacitor and said stack capacitor to electrically isolate the trench capacitor from the stack capacitor; b) a plurality of word lines, whereby each word line is located on each row of the twin bit DRAM cells and connected to the gates of the first and second pass transistors on each row of the twin bit DRAM cells; c) a plurality of bit lines, whereby a pair bit line is located at the boundary of each column of twin bit DRAM cells and whereby one bit line is connected to the source of the first pass transistor of each twin bit DRAM cell on each column of twin bit DRAM cells and the other bit line of the pair of bit lines is connected to the source of the second pass transistor of each twin bit DRAM cell on each column of twin bit DRAM cells; d) a plurality of word line control circuits whereby each word line control circuit is coupled to each word line to select all the twin bit DRAM cells of one row of twin bit DRAM cells; e) a plurality of bit line control circuits whereby each bit line control circuit is connected to one bit line to establish a necessary bit line voltage level during a writing and reading of said twin bit DRAM cells on a column of twin bit DRAM cells; f) a plurality of sense amplifiers, whereby each sense amplifier is connected to one bit line to sense a level of charge representing the two bits of digital data retained within said twin bit DRAM cell;</claim-text>
+      <claim-text>and g) a peripheral control circuit to provide control signals for the plurality of word line control circuits, bit line control circuits, twin bit sense amplifiers, and coupling-gate control circuits.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The integrated circuit memory of claim 13 wherein the first and second pass transistors are formed in the semiconductor substrate by: a) growing a gate oxide on the surface of said semiconductor substrate in the area between the source and the drain;</claim-text>
+      <claim-text>and b) creating the gate by depositing a first polysilicon material above the gate oxide;</claim-text>
+      <claim-text>and c) creating the source and drain by implanting the material of the second conductivity type into said shallow well at a channel distance apart.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The integrated circuit memory of claim 13 wherein the trench capacitor is formed in the semiconductor substrate by: a) etching a trench into the surface of the semiconductor substrate such that the semiconductor substrate is the bottom plate of said trench capacitor; b) depositing a trench dielectric on an inner surface of said trench;</claim-text>
+      <claim-text>and c) filling said trench with a second polysilicon material to form the top plate of said trench capacitor.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The integrated circuit memory of claim 15 wherein the trench dielectric is selected from insulating materials consisting of silicon dioxide, silicon nitride, and oxidized silicon nitride.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The integrated circuit memory of claim 13 wherein the insulating layer is formed by depositing a first insulating material on the surface of the semiconductor substrate.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The integrated circuit memory of claim 17 wherein the first insulating material is silicon dioxide.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The integrated circuit memory of claim 13 wherein the stack capacitor is formed by: a) depositing a fourth polysilicon layer upon said insulating layer; b) depositing a second insulating material upon said first plate to form a stack capacitor dielectric;</claim-text>
+      <claim-text>and c) depositing a fifth polysilicon layer upon said capacitor dielectric to form the second plate.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The integrated circuit memory of claim 19 wherein the stack capacitor dielectric is silicon dioxide.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The integrated circuit memory of claim 13 wherein the semiconductor substrate is connected to a first biasing voltage source.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The integrated circuit memory of claim 13 wherein two bits of digital data are simultaneously written to said twin bit DRAM cell by activating said word voltage control circuitry to a voltage that is greater than a level of a power supply voltage source, and placing the two bits of digital data at the first and second bit line control circuitry to charge the trench capacitor and the stack capacitor to appropriate levels representing the two bits of digital data.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The integrated circuit memory of claim 13 wherein said twin bit DRAM cell is read by activating said word line control circuitry to a voltage that is greater than a level of a power supply voltage source to activate said pass transistor, the bit line control circuitry will be set to a level approximately on half the power supply voltage source to precharge said bit line connected to said twin bit DRAM cell, and the sense amplifiers that are connected to two bit lines connected to said twin bit DRAM cell are sensing the level of charge present on said trench capacitor and said stack capacitor.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185642B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185642</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185642</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22364982" extended-family-id="3886236">
+      <document-id>
+        <country>US</country>
+        <doc-number>09116058</doc-number>
+        <kind>A</kind>
+        <date>19980715</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09116058</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>4018849</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>11605898</doc-number>
+        <kind>A</kind>
+        <date>19980715</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09116058</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/40        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>40</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710060000</text>
+        <class>710</class>
+        <subclass>060000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710302000</text>
+        <class>710</class>
+        <subclass>302000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710311000</text>
+        <class>710</class>
+        <subclass>311000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>713501000</text>
+        <class>713</class>
+        <subclass>501000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/40E2H</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>40E2H</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/4081</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>4081</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>30</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>3</number-of-figures>
+      <image-key data-format="questel">US6185642</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Bus for high frequency operation with backward compatibility and hot-plug ability</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <patcit num="1">
+          <text>GOODRICH GERALD O, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4701841</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4701841</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="2">
+          <text>BANKS JOHN D J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5191653</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5191653</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="3">
+          <text>DATWYLER WAYNE C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5404462</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5404462</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>IACHETTA JR RICHARD NICHOLAS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5727171</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5727171</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>NEAL DANNY M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5774706</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5774706</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>MUNOZ-BUSTAMANTE CARLOS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5809291</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5809291</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>YOSHIDA TATSUYA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832397</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832397</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>CHEN WEN-TZER THOMAS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5838995</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5838995</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>GUTHRIE GUY LYNN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5978869</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5978869</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Beukema, Bruce Leroy</name>
+            <address>
+              <address-1>Hayfield, MN, US</address-1>
+              <city>Hayfield</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Fuhs, Ronald Edward</name>
+            <address>
+              <address-1>Rochester, MN, US</address-1>
+              <city>Rochester</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Kelley, Richard Allen</name>
+            <address>
+              <address-1>Apex, NC, US</address-1>
+              <city>Apex</city>
+              <state>NC</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Neal, Danny Marvin</name>
+            <address>
+              <address-1>Round Rock, TX, US</address-1>
+              <city>Round Rock</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="5">
+          <addressbook lang="en">
+            <name>Thurber, Steven Mark</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Emile, Volel</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Felsman, Bradley, Vaden, Gunter &amp; Dillon, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lee, Thomas C.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A peripheral interconnect for a computer system comprising a bridge, a peripheral bus, and a peripheral device, wherein at least one of these components is adapted to selectively operate in either a high performance mode or a low performance mode, the high performance mode using a first operating speed and a first protocol, and the low performance mode using a second operating speed which is lower than said first operating speed, and a second protocol which is different from the first protocol.
+      <br/>
+      The disclosed embodiment provides a high performance mode with a 100 MHz speed and a protocol that disallows pacing, and a low performance mode that uses a 66 MHz or 33 MHz speed and a standard PCI protocol that allows pacing.
+      <br/>
+      The high performance operating speed can be twice the low performance operating speed, by doubling the clock frequency and clocking data on only one clock edge, or by clocking data on both a rising edge and a falling edge of a clock signal while operating at the lower clock frequency.
+      <br/>
+      High performance adapters can provide split transaction capability, with a high performance bridge having the ability to support split transactions or alias split transactions to delayed transactions.
+      <br/>
+      Backward compatibility may also be provided for optional features such as hot-pluggability.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention generally relates to computer systems, specifically to a method and apparatus for interconnecting various computer components (i.e., peripheral devices), and more particularly to such a method and apparatus which allows backward compatibility with different computer bus designs, including bus designs having different clock speeds.</p>
+    <p num="3">2. Description of Related Art</p>
+    <p num="4">
+      A typical structure for a conventional computer system includes one or more processing units connected to a system memory device (random access memory or RAM) and to various peripheral, or input/output (I/O), devices such as a display monitor, a keyboard, a graphical pointer (mouse), and a permanent storage device (hard disk).
+      <br/>
+      The system memory device is used by a processing unit in carrying out program instructions, and stores those instructions as well as data values that are fed to or generated by the programs.
+      <br/>
+      A processing unit communicates with the other components by various means, including one or more interconnects (buses), or direct access channels.
+      <br/>
+      A computer system may have many additional components, such as serial and parallel ports for connection to, e.g., printers, and network adapters.
+      <br/>
+      Other components might further be used in conjunction with the foregoing; for example, a display adapter might be used to control a video display monitor, a memory controller can be used to access the system memory, etc.
+    </p>
+    <p num="5">
+      Several different bus designs have been developed for interconnecting the various computer components.
+      <br/>
+      The original personal computer (PCs) introduced by International Business Machines Corp. (IBM--assignee of the present invention) used an "expansion" bus referred to as the XT bus, which allowed a user to add various optional devices, such as additional memory (RAM), sound cards, telephone modems, etc.
+      <br/>
+      This early design was improved upon by adding more data and address lines, new interrupt lines, and direct memory-access (DMA) control lines, to create the well-known AT bus, which is also referred to as the Industry Standard Architecture (ISA) bus. The AT design allowed the microprocessor to run at a faster speed than the expansion bus.
+      <br/>
+      A 32-bit extension to this bus was later created, which is referred to as the Extended Industry Standard Architecture (EISA).
+      <br/>
+      Another 32-bit expansion bus developed by IBM is the Microchannel Architecture (MCA) bus.
+    </p>
+    <p num="6">
+      In addition to the foregoing designs, several other bus designs have been developed allowing the use of a system bus which interconnects the processor and the system memory device(s), along with a separate, local bus which interconnects the peripheral devices to the system bus (using a bus bridge).
+      <br/>
+      Two well-known standards are the Video Electronics Standards Association (VL) bus, and the Peripheral Component Interconnect (PCI) bus.
+    </p>
+    <p num="7">
+      The 33 MHz PCI specification allows up to 4 PCI-compliant expansion cards to be installed in "slots" constructed along the PCI bus.
+      <br/>
+      More specifically, 10 "loads" are allowed, with each slot (connector) and its corresponding card together comprising two loads (a soldered device is counted as one load).
+      <br/>
+      An expansion bus controller for a system's ISA, EISA, or MCA slots can optionally be installed as well, providing increased synchronization for all of the system's expansion bus-installed resources.
+      <br/>
+      A PCI host bridge provides synchronization between the system bus and the PCI bus, and allows certain "intelligent" PCI-compliant adapters to perform tasks concurrently with the microprocessor, using a technique called bus mastering.
+    </p>
+    <p num="8">
+      A typical PCI system 10 is illustrated in FIG. 1.
+      <br/>
+      System 10 includes a central processing unit (CPU) 12, firmware or read-only memory (ROM) 14, and a dynamic random access memory (DRAM) 16 which are all connected to a system bus 18.
+      <br/>
+      CPU 12, ROM 14 and DRAM 16 are also coupled to a PCI local bus 20 using a PCI host bridge 22.
+      <br/>
+      PCI host bridge 22 provides a low latency path through which processor 12 may access PCI devices mapped anywhere within bus memory or I/O address spaces.
+      <br/>
+      PCI host bridge 22 also provides a high bandwidth path that allows the PCI devices to access DRAM 16.
+    </p>
+    <p num="9">
+      Attached to PCI local bus 20 are a local area network (LAN) adapter 24, a small computer system interface (SCSI) adapter 26, an expansion bus bridge 28, an audio adapter 30, and a graphics adapter 32.
+      <br/>
+      Lan adapter 24 is used to connected computer system 10 to an external computer network 34.
+      <br/>
+      SCSI adapter 26 is used to control high-speed SCSI disk drive 36.
+      <br/>
+      Expansion bus bridge 28 is used to couple an ISA expansion bus 38 to PCI local bus 20.
+      <br/>
+      As shown, several user input devices are connected to ISA bus 38, including a keyboard 40, a microphone 42, and a graphical pointing device (mouse) 44. Other devices may also be attached to ISA bus 38, such as a CD-ROM drive 46.
+      <br/>
+      Audio adapter 30 controls audio output to a speaker 48, and graphics adapter 32 controls visual output to a display monitor 50.
+    </p>
+    <p num="10">
+      In earlier computer systems, all of the peripheral components had to be connected (inserted in the PCI or ISA slots) at the time that the computer was first turned on, in order to properly register (initialize) the devices with the computer's operating system.
+      <br/>
+      These devices are checked during the system's power-on self test (POST), which includes a set of routines stored in ROM 14 (also referred to as read-only storage, or ROS) that test the peripherals to see if they are properly connected and operating.
+    </p>
+    <p num="11">
+      In the earlier systems, if a device were simply not present on the bus during the POST, then it would not be recognized when it was later attached (while the computer was still running).
+      <br/>
+      Instead, those systems were required to be "rebooted" in order to be able to communicate with and utilize the later-added devices. "Rebooting" refers to the restarting of a computer system by reloading its most basic program instructions, viz., the operating system.
+      <br/>
+      A system can be rebboted using the software itself (a warm boot) or by actuating the system's hardware, i.e., the reset or power buttons (a cold boot).
+      <br/>
+      After rebooting, the new device can be identified using various techniques.
+    </p>
+    <p num="12">
+      More recent computer systems have the ability to recognize devices which are added while the computer is operating, that is, without having to reboot the system and without requiring manual configuration steps.
+      <br/>
+      One example is the "plug and play" specification, which allows a PC to configure itself automatically to work with peripherals.
+      <br/>
+      A user can "plug" in a peripheral and "play" it without manually configuring the system.
+      <br/>
+      Plug and play operation requires both ROM that supports the specification, and a special expansion card.
+      <br/>
+      While this approach allows the system to recognize a newly added device, it is still often necessary to reset the system in order to properly initialize the device with the operating system.
+      <br/>
+      A further improvement in this area is the "hot-plug" specification, wherein separate reset lines are provided for each peripheral device, such that a device can be initialized with the operating system without requiring the entire system to be rebooted (this ability of the device/system is referred to as "hot-pluggable").
+    </p>
+    <p num="13">
+      One problem that has arisen with this multitude of bus designs is backward compatibility, particularly for bus components operating at different speeds.
+      <br/>
+      The current PCI bus architecture defines 33 and 66 MHz capability.
+      <br/>
+      The "M66EN" pin on the bus is used to indicate whether operation is to be at 33 MHz or 66 MHz.
+      <br/>
+      This pin is tied to ground in the 33 MHz design, but connected to pull-up resistors in 66 MHz devices.
+      <br/>
+      Therefore, if any 33 MHz device is connected to the bus, the M66EN pin will be grounded even if 66 MHz devices are present, and so a 66 MHz PCI host bridge will know to operate the bus at the lower speed of 33 MHz.
+      <br/>
+      The M66EN pin provides only limited compatibility, however, in that it is confined to these two specific clock speeds, and also in that operation of the bus is essentially the same for either speed, that is, operation at 66 MHz involves substantially the same electrical characteristics and basic protocols as at 33 Mhz (although a 66 MHz bus is limited to two slots).
+      <br/>
+      For example, the PCI specification for both 33 MHz and 66 MHz uses a technique known as "pacing" of address and data cycles.
+      <br/>
+      In other words, this approach does not provide compatibility for new bus designs having even higher speeds or, in particular, different protocols.
+      <br/>
+      Compatibility issues are further complicated by features such as hot-pluggability.
+    </p>
+    <p num="14">
+      In light of the foregoing, it would be desirable to provide not only a method of operating a bus at higher frequencies, but further to provide backward compatibility for such high performance bus designs, e.g., compatibility with both the 33 MHz and 66 MHz PCI architectural definitions.
+      <br/>
+      It would be further advantageous if the method could provide compatibility with advanced or optional bus features such as hot-plug capability.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="15">It is therefore one object of the present invention to provide an improved computer system having an expansion bus which allows the addition of peripheral devices to the system.</p>
+    <p num="16">It is another object of the present invention to provide such a bus having improved performance, particularly using higher clock speeds.</p>
+    <p num="17">It is yet another object of the present invention to provide such a bus design wherein high performance components are compatible with older devices that operate at lower speeds and use different protocols.</p>
+    <p num="18">
+      The foregoing objects are achieved in a method of providing an interconnection between a peripheral device and a system bus of a computer system, generally comprising the steps of connecting a bridge to the system bus, connecting a peripheral bus to the bridge, and connecting a peripheral device to said peripheral bus, wherein at least one of said bridge, said peripheral bus, and said peripheral device is adapted to selectively operate in either a high performance mode or a low performance mode.
+      <br/>
+      The high performance mode uses a first operating speed and a first protocol, and the low performance mode uses a second operating speed which is lower than said first operating speed, and a second protocol which is different from the first protocol.
+      <br/>
+      For example, a high performance mode may be provided with a 100 MHz speed and a protocol that disallows pacing, with a low performance mode that uses a 66 MHz or 33 MHz speed and a protocol that allows pacing.
+      <br/>
+      If the bridge, peripheral bus, and peripheral device(s) are all high performance components, then the peripheral system operates in the high performance mode.
+      <br/>
+      If, however, any one of the components is limited to low performance, then the entire system runs in low performance mode, i.e., the high performance components operate in a backward compatible mode.
+      <br/>
+      The bus can have a high performance operating speed which is approximately twice the second operating speed, by operating the bus at a higher operating frequency of 100 MHz (twice the lower frequency mode of 50 MHz), or by clocking data on both a rising edge and a falling edge of a clock signal at a lower operating frequency of 50 MHz (resulting in a data rate of 100 MHz).
+      <br/>
+      High performance adapters can provide split transaction capability, with a high performance bridge having the ability to optionally support split transactions or alias split transactions to delayed transactions.
+      <br/>
+      Backward compatibility may also be provided for optional features such as hot-pluggability.
+    </p>
+    <p num="19">The above as well as additional objectives, features, and advantages of the present invention will become apparent in the following detailed written description.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="20">
+      The novel features believed characteristic of the invention are set forth in the appended claims. The invention itself, however, as well as a preferred mode of use, further objectives, and advantages thereof, will best be understood by reference to the following detailed description of an illustrative embodiment when read in conjunction with the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 is block diagram of a conventional computer system having a Peripheral Component Interconnect (PCI) bus which allows peripheral devices to be added to the computer system;
+      <br/>
+      FIG. 2 is a block diagram of one embodiment of a computer system constructed in accordance with the present invention, having a PCI bus with a plurality of slots for receiving peripheral devices, and a "hot-plug" controller used to initialize the devices while the remainder of the system is still running; and
+      <br/>
+      FIG. 3 is block diagram illustrating connections to the clock logic of the PCI host bridge of FIG. 2.
+    </p>
+    <heading>DESCRIPTION OF AN ILLUSTRATIVE EMBODINENT</heading>
+    <p num="21">
+      With reference now to the figures, and in particular with reference to FIG. 2, there is depicted one embodiment of a computer system 100 constructed in accordance with the present invention.
+      <br/>
+      System 100 includes a CPU or processor 102 connected to a system memory device 104 using a system bus 106.
+      <br/>
+      A Peripheral Component Interconnect (PCI) host bridge 108 is used to couple a PCI local bus 110 to system bus 106.
+      <br/>
+      Various peripheral devices may be removably connected to the system using a plurality of slots, two of which 112 and 114 are shown.
+      <br/>
+      Each slot is connected to PCI bus 110 using respective hot-plug switches 118 and 120, which can be used to isolate all appropriate signals on a slot from bus 110 while the rest of the platform is running.
+      <br/>
+      A hot-plug controller 124 is also connected to PCI host bridge (PHB) 108 and each of the hot-plug switches 118 and 120.
+    </p>
+    <p num="22">
+      With further reference to FIG. 3, the PCI host bridge 108 includes PCI clock logic 109 which provides separate clock lines 117 to each PCI device, and to the PCI host bridge itself 111.
+      <br/>
+      The PCI host bridge clock logic 109 determines the operating frequency supported by the attached devices by serving both the M66EN pins 113 and the HighPEN 115 lines from each device, and provides the appropriate frequency to the devices.
+    </p>
+    <p num="23">
+      In the depicted embodiment, computer system 100 is compliant with the hot-pluggable design set forth in the document "PCI Hot-Plug Specification," revision 1.0, published by the PCI Special Interest Group (PCI SIG) (Oct. 6, 1997), which is hereby incorporated.
+      <br/>
+      As such, slots 112 and 114 are designed for adapter cards that are 32-bits or 64-bits wide, and use 3.3 volt or 5 volt signaling as appropriate.
+      <br/>
+      An adapter card (device 116 or device 122) could contain a single PCI device or multiple devices behind a PCI-to-PCI bridge.
+      <br/>
+      Each slot has a logical slot identifier that uniquely identifies a particular slot.
+    </p>
+    <p num="24">
+      Hot-plug controller 124 controls the electrical aspects of powering up and down a PCI slot.
+      <br/>
+      More than one hot-plug controller can be used.
+      <br/>
+      A software driver (hot-plug system driver) is used to control and monitor hot-plug controller 124.
+      <br/>
+      If there is more than one hot-plug controller, then more than one hot-plug system driver can be used.
+      <br/>
+      Higher-level software (a hot-plug "service") has overall control of the hot-plug operations.
+      <br/>
+      This service includes a user interface, and can issue requests to the operating system to quiesce adapter activity, and further issue requests (primitives) to the hot-plug system driver to turn the slots on or off, using switches 118, and 120.
+    </p>
+    <p num="25">
+      The present invention is directed to a high performance PCI bus which provides backward compatibility with prior art designs.
+      <br/>
+      In the illustrative embodiment, the bus uses a 100 MHz clock speed for high performance operation, and provides backward compatibility for 33 MHz or 66 MHz operation.
+      <br/>
+      High performance operation is achieved using a bus 110 which has a high performance construction in accordance with the present invention, using a PHB 108 which has a high performance construction in accordance with the present invention, and using one or more high performance devices 116, 122 which likewise have a high performance construction in accordance with the present invention.
+      <br/>
+      It is understood, however, that the scope of the invention also includes a system running at a lower (prior art) performance level, provided that it includes at least one of these high performance components, running in a backward compatible mode.
+    </p>
+    <p num="26">
+      The illustrative embodiment operates the PCI bus at higher clock rates than the currently defined PCI 66 MHz protocol by prohibiting pacing between data cycles, and by allowing another clock cycle during both the address/command phase and the termination phase of a bus transfer.
+      <br/>
+      The following new protocol specifications provide good backward compatibility while allowing higher performance capability.
+    </p>
+    <p num="27">
+      The maximum frequency (e.g., 100 MHz) is selected as the design point for bridges and adapters (i.e., bridges and adapters must design to that maximum frequency and the resulting timing requirements for that frequency).
+      <br/>
+      The maximum number of slots for this implementation (100 MHz) is restricted to two slots.
+      <br/>
+      In accordance with the prior art design, operation at 66 MHz is also restricted to two slots.
+      <br/>
+      As operating frequency increases, loading effects degrade the signals.
+      <br/>
+      Based on current technology and design considerations, the bus is effectively limited to five loads at these higher frequencies.
+      <br/>
+      This number should not, however, be construed as a limitation since other design trade-offs or improvements in related technology could allow more loading of the bus (i.e., more than two slots).
+      <br/>
+      The frequency on the PCI bus to the adapters and bridges can be reduced for added slots (for both 32-bit and 64-bit connectors).
+      <br/>
+      Operation at frequencies of 50 MHz or less allows a total of up to four slots.
+    </p>
+    <p num="28">
+      The present invention preferably provides split transaction capability, with split transaction support required for adapters and optional for bridges.
+      <br/>
+      Split transactions are those wherein the address of a value requested by an adapter (master) is kept latched in the bridge (slave), such that the transaction can complete immediately even when the bridge does not have the data, with the bridge later becoming the bus master to write the data to the adapter in a separate transaction.
+      <br/>
+      A delayed transaction is one wherein the bridge issues a "retry" response, such that the adapter must repeat the request.
+      <br/>
+      In this implementation, a high performance PHB 108 is able to alias split transactions to delayed transactions, or optionally fully support split transactions.
+    </p>
+    <p num="29">
+      It is possible to implement the present invention with a "dynamic dual mode," wherein operation may be dynamically switched between different bus frequencies but, in the preferred embodiment, this feature is not enabled.
+      <br/>
+      Thus, if a standard 66 MHz card is installed in a high performance slot/bus, the bus will always operate only in 66 MHz mode, even if a high performance device is present on the bus.
+      <br/>
+      Use of dynamic dual mode presents certain design restrictions.
+      <br/>
+      See U.S. Pat. No. 5,838,995, which is hereby incorporated.
+    </p>
+    <p num="30">
+      High performance operation is selected using a pin on the bridges and adapters which is referred to herein as the "HighPEN" pin (high performance enable).
+      <br/>
+      The HighPEN pin (which may correspond to an existing ground pin on prior art devices) is utilized with the conventional PCI M66EN pin as shown below:
+    </p>
+    <p num="31">
+      --
+      <br/>
+      -- M66EN   HighPEN
+      <br/>
+      -- 0       0             33 MHz card installed
+      <br/>
+      -- 1       0             66 MHz card installed
+      <br/>
+      -- 1       1             100 MHz (high performance) card installed
+    </p>
+    <p num="32">
+      As can be inferred from this table, a HighP PCI board does not ground the M66EN pin.
+      <br/>
+      High performance masters and targets look at the M66EN and HighPEN pins to determine if the operation is to follow the HighP PCI protocol or standard PCI protocol.
+      <br/>
+      The PCI host bridge also looks at the M66EN and HighPEN pins to determine whether configuration operations are to use standard PCI protocol or HighP PCI protocol.
+    </p>
+    <p num="33">
+      The PCI clock provides a separate clock line for every device on the bus including the PCI host bridge.
+      <br/>
+      The clocks are preferably provided within the PCI host bridge, but the clocks could be provided by a separate (external) clock source.
+      <br/>
+      The present invention contemplates the option of clocking data on both clock edges (rising and falling).
+      <br/>
+      In this manner, 100 MHz operation may be achieved using a 50 MHz clock speed, allowing more time for decision making by the adapters.
+      <br/>
+      Clocking of both edges can be enabled via a configuration bit.
+      <br/>
+      The peak bandwidth is 800 MB/s at 50 MHz (clock on both edges) and 64-bits, and 800 MB/s at 100 MHz and 64-bits (clock on one edge).
+      <br/>
+      In this implementation, the 50 MHz clock can be used in lieu of a 66 MHz clock if the system is to operate in 66 MHz mode.
+    </p>
+    <p num="34">
+      As noted above, the present invention includes a system using any of the novel, high performance components, even if the system is running at a lower performance level (i.e., 33 MHz mode or 66 MHz mode).
+      <br/>
+      The above discussion describes how a system may be provided with a high performance bus, but not operate in high performance mode due to the presence of either a low performance bridge, or a low performance device in one of the slots.
+      <br/>
+      Conversely, the invention contemplates the use of a high performance bridge or adapter operating in a backward compatible mode when a low performance bus is present, that is, the high performance bridge or adapter not only operates at the lower speed, but also according to the lower performance protocol.
+      <br/>
+      In the illustrative embodiment, this capability is provided by a new sideband pin on the bridge or adapter that normally floats.
+      <br/>
+      When the device is installed on a bus having more than two slots, this new sideband pin is grounded.
+      <br/>
+      In this case, when this pin is grounded, the bus operating frequency is reduced to 33 MHz for backward compatibility.
+    </p>
+    <p num="35">
+      This invention with its backward compatibility features makes the high performance PCI capability fully backward compatible with the current architecture definitions for 33 MHz and 66 MHz PCI components and, in addition, provides full backward compatibility with the current architecture definitions of PCI hot plug.
+      <br/>
+      The current PCI hot plug architecture requires that slots must be isolated and powered down to perform the hot plug, while allowing the remainder of the system and PCI I/O to remain powered and operational.
+      <br/>
+      The following table illustrates bus configurations that provide backward compatibility in terms of number of slots per bus, bus operating frequency, and hot plug characteristics:
+    </p>
+    <p num="36">
+      --
+      <br/>
+      --                                   50 MHz Bus    100 MHz Bus
+      <br/>
+      --           33 MHz Bus  66 MHz Bus  (HighP,       (HighP,
+      <br/>
+      --           (4 slot)    (2 slot)    4 slot)       2 slot)
+      <br/>
+      -- 33 MHz    Bus runs at Bus runs at Bus runs at   Bus runs at
+      <br/>
+      -- device    33 MHz*     33 MHz*     33 MHz*       33 MHz*
+      <br/>
+      -- 66 MHz    Bus runs at Bus runs at Bus runs at   Bus runs at
+      <br/>
+      -- device    33 MHz      66 MHz      33 MHz        50/66 MHz*
+      <br/>
+      -- 100 MHz   Bus runs at Bus runs at Bus runs at   Bus runs at
+      <br/>
+      -- (HighP)   33 MHz      66 MHz      50 MHz        100 MHz
+      <br/>
+      -- device
+      <br/>
+      -- *cannot un-isolate the device following hot plug due to current bus
+      <br/>
+      --  operating frequency, without first resetting other device on bus and
+      <br/>
+      --  dropping to lower frequency
+    </p>
+    <p num="37">
+      Although the invention has been described with reference to specific embodiments, this description is not meant to be construed in a limiting sense.
+      <br/>
+      Various modifications of the disclosed embodiments, as well as alternative embodiments of the invention, will become apparent to persons skilled in the art upon reference to the description of the invention.
+      <br/>
+      For example, an alternative option is to provide a HighP bus with only one slot (point-to-point, with a bridge chip plus one slot).
+      <br/>
+      Such a configuration facilitates operation at speeds of more than 100 MHz due to decreased loading.
+      <br/>
+      It is therefore contemplated that such modifications can be made without departing from the spirit or scope of the present invention as defined in the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of providing selectable data transmission speeds between a peripheral device and a system bus of a computer system, said method comprising the steps of:</claim-text>
+      <claim-text>connecting a bridge to the system bus, said bridge being capable of transmitting data at a plurality of transmission speeds; coupling said peripheral device to said bridge trough a peripheral bus, said peripheral device and said peripheral bus being capable of transmitting data at a plurality of transmission speeds; determining a transmission speed common to all of said peripheral device, said peripheral bus, and said bridge to transmit data, said transmission speed having an associated performance mode with a transmission control protocol;</claim-text>
+      <claim-text>and setting an effective transmission speed of said bridge, said peripheral bus and said peripheral device by clocking data on both a rising edge and a falling edge of a clock signal.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein when said common transmission speed is a first transmission speed, which has a low performance mode and a first transmission protocol, and wherein said determining step determines that at least one of said peripheral device, said peripheral bus, and said bridge is limited to operate in said low performance mode said method includes the steps of: selecting said low performance mode to transmit said data;</claim-text>
+      <claim-text>and operating said bridge, said peripheral bus and said peripheral device in said low performance mode.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, wherein when said common transmission speed is a second transmission speed, which has a high performance mode and a second transmission protocol, said method includes the steps of: selecting said high performance mode to transmit said data;</claim-text>
+      <claim-text>and operating said bridge, said peripheral bus and said peripheral device in said high performance mode.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1, wherein said step of connecting said peripheral device to said peripheral bus includes the steps of: connecting a slot to said peripheral bus;</claim-text>
+      <claim-text>and inserting said peripheral device into said slot.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 4, wherein said step of connecting said peripheral device to said peripheral bus includes the further steps of: isolating said slot from said peripheral bus before said inserting step; applying a reset signal to said slot, after said inserting step;</claim-text>
+      <claim-text>and initializing said peripheral device in response to said applying step.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1, wherein said bridge is adapted to selectively operate in either a high performance mode or a low performance mode, said method further comprising the steps of: determining that at least one of said peripheral bus and said peripheral device is limited to operation in said low performance mode;</claim-text>
+      <claim-text>and in response to said determining step, selecting said low performance mode for operating said bridge, and operating said peripheral bus and said peripheral device in said low performance mode.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 6, further comprising the steps of: determining that said peripheral bus and said peripheral device operate in said high performance mode;</claim-text>
+      <claim-text>and in response to said determining step, selecting said high performance mode for operating said bridge, and operating said peripheral bus and said peripheral device in said high performance mode.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 7, wherein said operating step operates said bridge, said peripheral bus and said peripheral device in said high performance mode at said first operating speed which is approximately twice said second operating speed, by clocking data on only one clock edge of a clock signal.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 7, wherein said operating step operates said bridge, said peripheral bus, and said peripheral device in said high performance mode at said first operating speed which is approximately twice said second operating speed, by clocking data on both a rising edge and a falling edge of a clock signal which is also used for said second operating speed.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 1, wherein said peripheral device is adapted to selectively operate in either a high performance mode or a low performance mode, said method further comprising the step of in response to determining that at least one of said peripheral bus and said bridge is limited to operation in said low performance mode, selecting said low performance mode for operating said bridge, and operating said peripheral bus and said peripheral device in said low performance mode.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 1, wherein said peripheral bus is adapted to selectively operate in either a high performance mode or a low performance mode, said method further comprising the step of in response to determining that at least one of said peripheral device and said bridge is limited to operation in said low performance mode, selecting said low performance mode for operating said bridge, and operating said peripheral bus and said peripheral device in said low performance mode.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A computer system comprising: a system bus; a memory device connected to said system bus; processor means, connected to said system bus, for carrying out program instructions stored in said memory device; a bridge connected to said system bus, wherein said bridge is adapted to selectively operate in either a high performance mode or a low performance mode and includes a pin to receive an indication of whether said peripheral bus and said peripheral device may operate at a first operating speed and a second operating speed that is less than the first operating speed; a peripheral bus connected to said bridge, said peripheral bus operating at a particular data transmission rate; a peripheral device connected to said peripheral bus; means for determining when all of said peripheral device, said peripheral bus, and said bridge are adapted to operate at the first operating speed;</claim-text>
+      <claim-text>and means for operating at said first operating speed by clocking data on both a rising edge and a falling edge of a clock signal.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The computer system of claim 12, wherein: said peripheral device is adapted to selectively operate in either said high performance mode or said low performance mode;</claim-text>
+      <claim-text>and said peripheral device includes a pin to indicate whether said peripheral device may be operated in said high performance mode.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The computer system of claim 12, wherein when said determining means determines that each of said bridge, said peripheral bus, and said peripheral device operate in a high performance mode, which has a transmission control protocol corresponding to a faster data transmission speed than said low performance mode, wherein further said particular data transmission rate is at least equal to a rate associated with said high performance mode.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The computer system of claim 14, further comprising means for generating said first operating speed at approximately twice said second operating speed, by clocking data on only one clock edge of a clock signal.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The computer system of claim 12, wherein said peripheral device is connected to said peripheral bus using a slot and further comprising means for isolating said slot from said peripheral bus before said peripheral device is inserted in said slot.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The computer system of claim 12 wherein: said peripheral device provides split transaction capability;</claim-text>
+      <claim-text>and said bridge includes means for supporting split transactions and aliasing split transactions to delayed transactions.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A system for providing selectable operation protocols and associated data transmission speeds between a peripheral device and system bus of a computer system, said system comprising: a peripheral bus designed for transmitting data with at least one of multiple transmission speeds including a first transmission speed associated with a first protocol and a second transmission speed associated with a second protocol, wherein said second transmission speed is faster than said first transmission speed; a peripheral device connected to said peripheral bus, said peripheral device operating at one of said first transmission speed and said second transmission speed; a hot plug controller coupled to a plurality of slots utilized to connect said peripheral device to said peripheral bus and which monitors said device for operation characteristics including transmission speed; a bridge, coupled to said system bus and to said hot plug controller, said bridge including a control mechanism by which a transmission speed on said peripheral bus is selected for data transmission to and from said peripheral device based on operational limitations imposed by one or more of said peripheral device, peripheral bus, or bridge.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The system of claim 18 further including a hot plug switch, wherein said hot plug controller is first coupled to said hot plug switch, and said hot plug switch is further coupled to said slot and said peripheral bus, wherein said hot plug controller selects said peripheral device from among multiple devices by powering up and down said slot associated with said peripheral device utilizing said hot plug switch.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The system of claim 18 further including a reset signal bus coupled to said bridge and said hot plug switch and which provides a reset signal input to reset a transmission rate of said peripheral bus, said bridge and said device to a transmission rate of said peripheral bus.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The system of claim 18, wherein said control mechanism of said bridge includes a clock logic with high pin and low pin inputs, wherein said high pin input and low pin input are utilized to select a protocol type and operating speed for said peripheral bus, said driver, and said peripheral device.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The computer system of claim 12, wherein when said determining means determines that at least one of said bridge, said peripheral bus, and said peripheral device is adapted to operate in a low performance mode, said computer system has means for selecting said low performance mode for transmission of data to and from said peripheral device.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The computer system of claim 12, wherein said peripheral bus is a high performance bus and said bridge and peripheral device are low performance devices, wherein said means for selecting selects a low performance operating mode for data transmission.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The computer system of claim 12, wherein said peripheral bus is a low performance bus and said bridge and peripheral device are high performance devices, wherein said means for selecting selects a low performance operating mode for data transmission.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. A method of providing backward compatibility for a high performance Peripheral Component Interconnect (PCI) bus within a data processing system, said method comprising the steps of: connecting a bridge to a system bus of said data processing system; connecting a PCI bus to said bridge; connecting a peripheral device to said peripheral bus; determining a performance mode common to all of said peripheral device, said PCI bus, and said bridge, wherein said performance mode transmits data at a particular speed utilizing an associated transmission protocol;</claim-text>
+      <claim-text>and transmitting data between said bridge and said peripheral device utilizing said common performance mode, wherein when said performances mode is a low performance mode, said data is transmitted at a first speed with a standard transmission protocol and when said performance mode is a high performance mode, said data is transmitted at a second speed, which is faster than said first speed and with a second transmission protocol that operates the PCI bus at higher clock rates by prohibiting pacing between data cycles.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The method of claim 25, wherein said transmitting step further comprises the step of inserting a cycle in both the address/command phase and a termination phase of a transfer of data via said PCI bus to enable backward compatibility.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method of claim 25, further comprising the step of enabling said second transfer protocol to change from said low performance mode to said high performance mode.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method of claim 27, wherein said bridge includes a plurality of pins utilized to select the transmission protocol, wherein said enabling step includes the step of automatically setting a pin of said bridge to a selected value when said second transmission protocol is desired.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method of claim 25, wherein response to determining that at least one of said peripheral device, said PCI bus, and said bridge is limited to operate in said low performance mode, said method includes the steps of: selecting said low performance mode to transmit said data;</claim-text>
+      <claim-text>and operating said bridge, said peripheral bus and said peripheral device in said low performance mode.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. The method of claim 25, wherein in response to determining that all of said peripheral device, said PCI bus, and said bridge can operate in said high performance mode, said method includes the steps of: selecting said high performance mode to transmit said data;</claim-text>
+      <claim-text>and operating said bridge, said peripheral bus and said peripheral device in said high performance mode.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

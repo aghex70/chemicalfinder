@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184704B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184704</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184704</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22930059" extended-family-id="42112532">
+      <document-id>
+        <country>US</country>
+        <doc-number>09246294</doc-number>
+        <kind>A</kind>
+        <date>19990208</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09246294</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43170375</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>24629499</doc-number>
+        <kind>A</kind>
+        <date>19990208</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09246294</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H03K  19/003       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>003</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>326034000</text>
+        <class>326</class>
+        <subclass>034000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>326024000</text>
+        <class>326</class>
+        <subclass>024000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>326083000</text>
+        <class>326</class>
+        <subclass>083000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H03K-019/003K4</text>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>019</main-group>
+        <subgroup>003K4</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H03K-019/00384</classification-symbol>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>00384</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>8</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6184704</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Design method for compensation of process variation in CMOS digital input circuits</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MAGEE TERENCE E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4578600</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4578600</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>ARGADE PRAMOD V, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4806801</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4806801</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KINUGASA MASANORI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5175445</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5175445</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>HIRANO HIROSHIGE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5179298</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5179298</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>ADACHI YUKINOBU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5416366</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5416366</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>MAHMOOD QAZI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5602496</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5602496</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>SAKURAGI TAKAMASA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5959473</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5959473</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>PETROVICK JR JOHN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4975599</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4975599</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>ATALLAH FRANCOIS I</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5111081</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5111081</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>THIEL FRANK L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5434532</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5434532</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Hisano, U.S. Statutory Invention Registration H8O2, Jul. 1990.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Tritech Microelectronics</orgname>
+            <address>
+              <address-1>Singapore, SG</address-1>
+              <city>Singapore</city>
+              <country>SG</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SG</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>TRITECH MICROELECTRONICS SINGAPORE</orgname>
+          </addressbook>
+          <nationality>
+            <country>SG</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Wang, Hongwei</name>
+            <address>
+              <address-1>Singapore, SG</address-1>
+              <city>Singapore</city>
+              <country>SG</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SG</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Hu, Yu David</name>
+            <address>
+              <address-1>Singapore, SG</address-1>
+              <city>Singapore</city>
+              <country>SG</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SG</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Oei, Chan Chee</name>
+            <address>
+              <address-1>Singapore, SG</address-1>
+              <city>Singapore</city>
+              <country>SG</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SG</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Saile, George O.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Ackerman, Stephen B.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Santamauro, Jon</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      This invention describes an improved design of CMOS. digital input circuits.
+      <br/>
+      This improvement reduces the switching level uncertainty range and thus increases the noise margin, compensating for manufacturing process variations.
+      <br/>
+      This improvement is achieved by providing resistive compensation devices in series with the P-type and the N-type CMOS transistors in the first stage of a multistage digital input circuit.
+      <br/>
+      These resistive devices can be implemented by means of resistors or by means of MOSFET devices which provide the required resistive function.
+      <br/>
+      These compensation devices modify the input-output voltage transfer characteristics of the first stage so as to reduce the switching level variation at the input to the circuit.
+      <br/>
+      The resulting digital input circuit has a greater tolerance to input noise levels.
+      <br/>
+      The improvement provided by this invention is particularly important as integrated circuits design trend is to operate with lower supply voltages.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">This invention relates to CMOS (Complementary Metal Oxide Semiconductor) digital input circuits with compensation for manufacturing process variation as it affects circuit characteristics.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      A basic digital input circuit contains two or more chained inverter stages.
+      <br/>
+      In order to guarantee enough tolerance to noise, an input low voltage, Vil, and an input high voltage, Vih, switch levels at the input are specified.
+      <br/>
+      Modern integrated circuit requirements have pushed the two specifications closer and closer.
+      <br/>
+      For example, in current digital circuits using a 3.3V supply voltage, Vdd, one often finds Vil=0.3 Vdd and Vih=0.4 Vdd, resulting in a window of 0.1 Vdd which is only 0.33V.
+    </p>
+    <p num="3">
+      However, the variation of the integrated circuit manufacturing process may introduce a shift in the input switching voltage level, or toggle voltage, Vtgl.
+      <br/>
+      We define the toggle voltage, Vtgl, as the input voltage at which the output voltage of an inverter chain is equal to 0.5 Vdd. The purpose of defining Vtgl is as the input voltage sweeps, the output of an inverter changes very steeply when flipping from one state to another state.
+      <br/>
+      The extent of the Vtgl variation range is mainly dependent on manufacturing process variations.
+      <br/>
+      Its magnitude must lie within the Vil and Vih range.
+      <br/>
+      The manufacturing process variation, therefore, reduces the noise margin of the whole circuit.
+    </p>
+    <p num="4">Three US patents are known which deal with the subject of circuit compensation for manufacturing process variation.</p>
+    <p num="5">U.S. Pat. No. 5,111,081 (Atallah) provides a CMOS inverter in which variations in process are compensated for by varying the W/L ratio of the inverter FET devices by means of switching in selected other FETs in parallel with the inverter FET devices.</p>
+    <p num="6">
+      U.S. Pat. No. 4,975,599 (Petrovick, Jr. et al.) provides a technique for compensating for process variation in CMOS driver circuits using 5-transistor compensation circuits for control of each output device in the driver.
+      <br/>
+      In this patent the compensation is intended to stabilize the speed of operation of the driver.
+    </p>
+    <p num="7">U.S. Pat. No. 5,434,532 (Thiel) discloses a voltage reference circuit including CMOS devices for compensation of process variation in transistor circuits.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="8">The object of the present invention is to provide an improved design of CMOS digital input circuits when manufacturing process variations change the operational characteristics of the individual transistor elements in the circuit.</p>
+    <p num="9">Another object of this invention is to provide an integrated CMOS digital input circuit whose operation has a reduced sensitivity to manufacturing process variations.</p>
+    <p num="10">Another object of this invention is to provide an integrated CMOS digital input circuit which can tolerate the presence of larger noise levels.</p>
+    <p num="11">Another object of this invention is to provide an integrated CMOS digital input circuit which has an increased tolerance of smaller input voltage margins resulting from lower supply voltage.</p>
+    <p num="12">Another object of this invention is the increased ability of an integrated CMOS digital input circuit to operate reliably with a low voltage supply when manufacturing process variations reduce the input voltage margins.</p>
+    <p num="13">
+      These objects have been achieved by providing resistive compensation devices in series with the P-type and the N-type CMOS transistors in the first stage of a multistage digital input circuit.
+      <br/>
+      These resistive devices can be implemented by means of resistors or by means of MOSFET devices which provide the required resistive function.
+      <br/>
+      The preferred embodiment uses the MOSFET implementation of the resistive devices.
+      <br/>
+      The function of the resistive compensating devices is to change the transfer function of the first stage so as to reduce the excursion of input voltage switching levels resulting from manufacturing process variations, thereby reducing the switching uncertainty range and increasing the noise margin of the input circuit.
+    </p>
+    <p num="14">
+      The present invention is applicable to different types of integrated CMOS multistage input circuits.
+      <br/>
+      The preferred embodiments describe two possible implementations, one being a multistage CMOS inverter chain where the first stage is an inverter, and the other using a Schmitt trigger as the first stage of the inverter chain.
+    </p>
+    <heading>BRIEF DESCRIPTION OF DRAWINGS</heading>
+    <p num="15">
+      FIG. 1 shows a digital input circuit inverter chain using MOSFET devices in the first stage to compensate for process variations.
+      <br/>
+      FIG. 2 shows a multistage digital input circuit with a Schmitt trigger as the first stage using MOSFET devices to compensate for process variations.
+      <br/>
+      FIG. 3 represents the transfer curves which show the noise margin reduction due to process variation in the digital input circuit with no compensation.
+      <br/>
+      FIG, 4 shows a plot of the output of a digital input circuit vs. input to the second stage and the effect of process variation on this transfer curve.
+      <br/>
+      FIG. 5a shows the effect of process variation on the transfer curve of the first stage inverter of a digital input circuit.
+      <br/>
+      FIG. 5b shows the transfer curve of the first stage inverter of a digital input circuit with compensation and the resulting reduction in switching uncertainty.
+    </p>
+    <heading>DESCRIPTION OF PREFERRED EMBODIMENTS</heading>
+    <p num="16">
+      FIG. 1 is a schematic diagram of a multistage digital input circuit where each stage is a CMOS inverter and the first stage has been modified to provide compensation for manufacturing process variations.
+      <br/>
+      In this circuit, the compensation is implemented using MOSFET (Metal Oxide Silicon Field Effect Transistor) resistive devices which are inserted in series with the basic P1 and N1 inverter transistors.
+      <br/>
+      Two resistive compensation elements are used.
+      <br/>
+      A first resistive element, Nx, is comprised of an N-type FET (Field Effect Transistor) and the second resistive element, Px, is comprised of a P-type FET.
+      <br/>
+      The drain and gate of transistor Nx are connected to each other (transistor Nx is drain and gate shorted) and the drain and gate of transistor Px are connected to each other (transistor Px is drain and gate shorted).
+      <br/>
+      The drain-gate connection of said transistors Nx and Px provides the desired resistive function.
+      <br/>
+      The drain of Px is connected to the drain of CMOS transistor P1 and the drain of Px is connected to the drain of CMOS transistor N1.
+      <br/>
+      The source of transistor Nx and the source of transistor Px are connected to the output node, V1, of stage 1.
+      <br/>
+      The source of CMOS transistor P1 is connected to supply voltage, Vdd, and the source of CMOS transistor N1 is connected to ground.
+      <br/>
+      The gate of transistor P1 and the gate of transistor N1 are connected to the digital input circuit input node, Vin.
+    </p>
+    <p num="17">
+      The compensation scheme of the first stage of the digital input circuit includes an additional P-type transistor, Pt, connected in parallel with transistor Nx and an additional N-type transistor, Nt, in parallel with transistor Px.
+      <br/>
+      The source of transistor Pt is connected to the drain of transistor P1 and the drain of transistor Pt is connected to output node V1.
+      <br/>
+      The source of transistor Nt is connected to the drain of transistor N1 and the drain of transistor Nt is connected to output node V1.
+      <br/>
+      The gates of transistors Pt and Nt are connected to input node Vin.
+    </p>
+    <p num="18">
+      Transistors Nx and Px cause a voltage threshold loss at the output voltage in the first stage of the digital input circuit.
+      <br/>
+      Transistors Pt and NT connected in parallel with said transistors Nx and Px respectively tend to eliminate this voltage threshold loss.
+    </p>
+    <p num="19">
+      The addition of transistors Nx and Px to the inverter circuit as shown in FIG. 1 is basic to this invention.
+      <br/>
+      Said transistors are gate drain shorted and, therefore, act as resistive elements in series with the inverter transistors P1 and N1 respectively.
+      <br/>
+      An alternative connection of said transistors where the gate of transistor Nx is not connected to its drain but is connected to another voltage higher than its source and the gate of transistor Px is not connected to its drain but is connected to another voltage lower than its source also applies to this invention.
+      <br/>
+      The addition of transistors Nx and Px modifies the transfer curves of the first stage of the inverter such as to reduce the switching uncertainty range of the circuit, caused by variations in the manufacturing process.
+      <br/>
+      This is further illustrated in FIG. 3, FIG. 4, and FIG. 5.
+    </p>
+    <p num="20">
+      FIG. 3 illustrates the transfer curves showing the noise margin reduction due to process variation in the said digital input circuit.
+      <br/>
+      The toggle voltage, Vtgl, is the input voltage at which the output voltage of the digital input circuit is 0.5 Vdd. Vil is the specification for the most positive low voltage input to the circuit and Vih is the specification for the least positive high voltage input to the circuit.
+      <br/>
+      One can see in FIG. 3 that there were no manufacturing process variations, the circuit would have maximum noise tolerance.
+      <br/>
+      The noise tolerance or noise margin is defined as Vil to Vtgl at the lower end and Vih to Vtgl at the higher end.
+      <br/>
+      However, manufacturing process variations cause the toggle voltage to shift from nominal in the direction of lower or higher voltage level creating an uncertainty range, VtglD.
+      <br/>
+      Generally, in an operational circuit, the uncertainty range, VtglD, is contained within the range of Vil to Vih.
+      <br/>
+      As shown in FIG. 3, manufacturing process variations can cause Vtgl to exist anywhere between transfer curve A and transfer curve B. Clearly, the noise margin which is the voltage range of Vil to A at the lower end, and the voltage range of Vih to B at the higher end is reduced as the result of manufacturing process variations.
+    </p>
+    <p num="21">FIG. 4, FIG. 5a and FIG. 5b are used to illustrate the principle of this invention:</p>
+    <p num="22">
+      FIG. 4 shows the transfer curves of Vout (the voltage output of the digital input circuit) vs.
+      <br/>
+      V1 (the output of the first stage and input to the rest of the digital input circuit).
+      <br/>
+      Transfer curves are shown for three V1 toggle voltages: V1tgl(T) which is the switching voltage level for typical or nominal NMOS and PMOS process; V1tgl(FS) which represents fast NMOS and slow PMOS; V1tgl(SF) which represents slow NMOS and fast PMOS.
+      <br/>
+      V1tgl(FS) and V1tgl(SF) are the two extreme shifts in V1tgl due to manufacturing process variation.
+      <br/>
+      Clearly, V1tgl(FS), V1tgl(T) and V1tgl(SF) are unaffected by the addition of compensation in stage one.
+    </p>
+    <p num="23">
+      FIG. 5a shows the transfer curves of the first stage of the digital input circuit without compensation for manufacturing process variation.
+      <br/>
+      Three transfer curves are shown: V1 vs.
+      <br/>
+      Vin for FS, typical and SF cases respectively.
+      <br/>
+      For each case, the Vin voltage at the intersection point of the transfer curve with V1tgl is the toggle voltage for the whole digital input circuit.
+      <br/>
+      The three values of Vtgl of FIG. 4 are shown in FIG. 5a: Corresponding to Vtgl(FS) is the V1 voltage V1tgl(FS), corresponding to Vtgl(T) is the V1 voltage V1tgl(T) and corresponding to Vtgl(SF) is the V1 voltage V1tgl(SF).
+    </p>
+    <p num="24">
+      FIG. 5b illustrates the effect of compensation resistive devices, Px and Nx, of FIG. 1 on the transfer curves of the first stage of the digital input circuit.
+      <br/>
+      As a result of the compensation devices the transfer curves are rotated producing a less steep slant in the vicinity of toggle voltages, thus bringing closer to each other the values of Vtgl(FS) and Vtgl(SF).
+      <br/>
+      The resulting VtglD1 is smaller than VtglD prior to compensation and consequently, the uncertainty range of the circuit is reduced.
+      <br/>
+      The noise margin of the digital input circuit is correspondingly increased.
+    </p>
+    <p num="25">
+      Transistors Nx and Px provide an additional function.
+      <br/>
+      As shown in FIG. 1, Nx is an N-type transistor in series with a P-type transistor, P1, and Px is a P-type transistor in series with an N-type transistor, N1.
+      <br/>
+      This combination of a P-type transistor with an N-type transistor tends to compensate for manufacturing process variations.
+      <br/>
+      This action additionally helps to reduce the Vtgl excursions due to manufacturing process variations.
+    </p>
+    <p num="26">
+      The principle of this invention illustrated in FIG. 5b would also apply if the compensating resistive devices were resistors instead of MOSFET devices.
+      <br/>
+      However the use of resistors reduces the current driving capability of the first stage inverter and, therefore, the preferred embodiment emphasizes the use of MOSFET compensating resistive devices.
+    </p>
+    <p num="27">
+      FIG. 2 illustrates the application of this invention to a multistage digital input circuit which uses a Schmitt trigger in its first stage.
+      <br/>
+      The functions of transistors P1, N1, Nx, Px are the same as described above.
+      <br/>
+      The threshold loss compensation function of transistors Pt and Nt shown in the inverter circuit of FIG. 1 are provided respectively by transistor P4 and N4 which are already included in the structure of the Schmitt trigger circuit without compensation.
+    </p>
+    <p num="28">While the invention has been particularly shown and described with reference to the preferred embodiments thereof, it will be understood by those skilled in the art that various changes in form and details may be made without departing from the spirit and scope of the invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A digital input circuit consisting of multiple inverter stages where the first stage is an inverter which contains a compensation means for lessening the effect of manufacturing process variations on the switching voltage level at the input of said digital input circuit, said compensation means being such that said digital input circuit is capable of operating at low voltage;</claim-text>
+      <claim-text>said first stage is comprised of a first P-type FET transistor, a first compensating resistive device, a second N-type FET transistor and a second compensating resistive device, the input to said first stage is connected to the gates of said FET transistors, the source of said first FET device is connected to the supply voltage, said first compensating resistive device has one terminal connected to the drain of said first FET transistor and the other terminal of said first compensating resistive device is connected to the output node of said first stage, the source of said second FET device is connected to ground, said second compensating resistive device has one terminal connected to the drain of said second FET transistor and the other terminal of said second compensating resistive device is connected to the output node of said first stage.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A digital input circuit of claim 1, wherein the first compensating resistive device and the second compensating resistive device provide the means to shift the input voltage switch level to compensate for the shift of input voltage switch level caused by manufacturing process variations thereby reducing the effect of said manufacturing process variations.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A digital input circuit of claim 1, where the said compensating resistive devices are comprised of MOSFET devices, the first compensating resistive device is an N-type FET with drain and gate shorted, the drain of said first compensating device is connected to the drain of the first P-type FET transistor, the source of said first compensating device is connected to the output node of said first stage, the second compensating resistive device is a P-type FET with drain and gate shorted, the drain of said second compensating device is connected to the drain of the second N-type FET transistor, the source of said second compensating device is connected to the output node of said first stage of the digital input circuit.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A digital input circuit of claim 1 where the said compensating resistive devices are comprised of MOSFET devices, the first compensating resistive device is an N-type FET with the gate connected to a voltage higher than the source of said device, the drain of said first compensating device is connected to the drain of the first P-type FET transistor, the source of said first compensating device is connected to the output node of said first stage, the second compensating resistive device is a P-type FET with the gate connected to a voltage lower than the source of said device, the drain of said second compensating device is connected to the drain of the second N-type FET transistor, the source of said second compensating device is connected to the output node of said first stage of the digital input circuit.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A digital input circuit of claim 3 wherein;</claim-text>
+      <claim-text>a P-type transistor is connected in parallel with said first compensating N-type FET to compensate for the threshold loss due to said compensating N-type FET, the gate of said P-type transistor is connected to the said first stage input node, the drain is connected to the drain of said compensating N-type FET and the source is connected to the source of the said compensating N-type FET; an N-type transistor is connected in parallel with said second compensating P-type FET to compensate for the threshold loss due to said compensating P-type FET, the gate of said N-type transistor is connected to the said first stage input node, the drain is connected to the drain of said compensating P-type FET and the source is connected to the source of said compensating P-type FET.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A digital input circuit consisting of multiple stages wherein the first stage is a Schmitt trigger circuit which contains a compensation means for lessening the effect of manufacturing process variations on the switching voltage level at the input of said digital input circuit, said compensation means being such that said digital input circuit is capable of operating at low voltage;</claim-text>
+      <claim-text>wherein the first stage Schmitt trigger circuit is comprised of: a first P-type transistor and second P-type transistor connected in series; a connection from the source of the first P-type transistor to the supply voltage; a connection from the drain of the first P-type transistor to the source of the second P-type transistor; a connection from the drain of the second P-type transistor to the output node of first stage; a feedback loop connected from the drain of the first P-type transistor to the output node; a compensating N-type drain-gate shorted FET connected in parallel with the second P-type transistor where the source of said N-type FET is connected to the drain of said second P-type transistor and the drain of said N-type FET is connected to the source of said second P-type transistor; a first N-type transistor and second N-type transistor connected in series; a connection from the source of the first N-type transistor to ground; a connection from the drain of the first N-type transistor to the source of the second N-type transistor; a connection from the drain of the second N-type transistor to the output node of first stage; a feedback loop connected from the drain of the first N-type transistor to the output node; a compensating P-type drain gate shorted FET connected in parallel with the second N-type transistor where the source of said P-type FET is connected to the drain of said second N-type transistor and the drain of said P-type FET is connected to the source of said second N-type transistor.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A digital input circuit of claim 6 wherein the compensating P-type FET and the compensating N-type FET provide the means to shift the input voltage switch level to compensate for the shift of input voltage switch level caused by manufacturing process variations thereby reducing the effect of said manufacturing process variations.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A digital input circuit of claim 6 wherein said first compensating N-type FET offsets the variation of said series connected P-type transistors resulting from manufacturing process variations and wherein said second compensating P-type FET offsets the variation of said series connected N-type transistors resulting from manufacturing process variations.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

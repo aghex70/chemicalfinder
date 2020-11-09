@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182175B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182175</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182175</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="9523002" extended-family-id="3881342">
+      <document-id>
+        <country>US</country>
+        <doc-number>09249147</doc-number>
+        <kind>A</kind>
+        <date>19990212</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09249147</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>4013671</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>FR</country>
+        <doc-number>9801831</doc-number>
+        <kind>A</kind>
+        <date>19980216</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998FR-0001831</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/38        20060101AFI20051220RMJP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>38</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>JP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051220</date>
+        </action-date>
+      </classification-ipcr>
+      <classification-ipcr sequence="2">
+        <text>G06F  13/42        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>42</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710105000</text>
+        <class>710</class>
+        <subclass>105000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>709230000</text>
+        <class>709</class>
+        <subclass>230000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710061000</text>
+        <class>710</class>
+        <subclass>061000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>710313000</text>
+        <class>710</class>
+        <subclass>313000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/42S4</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>42S4</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/4291</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>4291</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>27</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>8</number-of-drawing-sheets>
+      <number-of-figures>11</number-of-figures>
+      <image-key data-format="questel">US6182175</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Serial data transfer process, and synchronous serial bus interface implementing such process</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>KARDACH JAMES, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5671421</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5671421</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>LIANG JIE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5758073</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5758073</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TETZLAFF DAVID E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5928345</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5928345</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>QUATSE JESSE T</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4683530</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4683530</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>LOKHOFF GERARDUS CORNELIS P</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5434862</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5434862</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <document-id>
+            <country>EP</country>
+            <doc-number>0051332</doc-number>
+            <kind>B1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP--51332</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>TELEMECANIQUE ELECTRIQUE</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0159941</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-159941</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>KONINKL PHILIPS ELECTRONICS NV</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0498494</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-498494</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>French Search Report dated Nov. 27, 1998.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Matra Nortel Communications</orgname>
+            <address>
+              <address-1>FR</address-1>
+              <country>FR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>FR</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>MATRA NORTEL COMMUNICATIONS</orgname>
+          </addressbook>
+          <nationality>
+            <country>FR</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Nihouran, Gilbert</name>
+            <address>
+              <address-1>Guengat, FR</address-1>
+              <city>Guengat</city>
+              <country>FR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>FR</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Marcou, George T.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Kilpatrick Stockton LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Thai, Xuan M.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      The synchronous serial bus between a main processing unit and a peripheral unit includes a data line and a clock line.
+      <br/>
+      Strobe pulses presented by the main processing unit on the data line while it holds the clock line at a given logic level characterise transfer cycles on the bus.
+      <br/>
+      The main processing unit can thus run write or read cycles in registers of an interface of the peripheral unit.
+      <br/>
+      A direct transfer mode, wherein the strobe pulse is transmitted at the beginning of the cycle without specifying an address, is provided to enable the main processing unit to have a fast access to certain locations previously specified.
+      <br/>
+      The data and clock lines of the bus may be shared with those of another synchronous bus.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      The present invention relates to the area of serial digital data transmissions.
+      <br/>
+      It relates more particularly to a synchronous bus and its master/slave transmission protocol between a main processing unit (master) and a peripheral unit (slave).
+    </p>
+    <p num="2">
+      An example of such a bus, used in different categories of equipment, is the so-called I2 C bus described in European patent 0 051 332.
+      <br/>
+      A certain number of clock cycles are required for the microprocessor or microcontroller constituting the main processing unit to retrieve one byte of data (58 clock cycles in the case of the circuit marketed by the PHILIPS company with the reference number PCD 3316 which employs such a bus).
+    </p>
+    <p num="3">An object of the present invention is to propose a new synchronous serial bus protocol enabling faster access to certain data in the peripheral unit.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="4">The invention thus proposes a process for serial data transfer between a main processing unit and a peripheral unit connected to each other by a bus including a data line and a clock line,</p>
+    <p num="5">
+      wherein the main processing unit controls synchronised transfer cycles by means of the clock line, including transfer cycles with addressing and direct transfer cycles,
+      <br/>
+      wherein, during each cycle, the main processing unit transmits on the data line a strobe pulse while the clock line is at a first logic level,
+      <br/>
+      wherein, before transmitting the strobe pulse in a transfer cycle with addressing, the main processing unit transmits on the data line bits of a transfer address, with corresponding synchronisation pulses on the clock line,
+      <br/>
+      wherein, after receiving the strobe pulse in a transfer cycle with addressing, the peripheral unit accesses to a memory location determined from the transfer address to write or read data bits successively presented on the data line synchronously with corresponding synchronisation pulses on the clock line,
+      <br/>
+      and wherein, after receiving the strobe pulse in a direct transfer cycle, the peripheral unit accesses to a memory location determined prior to said direct transfer cycle to write or read data bits successively presented on the data line synchronously with corresponding synchronisation pulses on the clock line.
+    </p>
+    <p num="6">
+      The transfer protocol is very simple, thus enabling fast access.
+      <br/>
+      It is based on the detection of the strobe pulse on the data line by the peripheral unit.
+      <br/>
+      The main processing unit distinguishes between the different transfer modes through the position of this strobe pulse during the cycle, and/or by means of selection bits provided on the data line before the strobe pulse and/or by a decoding of the address bits.
+    </p>
+    <p num="7">Very fast access to some storage locations in the peripheral unit is made possible by the direct transfer mode, given that the main processing unit provides no address bits in this mode, and that the desired data is previously selected.</p>
+    <p num="8">The location where the transmitted data bits are obtained in direct transfer mode may be a predetermined fixed location, which enables the structure of the bus interface of the peripheral unit to be simplified to the maximum and therefore its cost to be minimised.</p>
+    <p num="9">
+      It may also be a location whose address is obtained from data supplied by the main processing unit during a previous write cycle.
+      <br/>
+      In this case, direct read cycles can be run by the main processing unit to read different types of data in the peripheral unit.
+      <br/>
+      The number of bits read in this way may also be a parameter set by the main processing unit during a previous write cycle.
+    </p>
+    <p num="10">The direct read mode may particularly be used in the fast handling of some interrupts by the main processing unit.</p>
+    <p num="11">Another advantage of the proposed bus is that it may share its data line and its clock line with those of a bus operating in accordance with another protocol for the exchange of data between the main processing unit and other entities.</p>
+    <p num="12">
+      According to another aspect, the present invention proposes a synchronous serial bus interface for a peripheral unit controlled by a main processing unit by means of a bus including a data line and a clock line including:
+      <br/>
+      strobe pulse detection means, to detect strobe pulses occurring on the data line of the bus, while the clock line of the bus is at a first logic level;
+      <br/>
+      a first shift register timed by the clock line of the bus, having a serial data input connected to the data line;
+      <br/>
+      a second shift register having a serial data input connected to the serial data output of the first shift register or to the data line, and timed by the
+      <br/>
+      output of an EXCLUSIVE OR gate having an input connected to the clock line of the bus, and another input receiving a binary selection signal;
+      <br/>
+      an output switch connected on the one hand to the serial data output of the second shift register and on the other hand to the data line of the bus;
+      <br/>
+      transfer cycle identification means, in order to analyse the content of the first shift register when a strobe pulse is detected so as to identify each transfer cycle to which a detected strobe pulse belongs;
+      <br/>
+      write registers addressable from a write address obtained from the first shift register when a write cycle with addressing has been identified, a write cycle with addressing wherein the binary selection signal is held at 0, the output switch is kept open and the detection of the strobe pulse is followed by the parallel transfer of the content of the second shift register into the write register denoted by the write address;
+      <br/>
+      read registers addressable from a read address when a read cycle has been identified, a read cycle wherein the detection of the strobe pulse is followed by the parallel transfer of at least part of the content of the read register denoted by the read address into the second shift register and by the serial transfer of the content of the second shift register to the output switch, a serial transfer during which the binary selection signal is set at 1 and the output switch is closed; and
+    </p>
+    <p num="13">transfer cycle managing means to obtain the read address from the first shift register when a read cycle with addressing has been identified, and to supply a previously specified read address when a direct read cycle has been identified.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="14">
+      FIG. 1 is a block diagram of a device implementing the present invention.
+      <br/>
+      FIGS. 2 to 4 are timing diagrams showing respectively a write cycle, a read cycle with addressing and a direct read cycle run in an example of the process in accordance with the invention,
+      <br/>
+      FIG. 5 is a diagram of a n example of an input/output module of an interface implementing such process.
+      <br/>
+      FIG. 6 is a diagram giving details of an embodiment of a strobe detector of the module in FIG. 5.
+      <br/>
+      FIG. 7 is a diagram of another example of an input/output module of an interface in accordance with the invention.
+      <br/>
+      FIGS. 8 to 11 are timing diagrams showing respectively a write cycle, a read cycle (direct or with addressing) and decoding of addresses in a direct transfer cycle.
+    </p>
+    <heading>DESCRIPTION OF PREFERRED EMBODIMENTS</heading>
+    <p num="15">
+      FIG. 1 shows diagrammatically a device the general operation of which is controlled by a main processing unit constituted by a microprocessor 10.
+      <br/>
+      The microprocessor 10 controls a certain number of units (not shown) of the device by means of a serial bus 11 of known type, such as for example a I2 C bus comprising a data line SDA and a clock line SCL (see EP-B-0 051 332).
+    </p>
+    <p num="16">Another peripheral unit 12 is controlled by the microprocessor 10 by means of a serial bus 13 operating in accordance with the invention.</p>
+    <p num="17">As an example of application, the device may be a telephone whose microprocessor 10 controls, by means of an I2 C bus 11, units such as a keyboard, a display screen and different interfaces, the unit 12 being a component dedicated to the observation of the telephone line and to the processing of certain data relative to sophisticated services offered by network operators.</p>
+    <p num="18">
+      In this kind of application, the cost of the components must be as low as possible, and it is particularly desirable to be able to reduce as far as possible the number of input/output pins in the microprocessor.
+      <br/>
+      To this end, the bus 13 serving as interchange between the units 10 and 12 borrows the data and clock lines of the general bus 11, which are also denoted BDA and BCL.
+      <br/>
+      The protocol which will be described below prevents ambiguities on these lines.
+    </p>
+    <p num="19">The bus 13 additionally comprises an interrupt line INT enabling the peripheral unit 12 to indicate certain events to the microprocessor 10 by sending an interrupt request.</p>
+    <p num="20">
+      The bus interface, provided between the operating circuits 15 of the peripheral unit 12 and the bus 13, includes an input/output module 16 and an interrupt processing module 17.
+      <br/>
+      The module 17 receives from the circuits 15 respective interrupt signals IRQ1 -IRQn relative to a group of n events whose detection triggers the sending of an interrupt request on the INT line.
+      <br/>
+      The module 17 controls the storage, in a status register of the module 16, of n bits corresponding to the statuses of the signals IRQ1 -IRQn.
+      <br/>
+      In response to an interrupt request received on the INT line, the microprocessor 10 reads the status register to discover the origin of the interrupt and to determine which interrupt program should be run.
+    </p>
+    <p num="21">In the example of application to a telephone, the group of events associated with the interrupt signals IRQ1 -IRQn includes for example the detection of ringing on the line, the detection of the presence of line voltage and the detection of various signals transmitted by the network on the telephone line in the context of particular services.</p>
+    <p num="22">
+      The first two lines in FIGS. 2 to 4 show how the microprocessor 10 controls the lines BCL, BDA of the bus 13 to trigger data transfers from or to the peripheral unit 12.
+      <br/>
+      In each case, the use of the bus 13 is signalled by a strobe pulse presented during a transfer cycle on the data line BDA while the clock line BCL is at a given logic level.
+      <br/>
+      In the example described, this logic level is level 1, and the strobe pulse is a logic level 0, i.e. starting with a falling edge and ending with a rising edge, these two edges occurring while BCL=1.
+    </p>
+    <p num="23">
+      In a write cycle with addressing (FIG. 2), the strobe pulse is preceded by n+m+1 regular synchronisation pulses on the clock line BCL (n=8 and m=4 in the example shown), each pulse starting with a rising edge and ending with a falling edge.
+      <br/>
+      The changes in logic level on the data line BDA are not authorised during these n+m+1 synchronisation pulses (BCL=1), but only between these pulses (BCL=0).
+      <br/>
+      The first n=8 bits transmitted during the write cycle are data bits forming a byte to be written, transmitted by the microprocessor 10 in descending order of significance D7-D0.
+      <br/>
+      The following m=4 bits A3-A0 form a write address for storing the previous byte.
+      <br/>
+      The final bit RW, which immediately precedes the strobe pulse, indicates by the value RW=0 that the current cycle is a write cycle.
+    </p>
+    <p num="24">
+      In a read cycle with addressing (FIG. 3), the strobe pulse is preceded by m+1 synchronisation pulses on the clock line BCL, m+1 bits being transmitted as previously by the microprocessor on the data line BDA.
+      <br/>
+      The first m=4 of these bits form a read address A3-A0 for the data required by the microprocessor.
+      <br/>
+      The final bit RW, which immediately precedes the strobe pulse, indicates by the value RW=1 that the current cycle is a read cycle with addressing.
+    </p>
+    <p num="25">
+      After the strobe pulse in a read cycle with addressing, the microprocessor 10 still transmits n=8 synchronisation pulses on the line BCL, to which the module 16 of the peripheral unit 12 responds by presenting successively on the line BDA the n=8 bits of the read byte, in descending order of significance D7-D0.
+      <br/>
+      As previously, the transmission of these n data bits is operated such that transitions between these bits occur when the clock line is in the status BCL=0.
+    </p>
+    <p num="26">
+      In a direct read cycle (FIG. 4), the strobe pulse is transmitted by the microprocessor at the beginning of the cycle.
+      <br/>
+      After this strobe pulse, the processor 10 provides  RHO  synchronisation pulses on the clock line BCL, to which the peripheral unit 12 responds by transmitting  RHO  data bits d1-d0 on the line BDA in the same way as previously (the transitions between bits occur while BCL=0).
+    </p>
+    <p num="27">
+      In the example of FIG. 4, the particular case where p=2 has been shown.
+      <br/>
+      The p=2 bits d1-d0 are for example read from a predetermined fixed address in the registers 16 of the input/output module.
+    </p>
+    <p num="28">
+      In the example of application to the telephone, the p=2 bits read in a direct read cycle may be the two bits of the status register indicating respectively the detection of ringing on the telephone line and the presence of line voltage.
+      <br/>
+      These two bits represent data which the microprocessor 10 may need very urgently in order to adopt an appropriate response.
+      <br/>
+      Thus, when it receives an interrupt request on the INT line, the microprocessor 10 may trigger a direct read cycle with a very fast run time, so as to discover the values of these two bits and to adopt the appropriate response in the shortest possible time if they do in fact show the origin of the interrupt.
+      <br/>
+      In the opposite case, the microprocessor 10 may then trigger a read cycle with addressing in the status register so as to discover the other status bits and to identify the origin of the interrupt.
+    </p>
+    <p num="29">
+      As a numerical example (see FIG. 2), the clock frequency being 500 kHz, the length of the pulses on the clock line (BCL=1) may be T1=1  MU s, and these pulses may be separated by a length T2=1  MU s (BCL=0); the logic level 0 strobe pulse may have a length T3=1  MU s, preceded and followed by a standby time T4=0 * 5  MU s during which BCL=BDA=1.
+      <br/>
+      The length of a write or read cycle with addressing is then about 15  MU s, and the length a direct read cycle with p=2 is about 4  MU s. Access may be even faster when the bus is not subject to the constraints of the I2 C protocol, the clock frequency being able in this case to be higher.
+    </p>
+    <p num="30">When it is not running a transfer cycle on the bus 11/13, the microprocessor 10 keeps the clock line SDA/BDA at logic level 1.</p>
+    <p num="31">
+      In the I2 C bus protocol 11, a falling edge on the data line SDA while the clock line SCL is at logic level 1 characterises a transfer cycle start, whereas a rising edge f on the data line SDA while BCL=1 characterises a transfer cycle end (FIG. 4).
+      <br/>
+      As a result, according to this I2 C protocol, the data line does not change logic level more than once while the clock line is at level 1.
+      <br/>
+      It can therefore be seen that the transfer protocol proposed according to the invention, shown by the FIGS. 2 to 4, gives rise to no ambiguity with the I2 C bus protocol used by the microprocessor 10 to control other units of the device:
+    </p>
+    <p num="32">
+      control of the SDA/BDA, SCL/BCL lines belongs to the microprocessor 10 which ensures the coexistence of the two buses:
+      <br/>
+      when the microprocessor controls the bus 13 as shown in one of FIGS. 2 to 4, no I2 C transfer cycle is run on the bus 11 since the strobe pulse leads to starting and then ending an I2 C cycle wherein nothing would have occurred, and the stability of the data line BDA while BCL=1 outside the strobe pulse cannot generate any I2 C cycle start,
+      <br/>
+      during the run of a transfer cycle in accordance with the 12 C protocol, the strobe pulse is not received by the peripheral unit 12 with the result that untimely transfers on the bus 13 are avoided.
+    </p>
+    <p num="33">
+      The structure of the input/output module 16 of the peripheral unit 12 is for example in accordance with the diagram in FIG. 5.
+      <br/>
+      In this figure, the reference 18 denotes a group of M &lt;= 2m registers of n bits wherein the microprocessor 10 may control writes in cycles such as that shown in FIG. 2, the register of the group 18 where such a write occurs being selected by means of the write address A3-A0.
+      <br/>
+      The reference 19 denotes a group of M' &lt;= 2m registers of n bits wherein the microprocessor 10 may control data reads in read cycles with addressing such as that shown in FIG. 3, the register of the group 19 where such a read occurs being selected by means of the read address A3-A0.
+      <br/>
+      These read registers 19 include the status register used for the management of interrupts.
+    </p>
+    <p num="34">
+      The module 16 includes a shift register consisting of m+1 cascaded D flip-flops 200 -20m timed by the rising edges of the signal present on the clock line BCL.
+      <br/>
+      The data input of this shift register, i.e. the D input of the first flip-flop 200, is connected to the data line BDA.
+      <br/>
+      The module 16 includes a second shift register consisting of n cascaded D flip-flops 20m+1 -20m+n timed by the rising edges of a signal CC delivered by an EXCLUSIVE OR gate 21.
+      <br/>
+      For 1 &lt;= i &lt;= m+n, the D input of flip-flop 20i is connected to the Q output of flip-flop 20i-1.
+      <br/>
+      The gate 21 has an input connected to the clock line BCL.
+      <br/>
+      Its other input receives a binary selection signal CD.
+    </p>
+    <p num="35">Upon reception of a strobe pulse by the peripheral unit 12 in a write or read cycle with addressing, the mode selection bit RW is present at the Q output of flip-flop 200, and the m address bits A3-A0, are present at the Q outputs of flip-flops 201 -20n.</p>
+    <p num="36">
+      An auxiliary register of m bits consists of m D flip-flops 221 -22m.
+      <br/>
+      For 1 &lt;= i &lt;= m, the D input of flip-flop 22i is connected to the Q output of flip-flop 20i.
+      <br/>
+      The Q outputs of flip-flops 221 -22m supply the m address bits delivered to the group of write registers 18 and to the group of read registers 19.
+      <br/>
+      For this auxiliary register 221 -22m to receive the address A3-A0 the moment the strobe pulse is detected in a write or read cycle with addressing, the D flip-flops 221 -22m are timed by the rising edges of a HOLD signal delivered by a strobe detector 24.
+    </p>
+    <p num="37">
+      This detector 24 (FIG. 6) includes two D flip-flops 25, 26 whose Q outputs are reset to logic level 0 at each falling edge occurring on the clock line BCL.
+      <br/>
+      The line BCL is connected to the D input of flip-flop 25 which is timed by the falling edges occurring on the data line BDA, and whose Q output delivers the aforementioned HOLD signal.
+      <br/>
+      This signal is on the one hand addressed to the D input of flip-flop 26 timed by the rising edges occurring on the data line BDA, and whose Q output delivers a detection signal STRI.
+      <br/>
+      This STRI signal has a logic level 1 pulse which starts at the end of each strobe pulse and ends when the BCL line returns to 0.
+    </p>
+    <p num="38">
+      An AND gate 28 combines the STRI signal with the logic complement of the RW bit obtained on the Q output of flip-flop 200 to produce the write control signal WR addressed to the group of write registers 18.
+      <br/>
+      This signal WR (FIG. 2) controls the parallel transfer of the n bits D7-D0 present on the Q outputs of flip-flops 20m+1 -20m+n in the register of the group 18 whose location is denoted by the m address bits A3-A0 obtained on the Q outputs of flip-flops 221 -22m.
+    </p>
+    <p num="39">Another AND gate 29 receives the signal STRI and the selection bit RW obtained on the Q output of flip-flop 200 to produce a signal RR having a similar behavior in the read cycles (FIGS. 3 and 4).</p>
+    <p num="40">
+      In order to distinguish read cycles with addressing from direct read cycles, provision is made for one value of the read address to be excluded by the microprocessor 10 for the read cycles with addressing.
+      <br/>
+      As an example, this may be the value for which all the address bits are at 1.
+    </p>
+    <p num="41">
+      The flip-flops of the first shift register 200 -20m each have a preselection input P acting to force their Q output to logic level 1 upon each falling edge of a pre-selection signal CP.
+      <br/>
+      This signal CP is supplied by a filter formed by an AND gate 31 belonging to read cycle managing means 30.
+      <br/>
+      The AND gate 31 combines the following signals:
+      <br/>
+      a general reset signal RES for the unit 12;
+      <br/>
+      the logical complement of the write control signal WR, whose rising edge, occurring at the end of a write cycle (FIG. 2), thus causes the writing of the excluded address in flip-flops 201 -20m of the first shift register, and of RW=1 in flip-flop 200 ;
+      <br/>
+      an end of read cycle signal EORC, which has a logic level 0 pulse at the end of each read cycle (FIGS. 3 and 4), to write RW=1 as well as the excluded address in the register 200 -20m at the end of each read cycle, direct or with addressing; and
+      <br/>
+      a false strobe detection signal F, which locates logic level changes on the data line BDA occurring while BCL=1 and which cannot be attributed to a strobe pulse.
+    </p>
+    <p num="42">
+      The signal F acts to force the writing of RW=1 and of the excluded address value in the register 200 -20m at the end of the transfer cycles controlled by the microprocessor 10 in accordance with the I2 C protocol.
+      <br/>
+      This signal F has a falling edge at the end of each I2 C transfer cycle, as is shown in the left hand part of FIG. 4.
+      <br/>
+      This signal F is for example supplied by the inverted output Q of a D flip-flop 27 of the strobe detector 24 (FIG. 6).
+      <br/>
+      This flip-flop 27 is reset to 0 at each falling edge occurring on the clock line BCL.
+      <br/>
+      The line BCL is connected to the D input of flip-flop 27 which is timed by the rising edges occurring on the data line BDA.
+    </p>
+    <p num="43">The shaping of the pre-selection signal CP is such that the microprocessor 10 can decide at each moment to run a direct read cycle.</p>
+    <p num="44">To identify the nature of the current transfer cycle, the AND gates 28, 29 are completed by a detection logic 33 connected to the Q outputs of the flip-flops of the auxiliary register 221 -22m This detection logic 33, which simply consists of an AND gate with m inputs when the excluded address value is 11 . . . 1, delivers a selection bit FRM which is at 1 when the excluded address is detected and at 0 otherwise.</p>
+    <p num="45">
+      The read cycle managing means 30 further include an address switch 34 controlled by the FRM bit, a timing module 35 and an address management module 36.
+      <br/>
+      The module 35 delivers the read control signal RD supplied to the group of registers 19.
+      <br/>
+      This signal RD is produced in response to the pulse from the signal RR delivered by the AND gate 29, and corresponds to that pulse prolonged during a clock cycle BCL, as FIGS. 3 and 4 show.
+    </p>
+    <p num="46">
+      A three-state gate 40 forms an output switch of the input/output module 16, with its input connected to the Q output of the last flip-flop 20m+n of the second shift register, and its output connected to the data line BDA.
+      <br/>
+      This three-state gate 40 may be controlled by the binary selection signal CD which is supplied to the EXCLUSIVE OR gate 21, so as to be in the off (open) state when CD=0 and in the on (closed) state when CD=1.
+    </p>
+    <p num="47">
+      The signal CD is delivered by the timing module 35.
+      <br/>
+      It remains at level 0 outside transfer cycles on the bus 13 as well as during write cycles.
+      <br/>
+      During a read cycle (FIGS. 3 and 4), the signal CD remains at level 0 until the strobe pulse is detected.
+      <br/>
+      When it senses a rising edge on the output RR of the gate 29, the module 35 generates a rising edge of the signal CD which is then held at 1 until the end of the following synchronisation pulses on the clock line BCL.
+      <br/>
+      The module 35 therefore holds the signal CD at 1 until it has received n synchronisation pulses on the line BCL when FRM=0, and until it has received p synchronisation pulses when FRM=1.
+      <br/>
+      The level 0 pulse of the end of cycle signal EORC is produced when the signal CD returns to 0 (FIGS. 3 and 4).
+    </p>
+    <p num="48">
+      When FRM=0, the switch 34 is in the position shown in FIG. 5, so that a pulse of the RD signal causes the reading of a byte in the group 19 at the address present in the auxiliary register 221 -22m.
+      <br/>
+      The circular shift module 38 to which the bits of the byte read in the group 19 are supplied is deactivated when FRM=0, which enables the parallel transfer of these bits to the shift register 20m+1 -20m+n The most significant bit in the byte is supplied first on the data line BDA via the gate 40, whereas the other bits of the byte are loaded in the flip-flops 20m+2 -20m+n of the second shift register.
+      <br/>
+      These other bits are then delivered in series on the data line BDA in response to the following synchronisation pulses of the clock BCL.
+      <br/>
+      The inversion of this clock by the exclusive OR gate 21 enables data stability to be ensured in time intervals when BCL=1.
+    </p>
+    <p num="49">
+      In a direct read cycle, the switch 34 is positioned to obtain the read address a from the address management module 36.
+      <br/>
+      When this address a is fixed, the module 36 is reduced to connections supplying the constant value a to the switch 34.
+      <br/>
+      If the  RHO  bits read in a direct read cycle are always the most significant  RHO  bits of one of the group 19 registers, the shift module 38 is useless.
+      <br/>
+      Otherwise, it is activated by the FRM=1 bit so as to introduce the required shift, of  DELTA  bits, to deliver the required bits to the data line BDA.
+    </p>
+    <p num="50">
+      It is possible to choose, for the number of bits to be transferred in a direct read cycle, a number  RHO  greater than the size n of the group 19 registers.
+      <br/>
+      The operation is then the same as that described previously, except that the timing module 35 has to reactivate the read control signal RD every n synchronisation pulses thus causing the incrementation of the address supplied by the module 36 (essentially consisting of a counter), and the parallel transfer to the shift register 20m+1 -20m+n of the content of a new register of the group 19 pointed to by the incremented address.
+    </p>
+    <p num="51">
+      The parameters  RHO  (number of bits transferred in a direct read cycle), a (start address) and  DELTA  (possible shift) may be fixed, as in the previously described example.
+      <br/>
+      They may also be parameters which can be programmed by the microprocessor 10.
+      <br/>
+      In this case, the modules 35, 36 and 38, which use parameters  RHO , a and  DELTA  respectively, obtain them from one of the write registers of the group 18.
+      <br/>
+      To modify one or other of these parameters, the microprocessor 10 may simply run a write cycle in the register or registers in question, the addresses of which it knows.
+    </p>
+    <p num="52">
+      In the alternative embodiment shown in FIG. 7, the direct transfer cycles, without addressing, are not limited to read cycles.
+      <br/>
+      Direct write cycles are also possible.
+      <br/>
+      In addition, in that embodiment, the mode selection bit RW is not transmitted by the microprocessor.
+      <br/>
+      The distinction between the read and write cycles is carried out on the basis of a decoding of the addresses present in the auxiliary register 221 -22m upon the detection of the strobe pulse.
+    </p>
+    <p num="53">
+      The input-output module shown in FIG. 7 has numerous elements in common with that of FIG. 5, which are designated by the same reference numerals.
+      <br/>
+      The first shift register whose input is connected to the data line BDA of the bus 13 lacks one flip-flop since the RW bit no more needs to be taken into account.
+      <br/>
+      The flip-flops 201 -20m remain and are coupled in the same way to the flip-flops 221 -22m of the auxiliary register.
+    </p>
+    <p num="54">
+      The parallel m-bit output of the auxiliary register is connected to a cycle type detection logic 50, which also receives the STRI signal output by the strobe detector 24.
+      <br/>
+      Logic 50 performs a decoding of the addresses contained in the auxiliary register 221 -22m when it receives a pulse of the STRI signal.
+      <br/>
+      This decoding is in accordance with predefined rules.
+      <br/>
+      By way of non-restrictive example, those rules may consist in that (i) the addresses having the form 1xx . . . x (where each x is 0 or 1) are used by the microprocessor in read cycles with addressing, (ii) the addresses having performed 0xx . . . x are used in the write cycles with addressing, (iii) the address 111 . . . 1 is an excluded read address, whose presence in the auxiliary register 221 -22m characterises a direct to read cycle, and (iv) the address 011 . . . 1 is an excluded write address whose presence in the register 221 -22m characterises a direct write cycle.
+      <br/>
+      In this particular case, there are as many read-addressable locations as write-addressable locations.
+      <br/>
+      A decoding table (possibly programmable by the microprocessor 10) in logic 50 more generally permits any combination of memory areas accessible in read and/or write cycles.
+    </p>
+    <p num="55">
+      Upon detection of a read cycle (direct or with addressing), the logic 50 produces a logic level 1 pulse in the RR signal whose role is the same as that described in the preceding embodiment (see FIGS. 9 and 10).
+      <br/>
+      Upon detection of a write cycle (direct or with addressing), the logic 50 likewise produces a logic level 1 pulse in the WW signal, as indicated in FIGS. 8 and 11. In each direct transfer cycle, the logic 50 further activates a signal FM, whose role is similar to that of the FRM signal in the preceding embodiment (in particular, it controls the address switch 34 which delivers the read or write address A, and possibly the shift module 38).
+    </p>
+    <p num="56">
+      As illustrated in FIG. 7, the detection logic 50 could further produce control signals C1,C2, . . . responsive to the detection of certain particular addresses in the auxiliary register 221 -22m.
+      <br/>
+      This type of decoding offers the possibility to transmit controls to certain elements of the peripheral unit 12 without having to explicitly transfer data on the line BDA.
+    </p>
+    <p num="57">
+      The signals FM, RR and WW output by the detection logic 50 are supplied to a transfer timing module 52 forming part of the transfer cycle management means 30, and playing a role similar to that of module 35 described with reference to FIG. 5.
+      <br/>
+      This module 52 produces the read control signal RD and write control signal WR supplied to the register arrays 19,18.
+      <br/>
+      The production of the signals RD, CD and EORC by module 52 is identical to that previously described (FIGS. 9 and 10).
+    </p>
+    <p num="58">
+      The production of the write control signal WR takes into account the fact that, in the considered alternative embodiment, the written data D7-D0 or d1-d0 are transmitted on the data line BDA by the microprocessor 10 after the strobe pulse.
+      <br/>
+      In a write cycle with addressing (FM=0), the module 52 thus delays by n cycles of the clock BCL the activation of the WR signal (FIG. 8).
+      <br/>
+      In the case of a direct write cycle, this delay is of  RHO  cycles of the clock BCL (FIG. 11).
+    </p>
+    <p num="59">
+      In order to allow for the loading of the data bits to be written into the second register 20m+1 -20m+n, the serial input of that register, consisting of the D input of flip-flop 20m+1 is directly connected to the data line BDA, as shown in FIG. 7.
+      <br/>
+      In another alternative embodiment, the D input of flip-flop 20m+1 could be connected either to the Q output of flip-flop 20m or to the data line BDA depending on the position of a switch.
+      <br/>
+      This switch could for instance be controlled by a control bit C1 or C2 output by the detection logic 50 in response to a coded command from the microprocessor 10, thereby enabling the processor 10 to dynamically decide whether it transmits the data before or after the strobe pulse in the write cycles.
+    </p>
+    <p num="60">
+      As shown in FIG. 11 in the particular case considered hereabove for the coding of the addresses, the microprocessor 10 provides a bit at0 on the data line BDA at the same time as it produces a clock cycle on the line BCL immediately before transmitting the strobe pulse in the direct write cycles.
+      <br/>
+      This allows for the loading of a bit 0 in the flip-flops 20i and 221, so as to change the default address 111 . . . 1 characterising the direct read cycles into the address 011 . . . 1 characterising the direct write cycles, whereby the detection logic 50 can then perform the suitable decoding.
+    </p>
+    <p num="61">
+      If the number  RHO  of bits concerned by a direct transfer (read or write) cycle is greater than the size n of a register of the arrays 18,19, the control signal RD or WR is periodically reactivated as in the preceding example, and the address counter 36 is incremented by the output of an OR gate 54 receiving the signals RD and WR.
+      <br/>
+      The microprocessor may thus have access to several registers during the same direct transfer cycle.
+    </p>
+    <p num="62">
+      Provision may also be made for a shift  DELTA  in the position of the bits concerned by a direct write cycle.
+      <br/>
+      For this, a circular shift module 56, controlled by the FM bit in the same manner as module 38, is provided between the register 20m+1 -20m+n and the write register array 18.This module 56 also receives the number  RHO  of bits concerned by the direct write cycle, so as to inhibit the write operation in the non-concerned locations of the addressed register.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>I claim:</claim-text>
+      <claim-text>1. A process for serial data transfer between a main processing unit and a peripheral unit connected to each other by a bus including a data line and a clock line,</claim-text>
+      <claim-text>wherein the main processing unit controls synchronised transfer cycles by means of the clock line, including transfer cycles with addressing and direct transfer cycles, wherein, during each cycle, the main processing unit transmits on the data line a strobe pulse while the clock line is at a first logic level, wherein, before transmitting the strobe pulse in a transfer cycle with addressing, the main processing unit transmits on the data line bits of a transfer address, with corresponding synchronisation pulses on the clock line, wherein, after receiving the strobe pulse in a transfer cycle with addressing, the peripheral unit accesses to a memory location determined from the transfer address to write or read data bits successively presented on the data line synchronously with corresponding synchronisation pulses on the clock line, and wherein, after receiving the strobe pulse in a direct transfer cycle, the peripheral unit accesses to a memory location determined prior to said direct transfer cycle to write or read data bits successively presented on the data line synchronously with corresponding synchronisation pulses on the clock line.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A process in accordance with claim 1, wherein, in a direct transfer cycle, the main processing unit transmits the strobe pulse at the beginning of the cycle.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A process in accordance with claim 2, wherein, before transmitting the strobe pulse in a transfer cycle with addressing, the main processing unit transmits on the data line a mode selection bit having a first value if said transfer cycle with addressing is a write cycle, and a second value, complementary to the first value, if said transfer cycle with addressing is a read cycle.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A process in accordance with claim 3, wherein the data line is connected to a serial data input of a shift register of the peripheral unit timed by the clock line, said shift register having a sufficient size to contain the address bits and the mode selection bit transmitted in a transfer cycle with addressing, wherein at least one address value is excluded for the transfer addresses transmitted by the main processing unit in the read cycles with addressing, and wherein, when detecting a strobe pulse, the peripheral unit examines the content of said shift register to determine whether the detected strobe pulse is part of a write cycle with addressing, of a read cycle with addressing or of a direct read cycle, a direct read cycle being selected if the shift register contains the excluded address value and a mode selection bit having said second value.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A process in accordance with claim 4, wherein the main processing unit holds the clock line at the first logic level when not running a transfer cycle, and wherein the main processing unit and the peripheral unit transmit the data, address and mode selection bits in said transfer cycles in such a way that transitions between said bits occur while the clock line is at a second logic level complementary to the first logic level.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A process in accordance with claim 5, wherein while the clock line is at the first logic level, the peripheral unit examines the data line to detect logic level changes which cannot be attributed to a strobe pulse, and to write the excluded address value and a mode selection bit having said second value in the shift register in response to such detection.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A process in accordance with claim 6, wherein the clock line and the data line are used by the main processing unit to exchange data with other units in accordance with a protocol wherein the data line does not change logic level more than once while the clock line is at the first logic level.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A process in accordance with claim 1, comprising the step of decoding the bits of the transfer address received by the peripheral unit in a transfer cycle with addressing, in order to determine whether said transfer cycle with addressing is a write cycle or a read cycle.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A process in accordance with claim 8 wherein the data line is connected to a serial data input of a shift register of the peripheral unit timed by the clock line and of sufficient size to contain the address bits transmitted in a transfer cycle with addressing, wherein at least one address value is excluded for the transfer addresses transmitted by the main processing unit in the transfer cycles with addressing, and wherein, when detecting a strobe pulse, the peripheral unit examines the content of said shift register to determine whether the detected strobe pulse is part of a transfer cycle with addressing or of a direct transfer cycle, a direct transfer cycle being selected if the shift register contains an excluded address value.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A process in accordance with claim 9, wherein the direct transfer cycles comprise direct write cycles and direct read cycles, respectively selected when the shift register contains first and second excluded address values, which differ from each other only by a bit located in an input location of the shift register.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A process in accordance with claim 10, wherein the main processing unit holds the clock line at the first logic level when not running a transfer cycle, and wherein the main processing unit and the peripheral unit transmit the data and transfer address bits in said transfer cycles in such a way that transitions between said bits occur while the clock line is at a second logic level complementary to the first logic level.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A process in accordance with claim 11, wherein while the clock line is at the first logic level, the peripheral unit examines the data line to detect logic level changes which cannot be attributed to a strobe pulse, and to write in the shift register, in response to such detection, a default address value corresponding to one of the first and second excluded address values.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A process in accordance with claim 12, wherein, in a direct transfer cycle of the type selected when the shift register contains the default address value, the main processing unit transmits the strobe pulse at the beginning of the cycle, and wherein, in a direct transfer cycle of the type selected when the shift register contains the one of the first and second excluded address values which does not correspond to the default address value, the main processing unit transmits the strobe pulse immediately after the transmission, at the beginning of the cycle, of a bit modifying the one located in the input location of the shift register.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A process in accordance with claim 12, wherein the clock line and the data line are used by the main processing unit to exchange data with other units in accordance with a protocol wherein the data line does not change logic level more than once while the clock line is at the first logic level.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A process in accordance with claim 1, wherein the location where the data bits are read or written in a direct transfer cycle is a fixed location.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A process in accordance with claim 1, wherein the location where the data bits are read or written in a direct transfer cycle is determined from data transmitted by the main processing unit during a previous write cycle.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A process in accordance with claim 16, wherein the number of data bits transmitted successively in a direct transfer cycle is determined from data transmitted by the main processing unit during a previous write cycle.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A process in accordance with claim 1, wherein the bus further includes an interrupt line on which the peripheral unit sends an interrupt request to the main processing unit when it detects an event among a group of specified events, the peripheral unit comprising a status register to contain bits indicating respectively the events of said group which have been detected, and wherein, when it receives a request on the interrupt line, the main processing unit controls the following transfer cycles: a direct read cycle to read a specified portion of the status register;</claim-text>
+      <claim-text>and if the bits contained in said portion of the status register do not indicate an event detection, at least one read cycle with addressing to read the rest of the status register.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A process in accordance with claim 1, wherein the direct transfer cycles comprise transfer cycles for commands from the main processing unit to the peripheral unit.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A synchronous serial bus interface for a peripheral unit controlled by a main processing unit by means of a bus including a data line and a clock line including: strobe pulse detection means, to detect strobe pulses occurring on the data line of the bus, while the clock line of the bus is at a first logic level; a first shift register timed by the clock line of the bus, having a serial data input and a serial data output, wherein the serial data input of the first shift register is connected to the data line; an EXCLUSIVE OR gate having an input connected to the clock line of the bus, another input receiving a binary selection signal and an output; a second shift register timed by the output of the EXCLUSIVE OR gate, having a serial data input and a serial data output, wherein the serial data input of the second shift register is connected to the serial data output of the first shift register or to the data line; an output switch connected on the one hand to the serial data output of the second shift register and on the other hand to the data line of the bus; transfer cycle identification means in order to analyse the content of the first shift register when a strobe pulse is detected by the strobe pulse detection means, so as to identify each transfer cycle to which a detected strobe pulse belongs; write registers addressable from a write address obtained from the first shift register when a write cycle with addressing has been identified, a write cycle with addressing wherein the binary selection signal is held at 0, the output switch is kept open and the detection of the strobe pulse is followed by the parallel transfer of the content of the second shift register into the write register denoted by the write address; read registers addressable from a read address when a read cycle has been identified, a read cycle wherein the detection of the strobe pulse is followed by the parallel transfer of at least part of the content of the read register denoted by the read address into the second shift register and by the serial transfer of the content of the second shift register to the output switch, a serial transfer during which the binary selection signal is set at 1 and the output switch is closed;</claim-text>
+      <claim-text>and transfer cycle managing means to obtain the read address from the first shift register when a read cycle with addressing has been identified, and to supply a previously specified read address when a direct read cycle has been identified.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A synchronous serial bus interface in accordance with claim 20, wherein the read address supplied by the read cycle managing means in a direct read cycle is a fixed address.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. A synchronous serial bus interface in accordance with claim 20, wherein the read address supplied by the read cycle managing means in a direct read cycle is obtained from the content of one of the write registers.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. A synchronous serial bus interface in accordance with claim 22, wherein the number of bits transferred to the output switch in a direct read cycle is obtained from the content of one of the write registers.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. A synchronous serial bus interface in accordance with claim 20, wherein at least one address value is excluded in the read cycles with addressing, and wherein the transfer cycle identification means examine the content of the first shift register when a strobe pulse has been detected so as to identify a direct read cycle if the first shift register contains the excluded address.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. A synchronous serial bus interface in accordance with claim 24, wherein the synchronisation of the transfers by the main processing unit is such that transitions between the transmitted bits occur while the clock line is at a second logic level complementary to the first logic level, and that the clock line is held at the first logic level when no transfer cycle is run, and wherein filtering means are provided to write the excluded address value in the first shift register in response to logic level changes which cannot be attributed to a strobe pulse, occurring on the data line while the clock line is at the first logic level.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. A synchronous serial bus interface in accordance with claim 25, wherein the filtering means are further arranged to write the excluded address value in the first shift register at the end of each write cycle.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. A synchronous serial bus interface in accordance with claims 20, wherein the write registers are further addressable from a previously specified write address when a direct write cycle has been identified, a direct write cycle wherein the binary selection signal is held at 0, the output switch is kept open and the detection of the strobe pulse is followed by the parallel transfer of the content of the second shift register into the write register denoted by the write address.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

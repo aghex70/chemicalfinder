@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181829B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181829</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181829</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21745246" extended-family-id="42108517">
+      <document-id>
+        <country>US</country>
+        <doc-number>09010331</doc-number>
+        <kind>A</kind>
+        <date>19980121</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09010331</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43164997</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>1033198</doc-number>
+        <kind>A</kind>
+        <date>19980121</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09010331</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   5/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>5</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>382273000</text>
+        <class>382</class>
+        <subclass>273000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>382224000</text>
+        <class>382</class>
+        <subclass>224000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>382264000</text>
+        <class>382</class>
+        <subclass>264000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H04N-001/40L</text>
+        <section>H</section>
+        <class>04</class>
+        <subclass>N</subclass>
+        <main-group>001</main-group>
+        <subgroup>40L</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04N-001/40062</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>N</subclass>
+        <main-group>1</main-group>
+        <subgroup>40062</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>11</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>15</number-of-drawing-sheets>
+      <number-of-figures>24</number-of-figures>
+      <image-key data-format="questel">US6181829</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and system for classifying and processing of pixels of image data</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>LAVALLEE PIERRE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4288821</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4288821</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>STOFFEL JAMES C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4447830</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4447830</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>ROETLING PAUL G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5343309</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5343309</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>CURRY DOUGLAS N</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5485289</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5485289</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>WRIGHT JOSEPH D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5550569</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5550569</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Xerox Corporation</orgname>
+            <address>
+              <address-1>Stamford, CT, US</address-1>
+              <city>Stamford</city>
+              <state>CT</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>XEROX</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Clark, Raymond J.</name>
+            <address>
+              <address-1>Webster, NY, US</address-1>
+              <city>Webster</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Williams, Leon C.</name>
+            <address>
+              <address-1>Walworth, NY, US</address-1>
+              <city>Walworth</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Schweid, Stuart A.</name>
+            <address>
+              <address-1>Pittsford, NY, US</address-1>
+              <city>Pittsford</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Shiau, Jeng-Nan</name>
+            <address>
+              <address-1>Webster, NY, US</address-1>
+              <city>Webster</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Nickerson, Michael J.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Mehta, Bhavesh</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method classify a pixel of image data as one of a plurality of image types.
+      <br/>
+      A first image characteristic value for the pixel, a second image characteristic value for the pixel ,a third image characteristic value for the pixel, and a fourth image characteristic for the pixel is determined.
+      <br/>
+      Some of these determinations may be resolution dependent.
+      <br/>
+      The values from these determination are utilized in assigning an image type classification to the pixel.
+      <br/>
+      Moreover, if at least one of the image characteristic values is greater than a predetermined threshold value the pixel is classified as a halftone peak value.
+      <br/>
+      The system includes a plurality of microclassifiers for determining a distinct image characteristic value of the pixel; a plurality of macroreduction circuits connected to the plurality of microclassifiers for performing further higher level operations upon the distinct image characteristic values of the pixel to produce reduced values; and a classification circuit to classify the pixel as an image type based on the reduced values from the macroreduction circuits.
+      <br/>
+      The system also includes a circuit to detect flat peaks without detecting multiple peaks and a rectangular blur filtering system.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE PRESENT INVENTION</heading>
+    <p num="1">The present invention relates generally to a system for processing document images, and more particularly, to an improved method of image processing the document images utilizing a fuzzy logic classification process.</p>
+    <heading>BACKGROUND OF THE PRESENT INVENTION</heading>
+    <p num="2">
+      In the reproduction of images from an original document or images from video image data, and more particularly, to the rendering of image data representing an original document that has been electronically scanned, one is faced with limited reflectance domain resolution capabilities because most output devices are binary or require compression to binary for storage efficiency.
+      <br/>
+      This is particularly evident when attempting to reproduce halftones, lines, and continuous tone (contone) images.
+    </p>
+    <p num="3">
+      An image data processing system may be tailored so as to offset the limited reflectance domain resolution capabilities of the rendering apparatus, but this tailoring is difficult due to the divergent processing needs required by different types of images which may be encountered by the rendering device.
+      <br/>
+      In this respect, it should be understood that the image content of the original document may consist of multiple image types, including halftones of various frequencies, continuous tones (contones), line copy, error diffused images, etc. or a combination of any of the above, and some unknown degree of some or all of the above or additional image types.
+    </p>
+    <p num="4">
+      In view of the situation, optimizing the image processing system for one image type in an effort to offset the limitations in the resolution and the depth capability of the rendering apparatus may not be possible, requiring a compromised choice which may not produce acceptable results.
+      <br/>
+      Thus, for example, where one optimizes the system for low frequency halftones, it is often at the expense of degraded rendering of high frequency halftones, or of line copy, and visa versa.
+    </p>
+    <p num="5">
+      To address this particular situation, "prior art" devices have utilized automatic image segmentation to serve as a tool to identify different image types or imagery.
+      <br/>
+      For example, in one such system, image segmentation was addressed by applying a function to the video, the output of which was used to instruct the image processing system as to the type of image data present so that it could be processed appropriately.
+      <br/>
+      In particular, an auto-correlation function was applied to the stream of pixel data to detect the existence and estimate the frequency of halftone image data.
+      <br/>
+      Such a method automatically processes a stream of image pixels representing unknown combinations of high and low frequency halftones, contones, and/or lines.
+      <br/>
+      The auto-correlation function was applied to the stream of image pixels, and for the portions of the stream that contain high frequency halftone image data, the function produced a large number of closely spaced peaks in the resultant signal.
+    </p>
+    <p num="6">
+      In another auto-segmentation process, an auto-correlation function is calculated for the stream of halftone image data at selected time delays which are predicted to be indicative of the image frequency characteristics, without prior thresholding.
+      <br/>
+      Valleys in the resulting auto-correlated function are detected to determine whether a high frequency halftone image is present.
+    </p>
+    <p num="7">
+      An example of a "prior art" automatic segmentation circuit is illustrated in FIG. 6.
+      <br/>
+      The basic system as shown in FIG. 6 is made up of three modules.
+      <br/>
+      Input information stored in a data buffer 10 is simultaneously directed to an image property classifying section 20, the first module, and an image processing section 30, the second module.
+      <br/>
+      The image property classifying section 20, is made up of any number of submodules, (e.g. auto-correlator 21 and discriminator 22), which determine whether a block of image pixels stored in the data buffer 10 is one type of imagery or another, (e.g. halftone, line/text, or contone).
+      <br/>
+      In parallel with the image property classifying section 20, the image processing section 30 is made up of any number of sub-processing sections, (e.g. high frequency halftone processor 31 low frequency halftone processor 32, line/text processor 33, or contone processor 34), which perform image processing operations on the same block of image pixels as section 20.
+      <br/>
+      Each image sub-processing section performs image processing operations that are adapted to improve the image quality of a distinct class of imagery.
+      <br/>
+      The third module, control section 41, uses the information derived from the image classifying section 20, to control the image processing section 30.
+      <br/>
+      In other words, the control section 41 acts like a multiplexer and selects the proper processed image data according to the image classification determined by the image classifying section 20.
+    </p>
+    <p num="8">
+      The decision as to what class of imagery image data belongs to is typically binary in nature.
+      <br/>
+      For example, in a conventional image segmentation scheme image property classifying section 20 classifies image data as one of three classes of imagery, (high frequency halftone, low frequency halftone, or contone).
+      <br/>
+      Depending on those classification, image data is processed according to the properties of that class of imagery is selected, (either low pass filter and re-screening if it's a high frequency halftone, threshold with a random threshold if it is a low frequency halftone, etc.).
+      <br/>
+      Also, assuming that the decision as to which of the three classes of imagery image data belongs is based on a single image property, the peak count of the input image data, the resulting image classification decision of the peak count image property is made by thresholding the peak count into three classes of imagery.
+    </p>
+    <p num="9">
+      Consequently, the control section 40 decides the type of image processing the image data requires depending on the decision made by the classification section 20.
+      <br/>
+      Thus, the output of classification section 20 is quantized to one of three possibilities.
+      <br/>
+      The control section 40 selects the output from one of the three image sub-processing sections based upon this classification.
+    </p>
+    <p num="10">
+      Based on the nature of conventional image classification systems, the classifying information, gathered over a context of many pixels, changes gradually.
+      <br/>
+      But in the process of comparing this classifying information with a classification threshold one could create abrupt change in the classes.
+      <br/>
+      This abrupt decision making, which produces a forced choice among several distinct alternative choices, is a primary reason for the formation of visible artifacts in the resulting output image.
+      <br/>
+      Most transition points or thresholds are selected so that an image can be classified as one class of imagery with a high degree of certainty; however, those classes of imagery that cannot be classified with such certainty have multiple transition points or a transition zone.
+    </p>
+    <p num="11">
+      Using only one point to define a transition zone results in the formation of visible artifacts in the resulting output image if the output image spans in the transition zone.
+      <br/>
+      Although it is possible to shift or make the transition zone narrower so that there is less chance that an image falls into the zone, there exists limitations on how narrow the zone can be made.
+      <br/>
+      The narrowing of the transition zone is the decreasing of noise and/or variation in the information used to classify so as to narrow the area over which classification is not "certain", resulting in less switching between classifications.
+    </p>
+    <p num="12">
+      Moreover, the classification of real images covers a continuum from well below to well above thresholds between classifications.
+      <br/>
+      This means that there are areas of an image which are, for example, just above a threshold.
+      <br/>
+      Variations in the gathered (lowpass filtered) information due to "flaws" in the input video or ripple due to interactions between the area of image being used for the classification process and periodic structures in the input video results in areas falling below the threshold.
+      <br/>
+      With discrete classification, this results in a drastically different classification, thereby resulting in artifacts in the rendered image.
+    </p>
+    <p num="13">
+      Thus, it is desirable to classify image data in a fuzzy manner, slowly sliding the classification from one classification to the other, reflecting the information that has been gathered.
+      <br/>
+      Artifacts in the resulting rendered image will now be soft and follow the contours of the image, and so the artifacts will not be objectionable
+    </p>
+    <p num="14">
+      In general, the "prior art" describes the control section 40 as essentially having a switch.
+      <br/>
+      Since the image processing steps performed for each class of imagery are different depending on the classification given to each block of input image pixels, the switch or multiplexer allows data residing at the output of the image processor 30 to be directed to an output buffer 50 depending on the decisions made by the imagery classifying section 20 which are received as signals on lines 23 and 24.
+      <br/>
+      This type of binary decision making is rigid and results in image segmentation decisions that do not fail gracefully and consequently form visible artifacts in the output image.
+    </p>
+    <p num="15">
+      To address this forming of visible artifacts in the rendered output image, it has been proposed to utilize a probabilistic segmentation process to allow the image processing system to fail more gracefully when incorrect segmentation decisions are made.
+      <br/>
+      An example of such a probabilistic segmentation system is illustrated in FIG. 2.
+    </p>
+    <p num="16">
+      FIG. 2 shows a block diagram of a conventional image processing system which incorporates a probabilistic classification system.
+      <br/>
+      As illustrated in FIG. 2, the conventional system receives input image data derived from any number of sources, including a raster input scanner, a graphics workstation, an electronic memory, or other storage elements, etc.
+      <br/>
+      In general, the image processing system shown in FIG. 2 includes probabilistic classifier 25, image processing section 30, an image processing and control mixer 41.
+    </p>
+    <p num="17">
+      Input image data is made available to the image processing system along data bus 15, which is sequentially processed in parallel by probabilistic classifier 25 and image processing section 30.
+      <br/>
+      Probabilistic classifier 25 classifies the image data as a ratio of a number of predetermined classes of imagery.
+      <br/>
+      The ratio is defined by a set of probability values that predict the likelihood the image data is made up of a predetermined number of classes of imagery.
+      <br/>
+      The probabilities 27, one for each predetermined class of imagery, are input to the image processing mixer or control unit 41 along with image output data from image processing section 30.
+    </p>
+    <p num="18">
+      Image processing section 30 includes units 31, 32, and 34 that generate output data from the image data in accordance with methods unique to each predetermined class of imagery.
+      <br/>
+      Subsequently, mixer 41 combines a percentage of each class of output image data from units 31, 32, and 34 according to the ratio of the probabilities 27 determined by classifier 25.
+      <br/>
+      The resulting output image data for mixer 41 is stored in output buffer 50 before subsequent transmission to an image output terminal such as a printer or display.
+    </p>
+    <p num="19">
+      Initially, the stream of image pixels from an image input terminal (IIT) is fed to data buffer 10.
+      <br/>
+      The image data stored in buffer 10 is in raw grey format, for example, 6 to 8 bits per pixel.
+      <br/>
+      A suitable block size is 16 pixels at 400 spots per inch, or 12 pixels at 300 spots per inch.
+      <br/>
+      Too large of a sample size results in the inability to properly switch classification in narrow channels between fine structures in the image, or to switch soon enough when moving from one classification to another.
+      <br/>
+      An example of this problem is small text forming a title for a halftone image.
+      <br/>
+      IJiven a font size which is large enough to read, a good layout practice of leaving white space which is at least a half a line between the text and the image, a one millimeter block turns out to be a good compromise with most documents.
+      <br/>
+      Thus, too large a sample size results in classification transitions at the edge of objects to be larger than the whitespace between the objects, resulting in inappropriate classification and rendering.
+    </p>
+    <p num="20">
+      With reference FIG. 3, the conventional probabilistic classifier 25 is shown in detail.
+      <br/>
+      The block of image pixels stored in buffer 10 is transmitted to a characteristic calculator 28 through data buffers 15.
+      <br/>
+      Calculator 28 is provides an output value that characterizes a property of the image data transmitted from buffer 10, such as its peak count.
+      <br/>
+      In one embodiment, a characteristic value is determined by calculator 28 that represents the peak count of the block of image data.
+      <br/>
+      The peak count is determined by counting those pixels whose values are the non-trivial local area maximum or minimum in the block of image data.
+      <br/>
+      First local area maximum or minimum pixel values are selected depending on whether the average value of all the pixels in the block of image data is lower or higher than the median value of the number of levels of each pixel.
+    </p>
+    <p num="21">
+      After calculator 28 evaluates the peak count of the image data, probability classifier 29 determines three probability values 27 that correspond to each image type associated with the peak count as expressed by the characteristic function stored in memory 26.
+      <br/>
+      The characteristic function, determined with apriori image data, represents a plurality of probability distributions that are determined using a population of images.
+      <br/>
+      Each probability distribution depicts the probability that a block of image data is a certain type given the occurrence of an image property, a peak count.
+    </p>
+    <p num="22">
+      For example, the characteristic function stored in memory 26 can be represented by the graph shown in FIG. 4, which relates the probability distributions for a contone 1, low frequency halftone 2, and high frequency halftone 3 to the occurrence of a particular image characteristic, which in this example is a peak count.
+      <br/>
+      The characteristic function stored in memory 26 can be adjusted using input control 18.
+      <br/>
+      Using control 18, the resulting output image stored in buffer 50 can be altered by modifying the characteristic function representing the different classes of imagery evaluated by the image processing system 30.
+    </p>
+    <p num="23">
+      Subsequently, probability classifier 29 determines each probability value by evaluating the probability distribution of each image type represented by the characteristic function stored in memory 26.
+      <br/>
+      After determining the probability values, classifier 29 outputs these results to image processing mixer or control 41.
+    </p>
+    <p num="24">
+      The image processing section of FIG. 2 operates concurrently with the probabilistic classifier 25 on the image data stored in buffer 10.
+      <br/>
+      Image processing section 30 includes a high frequency halftone processing unit 31, a low frequency halftone processing unit 32, and a contone processing unit 34.
+      <br/>
+      Each processing unit processes all image data in accordance with a particular image type.
+      <br/>
+      Each of the processing units 31, 32, and 34 generates output blocks of unquantized video data.
+    </p>
+    <p num="25">
+      Image processing control 41 mixes the data output blocks to form a composite block of output image signals that is stored in output buffer 50.
+      <br/>
+      The manner in which the output blocks are mixed is characterized by a ratio defined by the probability determined by the probabilistic classifier 25.
+    </p>
+    <p num="26">
+      FIG. 5 shows the conventional image processing mixer 41 in detail.
+      <br/>
+      Mixer 41 multiplies the output blocks with the probability, using multipliers 42, 43, 44.
+      <br/>
+      The resulting output from each multiplier is representative of a percentage or ratio of each output block, the sum of which defines a composite block of output image signals.
+      <br/>
+      The composite block of output image signals is formed by adding the output of the multipliers using adder 45 and by subsequently quantizing the sum of adder z45 using quantizer 47.
+      <br/>
+      The resulting image block output by quantizer 47 is stored in output buffer 50 before subsequent transmission for output to an image output terminal having limited resolution or depth.
+    </p>
+    <p num="27">
+      The above-described image classification system utilizes a probabilistic approach to classify the image data.
+      <br/>
+      Such an approach presents problems in that the classification of the image data is mutually exclusive, the image data is classified as a particular type in absolute terms eventhough the probability of the decision being correct is just over 50%.
+      <br/>
+      This results in difficulties in trying to design an image processing system which will process the image data without visible artifacts in the rendered image when the decision on the image type does not have a high confidence.
+    </p>
+    <p num="28">
+      Not only is image classification important to a digital reprographic system, rendering based on this classification is important.
+      <br/>
+      One such component of the rendering system is digital filtering.
+      <br/>
+      The digital filtering process should be both efficient and low cost.
+      <br/>
+      Moreover, the filter design should have some non-separable and/or time-varying characteristics so that the filter can be used in a fuzzy segmentation system.
+      <br/>
+      However, trying to achieve one goal or another can adversely impact the other goal.
+      <br/>
+      Various approaches have been devised for the implementation of digital filtering techniques which try to solve minimize the adverse impacts.
+      <br/>
+      These techniques will be discussed briefly below.
+    </p>
+    <p num="29">
+      In a "prior art" digital filtering technique, a two-dimensional finite impulse response filter having a plurality of filter portions of essentially identical construction are arranged in a parallel configuration.
+      <br/>
+      A de-multiplexer separates an input data signal comprising consecutive digital words and supplies each digital word in sequence to a separate filter portion.
+      <br/>
+      Subsequently, a multiplexer, coupled to the output of the filter portions, selectively outputs the filtered data from each filter portion in a sequence corresponding to the order of separation of the input data, thereby resulting in a filtered version of the original input data.
+    </p>
+    <p num="30">
+      The system described above all has the limitation with respect to either speed or high cost.
+      <br/>
+      In view of these limitations, it has been proposed to provide a plurality of one-dimensional transform units that may be selectively combined with an additional one-dimensional transform unit to produce a plurality of distinct two-dimensional filters, any one of which is selectable on a pixel by pixel basis.
+      <br/>
+      Moreover, this proposed conventional system has the added advantage of providing two-dimensional finite impulse response filters without employing multiple, identically constructed two-dimensional filters arranged in a parallel fashion, thereby substantially reducing the complexity and cost of the filter hardware.
+      <br/>
+      To get a better understanding of this conventional system, the conventional system will be described below.
+    </p>
+    <p num="31">
+      The conventional system, as illustrated in FIG. 1, includes image processing module 20 which generally receives offset and gain corrected video through input line 22.
+      <br/>
+      Subsequently, the image processing module 20 processes the input video data according to control signals from CPU 24 to produce the output video signals on line 26.
+      <br/>
+      As illustrated in FIG. 1, the image processing module 20 may include an optional segmentation block 30 which has an associated line buffer 32, two-dimensional filters 34, and an one-dimensional rendering block 36.
+      <br/>
+      Also included in image processing module 20 is line buffer memory 38 for storing the context of incoming scanlines.
+    </p>
+    <p num="32">
+      Segmentation block 30, in conjunction with the associated scanline buffer 32, automatically determines those areas of the image which are representative of halftone input region.
+      <br/>
+      Output from the segmentation block, (video class), is used to implement subsequent image processing effects in accordance with a type or class of video signals identified by the segmentation block.
+      <br/>
+      For example, the segmentation block may identify a region containing data representative of an input high frequency halftone image, in which case a lowpass filter would be used to remove screen patterns, otherwise, a remaining text portion of the input video image may be processed with an edge enhancement filter to improve fine line and character reproduction when thresholded.
+    </p>
+    <p num="33">
+      Two-dimensional filter block 34 is intended to process the incoming, corrected video in accordance with the predetermined filtering selection.
+      <br/>
+      Prior to establishment of the required scanline content, the input video bypasses the filter by using a bypass channel within the two-dimensional filter hardware.
+      <br/>
+      This bypass is necessary to avoid delirious effects to the video stream that may result from filtering of the input video prior to establishing the proper context.
+    </p>
+    <p num="34">
+      Subsequent to two-dimensional filtering, the one-dimensional rendering block is used to alter the filtered, or possibly unfiltered, video data in accordance with selected one-dimensional video effects.
+      <br/>
+      One-dimensional video effects include, for example, thresholding, screening, inversion, tonal reproduction curve (TRC), pixel masking, one-dimensional scaling, and other effects which may be applied one-dimensionally to the steam of video signals.
+      <br/>
+      As in the two-dimensional filter, the one-dimensional rendering blocks also includes a bypass channel where no additional effects would be applied to the video, thereby enabling the received video to be passed through as an output video.
+    </p>
+    <p num="35">
+      Therefore, it is desirable to implement an image classification system which provides a truer classification of the image type and the image types are not necessarily mutually exclusive.
+      <br/>
+      Such a system would incorporate fuzzy logic, thereby allowing image data to be classified as being a member of more than one image class.
+      <br/>
+      This feature is critical in areas where the image goes from one image type to another.
+      <br/>
+      Moreover, it is desirable to implement a image processing and rendering system which takes advantage of the fuzzy classification system.
+    </p>
+    <heading>SUMMARY OF THE PRESENT INVENTION</heading>
+    <p num="36">
+      One aspect of the present invention is a method for determining a halftone frequency of a pixel of image data in a window of pixels.
+      <br/>
+      The method determines if the pixel represents a peak and generating a peak value therefrom; fastscan blur filters the peak value at a slowscan lead edge of the window; fastscan blur filters the peak value at a slowscan trail edge of the window; determines a peak count from a previous first peak count value and the second peak count value; and calculates a halftone frequency based on the peak count.
+    </p>
+    <p num="37">
+      A second aspect of the present invention is a system for determining a halftone frequency of a pixel of image data in a window of pixels.
+      <br/>
+      The system includes peak detection means for determining if the pixel represents a peak and generating a peak value therefrom; first filter means for fastscan blur filtering the peak value at a slowscan lead edge of the window to generate a first peak count value therefrom; second filter means for fastscan blur filtering the peak value at a slowscan trail edge of the window to generate a second peak count value therefrom; peak count means for determining an actual peak count from a previous first peak count value and the second peak count value; and halftone frequency means for calculating a halftone frequency based on the actual peak count value.
+    </p>
+    <p num="38">
+      A third aspect of the present invention is a printing system for rendering a pixel of image data.
+      <br/>
+      The system includes peak detection means for determining if the pixel within a window of pixels represents a peak and generating a peak value therefrom; first filter means for fastscan blur filtering the peak value at a slowscan lead edge of the window to generate a first peak count value therefrom; second filter means for fastscan blur filtering the peak value at a slowscan trail edge of the window to generate a second peak count value therefrom; peak count means for determining an actual peak count from a previous first peak count value and the second peak count value; halftone frequency means for calculating a halftone frequency based on the actual peak count value; classification means for classifying the pixel as a particular image type based on the calculated halftone frequency; processing means for image processing the pixel based the image type classification of the pixel; and print means for rendering the processed pixel on a recording medium.
+    </p>
+    <p num="39">Further objects and advantages of the present invention will become apparent from the following descriptions of the various features of the present invention.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="40">
+      The following is a brief description of each drawing used in describing the present invention, thus, the drawings are being presented for illustrative purposes only and should not be limitative of the scope of the present invention, wherein:
+      <br/>
+      FIG. 1 is a schematic illustration of a conventional image processing hardware module incorporating a two-dimensional filter;
+      <br/>
+      FIG. 2 is a block diagram illustrating a conventional image processing system incorporating probabilistic segmentation;
+      <br/>
+      FIG. 3 is a block diagram detailing the probabilistic segmentor shown in FIG. 2;
+      <br/>
+      FIG. 4 shows an example of a characteristic function of the image property, peak count;
+      <br/>
+      FIG. 5 is a block diagram illustrating in detail the image processing mixer shown in FIG. 2;
+      <br/>
+      FIG. 6 is a block diagram illustrating a "prior art" image processing system;
+      <br/>
+      FIG. 7 is a block diagram of a digital filtering system incorporating the fuzzy classification process of the present invention;
+      <br/>
+      FIG. 8 is a block diagram illustrating a screening system incorporating the fuzzy classification process of the present invention;
+      <br/>
+      FIG. 9 is a block diagram illustrating a more detailed version of the system illustrated in FIG. 8;
+      <br/>
+      FIG. 10 is a block diagram illustrating a scalable image classification system architecture according to the concepts of the present invention;
+      <br/>
+      FIG. 11 is a block diagram illustrating another scalable image classification system architecture according to the concepts of the present invention;
+      <br/>
+      FIG. 12 is a block diagram illustrating a third scalable image classification system architecture according to die concepts of the present invention;
+      <br/>
+      FIG. 13 is a graphical representation of an enlarged view of a halftoned area;
+      <br/>
+      FIG. 14 is a graphical representation of detected peaks for the graphical representation of FIG. 13;
+      <br/>
+      FIG. 15 is a graphical representation of an enlarged view of a ladder chart;
+      <br/>
+      FIG. 16 is a graphical representation of false detection of halftone peaks for the graphical representation of FIG. 15;
+      <br/>
+      FIG. 17 is a graphical representation of a reduction in the false detection of halftone peaks for the graphical representation of FIG. 15 according to the concepts of the present invention;
+      <br/>
+      FIG. 18 is a graphical representation of an enlarged view of a kanji area;
+      <br/>
+      FIG. 19 is a graphical representation of false detection of halftone peaks for the graphical representation of FIG. 18;
+      <br/>
+      FIG. 20 is a graphical representation of a reduction in the false detection of halftone peaks for the graphical representation of FIG. 18 according to the concepts of the present invention;
+      <br/>
+      FIG. 21 is a graphical representation of a comparison between a frequency response of a triangular filter and a rectangular filter according to the concepts of the present invention;
+      <br/>
+      FIG. 22 is a block diagram illustrating an architecture for a parallel two-dimensional blur filter according to the concepts of the present invention;
+      <br/>
+      FIG. 23 is a circuit diagram of a filter circuit according to the concepts of the present invention; and
+      <br/>
+      FIG. 24 is a block diagram illustrating an architecture for a two-dimensional blur filter.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PRESENT INVENTION</heading>
+    <p num="41">
+      The following will be a detailed description of the drawings illustrated in the present invention.
+      <br/>
+      In this description, the terms "image data" or "pixels" in the form of video image signals, which may be either analog or digital voltage representations of an image, indicate a representation of an image provided from a suitable source.
+      <br/>
+      For example, the image signals may be obtained through line by line scanning of an image bearing the original by one or more photosensitive elements, such as a multiple photosite array of charge couple devices commonly referred to as CCDs.
+      <br/>
+      Line by line scanning of an image bearing the original for the duration of image data is well known and does not form a part of the present invention.
+    </p>
+    <p num="42">
+      Image data may also be derived by a computer workstation program in accordance with document creation application software or from a data storage device.
+      <br/>
+      In content, the original video image signals may be composed entirely of a single image component such as lines, text, low frequency halftones, high frequency halftones, contones, or any combination thereof.
+    </p>
+    <p num="43">
+      The following description also includes references to slowscan and fastscan digital image data when discussing the directionality of two-dimensional filtering architecture.
+      <br/>
+      For purposes of clarification, fastscan data is intended to refer to individual pixels located in a succession along a raster of image information, while slowscan data refers to data derived from a common raster position across multiple rasters or scanlines.
+    </p>
+    <p num="44">
+      As an example, slowscan data would be used to describe signals captured from a plurality of elements along a linear photosensitive array as array is moved relative to a document.
+      <br/>
+      On the other hand, fastscan data would refer to the sequential signals collected along the length of the linear photosensitive array during a single exposure period which is also commonly referred to as a raster of data.
+    </p>
+    <p num="45">
+      Moreover, in describing the present invention, it is assumed that the video signal has a value in a range between 0 and 255.
+      <br/>
+      However, any range from the video signal can be utilized in conjunction with the present invention.
+      <br/>
+      Furthermore, in the following description, the term "grey level" will be used to describe both black and white and color applications.
+    </p>
+    <p num="46">
+      Furthermore, in describing the present invention, the term "pixel" will be utilized.
+      <br/>
+      This term may refer to an electrical, (or optical, if fiber optics are used), signal which represents the physical measurable optical properties at a physical definable area on a receiving medium.
+      <br/>
+      The receiving medium can be any tangible document, photoreceptor, or marking material transfer medium.
+    </p>
+    <p num="47">
+      Moreover, the term "pixel" may refer to an electrical, (or optical, if fiber optics are used), signal which represents the physically measurable optical properties at a physically definable area on the display medium.
+      <br/>
+      A plurality of the physically definable areas for both situations represent the physically measurable optical properties of an entire physical image to be rendered by either a material marking device, electrically or magnetic marking device, or optical display device.
+    </p>
+    <p num="48">
+      Lastly, the term "pixel," in the scanning environment, may refer to an electrical, (or optical, if fiber optics are used), signal which represents physical optical property data generated from a signal photosensor cell when scanning a physical image so as to convert the physical optical properties of the physical image to an electronic or electrical representation.
+      <br/>
+      In other words, in this situation, a pixel is an electrical, (or optical), representation of the physical optical properties of a physical image measured at a physical definable area on a optical sensor.
+      <br/>
+      The term "pixel," in the rendering environment, may refer to an electrical, (or optical, if fiber optics are used), signal which represents the smallest physical area on a recording substrate that can be rendered.
+      <br/>
+      In other words, in this situation, a pixel is an electrical, (or optical), representation of the physical spot created by a laser in a laser printed or the physical spot created by the smallest rendered ink droplet.
+    </p>
+    <p num="49">
+      Many of the documents produced today are compound documents in that the documents are composed of several different sub-images that are of different image types or image classes.
+      <br/>
+      Some of the common types are text, photos (contones), and halftones.
+      <br/>
+      One reason for the increased appearance of compound documents is the widespread use of commercially available word processing and desktop publishing software that is able to generate them.
+    </p>
+    <p num="50">
+      As is well known, different types of images require different processing in order to provide optimal image quality.
+      <br/>
+      Conventionally, to automatically choose the best processing for different areas of an image, each area is classified into one of several pre-defined classes to determine how to render that part of the image.
+      <br/>
+      This image type or image class information can then be used to determine the appropriate processing required to obtain a good rendition of the image when printing, to choose a method of image compression, to determine if optical character recognition would be useful, etc.
+    </p>
+    <p num="51">However, as noted previously, the classification process should not be so crisp so as to avoid problems when the input image is not very similar to any of the classes, or the input images properties straddle the border between two classes</p>
+    <p num="52">
+      For example, if a particular action is taken based upon a single class identification because the classes are mutually exclusive, it may create undesirable results for a non-prototype image.
+      <br/>
+      This is seen when rendering images for printing on a xerographic printer.
+      <br/>
+      The classification of the image can cause output artifacts such as when a halftone image is classified as a contone image.
+    </p>
+    <p num="53">
+      Another type of problem is that adjacent areas of the image may be classified differently due to small variations in the image.
+      <br/>
+      This is called class switching.
+      <br/>
+      If this information is used for image enhancement and printing, the output may have objectionable artifacts due to local variations.
+      <br/>
+      Examples of these objectionable artifacts are grainy image outputs.
+    </p>
+    <p num="54">
+      To eliminate the above described problems, an image classification system which utilizes a fuzzy membership into each category or class can be used.
+      <br/>
+      In other words, the classes in a fuzzy classification system are not mutually exclusive, thereby eliminating problems with class switching and also allowing those areas to have processing different than that of any of the other pre-defined classes; i.e., the output can choose between a continuum of possible image processing techniques.
+    </p>
+    <p num="55">
+      In standard classification techniques, each area has one class assigned to it.
+      <br/>
+      In the fuzzy implementation of the present invention, each area has a classification vector assigned to it.
+      <br/>
+      Every element of the classification vector has a membership value associated with each of the pre-defined prototype classes.
+    </p>
+    <p num="56">
+      Similar to the creation of crisp classifiers, a set of heuristic rules are used to determine the form of the classifier.
+      <br/>
+      The following is an example of how heuristic rules are used to create a fuzzy classifier, according to the concepts of the present invention.
+    </p>
+    <p num="57">
+      For illustrative purposes, an example of a two class non-fuzzy system is discussed.
+      <br/>
+      In this example, the system only classifies a particular region as either contone (i.e., grey pictorial) or text.
+      <br/>
+      An image may be considered text if there are a lot of edges and most pixels are black or white.
+      <br/>
+      If this is not true, the picture is considered contone.
+    </p>
+    <p num="58">
+      In order to determine edges, a variable relating to the Laplacian of the image data at every point (pixel) is used.
+      <br/>
+      A typical implementation for this type of segmentation may be if the summation of the squares of the Laplacian at every pixel in the subblock is greater than a predetermined summation threshold and the sum of the percentage of pixels with grey value less than a black threshold value and the percentage of pixels with grey value greater than a white threshold value is greater than a predetermined bi-modal threshold, the image is text, else the image is contone.
+    </p>
+    <p num="59">
+      In this example, since the parameters are device dependent, tests, which are known to those skilled in the art, would be run to determine the values of all of the parameters; the percentage of pixels with grey value less than a black threshold value, the percentage of pixels with grey value greater than a white threshold value, the summation threshold, and the bi-modal threshold before executing the segmentation routine.
+      <br/>
+      Note that only one class can be chosen, either text or contone.
+    </p>
+    <p num="60">
+      In order to implement a fuzzy classifier, according to the concepts of the present invention, several modifications must be made to the above described heuristic rules.
+      <br/>
+      As described above, there exists a single rule defining only text.
+      <br/>
+      If the condition for text is "not true," contone is chosen.
+      <br/>
+      In the fuzzy system of the present invention, contone must have it's own rule, since the text membership rule is not an absolute truth, but a relative truth that the classification is true.
+    </p>
+    <p num="61">
+      Moreover, even providing a rule for contones will not satisfy the excluded middle law; therefore, a third "other" class must be added to satisfy the constraints of fuzzy logic.
+      <br/>
+      Without the "other" class, it would be possible to have membership of the image in all classes be very small.
+      <br/>
+      Thus, the "other" class creates a lower bound of a half (0.5) for the minimum membership in any given class.
+      <br/>
+      A minimum magnitude for the maximum membership assures that all actions/decisions made using the relative membership values are not extremely sensitive to the class memberships, which they would be if membership in all classes was small, thereby making the fuzzy classification more robust.
+    </p>
+    <p num="62">
+      In the fuzzy classification scheme of the present invention, the pixel or unit of image data has a membership in each of the three classes; text, image and "other." In other words, the pixel is no longer considered to be an element of just one of the mutually exclusive classes.
+      <br/>
+      However, if the determination for one class reach absolute certainty; i.e. the membership in a single class is 1 and the other classes is zero; the fuzzy system does generate values which would represent a crisp system.
+    </p>
+    <p num="63">
+      In view of this non-exclusivity characteristic of the pixel image membership, the membership of the pixel is represented by a membership vector, Vi, whose entries correspond to the membership of the pixel (image element) in each of the classes.
+      <br/>
+      Note, typically, there are no constraints on this vector other than all of it's elements must be greater than or equal to 0 and less than or equal to 1.
+      <br/>
+      However, since the fuzzy classification rules of the present invention have been setup with a third "other" class, at least one of the elements of the vector must be greater than or equal to 0.5 and less than or equal to 1.
+    </p>
+    <p num="64">
+      Using the two class example above, the fuzzy classification rules would be the following.
+      <br/>
+      If the summation of the squares of the Laplacian at every pixel in the subblock is greater than a predetermined summation threshold and the sum of the percentage of pixels with grey value less than a black threshold value and the percentage of pixels with grey value greater than a white threshold value is greater than a predetermined bi-modal threshold, the pixel would be assigned a membership value for the "text" class which is the minimal value associated with each of the conditional statements.
+    </p>
+    <p num="65">
+      To better understand this concept, the following brief explanation of fuzzy logic will be provided.
+      <br/>
+      In fuzzy logic, unlike Boolean logic, the results of the conditional statements do not generate either absolute true or absolute false, but a value corresponding to the amount of the resulting statement which is true.
+      <br/>
+      This result is due to the fact that the conditional statements are also not absolute.
+    </p>
+    <p num="66">
+      For example, in the above described rule, from testing, it may be determined that the midpoint (predetermined target condition value) of the fuzzy Laplacian summation condition should be 50.
+      <br/>
+      The midpoint represents maximum uncertainty as to whether the value 50, in this example, is a member of the class Large Laplacian.
+      <br/>
+      Moreover, from testing, it is determined that, with absolute certainty, a pixel is member of the Large Laplacian (membership equals 1.0) if the summation is equal to or greater than 75 (predetermined absolute condition value) and it is determined that, with absolute certainty, a pixel is not a member of the Large Laplacian (membership equals 0.0) if the summation is equal to or less than 25 (predetermined absolute condition value).
+      <br/>
+      Fuzzy logic allows the classifier to assign 0.5 (conditional value) to a result where the summation is 50 and linearly extrapolate to the assigned values (conditional values) to 1 and 0.0 for the values 75 and 25, respectively; i.e., value 55 would be assigned a membership value of 0.6. Note that these values are device dependent, and thus, the midpoint and the range needs to be determined for each individual device.
+    </p>
+    <p num="67">
+      Furthermore, from testing, it may be determined that the midpoint of the class bi-modal should be 80; with absolute certainty, a pixel is in the membership if the percentage sum is equal to or greater than 90; and, with absolute certainty, a pixel is not in the membership if the percentage sum is equal to or less than 70.
+      <br/>
+      Fuzzy logic allows the classifier to assign 0.5 to a result where the sum value is 80 and linearly extrapolate to the assigned values to 1 and 0.0 for the values 90 and 70, respectively; i.e., value 85 would be assigned a membership value of 0.75. Note that these values are device dependent, and thus, the midpoint and the range needs to be determined for each individual device.
+    </p>
+    <p num="68">
+      To further explain the fuzzy technique, it is assumed that the membership values for each conditional statement are 0.5 and 0.33, respectively.
+      <br/>
+      In this scenario, the membership value for the pixel for the class text would be 0.33 because fuzzy logic treats "ANDed" statements as determining the minimal value for all the conditions and assigning the minimal value to the membership value.
+    </p>
+    <p num="69">Using the contone rule of if the summation of the squares of the Laplacian at every pixel in the subblock is less than a predetermined summation threshold and the sum of the percentage of pixels with grey value less than a black threshold value and the percentage of pixels with grey value greater than a white threshold value is less than a predetermined bi-modal threshold, the image is "contone," each conditional statement will be discussed in fuzzy logic terms.</p>
+    <p num="70">
+      For example, in the above described rule, from testing, it may be determined that the midpoint of the fuzzy Laplacian summation condition should be 50.
+      <br/>
+      Moreover, from testing, it is determined that, with absolute certainty, a pixel is in the membership if the summation is equal to or less than 25 and it is determined that, with absolute certainty, a pixel is not in the membership if the summation is equal to or greater than 75.
+      <br/>
+      Fuzzy logic allows the classifier to assign 0.5 to a result where the summation is 50 and linearly extrapolate to the assigned values to 1 and 0.0 for the values 25 and 75, respectively; i.e., value 55 would be assigned a membership value of 0.4.
+    </p>
+    <p num="71">
+      Furthermore, from testing, it may be determined that the midpoint of the fuzzy bi-modal condition should be 80; with absolute certainty, a pixel is in the membership if the sum is equal to or less than 70; and, with absolute certainty, a pixel is not in the membership if the sum is equal to greater 90.
+      <br/>
+      Fuzzy logic allows the classifier to assign 0.5 to a result where the percentage value is 80 and linearly extrapolate to the assigned values to 1 and 0.0 for the values 70 and 90, respectively; i.e., value 85 would be assigned a membership value of 0.25.
+    </p>
+    <p num="72">
+      To further explain the fuzzy technique, it is assumed that the membership values for each conditional statement are 0.75 and 0.8, respectively.
+      <br/>
+      In this scenario, the membership value for the pixel for the class text would be 0.75 because fuzzy logic treats "ANDed" statements as determining the minimal value for all the conditions and assigning the minimal value to the membership value.
+    </p>
+    <p num="73">
+      Lastly, the fuzzy rules states that if image is neither "text" or "contone," the image is "other." This last rule, which defines the "other" class, can be represented mathematically as  MU other (image)=min(1- MU text (image), 1- MU contone (image)) where  MU x (Y) is the membership of Y in the class X. Note that if  MU text (image), and  MU contone (image) are smaller than 0.5 then  MU other (image) will be greater than 0.5 (as stated earlier).
+      <br/>
+      In the example, given above,  MU text (image) is equal to 0.33 and  MU contone (image) is equal to 0.75, thus,  MU other (image) would be equal to 0.25, with the resulting membership vector being �0.33 0.75 0.25�. Note the element values of the vector need not add up to 1.
+    </p>
+    <p num="74">
+      The predicate of each the rules described above is extended to a fuzzy truth instead of an absolute truth to provide the element value for the membership vector.
+      <br/>
+      Thus, in order to make the inequality "Y is &gt;X" a fuzzy truth, a membership function is defined for "&gt;X".
+      <br/>
+      Similarly, a fuzzy membership rule can be defined for &lt;X (very often, the membership in (&lt;X) is equal to not (&gt;X): (1-membership of (&gt;X)).
+    </p>
+    <p num="75">For simplicity in implementation, the membership in (&gt;X) is defined as follows:  (Equation image '1' not included in text)</p>
+    <p num="76">
+      The value of  DELTA X determines the level of fuzzification of the class; if  DELTA X is extremely small, then the definition reduces to the crisp definition of greater than.
+      <br/>
+      It is further noted that although the fuzzification has been described as a linear relationship, the function describing the values between the end points and the mid point may be any type of function.
+      <br/>
+      Moreover, the midpoint could represent absolute certainty in the class and have a membership value of 1 and the endpoints represent absolute certainty of non-membership such that the membership values would graphically form a triangle with the midpoint being the peak.
+    </p>
+    <p num="77">Returning to the multiple "If's" in the above rules, the membership of image in the class text is equal to the fuzzy value of the predicate,  MU text (image)=min( MU &gt;Slp Threshold (Slp2),  MU &gt;Bimodal Threshold (White+Black)).</p>
+    <p num="78">
+      To expand the concepts of the present invention to the processing of images on a typical xerographic laser printer requires separating images into several classes; for example, white, black, edge, pictorial, low frequency halftone, mid frequency halftone, high frequency halftone and other, etc.
+      <br/>
+      The classes white, black, and pictorial are subclasses of the set "contone" and low frequency halftone, mid frequency halftone, high frequency halftone are subclasses of the set "halftone."
+    </p>
+    <p num="79">In a preferred embodiment of the present invention, the deterministic values for determining membership are as follows:</p>
+    <p num="80">
+      BLACK_%=the percentage of pixels with grey value less than a black threshold value;
+      <br/>
+      WHITE_%=the percentage of pixels with grey value greater than a white threshold value;
+      <br/>
+      Sij=Sum of the absolute values of the Laplacians in a window around the pixel being classified;
+      <br/>
+      Range=Max grey Level--Min grey level inside a window around the pixel being classified; and
+      <br/>
+      Freq=Measurement of local 2-D frequency around the pixel being classified.
+    </p>
+    <p num="81">
+      To determine the membership value in a particular class, these values are compared to a variety of predetermined thresholds in a similar manner as described above with respect to the three class system.
+      <br/>
+      The various classes in this preferred embodiment are demonstrated by the following rules:
+      <br/>
+      If (Sij is&gt;SIJ_HALFTONE and RANGE is&gt;RANGE_HALFTONE and FREQ is&gt;FREQ_HALFTONE), then C1 is HALFTONE;
+      <br/>
+      If (Sij is&gt;SIJ_EDGE and RANGE is&gt;RANGE_EDGE and FREQ is&lt;FREQ_HALFTONE), then pixel is EDGE;
+      <br/>
+      If (Sij is&lt;SIJ_HALFTONE and FREQ is&lt;FREQ_HALFTONE), then C1 is CONTONE;
+      <br/>
+      If (C1 is CONTONE and BLACK_% is&gt;BLACK_THRESHOLD), then pixel is BLACK;
+      <br/>
+      If (C1 is CONTONE and WHITE_% is&gt;WHITE_THRESHOLD), then pixel is WHITE;
+      <br/>
+      If (C1 is CONTONE and BLACK_% is&lt;BLACK_THRESHOLD and WHITE_% is&gt;WHITE_THRESHOLD), then pixel is PICTORIAL;
+      <br/>
+      If (C1 is HALFTONE and FREQ is&lt;LOW_FREQ), then pixel is LOW_FREQ_HALFTONE;
+      <br/>
+      If (C1 is HALFTONE and FREQ is&gt;LOW_FREQ and FREQ is&lt;HIGH_FREQ), then pixel is MID_FREQ_HALFTONE; and
+      <br/>
+      If (C1 is HALFTONE and FREQ is&gt;HIGH_FREQ), then pixel is HIGH_FREQ_HALFTONE; and
+      <br/>
+      If (pixel is not BLACK and pixel is not WHITE and pixel is not PICTORIAL and pixel is not EDGE and pixel is not LOW_FREQ_HALFTONE and pixel is NOT MID_FREQ_HALFTONE and pixel is not HIGH_FREQ_HALFTONE), then pixel is OTHER.
+    </p>
+    <p num="82">
+      The predicate of each the rules described above is extended to a fuzzy truth instead of an absolute truth to provide the element value for the membership vector.
+      <br/>
+      Thus, in order to make the inequality "Y is&gt;X" a fuzzy truth, a membership function is defined for "&gt;X".
+      <br/>
+      Similarly, a fuzzy membership rule can be defined for&lt;X (very often, the membership in (&lt;X) is equal to not (&gt;X): (1-membership of (&gt;X)).
+    </p>
+    <p num="83">For simplicity in implementation, the membership in (&gt;X) is again defined as follows:  (Equation image '2' not included in text)</p>
+    <p num="84">
+      The value of  DELTA X determines the level of fuzzification of the class; if  DELTA X is extremely small, then the definition reduces to the crisp definition of greater than.
+      <br/>
+      It is further noted that although the fuzzification has been described as a linear relationship, the function describing the values between the end points and the mid point may be any type of function.
+      <br/>
+      Moreover, the midpoint could represent absolute certainty in the class and have a membership value of 1 and the endpoints represent absolute certainty of non-membership such that the membership values would graphically form a triangle with the midpoint being the peak.
+      <br/>
+      This type of class could be used for a membership function of the class "=X".
+    </p>
+    <p num="85">Returning to the multiple "If's" in the above rules, the membership value of image in the class "edge" would be equal to the fuzzy value of the predicate,  MU edge (image)=min( MU &gt;Slp Threshold ( SIGMA lp),  MU &gt;Range Threshold (Maxgrey -Mingrey),  MU &lt;Freq Threshold (2D Freq)); the membership value of image in the class "black" would be equal to the fuzzy value of the predicate,  MU black (image)=min( MU Slp Threshold ( SIGMA lp),  MU &lt;Freq Threshold (2D Freq),  MU &gt;Black Threshold (% of black pixels)); the membership value of image in the class "white" would be equal to the fuzzy value of the predicate,  MU white (image)=min( MU &lt;Slp Threshold ( SIGMA lp),  MU &lt;Freq Threshold (2D Freq),  MU &lt;White Threshold (% of white pixels)); the membership value of image in the class "pictorial" would be equal to the fuzzy value of the predicate,  MU pictorial(image)=min( MU &lt;Slp Threshold ( SIGMA lp),  MU &lt;Freq Threshold (2D Freq),  MU &lt;Black Threshold (% of black pixels),  MU &lt;White Threshold (% of white pixels)); the membership value of image in the class "low frequency halftone" would be equal to the fuzzy value of the predicate,  MU lowfreqhalf (imnage)=min( MU &gt;Slp Threshold ( SIGMA lp),  MU &gt;Range Threshold (Maxgrey -Mingrey),  MU &gt;Freq Threshold (2D Freq),  MU &lt;LowFreq Threshold (2D Freq)); the membership value of image iin the class "mid frequency halftone" would be equal to the fuzzy value of the predicate,  MU midfreqhalf (image)=min( MU &gt;Slp Threshold ( SIGMA lp),  MU &gt;Range Threshold (Maxgrey -Mingrey),  MU &gt;Freq Threshold (2D Freq),  MU &gt;IowFreq Threshold (2D Freq),  MU &lt;HighFreq Threshold (2D Freq)); and the membership value of image in the class "high frequency halftone" would be equal to the fuzzy value of the predicate,  MU highfreqhalf (image)=min( MU &gt;Slp Threshold ( SIGMA lp),  MU &gt;Range Threshold (Maxgrey -Mingrey),  MU &gt;Freq Threshold (2D Freq),  MU &gt;HighFreq Thresbold (2D Freq)).</p>
+    <p num="86">
+      To implement the fuzzy segmentation process for the two image class situation, image data received from the image source is divided into blocks of pixels.
+      <br/>
+      The fuzzy image classifier then, to determine a membership value for a particular image type, calculates the summation of the squares of the Laplacians in a window around the pixel being classified.
+      <br/>
+      Moreover, the is fuzzy classifier calculates the percentage of pixels that have a grey value less than a predetermined black value and determines the percentage of pixels within the block which have a grey value greater than a predetermined white value.
+    </p>
+    <p num="87">
+      After calculating this information, the fuzzy classifier determines the conditional value for the condition relating to the summation of the squares of the Laplacian of every pixel in the block being greater than a Laplacian threshold and the conditional value for the condition relating to the sum of the percentage of pixels with a grey value greater than the predetermined black value and the percentage of the pixels with a grey value greater than the predetermined white value is greater than a bi-modal threshold value.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "text" class.
+    </p>
+    <p num="88">
+      The fuzzy classifier then determines the conditional value for the condition relating to the summation of the squares of the Laplacian of every pixel in the block is less than a Laplacian threshold value and the conditional value for the condition relating to the summation of the percentage of the pixels with a grey value less than a predetermined black value and the percentage of the pixels with a grey value greater than the predetermined white value is less the bi-modal threshold value.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "contone" class.
+    </p>
+    <p num="89">The fuzzy classifier thereafter determines the membership value for the pixel in the "other" class by determining the minimal value between 1-the "text" membership value and 1-the "contone" membership value and assigns this value as the membership value for the pixel in the "other" class.</p>
+    <p num="90">In this process, the pixels of image data received by the fuzzy classifier are assigned membership values for the three possible fuzzy classifications, "text," "contone," or "other." As noted above, the utilization of the "other" class is necessary in order to avoid having membership of the image in all classes to be very small.</p>
+    <p num="91">An example of implementing fuzzy classification for a laser xerographic printer, will now be discussed, more specifically, a process, carried out by a fuzzy classifier, to assign membership values to the pixels of image data for eight possible types or classes.</p>
+    <p num="92">
+      As with the process described above, the process begins by dividing the pixels of image data into blocks of pixels.
+      <br/>
+      Thereafter, each block of pixels is analyzed to determine the sum of the absolute values of the Laplacians in a predetermined window around the pixel being presently analyzed; to determine a range value which is equal to the maximum grey level minus the minimum grey level inside the predetermined window around the pixel being presently analyzed; to determine a frequency value which is equal to the measurement of the local two-dimensional frequency around the pixel being presently analyzed; to determine a black value which is equal to the percentage of pixels that have a grey value less than a predetermined black value; and to determine a white value which is equal to the percentage of pixels within the window having a grey value greater than a predetermined white value.
+    </p>
+    <p num="93">
+      Once these various values are determined, the fuzzy classifier begins the assigning of the membership values.
+      <br/>
+      The fuzzy classifier determines the conditional value for the condition relating to the sum of the absolute values of the Laplacian in the predetermined window around the pixel being presently analyzed being greater than a halftone threshold, the conditional value for the condition relating to the range value being greater than a range halftone threshold, and the conditional value for the condition relating to the frequency value being greater than a frequency halftone threshold.
+      <br/>
+      Upon determining these three conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "halftone" class.
+    </p>
+    <p num="94">
+      Then, the fuzzy classifier determines the conditional value for the condition relating to the summation of the absolute values of the Laplacians in the predetermined window around the pixel being presently analyzed being greater than an edge threshold, the conditional value for the condition relating to the range value being greater than a range edge threshold, and the conditional value for the condition relating to the frequency value being less than the frequency halftone threshold.
+      <br/>
+      Upon determining these three conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "edge" class.
+    </p>
+    <p num="95">
+      The fuzzy classifier thereafter determines the conditional value for the condition relating to the sum of the absolute values of the Laplacians in the predetermined window around the pixel being presently analyzed being less than the halftone threshold and the conditional value for the condition relating to the frequency value being less than the frequency halftone threshold.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "contone" class.
+    </p>
+    <p num="96">
+      The fuzzy classifier then determines the conditional value for the condition relating to the pixel being a contone image and the conditional value for the condition relating to the black value being greater than a black threshold value.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "black" class.
+    </p>
+    <p num="97">
+      Subsequently, the fuzzy classifier determines the conditional value for the condition relating to the pixel being a contone image and the conditional value for the condition relating to the white value being greater than the predetermined white threshold.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "white" class.
+    </p>
+    <p num="98">
+      The fuzzy classifier determines the conditional value for the condition relating to the pixel being a halftone image and the conditional value for the condition relating to the frequency value being less than a low frequency threshold value.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "low frequency halftone" class.
+    </p>
+    <p num="99">Thereafter, the fuzzy classifier determines the conditional value for the condition relating to the pixel being a halftone image, the conditional value for the condition relating to the frequency value being greater than the low frequency threshold value, and the conditional value for the condition relating to the frequency value being less than a high frequency threshold value.</p>
+    <p num="100">Upon determining these three conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "mid frequency halftone" class.</p>
+    <p num="101">
+      The fuzzy classifier determines the conditional value for the condition relating to the pixel being a halftone image, the conditional value for the condition relating to the frequency value being greater than the high frequency threshold value.
+      <br/>
+      Upon determining these two conditional values, the fuzzy classifier determines the minimal value and assigns this value as the membership value for the pixel in the "high frequency halftone" class.
+    </p>
+    <p num="102">Lastly, the fuzzy classifier determines the membership value for the pixel in the "other" class by determining the minimal value between 1-the "edge" membership value, 1-the "black" membership value, 1-the "white" membership value, 1-the "pictorial" membership value, 1-the "low frequency halftone" membership value, 1-the "mid frequency halftone" membership value, and 1-the "high frequency halftone" membership value and assigns this value as the membership value for the pixel in the "other" class.</p>
+    <p num="103">
+      By utilizing these processes, the fuzzy image classifier can eliminate problems with class switching in areas between two or more pre-defined types.
+      <br/>
+      In other words, these processes implement a fuzzy classification scheme which allows the defining of various image types or classes to fail gracefully.
+      <br/>
+      Moreover, by implementing a fuzzy classification process, the fuzzy process allows the fuzzy memberships to have enhancement, different than any of the pre-defined classes.
+      <br/>
+      More specifically, the image processing system can choose between a continuum of possible processing operations to produce an output.
+    </p>
+    <p num="104">
+      As noted above, fuzzy classification avoids sudden transitions in the classification domain, which results in minimizing abrupt transitions in density.
+      <br/>
+      A practical implementation of fuzzy classification is only step-wise continuous (not truly continuous due to the discreteness of the data being analyzed).
+      <br/>
+      Thus, if the fuzzy classification is over little rectangles, the slight residual transitions will still be visible and objectionable in the rendered output image.
+      <br/>
+      On the other hand, a pixel-by-pixel without fuzzy classification will not have any visible artifacts--but will be very noisy or grainy.
+      <br/>
+      The transitions will be on an individual pixel basis, but the transitions will be perceived as huge.
+      <br/>
+      Such transitions would be equivalent to injecting huge amounts of noise into the image.
+    </p>
+    <p num="105">
+      However, as contemplated by the present invention, by combining fuzzy classification with a pixel-by-pixel classification implementation, the overall classification system can prevent rectangular artifacts (using pixel-by-pixel classification) in the rendered output image and reduce the classification switching noise (using fuzzy classification).
+      <br/>
+      In other words, the present invention utilizes a fuzzy classification process wherein this process is applied on a pixel-by-pixel basis and not on a window basis or globally.
+    </p>
+    <p num="106">
+      In other words, a window implementation would make a classification based on the contents of the window and assigned all pixels within that window the same image type classification value or classification membership vector value, whereas a pixel-by-pixel implementation classifies each pixel individually based on the contexts surrounding the pixel or the image values in a neighborhood of this pixel., Although it is desirable for the pixel to be centered, it is not necessary.
+      <br/>
+      For example, the pixel being classified can be in the lower right of the context.
+      <br/>
+      In the pixel-by-pixel implementation the neighborhood moves along the fastscan direction one pixel at a time and along the slowscan direction one scanline at a time, while the window based implementation moves along the fastscan direction to the next adjoining non-overlapping window of pixels and moves along the slowscan direction to the next adjoining non-overlapping window of pixels.
+    </p>
+    <p num="107">
+      Another practical advantage of a pixel-by-pixel basis is that the image can be classified and rendered in one pass.
+      <br/>
+      A windowed or global based approach requires the system to analyze the entire region (window or image) before making a classification decision.
+      <br/>
+      By then the video may be gone.
+      <br/>
+      The system either has to store it, then process it through the renderer beginning after the system has analyzed the entire region, or arrange for the image source to feed through the system twice.
+      <br/>
+      This increases system cost and may also slow down the system to 1/2 throughput.
+      <br/>
+      Pixel based requires only a small context since the context is limited and always in the neighborhood of the pixel being classified.
+    </p>
+    <p num="108">
+      The present invention also allows the determination of output parameters such as filter coefficients and screening level given a fuzzy classification vector and a corresponding desired output for each prototype class.
+      <br/>
+      The present invention can also accommodate output types that must satisfy certain constraints (such as the mean gain of the filter) through the use of the "other" class.
+      <br/>
+      The fuzzy image processing greatly attenuates switching noise common in crisp decision image segmentation processes.
+    </p>
+    <p num="109">
+      Processing image data for laser printer reproduction requires the implementation of two separate actions: image processing to enhance, through manipulation, which does not result in loss of information, such as filtering and TRC translation; and a lossy conversion of the resultant image to a representation accepted by a print engine, normally a reduction in the number of bits per pixel through either application of a screen or error diffusion.
+      <br/>
+      By utilizing a fuzzy classification scheme, the present invention can easily unify the processing implied by all of the partial memberships into a single processing action.
+    </p>
+    <p num="110">
+      For example, each of the classes, defined using fuzzy classification, is provided with an ideal processing scheme.
+      <br/>
+      This ideal image processing scheme would represent the image processing techniques used if the membership in that class was one (1.0) and all other classes had a membership of zero (0.0).
+      <br/>
+      The fuzzy image classification process, described above, provides the mechanism for determining the output for a given fuzzy membership because the output is a vector.
+      <br/>
+      Thus, fuzzy classification can be used to choose each element of the vector independently, thereby, as noted above, providing a continuum of possible image processing operations.
+      <br/>
+      However, this continuum is not directly conducive to determining screening operations and determining filter coefficients.
+      <br/>
+      More specifically, a screening operation, by its nature, is discrete; either a screen is applied or it isn't.
+      <br/>
+      At every point, a comparison is made between the image data (video level) and the screen value (screen level) to determine if a pixel is to be turned OFF or ON.
+      <br/>
+      Thus, on its face, screening would appear to be a poor candidate for fuzzy classification control because of its inability to be applied at differing levels.
+    </p>
+    <p num="111">
+      The other problem arises with determining filter coefficients.
+      <br/>
+      Image processing requires that the filter coefficients sum to 1 (i.e., a constant grey level in produces the same grey level out).
+      <br/>
+      If there is the choice between several filters, their combination may no longer meet this requirement.
+    </p>
+    <p num="112">
+      The present invention resolves the first situation, the problem with applying a screen in a fuzzy classification environment, by replacing the screening operation with a linear operation that provides the same effect.
+      <br/>
+      Instead of comparing all video to a pre-defined screen, a 2-D sinusoidal type function, with a maximum amplitude at 45 degrees, is added to the incoming video.
+    </p>
+    <p num="113">
+      This screen, referred to as hybrid screening, creates video that is more likely to cluster output pixels in an error diffusion process.
+      <br/>
+      This clustering of video is the effect that is very pleasing to the human eye in constant or near constant grey areas.
+      <br/>
+      It is the clustering effect that makes this screened output superior to a straight non-screened error diffused output.
+    </p>
+    <p num="114">
+      The frequency characteristics of the 2-D hybrid screen determines the approximate line pair per inch (lpi) dot pattern seen in the output; however, the ability to collect pixels into large dots, the desired effect in a screening process, is dependent on the screen's amplitude.
+      <br/>
+      This amplitude, a scalar, can be modified easily using the fuzzy image classification process of the present invention.
+      <br/>
+      All of the rules can assign a level (i.e., amplitude) of screening (large, medium, small or none, etc.).
+      <br/>
+      The size and frequency of the screen are predetermined to match the characteristics of the printer.
+    </p>
+    <p num="115">
+      The image processing of an image using a fuzzy classification process is very similar to the fuzzy classification process itself.
+      <br/>
+      For example, in the screening case, the fuzzy image processing method would establish three screening classes (large, medium, and none) to determine the screen value to be applied to pixel.
+      <br/>
+      Each of these classes would have a set of rules as in the fuzzy classification method to determine the membership value for the pixel in the screening processing class.
+      <br/>
+      The membership value would then be used to calculate the actual screen amplitude which will be described in more detail below.
+    </p>
+    <p num="116">
+      In a preferred embodiment of the present invention, the rules for the screening classes are as follows:
+      <br/>
+      If (pixel is "edge" or pixel is "low frequency halftone" or pixel is "mid frequency halftone" or pixel is "other"), then screen is NO_SCREEN;
+      <br/>
+      If (pixel is "black" or pixel is "white"), then screen is MEDIUM_SCREEN; or
+      <br/>
+      If (pixel is "pictorial" or pixel is "high frequency halftone"), then screen is FULL_SCREEN.
+    </p>
+    <p num="117">Referring to the multiple "If's" in the above rules, the membership value of image in the class "NO_SCREEN" would be equal to the fuzzy value of the predicate,  MU NO-- SCREEN (screen)=max( MU edge (pixel),  MU lowfreqhalftone (pixel),  MU midfreqhalftone (pixel),  MU other (pixel)); the membership value of image in the class "MEDIUM_SCREEN" would be equal to the fuzzy value of the predicate,  MU MEDIUM_SCREEN(screen)=max( MU black (pixel),  MU white (pixel)); and the membership value of image in the class "FULL_SCREEN" would be equal to the fuzzy value of the predicate,  MU FULL-- SCREEN (screen)=max( MU pictorial (pixel),  MU highfreqhalftone (pixel)).</p>
+    <p num="118">
+      To implement the fuzzy screening, the processing system determines the membership value of the pixel in each of the classes associated with a particular screening process and assigns the maximum value as the membership value in the screening class.
+      <br/>
+      For example, if the pixel had membership values for "edge," "low frequency halftone," "mid frequency halftone," and "other" of 0.6, 0.7, 0.2, and 0.3, respectively, the processing system would decode the membership vector and assign a membership value to the NO_SCREEN class of 0.7. Moreover, if the pixel had membership values for "black" and "white" of 0.6 and 0.5, respectively, the processing system would decode the membership vector and assign a membership value to the MEDIUM_SCREEN class of 0.6. Lastly, if the pixel had membership values for "pictorial" and "high frequency halftone" of 0.3 and 0.4, respectively, the processing system would decode the membership vector and assign a membership value to the FULL_SCREEN class of 0.4.
+    </p>
+    <p num="119">
+      To determine the actual amplitude for the screen value, the fuzzy processing module, in the preferred embodiment of the present invention, multiply the membership value for each screen class with the ideal coefficient for that class and divide the product by the sum of the membership values.
+      <br/>
+      In the preferred embodiment, the NO_SCREEN coefficient is 0, MEDIUM_SCREEN coefficient is 0.5, and FULL_SCREEN coefficient is 1 0 (slashed zero)  Thus, in the example described above, the screen amplitude for the pixel being processed would be equal to a scalar value of 0.412 (((1.0*0.4)+(0.5*0.6)+(0.0*0.7))/(0.4+0.6+0.7)).
+    </p>
+    <p num="120">
+      An example of the application of fuzzy classification to screening is illustrated in FIG. 8.
+      <br/>
+      As illustrated in FIG. 8, the video signal or image data is fed into a fuzzy classifier 80 which classifies the image data according to the rules described above.
+      <br/>
+      The fuzzy image classifier 80 then generates a membership vector which is passed onto a screening generating circuit 88.
+      <br/>
+      The screen generating circuit 88 produces a screen value which is added to the image data at adder 89.
+      <br/>
+      The image data which is summed with the screen value corresponds to the same pixel as was classified by the fuzzy image classifier 80.
+      <br/>
+      In other words, the system illustrated in FIG. 8 also includes buffers (not shown) to insure that the pixel being processed corresponds to the correct membership vector being used to define the processing parameters.
+    </p>
+    <p num="121">
+      A more detailed example of the application of fuzzy segmentation to screening is illustrated in FIG. 9.
+      <br/>
+      As illustrated in FIG. 9, the video signal or image data is fed into a fuzzy classifier 80 which classifies the image data according to the rules described above.
+      <br/>
+      The fuzzy image classifier 80 then generates a membership vector which is passed onto a screening generating circuit 88.
+      <br/>
+      The screen generating circuit 88 includes a screening weighting circuit 883, a screen value generating circuit 881, and a multiplier 885.
+    </p>
+    <p num="122">
+      The screen weighting circuit 883 generates a weighting factor in response to the values in the membership vector so as to produce a no screen, a medium screen, or a high screen, or any screen therebetween, as discussed above.
+      <br/>
+      In other words, if the pixel had membership values for "edge," "low frequency halftone," "mid frequency halftone," and "other" of 0.8, 0.7, 0.1, and 0.3, respectively, the processing system would decode the membership vector and assign a membership value to the NO_SCREEN class of 0.8. Moreover, if the pixel had membership values for "black" and "white" of 0.4 and 0.1, respectively, the processing system would decode the membership vector and assign a membership value to the MEDIUM_SCREEN class of 0.4. Lastly, if the pixel had membership values for "pictorial" and "high frequency halftone" of 0.2 and 0.0, respectively, the processing system would decode the membership vector and assign a membership value to the FULL_SCREEN class of 0.2.
+    </p>
+    <p num="123">Thus, in this example, the screen amplitude for the pixel being processed would be equal to a scalar value of 0.286 (((1.0*0.2)+(0.5*0.4)+(0.0*0.8))/(0.2+0.4+0.8)).</p>
+    <p num="124">
+      The screen value generating circuit 881, which may be a lookup table or a hardwired circuit, produces a screen value based on the position of the pixel (image data) within the image.
+      <br/>
+      The weighting factor from the screen weighting circuit 883 and the screen value from screen value generating circuit 881 are multiplied together by multiplier 885 to produce the screen value to be added to the pixel.
+      <br/>
+      This screen value is added to the image data at adder 89.
+    </p>
+    <p num="125">
+      The image data which is summed with the screen value corresponds to the same pixel as was classified by the fuzzy image classifier 80.
+      <br/>
+      In other words, the system illustrated in FIG. 9 also includes buffers (not shown) to insure that the pixel being processed corresponds to the correct membership vector being used to define the processing parameters.
+    </p>
+    <p num="126">
+      As noted above, the problem of using a fuzzy image classification system to control digital filtering is two-fold.
+      <br/>
+      First, digital filtering is not a scalar function, but a matrix function.
+      <br/>
+      Secondly, there is a constraint on the matrix function; the filter must have gain of 1.0 at (( OMEGA 1 OMEGA 2)=(0,0).
+      <br/>
+      This ensures that constant grey areas are not altered by filtering.
+    </p>
+    <p num="127">
+      To solve this problem, the present invention, in the preferred embodiment, uses the weighted summation of several pre-defined filters to produced the filtered results.
+      <br/>
+      These filters are filters associated with a particular filter class; i.e., one filter class is enhance, one filter class is lowpass, and another filter class is "other".
+      <br/>
+      The digital filter of the present invention takes the form of Fo = SIGMA  MU i Fi where all of the Fi s correspond to the filters associated with each ith class (or classes) and  MU i corresponds to the membership of the image in the ith class, as determined by the fuzzy processing routine.
+    </p>
+    <p num="128">In a preferred embodiment of the present invention, the rules for the filtering classes are as follows:</p>
+    <p num="129">If (pixel is "edge" or pixel is "pictorial" or pixel is "low frequency halftone"), then filter is ENHANCE; or</p>
+    <p num="130">If (pixel is "high frequency halftone"), then filter is LOWPASS.</p>
+    <p num="131">Referring to the multiple "If's" in the above rules, the membership value of image in the class "ENHANCE" would be equal to the fuzzy value of the predicate,  MU ENHANCE (filter)=max( MU edge (pixel),  MU lowfreqhalftone (pixel),  MU pictorial (pixel)); and the membership value of image in the class "LOWPASS" would be equal to the fuzzy value of the predicate,  MU LOWPASS (filter)=max ( MU highfreqhalftone (pixel)).</p>
+    <p num="132">
+      To implement the fuzzy screening, the processing system determines the membership value of the pixel in each of the classes associated with a particular screening process and assigns the maximum value as the membership value in the screening class.
+      <br/>
+      For example, if the pixel had membership values for "edge," "low frequency halftone," and "pictorial" of 0.6, 0.7, and 0.3, respectively, the processing system would decode the membership vector and assign a membership value to the ENHANCE class of 0.7. Moreover, if the pixel had membership values for "high frequency halftone" of 0.6, the processing system would decode the membership vector and assign a membership value to the LOWPASS class of 0.6.
+    </p>
+    <p num="133">
+      To determine the actual coefficients for the various filters, the fuzzy processing system must ensure that the fuzzy filtering, resulting from the rule set, meets the constraint of a gain of 1.0 at the frequency ( OMEGA 1 OMEGA 2)=(0,0).
+      <br/>
+      To alleviate this problem, one of the output filter choices is assigned the bypass function.
+      <br/>
+      In bypass, Vout=Vin; i.e.; no filtering is done.
+      <br/>
+      Thus, the resulting filter, according to the concepts of the present invention is Fo = SIGMA  MU i Fi +(1= SIGMA  MU i)* FB such that when the desired effect is the bypass filter, the value goes to zero and the effect of the filter Fi is ignored.
+    </p>
+    <p num="134">
+      It is noted that the enhancement filter amplifies all higher frequencies, and the lowpass filter attenuates the higher frequencies.
+      <br/>
+      The coefficient value, c, for the bypass filter can be determined using cbypass =1- MU enhance (filter)- MU lowpass (filter) so that the output filter can be described as Fo = MU enhance (filter)* Fenhance + MU lowpass(filter)* Flowpass +cbypass * Fbypass.
+    </p>
+    <p num="135">
+      An example of image processing an image using fuzzy classification with respect to filtering the image data is illustrated in FIG. 7.
+      <br/>
+      As illustrated in FIG. 7, video data or image data is fed into a fuzzy classifier 80, a lowpass filter 81, and an enhanced filter 82, and a bypass filter 83 in parallel.
+      <br/>
+      As described above, the fuzzy classifier 80 determines the membership vector of the pixel to be processed by the parallel set of filters.
+      <br/>
+      Note that this process includes buffers (not shown) to insure that the pixel being filtered corresponds to the correct membership vector being used to define the processing parameters.
+    </p>
+    <p num="136">
+      Based upon this classification, the fuzzy classifier 80 will cause the overall filter to generate a set of coefficients which are applied to multipliers 84, 85, and 86.
+      <br/>
+      The coefficients will enable the overall filter to weight the output from the various filters according to the fuzzy image classification.
+    </p>
+    <p num="137">
+      For example, as noted above, if the pixel had membership values for "edge," "low frequency halftone," and "pictorial" of 0.6, 0.7, and 0.3, respectively, the processing system would decode the membership vector and assign a membership value to the ENHANCE class of 0.7, which in turn is the filter coefficient assigned to the enhance filter 82 and fed to multiplier 85.
+      <br/>
+      Moreover, if the pixel had membership values for "high frequency halftone" of 0.6, the processing system would decode the membership vector and assign a membership value to the LOWPASS class of 0.6, which in turn is the filter coefficient assigned to the lowpass filter 81 and fed to multiplier 84.
+      <br/>
+      This leaves the generation of the coefficient for the bypass filter 83.
+    </p>
+    <p num="138">
+      As noted above, the generated coefficients need a relationship such that the sum of the coefficients will not be greater than 1 so as to keep the gain of the overall output from the filters to be equal to 1.
+      <br/>
+      Thus, in the preferred embodiment of the present invention, the coefficient for the bypass filter is 1 minus the enhance coefficient minus the lowpass coefficient (in the example, 1-0.7-0.6=-0.3).
+      <br/>
+      This coefficient is applied to the multiplier 86.
+      <br/>
+      The weighted filter outputs are then fed into an adder 87 which adds all the outputs to produce a filtered pixel of image data which has been filtered according to its fuzzy image classification.
+    </p>
+    <p num="139">Although FIG. 7 illustrates the utilization of a fuzzy classifier with a plurality of different filters, the fuzzy classifier can also be utilized in connection with a modular time variant two-dimensional non-separable filter wherein the non-separable filter is made up of a plurality of separable filters.</p>
+    <p num="140">
+      The utilization of separable filters allows a non-separable filter of a particular form to be implemented in a cost effective manner.
+      <br/>
+      Moreover, a separable two-dimensional filter can be described as one-dimensional filter that acts in the vertical direction or slowscan direction followed by another one-dimensional filter acting in the horizontal or fastscan direction.
+      <br/>
+      Thus, the filter matrix can be described as the product of Fvh =fv *fh wherein Fvh is an N by M matrix, fv is a N length column vector (the vertical filter) and fh is a M length row vector (the horizontal filter).
+    </p>
+    <p num="141">
+      If the matrix Fvh cannot be represented using the above equation, the matrix is considered non-separable and the separable filter implementation cannot be used.
+      <br/>
+      However, if the N by M matrix is represented using a singular value decomposition such as Fvh =U*S*V, where U is N by N unitary matrix, S is an N by M diagonal matrix, and V is a M by M unitary matrix; a separable filter implementation can be used.
+      <br/>
+      Furthermore, if N and M are not equal, the above equation can be altered to Fvh =Ur *Sr *Vr, where Q=min(n,m), Ur is a N by X submatrix of U, Sr is a Q by Q submatrix of S, and Vr is a M by Q submatrix of V. Putting this in summation form, the resulting representation will be Fvh = SIGMA s(i)*ui *vi, where i is greater than or equal to 1 but less than or equal to Q.
+    </p>
+    <p num="142">
+      In this representation, the vector s(i) is a diagonal of the matrix Sr, ui is the ith column vector of Ur, and vi is the ith column vector of Vr.
+      <br/>
+      Each component is a separable filter similar to that described above with the exception of a gain factor s(i).
+      <br/>
+      In other words, any non-separable filter of length N by M can be represented as the weighted summation of Q separable N by M filters.
+      <br/>
+      Thus, to implement a non-separable filter using the weighted averages of several of the filters, the hardware becomes a conglomeration of Q separable filter modules, Q multipliers, and an adder.
+    </p>
+    <p num="143">
+      Although the above described fuzzy classification system resolves some of the problems with pixel classification, the method described to implement this system does not necessarily provide flexibility nor maximum efficiency.
+      <br/>
+      What is desired is a segmentation architecture which allows flexibility and efficiency such that the rules for classification can be readily changed in the system as new information is uncovered about the nature of printed documents or a user desires to override a certain process on the fly.
+    </p>
+    <p num="144">
+      One embodiment of the present invention provides an architecture which provides the above features.
+      <br/>
+      This architecture consists of imposing a rigid partitioning of the segmentation process into three parts.
+      <br/>
+      A better understanding of this concept can be seen in the illustration of FIG. 10.
+    </p>
+    <p num="145">
+      FIG. 10 illustrates a block diagram of a flexible classification/segmentation system.
+      <br/>
+      As illustrated in FIG. 10, the video signal or image data is fed into a microclassifier system 100, a macro-reduction system 200, and a pixel classification look-up table 300.
+      <br/>
+      The microclassifier system 100 is made of a plurality of microclassifier circuits 101-104.
+      <br/>
+      Microclassifier circuits measure intrinsic properties of the video extracted through a simple mathematical formula or heuristic.
+      <br/>
+      Examples of microclassifiers might be detected video minimums or maximums, Laplacian, Sum of Laplacians, Average, Range of Raw Video, Range of Average Video, etc. as used in all of the references.
+      <br/>
+      The microclassification values are fed into the macro-reduction system 200.
+    </p>
+    <p num="146">
+      The many microclassifiers in this embodiment have different magnitudes when computed for images of different types.
+      <br/>
+      Table 1 lists qualitatively the magnitude of the microclassifiers for different image types.
+    </p>
+    <p num="147">
+      --           TABLE 1
+      <br/>
+      --           Halftone  Halftone  Text    Contone Contone Contone
+      <br/>
+      --           Gray      Shadow    Edge    Gray    White   Black
+      <br/>
+      -- Video     Varying   Varying   Varying Varying High    Low
+      <br/>
+      -- Peak      Frequency Varying   Near    Near    Near    Near
+      <br/>
+      -- Count     Dependent           Zero    Zero    Zero    Zero
+      <br/>
+      -- Sum of    High      Low       Highest Low     Low     Low
+      <br/>
+      -- absolute
+      <br/>
+      -- Laplacian
+      <br/>
+      -- in X  *  Y*
+      <br/>
+      -- Range of  Highest   High      Highest Low     Low     Low
+      <br/>
+      -- Video in
+      <br/>
+      -- 5  *  5
+      <br/>
+      -- *X = 7, 11 and Y = 3, 5 for resolution of 400 spi and 600 spi,
+      <br/>
+      --  respectively.
+    </p>
+    <p num="148">The magnitude of the responses of the microclassifiers shown above suggests the following microclassification rules expressed in a pseudo code.</p>
+    <p num="149">Vij=Video of the j-th pixel in the i-th scanline.</p>
+    <p num="150">Nij=Peak Count centered at the j-th pixel in the i-th scanline.</p>
+    <p num="151">Sij=Sum of Absolute Laplacian of Video at the j-th pixel in the i-th scanline.</p>
+    <p num="152">Rij=Range of Video in 5 * 5 context centered at the j-th pixel in the i-th scanline.</p>
+    <p num="153">
+      N16&gt;N15&gt;. . . &gt;N1=Thresholds in Peak Counts for Halftones of classes with frequencies HFT16&gt;HFT15&gt;. . . HFT1
+      <br/>
+      S3&gt;S2&gt;S1=Thresholds in Sij.
+    </p>
+    <p num="154">R1=Threshold in Rij.</p>
+    <p num="155">V2&gt;V1=Thresholds in Vij.</p>
+    <p num="156">
+      --
+      <br/>
+      -- If (Nij &gt;= N1 AND Sij &gt;= S2 AND Rij &gt;= R1 +
+      <br/>
+      --      If (Nij &lt; N2)
+      <br/>
+      --         Class = HFT1
+      <br/>
+      --      else if (Nij &lt; N3)
+      <br/>
+      --         Class = HFT2
+      <br/>
+      --      else if (Nij &lt; N4)
+      <br/>
+      --         Class = HFT3
+      <br/>
+      --      else if (Nij &lt; N5)
+      <br/>
+      --         Class = HFT4
+      <br/>
+      --      else if (Nij &lt; N6)
+      <br/>
+      --         Class = HFT5
+      <br/>
+      --      else if (Nij &lt; N7)
+      <br/>
+      --         Class = HFT6
+      <br/>
+      --      else if (Nij &lt; N8)
+      <br/>
+      --         Class = HFT7
+      <br/>
+      --      else if (Nij &lt; N9)
+      <br/>
+      --         Class = HFT8
+      <br/>
+      --      else if (Nij &lt; N10)
+      <br/>
+      --         Class = HFT9
+      <br/>
+      --      else if (Nij &lt; N11)
+      <br/>
+      --         Class = HFT10
+      <br/>
+      --      else if (Nij &lt; N12)
+      <br/>
+      --         Class = HFT11
+      <br/>
+      --      else if (Nij &lt; N13)
+      <br/>
+      --         Class = HFT12
+      <br/>
+      --      else if (Nij &lt; N14)
+      <br/>
+      --         Class = HFT13
+      <br/>
+      --      else if (Nij &lt; N15)
+      <br/>
+      --         Class = HF14
+      <br/>
+      --      else if(Nij &lt; N16)
+      <br/>
+      --         Class = HFT15
+      <br/>
+      --      else
+      <br/>
+      --         Class = HFT16
+      <br/>
+      -- } else if (Sij &gt;= S3) +
+      <br/>
+      --      Class = EDGE
+      <br/>
+      -- } else +
+      <br/>
+      --      if(Vij &lt; V1)
+      <br/>
+      --         Class = BLACK
+      <br/>
+      --      else if(Vij &gt;= V2)
+      <br/>
+      --         Class = White
+      <br/>
+      --      else +
+      <br/>
+      --         if(Sij &gt;= S1)
+      <br/>
+      --             Class = CONTONE ROUGH
+      <br/>
+      --         else
+      <br/>
+      --             Class = CONTONE SMOOTH
+      <br/>
+      --      }
+      <br/>
+      -- }
+    </p>
+    <p num="157">
+      In the microclassification rules shown above, the halftone class is divided into 16 frequency intervals as an example.
+      <br/>
+      The multiple halftone classes allow an adaptive filtering and rendering of the halftone areas.
+      <br/>
+      It eliminates classification artifacts resulting from simply dividing the halftone classes into high and low frequency halftones only.
+      <br/>
+      The continuous tone is also divided into two sub-classes, smooth and rough, based on the sum of the absolute Laplacian.
+      <br/>
+      This allows for more optimized rendering of the continuous tone area.
+      <br/>
+      More specifically, the multiple frequencies are used to realize the advantages of a true fuzzy classification system through a discrete implementation.
+      <br/>
+      The subclasses are created as a way to gradate the overall classification, thus reducing the need for fuzzy classification.
+      <br/>
+      In a classification fuzzy system, there would be fewer classes, for example low, medium and high frequency.
+    </p>
+    <p num="158">A variant of the above microclassification rules is obtained by replacing the statement "else if(Sij&gt;=S3)" with "else if(Sij&gt;=S3 AND Rij&gt;=R1)" to obtain a more robust determination of the edge class membership value.</p>
+    <p num="159">
+      The macro-reduction system 200 is made of a plurality of macro-reduction circuits 201-204.
+      <br/>
+      Each macro-reduction circuit reduces microclassification values received from the microclassifiers to produce higher level, more directly useful information through mathematical operations and heuristics, suppressing noise and other irrelevant or undesirable variations in the microclassifiers.
+      <br/>
+      These are often non-linear operations.
+      <br/>
+      Examples of macro-manipulations or reductions might be to count video minimums or maximums in the neighborhood of a pixel, implementing a running average with a controllable attack, decay, and heuristic conditions, performing an auto-correlation on detected peaks, or combining two or more microclassifiers to compensate for undesirable fundamental effects.
+      <br/>
+      The macro-reduced values are fed into the pixel classification look-up table 300.
+    </p>
+    <p num="160">
+      The pixel classification look-up table 300 reduces the macro-reduced outputs to the final classification through a run-time programmable mechanism.
+      <br/>
+      The look-up table 300 also enables any arbitrarily complex function to be performed, since the arbitrarily complex function can be precalculated off-line and loaded into the table.
+      <br/>
+      Microclassification values or even the input video may also be used to directly drive the programmable table 300 if appropriate.
+      <br/>
+      Use of a programmable table enables quick modification of the classification algorithm when requirements change or as understanding the properties of images grows, albeit within the framework presented at the input of the table.
+    </p>
+    <p num="161">
+      This architecture can be further modified to add more flexibility as illustrated FIG. 11. As illustrated in FIG. 11, a programmable logic array 400 is placed between the microclassifier system 100 and the macro-reduction system 200.
+      <br/>
+      The programmable logic array 400 includes a plurality of circuits, gates, and multipliers which is programmed to control which microclassification value goes to which macro-reduction circuit and what is the weight of that value.
+      <br/>
+      This programmable logic array 400 enables the user or technician to reprogram the overall segmentation algorithm by allowing for the programmability of the feeding of the microclassification values to the macro-reduction circuits.
+      <br/>
+      Such a programmable logic array could also be included between the macro-reduction system 200 and the programmable look-up table 300 to add maximum flexibility.
+    </p>
+    <p num="162">
+      In any of the architectures described above with respect to FIGS. 10 and 11, each stage can be easily scaled and interactions added or removed as requirements change.
+      <br/>
+      Microclassifiers can also be removed to save cost or added to extract new kinds of information from the document.
+      <br/>
+      Macro-reductions can be removed to save cost or added when new interrelationships are discovered or better methods of reducing the microclassifier outputs are developed.
+      <br/>
+      The lookup table can be expanded to bring a higher level of programmability up to the user or reduced to save cost.
+      <br/>
+      Lastly, such architectures enable classifications to be dynamically added, removed, or their defining attributes modified both between and within pages of a multiple page image processing job.
+    </p>
+    <p num="163">
+      As noted above, various types of information about the image is needed to provide a proper image type classification of the image data.
+      <br/>
+      The information varies from determining the peaks in the video stream to determining the sum of the absolute values of the Laplacian of the video stream One important tool in determining some of the needed information is filtering.
+      <br/>
+      Filtering has been utilized in various segmentation systems.
+      <br/>
+      Such filtering is essential in the measurement or estimation of the halftone frequency of the video signal or image data.
+    </p>
+    <p num="164">
+      As noted above, methods for classifying image pixels according to document types; e.g., text, continuous tone, and halftones of various techniques and frequencies; make decisions based on image context in the vicinity of the pixel being classified.
+      <br/>
+      A critical piece of information extracted from the context is the estimate of the halftone frequency.
+      <br/>
+      The frequency is commonly estimated from a count of halftone peaks within the context.
+      <br/>
+      Such a count is really simply the application of a two-dimensional blur filter with rectangular amplitude profile in the space domain.
+    </p>
+    <p num="165">
+      One embodiment of the present invention is directed to an efficient and inexpensive method for implementing a triangular blur filter to produce either a low pass or a high pass filter.
+      <br/>
+      The high pass filter is derived by the usual conventional method of subtracting the low pass output from the original input.
+      <br/>
+      The implementation of the present invention requires only two adders and two delay elements and no multipliers.
+      <br/>
+      In addition, the present invention provides for inexpensively re-synchronizing data, which is delayed due to the filtering, with any associated input tags wherein tags can be any auxiliary data associated with the image data or video stream, such as image classification information.
+    </p>
+    <p num="166">
+      In implementing the filter, the present invention redundantly performs the calculation on the trail edge instead of storing the result to use it later. is This is only done in the slowscan direction.
+      <br/>
+      In the fastscan direction, the results are stored in a series of latches.
+      <br/>
+      The reasoning behind this implementation will become more clear from the description below.
+    </p>
+    <p num="167">
+      In the fastscan direction, the "calculation" is that of taking gray input video and detecting peaks, yielding a 1-bit output.
+      <br/>
+      Conventionally, it is a very expensive operation because it requires a large number of gates.
+      <br/>
+      On the other hand, it is inexpensive to delay this one bit output by a few pixels (8-18) with flip-flops, so it is delayed.
+      <br/>
+      In the slowscan direction, the "calculation" is a peak counter within an one-dimensional window, inputting a 1-bit number and yielding a 4-bit number.
+      <br/>
+      This 4-bit result would have to be delayed 8-18 canlines, times some 5000 pixels per scanline, costing several hundred thousand flip-flops, or more likely an external RAM and control circuitry.
+    </p>
+    <p num="168">In view of this inefficiency,the present invention duplicates the first-pass block to recreate the result when and where needed during the second pass rather than using the conventional method of taking the output of the first pass and providing it as input to the second pass as two pure blocks.</p>
+    <p num="169">
+      For many different applications, it is desirable to filter a given input signal or image.
+      <br/>
+      Typically for signal and image processing applications, finite impulse response filters are preferable because of several properties these filters possess, specifically, linear phase and guaranteed stability.
+      <br/>
+      In addition to the input/video that is to be filtered, additional properties/data associated with the input signal/video may be coupled with the signalvideo as it flows through the system.
+      <br/>
+      This additional information may be processed by or control downstream modules.
+      <br/>
+      This additional information often contains information corresponding to the classification of the individual pixels of the signal/video, such as membership information, and may be referred to as the signal/image tag or a classification vector.
+      <br/>
+      In the description below, the tag at a certain time/position k will be referred to as T(k).
+      <br/>
+      Thus, the entire input to be processed is the union of both the signal/video plane and one or more tag or classification vector planes.
+    </p>
+    <p num="170">
+      For the application of filtering, it is desirable to filter the signal/video input and then take the corresponding output and reunite it with the appropriate tags.
+      <br/>
+      An example of such an application of filtering can be expressed utilizing the following equation for a rectangular filter of length 2N+1.  (Equation image '3' not included in text)
+    </p>
+    <p num="171">
+      In these equations, H(z) is the z-transform of the filter and x(k) and y(k) are the inputs and outputs of the filter, respectively.
+      <br/>
+      Although this filter has poor frequency response characteristics, it is often used because it is very inexpensive to implement.
+    </p>
+    <p num="172">In order to implement a rectangular filter in real time and inexpensively, the following rectangular filter is conventionally utilized.</p>
+    <p num="173">
+      H(z)=(1-Z-2N-1)/(Z-N -Z-N-1)
+      <br/>
+      y(k-N)=y(k-N-1)+x(k)-x(k-2N-1);
+    </p>
+    <p num="174">
+      To get the present sum from the above equation, the previous sum is used and one video input is subtracted while another is added.
+      <br/>
+      In addition, none of the terms H(z) are functions of positive exponents of z and thus they do not depend on future values of x, only on the present and previous values.
+      <br/>
+      This type of rectangular filter makes it easy to implement in real time and/or in pipeline systems where all of the data is not available at once but is presented serially to the filter.
+      <br/>
+      Unlike a typical filter, which requires several values of the input and several multipliers/adders, all that is needed to implement this rectangular filter is a delay element of 2N+1 and two adders.
+    </p>
+    <p num="175">
+      Unfortunately, it is noted that at time (or position) index k, the output is known up to time k-N.
+      <br/>
+      At this time however, the tag or classification vector is at time k, T(k) is the value available in the pipeline.
+      <br/>
+      In other words, the output video and the associated tag or vector have become unsynchronized.
+      <br/>
+      In order to re-synchronize the output signal/video with the proper tag, the tags must be delayed by N sample times.
+      <br/>
+      The overall configuration therefore requires one signal to be delayed by N (the tags), and another signal be delayed by 2N+1 (the video).
+      <br/>
+      If expensive first-in first-out (FIFO) buffers are utilized for these delays (as in the case of two-dimensional image processing), the expense of the two delay blocks can be very large.
+      <br/>
+      In addition, such an implementation would require two different lengths of FIFO buffers or two identical FIFO buffers controlled differently.
+    </p>
+    <p num="176">
+      Furthermore, a single rectangular filter is not the optimal filter to utilize because its side lobes in the frequency domain are very significant.
+      <br/>
+      Thus, to create a better filter, one embodiment of the present invention utilizes a rectangular filter that is used successively to provide an equivalent triangular filter wherein the triangular filter is generated by the convolution of two rectangular filters.
+      <br/>
+      Such a triangular filter can be expressed utilizing the following equations.
+      <br/>
+      z(k-2N-1)=z(k-2N-2)+y(k-N-1)-y(k-3N-2);
+      <br/>
+      y(k-N)=y(k-N-1)+x(k)-x(k-2N-1);
+    </p>
+    <p num="177">
+      In the above equations, y(k-N) is a first state sum as in a rectangular filtering and z(k-2N-1) is the final output from the triangular filter.
+      <br/>
+      This triangular filter equation can be reduced to:
+      <br/>
+      z(k)= SIGMA (2N+1-.vertline.i-2N-1.vertline.)x(k+i-2N-1), i=0 to 4N+1
+    </p>
+    <p num="178">
+      The triangular filter has superior frequency properties when compared to a rectangular filter as clearly illustrated in FIG. 21. FIG. 21 shows the Fourier transform of both filters when each is 15 elements long.
+      <br/>
+      It is noted that to implement this triangular filter, the triangular filter requires four adders/subtractors.
+      <br/>
+      In addition, the triangular filter requires the use of two delay blocks instead of one but both have a fixed delay of 2N+1.
+      <br/>
+      If a single delay block is wide enough, it can be used to delay both the tags/vectors and the signal.
+      <br/>
+      In other words, instead of two delay blocks, a single block of twice the bit width can suffice.
+    </p>
+    <p num="179">
+      Additionally, the triangular filter has the property that the overall delay between the input and output is 2N+1, unlike the delay of N in the rectangular filter.
+      <br/>
+      Thus, utilizing a triangular filter requires that the tags t(k) be delayed by 2N+1 to be re-synchronized with the output video.
+      <br/>
+      This delay is identical to the delay needed for the input signal x(k), an intermediate state y(k) in the equation above describing the triangular filter.
+      <br/>
+      Therefore, the same type of delay block can be used for the image elements as well as the tags.
+      <br/>
+      If the wordlength of the delay block is large enough, a single delay block can be used to delay x(k), y(k), and t(k).
+      <br/>
+      The triangular filter can be implemented using only a single delay element of 2N+1 states with four adders and subtractors.
+      <br/>
+      In addition, one multiplier can be used to normalize the filter so that it is low pass in nature with a unity gain.
+      <br/>
+      The normalization can also be done at the end of the first state: i.e., on y(k) to reduce the bit to be carried into the second state sum.
+    </p>
+    <p num="180">
+      With only minimal additional hardware, a rectangular filter can be easily replaced by a triangular filter, which has better frequency response characteristics.
+      <br/>
+      Moreover, the tags in the signal can be readily resynchronized using common hardware to that which is needed by the filter itself.
+      <br/>
+      In addition, the triangular filter can be used to implement a high pass filter as well.
+      <br/>
+      The signal/video input can be delayed along the tag vector so that at every index k there is the original signal, the low pass signal (via the triangular filter) and the tags.
+      <br/>
+      The high pass filter output is easily created by subtracting the low pass output from the original input video.
+    </p>
+    <p num="181">
+      This process can be repeated to provide "smoother" low pass filters wherein the filter becomes Gaussian as the procedure is infinitely repeated.
+      <br/>
+      The cost per stage is linear, but the incremental benefits of the low pass filter and the frequency response decrease rapidly with each additional stage.
+    </p>
+    <p num="182">
+      Finally, the process discussed above can be extended to two dimensions by using a triangular filter in the horizontal direction and a triangular filter in the vertical direction.
+      <br/>
+      An example of a typical application of a two-dimensional filter is the utilization of a two-dimensional rectangular function to estimate the spacial frequency (measured in lines per inch, or LPI) of a halftone image given the peak map of the image.
+      <br/>
+      More specifically, such an estimation of the frequency is needed in any process requiring automatic halftone detection such as automatic image segmentation.
+      <br/>
+      In such an application, a filter is used to process a peak map and thereafter each point is converted to a frequency estimate by taking the square root of the peak count within a context centered on the pixel whose containing halftone cell's frequency is being estimated and multiplying it by a constant which is a function of the filter size.
+      <br/>
+      An ideal frequency measurement map would have a standard deviation of 0.0 since the input image is a constant halftone.
+    </p>
+    <p num="183">
+      As discussed earlier, the triangular filter can be implemented as the convolution of two successive rectangular blur filters.
+      <br/>
+      This implementation has the advantage of maintaining synchronization between the video being filtered and any information in a parallel channel, such as classification tags.
+      <br/>
+      Therefore, determining the optimal implementation of a two-dimensional triangular filter reduces to the problem of determining the optimal implementation of a two-dimensional rectangular blur filter.
+      <br/>
+      Furthermore, while the desire to minimize cost and complexity drives toward filtering of tiled rectangular blocks at fixed locations in the image, this leads to rectangular artifacts in the classification map, which in turn results in objectionable rectangular artifacts in the resulting image whose processing is driven by this map.
+      <br/>
+      This understanding adds the additional requirement that the optimal implementation of a two-dimensional triangular filter must filter each pixel based on a context which is centered on that pixel.
+    </p>
+    <p num="184">
+      The present invention provides a fast, hardware efficient method of achieving the goals outlined above: �1� Implementing two concurrent two-dimensional rectangular blur filter on a raster image flowing through a pipeline, yielding a triangular filter, �2� Filtering based on a context centered on each pixel being filtered, thereby avoiding rectangular artifacts, and �3� Maintaining synchronization of the filtered output image with a unfiltered auxiliary data channel.
+      <br/>
+      In the event that the data needs to be processed through additional rectangular blur filters to obtain better frequency characteristics, only one set of control circuitry is required for all instances.
+    </p>
+    <p num="185">To better explain the two-dimensional rectangular blur filter of the present invention, FIGS. 22 through 24 will be described below.</p>
+    <p num="186">
+      FIG. 23 is a block diagram of a circuit which detects the peaks of the video stream and counts the number of peaks within a programmable neighborhood around the pixel being classified.
+      <br/>
+      The video stream is received by a peak detection circuit 600 which detects the peaks within the video stream utilizing conventional peak detection methods.
+      <br/>
+      This circuit outputs a binary 1 if a peak is detected and a binary 0 if no peak is detected.
+      <br/>
+      The peak detection information is fed into a peak counter circuit 500 wherein the number of peaks in the context neighborhood is determined.
+    </p>
+    <p num="187">
+      The peak counter circuit 500 includes a programmable delay line 602 which provides trail edge peak detection information.
+      <br/>
+      In other words, to determine the number of peaks in a neighborhood that is moving as the classification process goes from one pixel to the next pixel, the counter must not only count the incoming peak detection information, but must also remove the peak information relating to pixels now outside the neighborhood.
+      <br/>
+      The programmable delay line 602 provides the trail edge peak detection information which is the peak information relating to pixels now outside the neighborhood.
+      <br/>
+      The delay line 602 is programmable so that the system can be programmed to implement varying target neighborhood sizes based on image resolution, apriori knowledge of the document being segmented, and system level tradeoffs.
+    </p>
+    <p num="188">
+      The trail edge peak detection information, along with the current peak detection information from the peak detection circuit 600, is fed into a peak counter 604 which adds the current peak detection information to a current count, provided by a latch circuit 606 and subtracts the trail edge peak detection information provided by the programmable delay line 602 from the current count.
+      <br/>
+      In this way, the peak counter 604 can provide an accurate current count to the latch 606.
+    </p>
+    <p num="189">
+      One way to implement a two-dimensional rectangular blur filter using the peak detection/counter circuitry of FIG. 23 is illustrated in FIG. 24. The video stream, as illustrated in FIG. 24, is received by a peak detection circuit 600 which detects the peaks within the video stream utilizing conventional peak detection methods.
+      <br/>
+      This circuit outputs a binary 1 if a peak is detected and a binary 0 if no peak is detected.
+      <br/>
+      The peak detection information is fed into a fastscan lead edge peak counter circuit 608 wherein the number of peaks in the context neighborhood is determined.
+      <br/>
+      The fastscan lead edge peak counter circuit 608 contains the same components as the peak detection circuit 500 of FIG. 23.
+    </p>
+    <p num="190">
+      Since the filtering needs to be done in two dimensions, the peak information within a context extending in the slowscan direction must also be included in the peak count determination.
+      <br/>
+      To facilitate the inclusion of slowscan peak count information, a slowscan trail edge FIFO buffer 610 is included.
+      <br/>
+      A slowscan lead edge peak counter is not required because the scanning on the image data is along the fastscan direction such that when the scanning moves to the scanline, the peak information for that scanline will be provided by the fastscan lead edge peak counter 608 as it scans across the image data, whereas the slowscan trail edge FIFO buffer 610 will provide the slowscan peak count information that needs to be removed from the accumulated count because that scanline is no longer part of the neighborhood being analyzed.
+      <br/>
+      This FIFO buffer 610 must be large enough to store information for each pixel in the fastscan direction (typically on the order of 2,500-10,200 pixels) and for the number of scanlines that define a neighborhood.
+    </p>
+    <p num="191">
+      The peak count information from the fastscan lead edge peak counter 608 is fed to a summer 612 and the slowscan trail edge FIFO buffer 610.
+      <br/>
+      The summer 612 adds the peak count information from the fastscan lead edge peak counter 608 to a previous count value for that pixel column that was stored in a scanline FIFO buffer (not shown) to generate the real count value for the pixel being classified.
+      <br/>
+      This real count value is also fed into a summer 614 wherein the real count value is modified so that the peak count information from the slowscan trail edge is removed.
+      <br/>
+      This modified value is stored in the same scanline FIFO buffer.
+    </p>
+    <p num="192">
+      The system in FIG. 24 produces a two-dimensional rectangular blur filter that eliminates rectangular artifacts induced by the filter, but requires large amounts of high speed memory, thus having a negative impact on its cost.
+      <br/>
+      FIG. 22 illustrates another implementation of a two-dimensional rectangular blur filter which does not require a large amount of memory and produces identical results.
+    </p>
+    <p num="193">
+      As illustrated in FIG. 22, peak detection information from a peak detection circuit (not shown) is received by a latch 501.
+      <br/>
+      The latched information is fed to a fastscan trail edge peak counter 503 which has essentially the same contents as peak counter 500 in FIG. 23. The trail edge count information is fed into a latch 504 and this latched information is fed into a summer 505.
+    </p>
+    <p num="194">
+      Peak detection information from a second peak detection circuit (not shown) is received by a latch 513.
+      <br/>
+      The latched information is fed to a fastscan lead edge peak counter 514 which has essentially the same contents as peak counter 500 in FIG. 23. The lead edge count information is fed into a summer 510.
+      <br/>
+      Summer 510 also receives latched peak count information from latches 508 and 509.
+      <br/>
+      This latched information represents the old count value that had been stored in a scanline FIFO buffer (not shown).
+      <br/>
+      The resulting sum from summer 510 is the current count value for the pixel being classified as it leaves the latching circuit of latches 511 and 512.
+    </p>
+    <p num="195">
+      The resulting sum from summer 510 is also fed to summer 505 through latch 507 wherein summer 505 subtracts the latched count value of the fastscan trail edge counter 503 from the latched summed value from summer 510.
+      <br/>
+      This value is latched by latch 506 before being stored in the scanline FIFO buffer.
+      <br/>
+      It is noted that the various latches in FIG. 22 are merely for keeping the various counts for the active pixel column properly synchr-onized with the pixel image data, and thus, these latches do not go to the crux of the invention since more or less latches may be needed in order to maintain this synchronization depending on detailed design details.
+    </p>
+    <p num="196">The operations of the two-dimensional rectangular blur filter as illustrated in FIG. 22 will be more precisely described below.</p>
+    <p num="197">
+      In order to calculate the output of the blur filter for a context trail edge pixel position in both the fastscan and slowscan directions, two fastscan blur filters (one at the slowscan lead edge of the context and one at the slowscan trail edge of the context) feed P slowscan filters wherein P is the number of pixels per scanline in the fastscan direction.
+      <br/>
+      The state of the P slowscan blur filters is stored in a ring buffer and restored, updated, and saved every clock cycle as each pixel's contribution is incorporated.
+      <br/>
+      The details of the process are as follows:
+    </p>
+    <p num="198">The filter of the present invention blurs pixels in a 1 pixel slowscan by N pixel fastscan strip as it slides in the fastscan direction at the slowscan lead edge of the incoming image:</p>
+    <p num="199">
+      Given: N: Fastscan length of the blur filter
+      <br/>
+      X: Current pixel position on the scanline.
+    </p>
+    <p num="200">VX : Input video value at the current pixel position.</p>
+    <p num="201">FSPSX : Fastscan Partial Sum consisting of the sum of the N-1 input pixels preceding the current pixel on the scanline.</p>
+    <p num="202">
+      The blur filter output consisting of the sum of the N pixels trailing and including the pixel at position X is FSBLURX =FSPSX +VX and the new partial sum for the next column position is: FSPSX+1 =FSBLURX -VX-(N-1).
+      <br/>
+      The N-1 trailing video values are saved in a FIFO P elements long so that random and repeat access to the image is not required.
+      <br/>
+      At each pixel location VX-(N-1) is immediately available from the output of the FIFO and VX is written to the input.
+    </p>
+    <p num="203">
+      An output image consisting of the fastscan blurred video can then be piped into a similar process to perform the slowscan blurring.
+      <br/>
+      However since the data is presented in a fastscan/slowscan raster format in order to blur each column by M pixels in the slow scan direction, M full scanlines of (BPP+.left brkt-top.Log2 N.right brkt-top.) bit wide storage would be required wherein BPP indicates the number of bits per pixel.
+      <br/>
+      Instead, the original BPP bit wide input data can be delayed and presented to a second fastscan blur block identical to that described above.
+      <br/>
+      This second fastscan blur can concurrently recalculate the required quantity (FSBLURX,(Y-(M-1)) in the description below) for use by the slowscan blur operation.
+    </p>
+    <p num="204">
+      In the event that the original BPP bit wide input data is already being delayed and presented at the slowscan trail edge for other reasons, this in effect saves all M scanlines by (BPP+.left brkt-top.Log2 N.right brkt-top.) bits of storage.
+      <br/>
+      For example, if BPP=1 and N=16, 5 bits wide by M scanlines of storage are saved.
+      <br/>
+      If multiple instances of the rectangular filter are applied, .left brkt-top.Log2 N.right brkt-top. bits by M scanlines of storage are saved over the (BPP+.left brkt-top.Log2 N.right brkt-top.) required where the fastscan blurred video is simply piped to a second stage.
+      <br/>
+      This process is described in detail below.
+    </p>
+    <p num="205">For each column in the fastscan blurred image, the filter of the present invention blurs a M pixel slowscan by 1 pixel fastscan strip as it slides in the slowscan direction at the slowscan lead edge of the incoming image.</p>
+    <p num="206">
+      Given: M: Slowscan length of the blur filter
+      <br/>
+      X: Current column position
+      <br/>
+      Y: Current scanline position
+      <br/>
+      FSBLURXX,Y : Value at the current column/scanline position of the fastscan blurred input video
+      <br/>
+      FSBLURX,(Y-(M-1)) : Value M-1 scanlines up from the current position of the fastscan blurred input video.
+    </p>
+    <p num="207">SSPSX,Y : Slowscan Lead Edge of context Partial Sum consisting of the sum of the M-1 fastscan blurred values in a column above the current position.</p>
+    <p num="208">The slowscan blur filter output consisting of the sum of the M Fastscan blur filter output values trailing and including the pixel at position X,Y is SSBLURXY =SSPSX,Y +FSBLURX,Y, and the new partial sum for the next row, same column position is SSPSX,(Y+1) =SSBLURX,Y -FSBLURX,(Y-(M-1)).</p>
+    <p num="209">
+      In the fastscan case, the new partial sum would be used on the next pixel processed.
+      <br/>
+      However in the slowscan case, because of the fastscan/slowscan raster presentation of the data, the column-wise partial sum must be saved until the same column in the next row is processed.
+      <br/>
+      Since each value is created only once, used only once, and every value is used P-1 pixels after it is created, the column partial sums can be saved in a FIFO memory.
+      <br/>
+      For each column, the partial sum for the current position is stored during the previous row.
+      <br/>
+      This value is read from one end of the FIFO, and the new partial sum calculated for the current column is written to the other.
+      <br/>
+      The next FIFO read will be the partial sum for the next column position.
+      <br/>
+      These operations are saving and restoring the state of the P slowscan blur filters which exist for each of the P pixel columns in the image.
+    </p>
+    <p num="210">
+      It is noted that while the overall two-dimensional blur filter requires storage for M-1 scanlines of the original image, access is only needed at the upper and lower right corners of the blur rectangle.
+      <br/>
+      A FIFO memory can be used, thereby reducing control circuitry and Input/Output pins required to a minimum: data input/output and simple read/write signals.
+      <br/>
+      If multiple passes through a rectangular blur filter are required to achieve a frequency response with lower side lobes, a second instance of the process described above can be implemented concurrently, with the M scanline FIFO memory element and the per column accumulator storage being made wider but using the same control circuitry as the first stage.
+      <br/>
+      In this case, the present invention's use of a duplicate fastscan blur block in the second stage saves .left brkt-top.Log2 M*N.right brkt-top. bits in width of the M scanlines of storage.
+      <br/>
+      If N equals 10 and M equals 15, the M scanline FIFO memory element width required by the second filter is reduced by .left brkt-top.Log2 150.right brkt-top.=8 bits over the conventional sequence approach of implementing a separable two-dimensional filter.
+    </p>
+    <p num="211">
+      Advantages from the above-described 2-D blur filter implementation are that access to the data is required only after a single fix delay, thereby allowing the use of FIFO storage elements.
+      <br/>
+      Replication of critical functions reduces the required width of the FIFO storage elements.
+      <br/>
+      Regularity in the process utilizing the rectangular blur filter allows multiple instances of the filter to be ganged together, thereby sharing control circuitry in processing the data concurrently to realize multiple passes through the filter without a corresponding increase in cost and complexity.
+    </p>
+    <p num="212">
+      Moreover, peak detection routines are often used in image processing to help find maximum and minimums of the images.
+      <br/>
+      In halftone detection algorithms, the peak detection is often used in determining the dot density or frequency of the halftone being measured.
+      <br/>
+      This is a common measurement used in segmentation.
+      <br/>
+      In many detection routines, the maximum is found by searching for a local pixel that is greater than all its neighbors.
+    </p>
+    <p num="213">
+      The problem with this process is that it ignores flat top peaks; i.e., peaks that are more than 1 pixel in width.
+      <br/>
+      In order to overcome this problem, one can require that the pixel is greater than or equal to all of its neighbors.
+      <br/>
+      The problem associated with this implementation is that the flat top area may be present as multiple pixels.
+      <br/>
+      As an example, utilizing a peak function P(i, j) which is one where there is a maximum, and zero otherwise, a typical peak detection process for pixel in the i-th scanline j-th pixel location is as follows:
+      <br/>
+      Peak(i,j)=1 iff v(i,j)&gt;v(i-k,j-1), with -1 &lt;= k, 1 &lt;= 1 and k and I are not both zero, otherwise 0
+    </p>
+    <p num="214">
+      If there are dual peaks, for example: v(i,j)=v(i+1,j), neither (i,j) or (i+1,j) will be considered locations of a local maximum.
+      <br/>
+      This process will therefore tend to underestimate the number of local maximums of the image.
+      <br/>
+      In halftone measurements, this would result in a frequency estimate lower than the true frequency.
+      <br/>
+      Similarly, if the strict inequality in the equation set forth above is changed to a weak inequality ( &gt;= ), all flat top peaks will be counted multiple times, and this will tend to overestimate the number of local maximums in the image.
+    </p>
+    <p num="215">
+      To correct for these problems adjacent peaks can be disallowed where the peak pixel and all intervening pixels are at the same video level as another peak.
+      <br/>
+      This unfortunately increases the complexity of the process and requires that the local peak mass be stored for future calculations.
+      <br/>
+      In terms of implementation, this is costly because storing line buffers for real-time calculations is expensive in high speed systems.
+    </p>
+    <p num="216">
+      One embodiment of the present invention resolves this problem with a combination of the strict and weak inequality.
+      <br/>
+      The implementation of the weak and equality can be direction sensitive.
+      <br/>
+      It is only imposed at a particular direction: e.g., down and/or to the right.
+      <br/>
+      In this case, the inequality in the above equation is changed to:
+      <br/>
+      Peak(i,j)=1iff
+      <br/>
+      v(i,j) &gt;= v(i+k,j+1), with (k,1)=+(0,1), (1,-1), (1,0), (1,1)}
+      <br/>
+      v(i,j)&gt;v(i+k,j+1), with (k,1)=+(-1,-1), (-1,0), (-1,1), (0,-1)}
+    </p>
+    <p num="217">
+      This inequality will count multiple peaks only one time, since it only allows it as it approaches from only one direction.
+      <br/>
+      In this example, it will consider the upper left to be the peak location.
+      <br/>
+      Unfortunately, this process has also a shortcoming.
+      <br/>
+      The process will detect peaks in areas where staggered lines are encountered.
+      <br/>
+      The upper left area of each jagged section will be detected as a local maximum.
+      <br/>
+      This type of staggering is, for example, in text areas where diagonal lines are present such as in part of the letter A. In many instances, the detection of these areas as peaks many not be undesirable.
+      <br/>
+      For halftone detection, however, it may result in a false detection of a halftone area.
+    </p>
+    <p num="218">
+      In order to eliminate detecting local maximums in this area, the second equation above is updated to place the diagonal inequality in the upper left.
+      <br/>
+      This eliminates block areas that are typically present in text.
+      <br/>
+      The updated peak detection is as follows:
+      <br/>
+      Peak(i,j)=1iff
+      <br/>
+      v(i,j)&gt;=v(i+k,j+1), with (k,1)=+(-1,-1), (-1,1), (0,1), (1,0)}
+      <br/>
+      v(i,j)&gt;v(i+k,j+1), with (k,1)=+(-1,0),(0,-1), (1,-1), (1,1)}
+    </p>
+    <p num="219">
+      If this peak detection is utilized on a halftone gray original at 100 lines per inch with 45 degree orientation.
+      <br/>
+      Under ideal peak detection, the peak map will form a hexagonal grid.
+      <br/>
+      Thus, given perfect peak detection, the frequency measurement would have a mean of 100 and a standard deviation of 0.
+      <br/>
+      Using the first described peak detection process above, the mean of the frequency measurement would be 91.5 lines per inch, the range 61 lines per inch to 100 and 9 lines per inch and the standard deviation 5.6 lines per inch.
+      <br/>
+      Using the third described peak detection, the mean frequency is 99 lines per inch, range 91 lines per inch to 111 lines per inch and the standard deviation is 2 lines per inch.
+    </p>
+    <p num="220">
+      As noted above, the detection of halftones is very important.
+      <br/>
+      The detection of halftones involves finding the center of the halftone dots and counting the number of dot centers in a small window.
+      <br/>
+      The presence of enough numbers of dots as well as additional conditions qualifies an area as a halftone.
+      <br/>
+      The frequency of the halftone can be inferred from the dot counts in the window of a known size.
+      <br/>
+      The dot centers are identified by finding the local video minimums in the mid-tone to highlight area and finding the local video maximums in the mid-tone to shadow areas.
+      <br/>
+      To suppress false detections in a noisy non-halftone area, the center pixel is required to be less than the average of the surrounding pixels by a small threshold in case of minimums and greater than the average of the surrounding pixels by a threshold in case of maximums.
+    </p>
+    <p num="221">
+      The process described above usually detects the halftone area accurately.
+      <br/>
+      However, in images with small kanji, thin lines, or ladder charts, noises in the lines can trigger false detection of halftone dot centers.
+      <br/>
+      If there are enough halftone peaks, the local area could be classified as halftone rather than text or line arts.
+      <br/>
+      The kanji or ladder charts would then be treated as high frequency halftones, thereby causing the kanji or ladder chart image data to be low pass filtered and screened.
+      <br/>
+      The result is the loss of sharpness in reproduction.
+      <br/>
+      Thus, additional constraints are necessary in qualifying the pixel as a halftone peak.
+      <br/>
+      One embodiment of the present invention provides an efficient way to reduce the number of false detections of halftones in these areas.
+    </p>
+    <p num="222">
+      To explain the present invention more clearly, the following example will be discussed.
+      <br/>
+      As shown in FIG. 13, FIG. 13 illustrates a halftone image which is reproduced at 133 lines per inch and has been magnified.
+      <br/>
+      Using the peak detection process described above, the pixels detected as halftone peaks are shown as black dots in FIG. 14. The result of applying the simple halftone peak detection to a ladder chart as shown in FIG. 15, and kanji shown in FIG. 18. The false detection of halftone peaks are obvious from the illustrations of FIGS. 16 and 19 wherein these FIGS. represent maps of the detected halftone peaks.
+      <br/>
+      To suppress these false detections, it is necessary to apply additional criteria to qualify a pixel as a halftone peak.
+    </p>
+    <p num="223">
+      If the video signal is denoted by Vi,j wherein i is the I scan line and j is the j pixel, the false detections can be suppressed by computing the range of the video in the horizontal, vertical, and diagonal directions across three or five adjacent pixels.
+      <br/>
+      For example: for 400 spi RHorizontal =Range(Vi, j-1, Vi, j, Vi, j+1) and RVertical =Range(Vi-1, j, Vi, j, Vi+1, j); for 600 spi RHorizontal =Range(Vi, j-2, Vi, j-1, Vi, j, Vi, j+1, Vi, j+2) and RVertical =Range(Vi-2, j, Vi-1,j, Vi, j, Vi+1, j, Vi+2, j); RDiagonal1 =Range(Vi-1, j+1, Vi, j, Vi+1, j-1); and RDiagonal2 =Range(Vi+1, j-1, Vi, j, Vi-1, j+1).
+    </p>
+    <p num="224">
+      The variations of the video across a few pixels along the direction of a line is expected to be small.
+      <br/>
+      If any of these computed video ranges is small at a pixel location, it is likely that a line has passed through the pixel location.
+      <br/>
+      These ranges are all expected to be somewhat larger when the center pixel is a real halftone peak.
+      <br/>
+      Therefore, the following additional condition is imposed upon the center pixel to be classified as a halftone peak.
+    </p>
+    <p num="225">RHorizontal &gt;S and RVertical &gt;S and RDiagonal1 &gt;S and RDiagonal2 &gt;S</p>
+    <p num="226">
+      With this additional constraint, the halftone peak detections for the images shown in FIGS. 15 and 18 are shown in FIGS. 17 and 20, respectively.
+      <br/>
+      The false halftone peak detections are significantly reduced.
+      <br/>
+      On the other hand, for a real halftone image as illustrated in FIG. 13, the additional constraints put on the center pixel do not reduce the number of halftone peaks detected.
+    </p>
+    <p num="227">
+      As described above, a compound document can be automatically segmented into areas of different classes.
+      <br/>
+      Several of the classifiers (microclassifiers) used in this process depend on the video of neighboring pixels.
+      <br/>
+      Since these classifiers (microclassifiers) depend on the video of neighboring pixels, these classifiers (microclassifiers) are very sensitive to the resolution of the actual scanned in document.
+      <br/>
+      For example, the common scanning resolutions are 400 spots per inch and 600 spots per inch.
+      <br/>
+      If a classifier (microclassifier) is built to correspond to a 400 spot per inch resolution, the classifier (microclassifier) may not provide a correct or optimal output if the image being fed through the classifier is 600 spots per inch.
+    </p>
+    <p num="228">
+      Therefore, it is desirable that the classifiers (microclassifiers) are implemented such that the classifiers (microclassifiers) are made less sensitive to the actual resolution of the video signal being processed.
+      <br/>
+      One embodiment of the present invention realizes this desirability by adjusting the size of the context or number of neighboring pixels which will be utilized by the classifier (microclassifier) in proportion to the scanning resolution of the image.
+      <br/>
+      By adjusting the size of the context in proportion to the scanning resolution of the image, the computed classifier (microclassifier) can be made less sensitive to the actual resolution.
+      <br/>
+      More specifically, the classifier (microclassifier) of the present invention has the built in flexibility such that the combination of these resolutions in either fastscan or slowscan directions can be readily accommodated by merely adjusting the size of the context in which the classifier (microclassifier) operates upon.
+    </p>
+    <p num="229">
+      For example, in a halftone peak detection circuit, the halftone area is detected by the presence of enough halftone dots in a window of known size.
+      <br/>
+      The halftone dots are identified by the local minimum of the video in the mid-tone to highlight area and the local maximum of the video in the mid-tone to shadow area.
+      <br/>
+      If the video signal is denoted by Vi, j for the j-th pixel in the i-th scanline, one of the necessary conditions for the local video minimum is as follows:
+      <br/>
+      Vi-1, j-1 &lt;= Vi,j and Vi-1,j &lt;Vi,j and Vi, j-1 &lt;Vi,j and Vi, j+1 &lt;= Vi,j and Vi+1, j-1 &lt;Vi,j and Vi+1,j &lt;= Vi,j and Vi+1, j+1 &lt;Vi,j
+    </p>
+    <p num="230">
+      For a resolution of 400 spots per inch, the checking specified above is adequate.
+      <br/>
+      However, if the scanning resolution is increased to 600 spots per inch, the necessary conditions must be extended to include more pixels, namely Vi, j-2 &lt;Vi, j and Vi, j+2 &lt;= Vi,j for the fastscan direction and Vi-2, j &lt;Vi, j and Vi+2, j &lt;= Vi, j for the slowscan direction.
+      <br/>
+      For the local maximum of the video similar conditions must be also extended wherein the less than and less than and equal are replaced by greater than and greater than or equal, respectively.
+    </p>
+    <p num="231">Furthermore, in order to reduce the false peak detection in areas of kanji, thin lines and ladder charts, as discussed above, the following conditions are also analyzed wherein S is a small threshold.</p>
+    <p num="232">Range(Vi,j-1, Vij, Vij,+1)&gt;S and Range(Vi-1,j, Vi,j, Vi+1,j)&gt;S</p>
+    <p num="233">
+      As noted before, if the image has a resolution of 400 spots per inch, the conditions set forth above are adequate.
+      <br/>
+      However, if the image has a resolution of 600 spots per inch, it is also necessary to include more pixels in this condition, namely Range(Vi,j-2, Vi,j-1, Vi,j, Vi,j+1, Vi,j+2) and Range(Vi-2,j, Vi-1,, Vi,j, Vi+1,j, Vi+2,j) for the higher resolution in the fastscan and slowscan directions, respectively.
+    </p>
+    <p num="234">
+      As noted above, the number of local video minimums and maximums in a window of known size can be used to estimate the halftone frequency.
+      <br/>
+      In actual implementation, a double convolution using a window of uniform weights is applied to 1 bit per pixel bitmap of halftone peaks.
+      <br/>
+      This is equivalent to sampling the peak counts with a window of twice the size with a triangular weighting function.
+      <br/>
+      The size of the window for the convolution can be 8, 10, 12, 15, or 18 pixels in a fastscan direction and 8, 10, 12, 15 or 18 scanilnes in the slowscan direction.
+      <br/>
+      Typically, if the scanning resolution of the image is 400 spots per inch, the window size for this implementation is usually 10 pixels in the fastscan direction and 10 scanlines in the slowscan direction.
+      <br/>
+      On the other hand, if the image has a resolution of 600 spots per inch, the typical window is 15 pixels in the fastscan direction and 15 scanlines in the slowscan direction.
+      <br/>
+      Thus, as noted above, to properly detect the halftone peak counts, the context of the window being analyzed must be adjusted according to the resolution of the incoming image.
+    </p>
+    <p num="235">
+      To characterize continuous tone verses halftone, text and images, a measure of energy or variation of the video is computed.
+      <br/>
+      In this implementation, the Laplacian of the video is first computed as follows:
+      <br/>
+      Li,j =(Vi-1,j-1 +Vi-1,j +Vi-1,j+1 +Vi,j-1 +Vi,j+1 +Vi+1,j-1 +Vi+1,j +Vi+1,j+1)/8-Vi,j
+    </p>
+    <p num="236">
+      More specifically, the Laplacian is simply the difference between a pixel and the average of its eight neighbors.
+      <br/>
+      After computing the Laplacian, the sum of the absolute values of the Laplacians over a small neighborhood of NX pixels by NY scanlines surrounding the pixel of interest is computed.
+      <br/>
+      The parameters NX is chosen to be 7 for a 400 spot per inch image and 11 for a 600 spot per inch image.
+      <br/>
+      The parameters NY are chosen to be 3 for a 400 spot per inch image and 5 for a 600 spot per inch image.
+      <br/>
+      A pixel is classified as either a smooth contone, rough contone, or edge class depending on its value of the absolute sum.
+      <br/>
+      Large absolute Laplacian sums are also a necessary condition for a pixel to be classified as a halftone.
+    </p>
+    <p num="237">
+      Lastly, it is also desirable to detect line, text, or edges inside a halftone image or tint.
+      <br/>
+      Such a detection can be realized by first calculating a local average of the video over a suitable chosen context wherein the local average is computed for each pixel.
+      <br/>
+      Next the range of the computed averages over a small neighborhood is checked.
+      <br/>
+      If the range exceeds a certain threshold, it is likely that the pixel is an edge pixel.
+      <br/>
+      For high frequency halftone tint, the context for averaging the video is three pixels or scanlines for an image at 400 spots per inch revolution and 5 pixels or scanlines for an image at 600 spots per inch resolution in order to effectively smooth out the halftone tint area.
+    </p>
+    <p num="238">
+      As readily seen above, the various classifiers utilized in an auto-segmentation process requires the context of the window being analyzed to vary from resolution to resolution of the input image.
+      <br/>
+      Therefore, the present invention adjusts the context of the window based on the resolution of the input image.
+      <br/>
+      In other words, the implementation of the automatic image segmentation process has the built in flexibility to effectively analyze the image at any input resolution wherein this is accomplished by varying the context required for the classifiers (microclassifiers) that the determine the segmentation in proportion to the input resolution.
+    </p>
+    <p num="239">
+      An example of such a system is illustrated in FIG. 12. As illustrated in FIG. 12, the video signal or image data is fed into a microclassifier system 100, a macro-reduction system 200, and a pixel classification look-up table 300.
+      <br/>
+      The microclassifier system 100 is made of a plurality of microclassifier circuits 101-104.
+      <br/>
+      These microclassifier circuits measure intrinsic properties of the video extracted through a simple mathematical formula or heuristic.
+      <br/>
+      The microclassification values are fed into the macro-reduction system 200.
+      <br/>
+      The microclassifier system 100 also receives the resolution of the incoming video signal.
+      <br/>
+      This information is used by the microclassifier circuits to conform their calculations and measurements to the actual resolution of the video signal.
+    </p>
+    <p num="240">
+      The macro-reduction system 200 is made of a plurality of macro-reduction circuits 201-204.
+      <br/>
+      Each macro-reduction circuit reduces microclassification values received from the microclassifiers to produce higher level, more directly useful information through mathematical operations and heuristics, suppressing noise and other irrelevant or undesirable variations in the microclassifiers.
+      <br/>
+      The macro-reduced values are fed into the pixel classification look-up table 300.
+      <br/>
+      To the extent to which the expected microclassifier values are impacted by the resolution driven adjustment of their calculation, the macro-reduction parameters must be adjusted by either a control processor or adapted accordingly by the system.
+    </p>
+    <p num="241">
+      The pixel classification look-up table 300 is a programmable look-up table reduces the macro-reduced outputs to the final classification in a very fast manner.
+      <br/>
+      The look-up table 300 also enables any arbitrarily complex function to be performed, since the arbitrarily complex function can be precalculated off-line and loaded into the table.
+      <br/>
+      Microclassification values or even the input video may also be used directly by the programmable table 300 if appropriate.
+    </p>
+    <p num="242">
+      Although the present invention has been described in detail above, various modifications can be implemented without departing from the spirit of the present invention.
+      <br/>
+      For example, the preferred embodiment of the present invention has been described with respect to a xerographic printing system; however, these fuzzy methods and filters are readily implemented in a thermal inkjet system, a display system, or other image processing system
+    </p>
+    <p num="243">
+      Moreover, the image processing system of the present invention can be readily implemented on a general purpose computer, a personal computer or workstation.
+      <br/>
+      The image processing system of the present invention can be readily implemented on an ASIC, thereby enabling the placement of this process in a scanner, electronic subsystem, printer, or display device.
+    </p>
+    <p num="244">
+      The present invention has been described with respect to a video range of 0 to 255.
+      <br/>
+      However, it is contemplated by the present invention that the video range can be any suitable range to describe the grey level of the pixel being processed.
+      <br/>
+      Furthermore, the present invention is readily applicable to any image processing system, not necessarily a binary output device.
+      <br/>
+      It is contemplated that the concepts of the present invention are readily applicable to a four-level output terminal or higher.
+    </p>
+    <p num="245">
+      Also, the present invention has been described, with respect to the fuzzy classification and fuzzy processing routines, that the scalar values are determined using the weighted sum of the centriod method since the centriods in the preferred embodiment are non-overlapping (the classes are non-overlapping).
+      <br/>
+      However, the present invention is readily applicable to a system with overlapping classes.
+      <br/>
+      Such an extension is readily known to those skilled in the art of fuzzy logic.
+    </p>
+    <p num="246">
+      Lastly, the present invention has been described with respect to a monochrome or black/white environment.
+      <br/>
+      However, the concepts of the present invention are readily applicable to a color environment.
+      <br/>
+      Namely, the processing operations of the present invention can be applied to each color space value, some function of a given pixel's color space components, or even a function of the color space components of a pixel and other pixels in the neighborhood.
+    </p>
+    <p num="247">While the invention has been described with reference to various embodiments disclosed above, it is not confined to the details set forth above, but is intended to cover such modifications or changes as may come within the scope of the attached claims.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for determining a halftone frequency of a pixel of image data in a window of pixels, comprising the steps of:</claim-text>
+      <claim-text>(a) determining if the pixel represents a peak and generating a peak value therefrom; (b) fastscan blur filtering the peak value at a slowscan lead edge of the window to generate a first peak count value; (c) fastscan blur filtering the peak value at a slowscan trail edge of the window to generate a second peak count value; (d) determining a peak count from a previous first peak count value generated from a previous execution of said step (b) and the second peak count value of said step (c);</claim-text>
+      <claim-text>and (e) calculating a halftone frequency based on the peak count determined in said step (d).</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A system for determining a halftone frequency of a pixel of image data in a window of pixels, comprising: peak detection means for determining if the pixel represents a peak and generating a peak value therefrom; first filter means for fastscan blur filtering the peak value at a slowscan lead edge of the window to generate a first peak count value therefrom; second filter means for fastscan blur filtering the peak value at a slowscan trail edge of the window to generate a second peak count value therefrom; peak count means for determining an actual peak count from a previous first peak count value and said second peak count value;</claim-text>
+      <claim-text>and halftone frequency means for calculating a halftone frequency based on the actual peak count value.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The system as claimed in claim 2, wherein said first filter means comprises: a programmable delay line which receives the peak value from said peak detection means to produce a delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said first peak count value from the peak value, delayed peak value, and a previous first peak count value.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The system as claimed in claim 2, wherein said second filter means comprises: a programmable delay line which receives the peak value from said peak detection means to produce a delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said second peak count value from the peak value, delayed peak value, and a previous second peak count value.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The system as claimed in claim 3, wherein said first filter means comprises: a second programmable delay line which receives the peak value from said peak detection means to produce a second delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said second peak count value from the peak value, second delayed peak value, and a previous second peak count value.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The system as claimed in claim 2, wherein said peak count means includes an adder.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A printing system for rendering a pixel of image data, comprising: peak detection means for determining if the pixel within a window of pixels represents a peak and generating a peak value therefrom; first filter means for fastscan blur filtering the peak value at a slowscan lead edge of the window to generate a first peak count value therefrom; second filter means for fastscan blur filtering the peak value at a slowscan trail edge of the window to generate a second peak count value therefrom; peak count means for determining an actual peak count from a previous first peak count value and said second peak count value; halftone frequency means for calculating a halftone frequency based on the actual peak count value; classification means for classifying the pixel as a particular image type based on the calculated halftone frequency; processing means for image processing the pixel based the image type classification of the pixel;</claim-text>
+      <claim-text>and print means for rendering the processed pixel on a recording medium.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system as claimed in claim 7, wherein said first filter means comprises: a programmable delay line which receives the peak value from said peak detection means to produce a delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said first peak count value from the peak value, delayed peak value, and a previous first peak count value.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The system as claimed in claim 7, wherein said second filter means comprises: a programmable delay line which receives the peak value from said peak detection means to produce a delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said second peak count value from the peak value, delayed peak value, and a previous second peak count value.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system as claimed in claim 8, wherein said first filter means comprises: a second programmable delay line which receives the peak value from said peak detection means to produce a second delayed peak value;</claim-text>
+      <claim-text>and a peak counter to generate said second peak count value from the peak value, second delayed peak value, and a previous second peak count value.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The system as claimed in claim 7, wherein said peak count means includes an adder.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

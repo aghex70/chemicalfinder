@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182058B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182058</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182058</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25203291" extended-family-id="42108831">
+      <document-id>
+        <country>US</country>
+        <doc-number>08810217</doc-number>
+        <kind>A</kind>
+        <date>19970228</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08810217</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165396</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>81021797</doc-number>
+        <kind>A</kind>
+        <date>19970228</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08810217</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06K   9/62        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>9</main-group>
+        <subgroup>62</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>706045000</text>
+        <class>706</class>
+        <subclass>045000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>706020000</text>
+        <class>706</class>
+        <subclass>020000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06K-009/62C2M2A</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>009</main-group>
+        <subgroup>62C2M2A</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06K-009/6282</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>K</subclass>
+        <main-group>9</main-group>
+        <subgroup>6282</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>13</number-of-claims>
+    <exemplary-claim>3</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>8</number-of-drawing-sheets>
+      <number-of-figures>11</number-of-figures>
+      <image-key data-format="questel">US6182058</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Bayes rule based and decision tree hybrid classifier</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>HERBERT THOMAS F</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5325445</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5325445</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>NIVELLE FRAN OIS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5553163</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5553163</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>RANGANATHAN N, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5604821</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5604821</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>MAMMONE RICHARD J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5634087</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5634087</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>BELLEGARDA JEROME R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5737487</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5737487</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>SUTHERLAND I, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3816726</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3816726</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>RISSANEN JORMA I, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4719571</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4719571</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>QUICK LEE T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4868771</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4868771</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>ROACH WILLIAM C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4928247</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4928247</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>USAMI YOSHIAKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4994989</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4994989</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>MALM RICHARD L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5043920</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5043920</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>BLISS HARRY M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5072395</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5072395</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>BEHM JASON L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5150457</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5150457</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>SUMNER ROY L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5164904</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5164904</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>MAKI REINO A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5201047</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5201047</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>BUCKWOLD JONATHAN Y</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5247666</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5247666</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>MASAND BRIJ M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5251131</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5251131</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>ABE MASAHIRO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5253333</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5253333</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>KURASHIGE MASAFUMI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5282262</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5282262</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>ROBERTSON GEORGE G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5295243</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5295243</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>KREITMAN KRISTEE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5303388</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5303388</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>MACKAY MICHAEL T</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5307456</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5307456</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>MORI TOSHIAKI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5418946</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5418946</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>JOHRI ABHAI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5420968</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5420968</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>GERULL DOUGLAS B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5426780</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5426780</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>DOI MIWAKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5459829</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5459829</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="27">
+          <text>SAKAKIBARA YASUBUMI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5463773</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5463773</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="28">
+          <text>AMRO HATIM Y, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5515486</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5515486</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="29">
+          <text>KONDO SHOZO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5519865</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5519865</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="30">
+          <text>STRASNICK STEVEN L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5528735</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5528735</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="31">
+          <text>BOWERS FRANK H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5546529</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5546529</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="32">
+          <text>STRASNICK STEVEN L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5555354</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5555354</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="33">
+          <text>GUSTAFSON ERIC S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5659731</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5659731</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="34">
+          <text>CATLETT JASON A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5671333</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5671333</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="35">
+          <text>STRASNICK STEVEN LARRY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5671381</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5671381</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="36">
+          <text>KEPHART JEFFREY OWEN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5675711</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5675711</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="37">
+          <text>HALL GUY TRAVIS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5675785</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5675785</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="38">
+          <text>MCKEE NEIL HOWARD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5675786</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5675786</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="39">
+          <text>GOH ENG LIM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5678015</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5678015</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="40">
+          <text>SCHMIDT HAUKE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5680476</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5680476</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="41">
+          <text>EVANS ROBERT B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5694524</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5694524</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="42">
+          <text>COX INGEMAR J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5696964</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5696964</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="43">
+          <text>CHADHA ATUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5706495</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5706495</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="44">
+          <text>AGRAWAL RAKESH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5724573</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5724573</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="45">
+          <text>CHEN MING-SYAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5727199</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5727199</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="46">
+          <text>CULLEN JOHN F, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5732230</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5732230</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="47">
+          <text>MAHLER RONALD P S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5748852</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5748852</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="48">
+          <text>AGRAWAL RAKESH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5787274</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5787274</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Hecht-Nielsen, Robert, "Neurocomputing", Addison-Wesley Publishing Company, Inc., Jan. 1990.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Aha, D.W. et al., "Instance-Based Learning Algorithms," Machine Learning, vol. 6, No. 1, pp. 37-66 (Jan. 1991).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Almuallim, H. and Dietterich, T.G., "Learning Boolean Concepts in the Presence of Many Irrelevant Features," Artificial Intelligence, vol. 69, Nos. 1-2, pp. 279-305 (Sep. 1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>"Angoss Software Announces Knowledge Studio Data Mining Solution," http://www.pathfinder.com@@xIEkOgYAVjbJZjkM/money/latest/press/PW/1997Oct27/92, Angoss Software Corporation, pp. 1-2, Oct. 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>"Angoss Software's KnowledgeSEEKER((TM)) Compatible with SAS Institute," http://www.newswire,careleases/September1977/18/c3915.html. pp. 1-2, Canada Newswire, Sep. 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>Cestnik, B., "Estimating Probabilities: A Crucial Task in Machine Learning," Proceedings of the 9th European Conference on Artificial Intelligence, pp. 147-149 (Aug. 1990).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>"Companies in Data Mining and Knowledge Discovery," http://kdnuggets.com/companies.html, pp. 1-4, Last updated: Oct. 31, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Cormen, T.H., et al., Introduction to Algorithms, The MIT Press, pp. 263-280 (1990).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="9">
+          <text>Dasarathy, B.V., "Nearest Neighbor (NN) Norms: (NN) Patterns Classification Techniques," (IBL), IEEE Computer Society Press,pp. 1-30 (1990).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="10">
+          <text>"Data Mining and Knowledge Discovery References," http://kdnuggets.com/references.html, pp. 1-3, Last updated: Oct. 29, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="11">
+          <text>Domingos, P. and Pazzani, M., "Beyond Independence: Conditions for the Optimality of the Simple Bayesian Classifier," Machine Learning: Proceedings of the 13th International Conference (ICML '96), pp. 105-112 (1996).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="12">
+          <text>Fairchild, K.M., "Information Management Using Virtual Reality-Based Visualizations," Virtual Reality Applications and Explorations, ed. A. Wexelblat, Academic Press, Inc., pp. 45-74, Copyright (1993), Publication date Jul. 1, 1993.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="13">
+          <text>Fisher, R.A., "The use of multiple measurements in taxonomic problems," Annals of Eugenics, vol. 7., No. 1, pp. 179-188 (1936).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="14">
+          <text>Friedman, J. H. et al., "Lazy Decision Trees," Proceedings of the Thirteenth National Conference on Artificial Intelligence, AAAI Press and the MIT Press, vol. 1, pp. 717-724 (1996).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="15">
+          <text>Good, I.J., The Estimation of Probabilities: An Essay on Modern Bayesian Methods, pp. xi-xii, MIT Press, pp. 1-79, (1965).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="16">
+          <text>"IBM Digs Deep for Data Mining "Gold'," http://www.software.ibm.com/data/intellimine/factsheet.html, pp. 1-8, IBM Corporation, Copyright 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="17">
+          <text>"KD Mine: Data Mining and Knowledge Discovery," http://kdnuggets.com/index_kdm.html, p. 1, Knowledge Discovery Nuggets, Copyright 1997, Last updated: Oct. 31, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="18">
+          <text>Kittler, J., "The Role of Feature Selection and Extraction," Handbook of Pattern Recognition and Image Processing, Chapter 3, pp. 59-83, Academic Press, Inc., 1986.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="19">
+          <text>Knuth, A., The Art of Computer Programming, Addison-Wesley, vol. 2, pp. 506-550 (1973).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="20">
+          <text>Kohavi, R., "Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid," In Data Mining and Visulaization, Silicon Graphics, Inc., from the Second International Conference on Knowledge Discovery and Data Mining (1996).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="21">
+          <text>Kohavi, R., "A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection," Proceedings of the 14th International Joint Conference on Artifical Intelligence, Stanford University, 1995.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="22">
+          <text>Kohavi, R. and John, G., "Wrappers for Feature Subset Selection," http://robotics.stanford.edu/~{ronnyk.gjohn}, May 20, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="23">
+          <text>Kohavi, R. and Li, C., "Oblivious Decision Trees, Graphs, and Top-Down Pruning," Proceedings of the 14th International Joint Conference on Artificial Intelligence, Chriss S. Mellish (Ed.), Morgan Kaufmann Publishers, Inc., pp. 1071-1077 (1995).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="24">
+          <text>Kohavi, R. and Sommerfield, D., "Feature Subset Selection Using the Wrapper Model: Overfitting and Dynamic Search Space Topology," Proceedings of the First International Conference on Knowledge Discovery and Data Mining, pp. 192-197 (Aug. 1995).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="25">
+          <text>Kohavi, R. et al., "Data Mining using MLC++: A Machine Learning Library in C++," Tools With AI, pp. 234-245 (1996).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="26">
+          <text>Kononenko, I., "Inductive and Bayesian Learning in Medical Diagnosis," Applied Artificial Intelligence, vol. 7, pp. 317-337 (1993).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="27">
+          <text>Langley, P. and Sage, S., "Induction of Selective Bayesian Classifiers," Proceedings on the Tenth Conference on Uncertainty in Artificial Intelligence, Morgan Kaufmann Publishers, Inc., pp. 399-406 (Jul. 1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="28">
+          <text>Langley, P. and Sage, S., "Oblivious Decision Trees and Abstract Cases," Working Notes of the AAAI-94 Workshop on Case-Based Reasoning, AAAI Press, pp. 113-117 (1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="29">
+          <text>Langley, P., et al., "An Analysis of Bayesian Classifiers," Proceedings of the Tenth National Conference on Artificial Intelligence, pp. 223-228 (Jul. 1992).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="30">
+          <text>Lincoff, G., National Audubon Society Field Guide to North American Mushrooms, New York, pp. 9-32, (1981).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="31">
+          <text>Mangasarian, O. L. and Wolberg, W. H., "Cancer Diagnosis Via Linear Programming," SIAM News, vol. 23, No. 5, pp. 1&amp;18 (Sep. 1990).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="32">
+          <text>Murthy, S. et al., "Randomized induction of oblique decision trees," Proceedings of the Eleventh National Conference on Artificial Intelligence, AAI Press/MIT Press, pp. 322-327 (1993).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="33">
+          <text>"Other Web Sites for Data Mining and Knowledge Discovery," http://kdnuggets.com/websites.html, pp. 1-3, Last updated: Sep. 10, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="34">
+          <text>Quinlan, J.R., C4.5: Programs for Machine Learning, Morgan Kaufmann Publishers, Inc., pp. 17-26 (1993).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="35">
+          <text>Quinlan, J.R., "Induction of Decision Trees," Machine Learning, vol. 1, No. 1,pp. 81-106 (1986).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="36">
+          <text>Rendell, L. and Seshu, R., "Learning hard concepts through constructive induction: framework and rationale," Computational Intelligence, vol. 6, No. 4, pp. 247-270 (Nov. 1990).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="37">
+          <text>"SAS Data Mining Solution," http://www.sas.com/software/data_mining/whitepapers/solution.html, pp. 1-6, SAS Institute Inc., Copyright 1997, Last Updated Sep. 26, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="38">
+          <text>Schaffer, C., "A Conservation Law for Generalization Performance," Machine Learning: Proceedings of the Eleventh International Conference, Morgan Kaufmann Publishers, Inc., pp. 259-265 (1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="39">
+          <text>"S*i*ftware: Tools for Data Mining and Knowledge Discovery," http://kdnuggets.com/siftware.html, pp. 1-2, Last updated: Oct. 31, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="40">
+          <text>Thrun et al., "The Monk's Problems: A Performance Comparison of Different Learning Algorithms," Technical Report CMU-CS-91-197, Carnegie Mellon University pp. i-x and 1-112, (1991).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="41">
+          <text>Utgoff, P., "Perceptron Trees: A Case Study in Hybrid Concept Representation," Proceedings of the Seventh National Conference on Artificial Intelligence, Morgan Kaufmann, vol. 2, pp. 601-606 (Aug. 1988).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="42">
+          <text>Greenwood, J., "Countdown to the Cybermarket," Financial Post Magazine, Mar., 1994, pp. 26-32.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="43">
+          <text>Boyl, J. et al., "Design of a 3D user interface to a database," submitted to Database Issues for Data Visualization Workshop, Jul., 1993, pp. 1-9.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="44">
+          <text>Gershon, N. et al., "Visualization's New Tack: Making Sense of Information," IEEE Spectrum, Nov., 1995, pp. 38-47 and 55.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="45">
+          <text>"Mineset Awards," http://www.sgi.com/Products/software/MineSet/awards.html, p. 1, (Jan. 9, 1998).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="46">
+          <text>"Silicon Graphics MineSet Wins Bronze Miner Award," http://www.sgi.com/Headlines/1997/October/mineset13release.html, pp. 1-2, Oct. 1, 1997).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="47">
+          <text>"The 1997 Database Dozen," by D. Stodder, http://www.dbpd.com/96dozen.htm, pp. 1-2, (1996 or 1997).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="48">
+          <text>"A Dozen Companies on the Rise," http://www.dbpd.com/seconddz.htm, pp. 1-9, (Miller Freeman Inc. 1997).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="49">
+          <text>"MineSet 2.0 for Data Mining and Multidimensional Data Analysis," by C. Hall, http://www.sgi.com/Products/software/MineSet/DMStrategies/, pp. 1-12, (1997). (originally appeared in Sep. 1997 issue of Data Management Strategies, Copyright 1997 Cutter Information Corp.).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="50">
+          <text>Carlbom et al., "A Hierarchical Data Structure for Representing the Spatial Decomposition of 3-D Objects", IEEE Computer Graphics &amp; Applications, Apr. 1985, pp. 24-31.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="51">
+          <text>Carlbom et al., "Planar Geometric Projections and Viewing Transformations" Computing Surveys, vol. 10, No. 4, Dec. 1978, pp. 465-502.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="52">
+          <text>Beveaux, T., "Virtual Reality Gets Real", New Media, (Jan. 1993), pp. 32-35.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="53">
+          <text>Graves, G.L., "NASA's Virtual Reality", New Media, (Jan. 1993), p. 36-38.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="54">
+          <text>Graves, G.L., "Invasive of the Digital Puppets", New Media, (Jan. 1993), p. 38-40.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="55">
+          <text>Yavelow, C., "3-D Sound Found In Space", New Media, (Jan. 1993), pp. 40-41.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="56">
+          <text>Johnson, Brian and Ben Shneiderman, "Tree-Maps: A Space-Filling Approach to the Visualization of Hierarchical Information Structures", IEEE Visualization Proceedings '91, Oct. 1991, pp. 284-291.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="57">
+          <text>Structural Dynamics Research Corporation News Release, "SDRC Announces Software Translator Between CADAM and I-DEAS", Mar. 31, 1992.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="58">
+          <text>Jacobson, Bob, "The Ultimate User Interface", BYTE, Apr. 1992, pp. 175, 176, 178, 180, and 182.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="59">
+          <text>Clarkson, Mark A., "An Easier Interface", BYTE, Feb. 1991, pp. 277, 278, 280, 281, and 282.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="60">
+          <text>Radding, Alan, "PC GIS: Expect Gain But Also Some Pain", Computerworld, Feb. 17, 1992, p. 89.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="61">
+          <text>Hilderbrand, Carol, "GIS Vital In Utility's Duel with Competitor", Computerworld, Jan. 20, 1992, p. 43.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="62">
+          <text>Anthes, G.H., "GIS Eases Redistricting Worry", Computerworld, Oct. 7, 1991, p. 65.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="63">
+          <text>Alexander, Michael, "GIS Sprouting Corporate Wings", Computerworld, Jul. 22, 1991, p. 20.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="64">
+          <text>Wilder, C., "Virtual Reality Seeks Practicality", Computerworld 26 (17), Apr. 27, 1992, p. 26.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="65">
+          <text>Fairchild, Kim M., Steven E. Poltrock and George W. Furnas, "SemNet: Three-Dimensional Graphic Representations of Large Knowledge Bases", Cognitive Science and its Applications for Human-Computer Interaction, Guindon, Ed., 1988, pp. 201-233.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="66">
+          <text>Precision Visuals International Limited, "Summary of PV-Wave Point &amp; Click Visual Data Analysis Software", 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="67">
+          <text>Flanagan, William G., "Cyberspace Meets Wall Street", Forbes, Jun. 22, 1992, pp. 164, 165, and 168.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="68">
+          <text>Grinstein, G. et al., "Visualization for Knowledge Discovery", Intl. J. Intelligent Systems 7, 1992, pp. 637-648.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="69">
+          <text>Fuller, J.E., Using Autocad, 3d Ed., Chapter 17, Viewing 3-D Drawings, 1989, pp. 17-1-17-14, and Tutorial, pp. 19-15-19-16, Delmar Publishers, Inc., Albany, NY 12212.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="70">
+          <text>Alexander, M., "Visualizing Cleared-Off Desktops", Computerworld 25 (18), May 6, 1991, p. 20.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="71">
+          <text>Benedikt, M., ed., Cyberspace First Steps, The MIT Press, Cambridge, Massachusetts (1992), pp. 1-436.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="72">
+          <text>Forrest, D., "Seeing Data in New Ways", Computerworld, Jun. 29, 1992, pp. 85-86.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="73">
+          <text>Newquist, H.P., "Virtual Reality's Commercial Reality", Computerworld 26 (3), pp. 93-95.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="74">
+          <text>"Atlas Software: A New Dimension in Data Management", advertisement, Atlas Software, Strategic Mapping, Inc., San Jose, CA 95117 (page and date unknown).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="75">
+          <text>"News: What's New-Business Software", BYTE, Mar. 1992, p. 78.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="76">
+          <text>"A Map for All Reasons", advertisement, Strategic Mapping, Inc., San Jose, CA 95117 (page and date unknown).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="77">
+          <text>News Release, Company: Information Builders, Dateline: Pacific Palisades, CA, "Remarkable 3D Main-Frame Graphics Available For PC Users", Feb. 1985.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="78">
+          <text>News Release, Company: Information Builders, Inc., Dateline: Palm Desert, CA, "Information Builders Announces Release 3.0 of PC/Focus DBMS", Jun. 1, 1987.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="79">
+          <text>News Release, Company: Honeywell Bull, Dateline: Bilerica, MA "Relational Software System Increases Integration, Productivity for Honeywell Bull Users", Jul. 17, 1987.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="80">
+          <text>News Release, Company: Alliant Computer Systems, Dateline: San Diego, CA, "TGS' Figaro To Be Marketed With Silicon Graphics", Jul. 8, 1988.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="81">
+          <text>News Release, Company: Alliant Computer Systems, Dateline: Atlanta, GA, "Alliant Debuts New Class of System The Visual Supercomputer", Aug. 2, 1988.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="82">
+          <text>News Release, Company: Virtus, Dateline: Pleasanton, CA, "Individual Software Introduces Training for Microsoft Excel 3.0 Windows and Macintosh Versions", Jul. 31, 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="83">
+          <text>News Release, Company: Virtus Corporation, Dateline: Cary, NC, "Virtus Walkthrough Releases Quicktime Component", Nov. 1, 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="84">
+          <text>News Release, Company: Alias Research, Dateline: Toronto, Ontario, "Alias Ships Sketch!, Freeform 3D Illustration and Design Program", Nov. 15, 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="85">
+          <text>News Release, Company: Structural Dynamics Res. Intl. Business Machines, Dateline: Boston MA, "Alias Sketch (TM) Resumes Shipping: Freeform 3D Illustration and Design Tool", Feb. 19, 1992.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="86">
+          <text>Pollack, A., "The 2-D Screen 3-D World" New York Times (date unknown).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="87">
+          <text>Foley et al., "Computer Graphics: Principals and Practice", Second Edition, Addison-Wesley Publishing Co., 1990, pp. 731-734 and color plate III.23</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="88">
+          <text>Ahlberg et al., "IVEE: An Information Visualization &amp; Exploration Environment," Proceedings of Information Visualization '95, 1995, pp. 66-73.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="89">
+          <text>Becker et al., "Smooth Transitions between Bump Rendering Algorithms," Computer Graphics Proceedings, Annual Conference Series, 1993, pp. 183-190.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="90">
+          <text>Becker et al., "Unsteady Flow Volumes," Proceedings of Visualization '95, pp. 329-335, 1995.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="91">
+          <text>Blinn, James F., "Light Reflection Functions for Simulation of Clouds and Dusty Surfaces," Computer Graphics, vol. 16, No. 3, Jul. 1982, p. 116-124.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="92">
+          <text>Crawfis et al., "Texture Splats for 3D Scalar and Vector Field Visualization," Proceedings of IEEE Visualization '93, 1993, pp. 261-265.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="93">
+          <text>Crawfis et al., "Vector Field Visualization," Computer Graphics and Applications, vol. 14, 1994, pp. 50-56.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="94">
+          <text>Inselberg et al., "Parallel Coordinates: A Tool for Visualizating Multidimensional Geometry," Proceedings of Visualization '90, pp. 361-378, 1990.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="95">
+          <text>Laur et al., "Hierarchical Splatting: A Progressive Refinement Algorithm for Volume Rendering," Computer Graphics, vol. 25, No. 4, Jul. 1991, pp. 285-288.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="96">
+          <text>Levoy, Marc, "Volume Rendering: Display of Surfaces from Volume Data," IEEE Computer Graphics and Applications, vol. 8, No. 5, May 1988, pp. 29-37.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="97">
+          <text>Martin et al., "High Dimensional Brushing for Interactive Exploration of Multivariate Data," Proceedings of Visualization '95, 1995, pp. 271-278.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="98">
+          <text>Max et al., "Bump Shading for Volume Textures," IEEE Computer Graphics and Applications, Jul. 1994, pp. 18-20.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="99">
+          <text>Max et al., "Flow Volumes for Interactive Vector Field Visualization," Proceedings of Visualization '93, 1993, pp. 19-24.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="100">
+          <text>Sabella, Paolo, "A Rendering Algorithm for Visualizing 3D Scalar Fields," Computer Graphics, vol. 22, No. 4, Aug. 1988, pp. 51-58.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Silicon Graphics, Inc.</orgname>
+            <address>
+              <address-1>Mountain View, CA, US</address-1>
+              <city>Mountain View</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SILICON GRAPHICS INTERNATIONAL</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Kohavi, Ron</name>
+            <address>
+              <address-1>Mountain View, CA, US</address-1>
+              <city>Mountain View</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Sterne, Kessler, Goldstein &amp; Fox P.L.L.C.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hafiz, Tariq R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      The present invention provides a hybrid classifier, called the NB-Tree classifier, for classifying a set of records.
+      <br/>
+      According to the present invention, the NB-Tree classifier includes a Decision-Tree structure having zero or more decision-nodes and one or more leaf-nodes.
+      <br/>
+      At each decision-node, a test is performed based on one or more attributes.
+      <br/>
+      At each leaf-node, a classifier based on Bayes Rule classifies the records.
+      <br/>
+      Furthermore, the present invention provides a method for inducing the NB-Tree classifier from a set of labeled instances.
+      <br/>
+      To induce the NB-Tree classifier, a utility C1 of a Bayes classifier at a root-node is first estimated.
+      <br/>
+      Next, a utility D1 of a split into a plurality of child-nodes with a Bayes classifier at the child-nodes is estimated.
+      <br/>
+      The utility of a split is the weighted sum of the utility of the child-nodes, where the weight given to a child-node is proportional to the number of instances that go down that child-node.
+      <br/>
+      Next, it is determined if C1 is higher than D1.
+      <br/>
+      If C1 is higher than D1, the root-node is transformed into a leaf-node with a Bayes classifier.
+      <br/>
+      If C1 is not higher than D1, the root-node is transformed into a decision-node, and the instances are partitioned into a plurality of child-nodes.
+      <br/>
+      The method then recursively performs the previous steps for each child-node as if it is a root-node.
+      <br/>
+      The present invention approximates whether a generalization accuracy for a Naive-Bayes classifier at each leaf-node is higher than a single Naive-Bayes classifier at the decision-node.
+      <br/>
+      According to one embodiment of the present invention, to avoid splits with little value, a split is defined to be significant if the relative (not absolute) reduction in error is greater than 5% and there are at least 30 instances in the node.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention relates generally to data mining and more specifically to a classifier and inducer used for data mining.</p>
+    <p num="3">2. Related Art</p>
+    <p num="4">
+      Many data mining tasks require classification of data into classes.
+      <br/>
+      Typically, a classifier classifies the data into the classes.
+      <br/>
+      For example, loan applications can be classified into either "approve" or "disapprove" classes.
+      <br/>
+      The classifier provides a function that maps (classifies) a data item (instance or record; records and instances are used interchangeably hereinafter) into one of several predefined classes.
+      <br/>
+      More specifically, the classifier predicts one attribute of a set of data given one or more attributes.
+      <br/>
+      For example, in a database of iris flowers, a classifier can be built to predict the type of iris (iris-setosa, iris-versicolor or iris-virginica) given the petal length, sepal length and sepal width.
+      <br/>
+      The attribute being predicted (in this case, the type of iris) is called the label, and the attributes used for prediction are called the descriptive attributes.
+    </p>
+    <p num="5">
+      A classifier is generally constructed by an inducer.
+      <br/>
+      The inducer is an algorithm that builds the classifier from a training set.
+      <br/>
+      The training set consists of records with labels.
+      <br/>
+      FIG. 1 shows how an inducer constructs a classifier.
+    </p>
+    <p num="6">
+      Specifically, FIG. 1 includes a training set 110, an inducer 120 and a classifier 130.
+      <br/>
+      The inducer 120 receives the training set 110 and constructs the classifier 130.
+    </p>
+    <p num="7">
+      Once the classifier is built, its structure can be used to classify unlabeled records as shown in FIG. 2.
+      <br/>
+      Specifically, FIG. 2 includes records without labels (unlabeled records) 210, a classifier 220 and labels 230.
+      <br/>
+      The classifier 220 receives the unlabeled records 210 and classifies the unlabeled records 210.
+    </p>
+    <p num="8">
+      Inducers require a training set, which is a database table containing attributes, one of which is designed as the class label.
+      <br/>
+      The label attribute type must be discrete (e.g., binned values, character string values, or integers).
+      <br/>
+      FIG. 3 shows several records from a sample training set.
+    </p>
+    <p num="9">
+      Once a classifier is built, it can classify new records as belonging to one of the classes.
+      <br/>
+      These new records must be in a table that has the same attributes as the training set; however, the table need not contain the label attribute.
+      <br/>
+      For example, if a classifier for predicting iris_type is built, the classifier is applied to records containing only the descriptive attributes.
+      <br/>
+      The classifier then provides a new column with the predicted iris type.
+    </p>
+    <p num="10">
+      In a marketing campaign, for example, a training set can be generated by running the campaign at one city and generating label values according to the responses in the city.
+      <br/>
+      A classifier can then be induced and campaign mail sent only to people who are labeled by the classifier as likely to respond, but from a larger population, such as all the U.S. Such mailing can have substantial cost savings.
+    </p>
+    <p num="11">
+      A well known classifier is the Decision-Tree classifier.
+      <br/>
+      The Decision-Tree classifier assigns each record to a class.
+      <br/>
+      The Decision-Tree classifier is induced (generated) automatically from data.
+      <br/>
+      The data, which is made up of records and a label associated with each record, is called the training set.
+    </p>
+    <p num="12">
+      Decision-Trees are commonly built by recursive partitioning.
+      <br/>
+      A univariate (single attribute) split is chosen for the root of the tree using some criterion (e.g., mutual information, gain-ratio, gini index).
+      <br/>
+      The data is then divided according to the test, and the process repeats recursively for each child.
+      <br/>
+      After a full tree is built, a pruning step is executed which reduces the tree size.
+    </p>
+    <p num="13">
+      Generally, Decision-Trees are preferred where serial tasks are involved, i.e., once the value of a key feature is known, dependencies and distributions change.
+      <br/>
+      Also, Decision-Trees are preferred where segmenting data into sub-populations gives easier subproblems.
+      <br/>
+      Also, Decision-Trees are preferred where there are key features, i.e., some features are more important than others.
+      <br/>
+      For example, in a mushroom dataset (a commonly used benchmark dataset), the odor attribute alone correctly predicts whether a mushroom is edible or poisonous with about 98% accuracy.
+    </p>
+    <p num="14">
+      Although Decision-Tree classifiers are fast and comprehensible, current induction methods based on recursive partitioning suffer from a fragmentation problem.
+      <br/>
+      As each split is made, the data is split based on the test and after several levels, there is usually very little data on which to base decisions.
+    </p>
+    <p num="15">
+      Another well known classifier is the Naive-Bayes classifier.
+      <br/>
+      The Naive-Bayes classifier uses Bayes rule to compute the probability of each class given an instance, assuming attributes are conditionally independent given a label.
+    </p>
+    <p num="16">
+      The Naive-Bayes classifier requires estimation of the conditional probabilities for each attribute value given the label.
+      <br/>
+      For discrete data, because only few parameters need to be estimated, the estimates tend to stabilize quickly and more data does not change the model much.
+      <br/>
+      With continuous attributes, discretization is likely to form more intervals as more data is available, thus increasing the representation power.
+      <br/>
+      However, even with continuous data, the discretization is usually global and cannot take into account attribute interactions.
+    </p>
+    <p num="17">
+      Generally, Naive-Bayes classifiers are preferred when there are many irrelevant features.
+      <br/>
+      The Naive-Bayes classifiers are very robust to irrelevant attributes and classification takes into account evidence from many attributes to make the final prediction, a property that is useful in many cases where there is no "main effect." Also, the Naive-Bayes classifiers are optimal when the assumption that attributes are conditionally independent hold, e.g., in medical practice.
+      <br/>
+      On the downside, the Naive-Bayes classifiers require making strong independence assumptions.
+      <br/>
+      When these assumptions are violated, the achievable accuracy may asymptote early and will not improve much as the database size increases.
+    </p>
+    <p num="18">
+      FIG. 4 shows learning curves for the Naive-Bayes and Decision Tree classifiers (a C 4.5 type of decision tree inducer was used) on large datasets from the UC Irvine repository (Murphy &amp; Aha 1996).
+      <br/>
+      The learning curves show how the accuracy changes as more instances (training data) are shown to the inducer.
+      <br/>
+      The accuracy is computed based on the data not used for training, so it represents the true generalization accuracy.
+      <br/>
+      Each point was computed as an average of 20 runs of the algorithm, and 20 intervals were used.
+      <br/>
+      The error bars show 95% confidence intervals on the accuracy based on the left-out sample.
+      <br/>
+      The top three graphs show datasets where the Naive-Bayes outperformed the Decision-Tree, and the lower six graphs show datasets where the Decision-Tree outperformed the Naive-Bayes.
+      <br/>
+      In most cases, it is clear that even with much more data, the learning curves will not cross.
+      <br/>
+      While it is well known that no algorithm can outperform all others in all cases, in practice, some algorithms are more successful than others.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="19">
+      The present invention provides a hybrid classifier, called the NB-Tree hybrid classifier, for classifying a set of records.
+      <br/>
+      Each record has a plurality of attributes.
+      <br/>
+      According to the present invention, the NB-Tree classifier includes a Decision-Tree structure having zero or more decision-nodes and one or more leafnodes.
+      <br/>
+      At each decision-node, a test is performed based on one or more attributes.
+      <br/>
+      At each leaf-node, a classifier based on Bayes Rule classifies the records.
+    </p>
+    <p num="20">
+      The present invention also provides a system and a method of inducing the hybrid classifier from a set of labeled instances.
+      <br/>
+      Each instance has a plurality of attributes.
+      <br/>
+      The hybrid classifier has a decision-tree structure with zero or more decision-nodes and one or more leaf-nodes.
+      <br/>
+      There is one root-node that may either be a decision-node or a leaf-node.
+    </p>
+    <p num="21">
+      To induce an NB-Tree classifier, a utility C1 of a Bayes classifier at the root-node is first estimated.
+      <br/>
+      Next, a utility D1 of a split into a plurality of child-nodes with a Bayes classifier at the child-nodes is estimated.
+      <br/>
+      The utility of a split is the weighted sum of the utility of the child-nodes, where the weight given to a child-node is proportional to the number of instances that go down that child-node.
+    </p>
+    <p num="22">
+      Next, it is determined if C1 is higher than D1.
+      <br/>
+      If C1 is higher than D1, the root-node is transformed into a leaf-node with a Bayes classifier and returned.
+      <br/>
+      If C1 is not higher than D1, the root-node is transformed into a decision-node, and the instances are partitioned into a plurality of child-nodes.
+      <br/>
+      The method then recursively performs the previous steps for each child-node as if it is a root-node.
+    </p>
+    <p num="23">
+      The present invention approximates whether a generalization accuracy for a Naive-Bayes classifier at each leaf-node is higher than a single Naive-Bayes classifier at the decision-node.
+      <br/>
+      According to one embodiment of the present invention, to avoid splits with little value, a split is defined to be significant if the relative (not absolute) reduction in error is greater than 5% and there are at least 30 instances in the node.
+    </p>
+    <p num="24">Further features and advantages of the invention, as well as the structure and operation of various embodiments of the invention, are described in detail below with reference to the accompanying drawings.</p>
+    <heading>BRIEF DESCRIPTION OF THE FIGURES</heading>
+    <p num="25">
+      The present invention will be described with reference to the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 illustrates an inducer which uses a training set to construct a classifier.
+      <br/>
+      FIG. 2 illustrates a classifier used to classify unlabeled records.
+      <br/>
+      FIG. 3 illustrates several records from a sample training set.
+      <br/>
+      FIG. 4 illustrates learning curves for Naive-Bayes and Decision-Tree classifiers.
+      <br/>
+      FIG. 5 illustrates an example of a NB-Tree hybrid classifier structure in accordance with one embodiment of the present invention.
+      <br/>
+      FIG. 6 is a flow diagram illustrating a method of inducing the NB-Tree classifier from a set of labeled instances in accordance with one embodiment of the present invention.
+      <br/>
+      FIG. 7 is a flow diagram illustrating another method of inducing the NB-Tree classifier from a set of labeled instances in accordance with one embodiment of the present invention.
+      <br/>
+      FIG. 8 illustrates a computer system wherein the NB-Tree inducer has been stored.
+      <br/>
+      FIG. 9 shows a table which describes the characteristics of the data in a large set of files used in FIGS. 10 and 11.
+      <br/>
+      FIG. 10 is a graph that shows absolute differences between the accuracies for a Decision-Tree (C4.5), a Naive-Bayes and an example NB-Tree hybrid classifier.
+      <br/>
+      FIG. 11 is a graph that shows the error ratios of an example NB-Tree to the C4.5 and the Naive-Bayes.
+    </p>
+    <p num="26">
+      In the drawings, like reference numbers generally indicate identical, functionally similar, and/or structurally similar elements.
+      <br/>
+      The drawing in which an element first appears is indicated by the leftmost digit(s) in the reference number.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="27">
+      The present invention provides a hybrid classifier, called the NB-Tree classifier, and a method for using the NB-Tree classifier.
+      <br/>
+      Furthermore, the present invention provides a method, system and a computer product for inducing the NB-Tree classifier.
+      <br/>
+      The NB-Tree classifier classifies a set of instances (also referred as records; records and instances are used interchangeably hereinafter), each instance having a plurality of attributes.
+      <br/>
+      The NB-Tree utilizes the advantages of both Decision-Trees (i.e., segmentation) and Naive-Bayes (evidence accumulation from multiple attributes).
+    </p>
+    <p num="28">
+      The present invention can be used in computer graphics, data mining environment and data visualization.
+      <br/>
+      Given the description herein, it would be obvious to one skilled in the art to implement the present invention in any general computer including, but not limited to, a computer graphics processor (single chip or multichips), high-end to low-end graphics workstations, virtual machine (e.g., Java-created application), and network architectures (e.g., client/server, local, intermediate or wide area networks).
+      <br/>
+      In one example, the present invention can be implemented as software, firmware, and/or hardware in a data mining tool, such as, the Mineset product released by Silicon Graphics, Inc., and executed on a graphics workstation manufactured by Silicon Graphics, Inc. (e.g., an Indigo, Indy, Onyx or O2 workstations).
+    </p>
+    <p num="29">
+      Description in these terms is provided for convenience only.
+      <br/>
+      It is not intended that the invention be limited to application in this example environment.
+      <br/>
+      In fact, after reading the following description, it will become apparent to a person skilled in the relevant art how to implement the invention in alternative environments.
+    </p>
+    <p num="30">
+      FIG. 5 shows an example of a NB-Tree classifier structure 500 in accordance with one embodiment of the present invention.
+      <br/>
+      Specifically, the NB-Tree classifier structure 500 includes a root-node 504, decision-nodes 508 and 512, and leaf-nodes 516, 520, 524, 528 and 532.
+    </p>
+    <p num="31">
+      At the root-node 504, a test based on one or more attributes is performed on a set of labeled instances.
+      <br/>
+      Those instances that have the attributes (test result=true, at the root-node 504) are split from those instances that do not have the attributes (test result=false, at the root-node 504).
+      <br/>
+      In this example, at the root-node 704, the split is a binary split since the instances are split into two groups.
+      <br/>
+      Those instances that have the attributes (test result=true, at the root-node 504) are again tested at the decision-node 508, where the instances are split into true and false.
+      <br/>
+      Next, at the leaf-node 516, those instances that have the attributes (test result=true, at the decision-node 508) are classified by a classifier based on Bayes Rule, and the classifier outputs a label.
+    </p>
+    <p num="32">
+      At the root-node 504, those instances that do not have the attributes (test result=false, at the root-node 504) are tested again at the decision-node 512.
+      <br/>
+      At the decision-node 512, a multi-way split is performed based on the attributes.
+      <br/>
+      In this example embodiment, those instances that are red are further tested at the leaf-node 524, those instances that are green are further tested at the leaf-node 528 and those instances that are blue are further tested again at the leaf-node 532.
+      <br/>
+      At the leaf-node 524 (also at the leaf-nodes 528 and 532), a classifier based on Bayes Rule classifies the instances and outputs a label.
+    </p>
+    <p num="33">
+      In addition to the classifier structure described above, the present invention discloses an inducer which induces the NB-Tree classifier.
+      <br/>
+      As stated before, the NB-Tree classifier is a hybrid of Decision-Tree classifiers and Naive-Bayes classifiers.
+      <br/>
+      The approach retains the interpretability of the Naive-Bayes and Decision-Trees, while resulting in classifiers that frequently outperform both constituents, especially in large databases.
+    </p>
+    <p num="34">
+      FIG. 6 is a flow diagram 600 illustrating the method of inducing the hybrid classifier, the NB-Tree, from a set of labeled instances in accordance with one embodiment of the present invention.
+      <br/>
+      The hybrid classifier has a root-node, zero or more decision-nodes (if necessary), zero or more child-nodes (if necessary) and one or more leaf-nodes.
+      <br/>
+      If necessary, the root-node can be transformed into a decision-node or a leaf-node in appropriate circumstances.
+    </p>
+    <p num="35">
+      Referring to FIG. 6, in a step 604, the hybrid inducer receives a set of labeled instances at the root-node.
+      <br/>
+      In a step 608, the utility C1 of a Bayes classifier at the root-node is estimated.
+      <br/>
+      The Bayes classifier in this step can be a Naive-Bayes and equivalents thereof.
+    </p>
+    <p num="36">
+      Next, in a step 612, the utility D1 of a split into a plurality of child-nodes is estimated.
+      <br/>
+      The utility estimate of the split can be based on, but not limited to, any type of accuracy estimation, such as holdout, cross-validation or boot-strap.
+      <br/>
+      The utility estimate D1 includes an estimated utility of a Bayes classifier at the child-nodes.
+      <br/>
+      If the attributes are continuous (i.e., ordered attributes), the step of estimating the utility D1 of a split also includes a determination of a threshold split.
+    </p>
+    <p num="37">
+      Next, in a step 616, it is determined if C1 &gt;D1.
+      <br/>
+      If C1 &gt;D1, the flow moves to a step 620, where the root-node is transformed into a leaf-node with a Bayes classifier and the flow is returned to step 604.
+      <br/>
+      If C1 is not greater than D1, the flow moves to a step 624, where the root-node is transformed into a decision-node and the instances are partitioned into a plurality of child-nodes.
+      <br/>
+      The step 624 may also include a multi-way split, i.e., a non-binary split.
+      <br/>
+      Finally, the flow moves to a step 628, where, for each child-node, the flow recursively performs steps 608-628.
+    </p>
+    <p num="38">
+      FIG. 7 is a flow diagram 700 illustrating a more specific embodiment of FIG. 6 for inducing a hybrid classifier.
+      <br/>
+      The leaf-nodes created are Naive-Bayes classifiers (instead of the more general Bayes classifier) and the decision-nodes make univariate splits (single variable).
+    </p>
+    <p num="39">
+      According to the method, a threshold for continuous attributes is chosen using the standard entropy minimization technique, as is done for decision-trees.
+      <br/>
+      The utility of a node is computed by discretizing the data and computing the 5-fold cross validation accuracy estimate of using the Naive-Bayes at the node.
+      <br/>
+      The utility of a split is the weighted sum of the utility of the nodes, where the weight given to a node is proportional to the number of instances that go down to that node.
+    </p>
+    <p num="40">
+      At each node, an attempt is made to approximate whether the generalization accuracy for a Naive-Bayes classifier at each leaf is higher than a single Naive-Bayes classifier at the current node.
+      <br/>
+      To avoid splits with little value, the present invention defines a split to be significant if the relative (not absolute) reduction in error is greater than 5% and there are at least 30 instances in the node.
+    </p>
+    <p num="41">
+      Direct use of cross-validation to select attributes has not been commonly used because of the large overhead involved in using it in general.
+      <br/>
+      However, if the data is discretized, Naive-Bayes can be cross-validated in time that is linear in the number of instances, number of attributes, and number of values.
+      <br/>
+      The reason for this is that we can remove the instances, update the counters, classify them and repeat for a different set of instances.
+      <br/>
+      Given m instances, n attributes and l label values, the complexity of the attribute selection phase for discretized attributes is O(m * n2 * l).
+      <br/>
+      If the number of attributes is less than O(log m), which is usually the case, and the number of labels is small, then the time spent on attribute selection using cross-validation is less than the time spent sorting the instances by each attribute.
+      <br/>
+      Thus, the NB-Tree scales up well to large databases.
+    </p>
+    <p num="42">
+      Referring to FIG. 7, in a step 704, a hybrid inducer receives a set of instances.
+      <br/>
+      In a step 708, the Naive-Bayes accuracy A for the root-node is estimated.
+      <br/>
+      If Xi is ordered, a threshold is determined in a step 712.
+    </p>
+    <p num="43">
+      Next, in a step 716, the accuracy u(Xi) of a split into a plurality of child-node based on each attribute Xi at the root-node is estimated.
+      <br/>
+      The accuracy estimate u(Xi) includes an accuracy estimate of a Bayes classifier at the child-nodes.
+    </p>
+    <p num="44">
+      Next, in a step 720, the attribute j with the highest accuracy is determined.
+      <br/>
+      In a step 724, it is determined if u(Xj)&gt;A. If u(Xj) is not greater than A, the flow moves to a step 728, where the root-node is transformed into a leaf-node.
+      <br/>
+      At the leaf-node, a Naive-Bayes classifier is created and the flow is returned.
+      <br/>
+      If u(Xj)&gt;A, the flow moves to a step 732, where the root-node is transformed into a decision-node based on Xi and the instances are partitioned into a plurality of child-nodes according to Xj.
+      <br/>
+      The partition includes a multi-way split when Xj is discrete or has been discretized.
+      <br/>
+      Finally, the flow moves to a step 736, where for each child-node, the flow recursively performs the steps 708-736.
+    </p>
+    <p num="45">
+      FIG. 8 shows a computer system 800 wherein the NB-Tree classifier and/or the inducer may be incorporated.
+      <br/>
+      The NB-Tree classifier and/or the inducer can reside in a ROM, an EPROM, a programmable controller or any other storing means.
+      <br/>
+      Specifically, the computer system 800 includes a bus 804, a main processor 808, a display interface 812, a display 816, a main memory 820, a secondary memory 824 and a NB-Tree classifier and inducer module 828.
+    </p>
+    <p num="46">Although, in this example, the NB-Tree classifier and inducer 828 resides in a separate module, it may be stored in a programmable controller or inside the processor 808.</p>
+    <p num="47">
+      In operation, the main processor 808 retrieves the NB-Tree inducer from the module 828.
+      <br/>
+      The NB Tree inducer induces a classifier which classifies a set of instances.
+      <br/>
+      If the NB-Tree classifier is stored, then it can be used directly to classify a set of instances.
+    </p>
+    <p num="48">
+      To evaluate the NB-Tree algorithm, a large set of files from the UC Irvine repository was used.
+      <br/>
+      FIG. 9 shows a table which describes the characteristics of the data.
+      <br/>
+      Artificial files (e.g., monk 1) were evaluated on the whole space of possible values.
+      <br/>
+      Files with over 3000 instances were evaluated on a left out sample which is of size one third of the data, unless a specific test set came with the data (e.g., shuttle, DNA, satimage).
+      <br/>
+      Other files were evaluated using 10-fold cross-validation.
+      <br/>
+      Since C4.5 has a complex mechanism for dealing with unknown values, all instances with unknown values were removed from the datasets prior to the experiments to eliminate the effects of unknown values.
+    </p>
+    <p num="49">
+      FIG. 10 shows the absolute differences between the accuracies for the C4.5, Naive-Bayes and NB-Tree.
+      <br/>
+      Each line represents the accuracy difference for the NB-Tree and one of the two other methods.
+      <br/>
+      The average accuracy for the C4.5 is 81.91%, for the Naive-Bayes it is 81.69% and for the NB-Tree it is 84.47%. Because the accuracies may be close to 100% in some cases, absolute differences do not tell the whole story.
+      <br/>
+      Increasing the accuracy of medical diagnostics from 98% to 99% may cut costs by half because the number of error is halved.
+      <br/>
+      FIG. 11 shows the ratio of errors (where error is 100%--accuracy).
+      <br/>
+      The shuttle dataset, which is the largest dataset tested, has only 0.04% absolute difference between the NB-Tree and the C4.5, but the error decreases from 0.05% to 0.01%, which is a huge relative improvement.
+    </p>
+    <p num="50">
+      In this experiment, the number of nodes induced by the NB-Tree was in many cases significantly less than that of the C4.5. For example, for the letter dataset, the C4.5 induced 2109 nodes, while the NB-Tree induced only 251 nodes.
+      <br/>
+      In the adult dataset, the C4.5 induced 2213 nodes, while the NB-Tree induced only 137 nodes.
+      <br/>
+      For DNA, the C4.5 induced 131 nodes, while the NB-Tree induced 3.
+      <br/>
+      For led24, the C4.5 induced 49 nodes, while the NB-Tree used a single node.
+      <br/>
+      While the complexity of each leaf in the NB-Tree is higher, ordinary trees with thousands of nodes could be extremely hard to interpret.
+    </p>
+    <p num="51">
+      In summary, the present invention discloses a hybrid classifier, called the NB-Tree classifier, and a method for using the NB-Tree classifier.
+      <br/>
+      Furthermore, the present invention discloses a system, method and a computer product for inducing the NB-Tree classifier.
+      <br/>
+      The NB-Tree is a hybrid approach suitable in learning scenarios when many attributes are likely to be relevant for a classification task, yet the attributes are not necessarily conditionally independent given the label.
+    </p>
+    <p num="52">
+      The NB-Tree inducer induces highly accurate classifiers, significantly improving upon both its constituents in many cases.
+      <br/>
+      Although no classifier can outperform others in all domains, the NB-Tree works well on real world datasets that were tested, and it scales up well in terms of its accuracy.
+      <br/>
+      In fact, for the three datasets over 10,000 instances (adult, letter, shuttle), it outperformed both the C4.5 and Naive-Bayes.
+    </p>
+    <p num="53">
+      While various embodiments of the present invention have been described above, it should be understood that they have been presented by way of example only, and not limitation.
+      <br/>
+      Thus, the breadth and scope of the present invention should not be limited by any of the above-described exemplary embodiments, but should be defined only in accordance with the following claims and their equivalents.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3.</claim-text>
+      <claim-text>A method of inducing a hybrid classifier from a set of labeled instances, each instance having a plurality of attributes, the method comprising the steps of: (a) estimating utility C1 of a Bayes classifier at the root-node; (b) estimating utility D1 of a split into a plurality of child-nodes with a Bayes classifier at the child-nodes; (c) determining if C1 is higher than D1,</claim-text>
+      <claim-text>- if C1 is higher than D1, making said root-node a leaf-node with a Bayes classifier; - if C1 is not higher than D1, making said root node a decision-node, and partitioning the instances into a plurality of child-nodes;</claim-text>
+      <claim-text>and (d) recursively performing steps (a) through (c) for each child-node as if it is a root-node to obtain said hybrid classifier; wherein said induced hybrid classifier has a root-node, zero or more decision-nodes, zero or more child-nodes and one or more leaf-nodes, said root-node being either a decision-node or a leaf-node;</claim-text>
+      <claim-text>and (e) storing said induced hybrid classifier in a computer readable medium.</claim-text>
+      <claim-text>1. A hybrid classifier comprising a computer program residing in a computer readable medium for classifying a set of instances, each instance having a plurality of attributes, comprising:</claim-text>
+      <claim-text>a decision tree structure having zero or more decision-nodes and one or more leaf-nodes, wherein at each of said decision-nodes, a test is performed based on one or more attributes;</claim-text>
+      <claim-text>and a classifier based on Bayes Rule at each of said leaf-nodes, each leaf-node being connected to a decision-node of the decision tree, said classifier classifying said instances at each leaf-node according to Bayes Rule; wherein said hybrid classifier outputs a label for each classified instance.</claim-text>
+      <claim-text>2. A method for executing a hybrid classifier residing in a computer readable medium, said hybrid classifier having at least one decision-node and at least one leaf-node to classify a set of instances, each having a plurality of attributes, the method comprising the steps of: performing a test, based on one or more of said attributes, at each of said decision-nodes; classifying said instances according to Bayes Rule, at each leaf-node, by processing of a Bayes Rule classifier residing in said computer readable medium;</claim-text>
+      <claim-text>and outputting a label for each classified instance.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of inducing according to claim 3, wherein said Bayes classifier is Naive-Bayes built after all attributes have been discretized.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of inducing according to claim 3, wherein said utility estimate of a split in step (b) is based on an accuracy estimation selected from the group consisting of at least holdout, cross-validation and bootstrap.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of inducing according to claim 3, wherein estimating the utility D1 of a split based on one or more attributes further comprises the step of determining a threshold split for ordered attributes.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of inducing according to claim 3, wherein said partitioning the instances into a plurality of child further comprises the step of performing a multiway split, i.e., a non-binary split.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of inducing according to claim 3, wherein the utility of a split into a plurality of child-nodes is the weighted sum of the utility of the child-nodes, where the weight given to each child-node is proportional to the number of instances that go down to that node.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method of inducing a hybrid classifier from a set of labeled instances, each instance having a plurality of attributes, the method comprising the steps of: (a) estimating the Naive-Bayes accuracy A for the root-node; (b) if Xi is ordered, determining a threshold; (c) determining the accuracy estimate u(Xi) of a split into a plurality of child-nodes based on each attribute Xi at said root-node; (d) determining the attribute j with the highest accuracy, said j=arg maxi u(Xi), said u(Xj) being the accuracy of the attribute j; (e) if u(Xj) is not higher than A, making said root-node a leaf-node, creating a Naive-Bayes classifier at said leaf-node, - if u(Xj) is higher than A, making said root-node a decision-node based on Xi, partitioning the instances into a plurality of child-nodes according to Xj, said partitioning includes a multiway split when Xj is discrete or has been discretized;</claim-text>
+      <claim-text>and (f) recursively performing steps (a) through (e) for each child-node Xj as if it is a root-node thereby inducing a hybrid classifier; wherein said induced hybrid classifier has a root-node, zero or more decision-nodes, zero or more child-nodes and one or more leaf-nodes, said root-node being either a decision-node or a leaf-node;</claim-text>
+      <claim-text>and (g) storing said induced hybrid classifier in a computer readable medium.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A system for inducing a hybrid classifier from a set of labeled instances, each instance having a plurality of attributes, said hybrid classifier having a root-node, one or more decision-nodes, one or more child-nodes and one or more leaf-nodes, said root-node being either a decision-node or a leaf-node in appropriate circumstances, comprising: at least one processor coupled to a storage means, the one at least processor includes: - (a) means for estimating utility C1 of a Bayes classifier at the root-node; - (b) means for estimating utility D1 of a split into a plurality of child-nodes with a Bayes classifier at the child-nodes; - (c) means for determining if C1 is higher than D1 ; - (d) means for making said root-node a leaf-node with a Bayes classifier if C1 is higher than D1 ; - (e) means for making said root node a decision-node, and partitioning the instances into a plurality of child-nodes, if C1 is not higher than D1 ;</claim-text>
+      <claim-text>and - (f) means for recursively initiating operation of each of means (a) through (e) for each child-node as if it is a root-node thereby inducing said hybrid classifier which can be stored in said storage means.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A computer program product comprising: a computer readable medium having computer readable program code means embodied in said medium for causing inducement of a hybrid classifier from a set of labeled instances, each instance having a plurality of attributes, said hybrid classifier having a root-node, one or more decision-nodes, one or more child-nodes and one or more leaf-nodes, said root-node being either a decision-node or a leaf-node in appropriate circumstances, said computer program product including: - (a) computer readable program code means for estimating utility C1 of a Bayes classifier at the root-node; - (b) computer readable program code means for estimating utility D1 of a split into a plurality of child-nodes with a Bayes classifier at the child-nodes; - (c) computer readable program code means for determining if C1 is higher than D1 ; - (d) computer readable program code means for making said root-node a leaf-node with a Bayes classifier if C1 is higher than D1 ; - (e) computer readable program code means for making said root node a decision-node, and partitioning the instances into a plurality of child-nodes according to the tests if C1 is not higher than D1 ;</claim-text>
+      <claim-text>and - (f) computer readable program code means for recursively initiating operation of each of computer readable program code means (a) through (e) for each child-node as if it is a root-node thereby inducing said hybrid classifier.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The hybrid classifier of claim 1, wherein said decision tree structure includes at least one decision node.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A hybrid classifier that classifies a set of instances, each instance having a plurality of attributes, the hybrid classifier comprising: a decision tree structure having zero or more decision-nodes and one or more leaf-nodes, wherein at each of said decision-nodes, a test is performed based on one or more attributes;</claim-text>
+      <claim-text>and a classifier based on Bayes Rule at each of said leaf-nodes, each leaf-node being connected to a decision-node of the decision tree, said classifier classifying said instances at each leaf-node according to Bayes Rule; wherein said hybrid classifier outputs a label for each classified instance, and wherein said hybrid classifier comprises at least one of software, firmware, and hardware.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

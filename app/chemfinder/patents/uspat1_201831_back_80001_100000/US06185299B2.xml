@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185299B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185299</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185299</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="8230042" extended-family-id="42113301">
+      <document-id>
+        <country>US</country>
+        <doc-number>09102482</doc-number>
+        <kind>A</kind>
+        <date>19980622</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09102482</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171446</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="regional" sequence="1">
+        <country>EP</country>
+        <doc-number>97480074</doc-number>
+        <kind>A</kind>
+        <date>19971031</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997EP-0480074</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04M   9/08        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>M</subclass>
+        <main-group>9</main-group>
+        <subgroup>08</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>379406080</text>
+        <class>379</class>
+        <subclass>406080</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H04M-009/08C</text>
+        <section>H</section>
+        <class>04</class>
+        <subclass>M</subclass>
+        <main-group>009</main-group>
+        <subgroup>08C</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04M-009/082</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>M</subclass>
+        <main-group>9</main-group>
+        <subgroup>082</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>12</number-of-claims>
+    <exemplary-claim>5</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6185299</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Adaptive echo cancellation device in a voice communication system</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>DUTTWEILER DONALD L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4591669</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4591669</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>CHU PETER L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5305307</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5305307</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TOWNSEND KEITH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5577116</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5577116</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>NGO JOHN-THOMAS CALDERON, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5694474</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5694474</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>BHADKAMKAR NEAL ASHOK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6002776</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6002776</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Goldin, Alexander</name>
+            <address>
+              <address-1>Haifa, IL</address-1>
+              <city>Haifa</city>
+              <country>IL</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>IL</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Flynn, John D.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Dorvil, Richemond</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and device for adaptive echo cancellation in a voice communication system wherein a reference signal x is sent over the system from a transmitting device and comprising an adaptive filter for removing any echo signal from a primary signal d received in answer to reference signal x, and said adaptive filter having a plurality of coefficients the value of which at each time n being computed from the value of the same coefficient at time n-1 modified by a normalization factor depending upon the energy of said reference signal and provided by a normalization factor controlling unit.
+      <br/>
+      The normalization factor is the maximum value between a first value representing the energy of reference signal x at time n and a second value depending on a value of the normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor less than 1.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The invention relates to the echo cancellation in voice communication systems and more particularly to an improved adaptive echo cancellation device especially useful in case of double-talk.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      Echo cancellation plays a fundamental role in modem telephony.
+      <br/>
+      The quality of telephone communications and the performance of the modern networks depend to a large extent upon the ability of the equipment to avoid or cancel echoes.
+    </p>
+    <p num="3">
+      There are two kinds of echoes which may arise in the telephony: electrical echoes and acoustical echoes.
+      <br/>
+      The electrical echoes are due to impedance mismatch at the devices called hybrids where two-wire lines become four-wire lines.
+      <br/>
+      Hybrids are traditionally used when the two-wire local subscriber loop becomes a four-wire long distance trunk.
+      <br/>
+      The hybrid is also used at the point where the four wires (two wires from the microphone, and two wires from the speaker) are converted into the two-wire local loop.
+    </p>
+    <p num="4">The acoustic echo arises in a case when there is an acoustic path between the loudspeaker and the microphone so that part of the signal reproduced by the loudspeaker is reflected (weakened, delayed and distorted) by the room and then recorded by the microphone which is the typical situation when using a speakerphone.</p>
+    <p num="5">
+      Adaptive filters are used to cancel, or at least, significantly weaken the echoes for improving the quality and performance of telephone connections.
+      <br/>
+      Assuming that the input signal x (called reference signal) enters the echo generation system (hybrid or room); it generates an echo signal y which is mixed with the signal s which comes from the other side of the connection.
+      <br/>
+      The purpose of the adaptive filter is to subtract echo signal y from the output signal y+s (called primary signal).
+      <br/>
+      The signal remaining after the echo subtraction is the signal s plus an error r which is to be minimized.
+      <br/>
+      The adaptive filter bases its estimation of echo cancellation quality on the signal which results after the subtraction of the estimated echo from the echo generation system output.
+      <br/>
+      But in case of double-talk situation and even in a case of perfect echo cancellation, the output signal will not be equal to zero.
+      <br/>
+      Since the adaptive filter itself has no means to distinguish between the error r and the signal s, it will try to cancel the signal s leading to a wrong estimation of the echo path with following distortion of the signal of interest.
+      <br/>
+      To avoid this problem, a special block called double-talk detector is generally used.
+      <br/>
+      The purpose of this block is to detect the presence of the signal s and to give the adaptive filter a signal inhibiting its adaptation.
+      <br/>
+      In practice, some amount of the signal s is always present due to the environmental noise thus making a reliable double-talk detector very difficult to implement.
+      <br/>
+      Besides, if the echo path is changing during the double-talk, the system will not be able to track these changes making the results of echo cancellation totally irrelevant.
+    </p>
+    <p num="6">
+      Various algorithms of adaptive filtering can be used in the echo cancellation system.
+      <br/>
+      The algorithm using Normalized Least Mean Squares (NLMS) is the most widely used for echo canceling application.
+      <br/>
+      This algorithm is very simple and easy to implement on a digital signal processor, but it suffers from the double-talk situation described above.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">Accordingly, the main object of the invention is to provide a method and a device for adaptive echo cancellation overcoming the double-talk problem without using a double-talk detector.</p>
+    <p num="8">Another object of the invention is to provide a method and a device for adaptive echo cancellation wherein the adaptation of the adaptive filter coefficients is not affected by the double-talk situation.</p>
+    <p num="9">
+      The invention relates therefore to a method for adaptive echo cancellation in a voice communication system wherein a reference signal x is sent over the system from a transmitting device and comprising an adaptive filter for removing any echo signal from a primary signal d received by the transmitting device, the echo signal being sent back by the communication system in answer to reference signal x, and the adaptive filter having a plurality of coefficients the value of which at each time n being computed from the value of the same coefficient at time n-1 modified by a normalization factor depending upon the energy of the reference signal.
+      <br/>
+      The normalization factor is the maximum value between a first value representing the energy of reference signal at time n and a second value depending on a value of the normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor less than 1.
+    </p>
+    <p num="10">
+      According to another aspect, the invention relates to a device for adaptive echo cancellation in a voice communication system wherein a transmitting device sends a reference signal x over the voice communication system and receives a primary signal d from the voice communication system, such a device comprising an adaptive filter for removing any echo signal sent back by the voice communication system in answer to the reference signal and a normalization factor controlling unit for determining the value at time n of each coefficient of the adaptive filter based upon the value of the same coefficient of the reference signal.
+      <br/>
+      The normalization factor controlling unit comprises means for selecting the normalization factor as being the maximum value between a first value representing the energy of the reference signal at time n and a second value depending on a value of the normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="11">
+      These and other objects, features and advantages of the present invention will become apparent upon a consideration of the following detailed description of the invention when reads in conjunction with the drawings in which
+      <br/>
+      FIG. 1 is schematic block diagram of an adaptive cancellation device incorporating the invention,
+      <br/>
+      FIG. 2 is a schematic block diagram of a normalization factor controlling unit according to an embodiment of the invention,
+      <br/>
+      FIG. 3 shows a time diagram representing the filter estimation error when a standard adaptive filter is used.
+      <br/>
+      FIG. 4 shows a time diagram representing the filter estimation error when a filter implementing the invention is used.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="12">
+      An adaptive echo cancellation device used in a voice communication system is shown in FIG. 1.
+      <br/>
+      The analog audio signal is input to analog-to-digital converter 10 so that a digital signal x (reference signal) is fed to adaptive filter 12 the coefficients of which are adapted according to the standard NLMS (Normalized Least Mean Squares) algorithm.
+      <br/>
+      These coefficients are provided by a normalization factor controlling unit 14 which is implemented according the principles of the invention as described hereafter.
+    </p>
+    <p num="13">
+      Reference signal x is also supplied to digital-to-analog converter 16 providing an analog signal which is sent to the remote side of the communication system.
+      <br/>
+      But, due to a hybrid (echo path) and/or the near speaker, an echo signal y is sent back to the near side of the system as represented by dashed lines.
+    </p>
+    <p num="14">
+      After being converted into digital form by analog-to-digital converter 18, the echo signal is mixed with the signal from the remote side to provide a primary signal d. Then, the estimated echo signal provided by adaptive filter 12 is subtracted from primary signal d in subtractor 20 to provide signal e which is used to adapt the adaptive filter coefficients.
+      <br/>
+      It must be noted that primary signal d is either a pure echo and therefore signal e is only an error signal, or principally the signal from the remote side in case of double-talk.
+      <br/>
+      In any case, signal e is converted into analog form by digital-to-analog converter 22 before being transmitted to the near speaker.
+    </p>
+    <p num="15">The normalization factor controlling unit 14 a block diagram of which is given in FIG. 2 provides the coefficients F(n) of the adaptive filter at each time n. The adaptive filter is represented as an L vector of filter taps and the filtering operation on the reference signal is performed as the convolution sum.</p>
+    <p num="16">Assuming that:</p>
+    <p num="17">
+      L is the number of filter taps,
+      <br/>
+      MU  is an adaptation speed factor,
+      <br/>
+      a is a small positive stabilization constant,
+      <br/>
+      ETA is an attenuation factor less than 1,
+    </p>
+    <p num="18">
+      and
+      <br/>
+      X(n)=�x(n), x(n-1), . . . ,x(n-L+1)� i.e. the last L samples of the reference signal,
+      <br/>
+      d(n)=the last tap of the primary signal
+      <br/>
+      F(n)=�f0 (n), . . . ,fL-1 (n)�, i.e. the vector of L filter taps at time n
+      <br/>
+      F(0)=0
+    </p>
+    <p num="19">
+      The output of the adaptive filter e(n) has the following value with respect to primary signal d(n):
+      <br/>
+      e(n)=d(n)-F(n) * X(n)
+    </p>
+    <p num="20">with the value of F(n) is computed in the following way:  (Equation image '1' not included in text)</p>
+    <p num="21">
+      in which
+      <br/>
+      A(n)=max � ETA  * A(n-1), .parallel.X(n).parallel.2 �
+    </p>
+    <p num="22">
+      The value of coefficients F(n) can be easily computed by a processor.
+      <br/>
+      However, it is possible to implement specific hardware device as represented by the block diagram of FIG. 2.
+    </p>
+    <p num="23">
+      First, the value X(n) input on line 30 are supplied to LMS circuit 32 which computes the sum of least mean squares .parallel.X(n).parallel.2. Then, a comparator circuit 34 provides the maximum between .parallel.X(n).parallel.2 and the previous value A(n-1) multiplied by the energy forgetting factor in multiplier 36.
+      <br/>
+      Note that A(n-1) is provided by the output value of comparator circuit 34 which has been delayed by t (time interval between moments n and n-1) in delay circuit 38.
+    </p>
+    <p num="24">Then, the maximum between .parallel.X(n).parallel.2 and  ETA  * A(n-1) is input to computing circuit 40 which provides the ratio  (Equation image '2' not included in text)</p>
+    <p num="25">
+      using adaptation speed factor  MU  and stabilization constant a. Note that a is a small constant which is necessary to prevent division by zero when the reference signal is zero.
+      <br/>
+      Practically, this situation never happens since the reference signal always contains some noise.
+    </p>
+    <p num="26">The ratio  (Equation image '3' not included in text)</p>
+    <p num="27">
+      the values X(n) on line 30, e(n) on line 42, are then multiplied together in multiplier 44.
+      <br/>
+      The output of multiplier 44 is provided to summing circuit 46 together with coefficient F(n) for each filter tap.
+      <br/>
+      Note that F(n) is the previous value of the same coefficient which has been delayed by t in delay circuit 48.
+      <br/>
+      The output of summing circuit 46 gives the coefficient value F(n+1) for each filter tap.
+    </p>
+    <p num="28">
+      The implementation of the invention enables to solve the problem of double-talk without using a double-talk detector (DTD) for inhibiting the adaptation of the adaptive filter.
+      <br/>
+      Indeed, in case of double-talk (or when the primary signal contains noise), there is a problem if the energy of the reference signal x falls to a small value suddenly (transition regions).
+      <br/>
+      With a normalization factor always equal to .parallel.X(n).parallel.2 the risk is that F(n) takes larger and larger values based upon a smaller and smaller normalization factor.
+      <br/>
+      Besides, in such a case, the error e(n) is high (due to the presence of the extra signal) and, as a result, the algorithm makes large but unjustified updates of the filter coefficients.
+    </p>
+    <p num="29">
+      With the invention, normalization factor A(n) keeps its previous value and the algorithm will behave in accordance with the previously encountered highest energy.
+      <br/>
+      However, to avoid that the normalization factor takes larger and larger values, the previous value is multiplied by a factor  ETA  less than 1.
+      <br/>
+      Such a factor is called an energy forgetting factor is in fact an attenuation factor insofar as it is used also to prevent a situation when a sudden burst of the reference signal energy will influence the behavior of the filter algorithm for an infinite time.
+      <br/>
+      It has been found that the value of this factor such that the algorithm forgets about half the burst energy in a second works very well in echo cancellation applications.
+      <br/>
+      Accordingly, for the sampling rate of 8 KHz, a good value of this factor can be 0.9999. This value could be different for different applications and/or could be dynamically altered based upon the filter behavior.
+    </p>
+    <p num="30">
+      FIG. 3 shows a time diagram representing the filter estimation error when a standard adaptive filter is used.
+      <br/>
+      During the first 10 seconds, there is no double-talk and the curve is decreasing to 0 after some time corresponding to the time necessary for the adaptation of the filter.
+      <br/>
+      During the last 10 seconds, a double-talk has been simulated.
+      <br/>
+      As illustrated, the filter error does not decrease to 0, but becomes significant with very important peaks.
+    </p>
+    <p num="31">
+      FIG. 4 shows a time diagram representing the filter estimation error with a filter implementing the invention.
+      <br/>
+      The conditions are the same as for FIG. 3, that is a double-talk has been simulated during the last 10 seconds over a total time of 20 seconds.
+      <br/>
+      Comparing the results, it is seen that the curve keeps on decreasing to 0 during the last 10 seconds even though the primary signal is affected by double-talk.
+    </p>
+    <p num="32">
+      While there has been described and illustrated a preferred embodiment of an adaptive echo cancellation device, it will be apparent to those skilled in the art that modifications and variations are possible without deviating from the scope of the invention.
+      <br/>
+      Thus, it would be possible to trigger the system in order to use the invention only when the energy of the reference signal becomes less than a predetermined level.
+      <br/>
+      Another possible variation would be to use for the normalization factor the value corresponding to the maximum energy detected during a predetermined time interval rather than taking always the previous value A(n-1).
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed:</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5.</claim-text>
+      <claim-text>A device for adaptive echo cancellation in a voice communication system comprising: a circuit for transmitting a reference signal x over said communication system and receiving a primary signal d from said voice communication system, the primary signal including an echo signal from the voice communication system in response to the transmission of the reference signal x; an adaptive filter for removing any echo signal sent back by said voice communication system in answer to said reference signal and a normalization factor controlling unit for determining the value at time n of each coefficient of said adaptive filter based upon the value of the same coefficient at time n-1 modified by a normalization factor A(n) depending on the energy of said reference signal; the normalization factor controlling unit having a means for selecting said normalization factor as being the maximum value between a first value representing the energy of said reference signal at time n and a second value depending on a value of said normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor.</claim-text>
+      <claim-text>1. A method for adaptive echo cancellation in a voice communication system comprising the steps of:</claim-text>
+      <claim-text>transmitting a reference signal x over the system from a transmitting device; removing any echo signal from a primary signal d received by said transmitting device, said echo signal being sent back by said voice communication system in answer to said reference signal x, using an adaptive filter having a plurality of coefficients the value of which at each time n being computed from the value of the same coefficient at time n-1 modified by a normalization factor depending upon the energy of said reference signal d in that said normalization factor is the maximum value between a first value representing the energy of said reference signal at time n and a second value depending on a value of said normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor less than 1.</claim-text>
+      <claim-text>2. The method according to claim 1, wherein the values of the adaptive filter coefficients are given by the formulae  (Equation image '4' not included in text)</claim-text>
+      <claim-text>and said normalization factor has the following value: A(n)=max� ETA  * Amax, .parallel.X(n).parallel.2 � in which  MU  is an adaptation speed factor, a is a small positive stabilization constant,  ETA  is an attenuation factor less than 1, Amax is the maximum value of said normalization factor stored during a previous predetermined interval time, X(n)=�x(n), x(n-1), . . . ,x(n-L+1)� with L being the number of filter taps in the adaptive filter, and e(n)=d(n)-F(n) * X(n) where d(n) is the value of primary signal at time n.</claim-text>
+      <claim-text>3. The method according to claim 2, wherein the value of Amax is the value A(n-1) of said normalization factor at time n-1.</claim-text>
+      <claim-text>4. The method according to claim 1, 2 or 3, wherein  ETA  is approximately=0.9999.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The device according to claim 5, wherein said normalization factor controlling unit further comprises: a first means for determining the maximum between .parallel.X(n).parallel.2 and  ETA  * Amax wherein X(n)=�x(n),x(n-1), . . . ,x(n-L+1)� with L being the number of filter taps in the adaptive filter,  ETA  is an attenuation factor less than 1, Amax is the maximum value of said normalization factor stored during a previous predetermined interval time, and second means for determining  (Equation image '5' not included in text)</claim-text>
+      <claim-text>where a is a small positive stabilization constant,  MU  is an adaptation speed factor, and A(n) is said normalization factor at time n; a multiplier to determine a  (Equation image '6' not included in text)</claim-text>
+      <claim-text>wherein e(n)=d(n)-F(n) * X(n) with d(n) being the value of said primary signal at time n and F(n) are the values of the adaptive filter coefficients; a summing circuit for determining the values of said adaptive filter coefficients in accordance with the formulae  (Equation image '7' not included in text)</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7.</claim-text>
+      <claim-text>The device according to claim 6, wherein the value of Amax is the value A(n-1) of said normalization factor at time n-1.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The device according to claim 6, wherein  ETA  is approximately 0.9999.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method for adaptive echo cancellation in a communication system comprising the steps of: transmitting a reference signal x to the system; receiving a primary signal d from the system, the primary signal including an echo signal from the communication system in response to the transmission of the reference signal x; removing the echo signal from the primary signal d using an adaptive filter having a plurality of coefficients the value of which at each time n being computed from the value of the same coefficient at time n-1 modified by a normalization factor depending upon the energy of said reference signal d in that said normalization factor is the maximum value between a first value representing the energy of said reference signal at time n and a second value depending on a value of said normalization factor previously stored during a preceding predetermined interval time multiplied by an attenuation factor less than 1.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method according to claim 9, wherein the values of the adaptive filter coefficients are determined by  (Equation image '8' not included in text)</claim-text>
+      <claim-text>and said normalization factor is A(n)=max� ETA  * Amax, .parallel.X(n).parallel.2 � in which  MU  is an adaptation speed factor, a is a small positive stabilization constant,  ETA  is an attenuation factor less than 1, Amax is the maximum value of said normalization factor stored during a previous predetermined interval time, X(n)=�x(n), x(n-1), . . . ,x(n-L+1)� with L being the number of filter taps in the adaptive filter, and e(n)=d(n)-F(n) * X(n) where d(n) is the value of primary signal at time n.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method according to claim 10, wherein the value of Amax is the value A(n-1) of said normalization factor at time n-1.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method according to claim 9, 10, or 11, wherein  ETA  is approximately=0.9999.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

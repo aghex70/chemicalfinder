@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181164B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181164</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181164</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="10845786" extended-family-id="17920875">
+      <document-id>
+        <country>US</country>
+        <doc-number>09312369</doc-number>
+        <kind>A</kind>
+        <date>19990513</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09312369</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>18404945</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>GB</country>
+        <doc-number>9900432</doc-number>
+        <kind>A</kind>
+        <date>19990108</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999GB-0000432</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H03K  19/173       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>173</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>326046000</text>
+        <class>326</class>
+        <subclass>046000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>326040000</text>
+        <class>326</class>
+        <subclass>040000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>326041000</text>
+        <class>326</class>
+        <subclass>041000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H03K-019/173C1A</text>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>019</main-group>
+        <subgroup>173C1A</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H03K-019/1736</classification-symbol>
+        <section>H</section>
+        <class>03</class>
+        <subclass>K</subclass>
+        <main-group>19</main-group>
+        <subgroup>1736</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>12</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6181164</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Linear feedback shift register in a programmable gate array</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>GIBBS VICKIE L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5383204</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5383204</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>BRIGHT MICHAEL W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5729559</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5729559</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>BAUER TREVOR J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5889413</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5889413</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>"The Programmable Logic Data Book" published in 1998 by Xilinx, Inc., available from Xilinx Inc., 2100 Logic Drive, San Jose, California 95124.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Xilinx, Virtex TM Field Programmable Gate Array, Nov. 9, 1998 (Version 1.1-Advance), pp. 1-43.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Xilinx, Inc.</orgname>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>XILINX</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Miller, Andrew J.</name>
+            <address>
+              <address-1>Walton-On-Thames, GB</address-1>
+              <city>Walton-On-Thames</city>
+              <country>GB</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>GB</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Maunu, LeRoy D.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Young, Edel M.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Nelms, David</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A linear feedback shift register in a programmable gate array.
+      <br/>
+      A first lookup table is configured as a shift register having n selectable taps and a shift-input.
+      <br/>
+      A second lookup table is configured as a parity generator and has inputs coupled to the n selectable taps and an output coupled to the shift-input of the shift register.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>REFERENCED PATENT APPLICATIONS</heading>
+    <p num="1">The present invention is related to the patent application entitled, "LOOKUP TABLES WHICH DOUBLE AS SHIFT REGISTERS," by Bauer, having serial number 08/754,421 and a filing date of Nov. 22, 1996, and assigned to the assignee of the present invention, which is herein incorporated by reference.</p>
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="2">The present invention generally relates to linear feedback shift registers, and more particularly to a programmable gate array implementation of a linear feedback shift register.</p>
+    <heading>BACKGROUND</heading>
+    <p num="3">
+      Field programmable gate arrays (FPGAs), first introduced by XILINX in 1985, are becoming increasingly popular devices for use in electronics systems.
+      <br/>
+      For example, communications systems employ FPGAs in large measure for their re-programmability.
+      <br/>
+      In general, the use of FPGAs continues to grow at a rapid rate because they permit relatively short design cycles, reduce costs through logic consolidation, and offer flexibility in their re-programmability.
+      <br/>
+      The capabilities of and specifications for XILINX FPGAs are set forth in "The Programmable Logic Data Book," published in 1998 by XILINX, Inc., the contents of which is incorporated herein by reference.
+    </p>
+    <p num="4">
+      Linear feedback shift registers (LFSRs) are commonly used in applications for generating pseudo-random noise sequences.
+      <br/>
+      The pseudo-random noise sequences are commonly referred to as "PN codes" or "PN sequences." Such noise sequences have a diverse range of uses, several of which are found in spread spectrum communications systems.
+      <br/>
+      The growing popularity of wireless communications systems has lead to the adoption of spread spectrum technology in an attempt to maximize utilization of the available radio signal bandwidth.
+    </p>
+    <p num="5">
+      LFSR's are at the heart of every spread spectrum system as they are used to uniquely code each subscriber signal and spread the transmission signal across a wide range of frequencies.
+      <br/>
+      An LFSR generally comprises a shift register of one bit memory elements and an XOR feedback path.
+      <br/>
+      An LFSR can be achieved in both FPGA and ASIC technologies.
+      <br/>
+      However, it is always desirable to achieve a given functionality using the minimum number of resources since silicon resources of both ASICs and FPGAs are finite.
+    </p>
+    <p num="6">
+      An example spread spectrum system, the Universal Mobile Telecommunication System (UMTS), requires a number of LFSRs that must be periodically set to a predefined state at a known time interval.
+      <br/>
+      The UTMS specification is controlled and maintained by the European Telecommunications Standards Institute (ETSI).
+      <br/>
+      This specification implies an LFSR structure that requires parallel access to all stages in the shift register such that the shift register's contents can be modified in one cycle of the LFSR clock rate.
+      <br/>
+      Implementing parallel access to the shift register stages requires additional logic resources, which is contrary to the objective of using as few resources as possible.
+    </p>
+    <p num="7">An apparatus that satisfies the aforementioned requirements, as well as other related requirements, is therefore desirable.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="8">
+      In various embodiments, the invention comprises a linear feedback shift register in a programmable logic device.
+      <br/>
+      A first lookup table is configured as a shift register having n selectable taps and a shift-input.
+      <br/>
+      A second lookup table is configured as a parity generator and has inputs coupled to the n selectable taps and an output coupled to the shift-input of the shift register.
+    </p>
+    <p num="9">
+      In another embodiment, an n-stage linear feedback shift register with m taps is provided.
+      <br/>
+      The linear feedback shift register comprises m n-stage shift registers, m n:1 multiplexers, and a parity generator.
+      <br/>
+      The m n-stage shift registers each have n outputs and a respective data input.
+      <br/>
+      The m n:1 multiplexers have data inputs respectively coupled to the outputs of the n-stage shift registers, and each of the m n:1 multiplexers has log2 n selection inputs, wherein the shift registers and multiplexers are implemented with respective look-up tables in the programmable gate array.
+      <br/>
+      The parity generator has inputs coupled to outputs of the multiplexers and an output coupled to the data inputs of the shift registers.
+    </p>
+    <p num="10">
+      In another embodiment, an n-stage linear feedback shift register with m taps in a programmable gate array is provided.
+      <br/>
+      The linear feedback shift register comprises an n-stage shift register, an n:1 multiplexer, and a lookup table configured as an XOR function generator.
+      <br/>
+      The n-stage shift register has n outputs, a data input, and is operable at a first frequency at which data are shifted responsive to a first clock frequency.
+      <br/>
+      The n:1 multiplexer has data inputs respectively coupled to the outputs of the shift register, log2 n selection inputs, and is operable at a second frequency at which the inputs are selectable responsive to a second clock frequency that is m *  the first clock frequency.
+      <br/>
+      The shift register and multiplexer are implemented with a look-up table in the programmable gate array.
+      <br/>
+      The lookup table configured as an XOR function generator has a first input coupled to the output of the multiplexer, a second input, and an output coupled to the data input of the shift register.
+      <br/>
+      A flip-flop has a data input coupled to the output of the XOR function generator, an output coupled to the second input of the XOR function generator, and is clocked at the second clock frequency.
+    </p>
+    <p num="11">
+      In other embodiments, Gold code generators are provided.
+      <br/>
+      A Gold code generator includes an additional XOR function generator that receives as input, output from the last stages of two linear feedback shift registers.
+      <br/>
+      The output of the XOR function generator provides the Gold code.
+    </p>
+    <p num="12">
+      The above summary of the present invention is not intended to describe each disclosed embodiment of the present invention.
+      <br/>
+      The figures and detailed description that follow provide additional example embodiments and aspects of the present invention.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="13">
+      Various aspects and advantages of the invention will become apparent upon review of the following detailed description and upon reference to the drawings in which:
+      <br/>
+      FIG. 1 is a functional block diagram that illustrates the operation of an example LFSR;
+      <br/>
+      FIG. 2 is a functional block diagram that shows an LFSR with selectable taps;
+      <br/>
+      FIG. 3 illustrates an implementation of an example 8-stage LFSR in accordance with an example embodiment of the invention;
+      <br/>
+      FIG. 4 is a block diagram of another embodiment of an LFSR implemented in a programmable gate array;
+      <br/>
+      FIG. 5 is a block diagram of a pair of time-multiplexed, LUT-based LFSRs that are arranged to generate a Gold code in accordance with an example embodiment of the invention;
+      <br/>
+      FIG. 6 is a block diagram of a Gold-code generator in accordance with another example embodiment of the invention;
+      <br/>
+      FIG. 7 is a timing diagram that illustrates time multiplexing output of selected stages of an LFSR implemented in accordance with the embodiment shown in FIG. 4;
+      <br/>
+      FIG. 8 is a block diagram of an LFSR that implements an example polynomial having a degree that is greater than 16;
+      <br/>
+      FIG. 9 is a block diagram of an example LFSR that implements an example polynomial having a degree of 41;
+      <br/>
+      FIG. 10 is a block diagram of another example LFSR that implements a polynomial having a degree of 41;
+      <br/>
+      FIG. 11 is block diagram of an example long scrambling code generator having two LFSRs that implement 41-degree polynomials;
+      <br/>
+      FIG. 12 is a block diagram of an LFSR that implements a polynomial of degree greater than 16 with time-multiplexed selection of taps of the shift register in accordance with an example embodiment of the invention; and
+      <br/>
+      FIG. 13 is a waveform diagram that describes the operation of the LFSR of FIG. 12.
+    </p>
+    <p num="14">
+      While the invention is susceptible to various modifications and alternative forms, specific embodiments thereof have been shown by way of example in the drawings and will herein be described in detail.
+      <br/>
+      It should be understood, however, that the detailed description is not intended to limit the invention to the particular forms disclosed.
+      <br/>
+      On the contrary, the intention is to cover all modifications, equivalents, and alternatives falling within the spirit and scope of the invention as defined by the appended claims.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="15">
+      The present invention is believed to be applicable to a variety of programmable gate arrays having various arrangements of configurable logic blocks comprising programmable LUTs and multiplexers of various sizes.
+      <br/>
+      The present invention has been found to be particularly applicable and beneficial for programmable gate arrays having 4-input LUTS, for example.
+      <br/>
+      While the present invention is not so limited, an appreciation of the present invention is presented by way of specific examples, in this instance, embodiments of the invention as applied to a programmable gate array having 4-input LUTs.
+    </p>
+    <p num="16">
+      FIG. 1 is a functional block diagram that illustrates the operation of an example LFSR.
+      <br/>
+      An LFSR implementation generally depends upon several variables, including: the number of stages in the shift register, the number of taps in the feedback path, the positions of the taps relative to the stages of the shift register, and the initial state of the shift register.
+    </p>
+    <p num="17">
+      The number of stages of the shift register is also referred to as the "length" or the "degree" of the shift register.
+      <br/>
+      In general, the longer the shift register the longer the duration before the sequence repeats.
+      <br/>
+      However, for a given length shift register, the number and position of taps also affects the repetition period of the sequence.
+      <br/>
+      For a shift register of length n, there will be many different combinations of taps and consequently varying lengths of periodic sequences.
+    </p>
+    <p num="18">
+      The combination of taps and their locations is often referred to as a polynomial.
+      <br/>
+      An example polynomial is:
+      <br/>
+      g(x)=1+X3 +X7
+    </p>
+    <p num="19">
+      where X3 is the output of stage 3 of the shift register, and X7 is the output of stage 7.
+      <br/>
+      The leading "1" represents the X0 term, which is the input to the shift register from an XOR of the selected taps of the shift register.
+      <br/>
+      Thus, the input to the first stage of the shift register is the output of X3 XOR X7.
+    </p>
+    <p num="20">
+      The last tap of the shift register in an LFSR is always used to generate the bit that is fed-back into the first stage of the shift register.
+      <br/>
+      Therefore, the length of the shift register can be deduced from the polynomial.
+      <br/>
+      For the example polynomial,
+      <br/>
+      g(x)=1+X3 +X7,
+    </p>
+    <p num="21">the length of the shift register is 7.</p>
+    <p num="22">
+      The "fill state" defines at what point in a maximal length sequence the LFSR will start generating the subsequent states of that sequence.
+      <br/>
+      The UMTS specification requires that long maximal length sequences can be started from any point in an m-sequence and allowed to run for 10 ms before a new fill state is loaded. "Maximal length sequences" or "m-sequences" are understood by those skilled in the art, and for brevity will not be described herein.
+      <br/>
+      Thus, while not shown it will be understood that LFSR 100 includes circuitry for periodically initializing shift register 102.
+    </p>
+    <p num="23">
+      The example LFSR 100 of FIG. 1 includes a 16-stage shift register 102 having stages designated as Q0, Q1, Q2, . . . , Q15. Stages Q0, Q1, Q6, and Q15 are provided as taps 1, 2, 7, and 16 to parity generator 104.
+      <br/>
+      The example polynomial implemented by LFSR 100 is:
+      <br/>
+      g(x)=1+X1 +X2 +X7 +X16
+    </p>
+    <p num="24">
+      Parity generator 104 implements the function:
+      <br/>
+      ((tap 1 XOR tap 2) XOR tap 7) XOR tap 16.
+    </p>
+    <p num="25">In an example implementation, the shift register is implemented with a plurality of flip-flops, and parity generator 104 is implemented with a programmable array lookup table having an output coupled to the input of first stage 106 of shift register 102.</p>
+    <p num="26">
+      FIG. 2 is a functional block diagram that shows LFSR 122 with selectable taps.
+      <br/>
+      LFSR 122 includes a shift register and parity generator as in FIG. 1, and in addition, includes a plurality of multiplexers 124, 126, 128, and 130.
+      <br/>
+      A multiplexer is provided for each desired tap, and the outputs of the multiplexers are coupled to the inputs of parity generator 104.
+      <br/>
+      Respective sets of selection signals are provided to the select inputs of the multiplexers.
+      <br/>
+      In a programmable gate array embodiment, the selection signals can be programmable, thereby providing the capability to implement a different polynomial if desired.
+    </p>
+    <p num="27">
+      FIG. 3 illustrates an implementation of an example 8-stage LFSR 200 in accordance with an example embodiment of the invention.
+      <br/>
+      The example polynomial is:
+      <br/>
+      g(x)=1+X2 +X3 +X4 +X8
+    </p>
+    <p num="28">Note that since the degree of the polynomial is 8, and since 4-input LUTs having 16-stage shift registers are used, the last 8 stages of the 16-stage shift registers are not used.</p>
+    <p num="29">
+      LFSR 200 includes respective shift registers 202, 204, 206, and 208 for the taps selected for the polynomial.
+      <br/>
+      In the example embodiment, shift registers 202-208 are implemented in accordance with the teachings of the co-pending patent application by Bauer entitled, "LOOKUP TABLES WHICH DOUBLE AS SHIFT REGISTERS," having serial number 08/754,421 and a filing date of Nov. 22, 1996, which is herein incorporated by reference.
+      <br/>
+      Thus, for example, shift registers 202-208 are implemented using 4-input LUTs, and the shift registers may also be referred to as "4-LUTs." Shift register 202 provides the X2 term, shift register 204 provides the X3 term, shift register 206 provides the X4 term, and shift register 208 provides the X8 term.
+    </p>
+    <p num="30">
+      LUTs 202-208 include respective multiplexers 212, 214, 216, and 218.
+      <br/>
+      Each multiplexer has data inputs coupled to the stages of the respective shift register and selection inputs arranged to receive selection signals.
+      <br/>
+      For example, multiplexer 212 has data inputs coupled to the stages Q0-Ql5 of the shift register 202.
+      <br/>
+      Since LUT 202 implements the X2 term, the selection bits are "0001" (the X2 term corresponds to the stage Q1).
+    </p>
+    <p num="31">
+      LUTs 202-208 also have CLK inputs, wherein the CLK signal controls the shifting of data through the shift registers.
+      <br/>
+      The outputs of LUTs 202-208 are coupled to the inputs of parity generator 222, which implements a series of XOR gates as shown and which can be implemented with a 4-LUT.
+      <br/>
+      The output of parity generator 222 is coupled to the data inputs of the first stages Q0 of instances 202-208 of the shift register.
+    </p>
+    <p num="32">
+      Thus in one example embodiment of an LFSR, the shift register is replicated n times, where n is the number of taps required for the polynomial, assuming that one instance of a shift register can be implemented with one LUT.
+      <br/>
+      In the Virtex FPGA from XILINX, a 16-stage shift register can be implemented with a 4-input LUT.
+      <br/>
+      The Virtex FPGA is described on pages 3-3 through 3-31 of the 1999 Xilinx Programmable Logic Data Book.
+      <br/>
+      Information in this document is incorporated herein by reference.
+      <br/>
+      Permanent copies of this document are available from Xilinx, Inc, at 2100 Logic Drive, San Jose, Calif. 95124.
+    </p>
+    <p num="33">
+      The example embodiment of FIG. 3 could be extended to include more than 4 taps if desired.
+      <br/>
+      Specifically, for each additional tap of the implemented shift register, an additional instance of a LUT-implemented shift register would be required along with additional programmable selection signals.
+      <br/>
+      The parity generator would also need to be extended, for example with additional LUTs, to include an additional XOR functions for the additional taps.
+    </p>
+    <p num="34">
+      In various other embodiments, the size of the shift register can be varied in accordance with application requirements.
+      <br/>
+      The example 16-stage shift register can be used for shift registers having up to 16 stages.
+      <br/>
+      Shift registers having more than 16 stages can be implemented using multiple 4-input LUTs, as shown in FIGS. 8-10, or using LUTs having more than 4 inputs.
+      <br/>
+      It will be appreciated that the illustrated embodiments could be varied using LUTs of sizes other than 4.
+    </p>
+    <p num="35">
+      FIG. 4 is a block diagram of another embodiment of an LFSR 250 implemented in a programmable gate array.
+      <br/>
+      The embodiment includes a single instance of a shift register 254 implemented with a LUT and time-multiplexed selection signals applied to selection inputs of a multiplexer 256.
+      <br/>
+      The shift register receives and shifts data at a first clock rate as enabled by a shift-clock_EN signal generator 257, and multiplexer 256 asynchronously selects taps from the shift register at a rate determined by the address lines themselves, which is m *  the first clock rate where m is the number of taps.
+      <br/>
+      For example, if the address lines were to toggle such that 7 unique addresses were presented to the multiplexer select lines during one period of the shift rate, then 7 taps would be accessed.
+      <br/>
+      This allows the LFSR to access m taps and therefrom generate parity for input to the shift register in one cycle of the first clock rate.
+    </p>
+    <p num="36">
+      The signal provided by shift-clock 258 to LUT 254 is, for example, 4 *  the chip-rate.
+      <br/>
+      When the shift-clock_EN signal is a logic level 1 at the same time as a rising edge of the shift-clock 258 signal, the data in the shift register is shifted by one cell.
+    </p>
+    <p num="37">
+      The example polynomial implemented by LFSR 250 of FIG. 4 is the same as the polynomial of FIG. 3.
+      <br/>
+      The sequence of directional blocks 260, 262, 264, and 266 represents the time multiplexing of 4 sets of selection signals, each set including the signals designated as A0, A1, A2, and A3.
+      <br/>
+      For example, block 260 represents the set of signals for selecting the X2 term in a first timing interval, block 262 represents the set of signals for selecting the X3 term in the second timing interval, block 264 selecting the X4 term in the third interval, and block 266 selecting the X8 term in the fourth interval.
+    </p>
+    <p num="38">
+      Each of the sets of the selection signals addresses one of the taps Q0-Ql5, and the multiplexer makes the selected data available on the output port tap x, where x is one of Q1, Q2, Q3, or Q7, for example.
+      <br/>
+      Before data is fed back into the shift register, parity must have been generated from all the desired taps.
+      <br/>
+      It will be appreciated that the X8 tap must be accessed during the last stage of the multi-cycle read of the shift register since the last stage of the shift register is also the LFSR PN sequence output.
+      <br/>
+      The X2, X3, and X4 taps can be accessed in any desired order.
+    </p>
+    <p num="39">
+      LUT 270 implements an XOR function along with a fill-data function that is described later.
+      <br/>
+      The tap x signal is input to the XOR function, and the output of LUT 270 is coupled to the data input of a flip-flop 272.
+      <br/>
+      Flip-flop 272 is an FDRE-type flip-flip with synchronous reset and enable ports, for example, and has its data input clocked at the same rate at which multiplexer 256 is clocked to select a tap.
+      <br/>
+      FDRE flip-flops are provided in various XILINX FPGAs either as macros or as primitives.
+      <br/>
+      Output from the flip-flop is provided as the other input to the XOR function.
+      <br/>
+      Thus, flip-flop 272 provides an accumulation of the XORs of the taps.
+    </p>
+    <p num="40">
+      Flip-flop 272 must be synchronously cleared during the last cycle of the shift-clock signal within each period of the shift-clock_EN signal so that the data in flip-flop 272 does not contribute to the generation of the next code beginning with the new period of the shift-clock_EN signal.
+      <br/>
+      Thus, shift-clock generator 258 is coupled to synchronous clear generator 275, which provides a clear-data signal to flip-flop 272 on the fourth cycle of the shift-clock signal within a period of the shift-clock_EN signal (FIG. 7 further illustrates the timing).
+    </p>
+    <p num="41">
+      The output of LUT 270 is also coupled to the data input port of shift register 254.
+      <br/>
+      An enable signal applied at the clock enable port of the shift register enables loading of data from LUT 270 into the first bit of the shift register.
+      <br/>
+      This shift enable signal is active only during the last cycle of the shift enable signal that occurs during one shift period.
+    </p>
+    <p num="42">
+      For access to an odd number of taps during one chip rate period, the multi-cycle clock can be a power-of-2 multiple of the chip rate, and the flip-flop can be clock enabled such that it is active for only as many clock cycles as there are taps to be accessed during the chip rate period.
+      <br/>
+      For example, to implement a polynomial with 3 feedback taps, the flip-flop could be clocked with a 4 *  chip rate clock, and only clock enabled for three of the cycles.
+    </p>
+    <p num="43">
+      Various standards, such as the UMTS, require starting a new code generation at the boundary of a frame.
+      <br/>
+      In other words, the data in the shift register are reset periodically.
+      <br/>
+      The standards also specify that the shift register must be reset in one clock cycle (the "chip rate"), requiring parallel inputs to the stages of the shift registers in conventional implementations.
+      <br/>
+      A parallel input shift register can satisfy the requirement, but each flip-flop in the chain must receive input data from a 2:1 multiplexer that selects between shift data and fill data.
+      <br/>
+      Thus, many programmable gate array resources are required for such an LFSR.
+    </p>
+    <p num="44">
+      Instead of providing parallel inputs to the stages of the shift register to comply with the standard, the example embodiment of the invention selects between fill data and generated parity data for input to the shift register.
+      <br/>
+      For example, if an 8-bit LFSR is implemented as shown in FIG. 4, during the last 8 clock cycles of a frame, fill data, instead of the parity generator output, is selected for input to the first stage of the shift register.
+      <br/>
+      This fills the shift register with the desired data without requiring parallel inputs to the shift register.
+      <br/>
+      As the 8 bits of new data are loading into the shift register during the last 8 cycles of the current sequence, the last 8 bits of the current sequence are being shifted out unaffected by the serial load.
+      <br/>
+      The last bit is shifted out coincident with the frame boundary and so the feedback loop is closed and the LFSR continues with generation of the new PN_sequence from the fill state.
+    </p>
+    <p num="45">
+      LUT 270 implements the combination of XOR gate 274 and multiplexer 276, wherein the multiplexer selects between generated parity data on line 278 and fill data on line 280.
+      <br/>
+      The fill signal on line 282 that controls the selection can be driven by an external timer (not shown) that counts the number of cycles remaining until the end of a frame and activates the signal to select the fill data when j cycles remain until the end of the frame, where j is the number of stages in the LFSR.
+    </p>
+    <p num="46">
+      It will be appreciated that the number of address lines required depends on the number and position of the taps.
+      <br/>
+      Inspection of the polynomial may reveal that one or more of the selection signals will remain in a fixed state for the required taps.
+      <br/>
+      For example, consider the polynomial:
+      <br/>
+      g(x)=1+X7 +X16
+    </p>
+    <p num="47">
+      To address taps 7 and 16, the address signals are A0-A3="0110" and A0-A3="1111," respectively.
+      <br/>
+      It can be seen that only the A0 and A3 bits change state.
+      <br/>
+      Thus, bits A1 and A2 can be permanently wired to logic state "1." This reduces the need to implement addressing logic for the two middle address lines of multiplexer 256.
+      <br/>
+      Each of the address signals that changes state can be implemented with a dedicated shift register (the "addressing shift register") implemented with a LUT, for example, as described in the above referenced patent application.
+      <br/>
+      The addressing shift register can be initialized with a predetermined pattern to drive the selection inputs of multiplexer 256, thereby selecting the desired taps at a multiple of the shift-clock_EN rate (or chip-rate).
+      <br/>
+      The output of stage 16 of the addressing shift register is always selected as the output, and the addressing pattern is shifted at m *  the rate at which data are shifted in the shift register 254.
+    </p>
+    <p num="48">
+      The number of taps that can be implemented in the embodiment of FIG. 4 is dependent on the number of taps that can be selected by multiplexer 256 in each period of the shift-clock_EN signal.
+      <br/>
+      That is, the implementation must be capable of generating parity from all the selected taps of the shift register within one cycle of the shift-clock_EN signal.
+    </p>
+    <p num="49">
+      In an example embodiment using the Virtex FPGA from XILINX, the SR pin of a Virtex slice can only be mapped to either the clock enable port of shift register 254 or to the synchronous reset port of flip-flop 272 (see particularly page 7 of the referenced Xilinx Web Site document).
+      <br/>
+      Therefore, in a Virtex FPGA, shift register 254 and flip-flop 272 cannot be mapped to the same slice.
+      <br/>
+      However, it will be appreciated that LFSR 250 can be mapped to two slices of a Virtex CLB.
+      <br/>
+      Specifically, the 4-LUT of one slice implements shift register 254, and the 4-LUT and flip flop of the other slice implement XOR gate 274, multiplexer 276, and flip-flop 272.
+    </p>
+    <p num="50">
+      FIG. 5 is a block diagram of a pair of time-multiplexed, LUT-based LFSRs that are arranged to generate a Gold code in accordance with an example embodiment of the invention.
+      <br/>
+      Generally, Gold discovered that m-sequence sets with good cross-correlation properties could be created from pairs of selected m-sequences by XORing the m-sequences in a pair.
+      <br/>
+      Thus, a Gold-code generator is generally implemented with two LFSRs having the same length, and outputs of the two LFSRs are XORed.
+    </p>
+    <p num="51">
+      Gold-code generator 300 includes two LFSRs 302 and 304, each of which is constructed as shown in the LFSR embodiment of FIG. 4.
+      <br/>
+      The tap x1 and tap x2 outputs of shift registers 306 and 308 are provided as inputs to XOR gate 310.
+      <br/>
+      It will be appreciated that the XOR gate can be implemented with a programmable gate array LUT, for example.
+      <br/>
+      LFSR 302 implements an example polynomial
+      <br/>
+      g(x1)=1+X2 +X3 +X4 +X8,
+    </p>
+    <p num="52">
+      and LFSR 304 implements the polynomial
+      <br/>
+      g(x2)=1+X3 +X5 +X6 +X8.
+    </p>
+    <p num="53">
+      FIG. 6 is a block diagram of a Gold-code generator in accordance with another example embodiment of the invention.
+      <br/>
+      The Gold-code generator 330 includes two LFSRs 332 and 334, each of which is constructed similar to the LFSR embodiment shown in FIG. 3.
+      <br/>
+      The tap D1 and tap D2 outputs of shift registers 336 and 338 are provided as inputs to XOR gate 340, and the output of the XOR gate is the Gold-code.
+    </p>
+    <p num="54">
+      Shift registers 340, 342, 344, and 336 and parity generator 346 implement the example polynomial
+      <br/>
+      g(x1)=1+X2 +X3 +X4 +x8,
+    </p>
+    <p num="55">
+      and shift registers 348, 350, 352, and 338 and parity generator 354 implement the example polynomial
+      <br/>
+      g(x2)=1+X3 +X5 +X6 +X8.
+    </p>
+    <p num="56">
+      It will be appreciated that LFSRs 332 and 334 also include respective multiplexers 356 and 358 that select between output of parity generators 346 and 354 and fill data.
+      <br/>
+      The selected data is provided as input to the first stages of shift registers 340, 342, 344, and 336 and 348, 350, 352, and 338, respectively.
+    </p>
+    <p num="57">
+      FIG. 7 is a waveform diagram that illustrates time multiplexing output of selected stages of an LFSR implemented in accordance with the embodiment shown in FIG. 4.
+      <br/>
+      The shift-clock signal has a frequency that is 4 *  the rate of the chip-clock; the chip-clock signal has a frequency that is referenced as the "chip rate"; and the shift-clock_EN signal has a frequency that drives shifting of data in the shift register.
+      <br/>
+      The frequency of the chip-clock and the shift-clock_EN signals are the same.
+      <br/>
+      Thus, the shift-clock signal has a frequency that is also 4 *  that of the shift-clock_EN signal.
+      <br/>
+      When the shift-clock_EN signal is logic level 1 at the same time as a rising edge of the shift-clock signal, the data in the shift register is shifted by one memory cell, as indicated by the movements of data C, B, and A through stages shift Q0 and Q1.
+    </p>
+    <p num="58">
+      The example shift-clock signal having a frequency that is 4 *  that of the shift-clock_EN signal supports up to four taps to be selected in each cycle of the shift-clock.
+      <br/>
+      Relative to the parity generation of the example polynomial
+      <br/>
+      g(x)=1+X2 +X3 +X4 +X8,
+    </p>
+    <p num="59">
+      the signal (0 XOR X2) is generated during interval 1, the result of interval 1 is XOR'd with X3 in interval 2, the result of interval 2 is XOR'd with X4 in interval 3, and the result of interval 3 is XOR'd with X8 in interval 4 to produce the final parity generation output.
+      <br/>
+      It will be appreciated that the final parity generation output of interval 4 coincides with the active state of the shift-clock so that the data can be input to the first stage of the shift register.
+    </p>
+    <p num="60">
+      FIG. 8 is a block diagram of an LFSR that implements an example polynomial having a degree that is greater than 16.
+      <br/>
+      Polynomials having degree greater than 16 generally support long scrambling codes.
+      <br/>
+      The example polynomial of LFSR 400 is:
+      <br/>
+      g(x)=1+x5 +x7 +x10 +x18.
+    </p>
+    <p num="61">
+      LFSR 400 is implemented with shift registers 402, 404, 406, 408, and 410 and with a first LUT 412 that implements the XOR of the selected taps and a second LUT 414 that implements multiplexer 416 to select between the parity data and the new fill data.
+      <br/>
+      Shift registers 402-406 are implemented in accordance with the example embodiment shown in FIG. 3.
+    </p>
+    <p num="62">
+      Shift registers 408 and 410 implement selection of the x18 term of the polynomial.
+      <br/>
+      The selection signals for shift register 408 are always set to "1111" to select the last stage Q15 for input to the first stage of shift register 410.
+      <br/>
+      The x18 term of the polynomial is selected from tap Q1 of shift register 410 with the selections bits "0001."
+    </p>
+    <p num="63">
+      The UMTS specification sets forth generation of scrambling codes using a pair of 41-stage LFSRs having their outputs XORed.
+      <br/>
+      FIGS. 9 and 10 illustrate two 41-stage LFSRs, respectively, and FIG. 11 illustrates a Gold code generator implemented with the two 41-stage LFSRs.
+    </p>
+    <p num="64">
+      FIG. 9 is a block diagram of an LFSR 440 that implements an example polynomial having a degree of 41.
+      <br/>
+      The example polynomial is:
+      <br/>
+      g(x)=1+x20 +x41.
+    </p>
+    <p num="65">LFSR 440 is implemented with shift registers 442, 444, 446, and 448 and with a single LUT 450 that implements the combined functions of the parity generator and fill data selection.</p>
+    <p num="66">
+      Shift registers 442 and 444 implement the x20 tap, and shift registers 442, 446, and 448 implement the x41 tap.
+      <br/>
+      Stages 1-16 are provided by shift register 442, and the selected output is always the 16th stage, i.e., tap Q15. The output of shift register 442 is provided as input to both shift registers 444 and 446.
+      <br/>
+      Tap 20 (Q3 of shift register 444) is selected with selection bits "0011" for the x20 term, and the output is provided as input to XOR function provided by LUT 450.
+    </p>
+    <p num="67">
+      Shift register 446 implements stages 17-32 of the 41-stage shift register, and tap 32 is always selected for input to the first stage of shift register 448.
+      <br/>
+      Thus, shift registers 442 and 446 together implement stages 1-32, and stages 33-41 are provided by shift register 448.
+      <br/>
+      Tap 41 is provided by Q8 of shift register 448 and is selected for input to the XOR function implemented by LUT 450.
+    </p>
+    <p num="68">
+      FIG. 10 is a block diagram of an LFSR 460 that implements an example polynomial having a degree of 41.
+      <br/>
+      The example polynomial is:
+      <br/>
+      g(x)+1x3 +x41.
+    </p>
+    <p num="69">
+      The implementation of LFSR 460 is similar to the implementation of LFSR 440 (FIG. 9), and shift registers 462, 464, and 466 implement stages 1-41 of LFSR, as explained in the discussion accompanying FIG. 9.
+      <br/>
+      Shift register 468 implements the first 16 stages of LFSR 460 and selects Q2 of shift register 468 as the x3 term.
+    </p>
+    <p num="70">
+      FIG. 11 is block diagram of an example long scrambling code generator 500 having two LFSRs 502 and 504 that implement 41-degree polynomials.
+      <br/>
+      The generator 500 may be used, for example, in a UMTS based system.
+      <br/>
+      In an example embodiment, LFSRs 502 and 504 can be implemented in accordance with LFSRs 440 and 460 of FIGS. 9 and 10, respectively.
+      <br/>
+      The generator 500 is serially loaded with new FILL data in 41 chip-rate cycles prior to a frame boundary.
+    </p>
+    <p num="71">It will be appreciated that polynomials of degree greater than 16 and having more than 2 taps can be implemented in accordance with the teachings set forth above.</p>
+    <p num="72">
+      FIG. 12 is a block diagram of an LFSR that implements a polynomial of degree greater than 16 with time-multiplexed selection of taps of the shift register in accordance with an example embodiment of the invention.
+      <br/>
+      LFSR 550 implements the example polynomial:
+      <br/>
+      g(x)=1+x5 +x7 +x10 +x18
+    </p>
+    <p num="73">Given the example polynomial and implementation, those skilled in the art will recognize how larger LFSRs could be implemented.</p>
+    <p num="74">
+      LFSR 550 includes shift registers 552, 554, and 556 implemented with LUTs as described above.
+      <br/>
+      Logical taps 1-16 of LFSR 550 are available from shift register 554, and logical taps 17 and 18 are available from shift register 556.
+      <br/>
+      Generally, shift registers 554 and 556 are used to generate the taps for the polynomial, and shift register 552 is used to periodically reset flip-flop 558.
+      <br/>
+      A partial generation of parity for the polynomial is implemented with shift register 554 and LUT 560, and the final parity is generated with shift register 556 and LUT 562.
+      <br/>
+      Specifically, parity is generated from taps 5, 7, and 10 of shift register 554, and therewith, parity is generated from logical tap 18 as provided by shift register 556.
+    </p>
+    <p num="75">
+      The address 1 selection inputs to multiplexer 566 are time multiplexed as indicated by the directional blocks labeled x5, x7, x10, and x16.
+      <br/>
+      The x5 inputs cause multiplexer 566 to select tap 5, the x7 inputs cause multiplexer 566 to select tap 7, and the x10 inputs cause multiplexer to select tap 10.
+      <br/>
+      Every fourth cycle of the signal from shift-clock 568, stage 16 of shift register 554 is selected, as indicated by the block x16, and provided as the data input to shift register 556.
+      <br/>
+      It will be appreciated that the pattern from shift register 552 provides the clock-enable signal CE for shift registers 554 and 556.
+      <br/>
+      Thus, when stage 16 is selected for output from shift register 554, shift register 556 is enabled by the signal from shift register 552 to shift data in from shift register 554.
+    </p>
+    <p num="76">
+      The time-multiplexed taps from shift register 554 are provided as input to XOR gate 570 which is implemented by LUT 560.
+      <br/>
+      The other input to XOR gate 570 is provided by FDCE flip-flop 558.
+      <br/>
+      FDCE flip-flops are available in XILINX FPGAs, for example.
+      <br/>
+      Flip-flop 558 is initially set to 0, and tap 5 of the LFSR is therefore XORed with 0.
+      <br/>
+      For the example polynomial, the flip-flop accumulates the parity of taps 5, 7, and 10 and provides the accumulated parity as input to XOR gate 572, which is implemented with LUT 562.
+      <br/>
+      Tap 18 of LFSR 550 is provided as the other input to XOR gate 572, which generates the data that is fed-back to stage 1 of shift register 554.
+      <br/>
+      It can be seen that LUT 562 also implements multiplexer 574 that provides the fill-data function as described above.
+    </p>
+    <p num="77">
+      LUT 560 also implements a multiplexer 576 that selects between output from XOR gate 570 and inverted output from shift register 552.
+      <br/>
+      Multiplexer 576 and shift register 552 together provide the clearing function for flip-flop 558.
+      <br/>
+      Recall that flip-flop 558 must be cleared every fourth cycle since tap 5 must be XOR'd with 0.
+      <br/>
+      The initial pattern programmed in shift register 552 provides both data and selection signals for multiplexer 576.
+      <br/>
+      Thus, for the example pattern 1000 (output from shift register 552 right-to-left), the 0 data input of multiplexer 576 is selected until the bit having a logic level 1 is provided.
+      <br/>
+      The logic level 1 at the selection input of multiplexer 576 causes selection at the 1-data input, which is logic level 0 (inverted logic level 1).
+      <br/>
+      Flip-flop 558 is always clock- enabled with logic level 1 and has its CLR port grounded.
+    </p>
+    <p num="78">
+      FIG. 13 is a waveform diagram that describes the operation of LFSR 550 of FIG. 12. Address 1 is provided by four LUT-implemented shift registers (not shown) cycling through initialized patterns to provide addresses for taps 5, 7, 10, and 16.
+      <br/>
+      The Q output of flip-flop 558 has logic level 0 at its output during interval 1.
+      <br/>
+      Also during interval 1, tap 5 of shift register 554 is selected and XORed by XOR gate 570 with output from flip-flop 558.
+      <br/>
+      Flip-flop 558 stores the XOR result and feeds back the data during interval 2.
+      <br/>
+      During interval 2, the selection bits are changed to select tap 7, and tap 7 is XORed with the result from interval 1 to produce a new partial parity result, 0 XOR X5 XOR x7, which is stored in flip-flop 558 and available in interval 3.
+      <br/>
+      The partial parity result, 0 XOR x5 XOR x7 XOR x10 is generated in interval 3 and stored in flip-flop 558.
+    </p>
+    <p num="79">
+      During interval 4, shift register 552 is outputting logic level 1 as part of its cyclic pattern, which clears flip-flop 558 and ignores the output of XOR gate 570.
+      <br/>
+      Thus, logic level 0 is again available in interval 5 to repeat the partial parity generation for: 0 XOR X5 XOR x7 XOR x10.
+    </p>
+    <p num="80">
+      Before flip-flop 558 is cleared, output of the flip-flop is available in interval 4 for XORing with tap 18 by XOR gate 572.
+      <br/>
+      The output, (0 XOR x5 XOR x7 XOR x10 XOR x8), of XOR gate 572 is fed back to the input of shift register 554, which is enabled by shift register 552 during interval 4.
+    </p>
+    <p num="81">
+      Accordingly, the present invention provides, among other aspects, an LFSR implemented in a programmable gate array in a manner that makes efficient use of the programmable resources.
+      <br/>
+      Other aspects and embodiments of the present invention will be apparent to those skilled in the art from consideration of the specification and practice of the invention disclosed herein.
+      <br/>
+      It is intended that the specification and illustrated embodiments be considered as examples only, with a true scope and spirit of the invention being indicated by the following claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A linear feedback shift register in a programmable gate array, comprising:</claim-text>
+      <claim-text>a first lookup table configured as a shift register having n selectable taps and a shift-input, wherein n is an integer;</claim-text>
+      <claim-text>and a second lookup table configured as a parity generator having inputs coupled to the n selectable taps and an output coupled to the shift-input shift register.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The linear feedback shift register of claim 1, wherein: the first lookup table also implements a multiplexer having an output and inputs coupled to the n selectable taps, and the shift register operable at a shift frequency at which data are shifted responsive to a first clock frequency, and the n taps are selectable at a select-frequency responsive to a second clock frequency that is m *  the first clock frequency, wherein m is an integer;</claim-text>
+      <claim-text>and the second lookup table is configured as an XOR function generator having at least two inputs and an output, wherein one of the inputs is coupled to the output of the multiplexer;</claim-text>
+      <claim-text>and further comprising a flip-flop having a data input coupled to the output of the parity generator, an output coupled to an input of the XOR function generator, and clocked at the second clock frequency.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The linear feedback shift register of claim 2, wherein the second lookup table is further configured as a multiplexer having inputs coupled to receive reset-data and to the output of the XOR function generator, a selector input, and an output coupled to the data input of the shift register.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The linear feedback shift register of claim 1, further comprising a multiplexer having inputs coupled to receive reset-data and to the output of the XOR function generator, a selector input, and an output coupled to the data input of the shift register.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The linear feedback shift register of claim 1 having n-stages and m taps, further comprising a plurality of lookup tables, each implementing a respective shift register coupled to a respective n:1 multiplexer and having a shift input coupled to the output of the parity generator, wherein a total of m lookup tables implement the shift registers and multiplexers, wherein m is an integer.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The linear feedback shift register of claim 5, wherein the n:1 multiplexers have respective sets of selection inputs coupled to a plurality of programmable selection elements.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The linear feedback shift register of claim 5, wherein the second lookup table is configured to generate an XOR function of the m taps.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The linear feedback shift register of claim 5, further comprising a multiplexer having inputs coupled to receive reset-data and to the output of the parity generator, a selector input, and an output coupled to the data inputs of the shift registers.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The linear feedback shift register of claim 1, wherein the first lookup table comprises: a plurality of memory cells, each having a respective input and output, wherein the input of a first one of the memory cells is coupled to the output of the parity generator, and the memory cells are serially coupled one to another;</claim-text>
+      <claim-text>and a multiplexer coupled to outputs of the memory cells.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The linear feedback shift register of claim 9, wherein the serial coupling of the memory cells is programmable.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. An n-stage linear feedback shift register with m taps in a programmable gate array, comprising: m n-stage shift registers, each shift register having n outputs and a respective data input, wherein m and n are integers; m n:1 multiplexers having data inputs respectively coupled to the outputs of the n-stage shift registers, each multiplexer having log n selection inputs, wherein the shift registers and multiplexers are implemented with respective look-up tables in the programmable gate array;</claim-text>
+      <claim-text>and a parity generator having inputs coupled to outputs of the multiplexers and having an output coupled to the data inputs of the shift registers.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The linear feedback shift register of claim 11, further comprising a plurality of programmable selection elements coupled to respective ones of the selection inputs of the multiplexers.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The linear feedback shift register of claim 12, further comprising a multiplexer having a first input coupled to receive output of the parity generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data inputs of the shift registers.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The linear feedback shift register of claim 11, further comprising a multiplexer having a first input coupled to receive output of the parity generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data inputs of the shift registers.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. An n-stage linear feedback shift register with m taps in a programmable gate array, wherein n and m are integers, comprising: an n-stage shift register having n outputs, a data input, and operable at a first frequency at which data are shifted responsive to a first clock frequency; an n:1 multiplexer having data inputs respectively coupled to the outputs of the shift register, log n selection inputs, and operable at a second frequency at which the inputs are selectable responsive to a second clock frequency that is m *  the first clock frequency, the shift register and multiplexer implemented with a look-up table in the programmable gate array; a lookup table configured as an XOR function generator and having a first input coupled to output of the multiplexer, a second input, and an output coupled to the data input of the shift register;</claim-text>
+      <claim-text>and a flip-flop having a data input coupled to the output of the XOR function generator, an output coupled to the second input of the XOR function generator, and clocked at the second clock frequency.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The linear feedback shift register of claim 15, further comprising a multiplexer having a first input coupled to receive output of the XOR function generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data inputs of the shift registers.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A Gold-code generator comprising: a first set of m1 n-stage shift registers, each shift register having n outputs and a respective data input, wherein m1 and n are integers; a first set of m1 n:1 multiplexers having data inputs respectively coupled to the outputs of the n-stage shift registers, each multiplexer having log n selection inputs, wherein the first sets of shift registers and multiplexers implemented with respective look-up tables in the programmable gate array;</claim-text>
+      <claim-text>and a first parity generator having inputs coupled to outputs of the first set of multiplexers and having an output coupled to the data inputs of the first set of shift registers; a second set of m2 n-stage shift registers, each shift register having n outputs and a respective data input, wherein m2 is an integer; a second set of m2 n:1 multiplexers having data inputs respectively coupled to the outputs of the second set of n-stage shift registers, each multiplexer having log n selection inputs, wherein the second sets of shift registers and multiplexers are implemented with respective look-up tables in the programmable gate array; a second parity generator having inputs coupled to outputs of the second set of multiplexers and having an output coupled to the data inputs of the second set of shift registers;</claim-text>
+      <claim-text>and an XOR gate having a first input coupled to an output of one of the first set of n:1 multiplexers, a second input coupled to an output of one of the second set of n:1 multiplexers and an output that provides the Gold-code.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The Gold-code generator of claim 17, further comprising: a first multiplexer having a first input coupled to receive output of the first parity generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data inputs of the first set of shift registers;</claim-text>
+      <claim-text>and a second multiplexer having a first input coupled to receive output of the second parity generator, a second input coupled to the receive reset-data, a selector input, and an output coupled to the data inputs of the second set of shift registers.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The Gold-code generator of claim 18, further comprising: a third multiplexer having a first input coupled to receive output of the XOR function generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data input of the first shift register;</claim-text>
+      <claim-text>and a fourth multiplexer having a first input coupled to receive output of the second XOR function generator, a second input coupled to receive reset-data, a selector input, and an output coupled to the data input of the first shift register.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A Gold-code generator, where m1, m2, and n are integers, comprising: a first n-stage shift register having n outputs, a data input, and a first frequency at which data are shifted responsive to a first clock frequency, wherein n is an integer; a first n:1 multiplexer having data inputs respectively coupled to the outputs of the shift register, log n selection inputs, and a second frequency at which the inputs are selectable responsive to a second clock frequency that is m1 *  the first clock frequency, the shift register and multiplexer implemented with a first look-up table in the programmable gate array, wherein m1 is an integer; a second lookup table configured as an XOR function generator and having a first input coupled to output of the multiplexer, a second input, and an output coupled to the data input of the first shift register; a first flip-flop having a data input coupled to the output of the second lookup table, an output coupled to the second input of the second lookup table, and clocked at the second clock frequency; a second n-stage shift register having n outputs, a data input, and a first frequency at which data are shifted responsive to the first clock frequency; a second n:1 multiplexer having data inputs respectively coupled to the outputs of the second shift register, log n selection inputs, and a third frequency at which the inputs are selectable responsive to a second clock frequency that is m2 *  the first clock frequency, the second shift register and second multiplexer implemented with a third look-up table in the programmable gate array, wherein m2 is an integer; a fourth lookup table configured as an XOR function generator and having a first input coupled to output of the second multiplexer, a second input, and an output coupled to the data input of the second shift register; a second flip-flop having a data input coupled to the output of the fourth lookup table, an output coupled to the second input of the fourth lookup table, and clocked at the second clock frequency;</claim-text>
+      <claim-text>and an XOR gate having inputs coupled to the outputs of the first and second multiplexers and an output that provides the Gold-code.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

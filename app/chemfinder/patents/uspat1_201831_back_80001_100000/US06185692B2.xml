@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185692B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185692</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185692</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22143490" extended-family-id="42113803">
+      <document-id>
+        <country>US</country>
+        <doc-number>09078351</doc-number>
+        <kind>A</kind>
+        <date>19980512</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09078351</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172162</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>7835198</doc-number>
+        <kind>A</kind>
+        <date>19980512</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09078351</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/42        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>42</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>713501000</text>
+        <class>713</class>
+        <subclass>501000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710031000</text>
+        <class>710</class>
+        <subclass>031000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/42C1S</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>42C1S</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/4217</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>4217</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>8</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>2</number-of-figures>
+      <image-key data-format="questel">US6185692</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Data processing system and method for dynamically setting bus clock frequency in response to a number of loads</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>YEE DAWSON L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5491814</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5491814</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>NEAL DANNY MARVIN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5761461</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5761461</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>MCCOMBS CRAIG C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5778194</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5778194</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>MUNOZ-BUSTAMANTE CARLOS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5809291</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5809291</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>LEE SHERMAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5815734</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5815734</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machine Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Wolford, Robert Russell</name>
+            <address>
+              <address-1>Durham, NC, US</address-1>
+              <city>Durham</city>
+              <state>NC</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Grosser, George E.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Dillon, Andrew</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lee, Thomas C.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A data processing system includes a bus, one or more loads coupled to the bus, and a clock generator.
+      <br/>
+      The clock generator generates a bus clock signal that is coupled to at least one of the loads.
+      <br/>
+      While the clock generator is generating a bus clock signal having a first frequency, the number of loads connected to the bus is determined.
+      <br/>
+      In response to this determination, the frequency of the bus clock signal is automatically changed from the first frequency to a second frequency.
+      <br/>
+      In one embodiment in which the bus is a PCI local bus having a plurality of slots, the determination of the number of loads is made by examining at least one storage location associated with each of a plurality of slots.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Technical Field
+    </p>
+    <p num="2">
+      The present invention relates in general to a method and system for data processing and in particular to a method and system for selecting a bus clock frequency of a data processing system.
+      <br/>
+      Still more particularly, the present invention relates to a method and system for dynamically setting the bus clock frequency of a data processing system in response to a number of loads.
+    </p>
+    <p num="3">2. Description of the Related Art</p>
+    <p num="4">
+      As microprocessor technology has continued to advance, the user's perception of the performance of a personal computer system is less determined by the clock frequency at which the central processing unit (CPU) operates and more determined by the data communication capabilities of the personal computer system.
+      <br/>
+      In a typical personal computer system, which may contain a CPU, one or more levels of memory, and a number of adaptor cards all coupled by one or more buses, the data communication capabilities of the personal computer system are determined in large measure by the throughput of the selected bus architecture.
+      <br/>
+      The throughput of the selected bus architecture is determined, in turn, by a number of factors, including the bandwidth of the bus, the bus clock frequency, and the overhead of the bus communication protocol.
+    </p>
+    <p num="5">
+      Naturally, in order to enhance the performance of a computer system, it is desirable to increase the throughput of the selected bus architecture by increasing the bus clock frequency and/or bandwidth while decreasing the bus communication protocol overhead.
+      <br/>
+      One primary limitation on bus clock frequency is the number of loads connected to the bus.
+      <br/>
+      For example, the bus clock for a PCI (Peripheral Component Interconnect) local bus is permitted by the PCI specification to operate at any frequency between 0 and 66 Megahertz (MHz), but can only operate at maximum frequency if the PCI local bus has three or less loads.
+      <br/>
+      Otherwise, the PCI local bus is constrained to operate at a lower frequency.
+      <br/>
+      As a result, the current industry standard operating frequency for PCI local buses is 33 MHz, at which speed a PCI local bus can support up to ten loads.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="6">It is therefore one object of the present invention to provide an improved method and system for data processing.</p>
+    <p num="7">It is another object of the present invention to provide an improved method and system for selecting a bus clock frequency of a data processing system.</p>
+    <p num="8">It is yet another object of the present invention to provide a method and system for dynamically setting the bus clock frequency of a data processing system in response to a number of loads.</p>
+    <p num="9">
+      The foregoing objects are achieved as is now described.
+      <br/>
+      A data processing system is provided that includes a bus, one or more loads coupled to the bus, and a clock generator.
+      <br/>
+      The clock generator generates a bus clock signal that is coupled to at least one of the loads.
+      <br/>
+      While the clock generator is generating a bus clock signal having a first frequency, the number of loads connected to the bus is determined.
+      <br/>
+      In response to this determination, the frequency of the bus clock signal is automatically changed from the first frequency to a second frequency.
+      <br/>
+      In one embodiment in which the bus is a PCI local bus having a plurality of slots, the determination of the number of loads is made by examining at least one storage location associated with each of a plurality of slots.
+    </p>
+    <p num="10">The above as well as additional objects, features, and advantages of the present invention will become apparent in the following detailed written description.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="11">
+      The novel features believed characteristic of the invention are set forth in the appended claims. The invention itself however, as well as a preferred mode of use, further objects and advantages thereof, will best be understood by reference to the following detailed description of an illustrative embodiment when read in conjunction with the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 a block diagram of an illustrative embodiment of a data processing system with which the present invention may advantageously be utilized; and
+      <br/>
+      FIG. 2 is a high level logical flowchart of a method for dynamically setting the frequency of the bus clock signal utilized to synchronize communication on the mezzanine bus depicted in FIG. 1.
+    </p>
+    <heading>DETAILED DESCRIPTION OF ILLUSTRATIVE EMBODIMENT</heading>
+    <p num="12">
+      With reference now to the figures and in particular with reference to FIG. 1, there is depicted an illustrative embodiment of a data processing system with which the present invention may advantageously be utilized.
+      <br/>
+      As illustrated, data processing system 10, which may comprise a personal computer system, includes a central processing unit (CPU) 12, a read only memory (ROM) 13, and a dynamic random access memory (DRAM) 14, which are each connected to system bus 11.
+      <br/>
+      ROM 13 stores boot code, including Power-On Self Test (POST) 30 and Basic Input/Output System (BIOS) 32, which are executed by CPU 12 at power on.
+      <br/>
+      Following power on, CPU 12 typically executes operating system (OS) and application software (shown at reference numerals 34 and 36, respectively) stored within DRAM 14.
+    </p>
+    <p num="13">
+      System bus 11 is coupled, via host bridge 15, to mezzanine bus 20, which can be implemented as a local bus or a pseudo-local bus such as a Peripheral Component Interconnect (PCI) bus. Host bridge 15 provides a low latency path through which CPU 12 can directly access mezzanine bus devices mapped within the bus memory, I/O, or configuration address spaces.
+      <br/>
+      In addition, host bridge 15 provides a high bandwidth path through which mezzanine bus devices can directly access DRAM 14.
+      <br/>
+      The mezzanine bus devices attached to mezzanine bus 20 include a small computer system interface (SCSI) 18 that controls SCSI disk drive 19, a local area network (LAN) interface 16 that controls access to LAN 17, an audio adapter 23 that drives speaker(s) 24, and a graphics adapter 21 that controls display 22.
+      <br/>
+      As illustrated, communication between the mezzanine bus devices coupled to mezzanine bus 20 is synchronized by a bus clock signal 42 generated by clock generator 40.
+    </p>
+    <p num="14">
+      Mezzanine bus 20 is further coupled to an expansion bus 25 (e.g., an Industry Standard Architecture (ISA), Enhanced ISA (EISA), or Microchannel Architecture (MCA) bus) via expansion bus bridge 45.
+      <br/>
+      As shown, expansion bus 25 supports communication with a number of conventional peripheral devices, including keyboard 26, microphone 27, mouse 28, integrated device electronics (IDE) hard disk 29, and printer 30.
+      <br/>
+      As will be understood by those skilled in the art, SCSI disk drive 19 and IDE hard disk 29 provide non-volatile storage for instructions and data that may be accessed and processed by CPU 12.
+    </p>
+    <p num="15">
+      Still referring to FIG. 1, the permissible frequency range of bus clock signal 42 is determined by a number of factors, including the length of mezzanine bus 20 and the number and type of devices attached to mezzanine bus 20.
+      <br/>
+      For example, in an embodiment in which mezzanine bus 20 is a PCI bus, bus clock signal 42 is permitted to have any frequency between 0 and 66 Mhz, but can only oscillate at the maximum frequency if three or less loads are attached to the PCI bus.
+      <br/>
+      Thus, a maximum of two add-in boards may be plugged into PCI expansion slots for 66 MHz operation.
+      <br/>
+      In configurations in which additional loads are attached to the PCI bus, the maximum permissible bus clock frequency decreases accordingly.
+      <br/>
+      The relationship between the PCI bus clock frequency and the number of PCI loads is summarized below in Table I.
+    </p>
+    <heading>--           TABLE I</heading>
+    <p num="16">
+      --           PCI Loads PCI Bus Clock Frequency
+      <br/>
+      --           1-3       66 MHz
+      <br/>
+      --           4-5       50 MHz
+      <br/>
+      --            6-10 33 MHz
+      <br/>
+      --           11-15     25 MHz
+    </p>
+    <p num="17">
+      To extract maximum performance from data processing system 10, it is desirable to set the frequency of bus clock signal 42 to the highest possible frequency for the number and type of attached loads.
+      <br/>
+      In contrast to conventional computer systems that require buses to be quiesced and attached devices to be reset in order to alter the bus clock frequency (e.g., in response to the removal or insertion of an add-in board), the present invention permits the frequency of bus clock signal 42 to be dynamically adjusted during normal operation of mezzanine bus 20.
+      <br/>
+      In accordance with the present invention, clock generator 40 is capable of dynamically varying the frequency of bus clock signal 42 in response to select signals 44.
+      <br/>
+      Any frequency change indicated by select signals 44 preferably is not implemented suddenly.
+      <br/>
+      Instead, clock generator 40 preferably gradually and monotonically increases or decreases the frequency of bus clock signal 42 to the indicated frequency, thereby permitting phase-locked loop circuits within mezzanine bus devices to follow the frequency shift.
+      <br/>
+      In this manner, mezzanine bus devices are not required to be reset (e.g., by rebooting data processing system 10) to respond to dynamic changes in the frequency of bus clock signal 42.
+    </p>
+    <p num="18">
+      Referring now to FIG. 2, there is depicted a high level logical flowchart of a method for dynamically adjusting the frequency of bus clock signal 42 in accordance with the present invention.
+      <br/>
+      The illustrated process is preferably performed upon power on and is therefore conveniently implemented as a portion of the boot code stored in ROM 13 (e.g., POST 30).
+      <br/>
+      However, it should be understood that the method of the present invention is not limited to such embodiments, but instead can be implemented as a configuration utility provided by OS 34, as described further below.
+    </p>
+    <p num="19">
+      As illustrated, the process begins at block 50 in response to a user powering on data processing system 10.
+      <br/>
+      The process then proceeds to block 52 system 10 performing an internal initialization procedure to achieve a stable, known state.
+      <br/>
+      Once clock generator 40 has completed its initialization procedure at block 52, clock generator 40 begins to output a bus clock signal 42 having a predetermined initial frequency, for example, 33 MHz.
+      <br/>
+      As depicted at block 54, CPU 12 then loads boot code, including POST 30 and BIOS 32, from ROM 13 into its internal cache and begins execution.
+      <br/>
+      The process then proceeds from block 54 to block 56.
+    </p>
+    <p num="20">
+      Block 56 illustrates the boot code executed by CPU 12 surveying the configuration of data processing system 10 to determine what devices are installed in data processing system 10.
+      <br/>
+      The configuration survey conducted at block 56 includes a determination of the number of loads attached to mezzanine bus 20 and therefore the highest frequency of bus clock signal 42 allowed for the current configuration.
+      <br/>
+      For example, for an embodiment in which mezzanine bus 20 is a PCI bus, the boot code interrogates, via system bus 11 and host bridge 15, the first four bytes of the 256-byte configuration space allocated to each PCI device slot.
+      <br/>
+      According to the PCI specification, the first four bytes of the configuration space of each PCI device must specify the device ID and vendor ID for identification purposes.
+      <br/>
+      If no PCI device is installed, host bridge 15 returns a value of all 1's (FFFFFFFFh); any other value for the device ID and vendor ID will be interpreted as a occupied slot.
+    </p>
+    <p num="21">
+      The process then proceeds from block 56 to block 58, which illustrates a determination of the highest operating frequency of each mezzanine bus device detected at block 56.
+      <br/>
+      In an embodiment in which mezzanine bus 20 is a PCI bus, the highest operating frequency of each installed device is determined by reading the PCI status field comprised of the fifth and sixth bytes of the device's associated configuration space.
+      <br/>
+      Mezzanine bus 20 is preferably constrained to operate at a frequency no greater than the lowest maximum operating frequency of any mezzanine bus device directly connected to mezzanine bus 20 (i.e., as opposed to devices coupled through a bridge).
+      <br/>
+      Based upon the number of mezzanine bus devices detected at block 56 and the lowest maximum operating frequency determined at block 58, at block 60 the boot code executed by CPU 12 generates appropriate select signals 44 to set the frequency of bus clock signal 42 to the maximum frequency that is permitted for the number of attached loads and that is supported by all attached mezzanine bus devices.
+      <br/>
+      As discussed supra, if indicated by select signals 44, clock generator 40 preferably changes the frequency of bus clock signal 42 gradually and monotonically from the predetermined initial frequency to the maximum permitted frequency indicated by select signals 44.
+    </p>
+    <p num="22">
+      Next, as depicted at block 62, the remainder of the functions specified by the boot code are performed.
+      <br/>
+      As shown at block 64, these functions can include the execution of a bootstrap or OS loader.
+      <br/>
+      Thereafter, the OS begins execution at block 66, at which time additional applications 36 can be invoked.
+      <br/>
+      Thereafter, a determination is made at block 70 whether or not an add-in card has been inserted into or removed from a expansion slot connected to mezzanine bus 20.
+      <br/>
+      The decision illustrated at block 70 can be made, for example, by OS 34 again surveying the configuration of mezzanine bus 20 as discussed above with respect to block 56 or in response to user invocation of an OS configuration utility that initiates a survey of the configuration of mezzanine bus 20.
+      <br/>
+      If the configuration of mezzanine bus 20 has not changed, the process simply iterates at block 70.
+      <br/>
+      However, in response to a determination that the configuration of mezzanine bus 20 has changed, the process passes to block 72, which depicts the OS configuration utility dynamically adjusting the frequency of bus clock signal 42 as discussed above with respect to blocks 58 and 60.
+      <br/>
+      Thereafter, the process returns to block 70, which has been described.
+    </p>
+    <p num="23">
+      While the invention has been particularly shown and described with reference to a preferred embodiment, it will be understood by those skilled in the art that various changes in form and detail may be made therein without departing from the spirit and scope of the invention.
+      <br/>
+      For example, although aspects of the present invention have been described with respect to a computer system executing software that directs the method of the present invention, it should be understood that present invention may alternatively be implemented as a computer program product for use with a computer system.
+      <br/>
+      Programs defining the functions of the present invention can be delivered to a computer system via a variety of computer usable media, which include without limitation non-writable storage media (e.g., CD-ROM), writable storage media (e.g., a floppy diskette or hard disk drive), and communication media, such as analog and digital communication networks.
+      <br/>
+      It should be understood, therefore, that such computer usable media, when carrying or encoding computer readable instructions that direct the method functions of the present invention, represent alternative embodiments of the present invention.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method, within a data processing system including a bus having plurality of slots at which loads can be coupled to the bus, for setting the frequency of a bus clock signal, said method comprising:</claim-text>
+      <claim-text>generating a bus clock signal having a first frequency; determining a number of loads connected to the bus at power on of the data processing system by examining at least one storage location associated with each of said plurality of slots;</claim-text>
+      <claim-text>and in response to said determination, gradually and monotonically changing a frequency of the bus clock signal from said first frequency to a second frequency.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein said first frequency is higher than said second frequency.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, wherein said second frequency is higher than said first frequency.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A program product for use by a computer to setting the frequency of a bus clock signal, the computer having a bus including a plurality of slots, wherein each said slot can be coupled to a load, said program product comprising: a bus clock frequency determining program code for, while a bus clock signal has a first frequency, causing the computer to determine a number of loads connected to the bus at power on by examining at least one storage location associated with each of said plurality of slots; a bus clock frequency changing program code for, gradually and monotonically, changing the frequency of the bus clock signal from said first frequency to a second frequency in response to the determination;</claim-text>
+      <claim-text>and a computer usable medium in which said bus clock frequency determining program code and said bus clock frequency changing program code is encoded.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A data processing system, comprising: a bus having a plurality of slots; one or more loads coupled to different ones of the plurality of bus slots; a clock generator that generates a bus clock signal having a frequency, said bus clock signal being coupled to at least one of said one or more loads;</claim-text>
+      <claim-text>and means for determining a number of loads connected to the bus at power on of the data processing system by examining at least one storage location associated with each of said plurality of slots while said bus clock signal has a first frequency and for gradually and monotonically changing the frequency of the bus clock signal from said first frequency to a second frequency in response to said determination.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The data processing system of claim 5, wherein said first frequency is higher than said second frequency.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The data processing system of claim 5, wherein said second frequency is higher than said first frequency.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The data processing system of claim 5, wherein said bus is a Peripheral Component Interconnect (PCI) local bus.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

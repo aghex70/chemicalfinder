@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185470B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185470</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185470</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25511235" extended-family-id="42113513">
+      <document-id>
+        <country>US</country>
+        <doc-number>08966327</doc-number>
+        <kind>A</kind>
+        <date>19971107</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08966327</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171747</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>96632797</doc-number>
+        <kind>A</kind>
+        <date>19971107</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08966327</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G05B  13/02        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>05</class>
+        <subclass>B</subclass>
+        <main-group>13</main-group>
+        <subgroup>02</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>700104000</text>
+        <class>700</class>
+        <subclass>104000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>700049000</text>
+        <class>700</class>
+        <subclass>049000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>706023000</text>
+        <class>706</class>
+        <subclass>023000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G05B-013/02C1</text>
+        <section>G</section>
+        <class>05</class>
+        <subclass>B</subclass>
+        <main-group>013</main-group>
+        <subgroup>02C1</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G05B-013/027</classification-symbol>
+        <section>G</section>
+        <class>05</class>
+        <subclass>B</subclass>
+        <main-group>13</main-group>
+        <subgroup>027</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>3</number-of-figures>
+      <image-key data-format="questel">US6185470</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Neural network predictive control method and system</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>HANSEN PETER D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5704011</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5704011</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>MILLER CHARLES ANDREW, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832468</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832468</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KANO MAKOTO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5909676</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5909676</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>SHINSKEY F</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3794817</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3794817</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>SANCHEZ JUAN M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4358822</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4358822</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>SKEIRIK RICHARD D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5197114</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5197114</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>NOMURA MASAHIDE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5311421</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5311421</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Draeger, A., Engell, S., and Ranke, H., Model Predictive Control Using Neural Networks, IEEE Control Systems, Oct. 1995, pp. 61-66.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Lichtenwalner, P.F., Little, G.R., and Scott, R.C., Adaptive Neural Control of Aeroelastic Response, Proceedings of the SPIE 1996 Symposium on Smart Structures and Materials, San Diego, CA 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Pado, L.E., Damle, R.D. (1996), Predictive Neuro Control of vibration in Smart Structures, 1996 SPIE Smart Structures, 1996 SPIE Smart Structures and Materials Conference.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Litchenwalner, P.F., Little, G.R., Pado, L.E., and Scott, R.C., Adaptive Neural Control for Active Flutter Suppression, ASME 1996 IMEC&amp;E Conference Proceedings, Atlanta, GA, Nov. 1996.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>McDonnell Douglas Corporation</orgname>
+            <address>
+              <address-1>St. Louis, MO, US</address-1>
+              <city>St. Louis</city>
+              <state>MO</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>MCDONNELL DOUGLAS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Pado, Lawrence E.</name>
+            <address>
+              <address-1>St. Charles, MO, US</address-1>
+              <city>St. Charles</city>
+              <state>MO</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Lichtenwalner, Peter F.</name>
+            <address>
+              <address-1>St. Charles, MO, US</address-1>
+              <city>St. Charles</city>
+              <state>MO</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Senniger, Powers, Leavitt &amp; Roedel</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>De Cady, Albert</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and system for controlling a dynamic nonlinear plant.
+      <br/>
+      An input signal controls the plant and an output signal represents a state of the plant in response to the received input signal.
+      <br/>
+      A memory stores input and output signals corresponding to m consecutive past states of the plant.
+      <br/>
+      A computer neural network predicts a set of future output states representative of the output signal corresponding to the next n consecutive future states of the plant in response to a set of trial control inputs.
+      <br/>
+      The trial control inputs represent the input signal corresponding to the next n consecutive future states of the plant.
+      <br/>
+      The neural network predicts the future output states based on the past input and output signals and the future trial control inputs.
+      <br/>
+      A processor generates the trial control inputs and determines a performance index, indicative of plant performance over time in response to the trial control inputs, as a function of the future output states.
+      <br/>
+      The processor generates the input signal for controlling the plant and modifies it as a function of the trial control inputs so that the performance index reaches a desired value.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">The present invention relates generally to systems and methods for providing adaptive control of a dynamic system or structure and, more particularly, to a neural network based predictive controller.</p>
+    <heading>BACKGROUND ART</heading>
+    <p num="2">
+      Many dynamic, nonlinear systems exist which need adaptive forms of control.
+      <br/>
+      As an example, vibration and undesirable aeroelastic responses adversely affect various flexible structures (e.g., an aircraft wing).
+      <br/>
+      In turn, these adverse effects shorten the lifespans and increase the acquisition and maintenance costs of such structures.
+      <br/>
+      Thus, an active control system is desired for reducing vibration, alleviating buffet load and suppressing flutter of aircraft structures, providing adaptive hydraulic load control, reducing limit cycle oscillations of an aircraft store and the like.
+    </p>
+    <p num="3">
+      U.S. Pat. Nos. 3,794,817, 4,358,822, 5,197,114 and 5,311,421, the entire disclosures of which are incorporated herein by reference, describe conventional controllers.
+      <br/>
+      In general, conventional adaptive control algorithms work almost entirely in the linear domain.
+      <br/>
+      Although U.S. Pat. No. 3,794,817 teaches a nonlinear adaptive controller, it requires that specific system knowledge about, for example, nonlinear deadband regions, be included for the controller to function.
+    </p>
+    <p num="4">
+      Model-based predictive control systems, while sometimes adaptive, are generally linear and work with relatively large time constants (greater than one second). U.S. Pat. No. 4,358,822 discloses a typical adaptive predictive controller for use in a chemical process.
+      <br/>
+      In this instance, the controller is a linear adaptive model predictive controller with an eight minute time constant.
+      <br/>
+      Conventional controllers of this type generally use state space models for predicting future states.
+    </p>
+    <p num="5">
+      Although some conventional controllers use neural networks as part of their control algorithm, such controllers typically include a separate controller in addition to the neural network.
+      <br/>
+      For example, U.S. Pat. No. 5,311,421 discloses such a process control method and system in which a neural network estimates certain parameters which are then used by a separate controller.
+      <br/>
+      Another use of neural networks in control systems is to learn control signal outputs from a conventional control algorithm or from a human operator as in U.S. Pat. No. 5,197,114.
+    </p>
+    <p num="6">Use of a neural network within a model predictive control scheme has been demonstrated but only for systems with relatively large time constants, such as controlling pH in a neutralization reactor.</p>
+    <p num="7">
+      For these reasons, a nonlinear adaptive controller which is not system specific and which learns nonlinearities in a neural network is desired.
+      <br/>
+      Further, such a controller is desired which has a relatively fast time constant of about one millisecond or faster and which does not need to copy the actions of another controller which must first be developed.
+    </p>
+    <heading>DISCLOSURE OF THE INVENTION</heading>
+    <p num="8">
+      The invention meets the above needs and overcomes the deficiencies of the prior art by providing an improved system and method for adaptively controlling highly dynamic systems such as reducing undesirable vibration and undesirable aeroelastic responses associated with flexible structures such as aircraft wings.
+      <br/>
+      This is accomplished by a neural network adaptive controller which provides improved control performance over that of a conventional fixed gain controller.
+      <br/>
+      Such a neural network adaptive controller uses online learning neural networks to implement an adaptive, self-optimizing controller.
+      <br/>
+      In addition, such system is economically feasible and commercially practical and such method can be carried out efficiently and economically.
+    </p>
+    <p num="9">
+      Briefly described, one embodiment of the invention is directed to a method of controlling a dynamic nonlinear plant.
+      <br/>
+      An input signal controls the plant and an output signal represents a state of the plant in response to the received input signal.
+      <br/>
+      The method includes the steps of storing the input and output signals corresponding to m consecutive past states of the plant and generating a set of trial control inputs.
+      <br/>
+      The trial control inputs represent the input signal corresponding to the next n consecutive future states of the plant.
+      <br/>
+      The method also includes predicting a set of future output states with a computer neural network.
+      <br/>
+      The future output states represent the output signal corresponding to the next n consecutive future states of the plant in response to the trial control inputs and are predicted based on the past input and output signals and the future trial control inputs.
+      <br/>
+      The method further includes determining a performance index as a function of the future output states.
+      <br/>
+      In this embodiment, the performance index is indicative of plant performance over time in reponse to the trial control inputs.
+      <br/>
+      The method also includes the step of modifying the input signal as a function of the trial control inputs for controlling the plant so that the performance index reaches a desired value.
+    </p>
+    <p num="10">
+      A system embodying aspects of the invention includes a memory storing input and output signals corresponding to m consecutive past states of a plant to be controlled.
+      <br/>
+      A computer neural network predicts a set of future output states representative of the output signal corresponding to the next n consecutive future states of the plant in response to a set of trial control inputs.
+      <br/>
+      The trial control inputs represent the input signal corresponding to the next n consecutive future states of the plant.
+      <br/>
+      In this embodiment, the neural network predicts the future output states based on the past input and output signals and the future trial control inputs.
+      <br/>
+      The system also includes a processor for generating the input signal for controlling the plant.
+      <br/>
+      The processor generates the trial control inputs and determines a performance index, indicative of plant performance over time in response to the trial control inputs, as a function of the future output states.
+      <br/>
+      The processor also modifies the input signal as a function of the trial control inputs for controlling the plant so that the performance index reaches a desired value.
+    </p>
+    <p num="11">Other objects and features will be in part apparent and in part pointed out hereinafter.</p>
+    <heading>BRIEF DESCRIPTION OF DRAWINGS</heading>
+    <p num="12">
+      FIG. 1 is a block diagram of a neural predictive control system according to a preferred embodiment of the invention.
+      <br/>
+      FIG. 2 is a schematic of a neural network of the system of FIG. 1.
+      <br/>
+      FIG. 3 is an exemplary illustration of simultaneous controlling and modeling of a plant by the system of FIG. 1.
+    </p>
+    <p num="13">Corresponding reference characters indicate corresponding parts throughout the drawings.</p>
+    <heading>BEST MODES FOR CARRYING OUT THE INVENTION</heading>
+    <p num="14">
+      Referring now to FIG. 1, a neural predictive control (NPC) system, generally indicated at 10, provides adaptive control of a plant 12 for dynamic nonlinear applications (e.g., reducing vibrations and other undesirable responses associated with flexible structures).
+      <br/>
+      In this embodiment, the plant 12 represents the structure to be controlled by the system 10, such as an aircraft wing or tail, cantilever beam or hydraulic load.
+      <br/>
+      Plant 12 receives an input control signal via line 14 which actuates a response therein and outputs a signal via line 16 which is representative of its state resulting from the control input.
+      <br/>
+      According to the invention, NPC system 10 executes a predictive control scheme based on a neural network model 18 of plant 12 for predicting the future effect of a particular control input and for adjusting it to achieve a desired output response.
+      <br/>
+      A processor 20 (e.g., a personal computer with a 133 MHz Pentium.RTM. processor) executes the neural predictive control algorithm of NPC system 10.
+    </p>
+    <p num="15">
+      In a preferred embodiment of the invention, system 10 provides model predictive control.
+      <br/>
+      In general, model predictive control refers to model-based control strategies which use the predicted future states of plant 12 as a means of determining the current control to be applied to plant 12.
+      <br/>
+      As will be described below, system 10 selects future controls to minimize a quadratic cost associated with the future states of plant 12.
+    </p>
+    <p num="16">
+      In one preferred embodiment, plant 12 represents an aircraft wing (not shown) which is subject to undesirable aeroelastic responses and which has at least one actuator input and at least one feedback sensor output.
+      <br/>
+      For testing purposes, plant 12 may be modeled by a Benchmark Active Controls Technology (BACT) model (not shown) of an aircraft wing for which NPC system 10 provides active flutter suppression.
+      <br/>
+      As is known in the art, the BACT wing model includes a rigid wing attached to a flexible mount system.
+      <br/>
+      At a frequency of approximately 4-5 Hz, for example, such a wing model exhibits classical flutter phenomena which develops very gradually and can be easily extinguished with a mechanical snubber system.
+      <br/>
+      If the wing model's actuator is driven with, for example, uniform random excitation at the bandwidth of the anticipated control rate, the model vibrates.
+    </p>
+    <p num="17">
+      Further to the example, the wing's trailing edge aileron (not shown) provides a control surface responsive to a control input u(n) and the wing's inboard trailing edge accelerometer (not shown) provides sensor feedback y(n) about the wing's state to neural network plant model 18.
+      <br/>
+      In another embodiment, the wing model also includes a pair of independently actuated upper and lower surface spoilers (not shown) which may be controlled by system 10.
+      <br/>
+      Although the present invention is described primarily with respect to flutter suppression for an aircraft wing, it is to be understood that NPC system 10 may be used to provide adaptive control for various dynamic systems.
+      <br/>
+      For example, control system 10 may be used for any vibration suppression related application such as a spacecraft flexible structure control, machining vibration suppression in lathes, mills, grinders, and the like, adaptive load alleviation for active flexible wing vehicles, adaptive control for aircraft stores to limit cycle oscillation, and active vibration suppression/isolation for rotorcraft, Canard Rotor/Wing vehicles, ships, and submarines.
+      <br/>
+      In addition, NPC system 10 may also be used for applications such as reconfigurable flight control systems, active flow control using synthetic jet actuators, precision pointing and hydraulic actuator load path following.
+    </p>
+    <p num="18">
+      The neural network 18 which models plant 12 is a parallel information processing structure made up of interconnected processing units, or elements.
+      <br/>
+      The processing elements, also referred to as "neurons," each have a plurality of inputs which are processed through a network of weights and nonlinearities to produce a single output.
+      <br/>
+      As shown in FIG. 1, neural network plant model 18 receives the past sensor outputs from plant 12 via line 22.
+      <br/>
+      Neural network 18 also receives the past and present control inputs to plant 12.
+      <br/>
+      In turn, neural network 18 transforms these inputs, using its processing elements, into predictions regarding the future states of the plant sensor outputs which result from the control inputs.
+    </p>
+    <p num="19">
+      FIG. 2 illustrates a general architecture or topology of neural network 18.
+      <br/>
+      Some connections between the processing elements have been omitted from FIG. 2 for clarity.
+      <br/>
+      In this embodiment, neural network 18 models the input/output dynamics of the plant 12 to be controlled and is trained with back propagation.
+      <br/>
+      This type of neural network 18, often referred to in the art as a multilayer perceptron, provides a relatively compact, universal approximator which is able to learn essentially any function to a desired degree of accuracy.
+      <br/>
+      The perceptron uses feedforward connections with a feedback learning rule.
+      <br/>
+      In other words, the perceptron uses error feedback to modify its learning parameters (i.e., the adaptive coefficients, or connection weights, which are associated with the input connections of its processing elements).
+    </p>
+    <p num="20">
+      As shown in FIG. 2, neural network 18 preferably applies past states of the plant 12 outputs and past (and present) control inputs to plant 12 at discrete instances of time (e.g., every millisecond).
+      <br/>
+      Neural network 18 uses the past states and past controls together with a series of possible future control inputs to predict the future states of plant 12 resulting from the future control inputs.
+      <br/>
+      For most plants, NPC system 10 provides a satisfactory prediction horizon (i.e., future state predictions n time steps into the future) based on m=20 past plant states and past control inputs and n=15 future control inputs.
+    </p>
+    <p num="21">
+      Conventional use of neural networks to model future system states involves feeding one predicted state output at each instance of time back into the neural network and then predicts another state output for the next instance in time.
+      <br/>
+      Such a recursive method of predicting future states, however, tends to increase prediction time and compound the error from each prediction with each iteration until the prediction itself becomes meaningless.
+      <br/>
+      In contrast, the architecture of neural network 18 according to the present invention provides a parallel processing arrangement including a future state prediction horizon for efficient computation without compounding errors.
+      <br/>
+      By using neural network 18 to model plant 12, system 10 may be applied to a wide variety of complex, nonlinear systems and is particularly well suited for active flutter suppression, buffet load alleviation, or any vibration suppession system.
+    </p>
+    <p num="22">
+      Referring again to FIG. 1, system 10 first trains the neural network plant model 18 for use within its predictive control framework.
+      <br/>
+      System 10 receives sensor feedback y(n) from plant 12, digitizes it and then feeds it via line 32 into the inputs of neural network 18.
+      <br/>
+      The sensor output y(n) represents past state information and passes through a digital tapped-delay-line.
+      <br/>
+      In this embodiment, system 10 implements the tapped-delay-line in software with a stack, or array, of m past values of y(n) over the past m time steps.
+      <br/>
+      As shown in FIG. 1, a block 24 labeled z-1 represents a memory for the development of the plant output history.
+      <br/>
+      The current and past controls u(n), as well as a vector series of proposed future control inputs uk (n), also feed into neural network 18 via line 26.
+      <br/>
+      As shown in FIG. 1, system 10 develops a trial control input horizon, as represented by a block 30 labeled z+1, for n future time steps.
+      <br/>
+      The trial control input for the first iteration may be set to any value within the normal range of possible actuator control signals.
+      <br/>
+      Neural network 18 models the future effect of this input by projecting it n time steps into the future, where each different step is represented by a different output of neural network 18.
+      <br/>
+      Neural network 18 predicts a future output yp (n) based on the values of control inputs u(n), plant outputs y(n) and trial inputs uk (n).
+      <br/>
+      Via line 32, system 10 develops the future prediction horizon of yp (n), as represented by a block 34 labeled z+1, for n future time steps.
+      <br/>
+      The n steps into the future form the prediction horizon and n ranges between, for example, 1 and 20 time steps.
+      <br/>
+      Preferably, the modes of plant 12 and the desired control rate determine the value of n. At a control rate of 200 Hz, for example, n=15 provides a satisfactory prediction horizon for controlling vibration with a resonant frequency at 5 Hz and 20 Hz.
+    </p>
+    <p num="23">
+      As described above, neural network 18 modifies its learning parameters, or weights, as a function of error feedback.
+      <br/>
+      A summing function, indicated at reference character 36, compares the predicted output yp (n) from network 18 via line 40 to the actual sensor output y(n) from plant 12 via line 42.
+      <br/>
+      The summing function 36 calculates an error ep (n) between the two outputs and back propagates it via line 38 through neural network 18 to modify the learning parameters of the network 18.
+    </p>
+    <p num="24">
+      In a preferred embodiment of the invention, a reference model 46 of NPC system 10 provides a reference trajectory yd (n) via line 48.
+      <br/>
+      The reference trajectory represents the desired future output of plant 12.
+      <br/>
+      As an example, yd (n)=0 for wing flutter suppression.
+      <br/>
+      System 10 executes a performance index optimization routine 52 on the horizon for evaluating the predicted performance of the trial input value to achieve the desired reference trajectory.
+      <br/>
+      In this embodiment, the performance index is a cost function of the future predictions of neural network model 18, the derivatives of the future predictions and the magnitude of the proposed control signal.
+      <br/>
+      For example, if the future predictions represent a wing position, then the derivatives represent velocity.
+      <br/>
+      Preferably, each of the parameters of the cost function is weighted to form a cost performance index tailored to a particular system.
+      <br/>
+      Specifically:  (Equation image '1' not included in text)
+    </p>
+    <p num="25">where:</p>
+    <p num="26">C=cost of the selected input (u), i=horizon index, n=horizon window, Gp =position gain, Yi =predicted state of the plant at horizon i, Gv =velocity gain, GI =input gain, Wi =future state weighting factor.</p>
+    <p num="27">
+      The gains Gp and Gv control the weighting placed on minimizing the variance of the position and the velocity, respectively, of plant 12.
+      <br/>
+      Both parameters vary in range between zero and one and, in most cases, one parameter is set to one and the other is set to zero.
+      <br/>
+      Without input weighting (i.e., GI =0), system 10 operates as a simple minimum-variance controller which may result in an unstable system.
+      <br/>
+      For this reason, a preferred value for GI is non-zero (e.g., 0&lt;GI &lt;1 e-3) which causes the cost function to satisfy the opposing goals of minimizing the variance of both the position and velocity of plant 12 while reducing the amount of control authority available to accomplish this goal.
+      <br/>
+      The weighting value Wi controls the amount of emphasis placed on future states as a function of how many time steps ahead are being considered because more remote future states may be less reliable than those nearer in time.
+      <br/>
+      This parameter also provides a positive effect on stability.
+      <br/>
+      As an example, Wi is approximately 1 0 (slashed zero)
+    </p>
+    <p num="28">
+      System 10 repeatedly predicts the future plant output and evaluates the trial input value with the optimization routine until the desired performance, or iteration limit is achieved.
+      <br/>
+      System 10 then outputs the trial control value selected by the optimization process to plant 12 via line 14.
+      <br/>
+      As an example, Intel's Electronically Trainable Analog Neural Network (ETANN) chip is suitable for implementing the neural network model 18 of plant 12 and evaluate the performance, or cost, index at block 52.
+    </p>
+    <p num="29">
+      In conventional linear predictive control schemes, an entire series of optimal future controls is solved for analytically and only the most recent one is used.
+      <br/>
+      Although this approach, known as a receding horizon, is useful for linear systems, it is both slow and unable to work on nonlinear systems.
+      <br/>
+      Advantageously, system 10 is broadly applicable for controlling nonlinear plants.
+      <br/>
+      According to the invention, system 10 presents a comprehensive set of possible control inputs, referred to as a control horizon, to neural network 18 and selects the input for the first iteration from the set which yields the lowest cost.
+      <br/>
+      By searching for the control input which provides the lowest performance index (i.e., cost), system 10 provides predictive control for different plants without regard to their complexity.
+    </p>
+    <p num="30">
+      By setting all future inputs to the same value, system 10 makes searching for the desired control input both possible and independent of any plant information.
+      <br/>
+      The assumption about the future outputs being of the same value approaches truth when the ratio of control rate (e.g., 1000 Hz) to modal frequency (e.g., 5 or 20 Hz) is relatively large.
+      <br/>
+      For even faster solution times, a rough search is done to determine an approximate control input value, and then is refined.
+    </p>
+    <p num="31">
+      In a preferred embodiment of the invention, system 10 approximates the performance index by assuming a nearly linear response for certain plants when a relatively small time span is examined.
+      <br/>
+      In other words, a small bracket around an approximate control point is assumed to be linear.
+      <br/>
+      By recording the cost of each instance when three control signals within the bracket are input to the model one at a time and then fitting the data to a quadratic function which is solved for its minimum value, system 10 obtains a linear one-dimensional solution.
+      <br/>
+      Appendix A provides a derivation of the approximating quadratic solution of the cost function in the linear region.
+      <br/>
+      In general, the cost function in this region may be plotted as an approximately parabolic curve with the control inputs I being plotted on the x-axis and the resultant cost C plotted on the y-axis.
+      <br/>
+      The equations of Appendix A provide parameters which define an approximate shape and location of the curve based on three control inputs.
+      <br/>
+      System 10 then solves for the lowest point on the curve (i.e., the control input which yields the lowest cost).
+      <br/>
+      Moreover, the linear version of these equations can be solved even faster by preselecting the three control inputs (e.g., x1 =-10, x2 =0; x3 =-10) and simplifying the equations prior to feeding the predicted future state information into the performance index equation.
+    </p>
+    <p num="32">
+      It is also contemplated that neural network 18 and optimization routine 52 be implemented on more than one processor 20.
+      <br/>
+      In this embodiment, multiple neural networks may be used for parallel prediction to reduce computer cycle time.
+      <br/>
+      For example, a neural network implemented on one processor 20 could be used for processing half of the possible trial control inputs and a neural network implemented on another processor 20 could be used for processing the other half of the possible trial control inputs.
+    </p>
+    <p num="33">
+      As described herein, the present invention provides a direct method for adapting control system 10.
+      <br/>
+      In this regard, neural network model 18 may be trained online.
+    </p>
+    <p num="34">
+      If online learning is engaged, system 10 updates the neural network weights using a set of input/output data and an appropriate training algorithm.
+      <br/>
+      System 10 repeats the entire process for each control cycle.
+    </p>
+    <p num="35">
+      According to the invention, system 10 provides predictive control simultaneously with the training of neural network 18.
+      <br/>
+      FIG. 3 is an exemplary plot which illustrates adaptive control of plant 12 in which training and predictive control occur together.
+      <br/>
+      Starting with an untrained network 18, a white noise excitation signal is sent to plant 12 for four seconds, providing 400 data points for learning by neural network 18.
+      <br/>
+      In this example, learning then occurs during the next 2.7 seconds, allowing control to be activated at about 6.7 seconds.
+      <br/>
+      As shown in FIG. 3, the plant vibration grows steadily until control system 10 initiates stabilization.
+      <br/>
+      Once system 10 activates its performance optimization routine 52, learning and control occur simultaneously, allowing model updates to occur every 6.7 seconds.
+      <br/>
+      The speed of the processor(s) 20, the control cycle rate, and the amount of data needed for accurate plant modeling determine the length of this time interval (e.g., processor 20 is embodied by a 133 MHz Pentium.RTM. processor running at 2500 Hz).
+      <br/>
+      The optimum settings for the level of excitation, the amount of data needed for learning, and the performance index used by the system optimization loop is plant dependent.
+    </p>
+    <p num="36">
+      As described above, system 10 may be used for active flutter suppression of a wing.
+      <br/>
+      If plant 12 embodies a wing model having a trailing edge aileron and an inboard trailing edge accelerometer, system 10 self-configures through online learning for single input/single output control using the trailing edge aileron as an actuator input and the inboard trailing edge accelerometer as a sensor output.
+    </p>
+    <p num="37">
+      It is contemplated that flutter suppression control may combine adaptive learning with fixed gain control.
+      <br/>
+      For example, after system 10 generates the neural network model 18 online, it turns off learning which freezes the weights of network 18.
+      <br/>
+      As trained, network 18 may then be used in system 10 until dynamic pressure changes significantly and a new model is required to optimize control performance.
+    </p>
+    <p num="38">
+      Advantageously, the present invention provides control of structural vibration suppression problems.
+      <br/>
+      Other implementations of neural network-based controllers have been applied to "slower" chemical processing systems with less complicated dynamics such as autoclave composite curing and pH control in neutralization reactors.
+      <br/>
+      In this embodiment, system 10 solves several problems relating to real-time optimization, prediction performance, and cost function tuning for stability.
+      <br/>
+      The specific neural network architecture design used to predict multiple intervals in the future, without using a recurrent network, beneficially achieves stable operation of the control system 10.
+    </p>
+    <p num="39">
+      It is contemplated that the present invention may be utilized with, for example, a smart structure wing having distributed piezoelectric actuators and sensors.
+      <br/>
+      Adaptive neural network based control is considered to be an enabling technology for both lightweight flexible wing structures and reconfigurable control systems which will provide extended aircraft life, reduced acquisition costs, and reduced operation and support costs for future aerospace systems.
+    </p>
+    <p num="40">
+      Implementation of smart structure technologies for alleviating undesirable vibration and aeroelastic response associated with highly flexible structures, which include neural networks, fiber optics, and adaptive materials, will enable future aircraft to be more lightweight and flexible, thereby increasing affordability.
+      <br/>
+      Artificial neural networks, which possess effective large scale parallel processing and adaptation capabilities, are extremely attractive for implementing the "brain" of a smart structure.
+      <br/>
+      Adaptive control can reduce aeroelastic response associated with buffet and atmospheric turbulence, it can increase flutter margins, and it may be able to reduce response associated with nonlinear phenomenon like limit cycle oscillations.
+      <br/>
+      By reducing vibration levels and loads, aircraft structures can have lower acquisition cost, reduced maintenance, and extended lifetimes.
+    </p>
+    <p num="41">
+      As compared to conventional controllers, such as those employing PID or pole placement control methods, the present invention combines the benefits of relatively easy implementation with improved control performance.
+      <br/>
+      The advantages of neural control over conventional control techniques include a simpler and more cost effective design methodology as well as the capability to learn online the time varying nature of a system due to wear, loss of actuators, or other causes.
+    </p>
+    <p num="42">In view of the above, it will be seen that the several objects of the invention are achieved and other advantageous results attained.</p>
+    <p num="43">As various changes could be made in the above constructions and methods without departing from the scope of the invention, it is intended that all matter contained in the above description and shown in the accompanying drawings shall be interpreted as illustrative and not in a limiting sense.  (Equation image '2' not included in text)</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of controlling a dynamic nonlinear plant, said plant receiving an input control signal for controlling the plant and generating an output signal representative of a state of the plant in response to the received input control signal, said method comprising the steps of:</claim-text>
+      <claim-text>storing the input control and output signals corresponding to m consecutive past states of the plant over m time steps into the past; generating a set of trial control inputs, said trial control inputs being representative of the input control signal corresponding to the next n consecutive future states of the plant over n time steps into the future; predicting a set of future output states n time steps into the future for each trial control input with a computer neural network having a parallel processing arrangement, said future output states being representative of the output signal corresponding to the next n consecutive future states of the plant over n time steps into the future in response to the trial control inputs, said neural network predicting the future output states based on the past input and output signals and the future trial control inputs without using a recurrent network; determining a performance index as a function of the future output states, said performance index being indicative of plant performance over time in response to the trial control inputs;</claim-text>
+      <claim-text>and modifying the input control signal as a function of the trial control inputs for controlling the plant so that the performance index reaches a desired value.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 wherein the step of modifying the input control signal comprises the steps of: modifying the trial control inputs based on the performance index; predicting another set of future output states n time steps into the future with the neural network, said future output states of the other set of future output states being representative of the output signal for the next n consecutive future states of the plant over n time steps into the future in response to the modified trial control inputs, said neural network predicting the other set of future output states based on the past input and output signals and the modified future trial control inputs without using a recurrent network; determining the performance index as a function of the other set of future output states, said performance index being indicative of plant performance over time in response to the modified trial control inputs;</claim-text>
+      <claim-text>and repeating the steps of modifying the trial control inputs, generating the other set of future output states and determining the performance index until the desired performance index is reached.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1 wherein each of the trial control inputs has a signal level representative of the input control signal corresponding to the next n consecutive future states of the plant and further comprising the step of setting the signal levels of the trial control inputs equal to each other for each iteration.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 further comprising the steps of generating an error signal as a function of the difference between the predicted future output states and the output signal and feeding the error back into the neural network.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1 wherein the performance index is a cost function.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1 wherein the step of determining the performance index includes calculating the following cost function:  (Equation image '3' not included in text)</claim-text>
+      <claim-text>where: C=cost of a selected trial control input (u), i=horizon index, n=horizon window, Gp =position gain, Yi =predicted future output state of the plant at horizon i, Gv =velocity gain, GI =input gain, Wi =future state weighting factor.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1 wherein the plant includes an actuator for controlling the plant as a function of the input control signal.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 7 wherein the plant comprises an aircraft wing and the actuator controls the wing for flutter suppression.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 1 wherein n defines a horizon window representing a plurality of time steps into the future.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A system for controlling a dynamic nonlinear plant, said plant receiving an input control signal for controlling the plant and generating an output signal representative of a state of the plant in response to the received input control signal, said system comprising: a memory storing the input and output signals corresponding to m consecutive past states of the plant over m time steps into the past; a non-recurrent computer neural network having a parallel processing arrangement, said neural network being responsive to a set of trial control inputs for predicting a set of future output states n time steps into the future for each trial control input, said future output states being representative of the output signal corresponding to the next n consecutive future states of the plant over n time steps into the future in response to the trial control inputs, said trial control inputs being representative of the input control signal corresponding to the next n consecutive future states of the plant over n time steps into the future, said neural network predicting the future output states based on the past input and output signals and the future trial control inputs;</claim-text>
+      <claim-text>and a processor for generating the input control signal for controlling the plant, said processor:</claim-text>
+      <claim-text>- generating the trial control inputs; - determining a performance index as a function of the future output states, said performance index being indicative of plant performance over time in response to the trial control inputs;</claim-text>
+      <claim-text>and - modifying the input control signal as a function of the trial control inputs for controlling the plant so that the performance index reaches a desired value.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The system of claim 10 wherein the neural network predicts another set of future output states n time steps into the future, said future output states of the other set of future output states being representative of the output signal for the next n consecutive future states of the plant over n time steps into the future, in response to the modified trial control inputs, said neural network predicting the other set of future output states based on the past input and output signals and the modified future trial control inputs, and wherein the processor determines the performance index as a function of the other set of future output states, said performance index being indicative of plant performance over time in response to the modified trial control inputs.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The system of claim 10 wherein each of the trial control inputs has a signal level representative of the input control signal corresponding to the next n consecutive future states of the plant and wherein the signal levels of the trial control inputs are equal to each other for each iteration.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The system of claim 10 further comprising a summing function for generating an error signal as a function of the difference between the predicted future output states and the output signal and a feedback loop for feeding the error back into the neural network.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The system of claim 10 wherein the performance index is a cost function.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The system of claim 10 wherein the performance index is calculated according to the following cost function:  (Equation image '4' not included in text)</claim-text>
+      <claim-text>where: C=cost of a selected trial control input (u), i=horizon index, n=horizon window, Gp =position gain, Yi =predicted future output state of the plant at horizon i, Gv =velocity gain, GI =input gain, Wi =future state weighting factor.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The system of claim 10 wherein the plant includes an actuator for controlling the plant as a function of the input control signal.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method of claim 16 wherein the plant comprises an aircraft wing and the actuator controls the wing for flutter suppression.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The system of claim 10 wherein n defines a horizon window representing a plurality of time steps into the future.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A neural network predictive control system for suppressing structural vibration in a plant, said plant receiving an input control signal for controlling the plant and generating an output signal representative of a state of the plant in response to the received input control signal, said system comprising: a memory storing the input and output signals corresponding to m consecutive past states of the plant over m time steps into the past; a non-recurrent computer neural network having a parallel processing arrangement, said neural network being responsive to a set of trial control inputs for predicting a set of future output states n time steps into the future for each trial control input, said future output states being representative of the output signal corresponding to the next n consecutive future states of the plant over n time steps into the future in response to the trial control inputs, said trial control inputs being representative of the input control signal corresponding to the next n consecutive future states of the plant over n time steps into the future, said neural network predicting the future output states based on the past input and output signals and the future trial control inputs;</claim-text>
+      <claim-text>and a processor for generating the input control signal for controlling the plant, said processor: - generating the trial control inputs; - determining a performance index as a function of the future output states, said performance index being indicative of plant performance over time in response to the trial control inputs;</claim-text>
+      <claim-text>and - modifying the input control signal as a function of the trial control inputs for controlling the plant so that the performance index reaches a desired value.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The system of claim 19 wherein the plant comprises an aircraft wing and wherein the plant includes an actuator for suppressing vibration in the wing as a finction of the input control signal.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

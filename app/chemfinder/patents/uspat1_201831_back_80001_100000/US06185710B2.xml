@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185710B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185710</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185710</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21966207" extended-family-id="42113817">
+      <document-id>
+        <country>US</country>
+        <doc-number>09050599</doc-number>
+        <kind>A</kind>
+        <date>19980330</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09050599</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172187</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>5059998</doc-number>
+        <kind>A</kind>
+        <date>19980330</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09050599</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G01R  31/3185      20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>01</class>
+        <subclass>R</subclass>
+        <main-group>31</main-group>
+        <subgroup>3185</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>714727000</text>
+        <class>714</class>
+        <subclass>727000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G01R-031/3185S2</text>
+        <section>G</section>
+        <class>01</class>
+        <subclass>R</subclass>
+        <main-group>031</main-group>
+        <subgroup>3185S2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G01R-031/318541</classification-symbol>
+        <section>G</section>
+        <class>01</class>
+        <subclass>R</subclass>
+        <main-group>31</main-group>
+        <subgroup>318541</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>22</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>7</number-of-drawing-sheets>
+      <number-of-figures>7</number-of-figures>
+      <image-key data-format="questel">US6185710</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">High-performance IEEE1149.1-compliant boundary scan cell</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>SHIMA TOMOAKI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5488614</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5488614</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>HORNE RICK L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5615217</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5615217</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>ANGELOTTI FRANK WILLIAM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5757820</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5757820</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>MAZUMDER NIKHIL C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4628216</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4628216</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>CORREALE JR ANTHONY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5042034</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5042034</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>WHETSEL LEE D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5056094</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5056094</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>WHETSEL JR LEE D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5602855</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5602855</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>WHETSEL JR LEE D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5631911</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5631911</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>GILLIS PAMELA SUE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5719879</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5719879</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>GREGOR ROGER PAUL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5920575</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5920575</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>GILLIS PAMELA SUE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5925143</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5925143</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>KAY DOUGLAS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5938782</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5938782</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Groves et al., IBM Technical Disclosure Bulletin, "High-Performance CMOS Register", vol. 33, No. 3B, Aug. 1990, pp. 363-366.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Barnhart, Carl Frederick</name>
+            <address>
+              <address-1>Round Rock, TX, US</address-1>
+              <city>Round Rock</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>VanLeeuwen, Leslie A.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Felsman, Bradley, Vaden, Gunter &amp; Dillon, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>De Cady, Albert</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A circuit is disclosed that includes a latch circuit and boundary scan cell circuitry.
+      <br/>
+      The latch circuit includes a slave latch and a master latch having a data output.
+      <br/>
+      The slave latch includes at least a first data input connected to the data output of the master latch, a second data input, and a control input that receives a control signal that controls latching of data present at the second data input.
+      <br/>
+      The boundary scan cell circuitry is connected to the second data input and to the control input of the slave latch so that the boundary scan cell circuitry can supply the control signal and data to the slave latch.
+      <br/>
+      In one embodiment, the boundary scan cell circuitry is IEEE1149.1-compliant and the circuit further includes either an output driver coupled to the data output of the slave latch or an input receiver coupled to a data input of the master latch.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Technical Field
+    </p>
+    <p num="2">
+      The present invention relates in general to integrated circuitry and, in particular, to a boundary scan cell of an integrated circuit.
+      <br/>
+      Still more particularly, the present invention relates to a high-performance IEEE1149.1-compliant boundary scan cell of an integrated circuit.
+    </p>
+    <p num="3">2. Description of the Related Art</p>
+    <p num="4">
+      A significant expense incurred during the manufacture of circuit cards carrying one or more integrated circuit components is testing.
+      <br/>
+      Such testing generally entails stimulating the input/output (I/O) pins of a circuit card with a predetermined pattern of inputs and then observing the outputs generated by the components residing on the circuit card.
+      <br/>
+      Several factors contribute to the expense of circuit card testing.
+      <br/>
+      First, because many circuit card components do not employ a standard I/O interface, circuit card testing fixtures tend to be complex and must often be custom-designed to test particular circuit cards.
+      <br/>
+      Second, the input pattern utilized to stimulate a circuit card must often be generated manually in order to ensure that circuit card components are exercised over a sufficient range of functionality to ensure high quality.
+      <br/>
+      Third, while it may be less expensive for a circuit card or component manufacturer to out-source testing to an outside contractor, the use of non-standard component interfaces can require the component manufacturer to reveal proprietary information concerning the internal design of a component to the component tester, making many manufacturers reluctant to engage an outside contractor to perform testing.
+    </p>
+    <p num="5">
+      In order to decrease the cost and increase the quality of component testing, the IEEE (Institute of Electrical and Electronic Engineers) adopted the IEEE1149.1-1990 Standard Test Access Port and Boundary Scan Architecture (hereinafter referred to as the IEEE1149.1 standard).
+      <br/>
+      The IEEE1149.1 standard specifies that a boundary scan cell be inserted between the functional logic of a component and each of its input receiver and output driver circuits.
+      <br/>
+      These boundary scan cells, whose behavior is prescribed in detail by the IEEE1149.1 standard, are typically implemented with at least a 2-to-1 multiplexer in the direct path between the component's functional logic and the driver or receiver.
+      <br/>
+      For example, referring now to FIG. 1, there is depicted a high level block diagram of a conventional circuit card 10 bearing two integrated circuit chips interconnected through IEEE1149.1-compliant interfaces.
+      <br/>
+      As shown, integrated circuit chips 12 and 14 each include an edge-sensitive D flip-flop 20 that operates in response to clock signal 22.
+      <br/>
+      D flip-flop 20 of integrated circuit chip 12 has a data input (D) connected to the functional logic of integrated circuit chip 12, and D flip-flop of integrated circuit chip 14 has a data output (Q) connected to the functional logic of integrated circuit chip 14.
+      <br/>
+      Between each of D flip-flops 20 and a respective one of output driver 30 and input receiver 32 is a 2-to-1 multiplexer 24, which has a first data input tied to an IEEE1149.1-compliant boundary scan cell 26 and a second data input and a select input supplied by the associated boundary scan cell 26.
+      <br/>
+      The output of each of multiplexers 24 also forms an input of the associated boundary scan cell 26.
+    </p>
+    <p num="6">
+      While the implementation of conventional IEEE1149.1-compliant interfaces within components, such as integrated circuit chips 12 and 14, facilitates higher quality, low cost testing without the need for disclosure of the internal circuitry of the components under test, these benefits come at the expense of performance due to the signal path delay associated with two multiplexers 24 and the signal path loading associated with boundary scan cells 26.
+      <br/>
+      Because of the performance penalty associated with conventional IEEE1149.1-compliant boundary scan cells, manufacturers have resisted compliance with the IEEE1149.1 standard for at least eight years.
+      <br/>
+      The present invention includes a recognition that it would be desirable to provide an improved boundary scan cell that complies with the IEEE1149.1 standard and is not subject to the performance penalty associated with conventional implementations.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">It is therefore one object of the present invention to provide improved integrated circuitry.</p>
+    <p num="8">It is another object of the present invention to provide an improved boundary scan cell of an integrated circuit.</p>
+    <p num="9">It is yet another object of the present invention to provide a high-performance IEEE1149.1-compliant boundary scan cell of an integrated circuit.</p>
+    <p num="10">
+      The foregoing objects are achieved as is now described.
+      <br/>
+      A circuit is provided that includes a latch circuit and boundary scan cell circuitry, which is preferably IEEE1149.1-compliant.
+      <br/>
+      The latch circuit includes a slave latch and a master latch having a data output.
+      <br/>
+      The slave latch includes at least a first data input connected to the data output of the master latch, a second data input, and a control input that receives a control signal that controls latching of data present at the second data input.
+      <br/>
+      The boundary scan cell circuitry is connected to the second data input and to the control input of the slave latch so that the boundary scan cell circuitry can supply the control signal and data to the slave latch.
+    </p>
+    <p num="11">
+      In one embodiment, the circuit further includes either an output driver coupled to the data output of the slave latch or an input receiver coupled to a data input of the master latch.
+      <br/>
+      In this manner, the circuit, which may comprise, for example, an integrated circuit chip mounted on a circuit card, can be interconnected to a second integrated circuit chip equipped with a similar circuit comprised of a latch and boundary scan cell circuitry.
+    </p>
+    <p num="12">The above as well as additional objects, features, and advantages of the present invention will become apparent in the following detailed written description.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="13">
+      The novel features believed characteristic of the invention are set forth in the appended claims. The invention itself however, as well as a preferred mode of use, further objects and advantages thereof, will best be understood by reference to the following detailed description of an illustrative embodiment when read in conjunction with the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 illustrates a circuit card on which are mounted interconnected integrated circuit chips that each include a conventional IEEE1149.1-compliant boundary scan cell;
+      <br/>
+      FIG. 2 depicts a high level block diagram of a circuit card on which are mounted interconnected integrated circuit chips that each include IEEE1149.1-compliant boundary scan cells in accordance with the present invention;
+      <br/>
+      FIG. 3 illustrates an input/output (I/O) cell design having separate in-line latches for the input receiver and output driver of a bi-directional I/O port of an integrated circuit chip;
+      <br/>
+      FIG. 4 depicts an I/O cell design that contains only a driver data in-line latch for functional operation, but can capture receiver data for chip test purposes;
+      <br/>
+      FIG. 5 illustrates an I/O cell design that contains only a driver data in-line latch for use with a two or three state output-only port;
+      <br/>
+      FIG. 6 depicts an I/O cell that contains only an enable data in-line latch for controlling one or more bi-directional or three-state ports; and
+      <br/>
+      FIG. 7 illustrates an I/O cell design that contains only a receiver data in-line latch for a port that is functionally input-only, but optionally has a driver output to support chip testing.
+    </p>
+    <heading>DETAILED DESCRIPTION OF ILLUSTRATIVE EMBODIMENT</heading>
+    <p num="14">
+      With reference again to the figures and in particular with reference to FIG. 2, there is depicted a high level block diagram of a circuit card on which are mounted interconnected integrated circuit chips that each include IEEE1149.1-compliant boundary scan cells in accordance with the present invention.
+      <br/>
+      Thus, as shown, a first integrated circuit chip 52 and a second integrated circuit chip 54 are each mounted on a circuit card 50.
+      <br/>
+      The function of each of integrated circuit chips 52 and 54 is determined by its respective functional logic 56.
+      <br/>
+      For example, integrated circuit 52 may comprise a processor and integrated circuit chip 54 may comprise a cache memory, ASIC (Application Specific Integrated Circuit), or other support chip.
+      <br/>
+      In the illustrated embodiment, the operation of integrated circuit chips 52 and 54 is synchronized by clock signal 58.
+    </p>
+    <p num="15">
+      As shown in FIG. 2, integrated circuit chips 52 and 54 are each equipped with an IEEE1149.1-compliant boundary scan cell 60.
+      <br/>
+      However, in contrast to conventional integrated circuit chips 12 and 14 discussed supra, each of integrated circuit chips 52 and 54 includes an enhanced shift register latch (SRL) 64 in lieu of a D flip-flop and multiplexer.
+      <br/>
+      Enhanced SRLs 64 are each comprised of a master latch 66 and a slave latch 68; however, the number and types of inputs and outputs of master latches 66 and slave latches 68 can vary between implementations depending upon what type of SRLs are utilized.
+      <br/>
+      For example, if a mux-scan SRL is utilized, each master latch has a single clock input, at least two data inputs, and a select input that chooses which data input will be captured in response to the clock input.
+      <br/>
+      Alternatively, if a dual-port SRL is utilized as shown in FIG. 2, the master latch has a plurality of clock inputs (C1 and A) that are each associated with a respective one of multiple data inputs (D1 and I), such that the transition of a particular clock to an active state causes the master latch to capture data present at the associated data input.
+      <br/>
+      In this manner, a first data input (D1) can receive functional inputs associated with normal operation, while a second data input (I) can be connected to form a scannable register that a tester can utilize to scan test stimuli into the SRL 64.
+    </p>
+    <p num="16">
+      In contrast to conventional SRLs, the enhanced SRL 64 of the present invention includes a slave latch that is also equipped with multiple data inputs.
+      <br/>
+      Like master latches 66, slave latches 68 can be implemented as either dual-port latches (as shown in FIG. 2) or mux-scan latches.
+      <br/>
+      By utilizing a slave latch with multiple data inputs, the functionality of the multiplexer shown in FIG. 1 can be merged with the functionality of the slave latch 68 without introducing additional delay in the signal patch between functional logic 56 of integrated circuit chip 52 and functional logic 56 of integrated circuit chip 54.
+      <br/>
+      In a dual-port embodiment, this advance is achieved by connecting the conventional data signal 70 and conventional control (select) signal 72 provided by boundary scan cell 60 to the second data input (D2) and second clock input (C2), respectively, of slave latch 68.
+      <br/>
+      Alternatively, in a mux-scan embodiment, control signal 72 provided by boundary scan cell 60 is connected to the select input of the slave latch.
+      <br/>
+      In either a dual-port or mux-scan embodiment, the first clock input (B) is connected to a clock signal that is 180 (degree)  out of phase with the clock signal connected to the first clock input (C1) of master latch 66, and the first data input (internal to the latch and therefore not shown) of slave latch 68 is connected to data output 74 of master latch 66.
+      <br/>
+      The functional clock signals of SRLs 64, that is, the clock signals connected to clock inputs C1 and B, are disabled when the IEEE1149.1 Test Access Port (TAP) requires control, thereby preventing functional data from being latched.
+    </p>
+    <p num="17">
+      In order to minimize the loading of the signal path, data output 74 of master latch 66, which is equivalent to input 0 of multiplexer 24 of FIG. 1, is preferably the only connection between the signal path and boundary scan cell 60.
+      <br/>
+      In order for this equivalence to hold, the functional clock to the master latch must be held in flush state whenever functional clocks are disabled.
+      <br/>
+      The loading associated with the connection between the output of multiplexer 24 and boundary scan cell 26 in FIG. 1 is eliminated in the embodiment of FIG. 2 through judicious design of boundary scan cell 60, generally by incorporating a multiplexer within boundary scan cell 60 in parallel with slave latch 68, as discussed in greater detail below with respect to FIG. 3.
+      <br/>
+      Two inputs of this multiplexer (i.e., input 1 and the select input as shown in FIG. 1) are supplied by boundary scan cell 60, and the other data input is supplied by master data output 74 as discussed above.
+      <br/>
+      In some embodiments of boundary scan cell 60, logic simplification may result in the elimination of the multiplexer, but this is not always possible.
+    </p>
+    <p num="18">
+      As depicted in FIG. 2, each of enhanced SRLs 64 has additional interconnections that are dependent upon whether the SRL 64 is an input latch or an output latch.
+      <br/>
+      SRL 64 of integrated circuit 52, which is an output latch, has an interconnection between the first data input (D1) of its master latch 66 and functional logic 56 of integrated circuit 52 such that functional logic 56 supplies output data to master latch 66.
+      <br/>
+      In addition, data output 78 of slave latch 68 is connected to the data input of output driver 80.
+      <br/>
+      Output driver 80 drives output data received from slave latch 68 to input receiver 82 of integrated circuit 54 via an interconnect 84 patterned on circuit card 50.
+      <br/>
+      As an input latch, SRL 64 of integrated circuit 54 has an interconnection between the first data input (D1) of its master latch 66 and the output of data receiver 82.
+      <br/>
+      In addition, data output 78 of slave latch 68 is connected to functional logic 56 of integrated circuit 54 such that the data received from integrated circuit 52 is supplied to functional logic 56 of integrated circuit 54.
+    </p>
+    <p num="19">
+      Referring now to FIGS. 3-7, there are depicted illustrative embodiments of a number of different I/O cell implementations of the high level design illustrated in FIG. 2.
+      <br/>
+      The circuit designations used in these figures (MUX21, LPH0101, etc.) correspond to circuits described in detail in ASIC SA-12 Databook, which is available as Order No. SA14-2211-00 from IBM Microelectronics Division of Hopewell Junction, N.Y., and is incorporated herein by reference in its entirety.
+      <br/>
+      The signal names and terminology utilized in FIGS. 3-7, which follow the usage of the databook incorporated by reference supra, are defined as follows:
+    </p>
+    <p num="20">RDI (Receiver Data Input): Input to the I/O cell from the input receiver.</p>
+    <p num="21">RDO (Receiver Data Output): Output of the I/O cell to the functional logic.</p>
+    <p num="22">DDI (Driver Data Input): Input to the I/O cell from the functional logic.</p>
+    <p num="23">DDO (Driver Data Output): Output of the I/O cell to the output driver.</p>
+    <p num="24">EDI (Enable Data Input): Enable signal received by the I/O cell from the functional logic.</p>
+    <p num="25">EDO (Enable Data Output): Enable signal output from the I/O cell to the output driver.</p>
+    <p num="26">
+      RCLkC, RClkB: Functional master and slave clocks, respectively, for the receiver latch.
+      <br/>
+      When functional operation is disabled, RClkC is enabled, and RClkB is disabled.
+    </p>
+    <p num="27">
+      DCLkC, DClkB: Functional master and slave clocks, respectively, for the driver latch.
+      <br/>
+      When functional operation is disabled, DClkC is enabled, and DClkB is disabled.
+    </p>
+    <p num="28">
+      ECLkC, EClkB: Functional master and slave clocks, respectively, for the enable latch.
+      <br/>
+      When functional operation is disabled, EClkC is enabled, and EClkB is disabled.
+    </p>
+    <p num="29">
+      CE0_A: SRL test scan clock for master latches.
+      <br/>
+      It is disabled during functional (normal) operation.
+    </p>
+    <p num="30">
+      CE1_B: SRL test scan clock for slave latches.
+      <br/>
+      It is enabled during functional (normal) operation.
+    </p>
+    <p num="31">
+      CE1_C1, CE1_C2: SRL functional clocks for master latches.
+      <br/>
+      These clocks are enabled during normal operation.
+      <br/>
+      test_si, test_so: Connections to the test scan chain that are utilized for chip testing at the foundry.
+    </p>
+    <p num="32">BIDI_cntl: Control signal specifying whether a bi-directional I/O cell is driving or receiving data.</p>
+    <p num="33">Mode_A: Decode of the IEEE1149.1 TAP Instruction Register that is active if either the INTEST or RUNBIST instructions are loaded.</p>
+    <p num="34">Mode_B: Decode of the IEEE1149.1 TAP Instruction Register that is active if any of the INTEST, RUNBIST, EXTEST, HIGHZ, or CLAMP instructions are loaded.</p>
+    <p num="35">EXTEST: Decode of the IEEE1149.1 TAP Instruction Register that is active if the EXTEST instruction is loaded.</p>
+    <p num="36">HIGHZ: Decode of the IEEE1149.1 TAP Instruction Register that is active if the HIGHZ instruction is loaded.</p>
+    <p num="37">ShiftClk: Clock output of the IEEE1149.1 TAP that pulses on the rising edge of the TCK input when the TAP is in the Shift Data Register state and the boundary register is selected by the instruction loaded in the Instruction Register.</p>
+    <p num="38">CaptureClk: Clock output of the IEEE1149.1 TAP that pulses on the rising edge of the TCK input when the TAP is in the Capture Data Register state and the boundary register is selected by the instruction loaded in the Instruction Register.</p>
+    <p num="39">UpdateClk: Clock output of the IEEE1149.1 TAP that pulses on the falling edge of the TCK input when the TAP is in the Update_Data_Register state and the boundary register is selected by the instruction loaded in the Instruction Register.</p>
+    <p num="40">L2 Clk: Clock output of the IEEE1149.1 TAP that pulses on the falling edge of the TCK input when the boundary register is selected by the instruction loaded in the Instruction Register.</p>
+    <p num="41">TDI, TDO: Connections to the IEEE1149.1 Boundary Register scan chain.</p>
+    <p num="42">
+      With reference now to FIG. 3, there is illustrated an exemplary embodiment of an I/O cell design having separate in-line SRL latches for the input receiver and output driver of a bi-directional I/O port of an integrated circuit chip.
+      <br/>
+      As depicted, I/O cell 100 includes a dual-port receiver SRL 102, a dual-port driver SRL 104, and an IEEE1149.1-compliant boundary scan cell 106.
+      <br/>
+      Boundary scan cell 106 includes IEEE1149.1 hold latch 110, IEEE1149.1 scan latch 112, and three multiplexers 114, 116, and 118.
+    </p>
+    <p num="43">
+      Receiver SRL 102 has a first master data input (D1) connected to RDI such that receiver SRL 102 receives data input from an input receiver, a second master data input (I) connected to test_si, the signal from the test scan chain, and a master data output (Li) connected to data input D0 of multiplexer 116.
+      <br/>
+      Latching of test_si by the master latch of receiver SRL 102 is controlled by CEO_A, which is connected to master clock input A. The latching of functional data by the master latch of receiver SRL 102 is controlled by the RClkC signal connected to master clock input C1.
+      <br/>
+      As discussed supra with respect to FIG. 2, the first data input of the slave latch of receiver SRL 102 is internally connected to master data output L1 and is clocked by the RClkB signal connected to slave clock input B. The second slave data input D2 is connected to slave data output L2 of IEEE1149.1 scan latch 112 and is clocked by the clock signal received at the second slave clock input C2.
+      <br/>
+      The slave latch output L2 of receiver SRL 102 supplies RDO to the functional logic of the integrated circuit including I/O cell 100 and is also connected to the master data test input (I) of driver SRL 104.
+    </p>
+    <p num="44">
+      Driver SRL 104 has a first master data input D1 connected to DDI such that receiver SRL 104 receives data from the functional logic of the integrated circuit including I/O cell 100.
+      <br/>
+      Driver SRL 104 further includes a master data output L1 connected to data input D1 of multiplexer 116 and data input D0 of multiplexer 114.
+      <br/>
+      Latching of RDO by the master latch of receiver SRL 102 is controlled by CEO_A, meaning that master latch output L1 of driver SRL 104 follows RDO during scan testing.
+      <br/>
+      During functional operation CEO_A is disabled and capture of DDI is controlled by DClkC, which is connected to master clock input C1.
+      <br/>
+      Similar to receiver SRL 102, the first data input of the slave latch of driver SRL 104 is internally connected to master data output L1 and is clocked by the DClkB signal connected to slave clock input B. The second slave data input D2 is connected to slave data output L2 of IEEE1149.1 hold latch 110 and is clocked by the clock signal received at the second slave clock input C2.
+      <br/>
+      The slave latch output L2 of driver SRL 104 supplies DDO to an output driver of the integrated circuit including I/O cell 100 and is also connected to data input I of IEEE1149.1 hold latch 110.
+      <br/>
+      It is also important to note that multiplexers 114 and 116 have been incorporated into boundary scan cell 106 in parallel with SRLs 102 and 104 as discussed supra with respect to FIG. 2 in order to eliminate loading that would otherwise be present on slave outputs L2 of SRLs 102 and 104.
+    </p>
+    <p num="45">
+      Because the operation of boundary scan cell 106 is closely prescribed by the widely available IEEE1149.1 standard, a detailed explanation of its operation is omitted here.
+      <br/>
+      However, it should be understood that the embodiments of I/O cells shown in FIGS. 3-7 support IEEE1149.1 boundary scan chain testing, whereby test stimuli are scanned into a boundary register scan chain connected to the TDI input of IEEE1149.1 scan latch 112, latched through boundary scan cell 106 in response to the ShiftClk signal connected to clock input A of IEEE1149.1 scan latch 112, and output via slave output L2 of IEEE1149.1 scan latch 112 as the TDO signal.
+      <br/>
+      Further details of the particular implementation of the IEEE1149.1 standard illustrated in FIGS. 3-7 may be found in IEEE1149.1 Boundary-Scan in IBM ASICs, which is available from IBM Microelectronics Division as Order No. SA14-2282-03 and is incorporated herein by reference.
+    </p>
+    <p num="46">
+      The dual-port I/O cells illustrated in FIGS. 4-7 also support LSSD (Level Sensitive Scan Design) chip testing.
+      <br/>
+      In LSSD chip testing, test stimuli are loaded into an LSSD test scan chain connected to the second master data input (I) of a receiver, driver, or enable SRL.
+      <br/>
+      In response to the CEO_A signal connected to clock input A of the SRL, the SRL latches the test_si input provided by the LSSD scan chain signal.
+      <br/>
+      By supplying alternating pulses of clock signals connected to the A and B clock inputs of the various latches used in each embodiment, the test stimuli propagate through the latch circuitry and are output to the LSSD scan chain as the test_so signal.
+      <br/>
+      Of course, in alternative embodiments that utilize mux-scan latches instead of dual-port latches, similar chip testing can be conducted utilizing appropriate test input and clock signals.
+    </p>
+    <p num="47">
+      Referring now to FIG. 4, there is depicted an illustrative embodiment of an I/O cell design that contains only a driver SRL for functional operation, but can capture receiver data for chip test purposes.
+      <br/>
+      As illustrated, I/O cell 130 includes a driver SRL 132, which is coupled to an IEEE1149.1-compliant boundary scan cell 134 comprising IEEE1149.1 hold latch 136, IEEE1149.1 scan latch 138, and multiplexer 140.
+      <br/>
+      Driver SRL 132 has the same interconnections as driver SRL 104 of FIG. 3, except that the second master data input I is directly connected to test scan chain input test_si.
+      <br/>
+      DDO can be a two-state or three-state signal in functional operation.
+      <br/>
+      Multiplexer 140, in addition to having data input D0 connected to master data output L1 of driver SRL 132, has a second data input D1 connected in RDI.
+      <br/>
+      Thus, although I/O cell 130 can only drive output data during functional operation, the connection of multiplexer data input D1 to RDI permits receiver data to be captured during scan testing (i.e., when EXTEST is active).
+    </p>
+    <p num="48">
+      With reference now to FIG. 5, there is illustrated an exemplary embodiment of an I/O cell design that contains a driver SRL for use with a two or three state output-only port.
+      <br/>
+      As shown, I/O cell 150 includes a driver SRL 152 coupled to an IEEE1149.1-compliant boundary scan cell 154, which contains IEEE1149.1 hold latch 156, IEEE1149.1 scan latch 158, and multiplexer 160.
+      <br/>
+      The embodiment depicted in FIG. 5 is identical to that illustrated in FIG. 4, with the exception that data input D1 of multiplexer 160 is connected to data output L2 of IEEE1149.1 hold latch 156 rather than RDI.
+      <br/>
+      Accordingly, when EXTEST is active, multiplexer 160 feeds the test_so signal output by IEEE1149.1 hold latch 156 back to IEEE1149.1 scan latch 158 rather than supplying receiver input data.
+    </p>
+    <p num="49">
+      Referring now to FIG. 6, there is depicted an illustrative embodiment of an I/O cell that contains an enable SRL for controlling one or more bi-directional or three-state ports.
+      <br/>
+      As illustrated, I/O cell 170 contains enable SRL 172 and an IEEE1149.1-compliant boundary scan cell 176 including an AND gate 174.
+      <br/>
+      Enable SRL 172 includes a dual-port latch having a first master data input (D1) connected to the EDI signal received from the integrated circuit's functional logic and a second master data input (I) connected to test scan chain input test_si.
+      <br/>
+      The first and second master data inputs are clocked by clock signals EClkC and CEO_A, respectively.
+      <br/>
+      The slave latch of enable SRL 172 is also a dual-port latch and includes a first slave data input (not shown) connected to master data output L1 and a second slave data input (D2) connected to the output of AND gate 174.
+      <br/>
+      The first and second slave data inputs are clocked by the EClkB and Mode_B*CE1_C2 signals, respectively, which are connected to the B and C2 clock inputs of the slave latch of enable SRL 172.
+      <br/>
+      During functional operation, the clock signal connected to clock input C2 is disabled and EClkB is enabled.
+      <br/>
+      Conversely, during testing, the clock signal connected to clock input C2 is enabled, and data is latched at data input D2 if the HIGHZ instruction is not loaded in the TAP instruction register and the test so signal output by IEEE1149.1 hold latch 178 is active.
+    </p>
+    <p num="50">
+      The interconnections between boundary scan cell 176 and enable SRL 172 are the same as the interconnections between driver SRL 152 and boundary scan cell 154 of FIG. 5, except that data input D2 of enable SRL 172 is not directly connected to the test_so signal generated by IEEE1149.1 hold latch 178, but is instead qualified with an inverted HIGHZ signal by AND gate 172.
+      <br/>
+      In addition, the second data input D1 of multiplexer 182 is connected to the output of AND gate 174 rather than directly to the test_so signal generated by IEEE1149.1 hold latch 178.
+    </p>
+    <p num="51">
+      With reference now to FIG. 7, there is illustrated an exemplary embodiment of an I/O cell design that contains only a receiver SRL for a port that is functionally input-only, but optionally has a driver output to support chip testing.
+      <br/>
+      Thus, as shown in FIG. 7, I/O cell 200 has a receiver SRL 202, an optional output inverter 210, and an IEEE1149.1-compliant boundary scan cell 204.
+      <br/>
+      Receiver SRL 202 includes a dual-port latch having a first master data input (D1) connected to the RDI signal received from the integrated circuit's functional logic and a second master data input (I) connected to test scan chain input test_si.
+      <br/>
+      The first and second master data inputs are clocked by clock signals RClkC and CEO_A, respectively.
+      <br/>
+      The slave latch of receiver SRL 202 is also a dual-port latch and includes a first slave data input (not shown) connected to master data output L1 and a second slave data input (D2) connected to the TDO signal generated by IEEE1149.1 scan latch 206.
+      <br/>
+      The first and second slave data inputs are clocked by the RClkB and Mode_A*CE1_C2 signals, respectively, which are connected to the B and C2 clock inputs of the slave latch of receiver SRL 202.
+      <br/>
+      During functional operation, the CEO_A and the clock signal connected to clock input C2 are disabled, and RClkC and RClkB are enabled.
+      <br/>
+      Conversely, during testing, CEO_A and the clock signal connected to clock input C2 are enabled.
+      <br/>
+      The master data output L1 of receiver SRL 202 is connected to the first data input DO of multiplexer 208, and the slave data output L2 supplies the RDO signal to the functional logic of the integrated circuit.
+      <br/>
+      As shown, the slave data output also forms the test_so signal connected to the test scan chain.
+    </p>
+    <p num="52">
+      As described supra for receiver SRL 102 of FIG. 3, the TDO signal supplied by the L2 output of IEEE1149.1 scan latch 206 forms the second data input (D2) of receiver SRL 202.
+      <br/>
+      In addition, the TDO signal forms the second data input of multiplexer 208 and is inverted by optional output inverter 210 to produce an optional DDO signal that can be utilized during chip testing.
+      <br/>
+      As depicted, the IEEE1149.1 hold latch has been eliminated from boundary scan cell 204.
+    </p>
+    <p num="53">
+      As has been described, the present invention satisfies a long felt need by providing a high performance circuit including an SRL and an IEEE1149.1 compliant boundary scan cell.
+      <br/>
+      In accordance with the present invention, the SRL includes master and slave latches that each have multiple data inputs.
+      <br/>
+      The boundary scan cell and the master and slave latches of the SRL are interconnected such that the data path is subject to only the block delay of the SRL (i.e., the data path does not include a multiplexer delay) and the slave data output of the SRL is not subject to loading by the boundary scan cell during functional operation.
+    </p>
+    <p num="54">While the invention has been particularly shown and described with reference to a preferred embodiment, it will be understood by those skilled in the art that various changes in form and detail may be made therein without departing from the spirit and scope of the invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A circuit, comprising:</claim-text>
+      <claim-text>a latch circuit including a slave latch and a master latch having a data output, said slave latch including at least a first data input connected to said data output of said master latch, a second data input, and a control input that receives a control signal that controls latching of data present at said second data input by said slave latch;</claim-text>
+      <claim-text>and boundary scan cell circuitry connected to said second data input and to said control input, wherein said boundary scan cell circuitry supplies said control signal and said data to said slave latch.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The circuit of claim 1, wherein said boundary scan cell circuitry is IEEE1149.1-compliant.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The circuit of claim 1, said slave latch having a data output, wherein said circuit further comprises an output driver having a driver input coupled to said data output of said slave latch.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The circuit of claim 1, said master latch having a data input, wherein said circuit further comprises an input receiver having a receiver output coupled to said data input of said master latch.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The circuit of claim 1, said slave latch having a first clock input connected to a first clock signal that enables latching of data present at said first data input, wherein said control input is a second clock input and said control signal is a second clock signal.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The circuit of claim 1, said slave latch having a clock input connected to a clock signal that enables latching of data by said slave latch, wherein said control signal received at said control input specifies from which of said first data input and said second data input data is to be latched in response to said clock signal.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The circuit of claim 1, wherein said data output of said master latch is connected to said boundary scan cell circuitry.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. An integrated circuit, comprising: a substrate; an integrated circuit formed within said substrate, said integrated circuit including:</claim-text>
+      <claim-text>- a latch circuit including a slave latch and a master latch having a data output, said slave latch including at least a first data input connected to said data output of said master latch, a second data input, and a control input that receives a control signal that controls latching of data present at said second data input by said slave latch;</claim-text>
+      <claim-text>and - boundary scan cell circuitry connected to said second data input and to said control input, wherein said boundary scan cell circuitry supplies said control signal and said data to said slave latch; - functional logic coupled to said latch circuit.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The integrated circuit of claim 8, wherein said boundary scan cell circuitry is IEEE1149.1-compliant.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The integrated circuit of claim 8, said slave latch having a data output, wherein said circuit further comprises an output driver having a driver input coupled to said data output of said slave latch.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The integrated circuit of claim 8, said master latch having a data input, wherein said circuit further comprises an input receiver having a receiver output coupled to said data input of said master latch.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The integrated circuit of claim 8, said slave latch having a first clock input connected to a first clock signal that enables latching of data present at said first data input, wherein said control input is a second clock input and said control signal is a second clock signal.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The integrated circuit of claim 8, said slave latch having a clock input connected to a clock signal that enables latching of data by said slave latch, wherein said control signal received at said control input specifies from which of said first data input and said second data input data is to be latched in response to said clock signal.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The integrated circuit of claim 8, wherein said data output of said master latch is connected to said boundary scan cell circuitry.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. An apparatus, comprising: a circuit card;</claim-text>
+      <claim-text>and an integrated circuit mounted on said circuit card, said integrated circuit including: - a latch circuit including a slave latch and a master latch having a data output, said slave latch including at least a first data input connected to said data output of said master latch, a second data input, and a control input that receives a control signal that controls latching of data present at said second data input by said slave latch;</claim-text>
+      <claim-text>and - boundary scan cell circuitry connected to said second data input and to said control input, wherein said boundary scan cell circuitry supplies said control signal and said data to said slave latch.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The apparatus of claim 15, wherein said boundary scan cell circuitry is IEEE1149.1-compliant.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The apparatus of claim 15, said slave latch having a data output, wherein said circuit further comprises an output driver having a driver output and a driver input coupled to said data output of said slave latch.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The apparatus of claim 17, wherein said integrated circuit is a first integrated circuit, said apparatus further comprising: a second integrated circuit mounted on said circuit card, said second integrated circuit including: - an input receiver having a receiver output and a receiver input coupled to said driver output; - a latch circuit including a slave latch and master latch having a data input and a data output, wherein said data input of said master latch is coupled to said receiver output, and wherein said slave latch includes at least a first data input connected to said data output of said master latch, a second data input, and a control input that receives a control signal that controls latching of data present at said second data input by said slave latch;</claim-text>
+      <claim-text>and - boundary scan cell circuitry connected to said second data input and to said control input, wherein said boundary scan cell circuitry supplies said control signal and said data to said slave latch.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The apparatus of claim 15, said slave latch having a first clock input connected to a first clock signal that enables latching of data present at said first data input, wherein said control input is a second clock input and said control signal is a second clock signal.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The apparatus of claim 15, said slave latch having a clock input connected to a clock signal that enables latching of data by said slave latch, wherein said control signal received at said control input specifies from which of said first data input and said second data input data is to be latched in response to said clock signal.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The apparatus of claim 15, wherein said data output of said master latch is connected to said boundary scan cell circuitry.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The apparatus of claim 15, wherein said circuit is an integrated circuit formed within a substrate, said circuit further including functional logic coupled to said latch circuit.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

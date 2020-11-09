@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181835B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181835</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181835</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25545245" extended-family-id="42108529">
+      <document-id>
+        <country>US</country>
+        <doc-number>08998470</doc-number>
+        <kind>A</kind>
+        <date>19971226</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08998470</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165011</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>99847097</doc-number>
+        <kind>A</kind>
+        <date>19971226</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08998470</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   3/40        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>3</main-group>
+        <subgroup>40</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>382299000</text>
+        <class>382</class>
+        <subclass>299000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>358447000</text>
+        <class>358</class>
+        <subclass>447000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-003/40D</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>003</main-group>
+        <subgroup>40D</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-003/4023</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>3</main-group>
+        <subgroup>4023</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>21</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6181835</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Non-integer scaling of raster images with image quality enhancement using an anamorphically scaled intermediate bitmap</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>ESCHBACH REINER</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5258854</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5258854</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>DEAGUIAR JOHN R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5263136</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5263136</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>KANG HENRY R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5270836</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5270836</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>BANTON MARTIN E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5404411</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5404411</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>BLOOMBERG DAN S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5467410</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5467410</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>BUTTERFIELD STEPHEN R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5509115</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5509115</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>KOLB JOSEPH P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5526468</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5526468</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>LOCE ROBERT P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5579445</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5579445</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>BANTON MARTIN E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5634088</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5634088</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>ESCHBACH REINER</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5724455</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5724455</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>KOIKE KAZUMASA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5815605</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5815605</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>ROBSON THOMAS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5867612</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5867612</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>DUFFIN DARRIN LEE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5870535</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5870535</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="14">
+          <text>KAMON KOUICHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5920646</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5920646</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>WALSH BRIAN F, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4437122</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4437122</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>MINTZER FREDERICK C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4569081</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4569081</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>MINTZER FREDERICK C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4712140</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4712140</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>LOCE ROBERT P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5387985</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5387985</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>BANTON MARTIN E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5539866</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5539866</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Hamill, Carroll Francis</name>
+            <address>
+              <address-1>Boulder, CO, US</address-1>
+              <city>Boulder</city>
+              <state>CO</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Buchenhorner, Michael J.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Bongini, Stephen C.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Fleit, Kain, Gibbons, Gutman &amp; Bongini P.L.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Mehta, Bhavesh</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method for scaling an input bitmap by a non-integer factor with improved image quality comprises the steps of: selecting a pel in the input bitmap; selecting a neighborhood surrounding the selected pel; searching a set of image feature patterns to find an image feature pattern that matches the selected neighborhood; and writing a blocks of bits to an anamorphically scaled intermediate bitmap based on the match.
+      <br/>
+      The intermediate bitmap has a resolution in a first direction (row or horizontal direction) which is greater than that of the desired output resolution and has resolution in a second direction (column or vertical direction) which is equal to that of the desired output.
+      <br/>
+      The appropriate block of bits is obtained by subsampling an image enhancing tile which corresponds to the matched image feature pattern.
+      <br/>
+      The process of matching neighborhoods and writing a subsampled image enhancing tile (i.e., block of bits) to the intermediate bitmap is repeated for each pel in the input bitmap.
+      <br/>
+      When the image enhancing tiles are subsampled to the proper size and shape and placed in the proper locations in the intermediate bitmap, the jagged "stair-step" look of curved and diagonal image features in the input image is smoothed, resulting in improved quality.
+      <br/>
+      The intermediate rows of the bitmap are then scaled down to a selected output resolution and written into an output bitmap with improved image quality and resolution greater than that of the input bitmap.
+      <br/>
+      This method is particularly useful for scaling raster font characters from a given input resolution to the resolution required by an output device when the resolution of the output device is a non-integer multiple of the input resolution.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+    <p num="1">
+      This application relates to technology similar to that in U.S. patent application Ser.
+      <br/>
+      Nos. 08/998,490 and 08/998,545, which were filed concurrently herewith and are assigned to the same entity.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">The present invention relates to printers and more specifically to a system and method for operating a printer with non-integer scaling of raster images with print quality enhancement.</p>
+    <p num="3">
+      Images representing font characters are stored in what is known as bitmaps.
+      <br/>
+      As the name suggests, a bitmap is a mapping of ones and zeroes which indicates the color values that individual picture elements or "pels" within an image will have when displayed by an output device.
+      <br/>
+      For example, a value of "1" within a bitmap may indicate that a corresponding picture element will have a color value of black when the image is printed on a black and white printer.
+      <br/>
+      A value of "0" may indicate that a corresponding picture element has a color value of white when the image is printed.
+      <br/>
+      Some users of printers have print jobs with old font resources, wherein the resolution is, for example, 240 pels per inch.
+      <br/>
+      New printers have resolutions of 600 pels per inch.
+      <br/>
+      Thus, there is a need for a method of scaling images with a resolution of 240 pels per inch to a resolution of 600 pels per inch with image quality enhancement.
+      <br/>
+      This problem is not limited to the precise resolutions mentioned herein, it occurs continually as printer image resolution improves.
+    </p>
+    <p num="4">
+      A method for enhancement based on matches of image features is described in U.S. Pat. No. 4,437,122, which is incorporated by reference.
+      <br/>
+      This patent relates generally to pattern matching.
+      <br/>
+      This patent describes a method of enhancing the resolution and quality of characters.
+      <br/>
+      The method involves identifying patterns or "neighbor fields" surrounding selected pels within an input set of pels and enhancing the selected pels based on the features of the surrounding "neighbor field." The process results in a character whose resolution has been increased by a factor of three and whose diagonal and curved strokes have been smoothed.
+    </p>
+    <p num="5">
+      Another patent in the area is U.S. Pat. No. 5,387,985 which is also incorporated by reference.
+      <br/>
+      This patent relates to the use of a plurality of lookup tables wherein each lookup table represents a unique phase relationship between the input and output bitmaps and to the use an intermediate bitmap with a resolution that is a common multiple of the input and output resolutions to effect non-integer resolution conversion.
+    </p>
+    <p num="6">However, the prior art is believed to lack the flexibility required for solving the problems of users of printers who have print jobs with old font resources and require non-integer scaling of font characters with quality enhancement.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">
+      Briefly, in accordance with the invention, a method for scaling a binary image from an input bitmap with lower resolution to an output bitmap with higher resolution and improved image quality includes the steps of: selecting a pel in the input bitmap; selecting a neighborhood centered around the selected pel; comparing the selected neighborhood with a set of preselected image feature patterns representing typical image features; and when the selected neighborhood matches an image feature pattern, writing an appropriate block of bits to an anamorphically scaled intermediate bitmap.
+      <br/>
+      That is a bitmap whose resolution in a first direction (e.g., row direction) is different from its resolution in a second direction perpendicular to the first direction (e.g., column direction).
+      <br/>
+      The destination of the block within the intermediate bitmap is determined by the location of the selected pel within the input bitmap.
+      <br/>
+      The size and shape of the block also depend upon the location of the selected pel within the input bitmap.
+    </p>
+    <p num="8">
+      The block of bits is obtained by subsampling an image enhancing tile which corresponds to the matched image feature pattern.
+      <br/>
+      Subsampling is the process of determining a size and shape for an image enhancing tile based on the location of the corresponding pel in the input bitmap.
+      <br/>
+      The process of matching neighborhoods and writing a subsampled image enhancing tile (i.e., block of bits) to the intermediate bitmap is repeated for each pel in the input bitmap.
+      <br/>
+      When the image enhancing tiles are subsampled to the proper size and shape and placed in the proper locations in the intermediate bitmap, the jagged "stair-step" look of curved and diagonal image features in the input image is smoothed.
+      <br/>
+      The rows of the intermediate bitmap are then scaled down to the desired output resolution.
+      <br/>
+      The quality of output images obtained using this method is generally much higher than that obtained by methods which scale up to a desired resolution by simply replicating pels within the input bitmap.
+    </p>
+    <p num="9">
+      BRIEF DESCRIPTION OF THE DRAWING(S)
+      <br/>
+      FIG. 1 is a block diagram of a scaling system including spatial enhancement functionality.
+      <br/>
+      FIG. 1A shows an image feature pattern with a white center pel and its corresponding image enhancing tiles.
+      <br/>
+      FIG. 1B shows an image feature pattern with a black center pel and its corresponding image enhancing tiles.
+      <br/>
+      FIG. 2 is a flow chart illustrating an image quality enhancement method wherein an intermediate bitmap is not used.
+      <br/>
+      FIG. 3 is a flow chart showing an enhancement of the spatial enhancement method of FIG. 2.
+      <br/>
+      FIG. 4 is a flow chart illustrating an image quality enhancement method wherein an intermediate bitmap is used.
+      <br/>
+      FIG. 5 is a flow chart showing an enhancement of the image quality enhancement method of FIG. 4.
+      <br/>
+      FIG. 6 is a flow chart showing another enhancement of the image quality enhancement method of FIG. 4.
+      <br/>
+      FIG. 7 illustrates the enhancement of an input bitmap using an intermediate bitmap.
+      <br/>
+      FIGS. 8A, 8B, and 8C show the improvement in quality obtained using the method of the preferred embodiment.
+      <br/>
+      FIG. 9 is a flow chart showing an enhancement of the image quality enhancement method of FIG. 4.
+    </p>
+    <p num="10">DESCRIPTION OF THE ILLUSTRATIVE EMBODIMENT(S)</p>
+    <p num="11">
+      Referring to FIG. 1, there is shown a scaling system 10 in accordance with the invention.
+      <br/>
+      Scaling is the process of enlarging or reducing all or part of a display image by establishing a mapping from the set of bits (bitmap) which represents the input image to a larger or smaller set of bits which represents the enlarged or reduced image.
+      <br/>
+      In accordance with the invention an input bitmap 12 is processed by a spatial enhancer and scaler 14 to provide an output bitmap 16 with enhanced resolution.
+      <br/>
+      To effect image enhancement, some bits within the input map will map to collections of bits in the output bitmap whose elements have values different from the original bits.
+      <br/>
+      For example, in FIG. 1, the 2 * 2 block of bits 22 within the input bitmap (22) maps to the 5 * 5 block of bits (20) in the output bitmap.
+      <br/>
+      The spatial enhancer and scaler 14 implements a method for scaling and enhancing a binary image by a non-integer factor wherein a neighborhood is selected for each pel in the input bitmap.
+      <br/>
+      The spatial enhancer and scaler 14 may be implemented with software described herein loaded in printing apparatus, may be resident on ROM, may be a hardwired circuit or a combination of these (possibly located within a printer).
+      <br/>
+      Moreover, the functionality required for using the invention may be embodied in computer-readable media (such as 3.5 inch diskettes) to be used in programming an information-processing apparatus (e.g., a printer or computer controlling a printer) to perform in accordance with the invention.
+      <br/>
+      The resulting output bitmap 16 may be stored in any suitable cache memory 18 for possible fast reuse.
+      <br/>
+      As an example, if the spatial enhancer generates data to be used for the purpose of driving a display device with 600 pels per inch resolution and the resolution of the input bitmap is 240 pels per inch, the spatial enhancer may transform the 240 pel input bitmap into an intermediate bitmap whose rows have a resolution of 1200 pels per inch and whose resolution in the column direction is 600 pels per inch.
+      <br/>
+      The rows of the intermediate bitmap may then be scaled to 600 pels per inch to create an output bitmap with enhanced resolution and image quality.
+    </p>
+    <p num="12">
+      Referring to FIG. 2, there is shown a flow chart illustrating an image enhancement method 100 wherein an intermediate bitmap is not used to produce the output bitmap.
+      <br/>
+      In step 104, a pel is selected in the input bitmap.
+      <br/>
+      Then a neighborhood is selected (step 106) surrounding the selected pel.
+      <br/>
+      A search is then performed (step 108), in a given storage location or locations to find an image feature pattern matching the pattern of the selected neighborhood.
+      <br/>
+      Once a match is found the corresponding bit pattern of proper size and shape is written (step 110) to an output bitmap.
+      <br/>
+      A decision 112 is then made on whether there are any additional pels to be checked in the input bitmap.
+      <br/>
+      If there are, the process returns to step 104 and the process continues to fill the output bitmap.
+      <br/>
+      If there are not, the process is done.
+    </p>
+    <p num="13">
+      Referring to FIG. 3, there are shown steps expanding on step 110 of method 100 shown in FIG. 2.
+      <br/>
+      Thus, in accordance with this method, step 110 of method 100 (illustrated in FIG. 2) further comprises the steps of selecting (step 114) an image enhancing tile corresponding to the matched image feature pattern to be written to the output bitmap; creating a subsampled image enhancing tile by subsampling (step 116) the image enhancing tile to proper size and shape based on the location of the selected input pel in the input bitmap; determining (step 118) a destination for the subsampled image enhancing tile within the output bitmap based on the location of the selected input pel; and writing (step 120) the subsampled image enhancing tile to the destination in the output bitmap.
+    </p>
+    <p num="14">
+      Referring to FIG. 4, there is shown an image enhancement method 200 which uses an intermediate bitmap with a resolution that is greater than the desired output resolution but not a common multiple of the input and desired output resolutions.
+      <br/>
+      The method 200 comprises the steps of: selecting (step 202) a pel in the input bitmap; selecting (step 204) a neighborhood surrounding the selected pel; searching (step 206) a set of image feature patterns to find an image feature pattern that matches the selected neighborhood; writing (step 208) an appropriate pattern to an intermediate bitmap based on the match.
+      <br/>
+      A decision 210 is then made whether there are other pels to check in the input bitmap.
+      <br/>
+      If there are, the method returns to step 202 to continue building the output bitmap.
+      <br/>
+      If there are no more pels to process in the input bitmap, the method 200 proceeds to step 212, wherein the intermediate bitmap is scaled to an output bitmap with the desired resolution.
+    </p>
+    <p num="15">
+      FIG. 5, illustrates an image enhancement method in which a single image enhancing tile corresponds to each image feature.
+      <br/>
+      Thus, in accordance with this method, step 208 of method 200 further comprises the steps of selecting (step 214) an image enhancing tile corresponding to the matched image feature pattern to be written to the intermediate bitmap; creating a subsampled image enhancing tile by subsampling (step 216) the image enhancing tile to proper size and shape based on the location of the selected input pel in the input bitmap; determining (step 218) a destination for the subsampled image enhancing tile within the intermediate bitmap and writing (step 220) the subsampled image enhancing tile to its destination in the intermediate bitmap.
+      <br/>
+      The process is repeated for each pel in the input bitmap, resulting in an intermediate bitmap which has been scaled and enhanced.
+    </p>
+    <p num="16">
+      As an example of the method of scaling with image quality enhancement in which an intermediate bitmap is used, consider the case where the input bitmap is scaled by a factor of 5/4.
+      <br/>
+      For example, the input bitmap has a resolution of 240 pels per inch and an output bitmap having a resolution of 300 pels per inch with improved quality is sought.
+      <br/>
+      An intermediate bitmap with resolution of 600 pels per inch will be created and it will be scaled down to 300 pels per inch.
+    </p>
+    <p num="17">
+      Referring to FIG. 1A, in accordance with the invention, a pel is selected in the input bitmap.
+      <br/>
+      Then a neighborhood is selected surrounding (centered about) the selected pel.
+      <br/>
+      In this example, the pel selected is white and the neighborhood is a 5 * 5 block of bits.
+      <br/>
+      The selected neighborhood is then compared with a set of 5 * 5 bit patterns (called image feature patterns) which represent typical image features (e.g., parts of character images).
+      <br/>
+      When the selected neighborhood matches an image feature pattern, an appropriately sized block of bits is then written to the proper location in the intermediate bitmap.
+      <br/>
+      Every neighborhood is guaranteed to match an image feature pattern since the set of image feature patterns includes two default image feature patterns--one for neighborhoods with white center pels (FIG. 1A) and one for neighborhoods with black center pels (FIG. 1B).
+      <br/>
+      If a selected neighborhood fails to match a non-default image feature pattern, it will match one of the default patterns.
+      <br/>
+      The image enhancing tiles corresponding to the default image feature patterns simply represent regions of various shapes which have the same color as the center pel within the input neighborhood.
+    </p>
+    <p num="18">
+      The image enhancing tiles corresponding to non-default image feature patterns are chosen such that the coarser regions of diagonal and curved strokes in the input image are smoothed as the character is transformed into a higher resolution, i.e., as the process above is repeated for each pel in the input bitmap.
+      <br/>
+      These tiles may contain bits whose values are different from that of the center pel within the bitmap representing the selected neighborhood. (See FIG. 1A and FIG. 1B.) This reduces the "stair step" effect characteristic of raster images and improves the quality of the intermediate image.
+      <br/>
+      As the bits in the input bitmap are mapped into the intermediate bitmap, the location, size and shape of subsampled image enhancing tiles to be written to the intermediate bitmap are determined by the location of the selected pel within the input bitmap.
+      <br/>
+      As the selection and placement process described above is repeated for each pel in the input bitmap, the subsampled image enhancing tiles are tiled together and an intermediate bitmap is produced which has rows with a resolution that is greater than that of the desired output resolution.
+      <br/>
+      The output bitmap with enhanced resolution and improved quality is then created by scaling the rows of the intermediate bitmap as described below.
+    </p>
+    <p num="19">
+      Referring to FIGS. 1A and 1B, there are shown two image feature patterns and their corresponding subsampled image enhancing tiles.
+      <br/>
+      In FIG. 1A, the center pel is white and in FIG. 1B, it is black.
+      <br/>
+      For each image feature pattern, one of two subsampled image enhancing tiles may be obtained.
+      <br/>
+      When a match between a neighborhood and an image feature pattern occurs, an image enhancing tile is selected.
+      <br/>
+      This tile is then subsampled based upon the location of the selected pel within the input bitmap to the proper size.
+      <br/>
+      In the embodiment described here, the image enhancing tiles are 3 * 3 bitmaps which are then subsampled to 3 * 2 bitmaps if required. (If a 3 * 3 tile is needed for the output, the 3 * 3 image enhancing tile is written direction to the output without subsampling.) The subsampled image enhancing tile is then written to the proper location in the intermediate bitmap.
+      <br/>
+      It is not necessary that the resolution of the image enhancing tiles be a common multiple of the input and intermediate resolutions.
+      <br/>
+      This process is repeated for all pels in the input.
+      <br/>
+      When completed, the process produces an intermediate image that is scaled and enhanced.
+      <br/>
+      To accomplish the smoothing, a white pel in the input or a black pel in the input may map to a region in the intermediate bitmap containing one or more white pels.
+      <br/>
+      The rows of the intermediate bitmap are then scaled down to create an output bitmap of the desired resolution and improved image quality.
+    </p>
+    <p num="20">
+      In the preferred embodiment, the image feature patterns are stored in two arrays: one for image features with white center pels and one for image features with black center pels.
+      <br/>
+      Breaking up the set of image feature patterns in this fashion expedites the search for a match between the selected input neighborhood and an image feature pattern.
+      <br/>
+      An array is selected solely on the basis of the color value of the center pel within the selected input neighborhood and is not dependent upon a phase relationship between the input and output bitmaps.
+      <br/>
+      The elements of the array are of sufficient size to contain the bitmaps which represent the image features.
+      <br/>
+      When a neighborhood in the input bitmap is selected for comparison, certain bits may be ignored in the comparison. (FIG. 1A and FIG. 1B.) Therefore, each image feature pattern has a corresponding mask which is used to mask out bits in the selected neighborhood pattern which will be ignored.
+      <br/>
+      The masked input pattern is then compared to entries in one of the two image feature pattern arrays.
+      <br/>
+      When a match is found, a corresponding image enhancing tile is selected from an array whose elements are of sufficient size to contain the bitmaps which represent the image enhancing tiles.
+      <br/>
+      This image enhancing tile is then subsampled to the required size and shape based upon the location of the center pel of the input neighborhood within the input bitmap.
+      <br/>
+      The steps of subsampling the image enhancing tile and writing to the intermediate bitmap may be accomplished by obtaining a subset of rows from the image enhancing tile and oring the subset of rows into the proper storage destinations in the intermediate bitmap.
+      <br/>
+      In the preferred embodiment, the rows of the completed intermediate bitmap are then scaled using a method which scales runs of white and black pels to the desired output resolution.
+    </p>
+    <p num="21">
+      Also, even though 3 * 3 image enhancing tiles are shown, the tiles may be of any size sufficient to create an intermediate bitmap with resolution greater than that of the desired output in the horizontal (row) direction.
+      <br/>
+      For example, the tiles could be 5 * 5 or 5 * 3 in size.
+    </p>
+    <p num="22">
+      Referring to FIG. 6, there is shown additional detail for method 200 in which an intermediate bitmap is created which has a resolution that is greater than the output resolution but not necessarily a common multiple of the input and output resolutions in both directions.
+      <br/>
+      Thus, step 212 of method 200 further comprises the steps of scaling (Step 226) each row in the intermediate bitmap using a fast scaling technique which scales runs of white and black pels within the row; subsampling (step 228) the intermediate bitmap in the direction perpendicular to the rows (vertical direction) by removing a subset of the rows within the intermediate bitmap; and writing (step 230) the rows within the subset to the output bitmap.
+    </p>
+    <p num="23">
+      The intermediate bitmap may also be scaled to the desired output resolution by ORing (step 232) (i.e., performing a logical OR operation) together collections of bits in the intermediate bitmap and writing (step 234) the results of the ORing process to the appropriate destinations in the output bitmap.
+      <br/>
+      The collections of bits in the intermediate bitmap may be organized into word sized vectors of bits so that the ORing process can efficiently operate on collections of words in the intermediate bitmap rather than on collections of single bits.
+    </p>
+    <p num="24">
+      As an example, the input bitmap has a resolution of 240 pels, the intermediate bitmap has a resolution of 600 pels--2.5 times the input resolution and the output bitmap has resolution of 300 pels--one-half (1/2) the resolution of the intermediate bitmap.
+      <br/>
+      The resolution of the intermediate bitmap is not a common multiple of the input and output resolutions.
+    </p>
+    <p num="25">Although the preferred embodiment implements a scaling with enhancement by a factor of 5/4, the methods discussed herein may easily be extended to scaling by other factors.</p>
+    <p num="26">
+      FIG. 7 illustrates the enhancement of an input bitmap in accordance with the invention using an anmorphically scaled intermediate bitmap (a bitmap having different resolutions in its horizontal (row) and vertical (column) directions.
+      <br/>
+      The input bitmap is transformed into the intermediate bitmap as previously described.
+      <br/>
+      The rows of the intermediate bitmap are then scaled to the desired output resolution using a method which scales runs of white and black pels down by a factor of 2.
+    </p>
+    <p num="27">
+      FIGS. 8A, 8B, and 8C show the improvement in quality obtained using the method of the preferred embodiment.
+      <br/>
+      FIGS. 8B and 8C show the bitmap of FIG. 8A scaled by a factor of 5/2 using two different scaling techniques.
+      <br/>
+      The bitmap of FIG. 8B is scaled using a simple technique which effectively duplicates each odd pel in a row and replicates each even row three times.
+      <br/>
+      The bitmap in FIG. 8C is scaled using the method implemented within the preferred embodiment.
+      <br/>
+      The curved part of the character "O" within this image is considerably smoother than that shown in FIG. 8B. They are also typically as smooth or smoother than the curve in the bitmap of FIG. 8A. Thus, the image is scaled with image quality enhancement.
+    </p>
+    <p num="28">
+      Referring to FIG. 9, in accordance with the invention, there are shown additional steps expanding on steps 208 and 212 of method 200 shown in FIG. 2, in which the intermediate bitmap has rows with resolution (horizontal resolution) that is greater than the desired output resolution.
+      <br/>
+      The resolution of the intermediate bitmap in the direction perpendicular to the rows (vertical resolution) is equal to the desired output resolution.
+      <br/>
+      The intermediate bitmap is created by placing image enhancing tiles which have been subsampled by eliminating a subset of rows within the tile into the intermediate bitmap.
+      <br/>
+      Once the intermediate bitmap is completed, the rows are scaled to the desired output resolution through a method which scales white and black runs within the row.
+    </p>
+    <p num="29">
+      Thus, step 208 of method 200 further comprises the steps of selecting (step 236) an image enhancing tile corresponding to a matched image feature pattern; vertically subsampling (step 238) the image enhancing tile by eliminating a subset of rows within the tile; determining (step 240) the destination of the subsampled image enhancing tile within the intermediate bitmap; and writing (step 242) the subsampled image enhancing tile to the desired location in the intermediate bitmap.
+      <br/>
+      Which rows are eliminated in the image enhancing tile and its destination in the intermediate bitmap depend on the location of the selected input pel within the input bitmap.
+    </p>
+    <p num="30">Step 212 further comprises the steps of scaling (step 244) each row in the intermediate bitmap to the desired resolution using a fast method that scales white and black runs within the row; and writing (step 246) the scaled rows to their proper locations in the output bitmap.</p>
+    <p num="31">
+      These methods may be implemented in software (e.g., in C or assembler language) that can be loaded into any programmable information handling apparatus that controls a printing process and may find applicability in systems having graphical displays.
+      <br/>
+      They may also be useful in the enhancement to other resolution transformations.
+    </p>
+    <p num="32">
+      The foregoing is merely illustrative of the principles of the invention.
+      <br/>
+      Those skilled in the art will be able to depart from the disclosed embodiment and device alternate embodiments, nevertheless embodying the principles of the claimed invention.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for scaling an input bitmap to an output bitmap, having increased resolution and image quality enhancement, comprising the steps of:</claim-text>
+      <claim-text>selecting a pel in the input bitmap; selecting a neighborhood surrounding the selected pel; searching a set of image feature patterns to find an image feature pattern that matches the selected neighborhood; writing an appropriate block of bits, based on the matching image feature pattern, to an anamorphically scaled intermediate bitmap whose resolution in a first direction is different than its resolution in a second direction perpendicular to the first direction, the resolution of the intermediate bitmap in the first direction being greater than a desired output resolution in the first direction and the resolution of the intermediate bitmap in the second direction being equal to the desired output resolution in the second direction;</claim-text>
+      <claim-text>and scaling the rows of the intermediate bitmap to the desired output resolution.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 wherein the step of writing an appropriate block of bits comprises: selecting an image enhancing tile, corresponding to the matched image feature pattern, to be written to the intermediate bitmap; subsampling the image enhancing tile to make it a proper size and shape based on the location of the selected pel in the input bitmap; determining a destination for the subsampled image enhancing tile within the intermediate bitmap based on the location of the selected pel in the input bitmap;</claim-text>
+      <claim-text>and writing the subsampled image enhancing tile to the determined destination in the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1 wherein the input bitmap represents a font character and the output bitmap represents a resolution increased version of the font character with image quality enhancement.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 further comprising the step of storing the output bitmap in a cache.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1 wherein the scaling of rows is accomplished by scaling all runs of white pels and of black pels within the rows of the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1 further comprising the step of repeating each step of claim 1 for each pel within the input bitmap.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1 wherein the intermediate bitmap has a resolution in a first direction that is not a common multiple of the resolution of the input and output bitmaps and has a resolution in a second direction, perpendicular to the first direction, that is equal to that of the desired output resolution.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 2 wherein the subsampling step comprises selecting a subset of rows within the image enhancing tile and writing it to the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 1 wherein the intermediate bitmap has a resolution in a first direction that is not a common multiple of the resolution of the input and output bitmaps and has a resolution in a second direction, perpendicular to the first direction, that is greater than that of the desired output resolution.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 1 wherein the intermediate bitmap has a resolution in a first direction that is a common multiple of the resolution of the input and output bitmaps and has a resolution in a second direction, perpendicular to the first direction, that is equal to that of the desired output resolution.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 1 wherein the intermediate bitmap has a resolution in a first direction that is five times that of the input bitmap and twice that of the desired output resolution in a second direction perpendicular to the first direction whcih is equal to that of the desired output resolution.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A computer-readable storage medium including program instructions for scaling an input bitmap having a first resolution to an output bitmap having increased resolution, comprising instructions for: selecting a pel in the input bitmap; selecting a neighborhood surrounding the selected pel; searching a set of image feature patterns to find an image feature pattern that matches the selected neighborhood; writing an appropriate block of bits, based on the matching image feature pattern, to an anamorphically scaled intermediate bitmap whose resolution in a first direction is different than its resolution in a second direction perpendicular to the first direction, the resolution of the intermediate bitmap in the first direction being greater than a desired output resolution in the first direction and the resolution of the intermediate bitmap in the second direction being equal to the desired output resolution in the second direction;</claim-text>
+      <claim-text>and scaling the rows of the intermediate bitmap to the desired output resolution.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The computer-readable storage medium of claim 12, wherein the instruction for writing an appropriate block of bits comprises instructions for: selecting an image enhancing tile, corresponding to the matched image feature pattern, to be written to the intermediate bitmap; subsampling the image enhancing tile to make it a proper size and shape based on the location of the selected pel in the input bitmap; determining a destination for the subsampled image enhancing tile within the intermediate bitmap based on the location of the selected pel in the input bitmap;</claim-text>
+      <claim-text>and writing the subsampled image enhancing tile to the determined destination in the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The computer-readable storage medium of claim 12 wherein the input bitmap represents a font character and the output bitmap represents a resolution increased version of the font character with image quality enhancement.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The computer-readable storage medium of claim 12 further comprising an instruction for storing the output bitmap in a cache.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The computer-readable storage medium of claim 12 wherein the scaling of rows is accomplished by scaling all runs of white pels and of black pels within the rows of the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The computer-readable storage medium of claim 12 further comprising the instruction of repeating each step of claim 12 for each pel within the input bitmap.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The computer-readable storage medium of claim 12 wherein the intermediate bitmap has a resolution in a first direction that is not a common multiple of the resolution of the input and output bitmaps and has a resolution in a second direction, perpendicular to the first direction, that is equal to that of the desired output resolution.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The computer-readable storage medium of claim 12 wherein the subsampling step comprises selecting a subset of rows within the image enhancing tile and writing it to the intermediate bitmap.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. An information handling system comprising: a memory for storing an input bitmap and an output bitmap; means for selecting a pel in the input bitmap; means for selecting a neighborhood surrounding the selected pel; means for searching a set of image feature patterns to find an image feature pattern that matches the selected neighborhood; means for writing an appropriate block of bits, based on the matching image feature pattern, to an anamorphically scaled intermediate bitmap whose resolution in a first direction is different than its resolution in a second direction perpendicular to the first direction, the resolution of the intermediate bitmap in the first direction being greater than a desired output resolution in the first direction;</claim-text>
+      <claim-text>and means for scaling the rows of the intermediate bitmap to the desired output resolution.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The information handling system of claim 20 further comprising; means for selecting an image enhancing tile, corresponding to the matched image feature pattern, to be written to the intermediate bitmap; means for subsampling the image enhancing tile to make it a proper size and shape based on the location of the selected pel in the input bitmap; means for determining a destination for the subsampled image enhancing tile within the intermediate bitmap based on the location of the selected pel in the input bitmap; means for writing the subsampled image enhancing tile to the determined destination in the intermediate bitmap;</claim-text>
+      <claim-text>and a cache for storing the output bitmap.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

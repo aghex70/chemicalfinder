@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06192427B1.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as first publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06192427</doc-number>
+        <kind>B1</kind>
+        <date>20010220</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6192427</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B1</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25309374" extended-family-id="42111934">
+      <document-id>
+        <country>US</country>
+        <doc-number>08850887</doc-number>
+        <kind>A</kind>
+        <date>19970502</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08850887</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43169543</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>85088797</doc-number>
+        <kind>A</kind>
+        <date>19970502</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08850887</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010220</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   1/60        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710052000</text>
+        <class>710</class>
+        <subclass>052000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>700094000</text>
+        <class>700</class>
+        <subclass>094000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710056000</text>
+        <class>710</class>
+        <subclass>056000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-001/60</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-001/60</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>60</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>5</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>8</number-of-drawing-sheets>
+      <number-of-figures>16</number-of-figures>
+      <image-key data-format="questel">US6192427</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Input/output buffer managed by sorted breakpoint hardware/software</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Edition, Feb. 20, 1997 (ISO/IEC JTC1/SC29/WG11 N1519), Int'l Org. for Standardisation Coding of Moving Pictures and Audio.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Digital Audio Compression Standard (AC-3), Dec. 20, 1995, Advanced Television Systems Committee, ATSC Standard.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>TI-17424A (S.N. 08/475,251), allowed, Integrated Audio Decoder System and Method of Operation.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>TI-17600 (S.N. 08/054,127), allowed, System Decoder Circuit With Temporary Bit Storage and Method of Operation.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>TI-24442P (S.N. 60/030,106), filed Provisionally Nov. 1, 1996. Integrated Audio/Video Decoder Circuitry.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Texas Instruments Incorporated</orgname>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>TEXAS INSTRUMENTS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Li, Stephen (Hsiao Yi)</name>
+            <address>
+              <address-1>Garland, TX, US</address-1>
+              <city>Garland</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Rowlands, Jonathan</name>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Laczko, Sr., Frank L.</name>
+            <address>
+              <address-1>Allen, TX, US</address-1>
+              <city>Allen</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Laws, Gerald E.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Brady, III, W. James</name>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Telecky, Jr., Frederick J.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Harvey, Minsun Oh</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A data processing device uses a portion of a random access memory as an input buffer for holding a portion of a stream of data which is being processed by a processing unit within the processing device.
+      <br/>
+      Various break-point source tasks 801a-n determine discontinuities in the portion of data stored in the input buffer and a sorted list of the addresses of the discontinuities is maintained in breakpoint queue 800.
+      <br/>
+      Since the buffer is managed in a FIFO manner, a single breakpoint register 810 is sufficient to monitor addresses as they are provided by an address register 820 for accessing the random access memory.
+      <br/>
+      When a breakpoint is detected, the breakpoint queue and the breakpoint register is updated by an update task 802.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">This invention relates in general to the field of electronic systems and more particularly to an improved modular audio data processing architecture and method of operation.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">Audio and video data compression for digital transmission of information will soon be used in large scale transmission systems for television and radio broadcasts as well as for encoding and playback of audio and video from such media as digital compact cassette and minidisc.</p>
+    <p num="3">
+      The Motion Pictures Expert Group (MPEG) has promulgated the MPEG audio and video standards for compression and decompression algorithms to be used in the digital transmission and receipt of audio and video broadcasts in ISO-11172 (hereinafter the "MPEG Standard").
+      <br/>
+      The MPEG Standard provides for the efficient compression of data according to an established psychoacoustic model to enable real time transmission, decompression and broadcast of CD-quality sound and video images.
+      <br/>
+      The MPEG standard has gained wide acceptance in satellite broadcasting, CD-ROM publishing, and DAB.
+      <br/>
+      The MPEG Standard is useful in a variety of products including digital compact cassette decoders and encoders, and minidisc decoders and encoders, for example.
+      <br/>
+      In addition, other audio standards, such as the Dolby AC-3 standard, involve the encoding and decoding of audio and video data transmitted in digital format.
+    </p>
+    <p num="4">
+      The AC-3 standard has been adopted for use on laser disc, digital video disk (DVD), the US ATV system, and some emerging digital cable systems.
+      <br/>
+      The two standards potentially have a large overlap of application areas.
+    </p>
+    <p num="5">
+      Both of the standards are capable of carrying up to five full channels plus one bass channel, referred to as "5.1 channels," of audio data and incorporate a number of variants including sampling frequencies, bit rates, speaker configurations, and a variety of control features.
+      <br/>
+      However, the standards differ in their bit allocation algorithms, transform length, control feature sets, and syntax formats.
+    </p>
+    <p num="6">
+      Both of the compression standards are based on psycho-acoustics of the human perception system.
+      <br/>
+      The input digital audio signals are split into frequency subbands using an analysis filter bank.
+      <br/>
+      The subband filter outputs are then downsampled and quantized using dynamic bit allocation in such a way that the quantization noise is masked by the sound and remains imperceptible.
+      <br/>
+      These quantized and coded samples are then packed into audio frames that conform to the respective standard's formatting requirements.
+      <br/>
+      For a 5.1 channel system, high quality audio can be obtained for compression ratio in the range of 10:1.
+    </p>
+    <p num="7">
+      The transmission of compressed digital data uses a data stream that may be received and processed at rates up to 15 megabits per second or higher.
+      <br/>
+      Prior systems that have been used to implement the MPEG decompression operation and other digital compression and decompression operations have required expensive digital signal processors and extensive support memory.
+      <br/>
+      Other architectures have involved large amounts of dedicated circuitry that are not easily adapted to new digital data compression or decompression applications.
+    </p>
+    <p num="8">An object of the present invention is provide an improved apparatus and methods of processing MPEG, AC-3 or other streams of data.</p>
+    <p num="9">Other objects and advantages will be apparent to those of ordinary skill in the art having reference to the following figures and specification.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="10">
+      In general, and in a form of the present invention a data processing device for processing a stream of data is provided which has software routines for managing an input buffer in response to breakpoint interrupts.
+      <br/>
+      A portion of memory is designated as in input buffer region for holding a portion of the input data stream and a second portion of memory is designated as a breakpoint queue to hold a sorted list of breakpoint addresses which point to selected locations in the input buffer.
+      <br/>
+      A software routine selects an address from the breakpoint queue and loads it into a breakpoint register which is then compared with each address presented to the memory.
+      <br/>
+      An interrupt request is generated when a match occurs.
+      <br/>
+      A processing unit responds to the interrupt by executing a software routine which interprets the reason for the interrupt and manages the input buffer accordingly.
+      <br/>
+      A breakpoint is used to indicate the end of the input buffer region.
+      <br/>
+      A breakpoint is used to delineate different types of data in the input buffer.
+      <br/>
+      A breakpoint is used to identify a CRC word.
+      <br/>
+      A breakpoint is used to detect buffer underflow and overflow.
+    </p>
+    <p num="11">
+      In another form of the invention, a second breakpoint register and comparator is provided so that read and write breakpoints can be distinguished.
+      <br/>
+      A read pointer and a write pointer which point to the beginning of data and end of data in the input buffer are maintained in response to breakpoint interrupts.
+    </p>
+    <p num="12">Other embodiments of the present invention will be evident from the description and drawings.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="13">
+      Other features and advantages of the present invention will become apparent by reference to the following detailed description when considered in conjunction with the accompanying drawings, in which:
+      <br/>
+      FIG. 1 is a block diagram of a data processing device constructed in accordance with aspects of the present invention;
+      <br/>
+      FIG. 2 is a more detailed block diagram of the data processing device of FIG. 1, illustrating interconnections of a Bit-stream Processing Unit and an Arithmetic Unit;
+      <br/>
+      FIG. 3 is a block diagram of the Bit-stream Processing Unit of FIG. 2;
+      <br/>
+      FIG. 4 is a block diagram of the Arithmetic Unit of FIG. 2;
+      <br/>
+      FIG. 5 is a block diagram illustrating the architecture of the software which operates on the device of FIG. 1;
+      <br/>
+      FIG. 6 is a block diagram illustrating an audio reproduction system which includes the data processing device of FIG. 1;
+      <br/>
+      FIG. 7 is a block diagram of an integrated circuit which includes the data processing device of FIG. 1 in combination with other data processing devices, the integrated circuit being connected to various external devices;
+      <br/>
+      FIG. 8 illustrates data buffer management using breakpoint interrupts, according to an aspect of the present invention;
+      <br/>
+      FIG. 9 illustrates an AC-3 sync frame with breakpoint interrupts used to locate a CRC field, according to an aspect of the present invention;
+      <br/>
+      FIGS. 10A, 10B and 10C illustrate MPEG PES packets with breakpoint interrupts used to locate various fields, according to an aspect of the present invention;
+      <br/>
+      FIG. 11A illustrates a data buffer pointer configuration in which a read pointer is chasing a write pointer;
+      <br/>
+      FIG. 11B illustrates a data buffer pointer configuration in which a write pointer is chasing a read pointer;
+      <br/>
+      FIG. 12 illustrates a state diagram for managing an input buffer using aspects of the present invention; and
+      <br/>
+      FIG. 13 is a schematic of a breakpoint circuit, according to the present invention.
+    </p>
+    <p num="14">Corresponding numerals and symbols in the different figures and tables refer to corresponding parts unless otherwise indicated.</p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="15">
+      Aspects of the present invention include methods and apparatus for processing and decompressing an audio data stream.
+      <br/>
+      In the following description, specific information is set forth to provide a thorough understanding of the present invention.
+      <br/>
+      Well known circuits and devices are included in block diagram form in order not to complicate the description unnecessarily.
+      <br/>
+      Moreover, it will be apparent to one skilled in the art that specific details of these blocks are not required in order to practice the present invention.
+    </p>
+    <p num="16">
+      The present invention comprises a system that is operable to efficiently decode a stream of data that has been encoded and compressed using any of a number of encoding standards, such as those defined by the Moving Pictures Expert Group (MPEG-1 or MPEG2), or the Digital Audio Compression Standard (AC-3), for example.
+      <br/>
+      In order to accomplish the real time processing of the data stream, the system of the present invention must be able to receive a bit stream that can be transmitted at variable bit rates up to 15 megabits per second and to identify and retrieve a particular audio data set that is time multiplexed with other data within the bit stream.
+      <br/>
+      The system must then decode the retrieved data and present conventional pulse code modulated (PCM) data to a digital to analog converter which will, in turn, produce conventional analog audio signals with fidelity comparable to other digital audio technologies.
+      <br/>
+      The system of the present invention must also monitor synchronization within the bit stream and synchronization between the decoded audio data and other data streams, for example, digitally encoded video images associated with the audio which must be presented simultaneously with decoded audio data.
+      <br/>
+      In addition, MPEG or AC-3 data streams can also contain ancillary data which may be used as system control information or to transmit associated data such as song titles or the like.
+      <br/>
+      The system of the present invention must recognize ancillary data and alert other systems to its presence.
+    </p>
+    <p num="17">
+      In order to appreciate the significance of aspects of the present invention, the architecture and general operation of a data processing device which meets the requirements of the preceding paragraph will now be described.
+      <br/>
+      Referring to FIG. 1, which is a block diagram of a data processing device 100 constructed in accordance with aspects of the present invention, the architecture of data processing device 100 is illustrated.
+      <br/>
+      The architectural hardware and software implementation reflect the two very different kinds of tasks to be performed by device 100: decoding and synthesis.
+      <br/>
+      In order to decode a steam of data, device 100 must unpack variable length encoded pieces of information from the stream of data.
+      <br/>
+      Additional decoding produces set of frequency coefficients.
+      <br/>
+      The second task is a synthesis filter bank that converts the frequency domain coefficients to PCM data.
+      <br/>
+      In addition, device 100 also needs to support dynamic range compression, downmixing, error detection and concealment, time synchronization, and other system resource allocation and management functions.
+    </p>
+    <p num="18">
+      The design of device 100 includes two autonomous processing units working together through shared memory supported by multiple I/O modules.
+      <br/>
+      The operation of each unit is data-driven.
+      <br/>
+      The synchronization is carried out by the Bit-stream Processing Unit (BPU) which acts as the master processor.
+      <br/>
+      Bit-stream Processing Unit (BPU) 110 has a RAM 111 for holding data and a ROM 112 for holding instructions which are processed by BPU 110.
+      <br/>
+      Likewise, Arithmetic Unit (AU) 120 has a RAM 121 for holding data and a ROM 122 for holding instructions which are processed by AU 120.
+      <br/>
+      Data input interface 130 receives a stream of data on input lines DIN which is to be processed by device 100.
+      <br/>
+      PCM output interface 140 outputs a stream of PCM data on output lines PCMOUT which has been produced by device 100.
+      <br/>
+      Inter-integrated Circuit (I2 C) Interface 150 provides a mechanism for passing control directives or data parameters on interface lines 151 between device 100 and other control or processing units, which are not shown, using a well known protocol.
+      <br/>
+      Bus switch 160 selectively connects address/data bus 161 to address/data bus 162 to allow BPU 110 to pass data to AU 120.
+    </p>
+    <p num="19">
+      FIG. 2 is a more detailed block diagram of the data processing device of FIG. 1, illustrating interconnections of Bit-stream Processing Unit 110 and Arithmetic Unit 120.
+      <br/>
+      A BPU ROM 113 for holding data and coefficients and an AU ROM 123 for holding data and coefficients is also shown.
+    </p>
+    <p num="20">
+      A typical operation cycle is as follows: Coded data arrives at the Data Input Interface 130 asynchronous to device 100's system clock, which operates at 27 MHz.
+      <br/>
+      Data Input Interface 130 synchronizes the incoming data to the 27 MHz device clock and transfers the data to a buffer area 114 in BPU memory 111 through a direct memory access (DMA) operation.
+      <br/>
+      BPU 110 reads the compressed data from buffer 114, performs various decoding operations, and writes the unpacked frequency domain coefficients to AU RAM 121, a shared memory between BPU and AU.
+      <br/>
+      Arithmetic Unit 120 is then activated and performs subband synthesis filtering, which produces a stream of reconstructed PCM samples which are stored in output buffer area 124 of AU RAM 121.
+      <br/>
+      PCM Output Interface 140 receives PCM samples from output buffer 124 through a DMA transfer and then formats and outputs them to an external D/A converter.
+      <br/>
+      Additional functions performed by the BPU include control and status I/O, as well as overall system resource management.
+    </p>
+    <p num="21">
+      FIG. 3 is a block diagram of the Bit-stream Processing Unit of FIG. 2.
+      <br/>
+      BPU 110 is a programmable processor with hardware acceleration and instructions customized for audio decoding.
+      <br/>
+      It is a 16-bit reduced instruction set computer (RISC) processor with a register-to-register operational unit 200 and an address generation unit 220 operating in parallel.
+      <br/>
+      Operational unit 200 includes a register file 201 an arithmetic/logic unit 202 which operates in parallel with a funnel shifter 203 on any two registers from register file 201, and an output multiplexer 204 which provides the results of each cycle to input mux 205 which is in turn connected to register file 201 so that a result can be stored into one of the registers.
+    </p>
+    <p num="22">
+      BPU 110 is capable of performing an ALU operation, a memory I/O, and a memory address update operation in one system clock cycle.
+      <br/>
+      Three addressing modes: direct, indirect, and registered are supported.
+      <br/>
+      Selective acceleration is provided for field extraction and buffer management to reduce control software overhead.
+      <br/>
+      Table 1 is a list of the instruction set.
+    </p>
+    <p num="23">
+      -- TABLE 1
+      <br/>
+      -- BPU Instruction Set
+      <br/>
+      --      Instruction Mnemonics   Functional Description
+      <br/>
+      --      And                     Logical and
+      <br/>
+      --      Or                      Logical or
+      <br/>
+      --      cSat                    Conditional saturation
+      <br/>
+      --      Ash                     Arithmetic shift
+      <br/>
+      --      LSh                     Logical shift
+      <br/>
+      --      RoRC                    Rotate right with carry
+      <br/>
+      --      GBF                     Get bit-field
+      <br/>
+      --      Add                     Add
+      <br/>
+      --      AddC                    Add with carry
+      <br/>
+      --      cAdd                    Conditional add
+      <br/>
+      --      Xor                     Logical exclusive or
+      <br/>
+      --      Sub                     Subtract
+      <br/>
+      --      SubB                    Subtract with borrow
+      <br/>
+      --      SubR                    Subtract reversed
+      <br/>
+      --      Neg                     2's complement
+      <br/>
+      --      cNeg                    Conditonal 2's complement
+      <br/>
+      --      Bcc                     Conditional branch
+      <br/>
+      --      DBcc                    Decrement &amp; conditional branch
+      <br/>
+      --      IOST                    IO reg to memory move
+      <br/>
+      --      IOLD                    Memory to IO reg move
+      <br/>
+      --      auOp                    AU operation - loosely coupled
+      <br/>
+      --      auEx                    AU execution - tightly coupled
+      <br/>
+      --      Sleep                   Powder down unit
+    </p>
+    <p num="24">
+      BPU 110 has two pipeline stages: Instruction Fetch/Predecode which is performed in Micro Sequencer 230, and Decode/Execution which is performed in conjunction with instruction decoder 231.
+      <br/>
+      The decoding is split and merged with the Instruction Fetch and Execution respectively.
+      <br/>
+      This arrangement reduces one pipeline stage and thus branching overhead.
+      <br/>
+      Also, the shallow pipe operation enables the processor to have a very small register file (four general purpose registers, a dedicated bit-stream address pointer, and a control/status register) since memory can be accessed with only a single cycle delay.
+    </p>
+    <p num="25">
+      FIG. 4 is a block diagram of the Arithmetic Unit of FIG. 2.
+      <br/>
+      Arithmetic unit 120 is a programmable fixed point math processor that performs the subband synthesis filtering.
+      <br/>
+      A complete description of subband synthesis filtering is provided in U.S. Pat. No., 5,644,310, (U.S. patent application Ser.
+      <br/>
+      No. 08/475,251, entitled Integrated Audio Decoder System And Method Of Operation or U.S. patent application Ser.
+      <br/>
+      No. 08/054,768 entitled Hardware Filter Circuit And Address Circuitry For MPEG Encoded Data, both assigned to the assignee of the present application), which is included herein by reference; in particular, FIGS. 7-9 and 11-31 and related descriptions.
+    </p>
+    <p num="26">
+      The AU 120 module receives frequency domain coefficients from the BPU by means of shared AU memory 121.
+      <br/>
+      After the BPU has written a block of coefficients into AU memory 121, the BPU activates the AU through a coprocessor instruction, auOp.
+      <br/>
+      BPU 110 is then free to continue decoding the audio input data.
+      <br/>
+      Synchronization of the two processors is achieved through interrupts, using interrupt circuitry 240 (shown in FIG. 3).
+    </p>
+    <p num="27">
+      AU 120 is a 24-bit RISC processor with a register-to-register operational unit 300 and an address generation unit 320 operating in parallel.
+      <br/>
+      Operational unit 300 includes a register file 301, a multiplier unit 302 which operates in conjunction with an adder 303 on any two registers from register file 301.
+      <br/>
+      The output of adder 303 is provided to input mux 305 which is in turn connected to register file 301 so that a result can be stored into one of the registers.
+    </p>
+    <p num="28">
+      A bit-width of 24 bits in the data path in the arithmetic unit was chosen so that the resulting PCM audio will be of superior quality after processing.
+      <br/>
+      The width was determined by comparing the results of fixed point simulations to the results of a similar simulation using double-precision floating point arithmetic.
+      <br/>
+      In addition, double-precision multiplies are performed selectively in critical areas within the subband synthesis filtering process.
+    </p>
+    <p num="29">
+      FIG. 5 is a block diagram illustrating the architecture of the software which operates on data processing device 100.
+      <br/>
+      Each hardware component in device 100 has an associated software component, including the compressed bit-stream input, audio sample output, host command interface, and the audio algorithms themselves.
+      <br/>
+      These components are overseen by a kernel that provides real-time operation using interrupts and software multitasking.
+    </p>
+    <p num="30">
+      The software architecture block diagram is illustrated in FIG. 5.
+      <br/>
+      Each of the blocks corresponds to one system software task.
+      <br/>
+      These tasks run concurrently and communicate via global memory 111.
+      <br/>
+      They are scheduled according to priority, data availability, and synchronized to hardware using interrupts.
+      <br/>
+      The concurrent data-driven model reduces RAM storage by allowing the size of a unit of data processed to be chosen independently for each task.
+    </p>
+    <p num="31">
+      The software operates as follows.
+      <br/>
+      Data Input Interface 410 buffers input data and regulates flow between the external source and the internal decoding tasks.
+      <br/>
+      Transport Decoder 420 strips out packet information from the input data and emits a raw AC-3 or MPEG audio bit-stream, which is processed by Audio Decoder 430.
+      <br/>
+      PCM Output Interface 440 synchronizes the audio data output to a system-wide absolute time reference and, when necessary, attempts to conceal bit-stream errors.
+      <br/>
+      I2 C Control Interface 450 accepts configuration commands from an external host and reports device status.
+      <br/>
+      Finally, Kernel 400 responds to hardware interrupts and schedules task execution.
+    </p>
+    <p num="32">
+      FIG. 6 is a block diagram illustrating an audio reproduction system 500 which includes the data processing device of FIG. 1.
+      <br/>
+      Stream selector 510 selects a transport data stream from one or more sources, such as a cable network system 511, digital video disk 512, or satellite receiver 513, for example.
+      <br/>
+      A selected stream of data is then sent to transport decoder 520 which separates a stream of audio data from the transport data stream according to the transport protocol, such as MPEG or AC-3, for that stream.
+      <br/>
+      Transport decoder typically recognizes a number of transport data stream formats, such as direct satellite system (DSS), digital video disk (DVD), or digital audio broadcasting (DAB), for example.
+      <br/>
+      The selected audio data stream is then sent to data processing device 100 via input interface 130.
+      <br/>
+      Device 100 unpacks, decodes, and filters the audio data stream, as discussed previously, to form a stream of PCM data which is passed via PCM output interface 140 to D/A device 530. D/A device 530 then forms at least one channel of analog data which is sent to a speaker subsystem 540a.
+      <br/>
+      Typically, A/D 530 forms two channels of analog data for stereo output into two speaker subsystems 540a and 540b.
+      <br/>
+      Processing device 100 is programmed to downmix an MPEG-2 or AC-3 system with more than two channels, such as 5.1 channels, to form only two channels of PCM data for output to stereo speaker subsystems 540a and 540b.
+    </p>
+    <p num="33">
+      Alternatively, processing device 100 can be programmed to provide up to six channels of PCM data for a 5.1 channel sound reproduction system if the selected audio data stream conforms to MPEG-2 or AC-3.
+      <br/>
+      In such a 5.1 channel system, D/A 530 would form six analog channels for six speaker subsystems 540a-n.
+      <br/>
+      Each speaker subsystem 540 contains at least one speaker and may contain an amplification circuit (not shown) and an equalization circuit (not shown).
+    </p>
+    <p num="34">
+      The SPDIF (Sony/Philips Digital Interface Format) output of device 100 conforms to a subset of the Audio Engineering Society's AES3 standard for serial transmission of digital audio data.
+      <br/>
+      The SPDIF format is a subset of the minimum implementation of AES3.
+      <br/>
+      This stream of data can be provided to another system (not shown) for further processing or re-transmission.
+    </p>
+    <p num="35">
+      Referring now to FIG. 7, there may be seen a functional block diagram of a circuit 300 that forms a portion of an audio-visual system which includes aspects of the present invention.
+      <br/>
+      More particularly, there may be seen the overall functional architecture of a circuit including on-chip interconnections that is preferably implemented on a single chip as depicted by the dashed line portion of FIG. 7.
+      <br/>
+      As depicted inside the dashed line portion of FIG. 7, this circuit consists of a transport packet parser (TPP) block 610 that includes a bit-stream decoder or descrambler 612 and clock recovery circuitry 614, an ARM CPU block 620, a data ROM block 630, a data RAM block 640, an audio/video (A/V) core block 650 that includes an MPEG-2 audio decoder 654 and an MPEG-2 video decoder 652, an NTSC/ PAL video encoder block 660, an on screen display (OSD) controller block 670 to mix graphics and video that includes a bit-blt hardware (H/W) accelerator 672, a communication coprocessor (CCP) block 680 that includes connections for two UART serial data interfaces, infra red (IR) and radio frequency (RF) inputs, SIRCS input and output, an I2 C port and a Smart Card interface, a P1394 interface (I/F) block 690 for connection to an external 1394 device, an extension bus interface (I/F) block 700 to connect peripherals such as additional RS232 ports, display and control panels, external ROM, DRAM, or EEPROM memory, a modem and an extra peripheral, and a traffic controller (TC) block 710 that includes an SRAM/ARM interface (I/F) 712 and a DRAM I/F 714.
+      <br/>
+      There may also be seen an internal 32 bit address bus 320 that interconnects the blocks and seen an internal 32 bit data bus 730 that interconnects the blocks.
+      <br/>
+      External program and data memory expansion allows the circuit to support a wide range of audio/video systems, especially, as for example, but not limited to set-top boxes, from low end to high end.
+    </p>
+    <p num="36">
+      The consolidation of all these functions onto a single chip with a large number of communications ports allows for removal of excess circuitry and/or logic needed for control and/or communications when these functions are distributed among several chips and allows for simplification of the circuitry remaining after consolidation onto a single chip.
+      <br/>
+      Thus, audio decoder 354 is the same as data processing device 100 with suitable modifications of interfaces 130, 140, 150 and 170.
+      <br/>
+      This results in a simpler and cost-reduced single chip implementation of the functionality currently available only by combining many different chips and/or by using special chipsets.
+    </p>
+    <p num="37">
+      A novel aspect of data processing device 100 will now be discussed in detail, with reference to FIGS. 8, 9A, 9B, 10 and 11.
+      <br/>
+      Input buffer 114 (FIG. 2) is managed by data input interface software module 400 (FIG. 5) using breakpoint interrupts, as illustrated in FIG. 8.
+      <br/>
+      PCM output buffer 124 is likewise managed by PCM output interface software 440 using breakpoint interrupts.
+      <br/>
+      Hardware interrupts are valuable for signaling events between software tasks in cases where the conditions that cause the event are dispersed throughout the system.
+      <br/>
+      Device 110 makes use of interrupts for bit-stream input buffer management.
+      <br/>
+      There are many special conditions associated with the input buffer read function, including:
+    </p>
+    <p num="38">
+      buffer empty
+      <br/>
+      buffer circular wraparound
+      <br/>
+      bit-stream demultiplex boundary
+      <br/>
+      known bit-stream error location
+    </p>
+    <p num="39">
+      These must be tested for each read by BPU 110 from the bit-stream input buffer 114.
+      <br/>
+      Due to the necessarily short execution time of the buffer read operation and the large number of different places it is performed, some centralized hardware assist is desirable.
+      <br/>
+      In device 110 this takes the form of a single hardware data breakpoint register for the input buffer read function, which generates a hardware interrupt whenever a target address in the input buffer is accessed.
+      <br/>
+      The mechanism allows the bit-stream syntax decode and buffer management functions to be largely decoupled, which improves run-time efficiency and software design, maintenance and testing.
+      <br/>
+      FIG. 8 illustrates the data breakpoint scheme for the input bit-stream buffer management.
+    </p>
+    <p num="40">
+      Each of the conditions which might cause a breakpoint interrupt are associated with a different address in the input buffer, and many conditions may be "active" simultaneously.
+      <br/>
+      Since the bit-stream input buffer is predominantly accessed in FIFO order, data breakpoint events will in general be triggered in order of increasing address.
+      <br/>
+      This allows a single breakpoint register to be used for multiple events, if it always contains the address of the next breakpoint.
+      <br/>
+      Software source tasks 801a-n maintain a sorted queue of breakpoint events for this purpose.
+    </p>
+    <p num="41">
+      Another advantageous use of a breakpoint interrupt occurs in the Dolby AC-3 algorithm, where CRC words are inserted at fixed bit addresses in each audio frame ("sync block").
+      <br/>
+      Their positions are not related to the bit-stream elements around them, and in fact CRC words will often divide other fields in two, as illustrated in FIG. 9.
+      <br/>
+      Sync frame 835 has a CRC field 836 which occurs in the middle of field ABO, dividing it into fields 837 and 838.
+      <br/>
+      To avoid extensive software checking on every field unpacking operation, some hardware support is needed.
+      <br/>
+      However since the CRC words themselves occur infrequently it is sufficient for the hardware to detect the occurrence of a CRC word and allow software to process it.
+      <br/>
+      This is done via an input buffer breakpoint interrupt.
+    </p>
+    <p num="42">
+      The location of the (possible multiple) CRC words within a sync block can be determined once the sync block header has been parsed by BPU 110.
+      <br/>
+      For example, in FIG. 9, location 839 represents the address of CRC field 836 when sync frame 835 is in input buffer 114 (FIG. 2).
+      <br/>
+      Referring again to FIG. 8, a breakpoint source task 801 then adds this location to the sorted breakpoint list 800.
+      <br/>
+      By setting up breakpoint register 810 which monitors the contents of the input buffer read pointer 820, the microcode engine can be interrupted just before a CRC word is reached.
+      <br/>
+      Breakpoint register 810 is maintained by breakpoint register update task 802.
+      <br/>
+      Comparison circuitry 830 asserts a breakpoint interrupt on signal line 831.
+      <br/>
+      At this time an interrupt routine can check the validity of the CRC, then amend the input buffer and read pointer to effectively delete the CRC word from the input stream.
+    </p>
+    <p num="43">
+      Still referring to FIG. 8, as discussed above, the input breakpoint interrupt can be used to manage the circular input buffer 114 in BPU RAM 111.
+      <br/>
+      This could also be done using the table lookup addressing mode, but in that case the input buffer is restricted to a power of two size.
+      <br/>
+      Using the breakpoint interrupt handler to wrap the read pointer allows the size of the buffer to be optimized for the determined worst case buffer conditions.
+      <br/>
+      This is done by placing the ending address of buffer 114 in the breakpoint queue.
+      <br/>
+      Update task 802 will then place this address in breakpoint register 810 so that an interrupt will occur when the last word in input buffer 114 is accessed.
+    </p>
+    <p num="44">
+      Another advantageous use of breakpoint interrupts is illustrated in FIGS. 10A and 10B, which illustrate various aspects of decoding an MPEG packetized elementary stream (PES) 840. FIG. 10A illustrates aspects of a single PES packet 841a-841d.
+      <br/>
+      Breakpoint 842 indicates the beginning of a header 841a.
+      <br/>
+      In response to this interrupt, a software routine which decodes PES headers is executed by BPU 110.
+      <br/>
+      Breakpoint 843 marks the beginning of MPEG 1 base data 841b.
+      <br/>
+      A software routine which decodes MPEG 1 base data is invoked in response to breakpoint 843.
+      <br/>
+      Breakpoint 844 marks the beginning of MPEG 1 extension data 841c and invokes a software routine to decode this type of data.
+      <br/>
+      Finally, breakpoint 845 marks the beginning of some other type of data 841d and invokes yet another software routine to deal with this type of data.
+      <br/>
+      Thus, BPU 110 is operable to form a sorted list of breakpoint addresses 842-845 in memory 111, to load register 810 with a selected breakpoint address from the sorted list, to process data read from input buffer 114 using at least one of a plurality of software routines stored in memory 112, to respond to an interrupt signal asserted by comparison circuit 830, and to select a different one of the software routines for processing the data from input buffer 114 in response to the breakpoint interrupt.
+    </p>
+    <p num="45">
+      FIG. 10B shows two PES packets 846 and 847 wherein a single data item 846c spans across both packets.
+      <br/>
+      Data item 846c is a bit field of two to sixteen bits that is located in data words 848a and 848b.
+      <br/>
+      Header 847a of PES packet 847 separates the two data words.
+      <br/>
+      In this case, a breakpoint is set to point to word 848a.
+      <br/>
+      A breakpoint interrupt handler responds to breakpoint 848a and saves data word 848a.
+      <br/>
+      The handler then processes header 847a.
+      <br/>
+      The handler then copies the saved data word 848a back into data stream 840 at a location contiguous with data word 848b by overwriting the last word of header 847a, as shown in FIG. 10C. The read pointer is backed up by one word to point to the new location for data word 848a, and processing resumes.
+      <br/>
+      Data item 846C is now advantageously extracted from the two data words correctly.
+    </p>
+    <p num="46">
+      A breakpoint interrupt can also be used to detect an input buffer underflow condition.
+      <br/>
+      This requires that a breakpoint source task 801a-n be able to update the breakpoint queue 800 with the position of the end of data in input buffer 114.
+      <br/>
+      The conditions for when the breakpoint interrupt should be interpreted as buffer underflow need to be calculated by the input interrupt routine.
+      <br/>
+      Much pre-calculation can be done at the start of frame processing to minimize the work of the input interrupt.
+      <br/>
+      This will be described in more detail with reference to FIG. 11.
+    </p>
+    <p num="47">
+      Still referring to FIG. 8, following an input buffer full condition, the breakpoint can be used to detect when the buffer fullness drops below a certain level by placing a breakpoint for an address that is a selected distance from the current position of the read pointer.
+      <br/>
+      The handler for this interrupt can then re-enable buffer input.
+    </p>
+    <p num="48">
+      Two additional data breakpoint registers, similar to register 810 in FIG. 8, are associated with writes to bit-stream input buffer 114 and output functions of PCM interface 140.
+      <br/>
+      These are used to signal the end of a DMA transfer condition.
+      <br/>
+      In the case of the input buffer write function, there are again several possible sources of events, including buffer full and buffer circular wraparound.
+      <br/>
+      These can be managed using the same techniques as for buffer read.
+      <br/>
+      The PCM is the simplest of the three, as its function in normal operation is completely predictable and has only one possible event, the end of a PCM data block.
+    </p>
+    <p num="49">
+      As indicated above, input buffer flow control is an important aspect of the present invention.
+      <br/>
+      Input buffer management involves the generation of the input buffer full and empty flow control signals, and the circular wrap-around of a buffer read pointer and a buffer write pointer.
+      <br/>
+      The two functions are related, as the relative positions of the read and write pointers in the input buffer determine which of the flow control conditions are possible.
+      <br/>
+      Two configurations are possible for the read and write pointers; the write pointer ahead of the read pointer in physical memory, and the reverse.
+      <br/>
+      FIGS. 11A and 11B illustrate these possibilities.
+      <br/>
+      FIG. 11A illustrates a data buffer pointer configuration in which a read pointer 851 is chasing a write pointer 852, and FIG. 11B illustrates a data buffer pointer configuration in which write pointer 852 is chasing read pointer 851.
+      <br/>
+      Read pointer 851 and write pointer 852 are typically stored in index register file 221 (FIG. 3).
+    </p>
+    <p num="50">
+      FIG. 12 illustrates a state diagram for managing input buffer 114.
+      <br/>
+      Four states can occur: buffer empty 860, read chasing write 861, write chasing read 862, and buffer full 863.
+      <br/>
+      Only when the read pointer is "chasing" the write pointer is a buffer empty condition possible, which occurs on state transition 861c.
+      <br/>
+      Similarly only when the write pointer is chasing the read pointer is a buffer full condition possible, which occurs on state transition 862a.
+      <br/>
+      Buffer full and empty conditions are detected by establishing read and write breakpoints in the input buffer that trigger just before one pointer reaches the other.
+      <br/>
+      When such a breakpoints occurs, the pointers must be examined to see whether the leader has moved further forward since the breakpoints were set.
+      <br/>
+      This represents a "false alarm" condition, indicated by state transition 861b and 862b, and the correct action is to establish a breakpoint further forward and remain in the same state.
+      <br/>
+      If the pointer has not moved, then part of the system must shut down (state transitions 861c and 862a) and wait for the condition to clear by a sufficient margin.
+      <br/>
+      This can be detected using breakpoints again, as indicated by state transition 860a and 863a.
+    </p>
+    <p num="51">
+      FIG. 13 is a schematic of a breakpoint circuit, according to the present invention.
+      <br/>
+      Read breakpoint register 900 is connected to data bus 161b so that it can be loaded with a read breakpoint address.
+      <br/>
+      Likewise, write breakpoint register is connected to data bus 161b so that it can be loaded with a write breakpoint address.
+      <br/>
+      Both registers are memory mapped in the address space of address bus 161a.
+      <br/>
+      A comparator 901 is connected to the output of register 900 and to address bus 161a and is operable to compare addresses placed on the address bus to the value of the read breakpoint address stored in register 900.
+      <br/>
+      When an address which is equal to the read breakpoint address is detected during a read transaction, this condition is stored in a bit in interrupt flag shadow register IFS.
+      <br/>
+      If interrupt enable signal IE0 is true, then an interrupt request is formed and stored in status register R7.
+      <br/>
+      An interrupt request signal IRQ which is the "OR" of all enabled pending interrupts is formed by gate 904 and sent to interrupt logic 240, on FIG. 3.
+      <br/>
+      Status register R7 is described in more detail later.
+    </p>
+    <p num="52">
+      A comparator 903 operates in a similar manner with write breakpoint register 902.
+      <br/>
+      A separate bit in status register R7 is used to record a write breakpoint interrupt so that software executing on BPU 110 can respond to read and write breakpoint interrupts appropriately.
+      <br/>
+      BPU 110 checks status register R7 in response to an interrupt request in order to determine the source of the interrupt.
+      <br/>
+      This is done via bus 907 which is connected to ALU 202, in FIG. 3.
+    </p>
+    <p num="53">
+      Status register R7 can be read and written by BPU 110 just as any other register in register file 201.
+      <br/>
+      As discussed above, various bits in register R7 is also set by pending interrupt requests and by various status conditions.
+      <br/>
+      Table 2 defines the bits in R7.
+    </p>
+    <p num="54">
+      -- TABLE 2
+      <br/>
+      -- Status Register Bits
+      <br/>
+      --        BIT           MNEM          DESCRIPTION
+      <br/>
+      --        0-5           IF            interrupt pending flags
+      <br/>
+      --        6-11          IE            interrupt enable flags
+      <br/>
+      --        12            ID            interrupt disable flag
+      <br/>
+      --        13            C             carry
+      <br/>
+      --        14            Z             zero
+      <br/>
+      --        15            N             negative
+    </p>
+    <p num="55">
+      There are six sources of interrupts in BPU 110.
+      <br/>
+      These are vectored to a single master interrupt handler which examines the interrupt flags and branches to the appropriate handler.
+      <br/>
+      The six sources are:
+      <br/>
+      input buffer read breakpoint
+      <br/>
+      input buffer full--write breakpoint
+      <br/>
+      PCM output buffer empty (a read breakpoint similar to input read breakpoint)
+      <br/>
+      I2 C Interface operation
+      <br/>
+      arithmetic unit operation complete
+      <br/>
+      real-time failure
+    </p>
+    <p num="56">
+      Status register R7 contains all the interrupt control bits.
+      <br/>
+      A single global interrupt disable bit (ID) optionally prevents interrupts from being acknowledged.
+      <br/>
+      Individual interrupt enable (IE0-5) bits enable or disable each source if interrupts are enabled globally.
+      <br/>
+      Finally, individual interrupt flags (IF0-5) indicate whether an interrupt is pending for each source.
+    </p>
+    <p num="57">
+      The IF bits which appear in the status register are the logical "and" of the internal interrupt pending bit (the IF bit "shadow"--IFS) and the IE bit for the source.
+      <br/>
+      Additionally, a single bit I/O enable register (EN) globally enables and disables interrupts and DMA.
+      <br/>
+      This provides a way to protect critical sections of code against background operations with low overhead.
+    </p>
+    <p num="58">
+      When one or more interrupt requests occur during a cycle, the following events occur:
+      <br/>
+      1. if the IFS bit for a requesting interrupt is set, this indicates that an earlier interrupt of the same type has not yet been serviced.
+      <br/>
+      A real-time failure interrupt request is generated in this case.
+      <br/>
+      2. each requesting interrupt sources' IFS bit is set.
+      <br/>
+      3. if the ID bit is set or all requesting interrupts are disabled via an IE bit, or the EN bit is clear, no further action is taken.
+    </p>
+    <p num="59">
+      Otherwise:
+      <br/>
+      4. the PC is copied to an interrupt return address (RET) register which is a memory mapped register (not shown).
+      <br/>
+      5. the ID bit is set in the status register so that further interrupts are disabled.
+      <br/>
+      6. address 2 is loaded into the program counter register, which is located in index register file 221.
+      <br/>
+      This is the address of the master interrupt handler.
+    </p>
+    <p num="60">
+      It is the task of the interrupt handler to clear the IF bit for each serviced interrupt, and clear the ID bit on exit to re-enable interrupts.
+      <br/>
+      Pending interrupts whose IF bit is was not cleared by the handler will re-interrupt when the ID bit is cleared.
+      <br/>
+      By re-enabling interrupts during the delay slot of the return branch, nesting of interrupts can be prevented.
+    </p>
+    <p num="61">
+      The six IF bits appear in the least significant bits of the status register.
+      <br/>
+      These can be used to index a branch table to vector to a requesting interrupt's handler.
+      <br/>
+      Because the IF flags for all enabled interrupts appear in the index, this table also encodes the priority for when multiple interrupts occur simultaneously.
+    </p>
+    <p num="62">
+      When manipulating a copy of the status register, for example when clearing the interrupt disable bit, there is the possibility of erasing the interrupt flags of requests that occur between the status read and reload.
+      <br/>
+      To avoid this the IF bits are given a special interpretation when loading.
+      <br/>
+      If an IF bit in the load source is set to one, the corresponding IF bit of the status register is cleared.
+      <br/>
+      If the bit is zero then the IF bit is unchanged.
+      <br/>
+      Therefore when saving and restoring the status register in an interrupt routine, it is necessary to set all IF bits in the copy to zero before reloading it, unless that interrupt is explicitly required to be reset.
+    </p>
+    <p num="63">
+      When loading the status register to clear the IF bit for some source, an interrupt request for that source could occur simultaneously.
+      <br/>
+      In this case, the bit is not cleared, so the interrupt is not lost.
+      <br/>
+      This does not trigger a real-time failure interrupt request.
+    </p>
+    <p num="64">
+      There is no stack data processing in device 100.
+      <br/>
+      Interrupts are handled by a one-level memory mapped interrupt return address register RET, not shown.
+      <br/>
+      Interrupt nesting is handled by copying the return address to a private memory location.
+      <br/>
+      Subroutines are handled by explicitly passing the return address in the register file.
+      <br/>
+      These methods are straightforward when the interrupt handler or subroutine is non-re-entrant.
+    </p>
+    <p num="65">
+      Fabrication of data processing device 100 involves multiple steps of implanting various amounts of impurities into a semiconductor substrate and diffusing the impurities to selected depths within the substrate to form transistor devices.
+      <br/>
+      Masks are formed to control the placement of the impurities.
+      <br/>
+      Multiple layers of conductive material and insulative material are deposited and etched to interconnect the various devices.
+      <br/>
+      These steps are performed in a clean room environment.
+    </p>
+    <p num="66">
+      A significant portion of the cost of producing the data processing device involves testing.
+      <br/>
+      While in wafer form, individual devices are biased to an operational state and probe tested for basic operational functionality.
+      <br/>
+      The wafer is then separated into individual devices which may be sold as bare die or packaged.
+      <br/>
+      After packaging, finished parts are biased into an operational state and tested for operational functionality.
+    </p>
+    <p num="67">
+      An alternative embodiment of the novel aspects of the present invention may include other circuitries which are combined with the circuitries disclosed herein in order to reduce the total gate count of the combined functions.
+      <br/>
+      Since those skilled in the art are aware of techniques for gate minimization, the details of such an embodiment will not be described herein.
+    </p>
+    <p num="68">As used herein, the terms "applied," "connected," and "connection" mean electrically connected, including where additional elements may be in the electrical connection path.</p>
+    <p num="69">
+      While the invention has been described with reference to illustrative embodiments, this description is not intended to be construed in a limiting sense.
+      <br/>
+      Various other embodiments of the invention will be apparent to persons skilled in the art upon reference to this description.
+      <br/>
+      It is therefore contemplated that the appended claims will cover any such modifications of the embodiments as fall within the true scope and spirit of the invention.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for managing a data buffer while processing a stream of data, comprising:</claim-text>
+      <claim-text>defining the data buffer to be a portion of a memory within a data processing device by selecting a beginning address and an ending address of the data buffer; writing a portion of the stream of data into the data buffer; forming a sorted list of breakpoint addresses in a circularly sequential manner comprising at least the ending address so that a first breakpoint address in the sorted list is sequentially closest to an address maintained by a read pointer; sequentially reading individual data words from the data buffer for further processing by sequencing the read pointer to select the individual data words; determining if the read pointer is equal to the first breakpoint address each time an individual data word is read from the data buffer;</claim-text>
+      <claim-text>and setting the read pointer to the beginning address when the read pointer equals the first breakpoint address if the first breakpoint address is the ending address.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, further comprising: adding a breakpoint address to the sorted list which points to an address of a discontinuity in the portion of data stream in the data buffer;</claim-text>
+      <claim-text>and selecting a different processing routine when the read pointer equals the first breakpoint address if the first breakpoint address is the discontinuity address.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 2, further comprising: wherein the step of writing into the data buffer further comprises sequencing a write pointer which points to an address in the data buffer for writing; determining if the write pointer is equal to a write breakpoint each time an individual data word is written to the data buffer;</claim-text>
+      <claim-text>and setting the write pointer to the beginning address when the write pointer equals the write breakpoint address if the write breakpoint address is the ending address.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 3, further comprising: halting the step of writing into the buffer when the write pointer equals the write breakpoint address if the write breakpoint address is the read pointer.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 4, further comprising: restarting the step of writing into the buffer when the read pointer equals the first breakpoint address if the first breakpoint address is sequentially distant from the write pointer.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

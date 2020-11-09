@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182014B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182014</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182014</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22726827" extended-family-id="42108756">
+      <document-id>
+        <country>US</country>
+        <doc-number>09196796</doc-number>
+        <kind>A</kind>
+        <date>19981120</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09196796</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165299</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>19679698</doc-number>
+        <kind>A</kind>
+        <date>19981120</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09196796</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G01V   1/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>01</class>
+        <subclass>V</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>702014000</text>
+        <class>702</class>
+        <subclass>014000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G01V-001/00B</text>
+        <section>G</section>
+        <class>01</class>
+        <subclass>V</subclass>
+        <main-group>001</main-group>
+        <subgroup>00B</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G01V-001/003</classification-symbol>
+        <section>G</section>
+        <class>01</class>
+        <subclass>V</subclass>
+        <main-group>1</main-group>
+        <subgroup>003</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>39</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>19</number-of-drawing-sheets>
+      <number-of-figures>19</number-of-figures>
+      <image-key data-format="questel">US6182014</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and system for optimizing logistical operations in land seismic surveys</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Current, J. R. and D. A. Schilling. 1994. The Median Tour and Maximal Covering Tour Problems: Formulations and Heuristics. European Journal of Operational Research, 73, 114-126.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Current, J. R. and D. A. Schilling. 1989. The Covering Salesman Problem. Transportation Science, 23, 2, 208-213.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Gendreau, M., G. Laporte, and F. Semet. 1997. The Covering Tour Problem. Operations Research, 45, 4, 568-576.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Labbe, M. and G. Laporte. 1986. Maximizing User Convenience and Postal Service Efficiency in Post Box Location. Belgian Journal of Operations Research, Statistics, and Computer Science 26, 2, 24-33.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>Laporte, G. 1988. Location-Routing Problems. Vehicle Routing: Methods and Studies. B. L. Golden and A. A. Assad, eds. North-Holland, Amsterdam.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>Liner, C. L., R. Gobeli, and W. D. Underwood. 1998. 3-D Seismic Survey Design as an Optimization Problem. In Proceedings of the SEG 1998 International Expositions and 68th Annual Meeting. Society of Exploration Geophysicists, Tulsa, Oklahoma.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>Revelle, C. and G. Laporte. 1993. New Directions in Plant Location. Journal in Locational Analysis 5, 31-58.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Rote. G. 1992. The N-line Traveling Salesman Problem. Networks 22, 91-108.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Schlumberger Technology Corporation</orgname>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SCHLUMBERGER TECHNOLOGIES</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Kenyon, Astrid S.</name>
+            <address>
+              <address-1>Cedar Park, TX, US</address-1>
+              <city>Cedar Park</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Morrice, Douglas J.</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Taylor-Russell, Gail M.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Jansson, Pehr B.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>McElheny, Jr., Donald E.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method for optimizing logistical operations in land seismic surveys.
+      <br/>
+      The system and method for modeling and optimizing logistical operations problems in land seismic survey operations is implemented in a computer program running on a computer processor.
+      <br/>
+      A logistical problem is formulated with a set of decision variables and problem data and the problem is modeled as an objective function and a set of constraints, expressed in terms of the problem data and the decision variables.
+      <br/>
+      The objective function is solved subject to the constraints and an optimal solution is generated for the set of decision variables to optimize the logistical problem.
+      <br/>
+      Logistical problems that may be optimized using this approach include: minimization of total costs in the design and operations of a land seismic survey, routing of one or more source crews through a sequence of source location points, placement of recording stations in a survey, placement of source locations, source crew and vehicle routing, offsetting source locations from exclusion zones to avoid obstacles and determining the optimal amount of an expendable resource needed for the survey.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND</heading>
+    <p num="1">
+      This invention relates generally to solving logistical operations problems in three dimensional (3D) land seismic surveys.
+      <br/>
+      More particularly, the invention is a method and system for optimizing seismic surveys by applying operations research methodologies to the land seismic surveying problem domain.
+      <br/>
+      Optimization problems in 3D land seismic surveying are formulated and solved using mathematical programming techniques.
+      <br/>
+      The invention introduces a number of optimization models and methods for improving logistical operations in 3D land seismic surveys.
+      <br/>
+      The present method and system models logistical problems by formulating the problem as a set of inequalities and then solving the set of inequalities using an optimization software program using mathematical programming techniques.
+    </p>
+    <p num="2">
+      Seismic surveying is a key technology area in geophysical prospecting.
+      <br/>
+      Seismic surveying is primarily concerned with reflection seismology.
+      <br/>
+      A source on the surface of the earth generates a signal which propagates through the earth.
+      <br/>
+      The underground geological structures attenuate, reflect, and refract the signal.
+      <br/>
+      Receiver equipment on the earth's surface monitors the reflected wave.
+      <br/>
+      Using this and other information, seismologists construct a picture of the earth's subsurface.
+    </p>
+    <p num="3">
+      Over the years, increasingly sophisticated survey designs and data processing techniques have been developed.
+      <br/>
+      More sophisticated designs have led to more complex logistical operations in conducting seismic surveys.
+      <br/>
+      For example, until the early 1980's, most land seismic surveys were two dimensional (2D) surveys conducted along a single line of source and receiver points.
+      <br/>
+      Today, most surveys are three dimensional (3D) where source and receivers points are scattered on a plane and the arrangement of the source and receiver points is defined by the requirements of the survey.
+    </p>
+    <p num="4">
+      The requirements of seismic surveying can be subdivided into two categories: geophysical and logistical.
+      <br/>
+      A great deal of the formal research has focused on improving the geophysical aspect of seismic surveys.
+      <br/>
+      The geophysical aspect involves achieving the best possible signal to construct the best possible picture of the earth's subsurface.
+      <br/>
+      Many improvements have been made in seismic signal source generation and receiver detection technology.
+      <br/>
+      In seismic surveying, a signal is generated from a source point, follows along a ray path, and is reflected off an underground target level.
+      <br/>
+      The reflected path returns to a receiver point.
+      <br/>
+      The reflected signal provides information on the underground structure such as a subsurface layer.
+      <br/>
+      The point of reflection of the underground target between the source and receiver is called the common midpoint (CMP).
+      <br/>
+      In seismic surveying, several receivers are turned on to detect the signal sent out from a single source point.
+      <br/>
+      This permits the simultaneous sampling of several CMPS.
+      <br/>
+      If the process is repeated with several sources instead of one source, then the same CMPs get sampled several times.
+      <br/>
+      Sampling on the same point improves the signal-to-noise ratio (S/N) for the processing of the data and results in better signal strength, which gives a better picture of the earth's subsurface.
+    </p>
+    <p num="5">
+      Much less emphasis has been placed on logistical operations and on techniques for improving those operations.
+      <br/>
+      The logistical aspect relates to the handling of the details of the seismic surveying operation along with any other factors besides geophysical ones that affect survey results.
+      <br/>
+      Among the many factors that influence the logistics of a survey are size of the survey, design of the survey, the amount of equipment available, and the number of crews available.
+      <br/>
+      These factors are controllable.
+      <br/>
+      Other factors that affect the survey results such as weather, terrain and underground geology are not controllable.
+    </p>
+    <p num="6">
+      Operations on a land seismic survey involve the coordination of signal generation (shooting), placement of equipment to receive the reflected signal, and recording of the results.
+      <br/>
+      The logistics center of a survey is called base camp.
+      <br/>
+      Line crews place the equipment (channels) on the ground and use vehicles referred to as line trucks.
+      <br/>
+      The equipment consists of cables, receivers and boxes.
+      <br/>
+      Boxes collect data and perform analog to digital conversion and filtering of the data.
+      <br/>
+      The boxes are powered by batteries and solar panels.
+      <br/>
+      Source crews (sets of vibrators or dynamite shooting crews) progress through a preplanned sequence of source locations.
+      <br/>
+      An acquisition system, located in a recording platform, turns different receivers on and off so that the required set of receivers that monitors a single source (called a patch) is turned on for each source measurement.
+      <br/>
+      The acquisition system also records the results from each shot.
+      <br/>
+      Line crews move equipment in the direction of the progression of the survey.
+      <br/>
+      Typically, there is not enough equipment available to cover the entire survey area.
+      <br/>
+      Thus, equipment movement is required.
+      <br/>
+      Measurements from a single source point typically take less than one minute.
+      <br/>
+      Movement of receiving equipment from one patch to the next one in the shooting sequence can take several minutes.
+      <br/>
+      Therefore, extra equipment is used to cover several patches ahead of the current source location.
+    </p>
+    <p num="7">
+      Given the high cost of performing seismic surveys, optimizing the operational as well as the geophysical aspects of the surveys is increasingly important.
+      <br/>
+      Because of the number of geophysical and logistical factors that influence survey results, including customer requirements and the complexity of optimization due to those factors, there is a need to develop computer models for survey optimization.
+      <br/>
+      The computer model needs to optimize survey operation, for example, by conducting a survey at the lowest possible cost or generating the highest possible profit, while maintaining the geophysical survey requirements.
+    </p>
+    <p num="8">
+      One of the ways to formulate and solve optimization problems in 3D land seismic surveys is by using operational research mathematical programming techniques.
+      <br/>
+      Mathematical programming has been widely applied to solve operations problems in manufacturing, transportation and logistics, finance, and marketing where the parameters are quantifiable.
+      <br/>
+      Mathematical programming techniques can be used when a problem is formulated as: (i) a set of decision variables, (ii) a problem specification to be solved that is expressed as a function to be minimized or maximized (called objective function), and (iii) a set of constraints.
+      <br/>
+      Decision variables are quantities under the control of the decision maker.
+      <br/>
+      Examples of decision variables are factors such as size of the survey, the design of the survey, the amount of equipment available, and the number of crews available.
+      <br/>
+      It is these controllable factors that provide the decision maker with the opportunity to improve or even optimize survey design and operations.
+      <br/>
+      The constraints are the restrictions that bound the problem, for example, the maximum number of signals that can be generated in a day (called the number of shots).
+      <br/>
+      The problem specification is essentially a set of inequalities modeling the general logistical problem to be solved.
+      <br/>
+      Examples of problem specifications that can be modeled using sets of inequalities include: minimization of total costs in the design and operations of a land seismic survey; the optimal routing of one or more source crews through a sequence of source location points; the optimal placement of recording locations in a survey; and the optimal amount of an expendable resource to purchase prior to the survey so there is a sufficient amount of the resource available for the survey with a minimal amount remaining.
+      <br/>
+      These inequalities take into account the decision variables and constraints corresponding to the particular instance of the problem to be solved.
+      <br/>
+      Other quantities in the inequalities, called problem data or parameters, are not computed but are set to given values or a set of values.
+      <br/>
+      An example of problem data might be the surveying costs for every source and receiver point.
+      <br/>
+      After the problem is modeled as a set of inequalities, it is translated into a form suitable for solution by a solver using, for example, an algebraic modeling language.
+      <br/>
+      The solver then computes the values of the decision variables which optimize the objective function and satisfy the set of constraints.
+      <br/>
+      The values of the decision variables are computed such that the objective function is optimized and the set of constraints is satisfied.
+      <br/>
+      The result is an improved survey design and logistical operation.
+    </p>
+    <p num="9">
+      Models become harder to solve when the decision variables are integer, the objective function and/or the constraints are nonlinear, and the problem data are stochastically defined.
+      <br/>
+      For integer programming problems, the computational complexity of the solution grows exponentially with the number of integer variables.
+      <br/>
+      No algorithm can solve all nonlinear programming problems to optimality.
+      <br/>
+      The best any algorithm can do in the general case is to guarantee local optimality (such as guarantee the best solution over a local region of possibilities).
+      <br/>
+      In certain special cases when the objective function has a special shape or structure, leading for example to the property of convexity, global optimality (the best solution over all possibilities) can also be guaranteed.
+      <br/>
+      To eliminate uncertainty in the data, assumptions may need to be made but may result in solutions that are far from optimal.
+      <br/>
+      Stochastic programming techniques use the structure of the mathematical model to furnish exact solutions or simulation (Monte Carlo sampling) to bound the optimal solution.
+      <br/>
+      Given all these complicating factors, an optimal solution, or a solution within a specified tolerance of the best possible solution, or just a feasible solution, that is, one that satisfies the problem constraints is sought.
+    </p>
+    <p num="10">
+      Many types of commercial optimization software packages (also called solvers) exist to solve mathematical programming problems.
+      <br/>
+      Once the mathematical model has been formulated, it must be input to a solver.
+      <br/>
+      Spreadsheet packages incorporate solvers and can be used to solve small (generally less than 200 variables) 3D seismic surveying problems.
+      <br/>
+      For larger problems, algebraic modeling languages such as GAMS (Brooke et al. 1992) or AMPL (Fourer et al. 1993) may be required.
+      <br/>
+      Alternatively, a program can be written to directly call a commercially available solver library.
+    </p>
+    <p num="11">
+      Problems amenable to mathematical programming techniques abound in land seismic operations.
+      <br/>
+      Vehicle routing problem formulations used in transportation may be adapted to the vehicles used in moving the equipment and in the shooting operations.
+      <br/>
+      Models used in logistics for facility locations may be used to determine the location and moves of the base camp and trucks carrying the recording system.
+      <br/>
+      Other problems include crew shuttling to and from remote locations, line crew scheduling, battery replacement strategies in the data recording boxes, and the balancing of workloads between line crews, line trucks, and source crews.
+      <br/>
+      Ultimately optimization modeling may be used to design seismic survey strategies that differ from those specified by geophysical criteria alone.
+      <br/>
+      For example, a seismic survey design may be developed by incorporating all costs (including cost of operations) that would ensure a certain fold coverage, offset distribution, and azimuthal distribution.
+    </p>
+    <heading>SUMMARY</heading>
+    <p num="12">
+      The method and system of the present invention optimizes 3D land seismic survey logistics by formulating and modeling the survey problem in terms of an objective function and a set of constraints.
+      <br/>
+      The model is essentially a set of inequalities for modeling the problem to be solved, including the decision variables that can be controlled by the user, problem data, and the geophysical and operational constraints.
+      <br/>
+      Once the objective function is specified, a commercial optimization program may be used to optimize the function by computing values of the decision variables such that the objective function is optimized and the set of constraints are satisfied.
+      <br/>
+      Typical logistical problems that may be solved include minimizing the acquisition costs in the design and operations of the survey, optimizing source crew routing at the survey site, optimal placement of recording station locations, and the optimal amount of an expendable resource to purchase for a survey.
+    </p>
+    <p num="13">
+      The present invention comprises a method for modeling and optimizing logistical operations problems in land seismic survey operations, in a computer program running on a computer processor, the method comprising formulating a logistical problem with a set of decision variables and problem data, modeling the problem as an objective function and a set of constraints expressed in terms of the problem data and the decision variables, solving the objective function and generating an optimal solution for the set of decision variables to optimize the logistical problem.
+      <br/>
+      Alternatively, the method may comprise identifying decision variables under the control of a user for a logistical problem, identifying a set of operational and geophysical constraints for the logistical problem, identifying variable optimization problem parameters, building a mathematical model of the logistical problem using the decision variables, constraints and problem parameters, the model being expressed as an objective function and a set of constraints expressed in terms of the decision variables and problem parameters, and generating an optimal logistical problem solution.
+      <br/>
+      The method may further comprise translating the mathematical model into a form suitable for solution by a solver software program and using the solver software program to solve for the decision variables which satisfy the problem constraints and optimize the objective function.
+      <br/>
+      The objective function and constraints may be expressed in an algebraic modeling language and solved using an optimization program that optimizes the objective function.
+      <br/>
+      The logistical problem may be a three dimensional (3D) seismic survey problem.
+    </p>
+    <p num="14">
+      In one embodiment, the 3D seismic survey problem is to minimize acquisition costs in the design and operations of the 3D seismic survey.
+      <br/>
+      The decision variables identified for the 3D seismic survey may be selected from the group consisting of the number of shot locations, the number of receiver locations, placement of shot locations, the placement of receiver locations, the number of active receiver lines, the number of active receiver channels per line, coordination of shot locations and the placement of equipment to receive a reflected signal.
+    </p>
+    <p num="15">
+      In building a mathematical model, the objective function and set of constraints for minimizing acquisition costs may further comprise modeling preparation costs, modeling shooting and recording costs and modeling processing costs.
+      <br/>
+      The preparation costs may further comprise permitting costs, surveying costs which are a function of source and receiver locations, cutting and clearing costs which are functions of the length of the source and receiver lines, and drilling costs which are a function of the number of source locations.
+      <br/>
+      The shooting and recording costs may further comprise crew costs and equipment costs.
+      <br/>
+      The processing costs may be a function of the size of the survey.
+      <br/>
+      The constraints may further comprise the geophysical requirements of fold, offset and azimuth, the maximum number of shots per day, and the maximum number of channels.
+    </p>
+    <p num="16">
+      In one embodiment, the logistical problem is routing a 3D seismic survey source crew through a plurality of nodes in a minimum period of time.
+      <br/>
+      Each node may represent a rack, which is a set of source locations on the same source line between two adjacent receiver lines.
+      <br/>
+      The method may further comprise identifying as decision variables the number of times the source crew passes from one node to another node, requiring the constraint that each node must be visited at least once, requiring the constraint that each node must be departed at least once, and requiring the number of visits and departures from a node to be equal.
+      <br/>
+      In addition, the method may further comprise routing a plurality of source crews through the plurality of nodes.
+      <br/>
+      The method may further comprise requiring the constraint that each rack must be visited at least once by one of the crews, requiring the constraint that each source crew starts at a base camp location and returns to the base camp location, and minimizing the total cost of routing the plurality of source crews by solving for an optimal number of crews while equalizing the time for each source crew to be away from the base camp location.
+    </p>
+    <p num="17">
+      In an alternate embodiment, the logistical problem is placing a recording station within a field of receiver locations such that the number of times the recording station must be moved to cover the field of receiver locations is minimized.
+      <br/>
+      The method further comprises identifying the location of the recording station at each point in time as a decision variable and requiring the constraint that each receiver location must be listened to at least once.
+    </p>
+    <p num="18">
+      The present invention also comprises a system for modeling and optimizing logistical operations problems in land seismic survey operations.
+      <br/>
+      The system comprises means for identifying decision variables under the control of a user for a logistical problem, means for identifying a set of operational and geophysical constraints for the logistical problem, means for quantifying variable optimization problem parameters, and means for building a mathematical model of the logistical problem.
+      <br/>
+      The model may be expressed as an objective function subject to a set of inequalities representing the constraints.
+      <br/>
+      The objective function and constraints may be expressed in terms of the decision variables and the problem parameters.
+      <br/>
+      The system has a means for optimizing the objective function and solving for the decision variables while satisfying the set of constraints to generate an optimal logistical problem solution.
+    </p>
+    <p num="19">
+      In one embodiment, the logistical problem is routing a 3D seismic survey source crew between a plurality of nodes in a minimum period of time.
+      <br/>
+      The method further comprises routing a plurality 3D seismic survey source crews between the plurality of nodes in a minimum period of time, minimizing the total cost of the 3D seismic survey, and equalizing the total amount of time each source crew is deployed during the seismic survey.
+    </p>
+    <p num="20">In another embodiment, the logistical operations problem is placing a recording station within a field of receiver stations such that the number of times the recording station must be moved to cover the field of receiver stations is minimized.</p>
+    <p num="21">
+      In another embodiment, the logistical problem is determining the amount to purchase of an expendable item needed for equipment operations such that the amount of the expendable item is sufficient for the survey operations with a minimal amount of the item remaining after the survey operation is complete.
+      <br/>
+      The expendable item may be vehicle fuel.
+    </p>
+    <p num="22">
+      In another embodiment, the logistical problem is placing shot locations so as to minimize the cost of the seismic survey while satisfying the operational and geophysical survey constraints.
+      <br/>
+      The survey constraints may further comprise placing the shot locations to achieve a minimum fold coverage, placing the shot locations so the locations fall within a minimum and maximum offset, and placing the shot locations so the locations fall within a minimum and maximum azimuth.
+      <br/>
+      The problem parameters may further comprise the cost of locating the shot location at a potential shot point, a set of shot locations that fall into a bin, the number of shot locations in the bin that fall into a minimum and maximum offset, minimum and maximum fold coverage for the bin that fall into the minimum and maximum offset, a set of shot locations for the bin that fall into a minimum and maximum azimuth, and minimum and maximum fold coverage for the bin that fall into the minimum and maximum azimuth.
+    </p>
+    <p num="23">
+      In another embodiment, the logistical problem is placing shot locations and determining source crew routing so as to minimize cost of the seismic survey while satisfying the operational and geophysical survey constraints.
+      <br/>
+      The method may further comprise determining the sequence of shots and determining new locations for shots to avoid shot exclusion zones.
+      <br/>
+      The shot exclusion zones where shot locations are to be avoided are problem parameters that may be determined by a user.
+      <br/>
+      Alternatively, the shot exclusion zones may be seismic survey operational and geophysical constraints.
+      <br/>
+      The problem parameters may further comprise the cost of placing the shot location at each shot point, the cost of a source crew traveling between shot locations, and the set of possible base camp locations.
+      <br/>
+      The survey constraints may further comprise placing the shot locations to achieve a minimum fold coverage, placing the shot locations so the locations fall within a minimum and maximum offset, placing the shot locations so the locations fall within a minimum and maximum azimuth, requiring the source crew to enter each shot location at least once, requiring the number of visits to and departures from a node to be equal, and allowing only one base camp to be selected from the set of possible base camp locations.
+      <br/>
+      The logistical problem may further comprise determining shot locations that are offset from an exclusion zone in a completed survey design to avoid obstacles in the survey field.
+      <br/>
+      The survey constraints may further comprise determining a set of offset shot locations for each location to be avoided in a completed survey design, requiring at least one source crew to enter and leave each location, equalizing the length of time for each source crew to visit the shot locations for a plurality of source crews, placing the shot locations to achieve a minimum fold coverage, placing the shot locations so the locations fall within a minimum and maximum offset, placing the shot locations so the locations fall within a minimum and maximum azimuth, requiring the number of visits to and departures from the shot locations by the source crew to be equal, and allowing only one base camp to be selected from the set of possible base camp locations.
+      <br/>
+      The logistical problem may further comprise optimizing source location, vehicle routing and receiver equipment layout operational constraints.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="24">
+      These and other features, aspects and advantages of the present invention will become better understood with regard to the following description, appended claims and accompanying drawings where:
+      <br/>
+      FIG. 1 is a block diagram depicting the general process of solving a logistical operations problem using a mathematical programming model.
+      <br/>
+      FIG. 2 is a flow diagram depicting a high level view of formulating a mathematical programming model for solving a 3D seismic surveying logistical operations problem.
+      <br/>
+      FIG. 3 shows a 3D orthogonal survey design.
+      <br/>
+      FIG. 4 shows a survey design where the signal sent from any given source point is monitored by multiple receivers on different lines.
+      <br/>
+      FIG. 5 shows an instance of reflection seismology.
+      <br/>
+      FIG. 6 is a flow diagram for formulating a mathematical programming model for minimizing 3D survey acquisition costs in the design and operations of a 3D seismic survey.
+      <br/>
+      FIG. 7 is a flow diagram for determining the preparation cost model.
+      <br/>
+      FIG. 8 shows a set of locations to be visited by a source crew.
+      <br/>
+      FIG. 9 shows an optimal solution for the set of locations of FIG. 8 to be visited by one source crew.
+      <br/>
+      FIG. 10 shows an optimal solution for the set of locations of FIG. 8 to be visited by two source crews.
+      <br/>
+      FIG. 11 shows the grid pattern and solution for a problem of optimally placing a recording station within a survey.
+      <br/>
+      FIG. 12 shows the algebraic formulation of the set of receiver locations covered by a recording station.
+      <br/>
+      FIG. 13 shows a problem and solution for optimizing the placement of source locations subject to geophysical and operational constraints.
+      <br/>
+      FIG. 14A shows a problem of optimizing source locations and vehicle routing. FIG. 14B shows the solution for optimizing the selections of source locations and optimal vehicle routing.
+      <br/>
+      FIG. 15 shows an offset problem and optimal solutions for offsetting a source point to avoid obstacles.
+      <br/>
+      FIG. 16 shows the incorporation of receiver equipment layout constraints into a source location and routing problem and an optimal solution.
+      <br/>
+      FIG. 17 is a flow diagram for optimizing the purchase of an expendable item.
+      <br/>
+      FIG. 18 is a block diagram illustrating a computer processor and a computer program embodiment of the invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="25">
+      FIG. 1 shows a block diagram depicting the general process of solving a logistical operations problem by formulating a mathematical programming model.
+      <br/>
+      The problem to be solved is first identified 10.
+      <br/>
+      The problem data parameters 11, decision variables 12 and constraints 13 are also identified.
+      <br/>
+      The logistical problem is represented as a mathematical model in terms of decision variables and the problem parameters 14.
+      <br/>
+      The model is expressed as an objective function and a set of inequalities representing the constraints of the problem.
+      <br/>
+      The model is then translated into a form suitable for solution by a solver program, using for example, an algebraic modeling language.
+      <br/>
+      The objective function is then optimized subject to the constraints 15 by using a commercial optimization software solver package.
+      <br/>
+      An optimal problem solution 16, that is a set of optimal decisions, is obtained.
+    </p>
+    <p num="26">
+      FIG. 2 shows a flowchart depicting a high level view of formulating a mathematical programming model for solving a 3D land seismic surveying logistical operations problem.
+      <br/>
+      In formulating a mathematical programming model, the first step is to identify the 3D seismic survey problem to be solved, and expressing it as a problem statement 20.
+      <br/>
+      Problem data or parameters, that is quantities that are not computed but set to given values or set of values, are determined 21.
+      <br/>
+      The decision variables, those quantities under the control of the user and that may be optimized, are identified 22.
+      <br/>
+      The objective function is identified 23 and the constraints, both geophysical and operational, are also identified 24.
+      <br/>
+      The problem is then modeled in the form of a mathematical program, expressed as an objective function and set of constraints.
+      <br/>
+      The set of constraints is represented by a set of inequalities 25.
+      <br/>
+      An optimizer or solver is then used to solve the model and generate an optimal solution for the objective function 26 which may be displayed to a user 27.
+      <br/>
+      During optimization, an attempt is made to compute the values of the decision variables such that the objective function is optimized and the set of constraints are satisfied.
+    </p>
+    <p num="27">
+      FIG. 3 shows a 3D orthogonal survey design 30 where sources and receivers are located on a plain over the earth's surface and form a grid pattern.
+      <br/>
+      The vertical lines in FIG. 3 contain source locations 31 (represented by an "X") and the horizontal lines receiver locations 32 (represented by a " * ").
+      <br/>
+      Design considerations for the orthogonal survey design 30 include the spacing of the source 33 and receiver 34 lines, and the spacing of the source and receiver locations along the source and receiver lines 33-34.
+      <br/>
+      There are many different designs that exist for 3D surveys, often with more complicated design criteria than the one presented in FIG. 3.
+    </p>
+    <p num="28">
+      FIG. 4 shows the survey design of FIG. 3 in more detail, where the signal sent from any given source point 41 is monitored by multiple receivers 42 on different lines.
+      <br/>
+      The set of receivers 42 that monitor a single source signal is often referred to as a patch 43.
+      <br/>
+      Two racks are shown 44 and 48.
+      <br/>
+      A rack is a set of source locations on the same source line between two adjacent receiver lines.
+      <br/>
+      For example, rack 44 is the set of source locations 41 on the same source line 45 between two adjacent receiver lines 46-47.
+      <br/>
+      In general, all sources in a single rack 44 shoot into the same patch 43.
+      <br/>
+      The survey design in FIG. 4 is called an orthogonal, split-straddle design because there are an equal number of receiver lines on each side of the rack 44 in the patch 43.
+      <br/>
+      FIG. 18 is a block diagram illustrating a computer processor and a computer program embodiment of the invention.
+      <br/>
+      A computer 800 executes a computer program 802 for modeling and optimizing logistical operations problems 810 in land seismic survey operations.
+      <br/>
+      The computer program 802 contains logic for identifying decision variables 812 under user control for a logistical problem 810.
+      <br/>
+      The computer program further consists of logic to identify geophysical and operational constraints 813 and logic for quantifying variable problem parameters 811 for the logistical problem 810.
+      <br/>
+      The decision control variables, problem parameters, and constraints are input to a logic 814 for building a mathematical model of the logistical problem 810, the model being expressed as an objective function subject to a set of inequalities representing the constraints, the objective function being expressed in terms of the decision variables and problem parameters.
+      <br/>
+      The mathematical model is input to a logic 815 for optimizing the objective function and solving for the decision variables while satisfying the set of constraints to generate an optimal logistical problem solution 816.
+    </p>
+    <p num="29">
+      FIG. 5 depicts an instance of reflection seismology.
+      <br/>
+      In reflection seismology, a signal is generated from a source point 51, follows along a ray path 52, and is reflected off an underground target level 53.
+      <br/>
+      The reflected ray path 54 returns to a receiver point 55.
+      <br/>
+      The reflected signal 54 provides information on the underground structure, in this case, a subsurface layer.
+      <br/>
+      The point of reflection of the underground target 53 between the source 51 and receiver 55 is called the common midpoint (CMP) 56. In seismic surveying, several receivers are usually activated to detect the signal sent out from a single source point.
+      <br/>
+      This permits the simultaneous sampling of several CMP 56.
+      <br/>
+      If the process is repeated for several sources 51, then the same CMP 56 get sampled several times.
+      <br/>
+      Sampling on the same point improves the signal-to-noise ratio (S/N) for the processing of the data.
+      <br/>
+      CMPs 56 that share more or less the same position are grouped into predefined rectangular bins.
+      <br/>
+      Bin size depends on target size, spatial resolution required, and economics.
+      <br/>
+      The economic aspect is based on the direct relationship between the bin size, and the source and receiver locations spacing.
+      <br/>
+      For an orthogonal design as shown in FIG. 3, the bin dimensions are one half the source and receiver spacings.
+      <br/>
+      During processing, the data in each bin are averaged (or stacked) in order to improve the (S/N).
+      <br/>
+      The number of CMPs in each bin is called the fold coverage.
+      <br/>
+      The source/receiver pairs for each bin have a range of offsets (distance from shot point to receiver) and azimuths (direction or compass angle from shot point to receiver).
+      <br/>
+      Fold coverage, range of offsets, and range of azimuths are the main measures by which the geophysical requirements of a 3D survey are assessed.
+    </p>
+    <p num="30">
+      Turning now to FIG. 6, a data flow diagram for formulating a mathematical program model for minimizing 3D survey acquisition costs in the design and operations of a 3D seismic survey is shown.
+      <br/>
+      In FIG. 6, the flow diagram of FIG. 2 is implemented to solve the specific problem of minimizing survey acquisition costs 600.
+      <br/>
+      Source and receiver points in the survey are arranged in an orthogonal split-straddle design as shown in FIG. 4.
+      <br/>
+      The next step in formulating a mathematical programming model is to decide what decisions can be made that provide the opportunity to improve the survey design and operation and to determine the decision variables 601.
+      <br/>
+      On a land seismic survey, the main decisions involve how to shoot the survey and how to place the receiving equipment.
+      <br/>
+      These decisions must be made in the most cost effective manner subject to the geophysical and operations requirements of the survey.
+      <br/>
+      Decision variables for this problem are shown in Table 1.
+    </p>
+    <p num="31">
+      --      TABLE 1
+      <br/>
+      --      SLS: Shot Line Spacing (km)
+      <br/>
+      --      RLS: Receiver Line Spacing (km)
+      <br/>
+      --      RS:: Receiver Spacing (km) in a line
+      <br/>
+      --      SS: Shot Spacing (km) in a line
+      <br/>
+      --      NR: Number of active receiver channels
+      <br/>
+      --      NL: Number of active receiver lines
+      <br/>
+      --      NS: Number of shots per square kilometer
+      <br/>
+      --      ND: Number of shots per day per source crew
+      <br/>
+      --      NSB: Number of shot locations between each receiver line
+      <br/>
+      --      NRB: Number of receiver locations between each shot line
+      <br/>
+      --      NRL: Number of active receiver channels per active receiver line
+      <br/>
+      --      HNL: One half the number of receiver lines (used to constrain the
+      <br/>
+      --      number of receiver lines to be even for the split-straddle design).
+    </p>
+    <p num="32">
+      The next step is to begin to define the objective function 602.
+      <br/>
+      Using a top-down formulation approach, we start with:
+    </p>
+    <p num="33">Minimize Total Acquisition Costs per square km.</p>
+    <p num="34">The objective can be subdivided and restated as:</p>
+    <p num="35">Minimize Preparation Costs per square km+Shooting and Recording Costs per square km+Processing Costs per square km.</p>
+    <p num="36">
+      A preparation cost model is then determined 603.
+      <br/>
+      FIG. 7 is a flowchart that depicts the details of determining the preparation cost model 71.
+      <br/>
+      Preparation Costs include permitting costs 72, surveying costs 73, cutting and clearing costs 74, and drilling costs 75 (in the case when dynamite is used as the source).
+      <br/>
+      We assume that permitting costs 72 are a function of area and hence are constant per square km.
+      <br/>
+      Surveying costs 73 are a function of the number of source and receiver locations.
+      <br/>
+      The survey costs per square km can be written as
+      <br/>
+      CSSV *(1/SS)*(1/SLS)+CRSV *(1/RS)*(1/RLS),
+      <br/>
+      where CSSV and CRSV are surveying cost per source point and surveying cost per receiver point, respectively.
+      <br/>
+      The quantities CSSV and CRSV are examples of problem data that are assumed to be fixed and known.
+    </p>
+    <p num="37">
+      The cutting and clearing costs 74 are functions of the length of the source and receiver lines.
+      <br/>
+      This quantity may be written as
+      <br/>
+      CSCC *(1/SLS)+CRCC *(1/RLS),
+      <br/>
+      where CSCC and CRCC are cutting and clearing costs per km for source and receiver lines, respectively.
+    </p>
+    <p num="38">
+      Drilling costs 75 are a function of the number of source locations, assuming that the depth of the charge hole is constant.
+      <br/>
+      Therefore, drilling costs per square km may be written as
+      <br/>
+      CDR *(1/SS)*(1/SLS),
+      <br/>
+      where CDR is the drilling cost per source location.
+      <br/>
+      For a survey on which the source is not dynamite, CDR is set equal to zero.
+    </p>
+    <p num="39">
+      Turning back to FIG. 6, shooting and recording cost models are determined 604.
+      <br/>
+      Shooting and recording costs can be separated into two components: crew costs and equipment costs.
+      <br/>
+      We assume that crew costs can be stated as an average daily rates.
+      <br/>
+      Thus, crew costs per square km are
+      <br/>
+      CCR *(NS/ND),
+      <br/>
+      where CCR is the average daily cost of the crew.
+      <br/>
+      We assume that an average daily equipment cost can be obtained which varies with the number of receiver channels used on the job.
+      <br/>
+      This can be stated as
+      <br/>
+      CEQ *(NR*(1+I))*(NS/ND),
+      <br/>
+      where CEQ is the equipment cost per channel per day and I is an inflation factor to calculate the total number of channels used by the crew (active patch+spares).
+      <br/>
+      For example, if I equals 0.5, the total number of channels is 1.5 times the number needed to cover the active patch.
+    </p>
+    <p num="40">The final cost component is to determine the processing cost model 605, which is a function of the size of the survey and is stated as Cpc for average processing costs per square km.</p>
+    <p num="41">
+      A mathematical model of the objective function is built by combining the above costs together and can be written as
+      <br/>
+      Minimize (CSSv +CDR)*(1/SS)*(1/SLS)+CRSV *(1/RS)*(1/RLS)+CSCC *(1/SLS)+CRCC *(1/RLS)+(CCR +CEQ *(NR*(1+I)))*(NS/ND)+CPC.
+    </p>
+    <p num="42">
+      Constraints 606 bounding the problem must be determined.
+      <br/>
+      In this case the constraint set includes the geophysical requirements of fold, offset (max, and max min), and azimuth.
+      <br/>
+      The constraint for fold is
+      <br/>
+      NR*NS*Bx *BY -F &gt;= 0,
+      <br/>
+      where Bx and BY are the dimension of the bin (in km) in the in-line and cross-line directions, and F is the required fold coverage.
+      <br/>
+      In order to constrain azimuth, maximum in-line and cross-line offset will be used.
+      <br/>
+      Although in-line and cross-line offsets constrain azimuth in a crude manner, this practice is common in practice in the field.
+      <br/>
+      These constraints are
+      <br/>
+      Maximum in-line offset: (NR/NL)/2*RS-RS/2 &gt;= OIN
+    </p>
+    <p num="43">
+      and
+      <br/>
+      Maximum cross-line offset: NL/2*RLS-SS/2 &gt;= OCR,
+      <br/>
+      where OIN and OCR are the required maximum in-line and cross line offsets, respectively.
+      <br/>
+      The constraints for the offsets are
+      <br/>
+      Maximum: ((NR/NL)/2*RS-RS/2)2 +(NL/2*RLS-SS/2)2 &gt;= (OMAX)2
+    </p>
+    <p num="44">
+      and
+      <br/>
+      Maximum Minimum: (SLS)2 +(RLS)2 &lt;= (OMIN)2,
+      <br/>
+      where OMAX and OMIN are the required maximum offset and the maximum minimum offset, respectively.
+    </p>
+    <p num="45">
+      The following operational constraints 606 are also required:
+      <br/>
+      Maximum number of shots per day: ND  &lt;= S�MAX
+    </p>
+    <p num="46">
+      and
+      <br/>
+      Maximum number of channels: NR(1+I) &lt;= CMAX,
+    </p>
+    <p num="47">- where SMAX and CMAX are the maximum number of shots per day and the maximum number of receiver channels available to the crew, respectively.</p>
+    <p num="48">
+      In addition, constraints are included to ensure that various decision variables are consistently and practically defined.
+      <br/>
+      The relationship between shot and receiver spacing and the dimensions of the bins are characterized by
+      <br/>
+      RS=2*BX,
+      <br/>
+      and
+    </p>
+    <p num="49">ti SS=2*BY.</p>
+    <p num="50">
+      The following constraint relates NS, SS, and SLS:
+      <br/>
+      NS*SS*SLS=1.
+    </p>
+    <p num="51">
+      The distance between each receiver line must be an integer number of shot locations:
+      <br/>
+      RLS-NSB*SS=0.
+    </p>
+    <p num="52">
+      The distance between each shot line must be an integer number of receiver locations:
+      <br/>
+      SLS-NRB*RS=0.
+    </p>
+    <p num="53">
+      A constraint to ensure the same number of channels per active receiver line is:
+      <br/>
+      NR-NL*NRL=0.
+    </p>
+    <p num="54">
+      To constrain the number of receiver lines to be even for the split-straddle design, the following constraint is necessary:
+      <br/>
+      NL-2*HNL=0.
+    </p>
+    <p num="55">
+      Finally, all decision variables are constrained to be positive, i.e.,
+      <br/>
+      SLS, RLS, RS, SS, NR, NL, NS, ND, NSB, NRB, NRL, HNL &gt;= 0,
+    </p>
+    <p num="56">and NR, NL, NS, ND, NSB, NRB, NRL, and HNL are constrained to be integer-valued.</p>
+    <p num="57">
+      The complete mathematical model for this problem is built 607 using the costs and the constraints, and is expressed as:
+      <br/>
+      Minimize (CSSV +CDR)*(1/SS)*(1/SLS)+CRSV *(1/RS)*(1/RLS)+CSSC *(1/SLS)+CRCC *(1/RLS)+(CCR +CEQ *(NR*(1+I)))*(NS/ND)+CPC,
+    </p>
+    <p num="58">subject to the constraints shown in Table 2 below.</p>
+    <p num="59">
+      -- TABLE 2
+      <br/>
+      -- Fold: NR * NS * Bx * BY &gt;F
+      <br/>
+      -- Maximum in-line offset: (NR/NL)/2*RS - RS/2 &gt;= OIN
+      <br/>
+      -- Maximum in-line offset: NL/2*RLS - SS/2 &gt;= OCR
+      <br/>
+      -- Maximum offset: ((NR/NL)/2*RS - RS/2)2 + (NL/2*RLS - SS/2)2
+      <br/>
+      --   &gt;=
+      <br/>
+      -- (OMAX)2
+      <br/>
+      -- Maximum minimum offset: (SLS)2 + (RLS)2  &lt;= (OMIN)2
+      <br/>
+      -- Maximum number of shots per day: ND  &lt;= SMAX
+      <br/>
+      -- Maximum number of channels: NR(1 + I) &lt;= CMAX
+      <br/>
+      -- In-line bin size: RS/2 = Bx
+      <br/>
+      -- Cross-line bin size: SS/2 = BY
+      <br/>
+      -- Shot relationship: NS * SS * SLS = 1
+      <br/>
+      -- Number of shot locations between each receiver line: RLS -
+      <br/>
+      -- NSB * SS = 0
+      <br/>
+      -- Number of receiver locations between each shot line: SLS -
+      <br/>
+      -- NRB * RS = 0
+      <br/>
+      -- Number of active channels per active receiver line: NR - NL *
+      <br/>
+      -- NRL = 0
+      <br/>
+      -- Ensure an even number of receiver lines: NL - 2 * HNL = 0
+      <br/>
+      -- Nonnegativity: SLS, RLS, RS, SS, NR, NL, NS, ND, NSB, NRB,
+      <br/>
+      -- NRL, HNL &gt;= 0
+      <br/>
+      -- Integer: NR, NL, NS, ND, NSB, NRB, NRL, and HNL integer-valued
+    </p>
+    <p num="60">
+      The problem is now stated as an objective function and set of constraints and is represented as a set of integer, nonlinear inequalities for minimizing 3D seismic survey acquisition costs 608.
+      <br/>
+      Various optimization programs exist for finding local optimal solutions to a problem of this form, although these algorithms do not guarantee a global optimal solution.
+      <br/>
+      The model is translated into a format that is compatible with a solver program 608, for example by using an algebraic modeling language.
+      <br/>
+      It is solved using one of these solver optimization programs 609.
+      <br/>
+      A local optimal solution 610 is generated and may be displayed to a user 611.
+    </p>
+    <p num="61">Optimizing Source Crew Routing in a Seismic Survey</p>
+    <p num="62">
+      Another 3D seismic survey problem solved using mathematical programming techniques is the optimal routing of one or more source crews through a sequence of source location points.
+      <br/>
+      FIG. 8 represents a set of locations for a source crew to visit (called nodes 1-5).
+      <br/>
+      Each node 1-5 represents a rack, which is the set of source locations on the same source line between two adjacent receiver lines.
+      <br/>
+      FIG. 8 is limited to 5 racks, labeled nodes 1 to 5, arbitrarily located, and a base camp 81 to simplify the example (number of nodes=n=6), but could be extended to represent additional locations of racks in the survey.
+      <br/>
+      Arcs between the nodes 1-5 represent access roads.
+      <br/>
+      The time needed to go from one node to the other one is known and indicated on each arc (tij between node i and node j).
+      <br/>
+      For example, the time to go from the base camp 81 to node 5 is shown as T=4.
+      <br/>
+      The arcs are directed, that is, the cost of traveling from node i to node j may differ from the cost of traveling from node j to node i. This can happen, for example, when the path between two nodes is a road, and that both directions on this road are not adjacent, but go on each side of a hill.
+      <br/>
+      It allows more flexibility by removing symmetry in the graph.
+      <br/>
+      Nevertheless, to simplify the model, we set tij =tji in the example.
+      <br/>
+      Due to this symmetry, only half the arcs are represented in FIG. 8.
+    </p>
+    <p num="63">
+      Consider first that only one source crew is available.
+      <br/>
+      We want to determine what is the optimal path this crew should follow to visit all the Nodes 1-5 in a minimum amount of time as shown in Table 3.
+      <br/>
+      The number of times crews pass through an arc is called the flow on this arc.
+    </p>
+    <p num="64">
+      --      TABLE 3
+      <br/>
+      --      Decision Variables: Xij, the flow in arc from node i to node j.
+      <br/>
+      --      Objective:         Minimize the time to visit all the nodes.
+      <br/>
+      --      Constraint:        Each node must be visited at least once.
+      <br/>
+      --                         Each node must be departed once.
+    </p>
+    <p num="65">
+      The objective function is expressed as:  (Equation image '1' not included in text)
+      <br/>
+      with i EPSILON +1, . . , n} and j EPSILON +1, . . , n}.
+    </p>
+    <p num="66">
+      This model is a variation of the Traveling Salesman Problem (TSP).
+      <br/>
+      The main difference is the possibility to visit a rack several times, allowed by the inequality in  (Equation image '2' not included in text)
+    </p>
+    <p num="67">Shooting times are not included in the objective function, but if they were we would assume that racks are shot only the first time they are visited.</p>
+    <p num="68">
+      The objective function is optimized by an optimization program.
+      <br/>
+      FIG. 9 shows an optimal solution for the set of locations in FIG. 8 to be visited by one source crew.
+      <br/>
+      The total time is equal to 21 time units.
+      <br/>
+      Arrows are not drawn on each arc between nodes 1-5 and base camp because the tour can be done in one direction or the other (indicated by tij =tji).
+    </p>
+    <p num="69">
+      It is important to notice that the model is under-constrained: it doesn't prevent undesirable tours, such as tours isolating subsets of nodes (shown as an isolated loop between nodes 3 and 4 (82) in FIG. 8).
+      <br/>
+      In order to eliminate this isolated loop and generate the solution in FIG. 9, we must include an additional constraint:
+      <br/>
+      X13 +X14 +X23 +X24 +X53 +X54 +X63 +X64 &gt;=1.
+    </p>
+    <p num="70">
+      FIG. 10 shows an optimal solution for the set of locations of FIG. 8, to be visited by two source crews.
+      <br/>
+      Several source crews may be available to work in parallel.
+      <br/>
+      The dashed lines 101 through 104 represent Source Crew No. 1.
+      <br/>
+      The solid lines 105 through 107 represent Source Crew No. 2.
+      <br/>
+      Each node 1-5 must be visited by at least one crew.
+      <br/>
+      The total time needed to visit all the nodes should be minimized, and the optimal number of crews must be determined.
+      <br/>
+      The cost of operating a crew is set to Crun. and all the crews are assumed to have the same cost.
+      <br/>
+      If not, each crew k can be assigned a specific cost, Crunk.
+      <br/>
+      The new model is formulated as shown in Table 4.
+    </p>
+    <p num="71">
+      --      TABLE 4
+      <br/>
+      --      Decision:   *Xijk, flow on arc i-&gt;j for source crew k.
+      <br/>
+      --      Variables   *Yk, set to 1 if source crew k is used, 0 otherwise.
+      <br/>
+      --                  *z is a variable that is used to balance the length of the
+      <br/>
+      --                  crew tours.
+      <br/>
+      This is to ensure that the work is balanced
+      <br/>
+      --                  between the crews.
+      <br/>
+      --      Objective:  Minimize total cost.
+      <br/>
+      --                  The total cost has two components, the survey cost,
+      <br/>
+      --                  proportional to the time spent on the job, and the
+      <br/>
+      --                  operations cost, proportional to the number of source
+      <br/>
+      --                  crews used.
+      <br/>
+      The time spent on the job is the longest
+      <br/>
+      --                  time spent by a crew.
+      <br/>
+      --      Constraints: *Same as above
+      <br/>
+      --                  *The same source crew must leave and enter a rack.
+      <br/>
+      --                  *A crew cannot go anywhere if it is not "in use".
+      <br/>
+      --                  *Each crew starts at the base camp and comes back to
+      <br/>
+      --                  the base camp.
+    </p>
+    <p num="72">The total cost assumes that we can compare the two components of the total cost (including a scaling factor in Crun if needed).</p>
+    <p num="73">
+      The problem is modeled as the objective function:  (Equation image '3' not included in text)
+      <br/>
+      Z &gt;= 0
+      <br/>
+      Yk =0,1
+      <br/>
+      Xijk &gt;= 0 and integer
+      <br/>
+      with i EPSILON +1, . . , n},j EPSILON +1, . . , n},k EPSILON +1, . . , n}. The length of the tours are balanced (as much as physically possible) using the variable z because the first constraint ensures that z is larger than the longest tour and the objective function minimizes z.
+    </p>
+    <p num="74">
+      This model is under-constrained because it does not prevent undesirable tours (shown as an isolated loop between nodes 3 and 4 in FIG. 8).
+      <br/>
+      Such tours may appear when several source crews are allowed.
+      <br/>
+      To eliminate such undesirable tours, constraints must be added.
+    </p>
+    <p num="75">
+      A first method to eliminate undesirable tours, which is more general, connects the isolated subsets of nodes to the rest of the network.
+      <br/>
+      Constraints state that if a crew connects nodes i and j, then it must enter nodes i or j from another node in the network. O(2n+1) constraints are needed to connect every possible subsets of nodes to the rest of the network.
+    </p>
+    <p num="76">
+      A second method implements a labeling of the nodes, and adds O(n2) constraints.
+      <br/>
+      With less strict restrictions, the number of these constraints can be decreased to O(n).
+    </p>
+    <p num="77">
+      In practice, these methods usually require only a small subset of the total number of constraints.
+      <br/>
+      Because the first method generates stronger constraints, it is usually preferred to the other methods in the literature.
+    </p>
+    <p num="78">
+      The objective function is now optimized subject to the set of constraints using a solver.
+      <br/>
+      The maximum number of source crews available is set to the number of nodes (or racks).
+      <br/>
+      The optimal solution for two source crews is shown in FIG. 10. It requires 2 sets of source crews, Source Crew No. 1 one covering nodes (or racks) 1, 5 and 2 (total time=14 time units) 101-104.
+      <br/>
+      Source Crew No. 2 covers nodes (or racks) 3 and 4 (total time=15 time units) 105-107.
+      <br/>
+      Thus, the total time spent on the job decreases by 6 time units by adding this extra crew at a cost of Crun.
+    </p>
+    <p num="79">
+      It is important to note that although this problem formulation has been used to demonstrate routing of source crews, similar formulations could be developed for the routing of other vehicles on a land seismic survey, including line vehicles and trouble shooting vehicles.
+      <br/>
+      The problem can be complicated by adding time windows during which the racks must be visited.
+      <br/>
+      Other models can be used to optimize the routing of vehicles of finite capacity picking up equipment at some nodes and dropping it off at other nodes.
+    </p>
+    <p num="80">Optimizing the Placement of Recording Stations within a Seismic Survey</p>
+    <p num="81">
+      Another 3D seismic survey problem solved using mathematical programming techniques is the optimal placement of recording station locations within a survey.
+      <br/>
+      FIG. 11 shows the grid pattern and solutions for such a location problem.
+      <br/>
+      In this example, consider a square grid, of 10 points per side.
+      <br/>
+      Each corner of the grid represents a receiver location.
+      <br/>
+      The lowest left corner location is labeled 1.
+      <br/>
+      The label is incremented by 1 for each location, until the upper right corner, labeled 100.
+      <br/>
+      A recording station can only be positioned on the corner of the grid.
+      <br/>
+      We assume that it covers any point located within a circular area, centered on the station, with a radius of two grid cells.
+      <br/>
+      We want to determine where we should locate the recording station (or truck) to minimize the number of times needed to move it to cover the whole area.
+      <br/>
+      The problem can be formulated as shown in Table 5.
+    </p>
+    <p num="82">
+      --      TABLE 5
+      <br/>
+      --      Decision    Yk, with Yk = 1 if a recording truck needs to be
+      <br/>
+      --  set at
+      <br/>
+      --      Variables:  position k at some point in time, k = 1, . . ., 100.
+      <br/>
+      --      Objective:  Minimize the number of times the station needs to
+      <br/>
+      --                  move, which is equivalent to minimizing the number
+      <br/>
+      --                  of locations needed.
+      <br/>
+      --      Constraint: Each receiver location must be listened to.
+    </p>
+    <p num="83">
+      Another way to formulate the constraint, which yields the same results but makes the optimization problem easier, is to say that each receiver location must be listened to at least once.
+      <br/>
+      To code this constraint, we define patternK, the set of receiver locations that are covered by a recording station located in k as shown in FIG. 12, which shows the algebraic formulation of the set of receiver locations covered by a recording station.
+      <br/>
+      PatternK is a column vector of a matrix.
+      <br/>
+      Each row of this matrix (index I) is associated with a receiver location.
+      <br/>
+      Each column (index k) is associated with a recording station potential location.
+      <br/>
+      In each column, a "1" indicates that the given receiver location (row) is covered by the recording station located at the given node (column), and a "0" indicates otherwise.
+      <br/>
+      The value of pattern23 is given as an example in FIG. 12. For example, a receiver located in 12 is covered by a recording station located in k=23, but a receiver located in 11 is not.
+      <br/>
+      The problem is modeled as the objective function:  (Equation image '4' not included in text)
+    </p>
+    <p num="84">subject to the constraints:  (Equation image '5' not included in text)</p>
+    <p num="85">each receiver location must be covered at least once</p>
+    <p num="86">Yk =0,1 for k=1, . . .1100</p>
+    <p num="87">where patternlk is the Ith element of patternk.</p>
+    <p num="88">
+      It is important to note that if the shape of the area covered by the recording station is not circular for station k, patternk can be modified to reflect the correct shape.
+      <br/>
+      The method can be extended to any terrain or grid shape by reformulating the covering patterns.
+    </p>
+    <p num="89">
+      The objective function is now optimized subject to the set of constraints using an optimization program.
+      <br/>
+      The vectors patternK are stored in a data file which is read by the optimization program.
+      <br/>
+      Results indicate that the optimal number of station locations is 11.
+      <br/>
+      Multiple optimal solutions exist, for example locations (3,7,30,31,35,52,58,75,82,90 and 96) or (1,6,16,20,33,48,61,65,80,93 and 97), as shown in FIG. 11. These optimal solutions have different properties.
+      <br/>
+      For example, the total distance, computed here along the grid lines (rectilinear distances), to travel from each receiver location to the station which records its signal is smaller for the first solution optimal solution, represented with squares, than for the second optimal solution (162 distance units vs. 170).
+      <br/>
+      If the user wishes to minimize the number of moves of the recording station and the total distance between recording station locations and receiver locations, these two criteria can be put together in the objective function.
+      <br/>
+      The new objective function becomes:  (Equation image '6' not included in text)
+    </p>
+    <p num="90">
+      The distance between each receiver location I and the possible recording station k, distIk, may be computed separately, and stored in a second data file, used by the optimization program that solves the objective function.
+      <br/>
+      This addition is useful if the recording is done using cables to minimize the length of cables needed.
+      <br/>
+      This problem formulation has other potential applications on a land seismic survey.
+      <br/>
+      Examples include optimal placement of shots and receivers, optimal location of trouble shooting crews, and optimal location of the base camp or repair facilities.
+    </p>
+    <p num="91">Optimizing the Placement of Source Locations using a Location Model</p>
+    <p num="92">
+      Another 3D seismic survey problem solved using mathematical programming techniques is optimizing the placement of source locations using a location model to minimize costs subject to geophysical and operational constraints.
+      <br/>
+      FIG. 13 shows the set of thirty potential shot locations 130 to be used to select an optimal set of shot locations.
+      <br/>
+      The set of potential shot locations 130 labeled 1 through 30 are represented on a grid in between two receiver lines 131 and 132.
+      <br/>
+      After the location problem has been modeled as an objective function and a set of constraints, the optimal solution for shot locations is determined and shown in FIG. 13. The optimal set of shot locations are those labeled 1 through 5 (133) and 25 through 30 (134).
+      <br/>
+      The model is formulated as shown in Table 6:
+    </p>
+    <p num="93">
+      -- TABLE 6
+      <br/>
+      -- Assumptions 1.
+      <br/>
+      An orthogonal grid such as that shown in Figs. 3 and 4
+      <br/>
+      --             is specified on which source locations can be placed at
+      <br/>
+      --             the grid intersection points.
+      <br/>
+      Each grid intersection point
+      <br/>
+      --             will be called a node.
+      <br/>
+      Nodes are assigned a single unique
+      <br/>
+      --             identification number for notational purposes in the model.
+      <br/>
+      --             2.
+      <br/>
+      An orthogonal grid is specified for the underground tar-
+      <br/>
+      --             get layer that maps to the grid on the surface.
+      <br/>
+      Each
+      <br/>
+      --             square in the grid in the underground layer is called a bin.
+      <br/>
+      --             The bins are used to measure the sampling, i.e., the number
+      <br/>
+      --             of source signals that reflect off a particular region of
+      <br/>
+      --             the target layer.
+      <br/>
+      There are a total of K bins.
+      <br/>
+      Each bin has
+      <br/>
+      --             an offset distribution with G ranges and an azimuthal
+      <br/>
+      --             distribution with M range angles.
+      <br/>
+      -- Problem     N = +1, 2, . . ., n} represents the set of potential source
+      <br/>
+      -- Data        locations (nodes)
+      <br/>
+      --             ci is the cost of locating a source at node i  EPSILON  N.
+      <br/>
+      --  It includes
+      <br/>
+      --             preparation costs (e.g., surveying and drilling) and access
+      <br/>
+      --             costs.
+      <br/>
+      --              PHI k represents the set of source locations that shoot
+      <br/>
+      --             into bin k, k = 1, 2, . . ., K.
+      <br/>
+      --             fk is the fold coverage for bin k, k = 1, 2, . . ., K.
+      <br/>
+      --              ALPHA kg represents the set of source locations that
+      <br/>
+      --  shoot
+      <br/>
+      --             into bin k with an offset distance that falls into range g,
+      <br/>
+      --             k = 1, 2, . . ., K, g = 1, 2, . . ., G.
+      <br/>
+      --              THETA kg(min) ( THETA kg(max)) is the
+      <br/>
+      --  minimum (maximum) fold
+      <br/>
+      --             coverage for bin k with offset distance that falls into range,
+      <br/>
+      --             g, k = 1, 2, . . ., K, g = 1, 2, . . ., G.
+      <br/>
+      --              BETA km represents the set of source locations that shoot
+      <br/>
+      --             into bin k with an azimuth angle that falls into angle range
+      <br/>
+      --             m, k = 1, 2, . . ., K, m = 1, 2, . . ., M.
+      <br/>
+      --              DELTA km(min) ( DELTA km(max))is the
+      <br/>
+      --  minimum
+      <br/>
+      --             (maximum) fold coverage for bin k with azimuth angle that
+      <br/>
+      --             falls into angle range m, k = 1, 2, . . ., K, m =
+      <br/>
+      --             1, 2, . . ., M.
+      <br/>
+      -- Variables   Yi = 1 if a shot is located on node i, 0 otherwise, i
+      <br/>
+      --   EPSILON  N.
+    </p>
+    <p num="94">The problem is modeled as the objective function:  (Equation image '7' not included in text)</p>
+    <p num="95">
+      The model is linear which makes it generally easier to solve than a nonlinear formulation.
+      <br/>
+      The model is based on the assumptions that offset and azimuth can be subdivided into ranges and that the quantities .function.k,  THETA kg(min),  THETA kg(max),  DELTA km(min), and  DELTA km(max) can be input by the user or derived from user input.
+      <br/>
+      Selecting ranges requires some judgment on the part of the user.
+      <br/>
+      Selecting ranges too narrow will result in a large number of constraints with large data requirements.
+      <br/>
+      The current formulation contains a level of abstraction that must be resolved in order to create a model corresponding to an actual survey design.
+      <br/>
+      In particular, the sets  PHI k,  ALPHA kg and  BETA km for k=1, 2, . . . , K, g=1, 2, . . . , G, m=1, 2, . . ., M, must be specifically determined in order to completely specify the constraints.
+    </p>
+    <p num="96">
+      The set of potential locations for adding shots may contain shot locations that have already been fixed.
+      <br/>
+      For example, in an offset problem where shots need to be relocated to avoid obstacles in the field, most shots are fixed and only a subset needs to be relocated.
+      <br/>
+      Since the model does not need to determine shot locations that have already been fixed, either the corresponding decision variable can be constrained to one or left out of the model altogether.
+      <br/>
+      From a computational standpoint, the latter option is better but requires adjustment of the fold, offset, and azimuth constraints to reflect the additional amount required instead of the total amount.
+      <br/>
+      Only bins and ranges modified by the exclusion points need to be considered, decreasing also the number of constraints in the model.
+    </p>
+    <p num="97">
+      In this model, we assume that the potential shot locations 130 labeled 1 through 30 on FIG. 13 can be assigned a cost associated with locating a shot point.
+      <br/>
+      More specifically, we assume that each ci is an accurate representation of what it costs to have a source point located at node i on the grid.
+      <br/>
+      This necessitates the aggregation of data.
+      <br/>
+      The cost information may be better represented by modeling the routing cost explicitly, and necessitates the consideration of the location and vehicle routing model which follows.
+    </p>
+    <p num="98">Optimizing the Placement of Source Locations, Sequence of Shots and Vehicle Routing</p>
+    <p num="99">
+      Another 3D seismic survey problem solved using mathematical programming techniques is optimizing the placement of source locations and vehicle routing, including the sequence of shots.
+      <br/>
+      FIG. 14A shows a problem of optimizing source locations and vehicles routing with a set of nine potential shot locations 140 numbered vertically starting in the top left corner from 1 through 9.
+      <br/>
+      Base camps 1 and 2 are also shown.
+      <br/>
+      The number of source crews can vary, and in this instance the model is implemented for one or two crews.
+      <br/>
+      The first bin 141 includes nodes 1 to 7, and the second bin 142 includes notes 4 through 9.
+      <br/>
+      Two values are considered for the azimuth: horizontal and vertical (angles of 0, 90, 180 and 270 degrees), and diagonal (angles of 45, 135, 225 and 335 degrees).
+      <br/>
+      Only two values are considered for the offsets also: 1 for neighboring nodes, and 1.4 for neighboring nodes on a diagonal.
+      <br/>
+      One shot per bin is required.
+      <br/>
+      The values of minimum and maximum fold coverage are not restrictive on the choice of the set of shot locations.
+      <br/>
+      FIG. 14B shows the resulting solution.
+      <br/>
+      The solver selects base camp 2 and shot nodes 6 and 9 going from the base camp to node 6, then from node 6 to node 9 and then back to base camp 2.
+      <br/>
+      Due to symmetry in the model, many alternative optimum solutions exist such as base camp 2 to node 3 to node 6 and back to base camp 2; base camp 1 to node 7 to node 8 and back to base camp 1; and base camp 1 to node 8 to node 9 and back to base camp 1.
+    </p>
+    <p num="100">In generating optimal solutions for the problem shown in FIGS. 14A and 14B, the model is formulated as shown in Table 7.</p>
+    <p num="101">
+      -- TABLE 7
+      <br/>
+      -- Assumptions 1.
+      <br/>
+      An orthogonal grid such as that shown in Figs. 3 and
+      <br/>
+      --             and 4 is specified on which source locations can be placed
+      <br/>
+      --             at the grid intersections points.
+      <br/>
+      Each grid intersection point
+      <br/>
+      --             is called a node.
+      <br/>
+      Nodes are assigned a single unique identi-
+      <br/>
+      --             fication number for notational purposes in the model.
+      <br/>
+      --             2.
+      <br/>
+      An orthogonal grid is specified for the underground
+      <br/>
+      --             target layer that maps to the grid on the surface.
+      <br/>
+      Each
+      <br/>
+      --             square in the grid in the underground layer is called a
+      <br/>
+      --             bin.
+      <br/>
+      The bins are used to measure the sampling, i.e., the
+      <br/>
+      --             number of source signals that reflect off a particular region
+      <br/>
+      --             of the target layer.
+      <br/>
+      There are a total of K bins.
+      <br/>
+      Each bin
+      <br/>
+      --             has an offset distribution with G ranges and an azimuthal
+      <br/>
+      --             distribution with M range angles.
+      <br/>
+      --             3.
+      <br/>
+      Routing must include all the nodes to be visited.
+      <br/>
+      There-
+      <br/>
+      --             fore, all the shot point locations not in an exclusion zone
+      <br/>
+      --             must be included in this model.
+      <br/>
+      If a shot point location has
+      <br/>
+      --             already been decided on, the corresponding location deci-
+      <br/>
+      --             sion variable is set to 1, but is not removed from the model.
+      <br/>
+      --             4.
+      <br/>
+      Transportation is defined for a single shooting crew or
+      <br/>
+      --             vibrator set.
+      <br/>
+      The model can be generalized to multiple
+      <br/>
+      --             crews and sets.
+      <br/>
+      --             5.
+      <br/>
+      Arcs are directed which permits consideration of
+      <br/>
+      --             different costs on arcs from i to j and j to i.
+      <br/>
+      --             6.
+      <br/>
+      The base camp is chosen during the optimization process
+      <br/>
+      --             and is not changed during the operations.
+      <br/>
+      -- Problem     N = +1, 2, . . ., n} represents the set of potential
+      <br/>
+      -- Data        source locations (nodes).
+      <br/>
+      --             ci ; is the preparation cost associated with locating a
+      <br/>
+      --  source
+      <br/>
+      --             at node i  EPSILON  N (e.g. surveying, drilling).
+      <br/>
+      --              KAPPA ij is the cost of the source crew traveling from
+      <br/>
+      --  node i  EPSILON
+      <br/>
+      --             N to node j  EPSILON  N. If no arc exists between nodes i and
+      <br/>
+      --  j, this
+      <br/>
+      --             this cost is set to  (infinity) .
+      <br/>
+      --             BC represents the set of possible base camp locations.
+      <br/>
+      --              PHI k represents the set of source locations that shoot
+      <br/>
+      --             into bin k, k = 1, 2, . . ., K.
+      <br/>
+      --             fk is the fold coverage for bin k, k = 1, 2, . . ., K.
+      <br/>
+      --              ALPHA kg represents the set of source locations that
+      <br/>
+      --  shoot
+      <br/>
+      --             into bin k with an offset distance that falls into range g,
+      <br/>
+      --             k = 1, 2, . . ., K, g = 1, 2, . . ., G.
+      <br/>
+      --              THETA kg(min) ( THETA kg(max)) is the
+      <br/>
+      --  minimum (maximum) fold coverage
+      <br/>
+      --             for bin k with offset distance that falls into range g,
+      <br/>
+      --             k = 1, 2, . . ., K, g = 1, 2, . . ., G.
+      <br/>
+      --              BETA km represents the set of source locations that shoot
+      <br/>
+      --             into bin k with an azimuth angle that falls into angle range
+      <br/>
+      --             m, k = 1, 2, . . ., K, m = 1, 2, . . ., M.
+      <br/>
+      --              DELTA km(min) ( DELTA km(max)) is the
+      <br/>
+      --  minimum (maximum) fold coverage
+      <br/>
+      --             for bin k with azimuth angle that falls into angle range m,
+      <br/>
+      --             k = 1, 2, . . ., K, m = 1, 2, . . ., M.
+      <br/>
+      -- Variables   Yi = 1 if a source or base camp is located on node i,
+      <br/>
+      --             0 otherwise, i  EPSILON  N.
+      <br/>
+      --             Xij = 1 if the source crew travels from node i to node j,
+      <br/>
+      --             0 otherwise, i, j  EPSILON  N.
+    </p>
+    <p num="102">The problem is modeled as the objective function:  (Equation image '8' not included in text)</p>
+    <p num="103">
+      subject to the set of constraints:
+      <br/>
+      Xij &lt;= Yj, .A-inverted.i,j EPSILON N, (Route possible if the source location from which it originates is selected)
+      <br/>
+      Xij &lt;= Yj, .A-inverted.i,j EPSILON N (Route possible if the source location at which it ends is selected)  SIGMA Xij &gt;= Yj, .A-inverted.j EPSILON N (Source crew enters a selected source node at least once)  (Equation image '9' not included in text)
+    </p>
+    <p num="104">
+      Sub-tour elimination constraints eliminate solutions featuring paths or sets of arcs isolated from the base camp.
+      <br/>
+      Since these formulations contain O(2n) number of constraints, it is often impossible to solve the above formulation, even for moderate values of n. Instead the model is usually relaxed and solved by means of specialized algorithms.
+      <br/>
+      For example, it is often the case that only a small number of sub-tour elimination constraints are required for a given problem in practice.
+      <br/>
+      Thus, these constraints are usually added in an iterative scheme: the model is optimized, sub-tours identified, and the constraints needed to eliminate them are added.
+    </p>
+    <p num="105">Offsetting the Placement of Source Locations from an Original Survey Design to Avoid Obstacles</p>
+    <p num="106">
+      Another 3D seismic survey problem solved using mathematical programming techniques is an offset problem, which is an addition to the location and vehicle routing problem, where source points are offset from an original survey design to avoid obstacles, such as wells in the field.
+      <br/>
+      FIG. 15 shows a typical offset problem where a source point 150 is located, but must be offset to avoid obstacles represented by the circle enclosed by dashed lines 151.
+      <br/>
+      After optimizing, the model selects at least one of the four alternative source location points shown 152-155 to replace the excluded point 150.
+      <br/>
+      Unlike other location and location/vehicle routing problems, this model does not require the offset source points to rest on a node within an orthogonal grid.
+      <br/>
+      The model is formulated as shown in Table 8.
+    </p>
+    <p num="107">
+      -- TABLE 8
+      <br/>
+      -- Assumptions 1.
+      <br/>
+      An initial survey design is defined on an orthogonal
+      <br/>
+      --             grid such as that shown in Figs. 3 and 4 with sources
+      <br/>
+      --             located at the grid intersection points.
+      <br/>
+      Each grid intersection
+      <br/>
+      --             point will be called a node.
+      <br/>
+      Nodes are assigned a single
+      <br/>
+      --             unique identification number for notational purposes in the
+      <br/>
+      --             model and their (x, y) coordinates are known.
+      <br/>
+      --             2.
+      <br/>
+      The model is developed for a two-dimensional map and
+      <br/>
+      --             may be extended to a three dimensional map.
+      <br/>
+      --             3.
+      <br/>
+      For each shot point located in an exclusion zone, it is
+      <br/>
+      --             possible to find and list a finite number of alternative
+      <br/>
+      --             source point locations which makes the problem discrete.
+      <br/>
+      --             The alternative source point locations do not have
+      <br/>
+      --             to be located at the grid intersection points.
+      <br/>
+      --             4.
+      <br/>
+      The distance between two shot point locations is a
+      <br/>
+      --             measure of the cost of traveling from one point to the other
+      <br/>
+      --             If this is not true, the distance matrix can be adapted
+      <br/>
+      --             to represent an appropriate cost.
+      <br/>
+      Properties of the
+      <br/>
+      --             distance matrix have an influence on the perfor-
+      <br/>
+      --             mance of the algorithms used to optimize the model.
+      <br/>
+      --             5.
+      <br/>
+      The triangle inequality holds for the distance matrix, i.e.,
+      <br/>
+      --             there is no shortest way to go from a location i to a location
+      <br/>
+      --             j than to follow the arc between i and j and this hypothesis
+      <br/>
+      --             influences the type of algorithms used to solve the problem.
+      <br/>
+      --             6.
+      <br/>
+      An orthogonal grid is specified for the underground tar-
+      <br/>
+      --             get layer that maps to the grid on the surface.
+      <br/>
+      Each square
+      <br/>
+      --             in the grid in the underground layer is called a bin.
+      <br/>
+      The bins
+      <br/>
+      --             are used to measure the sampling, i.e., the number of source
+      <br/>
+      --             signals that reflect off a particular region of the target
+      <br/>
+      --  layer.
+      <br/>
+      --             There are a total of K bins.
+      <br/>
+      Each bin has an offset
+      <br/>
+      --             distribution with G ranges and an azimuthal
+      <br/>
+      --             distribution with M range angles.
+      <br/>
+      --             7.
+      <br/>
+      Transportation is defined for a single shooting crew or
+      <br/>
+      --             vibrator set.
+      <br/>
+      The model can be generalized to
+      <br/>
+      --             multiple crews and sets.
+      <br/>
+      --             8.
+      <br/>
+      Arcs are directed which permits consideration of dif-
+      <br/>
+      --             ferent costs on arcs from i to j and j to i.
+      <br/>
+      --             9.
+      <br/>
+      The base camp has already been chosen.
+      <br/>
+      -- Problem     S represents the set of source locations excluding
+      <br/>
+      -- Data        the alternate locations for points in the exclusion zone.
+      <br/>
+      --             S* represents the set of source locations in an
+      <br/>
+      --             exclusion zone, S* .OR right. S.
+      <br/>
+      --             Lj represents the set of alternative locations for
+      <br/>
+      --             source point I, I  EPSILON  S*.
+      <br/>
+      --             N = S .orgate. ( SIGMA i EPSILON S* Li) represents
+      <br/>
+      --             the set of potential source locations (nodes).
+      <br/>
+      --             dii is the cost of using alternative location I for source
+      <br/>
+      --  point
+      <br/>
+      --             I, I  EPSILON  Li, I  EPSILON  S.
+      <br/>
+      --             fk is the fold coverage for bin, k = 1, 2, . . ., K.
+      <br/>
+      --              THETA kg(min) ( THETA kg(max)) is the
+      <br/>
+      --  minimum (maximum) fold coverage
+      <br/>
+      --             for bin k with offset distance that falls into range g,
+      <br/>
+      --             k = 1, 2, . . ., K, g = 1, 2, . . ., G.
+      <br/>
+      --              DELTA km(min) ( DELTA km(max)) is the
+      <br/>
+      --  minimum (maximum) fold coverage
+      <br/>
+      --             for bin k with azimuth angle that falls into angle range m,
+      <br/>
+      --             k = 1, 2, . . ., K, m = 1, 2, . . ., M.
+      <br/>
+      -- Variables   YiI = 1 if alternate location I is chosen to replace
+      <br/>
+      --  source
+      <br/>
+      --             location i, 0 otherwise, I  EPSILON  Li, i  EPSILON  S*.
+      <br/>
+      --             Xij = 1 if the source crew travels from node i to node j,
+      <br/>
+      --             0 otherwise, i, j  EPSILON  N.
+    </p>
+    <p num="108">
+      In addition to the above, this model also uses z1 's, which are not decision variables per se, but are handy in clarifying the notations for the geophysical constraints.
+      <br/>
+      The vector Z has  (Equation image '10' not included in text)
+    </p>
+    <p num="109">
+      components, one per alternative location, where .vertline.S.vertline. indicates the cardinality of a set.
+      <br/>
+      Z is built as follows: for each shot point not located in an exclusion zone (i EPSILON S.backslash.S*), an element is set to 1; for each shot point located in an exclusion zone (i EPSILON S*), .vertline.Li.vertline. elements are added to Z, set to 1 if the alternative location l is chosen to replace point i(Yil =1) and to 0 otherwise, l EPSILON Li.
+      <br/>
+      For example: let us have 4 nodes, and node 3 is in an exclusion node.
+      <br/>
+      Four locations are proposed for node 3, and the second one is chosen (i.e., Y32 =1, and Y31 =Y33 =Y34 =0).
+      <br/>
+      It yields:  (Equation image '11' not included in text)
+    </p>
+    <p num="110">
+      The variable Z is used to define the following problem data for the geophysical constraints:
+      <br/>
+      patk represents the set of source locations shooting into bin k, k with offset distance that falls into range g, k=1, 2, . . . , K;
+      <br/>
+      patkg represents the set of source locations shooting into bin k with offset distance that falls into range g, k=1, 2, . . . , K, g=1, 2, . . . , G;
+      <br/>
+      patkm represents the set of source locations shooting into bin k with azimuth angle that falls into angle range m, k=1, 2, . . . , K, m=1, 2, . . . , M.
+    </p>
+    <p num="111">
+      Additional data for the problem are defined as follows:
+      <br/>
+      hi and vi are the coordinates of shot location i. The coordinates of the shot location located originally in an exclusion zone vary as a function of the location of the selected alternative position.
+      <br/>
+      A way to store information to deal with this computation is to store H data, the vector of horizontal data, as follows: first, store the coordinates for the shot points not located in an exclusion zone.
+      <br/>
+      This fills the first .vertline.S.backslash.S*.vertline. elements of vector H data.
+      <br/>
+      Then, store the coordinates of the alternative locations for each shot point in an exclusion zone.
+      <br/>
+      Coordinates for the alternatives of the first shot pint in sn exclusion zone for example will then be stored from hdata.vertline.S.backslash.S*.vertline.+1 to hdata.vertline.S.backslash.S*.vertline.+.vertline.Lelem(1).vertline., where elem (1) is the index of the first element in S*. The total number of elements in H data is  (Equation image '12' not included in text)
+    </p>
+    <p num="112">Then,  (Equation image '13' not included in text)</p>
+    <p num="113">
+      The same storing method is used for Vdata, the vector of vertical data, and an inequality similar to the above gives each vertical coordinate vi, i EPSILON S.
+      <br/>
+      MU ij, the cost of traveling from node i to node j, i, j EPSILON N. Assuming this cost is proportional (constant  ALPHA ) to the distance between the points, and let dist(hi, vi, hj, vj) be the function computing the distance, where (hi, vi) and (hj, vj) are the coordinates of shot point i and j respectively.
+      <br/>
+      Then:
+      <br/>
+      MU ij = ALPHA dist(hi, vi, hj, vj);
+    </p>
+    <p num="114">Examples of distance functions are shown in Table 9:</p>
+    <p num="115">
+      --        TABLE 9
+      <br/>
+      --        (hi - hj)2 + (vi - vj)2, (Euclidean
+      <br/>
+      --  distance)
+      <br/>
+      --        .vertline.hi - hj .vertline. = .vertline.vi - vj
+      <br/>
+      --  .vertline., (Manhattan distance)
+      <br/>
+      --        max(hi - hj .vertline., .vertline.vi - vj
+      <br/>
+      --  .vertline., (Chebyshev's distance)
+      <br/>
+      --        (hi - hj)2 + (vi - vj)2 + (Affine
+      <br/>
+      --  metric distance)
+      <br/>
+      --        0.5(hi - hj)(vi - vj)
+    </p>
+    <p num="116">
+      The objective function minimizes the total transportation cost.
+      <br/>
+      If the alternative locations have different costs, a location cost can be added  (Equation image '14' not included in text)
+    </p>
+    <p num="117">
+      If the costs are equal, this term is a constant and can be dropped from the objective function to simplify the model.
+      <br/>
+      The objective function can therefore be stated as:  (Equation image '15' not included in text)
+    </p>
+    <p num="118">subject to the set of constraints:  (Equation image '16' not included in text)</p>
+    <p num="119">
+      Since the model has .vertline.K.vertline. fold coverage constraints, .vertline.K.vertline..vertline.G.vertline. offset constraints and .vertline.K.vertline..vertline.M.vertline. azimuth constraints, solving the problem is made difficult by the high number of geophysical constraints.
+      <br/>
+      There are alternative formulations, such as constraints on Xmin, the largest minimum offset, Xmax, the largest recorded offset, and formulating differently the azimuth constraints.
+      <br/>
+      The formulations discussed below assume that the initial design respects the geophysical constraints, and concentrates on the changes produced by the new shot point locations.
+    </p>
+    <p num="120">
+      Constraints may be placed on Xmin, where Xmin is the length of the diagonal of a rectangle bounded by two source lines and two receiver lines.
+      <br/>
+      Let Xmin be the largest minimum offset accepted and B be the set of rectangles with at least one corner in an exclusion zone (i.e., one corner belongs to S*).
+      <br/>
+      There are four rectangles per shot point in an exclusion zone.
+      <br/>
+      Only one diagonal needs to be computed per shot point in an exclusion zone, though, determined by the value of Yil, i EPSILON S*, L EPSILON Li.
+      <br/>
+      So we have .vertline.S*.vertline. inequalities of the form:
+      <br/>
+      diagonal(a,b,c,d) &lt;= Xmin,
+    </p>
+    <p num="121">
+      where a,b,c,d are the corners of the rectangle, with coordinates (*x,*y), and diagonal () the function computing Xmin, i.e.:
+      <br/>
+      diagonal(a,b,c,d)=max((cx -ax)2 +(cy -ay)2, (dx -bx)2 +(dy -by)2).
+    </p>
+    <p num="122">
+      Constraints may be placed on Xmax, where Xmax is half the diagonal of a patch.
+      <br/>
+      The same technique as above can be used, centered on patches rather than rectangles.
+      <br/>
+      Constraints may also be placed on the azimuths.
+      <br/>
+      When an alternative location is selected, four azimuths change, one in each rectangle having the new point as a corner.
+      <br/>
+      So an azimuth cannot change by more than  +- 4.vertline.S*.vertline.. The azimuths can be computed when the alternative locations are known, and counters can be set to ensure the requirements.
+    </p>
+    <p num="123">
+      These formulations present advantages over the previous ones because (1) the number of constraints is much smaller than in the previous formulation, making the problem less complex and easier to solve; and (2) there is no quantity to estimate: xmin and xmax can easily be given by the user.
+      <br/>
+      However, they rely on a definition which might be limited to the surface, and therefore not be strong enough to represent the geophysical constraints of the survey.
+      <br/>
+      In this case, the model using the new formulation rather than the previous one would be a relaxation of the original problem, giving an objective function and decision variables more or less close to the optimal solution.
+    </p>
+    <p num="124">
+      This model forces the crew/vibrator set to visit each shot point at least once.
+      <br/>
+      Client requirements may allow shot points to be skipped.
+      <br/>
+      The following changes to the model can be made to allow for shot point locations to be skipped:
+      <br/>
+      Add parameter ei, the cost of using shot location i EPSILON S.backslash.S*;
+      <br/>
+      Add decision variable wi, set to 1 if a shot is done at location i, and 0 otherwise, i EPSILON S.dagger.S*;
+      <br/>
+      Add a term to the objective function:  (Equation image '17' not included in text)
+      <br/>
+      Remove the requirement of selecting an alternative location for nodes in S* by replacing the alternative location to replace shot location i with  (Equation image '18' not included in text)
+    </p>
+    <p num="125">
+      Adequately determining the geophysical constraints is very important because the geophysical constraints now become the only ones forcing a routing through the nodes.
+      <br/>
+      Another way to ensure that enough shot locations will be visited is to add the following constraint:  (Equation image '19' not included in text)
+    </p>
+    <p num="126">
+      The resulting model is very large, and difficult to optimize.
+      <br/>
+      If too large, the problem can be decomposed into two problems: a location problem followed by a transportation problem.
+      <br/>
+      First, the shot point locations are chosen.
+      <br/>
+      Then, routing between the points is optimized.
+      <br/>
+      The results will not be globally optimum because the location and routing decisions are taken separately, but these results may still be of interest.
+    </p>
+    <p num="127">Optimizing Source Location and Vehicle Routing along with Receiver Equipment Layout Operational Constraints</p>
+    <p num="128">
+      Another 3D seismic survey problem solved using mathematical programming techniques is optimizing shot location and vehicle routing together with the operational constraints associated with the receiver equipment layout.
+      <br/>
+      Incorporating receiver equipment layout constraints requires a much more sophisticated model formulation.
+      <br/>
+      It also leads to a larger scale model that is even harder to solve to optimality than the combined location and vehicle routing model discussed previously.
+      <br/>
+      To overcome the problems with solving a larger scale model to optimality, one approach to incorporating receiver equipment constraints is an extension of a restricted form of the location and vehicle routing model.
+    </p>
+    <p num="129">
+      FIG. 16 shows the incorporation of receiver equipment layout constraints into a source location and routing problem along with an optimal solution.
+      <br/>
+      In FIG. 16, a set of source locations 160 which includes nodes 1, 2, 25, 26, 27, 51, 52, 53, 54 are located on one side of a receiver line 161.
+      <br/>
+      Another set of source locations 162 are located on the opposite side of the receiver line 161 and include nodes 56, 58, 59, 81, 84, 85, 106, 107 and 108.
+      <br/>
+      A base camp 163 starting and ending position for the survey is located on one side of the receiver line.
+      <br/>
+      Limited receiver equipment restricts (or penalizes) certain movements of the source crew(s) across the receiver line 161.
+      <br/>
+      Penalties can be incorporated into the location and vehicle routing model by adjusting the cost coefficients (i.e.,  KAPPA ij) on routes across the receiver lines 161 that would represent expensive equipment movements.
+      <br/>
+      For example, crossing a receiver line 161 to shoot a source location might require the movement of an entire receiver line from the back to the front of spread layout in order to set up the necessary active set of receivers.
+      <br/>
+      Expensive line crossings may depend on the survey design and the amount of receiver equipment available.
+    </p>
+    <p num="130">
+      To solve this difficulty, the model is restricted to a fixed initial starting point (base camp 163) that goes directly to a single point on the survey node 1, which is the closest point to the base camp.
+      <br/>
+      We assume that the receivers are laid out on parallel lines 161 on the grid defined for the potential source locations.
+      <br/>
+      Additionally, we assume that the following information is fixed and given: (1) the total number of receiver channels; (2) the number of channels/receiver line; and (3) the number of active receiver lines.
+      <br/>
+      Items 1 and 2 can be used to calculate the total number of receiver lines.
+      <br/>
+      The latter can be compared with item 3 to determine the number racks that can be shot in a sequence on a single shot line without an expensive move of receiver equipment.
+      <br/>
+      A rack is defined as the number of shots on a single shot line between two adjacent receiver lines.
+      <br/>
+      It is assumed that all shots in a rack shoot into the same set of active receivers.
+      <br/>
+      The cost coefficients that correspond to an expensive receiver line crossing are adjusted to reflect the additional cost.
+      <br/>
+      One could compensate for the restrictions to a certain extent by running different scenarios for the location base camp and the other three items.
+      <br/>
+      The procedure of adjusting the cost coefficients may be easily automated for a regular survey design.
+      <br/>
+      For irregular designs, automation might be difficult and individual consideration of the cost coefficients may be necessary.
+      <br/>
+      In practice, a combination of the two (automation with some adjustment) would be necessary for most surveys since most designs start from a regular base and are adjusted for local irregularities such as exclusion zones.
+      <br/>
+      In the resulting optimization also shown in FIG. 16, the number of crossings of the receiver line 161 is limited to two: the path 164 going from node 54 to node 108, and the path 165 and going from node 56 back to base camp 163.
+      <br/>
+      This limits the number of times the receiver equipment must be moved and optimizes cost.
+    </p>
+    <p num="131">Optimal Purchase of an Expendable Item for a Seismic Survey</p>
+    <p num="132">
+      Another 3D seismic survey logistic operations problem solved using mathematical programming techniques is amount of gas to be purchased for equipment operations before starting a survey.
+      <br/>
+      This problem involves a stochastic problem, that is, the problem data are not known with certainty, but have a known probability distribution function.
+      <br/>
+      One of the most studied class of problems in stochastic programming is the two-stage stochastic model: the decision maker has to take a decision now (first stage) not knowing what the future will be.
+      <br/>
+      When the future occurs, the decision maker can adjust his decision (second stage), at a certain cost.
+      <br/>
+      Consider, for example, that the decision to be made is the amount of gas to be purchased for equipment operations before starting a survey, i.e., now. As the terrain is not known with certainty, the amount of gas needed, d, is not known with certainty either.
+      <br/>
+      Going around canyons and creeks increases the gas consumption.
+      <br/>
+      If the decision maker buys too much gas, the extra gas is sold back to the gas company, at 70% of the initial price.
+      <br/>
+      If, on the contrary, the amount of gas reserved is not sufficient, the decision maker can ask the gas company to deliver more gas to the local distributor, and buy this gas, at a price higher (c2) than the current price (c1), due to transportation and local distribution costs.
+      <br/>
+      This problem can be formulated as shown in Table 10.
+    </p>
+    <p num="133">
+      -- TABLE 10
+      <br/>
+      -- Decision variables: *X, the amount of gas to be purchased now.
+      <br/>
+      --                    *Y, the amount of gas to be purchased later.
+      <br/>
+      -- Objective:         Minimize the total cost, i.e., the sum of the
+      <br/>
+      --                    costs of buying gas now and later.
+      <br/>
+      -- Constraints        *The demand in gas must be satisfied.
+      <br/>
+      --                    *The quantities bought must be positive.
+    </p>
+    <p num="134">
+      Technically speaking, Y, the amount of gas to be purchased later, is not a decision variable.
+      <br/>
+      Once X, the amount of gas to be purchased now, has been chosen, and the future has occurred, Y is the quantity needed to react to what happened and is thus completely determined by X and what happened.
+    </p>
+    <p num="135">
+      The problem is modeled as the objective function and constraints:
+      <br/>
+      minimizex (c1 * X+E�h(X,d)�) (first stage)
+    </p>
+    <p num="136">
+      subject to X &gt;= 0,
+      <br/>
+      with h(X,d)=c2 *Y-0.7*c1 *(X+Y-d) (second stage)
+    </p>
+    <p num="137">
+      subject to:
+      <br/>
+      X+Y &gt;= d (demand must be satisfied)
+      <br/>
+      Y &gt;= 0.
+    </p>
+    <p num="138">
+      In the above formulation, E is the expectation operator.
+      <br/>
+      An attempt is made to minimize the average total cost whatever the realization of the demand d in the future.
+      <br/>
+      The recourse decision, Y, is proportional to the unsatisfied demand: this is called a "simple" recourse.
+    </p>
+    <p num="139">
+      FIG. 17 is a flow diagram for optimizing the purchase of an expendable item 170.
+      <br/>
+      The decision variables are determined, which are the amount of gas to be purchased now and later 171.
+      <br/>
+      An objective function is built that minimizes the total cost of buying an expendable item 172.
+      <br/>
+      Constraints 173 are determined: the demand for gas must be satisfied and the quantities bought must be a positive number.
+      <br/>
+      The logistical problem of optimizing the purchase of an expendable item is mathematically modeled and expressed as an objective function and set of constraints 174.
+      <br/>
+      The objective function is optimized subject to the constraints 175 and an optimal solution is generated 176.
+    </p>
+    <p num="140">
+      In this example, consider that only the demand is random, and can take 5 different values (500, 850, 1000, 1150 and 1300 gallons), with the same probability (p=0.2).
+      <br/>
+      In the model, the expectation operator is expanded in the objective function.
+      <br/>
+      Let S be the set of scenarios, i.e., the set of different values of d, d(s).
+      <br/>
+      The decision variable Y is noted Y(s), the value of Y when d=d(s).
+      <br/>
+      There are as many Y(s) as there are scenarios.
+      <br/>
+      One constraint is written for each scenario.
+      <br/>
+      The problem is modeled as the objective function:  (Equation image '20' not included in text)
+    </p>
+    <p num="141">
+      subject to a set of constraints:
+      <br/>
+      X+Y(s) &gt;= d(s)
+      <br/>
+      X &gt;= 0
+      <br/>
+      Y(s) &gt;= 0.
+    </p>
+    <p num="142">
+      The cost of buying gas later is considered to be twice the price of buying gas now.
+      <br/>
+      Results indicate that the decision maker should buy 1150 gallons of gas now (for a total cost of $528).
+      <br/>
+      If the demand turns out to be higher, the decision maker will then buy the extra gas from the local distributor.
+      <br/>
+      If the demand is lower, the extra gas is refunded at 70% of the original price by the gas company.
+      <br/>
+      This scenario is called first scenario in the discussion below.
+      <br/>
+      Assume now that the probabilities are changed so that low demands are more probable (scenario low), or, symmetrically, high demands more probable (scenario high).
+      <br/>
+      New probabilities are given for each of these scenarios in Table 11.
+    </p>
+    <p num="143">
+      --                       TABLE 11
+      <br/>
+      --                       Scenario low Scenario high
+      <br/>
+      --        P(d = 500) 0.4         0.1
+      <br/>
+      --        P(d = 850) 0.3         0.1
+      <br/>
+      --        P(d = 1000) 0.1         0.1
+      <br/>
+      --        P(d = 1150) 0.1         0.3
+      <br/>
+      --        P(d = 1300) 0.1         0.4
+    </p>
+    <p num="144">
+      In scenario low, the value of X decreases to 1000 gallons for an expected cost of $459.25. Since the probability of getting a high demand is low, less gas needs to be purchased in the first-stage than previously.
+      <br/>
+      On the other hand, due to the high cost of gas in the second-stage, enough gas is bought to face the demand 80% of the time.
+      <br/>
+      For scenario high, X increases to 1300 gallons, for an expected cost of $580.
+      <br/>
+      Following the same reasoning, it is wiser to buy in the first-stage enough gas to face a high demand, because it costs less in an average to resale excess gas than face a likely shortage.
+    </p>
+    <p num="145">
+      Consider now that the decision maker can only buy full tanks of gas from the oil company.
+      <br/>
+      A tank contains 150 gallons of gas.
+      <br/>
+      The problem is now a stochastic model with integer first-stage decision variables that represent the number of tanks of gas purchased.
+      <br/>
+      Additionally, c1 is changed from cost per gallon to cost per tank.
+      <br/>
+      Consider that the demand can take the different values with the same probability.
+      <br/>
+      The decision maker should now buy 8 full tanks of gas (1200 gallons), thus 50 gallons more than previously, for an expected cost of $595.
+      <br/>
+      It is interesting to notice that the solution found is as close as possible to the solution of the first scenario.
+      <br/>
+      Consider now that 3 types of tanks are available, of capacities 100, 150 and 175 gallons.
+      <br/>
+      In this case, the variable X is replaced by three decision variables that represent the number of each size of tank purchased.
+      <br/>
+      The optimal solution is to one tank of 100 gallons and 7 tanks of 150 gallons (so a total of 1150 gallons) for an expected cost of $528, as previously.
+      <br/>
+      Let now the cost of gas per gallon decrease as the size of the tank increases.
+      <br/>
+      The solution reflects the discounted price: the best action consists of buying 7 tanks of 175 gallons (the largest tank and thus the smallest cost), for a total of 1225 gallons and $323.7. Lower costs in the first-stage implies a decrease in willingness to risk not meeting the demand and having to purchase gas later.
+    </p>
+    <p num="146">
+      In this example, the demand is a discrete random variable.
+      <br/>
+      A variation of this problem is to use a continuous distribution.
+      <br/>
+      Such problems can be solved using Monte-Carlo sampling to approximate the distribution.
+      <br/>
+      It is also possible to extend this example by introducing random costs.
+    </p>
+    <p num="147">
+      Other applications of stochastic programming exist in land seismic surveying operations.
+      <br/>
+      For example, equipment procurement on a survey sometimes involves the decision of purchasing new equipment versus procuring used, possibly less reliable equipment from other crews or other parts of the world.
+      <br/>
+      Most of the examples could be formulated as stochastic models if some of their parameters are random.
+    </p>
+    <p num="148">
+      Although the present invention has been described in detail with reference to certain preferred embodiments, other embodiments are possible.
+      <br/>
+      Therefore, the spirit and scope of the appended claims should not be limited to the description of the preferred embodiments herein.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for modeling and optimizing logistical operations problems in land seismic survey operations, in a computer program running on a computer processor, the method comprising the steps of:</claim-text>
+      <claim-text>a. formulating a logistical problem with a set of decision variables and problem data; b. modeling the problem as an objective function and a set of constraints expressed in terms of the problem data and the decision variables;</claim-text>
+      <claim-text>and c. solving the objective function and generating an optimal solution for the set of decision variables to optimize the logistical problem.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A method for modeling and optimizing logistical operations problems in land seismic survey operations, in a computer program running on a computer processor, the method comprising the steps of: a. identifying decision variables under the control of a user for a logistical problem; b. identifying geophysical and operational constraints for the logistical problem; c. identifying variable logistical problem parameters; d. building a mathematical model of the logistical problem, the model being expressed as an objective function and a set of constraints in terms of the decision variables and problem parameters;</claim-text>
+      <claim-text>and e. generating an optimal logistical problem solution.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method according to claim 2, further comprising: a. translating the mathematical model into a form suitable for solution by a solver software program;</claim-text>
+      <claim-text>and b. in the generating an optimal logistical problem solution step, using the solver software program to solve for the decision variables which satisfy the problem constraints and optimize the objective function.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method according to claim 3, wherein: a. the objective function and the set of constraints are expressed in an algebraic modeling language;</claim-text>
+      <claim-text>and b. the solver software program is an optimization program that optimizes the objective function.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method according to claim 2, wherein the logistical problem is a three dimensional (3D) seismic survey problem.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method according to claim 5, wherein the 3D seismic survey problem is to minimize acquisition costs in the design and operations of the 3D seismic survey.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method according to claim 6, wherein: a. in the identifying the decision variables step, the decision variables identified for the 3D seismic survey are selected from the group consisting of: number of shot locations, number of receiver locations, placement of shot locations, placement of receiver locations, number of active receiver lines, number of active receiver channels per line, coordination of the shot locations, and placement of equipment to receive a reflected signal;</claim-text>
+      <claim-text>and b. in the building a mathematical model step, the objective function and set of constraints for minimizing acquisition costs comprise the steps of:</claim-text>
+      <claim-text>- i. modeling preparation costs; - ii. shooting and recording costs;</claim-text>
+      <claim-text>and - iii. modeling processing costs.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method according to claim 7, wherein the preparation costs comprise: a. permitting costs; b. surveying costs; c. cutting and clearing;</claim-text>
+      <claim-text>and d. drilling costs.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method according to claim 7, wherein the shooting and recording costs comprise: a. crew costs;</claim-text>
+      <claim-text>and b. equipment costs.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method according to claim 7, wherein the processing costs are a function of the size of the survey.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method according to claim 7, wherein the constraints comprise: a. the geophysical requirements of fold, offset and azimuth; b. maximum number of shots per day;</claim-text>
+      <claim-text>and c. maximum number of channels.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method according to claim 2, wherein the logistical problem is routing a 3D seismic survey source crew through a plurality of nodes in a minimum period of time.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method according to claim 12, wherein each node represents a rack which is a set of source locations on the same source line between two adjacent receiver lines.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method according to claim 13, further comprising: a. identifying as decision variables the number of times the source crew passes from one node to another node; b. requiring the constraint that each node must be visited at least once;</claim-text>
+      <claim-text>and c. requiring the constraint that each n ode must be departed at least once;</claim-text>
+      <claim-text>and d. requiring the constraint that the number of visits and departures from a node must be equal.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method according to claim 14, further comprising routing a plurality of source crews method the plurality of nodes.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. T he method according to claim 15, further comprising: a. requiring the constraint that each rack must be visited at least once by one of the source crews; b. requiring the constraint that each source crew starts at a base camp location and returns to the base camp location;</claim-text>
+      <claim-text>and c. minimizing the total cost of routing the plurality of source crews by solving for an optimal number of crews and their routes while equalizing the time for each source crew to be away from the base camp location.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method according to claim 2, wherein the logistical problem is placing a recording station within a field of receiver locations such that the number of times the recording station must be moved to cover the field of receiver locations is minimized.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method according to claim 17, further comprising: a. identifying the location of the recording station at each point in time as a decision variable;</claim-text>
+      <claim-text>and b. requiring the constraint that each receiver location must be listened to at least once.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A system for modeling and optimizing logistical operations problems in land seismic survey operations, comprising: a. means for identifying decision variables under user control for a logistical problem; b. means for identifying geophysical and operational constraints for the logistical problem; c. means for quantifying problem parameters; d. means for building a mathematical model of the logistical problem, the model being expressed as an objective function subject to a set of inequalities representing the constraints, the objective function and constraints being expressed in terms of the decision variables and problem parameters;</claim-text>
+      <claim-text>and e. means for optimizing the objective function and solving for the decision variables while satisfying the set of constraints to generate an optimal logistical problem solution.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A system according to claim 19, wherein the means for generating an optimal logistical problem solution further comprise: a. means for translating the mathematical model into a form suitable for solution by a solver software program;</claim-text>
+      <claim-text>and b. means for using the solver software program to solve for the decision variables which satisfy the problem constraints and optimize the objective function.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A computer-implemented method of modeling and optimizing logistical operations problems in land seismic survey operations, the method comprising the steps of: a. identifying seismic survey decision variables for a logistical problem that can be optimized; b. determining problem parameters; c. identifying the seismic survey operational and geophysical constraints; d. building a mathematical model of the logistical, the model being expressed as an objective function and a set of constraints in terms of the decision variables and problem parameters; e. translating the mathematical model into a form suitable for solution by a solver;</claim-text>
+      <claim-text>and f. solving the model to generate an optimal problem solution.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The method according to claim 21, wherein the logistical problem is routing a 3D seismic survey source crew between a plurality of nodes in a minimum period of time.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method according to claim 21, further comprising: a. routing a plurality of 3D seismic survey source crews between the plurality of nodes in a minimum period of time; b. minimizing the total cost of the 3D seismic survey;</claim-text>
+      <claim-text>and c. equalizing the total amount of time each source crew is deployed during the seismic survey.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The method according to claim 21, wherein the logistical operations problem is placing a recording station within a field of receiver stations such that the number of times the recording station must be moved to cover the field of receiver stations is minimized.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The method according to claim 21, wherein the logistical problem is determining an amount to purchase of an expendable item needed for equipment operations such that the amount of the expendable item is sufficient for survey operation with a minimal amount of the expendable item remaining after the survey operation is complete.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The method according to claim 25, wherein the expendable item is vehicle fuel.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method according to claim 21, wherein the logistical problem is placing shot locations so as to minimize the cost of the seismic survey while satisfying the operational and geophysical constraints.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method according to claim 27, wherein the constraints comprise: a. placing the shot locations to achieve a minimum required fold coverage; b. placing the shot locations so the locations fall within a minimum and maximum offset;</claim-text>
+      <claim-text>and c. placing the shot locations so the locations fall within a minimum and maximum azimuth.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method according to claim 27, wherein the problem parameters comprise: a. cost of locating the shot location at a potential shot point;</claim-text>
+      <claim-text>and b. a set of shot locations that shoot into a bin; c. number of the shot locations in the bin that fall into a minimum and maximum offset; d. minimum and maximum fold coverage for the bin that fall into the minimum and maximum offset; e. a set of shot locations for the bin that fall into a minimum and maximum azimuth;</claim-text>
+      <claim-text>and f. minimum and maximum fold coverage for the bin that fall into the minimum and maximum azimuth.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. The method according to claim 21, wherein the logistical problem is placing shot locations and determining source crew routing so as to minimize seismic survey cost while satisfying the operational and geophysical constraints.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. The method according to claim 30, further comprising placing the shot locations to avoid shot exclusion zones.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The method according to claim 31, wherein the shot exclusion zones are problem parameters determined by a user.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. The method according to claim 31, wherein the shot exclusion zones are seismic survey operational and geophysical constraints.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. The method according to claim 30, wherein the problem parameters comprise: a. cost of placing the shot location at each shot point; b. cost of a source crew traveling between the shot locations;</claim-text>
+      <claim-text>and c. set of possible base camp locations.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The method according to claim 34, wherein the operational and geophysical constraints comprise: a. placing the shot locations to achieve a minimum fold coverage; b. placing the shot locations to fall within a minimum and maximum offset; c. placing the shot locations to fall within a minimum and maximum azimuth; d. requiring the source crew to enter the shot location at least once; e. requiring number of visits to and departures from the shot locations to be equal;</claim-text>
+      <claim-text>and f. allowing only one base camp to be selected from the set of possible base camp locations.</claim-text>
+    </claim>
+    <claim num="36">
+      <claim-text>36. The method according to claim 30, wherein the logistical problem further comprises placing shot locations and determining source crew routing so the shot locations are offset from an exclusion zone in a completed survey design to avoid obstacles in the survey field.</claim-text>
+    </claim>
+    <claim num="37">
+      <claim-text>37. The method according to claim 36, wherein the constraints comprise: a. determining a set of offset shot locations for each location to be avoided in the completed survey design; b. requiring at least one source crew to enter and leave each shot location; c. for a plurality of source crews, equalizing the length of time for each source crew to visit the shot locations; d. placing the shot locations to achieve a minimum fold coverage; e. placing the shot locations so the locations fall within a minimum and maximum offset; f. placing the shot locations so the locations fall within a minimum and maximum azimuth; g. requiring number of visits to and departures from each shot location by the source crew to be equal;</claim-text>
+      <claim-text>and h. allowing only one base camp to be selected from the set of possible base camp locations.</claim-text>
+    </claim>
+    <claim num="38">
+      <claim-text>38. The method according to claim 30, wherein the logistical problem comprises optimizing shot location, vehicle routing and receiver equipment layout operational constraints.</claim-text>
+    </claim>
+    <claim num="39">
+      <claim-text>39. A computer processor instructed to execute a computer program containing instructions causing a computer processor to model and optimize logistical operations problems in land seismic survey operations, the computer program comprising: a) means for identifying decision variables under user control for a logistical problem; b) means for identifying geophysical and operational constraints for the logistical problem; c) means for quantifying variable problem parameters; d) means for building a mathematical model of the logistical problem, the model being expressed as an objective function subject to a set of inequalities representing the constraints, the objective function being expressed in terms of the decision variables and problem parameters;</claim-text>
+      <claim-text>and - means for optimizing the objective function and solving for the decision variables while satisfying the set of constraints to generate an optimal logistical problem solution.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182208B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182208</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182208</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22462128" extended-family-id="42109058">
+      <document-id>
+        <country>US</country>
+        <doc-number>09134182</doc-number>
+        <kind>A</kind>
+        <date>19980814</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09134182</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165704</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>13418298</doc-number>
+        <kind>A</kind>
+        <date>19980814</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09134182</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  11/36        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>11</main-group>
+        <subgroup>36</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>712227000</text>
+        <class>712</class>
+        <subclass>227000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>714025000</text>
+        <class>714</class>
+        <subclass>025000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>714035000</text>
+        <class>714</class>
+        <subclass>035000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>714E11210</text>
+        <class>714</class>
+        <subclass>E11210</subclass>
+      </further-classification>
+      <further-classification sequence="4">
+        <text>714E11214</text>
+        <class>714</class>
+        <subclass>E11214</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-011/36B7</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>011</main-group>
+        <subgroup>36B7</subgroup>
+      </classification-ecla>
+      <classification-ecla sequence="2">
+        <text>G06F-011/36D3</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>011</main-group>
+        <subgroup>36D3</subgroup>
+      </classification-ecla>
+      <classification-ecla sequence="3">
+        <text>G06F-011/36D6C</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>011</main-group>
+        <subgroup>36D6C</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-011/3648</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>11</main-group>
+        <subgroup>3648</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>10</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6182208</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">System for debugging (N) break points by dividing a computer program to (n+1) regions each contains no break point and using two registers to define the start and end addresses of each region</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>HASWELL-SMITH IAIN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4866665</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4866665</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>GROVES ANDREW</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5657442</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5657442</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>MANN DANIEL P</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5978902</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5978902</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>MANN DANIEL P</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6094729</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6094729</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>LAUER GILBERT E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4675646</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4675646</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>MOTOYAMA TETSURO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5394544</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5394544</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>RICHTER DAVID E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5664159</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5664159</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Lucent Technologies, Inc.</orgname>
+            <address>
+              <address-1>Murray Hill, NJ, US</address-1>
+              <city>Murray Hill</city>
+              <state>NJ</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>LUCENT TECHNOLOGIES</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Peri, Ramesh V.</name>
+            <address>
+              <address-1>Allentown, PA, US</address-1>
+              <city>Allentown</city>
+              <state>PA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Jinturkar, Sanjay</name>
+            <address>
+              <address-1>Bethlehem, PA, US</address-1>
+              <city>Bethlehem</city>
+              <state>PA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Fajardo, Lincoln</name>
+            <address>
+              <address-1>Kempton, PA, US</address-1>
+              <city>Kempton</city>
+              <state>PA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Wilshire, Jay</name>
+            <address>
+              <address-1>Pennsburg, PA, US</address-1>
+              <city>Pennsburg</city>
+              <state>PA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Stroock &amp; Stroock &amp; Lavan LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>An, Meng-Ai T.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system for debugging the computer program present in read-only memory (ROM) contains a debugger, a processor, read-only memory, a bus and a hardware debugging support module.
+      <br/>
+      The hardware debugging support module contains a first register called the range start register, a second register called the range end register and a comparator.
+      <br/>
+      The debugger uses a list of "n" user specified break points to divide a computer program into "n+1" regions, each of which has a start address and an end address.
+      <br/>
+      The first register and the second register of the hardware debugging support module are programmed with the start address and end address of a region which contains a specific address.
+      <br/>
+      The comparator is connected to the first register and second register of the hardware debugging support module and is also connected to the bus which connects the read-only memory to the processor.
+      <br/>
+      The comparator monitors addresses traveling on the bus and causes the hardware debugging support module to interrupt the processor and transfer control of the computer program to the debugger if a specific address traveling on the bus does not fall within the range defined by the first register and the second register.
+      <br/>
+      The debugger then searches the remaining "n+1" regions to see if the specific address lies within a second region.
+      <br/>
+      If such a region is found, then the start address and end address of that second region are entered into the first register and the second register and the computer program is run.
+      <br/>
+      However, if such a region is not found, then the computer program has reached a break point and the debugger transfers control of the program to the user.
+      <br/>
+      The computer program can then be single stepped to execute the instruction at which the break point was placed to obtain an output address.
+      <br/>
+      The start address and end address of the region that contain this output address are programmed into the first register and the second register and the computer program is run.
+      <br/>
+      This process is repeated until the entire computer program has been executed.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">This invention relates generally to the field of software debugging programs, and specifically to a new technique to increase the number of break points that can be implemented in read only memories (ROM).</p>
+    <heading>BACKGROUND OF INVENTION</heading>
+    <p num="2">
+      In order to develop software, it is important to have debugging tools to find bugs or errors in the software.
+      <br/>
+      One of the important features of a debugger is the ability to set break points on an instruction and get control of the computer program to examine its state when the flow of control of the program reaches the break point.
+      <br/>
+      Typical computer systems or peripheral debug diagnostic systems, for example, logic analyzers, implement break points by using individual registers.
+      <br/>
+      A register is a memory element storing a plurality of bits.
+      <br/>
+      Each bit in the register can be a logical 0 or a logical 1, as is common in digital computer systems.
+      <br/>
+      Thus, the break point is defined by a bit pattern of logical 0's and logical 1's called a break point code, which is stored in the register.
+      <br/>
+      In general, a debugger is expected to support multiple break points since there might be multiple points of interest to the user.
+      <br/>
+      To implement break points, the user first specifies an address (A) to the debugger where the program must break in order to activate the break point.
+      <br/>
+      The debugger then replaces the software instruction at address (A) with a break instruction.
+    </p>
+    <p num="3">
+      Subsequently, during the execution of the computer program, if the break instruction is executed, control is transferred to the debugger which either prints a message or waits for user input.
+      <br/>
+      This transfer of control allows a computer operator to then scrutinize various contents of the computer system to examine if the computer system is in a proper state at the time of recognition, that is, at the break point.
+      <br/>
+      When the program execution needs to be continued, the break point instruction is replaced with the actual instruction which had originally been present in the computer program.
+      <br/>
+      This approach works well when the program to be debugged exists in a memory location which can be written to by the user.
+      <br/>
+      However, in embedded systems, the computer program usually resides in read-only memory (ROM), which cannot be written to by the user.
+      <br/>
+      Thus, the above approach of replacing the instruction at the break point with a break point instruction is not possible.
+    </p>
+    <p num="4">
+      One prior art approach of debugging programs in ROM is to always single step the program, as known in the art, and compare the address of the instruction to be executed with a previously-specified list of break points set by the user.
+      <br/>
+      Using this approach, any number of break points can be supported in the debugging program without the need for any extra hardware support.
+      <br/>
+      However, this single-step approach is rarely used because it is extremely slow.
+      <br/>
+      The execution time of the program in a debugging mode is several orders of magnitude slower than the actual program which makes for a very unpleasant debugging experience.
+    </p>
+    <p num="5">
+      A second alternate prior art approach to debug computer programs that are present in ROM is to provide additional hardware to support break points in ROM.
+      <br/>
+      This approach has been used by embedded processors like the ARM, Lucent 1600, Lucent 16000, TI C54X, etc. embedded processors.
+    </p>
+    <p num="6">
+      Reference is now made to FIG. 1 which depicts an example of the second prior art approach to debug computer programs that are present in ROM by providing additional hardware to support break points in ROM.
+      <br/>
+      In the prior art, a hardware debugging support module 5 consists of a break point address list 7 and a comparator 6 as shown in FIG. 1.
+      <br/>
+      The output of break point address list 7 is connected to comparator 6 within hardware debugging support module 5.
+      <br/>
+      Comparator 6 taps into address bus 14 which transfers information between processor 12 and memory 10 of the computer system.
+      <br/>
+      A predetermined user defined list of break point addresses is stored in break point address list 7.
+      <br/>
+      When hardware debugging support module 5 is in operation, comparator 6 compares the actual condition existing on address bus 14, i.e., the address being passed between processor 12 and memory 10, with the list of addresses that are stored in break point address list 7.
+      <br/>
+      When comparator 6 finds a match between a signal on address bus 14 and an address stored in break point address list 7, comparator 6 signals that a break point has been recognized, and hardware debugging support module 5 interrupts processor 12 and transfers control to the debugger.
+      <br/>
+      Since the comparison performed by comparator 6 must be done at the speed of processor 12 and the silicon resources needed for storing the list of break point addresses in break point address list 7 is large, prior art processors limit break points to an extremely small and finite number.
+      <br/>
+      Generally, only one breakpoint address can be loaded into one of the registers at any one time.
+      <br/>
+      Thus, to implement a plurality of break points requires a plurality of break point registers which increases the complexity and cost of the hardware.
+      <br/>
+      Generally, break point address list 7 is implemented using one or two registers, thereby limiting the debugger to the use of only one or two break points.
+      <br/>
+      Thus, it is desirable to provide for a new technique that allows for the placement of a greater number of break points in ROM with a finite amount of hardware resources.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">
+      The present invention is directed at overcoming the shortcomings of the prior art.
+      <br/>
+      Generally speaking, in accordance with the present invention, a system for debugging a computer program, present in read-only memory (ROM) comprises a debugger, a processor, read-only memory, a hardware debugging support module and a bus.
+    </p>
+    <p num="8">
+      The debugger has a list of "n" user specified break points which it uses to divide a computer program that needs to be debugged into "n+1" regions.
+      <br/>
+      Each of these regions has a start address and an end address.
+      <br/>
+      The read-only memory is connected to the processor by the bus.
+    </p>
+    <p num="9">
+      The hardware debugging support module comprises a first register called the range start register, a second register called the range end register and a comparator.
+      <br/>
+      The first register contains the start address of a selected region from the "n+1" regions, whereas the second register contains the end address of the selected region.
+      <br/>
+      Thus, the first register and the second register define a range of address locations for the computer program.
+      <br/>
+      The comparator is connected to the bus, the first register and the second register and monitors addresses traveling on the bus.
+      <br/>
+      The hardware debugging support module interrupts the processor and transfers control to the debugger if a specific address on the bus does not fall within the range defined by the first register and the second register.
+      <br/>
+      When a specific address on the bus does not fall within the range, the debugger performs a search on the remaining "n+1" regions to see if that specific address lies in any one of those regions.
+      <br/>
+      If such a region is found, then the start address and end address of this second region are programmed into the first register and the second register of the hardware debugging support module.
+      <br/>
+      However, if the specific address is not found to lie within any of the remaining "n+1" regions, then the debugger transfers control of the computer program to the user because the computer program has reached a break point.
+      <br/>
+      The user can now scrutinize the computer program at the break point.
+    </p>
+    <p num="10">
+      To continue debugging the computer program, after the computer program hits a break point, the comparator is disabled and the computer program is single stepped to execute the instruction at which the break point had been placed.
+      <br/>
+      The debugger then performs a search on the remaining "n+1" regions by using the output address obtained as a result of the single-stepping process to determine the region which contains this output address.
+      <br/>
+      The start address and end address of this third region are then programmed into the first register and the second register of the hardware debugging support module.
+      <br/>
+      The comparator is then enabled and the computer program is run until it hits another break point.
+      <br/>
+      The debugger repeats the single-stepping process, the search for the location of the resultant output address and the programming of the start and end addresses of the resultant region in the first register and second register of the hardware debugging support module until the entire computer program has been executed.
+    </p>
+    <p num="11">
+      Other objects and features of the present invention will become apparent from the following detailed description, considered in conjunction with the accompanying drawing figures. It is to be understood, however, that the drawings, which are not to scale, are designed solely for the purpose of illustration and not as a definition of the limits of the invention, for which reference should be made to the appended claims.
+      <br/>
+      BRIEF DESCRIPTION OF THE DRAWINGS
+      <br/>
+      In the drawing figures, which are not to scale, and which are merely illustrative, and wherein like reference numerals depict like elements throughout the several views:
+      <br/>
+      FIG. 1 is a schematic diagram of an implementation of hardware to support break points in ROM constructed in accordance with the prior art;
+      <br/>
+      FIG. 2 is a schematic diagram of an implementation of hardware to support break points in ROM constructed in accordance with the present invention;
+      <br/>
+      FIG. 3 is a tabular representation of a computer program depicting the break points in ROM in accordance with the present invention; and
+      <br/>
+      FIG. 4 is a tabular representation of a computer program depicting the start and end addresses of the debugger generated regions for the computer program in ROM in accordance with the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="12">
+      Reference is first made to FIG. 2, which depicts a hardware debugging support module 25, constructed in accordance with the present invention.
+      <br/>
+      Hardware debugging support module 25 includes a comparator 6 and two registers generally indicated as 20.
+      <br/>
+      Registers 20 include a first register called the range start register 21 and a second register called the range end register 22 which are connected to comparator 6 within hardware debugging support module 25.
+      <br/>
+      Comparator 6 is tapped into address bus 14 which connects processor 12 with memory 10.
+      <br/>
+      Whenever there is an address going across address bus 14 between memory 10 and processor 12, comparator 6 of hardware debugging support module 25 checks to see if that specific address lies within the range specified by range start register 21 and range end register 22.
+      <br/>
+      If the address is not within this range, hardware debugging support module 25 interrupts processor 12 and control over the program is transferred to the debugger.
+    </p>
+    <p num="13">
+      The debugger stores all the user-specified break points (Bkpti i=1. . . n) in a list.
+      <br/>
+      Reference is now made to FIG. 3 which depicts a representational view of a computer program with break points in a program address list generally indicated as 30.
+      <br/>
+      Program address list 30 includes three user-specified break points, break point 1 (Bkpt1) 31, break point 2 (Bkpt2) 32 and break point 3 (Bkpt3) 33. Program address list 30 also includes a start address 39 and an end address 40.
+    </p>
+    <p num="14">When a user directs the debugger to start execution of a computer program and begin the debugging process, the debugger begins by dividing the computer program into a list of (n+1) regions ((si, ei), i=1, n+1) where:</p>
+    <p num="15">
+      si is start address 39;
+      <br/>
+      en is end address 40;
+      <br/>
+      si =(Bkpti-1 +1) i=2, . . . ,n+1
+      <br/>
+      ei =(Bkpti -1) i=1, . . . ,n and
+      <br/>
+      n is the number of user-specified break points.
+    </p>
+    <p num="16">Thus, in FIG. 3 because the user has specified three break points, the debugger will divide the computer program into four regions separated by the three break points.</p>
+    <p num="17">
+      Reference is now made to FIG. 4 which depicts a view of the computer program of FIG. 3 with three user-defined break points.
+      <br/>
+      Program address list 30 of the computer program includes four regions, region 1 51, region 2 52, region 3 53 and region 4 54 separated by three break points, break point 1 31, break point 2 32 and break point 3 33.
+      <br/>
+      Region 1 51, depicted in FIG. 4 as (s1, e1), has a start address s1 41 and an end address e1 42.
+      <br/>
+      Start address s1 41 is the same address as program start address 39.
+      <br/>
+      Region 2 52, depicted in FIG. 4 as (s2, e2), has a start address s2 43 and an end address e2 44.
+      <br/>
+      Region 3 53, depicted in FIG. 4 as (s3, e3), has a start address s3 45 and an end address e3 46.
+      <br/>
+      Similarly, region 4 54, depicted in FIG. 4 as (s4, e4), has a start address s4 47 and an end address e4 48.
+      <br/>
+      End address e4 48 is the same address as program end address 40.
+      <br/>
+      Break point 1 31 lies between end address e1 42 of region 1 51 and start address s2 43 of region 252.
+      <br/>
+      Break point 2 32 lies between end address e2 44 of region 2 52 and start address s3 45 of region 3 53.
+      <br/>
+      Similarly, break point 3 33 lies between end address e3 46 of region 3 53 and start address s4 47 of region 4 54.
+    </p>
+    <p num="18">
+      After dividing the computer program into the above-mentioned regions, the debugger proceeds by identifying the region of the computer program that the starting address of the program lies in and then enters the start address and end address values of that region into range start register 21 and range end register 22.
+      <br/>
+      For example, if the starting address of the computer program lies within region 1 51, the debugger identifies region 1 51 of the program and enters start address s1 41 into range start register 21 and end address e1 42 into range end register 22.
+      <br/>
+      The debugger then allows the computer program to run.
+      <br/>
+      While the program is running, control of the program is transferred from the debugger to processor 12.
+      <br/>
+      Comparator 6 of hardware debugging support module 25 keeps checking the addresses on address bus 14 to determine if an address falls out of the range specified by range start register 21 and range end register 22.
+      <br/>
+      If the program control falls out of the range defined by range start register 21 and range end register 22, i.e., the address on address bus 14 does not lie in the range specified by range start register 21 and range end register 22, hardware debugging support module 25 raises an interrupt and transfers control of the computer program to the debugger.
+      <br/>
+      At this point, since the address found by comparator 6 does not lie within region 1 51, the debugger computes a new region by performing a binary search through the list of the remaining regions, in this case, region 2 52, region 3 53 and region 4 54.
+      <br/>
+      If the address found by comparator 6 is found to lie within a new existing region, then the debugger programs range start register 21 and range end register 22 with the start address and end address of the new program region and lets the program execution continue.
+      <br/>
+      Thus, if the address found by comparator 6 is found to lie within region 2 52, the debugger will enter start address s2 43 of region 2 52 into range start register 21 and end address e2 44 of region 2 52 into range end register 22.
+      <br/>
+      Program execution then continues until control falls out of region 2 52.
+    </p>
+    <p num="19">
+      Alternatively, if the address found by comparator 6 is not found to lie in any new region, then the computer program has hit a break point and the debugger outputs an appropriate message and transfers control to the user.
+      <br/>
+      The user is then able to examine the computer program and analyze the operation of the program till the breakpoint.
+      <br/>
+      If desired, this message can be saved in a list on a computer file.
+      <br/>
+      Clearly, this is a matter of design choice and the debugger could print the message on the console screen or an attached printer.
+      <br/>
+      The message may include, for example, information with regard to all the routines which were executed by the computer program prior to its hitting a break point, the number of times each of these routines was entered and the number of processor cycles for each specific routine.
+      <br/>
+      In alternate embodiments, other information may also be gathered, such as the number of sub-routines executed by the computer program prior to hitting a break point.
+    </p>
+    <p num="20">
+      When execution of the computer program needs to be resumed after hitting a break point, the comparator of hardware debugging support module 25 is first disabled.
+      <br/>
+      Processor 12 is then single stepped, as known in the art, to execute the instruction at which the break point was placed.
+      <br/>
+      The output address obtained after executing the instruction which had been replaced by the break point is used to perform a binary search over the list of regions to identify the region of the program that this particular output address of the program lies in.
+      <br/>
+      The comparator of hardware debugging support module 25 is then enabled and range start register 21 and range end register 22 are programmed with the start address and end address of the new region.
+      <br/>
+      Thus, for example, if the computer program hits break point 1 31, then the address obtained by comparator 6 lies between end address en 42 of region 1 51 and start address s2 43 of region 2 52.
+      <br/>
+      The comparator of hardware debugging support module 25 is disabled and processor 12 is single stepped to execute the instruction at break point 1 31.
+      <br/>
+      The output address obtained by comparator 6 is used to perform a binary search over the list of regions.
+      <br/>
+      If the output address is found to lie in region 3 53, then start address s3 45 is entered into range start register 21 and end address e3 46 is entered into range end register 22, the comparator of hardware debugging support module 25 is enabled and the computer program is allowed to run again.
+      <br/>
+      This process is repeated until the entire computer program has been executed.
+      <br/>
+      If the user wants to set new break points during the execution of the computer program, the debugger will have to recompute the region list.
+    </p>
+    <p num="21">
+      By providing for a range start register 21 and a range end register 22 that define a range of addresses within hardware debugging support module 25 and the enhanced debugging techniques, the present invention provides the ability to support an arbitrary number of break points with limited amounts of hardware resources being required.
+      <br/>
+      The execution of the computer program while it is being debugged in accordance with the present invention is considerably faster than the single-stepping solution used in the prior art.
+      <br/>
+      The present invention is particularly well suited to the situation where limited hardware resources are to be used in the debugging process.
+    </p>
+    <p num="22">The person of skill, utilizing the teaching of the present invention, will recognize that there are alternate ways to carry out the logic described herein, for example by modifying the number of break points, specifying other information to be collected and printed by the debugger, etc., all as a matter of application specific design choice.</p>
+    <p num="23">
+      Thus, while there have been shown and described and pointed out fundamental novel features of the invention as applied to preferred embodiments thereof, it will be understood that various omissions and substitutions and changes in the form and details of the disclosed invention may be made by those skilled in the art without departing from the spirit of the invention.
+      <br/>
+      It is the intention, therefore, to be limited only as indicated by the scope of the claims appended hereto.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of debugging a computer program present in read only memory (ROM) comprising the steps of:</claim-text>
+      <claim-text>specifying a list of "n" break points to a debugger, where "n" represents the number of specified break points by a user; dividing said computer program into "n+1" regions when the user begins operation of said debugger, each one of said "n+1" regions having a start address and an end address wherein said start address (si) can be represented by the equation:</claim-text>
+      <claim-text>said end address (ei) can be represented by the equation:</claim-text>
+      <claim-text>where the start address s1 is the same as the computer program start address, and the end address en+1 is the same as the computer program end address; determining the starting address of said computer program; determining a first region of said "n+1" regions that contains said computer program starting address; entering said start address of said first region into a first register of a hardware debugging support module and said end address of said first region into a second register of said hardware debugging support module, said first register and said second register defining a range of address locations for said computer program located in said first region; running said computer program by transferring control of said computer program to a processor; monitoring addresses with a comparator that forms a part of said hardware debugging support module, said addresses traveling on a bus, said bus connecting said processor and a read only memory, said comparator being connected to said bus, said first register and said second register; interrupting said processor and transferring control to said debugger if a specific address on said bus does not fall within said range; searching the remaining of said "n+1" regions to determine a second region of said "n+1" regions where said specific address is contained; programming said start address of said second region into said first register of said hardware debugging support module and said end address of said second region into said second register of said hardware debugging support module; running said computer program by transferring control of said computer program to the processor; repeating said transferring, monitoring, interrupting, searching and programming until said specific address is not contained within any of said "n+1" regions indicating that said computer program has reached a break point;</claim-text>
+      <claim-text>and transferring control of said computer program to said user when said computer program has reached said break point.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of debugging a computer program present in read only memory (ROM) of claim 1 further comprising the steps of: disabling said comparator when said computer program reaches said break point; executing the instruction at which said break point was placed to obtain an output address, said execution being performed by a single stepping process; searching the remaining of said "n+1" regions to determine a third region of said "n+1" regions where said output address is contained; programming said start address of said third region into said first register of said hardware debugging support module and said end address of said third region into said second register of said hardware debugging support module; enabling said comparator; running said computer program by transferring control of said computer program to the processor; repeating said disabling, executing, searching, programming, enabling and running until the entire said computer program has been executed.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of debugging a computer program present in read only memory (ROM) of claim 1 wherein said searching of said remaining "n+1" regions is performed by doing a binary search.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of debugging a computer program present in read only memory (ROM) of claim 1 wherein said debugger outputs a message when said computer program reaches a break point.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of debugging a computer program present in read only memory (ROM) of claim 2 wherein said debugger recomputes said "n+1" regions if new break points are added to the list of break points during execution of said computer program.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A system for debugging a computer program present in read only memory (ROM) comprising: a debugger having a list of "n" user specified break points, said debugger dividing said computer program into "n+1" regions when a user begins operation of said debugger, each one of said "n+1" regions having a start address and an end address wherein said start address (si) can be represented by the equation:</claim-text>
+      <claim-text>said end address (ei) can be represented by the equation:</claim-text>
+      <claim-text>where the start address si is the same as the computer program start address, and the end address en+1 is the same as the computer program end address, said debugger determining the starting address of said computer program and a first region of said "n+1" regions that contains said starting address;</claim-text>
+      <claim-text>- a processor; - read only memory connected to said processor by a bus; - a hardware debugging support module comprising:</claim-text>
+      <claim-text>-  a first register and a second register, said first register and said second register defining a range of address locations for said computer program wherein said first register contains said start address and said second register contains said end address of said first region of said "n+1" regions; -  a comparator for monitoring addresses traveling on said bus, said comparator being connected to said first register and said second register; - said hardware debugging support module interrupting said processor and transferring control of said computer program to said debugger if a specific address on said bus does not fall within said range of address locations defined by said first register and said second register; said debugger performing a search on theremaining of said "n+1" regions to determine a second region of said "n+1" regions where said specific address is contained and then programming said start address of said second region into said first register of said hardware debugging support module and said end address of said second region into said second register of said hardware debugging support module;</claim-text>
+      <claim-text>and said debugger transferring control of said computer program to said user when said computer program has reached a break point wherein said specific address is not contained within any of said "n+1" regions.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The system for debugging a computer program present in read only memory (ROM) of claim 6 wherein: said comparator is disabled when said computer program reaches said break point; said computer program uses a single step process to execute the instruction at which said break point was placed to obtain an output address; said debugger performing a search on the remaining of said "n+1" regions to determine a third region of said "n+1" regions where said specific address is contained and then programming said start address of said third region into said first register of said hardware debugging support module and said end address of said third region into said second register of said hardware debugging support module; said comparator is enabled and the computer program is run by transferring control of said computer program to the processor;</claim-text>
+      <claim-text>and said debugger repeats said single step process, said search and said programming until the entire said computer program has been executed.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system for debugging a computer program present in read only memory (ROM) of claim 6 wherein said searching of said remaining "n+1" regions is performed by doing a binary search.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The system for debugging a computer program present in read only memory (ROM) of claim 6 wherein said debugger outputs a message when said computer program reaches a break point.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system for debugging a computer program present in read only memory (ROM) of claim 7 wherein said debugger recomputes said "n+1" regions if new break points are added to the list of break points during execution of said computer program.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

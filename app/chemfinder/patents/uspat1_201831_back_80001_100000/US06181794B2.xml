@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181794B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181794</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181794</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="19499048" extended-family-id="33008179">
+      <document-id>
+        <country>US</country>
+        <doc-number>08946267</doc-number>
+        <kind>A</kind>
+        <date>19971007</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08946267</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>33750977</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>KR</country>
+        <doc-number>19970007674</doc-number>
+        <kind>A</kind>
+        <date>19970307</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997KR-0007674</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04B   3/23        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>B</subclass>
+        <main-group>3</main-group>
+        <subgroup>23</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>379406080</text>
+        <class>379</class>
+        <subclass>406080</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>370291000</text>
+        <class>370</class>
+        <subclass>291000</subclass>
+      </further-classification>
+    </classification-national>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04B-003/23</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>B</subclass>
+        <main-group>3</main-group>
+        <subgroup>23</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>12</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>7</number-of-drawing-sheets>
+      <number-of-figures>10</number-of-figures>
+      <image-key data-format="questel">US6181794</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Echo canceler and method thereof</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>OCHIAI K, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3787645</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3787645</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>ROHRS CHARLES E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4918727</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4918727</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>YOUNCE RICHARD C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5274705</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5274705</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>WILSON DENNIS L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5353374</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5353374</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>ARMBRUSTER WERNER</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5644635</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5644635</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>CROCHIERE RONALD ELDON, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5664011</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5664011</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>MEEK QUENTIN JAMES</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5745564</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5745564</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>KNITTLE CURTIS D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5761638</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5761638</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>ANTONIO FRANKLIN P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5790632</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5790632</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>ROMESBURG ERIC DOUGLAS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5796819</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5796819</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>BETTS WILLIAM LEWIS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5812537</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5812537</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Samsung Electronics Co., Ltd.</orgname>
+            <address>
+              <address-1>KR</address-1>
+              <country>KR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SAMSUNG ELECTRONICS</orgname>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Park, Ho-Chong</name>
+            <address>
+              <address-1>Seongnam, KR</address-1>
+              <city>Seongnam</city>
+              <country>KR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Kim, Young-Ky</name>
+            <address>
+              <address-1>Seoul, KR</address-1>
+              <city>Seoul</city>
+              <country>KR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>KR</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Dilworth &amp; Barrese, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Chan, Wing F.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An echo canceler for canceling an echo signal mixed in an input signal received from a hybrid circuit.
+      <br/>
+      The echo canceler has a double filter structure comprised of an adaptive filter and a fixed filter.
+      <br/>
+      The adaptive filter receives the input signal to generate a first echo estimation signal according to a filter coefficient thereof, and the fixed filter receives the input signal to generate a second echo estimation signal according to a filter coefficient thereof.
+      <br/>
+      A first adder subtracts the first echo estimation signal from the input signal to generate a first echo-canceled signal, and a second adder subtracts the second echo estimation signal from the input signal to generate a second echo-canceled signal.
+      <br/>
+      A mode selector selectively outputs one of the first and second echo-canceled signals having a relatively more canceled echo component.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention relates to an echo canceler, and more particularly to an apparatus and method for canceling an echo signal by using an adaptive filter.</p>
+    <p num="3">2. Description of the Related Art</p>
+    <p num="4">
+      In a telecommunication system, an echo phenomenon is generally caused due to an impedance mismatch of hybrid circuits for a 4-wire-to-2-wire conversion.
+      <br/>
+      Referring to FIG. 1, a voice signal is transferred from a party A to a party B through hybrid circuits 12, some signal components may echo back to the party A due to an impedance mismatch of the hybrid circuits 12.
+      <br/>
+      Such an echo signal may be canceled by an echo canceler 14.
+    </p>
+    <p num="5">
+      It can be understood that a relationship between the voice signal from the party A and the echo signal may be estimated by using an adaptive filter, since the voice signal and the echo signal have an input-output relationship with respect to the hybrid circuit 12.
+      <br/>
+      That is, if the adaptive filter receiving the voice signal from the party A is repeatedly trained such that the output signal thereof becomes identical to the echo signal, then the adaptive filter will have the same input-output relationship as that of the hybrid circuit 12.
+      <br/>
+      At the moment, the voice signal from the party A is filtered by the adaptive filter to estimate the echo signal, and the echo estimation signal is subtracted from the original echo signal, thereby canceling the echo signal.
+    </p>
+    <p num="6">
+      A filter coefficient of the adaptive filter should be repeatedly updated to maintain the optimal status of the adaptive filter, at all times.
+      <br/>
+      However, if the adaptive filter is repeatedly updated even in a double-talk status in which the voice signals from the parties A and B are simultaneously received, the adaptive filter will diverge.
+      <br/>
+      To prevent the divergence of the adaptive filter, updating of the adaptive filter should be temporarily stopped.
+      <br/>
+      Further, to stop the updating, it is necessary to know whether the voice signal from the party B is received or not.
+      <br/>
+      For that purpose, the voice signal from the party A is compared with the echo signal.
+      <br/>
+      As the result of the comparison, if the echo signal is relatively larger than the voice signal from the party A, it is considered that the voice signal from the party B is now received.
+      <br/>
+      Alternately, it is continuously checked whether the adaptive filter diverges or not, to determine that the voice signal from the party B is received if the adaptive filter diverges in the interim.
+    </p>
+    <p num="7">Although the echo signal is canceled by using the above-stated echo canceler 14, a residual echo signal may be generated due to quantization noises of the voice signal and the noises from the party B. In order to lower a level of the residual echo signal, the echo canceled signal is applied to a non-linear processor 16 which unconditionally sets a level of the noise signal to zero by using a center clipping apparatus.</p>
+    <p num="8">
+      If double-talk is not accurately detected, the echo canceler 14 diverges.
+      <br/>
+      In that case, the party A may hear loud noises, which drastically degrades speech quality of the communication system.
+      <br/>
+      However, in case of using a level difference between the voice signal from the party A and the echo signal to detect double-talk, it is difficult to accurately detect double-talk, since the level difference between two echo signals is not high enough when the voice signal from the party B has a low level.
+      <br/>
+      Further, the system performance is dependent upon the level difference between the voice signal from the party A and the echo signal, which becomes a reference in detecting double-talk.
+      <br/>
+      In case the level difference is incorrectly evaluated, double-talk may not be detected.
+      <br/>
+      Moreover, since the level difference undergoes a change according to the features of the hybrid circuits, it is difficult to fixedly set the value to a particular value.
+    </p>
+    <p num="9">
+      In using the convergence of the adaptive filter to detect double-talk, it is difficult to set a reference value for detecting double-talk, at which the adaptive filter converges.
+      <br/>
+      Further, the reference value undergoes a change according to the background or surroundings.
+      <br/>
+      Thus, if the reference value is fixed to a particular value, the system may not have a good performance.
+    </p>
+    <p num="10">
+      If the non-linear processor 16 is employed by using the center clipping apparatus, the signals with the lower level are converted to zero values and transferred to the party A, which may create a discontinuity problem of the received signal.
+      <br/>
+      Further, since such a system detects double-talk depending upon the signal level, the voice signal with the lower level from the party B may not be successfully transferred to the party A.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="11">It is therefore an object of the present invention to provide an echo canceler for effectively canceling an echo signal in a double-talk status and a method thereof.</p>
+    <p num="12">It is another object of the present invention to provide an echo canceler including a double filter structure comprised of an adaptive filter and a fixed filter, in which the filters receive the same input signal to cancel the echo signal, and a signal output from one of the filters is selectively outputted so as to effectively cancel the echo signal, and a method thereof.</p>
+    <p num="13">It is still another object of the present invention to provide an echo canceler interposed between a vocoder and a hybrid circuit in a digital cellular system, to improve a feature of the vocoder, and a method thereof.</p>
+    <p num="14">
+      To achieve the above objects, an echo canceler for canceling an echo signal according to the present invention includes an adaptive filter for receiving the input signal to generate a first echo estimation signal according to a filter coefficient of the filter.
+      <br/>
+      A fixed filter receives the input signal to generate a second echo estimation signal according to a filter coefficient of the fixed filter.
+      <br/>
+      A first adder subtracts the first echo estimation signal from the input signal received from the hybrid circuit to generate a first echo-canceled signal.
+      <br/>
+      A second adder subtracts the second echo estimation signal from the input signal received from the hybrid circuit to generate a second echo-canceled signal.
+      <br/>
+      A mode selector for selectively outputting one of the first and second echo-canceled signals having a relatively more canceled echo component.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="15">
+      The above and other objects, features and advantages of the present invention will become more apparent in the light of the following detailed description of an exemplary embodiment thereof taken with the attached drawings in which:
+      <br/>
+      FIG. 1 shows a block diagram of a general echo canceler;
+      <br/>
+      FIG.2 shows a block diagram of an echo canceler according to an embodiment of the present invention;
+      <br/>
+      FIG. 3 shows a block diagram of a CDMA digital cellular system to which the echo canceler of FIG. 2 is connected;
+      <br/>
+      FIG. 4 shows a convergence characteristic curve of the echo canceler in a normal operation mode;
+      <br/>
+      FIG. 5 shows a characteristic curve of the echo canceler in a double-talk mode;
+      <br/>
+      FIG. 6 shows a characteristic curve of the echo canceler during a change in an echo path;
+      <br/>
+      FIG. 7 shows a characteristic curve of the echo canceler in case double-talk and the echo path are simultaneously generated and changed; and
+      <br/>
+      FIGS. 8A to 8C show a flowchart for canceling the echo signal according to an embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="16">Preferred embodiments of the present invention will be described in detail hereinbelow with reference to the attached drawings, in which the like reference numerals represent the like elements.</p>
+    <p num="17">
+      FIG. 2 shows an echo canceler according to an embodiment of the present invention.
+      <br/>
+      As illustrated, a hybrid circuit 26 transfers a first voice signal U received from a party A to a party B, and/or transfers a second voice signal S received from the party B to the party A. Here, a signal transferred from the hybrid circuit 26 to an echo canceler 20 includes an echo signal and a near-end echo signal of the party B. An adaptive filter (W1) 21 receives the first voice signal U and generates a first echo estimation signal y1.
+      <br/>
+      A fixed filter (W2) 22 receives the first voice signal U and generates a second echo estimation signal y2.
+      <br/>
+      Here, the adaptive filter 21 employs an NLMS (Normalized Least Mean Square) adaptive algorithm.
+      <br/>
+      An offset device (adder) 23 subtracts the first echo estimation signal y1 from the output signal S of the hybrid circuit 26, to generate a first echo-canceled signal e1.
+      <br/>
+      Similarly, an offset device (adder) 24 subtracts the second echo estimation signal y2 from the output signal S of the hybrid circuit 26, to generate a second echo-canceled signal e2.
+      <br/>
+      A mode controller 25 receives the first and second voice signals U and S, and the first and second echo-canceled signals e1 and e2, to detect double-talk.
+      <br/>
+      The mode controller 25 selectively generates one of the first and second echo-canceled signals e1 and e2 in accordance with the results of double-talk detection.
+      <br/>
+      At that instant, the mode controller 25 further generates a non-linear process control signal (NLPC).
+    </p>
+    <p num="18">
+      FIG. 3 illustrates the echo canceler 20 of FIG. 2 interposed between the hybrid circuit 26 and an encoder 30 of a CDMA (Code Division Multiple Access) digital cellular system.
+      <br/>
+      As illustrated, the encoder 30 includes a rate determiner 31 for determining a data rate based on the non-linear process control signal NLPC from the mode controller 25 of the echo canceler 20 and outputting the echo-canceled signal from the mode controller 25 based on the determined rate.
+      <br/>
+      Further, the encoder 30 includes a voice compressor 32 for coding the voice according to the rate output from the rate determiner 31.
+    </p>
+    <p num="19">
+      In a CDMA digital cellular system shown in FIG. 3, the echo canceler 20 is interposed between the encoder 30 and the hybrid circuit 26 to cancel the echo signal from the received signal and generate the echo-canceled signal to the encoder 30.
+      <br/>
+      At the same moment, the echo canceler 20 generates the non-linear process control signal NLPC.
+      <br/>
+      Then, the encoder 30 determines the data rate of the voice compressor 32 according to the non-linear process control signal NLPC, to non-linearly process the echo-canceled signal received from the mode controller 25.
+    </p>
+    <p num="20">
+      Frequently, the digital cellular system undergoes a transmission time delay in the course of coding and transmitting the voice signal.
+      <br/>
+      Therefore, it is preferred that a base station should have a capability of controlling the echo signal returning from a PSTN (Public Switched Telephone Network) interface.
+      <br/>
+      The present invention provides a novel echo canceler for use in the CDMA digital cellular system.
+      <br/>
+      Although the echo canceler according to the present invention is based on the known NLMS adaptive algorithm, the echo canceler is featured by a unique structure having the adaptive filter and the fixed filter.
+      <br/>
+      Further, the echo canceler utilizes the features of a speech coder for use in the CDMA cellular system, to improve performance.
+      <br/>
+      The complexity of the echo canceler of the present invention is low enough so that a single DSP (Digital Signal Processor) chip can drive, in real time, a full duplex vocoder and the echo canceler.
+    </p>
+    <p num="21">
+      Referring back to FIG. 1, the digital communication system needs to have devices for controlling the echo signal returning from the hybrid circuits 10 and 12 of the PSTN interface, because of the long delay time between the voice coding and the voice transmission.
+      <br/>
+      For example, the encoder 30 in the CDMA digital cellular system shown in FIG. 3 has a voice delay time of 55 msec.
+    </p>
+    <p num="22">
+      In a preferred embodiment of the present invention, the echo canceler for use in the CDMA cellular system has a double filter structure, i.e., the adaptive filter 21 and the fixed filter 22.
+      <br/>
+      The filters 21 and 22 drastically improve an echo canceling feature of the echo canceler 20, particularly in case of double-talk.
+      <br/>
+      Moreover, the echo canceler 20 of the invention utilizes the speech coder for use in the CDMA digital cellular system, to further improve the echo canceling feature.
+      <br/>
+      For example, frame-based speech processing can measure the features of the filters, without an additional transmission time delay, thus improving the reliability of the echo canceler.
+      <br/>
+      The above-mentioned speech coder can readily provide the non-linear processor with a reduced level of returning the echo signal below an audible level.
+    </p>
+    <p num="23">The echo canceler 20 according to the present invention includes the following advantageous features:</p>
+    <p num="24">
+      First, the echo canceler 20 performs echo canceling even in the case of double-talk.
+      <br/>
+      It is very important that the echo canceler 20 detects double-talk accurately, since the adaptive filter 21 quickly generates its output during double-talk.
+      <br/>
+      In general, double-talk is detected by using an energy level based on the assumption that a loss caused through an echo path is at least 6 dB.
+      <br/>
+      However, since the loss through the echo path and the level of the near-end input signal through the echo path vary for the respective calls, this method may not detect an accurate double-talk duration.
+    </p>
+    <p num="25">
+      Second, the echo canceler 20 has a quick initial convergence and a low echo level after the convergence.
+      <br/>
+      Although the echo canceler 20 utilizes the non-linear processor for that purpose, the processor should not create any discontinuity problem during the telephone conversation.
+    </p>
+    <p num="26">
+      Third, the echo canceler 20 adapts to an unexpected change of the echo path.
+      <br/>
+      The echo canceler 20 operates normally, even if a loss of the echo path is infinity, i.e., if the echo signal is never generated.
+    </p>
+    <p num="27">
+      Fourth, the echo canceler 20 does not depend on the absolute signal level.
+      <br/>
+      That is, the echo canceler 20 operates independently of the absolute signal level.
+    </p>
+    <p num="28">
+      Fifth, the echo canceler 20 is not be complex in construction.
+      <br/>
+      The echo canceler 20 has a single DSP chip installed together with the full duplex vocoder.
+    </p>
+    <p num="29">
+      The voice compressor 32 in the encoder 30 is implemented by a vocoder standard IS-96A QCELP.
+      <br/>
+      The vocoder 32, i.e., the voice compressor 32, has the following functions to improve the performance of the echo canceler 20.
+    </p>
+    <p num="30">First, the encoder 30 processes the signal by the frame unit of 20 msec, not sample by sample, thereby improving the performance of the echo canceler 20.</p>
+    <p num="31">
+      Second, the voice compressor 32 fundamentally has functions to suppress the voice signal.
+      <br/>
+      In case the input signal level is low, the encoder 30 generates white noise having the same level as that of the input signal, instead of generating the voice signal.
+      <br/>
+      This function is used in performing the non-linear processor of the echo canceler 20.
+    </p>
+    <p num="32">
+      Referring again to FIG. 2, the echo canceler 20 includes the adaptive filter 21 and the fixed filter 22.
+      <br/>
+      The adaptive filter 21 has a filter coefficient which is updated according to the NLMS adaptive algorithm.
+      <br/>
+      The fixed filter 22 has a filter coefficient which can be copied from the adaptive filter 21, if necessary.
+      <br/>
+      The filters 21 and 22 generate the repetitive echo signals using particular filter coefficients, and generate the respective error signals such as the first and second echo-canceled signals e1 and e2.
+      <br/>
+      Thus, the filters 21 and 22 have different filter coefficients, respectively.
+      <br/>
+      The mode controller 25 selectively outputs one of the error signals (i.e., echo-canceled signals) e1 and e2.
+      <br/>
+      At that instant, the selected filter is called an in-use filter, and the other non-selected filter is called a non-use filter.
+      <br/>
+      The mode controller 25 determines which of the filters is to be used.
+      <br/>
+      The features of the filters 21 and 22 are estimatable based on the powers of the error signals.
+      <br/>
+      That is, as receiving the same input signal, the filters 21 and 22 have the error signal powers, which are ERLEs (Echo Return Loss Enhancement values) of the respective filters compared.
+      <br/>
+      As a result, the filter having the lower power is selected by the mode controller 25 as the in-use filter.
+    </p>
+    <p num="33">
+      In operation, at a first step, the filters 21 and 22 have their coefficients initialized to zero, and the fixed filter 22 is set as the in-use filter.
+      <br/>
+      At a second step, the feature of the adaptive filter 21 is compared with the feature of the fixed filter 22 at the end of the 20 msec frame, to select the in-use filter.
+      <br/>
+      At a third step, the filter coefficient of the selected in-use filter is copied to the nonuse filter.
+      <br/>
+      At a fourth step, the filters 21 and 22 are set to have the same coefficient and start the next frame.
+      <br/>
+      At a fifth step, the procedure returns to the second step to repeat the above stated processes.
+    </p>
+    <p num="34">
+      The relatively higher ERLE means that the echo signal is accurately canceled out by the in-use filter.
+      <br/>
+      In this case, the echo signal can be suppressed to cancel the residual echo signal.
+      <br/>
+      However, the near-end voice input is not suppressed, because ERLE cannot become so high in case the voice signal exists at the near-end.
+      <br/>
+      The echo signal may be readily suppressed by utilizing the features of the encoder 30.
+      <br/>
+      When the encoder 30 operates at 1/8 rate which is the minimum rate, the input signal may be disregarded and the white noise with the same level is generated.
+    </p>
+    <p num="35">
+      In a particular case, if ERLEs of the filters 21 and 22 are below zero with respect to several consecutive frames, neither of the filters can accurately cancel the echo.
+      <br/>
+      In this case, the echo canceler 20 operates as an adder.
+      <br/>
+      It is preferable to re-initialize the echo canceler 20 to all zero coefficients.
+    </p>
+    <p num="36">
+      The echo canceler 20 having the above mentioned construction can perform the following functions.
+      <br/>
+      First, the echo canceler 20 has improved performance during double-talk, since it is not necessary to detect double-talk.
+      <br/>
+      If double-talk is generated after the convergence, the adaptive filter 21 quickly diverges while the fixed filter 22 maintains the convergence status.
+      <br/>
+      Therefore, during double-talk, ERLE of the fixed filter 22 becomes higher than ERLE of the adaptive filter 21, and the echo signal is accurately canceled by the fixed filter 22.
+      <br/>
+      When double-talk is completed, the adaptive filter 21 quickly converges again.
+      <br/>
+      In this manner, the echo canceler 20 may maintain the improved performance during double-talk.
+    </p>
+    <p num="37">
+      In practice, it is preferable that the adaptive filter 21 operates inadaptively during double-talk, because there may exist a mutual dependence between a far-end voice and a near-end voice, which undesirably causes the convergence of the adaptive filter 21.
+      <br/>
+      For this purpose, double-talk using its energy level is detected.
+      <br/>
+      In this case, there is no need to detect an accurate double-talk duration, the decision rule is very conservative.
+    </p>
+    <p num="38">
+      Second, the echo canceler 20 has a quick initial convergence and has a low echo level after the convergence.
+      <br/>
+      The echo signal is immediately suppressed by the echo suppression function, and the echo level becomes very lower after the convergence.
+      <br/>
+      Further, since the suppression is achieved within a routine of the encoder 30, discontinuities may never be caused.
+    </p>
+    <p num="39">
+      Third, the echo canceler 20 quickly adapts to the change of the echo path.
+      <br/>
+      Since the adaptive filter 21 is always adaptive except for a powerful double-talk duration, the echo canceler 20 quickly adapts to the change of the echo path.
+      <br/>
+      If the loss of the echo path is infinity, ERLEs of the filters 21 and 22 drop below zero.
+      <br/>
+      Then, the echo canceler 20 is again initialized, and the fixed filter 22 operates with the zero coefficient.
+      <br/>
+      The adaptive filter 21 never converges, since the echo signals are not generated.
+      <br/>
+      Therefore, the echo canceler 20 may not effectively operate.
+    </p>
+    <p num="40">
+      Fourth, the echo canceler 20 is independent of the absolute signal level.
+      <br/>
+      Since the echo canceler 20 operates based on a filter selection procedure using a relative ERLE measurement, the feature of the echo canceler 20 does not depend on the absolute signal level.
+    </p>
+    <p num="41">
+      Fifth, the echo canceler 20 has a low complexity.
+      <br/>
+      Since the echo canceler 20 uses two types of filters, the echo canceler 20 is less complex.
+      <br/>
+      However, a high-qualified DSP chip such as "TMS320C31" manufactured by Texas Instruments Inc. U.S.A., may cover the encoder 30, decoder 40, and echo canceler 20.
+    </p>
+    <p num="42">
+      In the light of the simulation results of the echo canceler 20 having the above mentioned construction, a first input signal U is a zero-mean unit-variance white Gaussian noise, and a near-end noise `n` is the zero-mean unit-variance white Gaussian noise of SNR=-40.
+      <br/>
+      Further, a tap size of the adaptive filter 21 is 256, and an NLMS adaptive algorithm having a gain of 0.5 is used.
+      <br/>
+      FIGS. 4 to 7 illustrates characteristic curves showing ERLEs of the filters 21 and 22.
+      <br/>
+      Actually, the ERLE of the echo canceler 20 is one of the ERLEs of the adaptive filter 21 or the fixed filter 22, which is selected to have a higher value during a filter selection procedure.
+      <br/>
+      ERLEs of the filters with respect to each frame may be evaluated by the following Equation (1).  (Equation image '1' not included in text)
+    </p>
+    <p num="43">where k represents the frame B represents the voice from party B, and er represents the first and second echo-canceled signals e1 and e2 of the adaptive filter 21 and the fixed filter 22.</p>
+    <p num="44">
+      FIG. 4 illustrates a convergence characteristic curve of the echo canceler 20 in a normal operation mode.
+      <br/>
+      Since the fixed filter 22 maintains the coefficient copied from the adaptive filter 21, the ERLE of the fixed filter 22 tracks the ERLE of the adaptive filter 21.
+    </p>
+    <p num="45">
+      FIG. 6 illustrates how the echo canceler 20 adapts to the change of the echo path.
+      <br/>
+      The echo path changes at the middle of a fifty-sixth frame.
+      <br/>
+      The filters 21 and 22 first diverge at the same time.
+      <br/>
+      Then, the adaptive filter 21 quickly converges in adaptation to the new echo path, and the fixed filter 22 converges along the adaptive filter 21.
+    </p>
+    <p num="46">
+      FIG. 5 illustrates a characteristic curve of the echo canceler 20 during double-talk.
+      <br/>
+      As illustrated, double-talk is generated from a fifty-sixth frame to a sixty-eighth frame.
+      <br/>
+      The adaptive filter 21 quickly diverges during double-talk, due to an influence from the near-end.
+      <br/>
+      However, the fixed filter 22 maintains the convergence status having the coefficient obtained at the preceding frame.
+      <br/>
+      Therefore, it is noted that during double-talk duration, the fixed filter 22 is used and the echo canceler 20 operates normally.
+      <br/>
+      Upon completion of double-talk, the adaptive filter 21 again converges.
+    </p>
+    <p num="47">
+      FIG. 7 illustrates a characteristic curve in the case where double-talk and the echo path are simultaneously generated and changed.
+      <br/>
+      At the beginning of the change of the echo path, both the filters 21 and 22 diverge and maintain the divergence status, since the adaptive filter 21 can not converge during double-talk.
+      <br/>
+      Upon the completion of double-talk, the adaptive filter 21 converges and then, the fixed filter 22 converges.
+    </p>
+    <p num="48">
+      As can be appreciated from the foregoing description, the echo canceler 20 according to an embodiment of the present invention has a double filter structure comprised of the adaptive filter 21 and the fixed filter 22.
+      <br/>
+      The filters 21 and 22 receive the same voice signal to generate the first and second echo estimation signals y1 and y2, respectively.
+      <br/>
+      Then, the filters 21 and 22 offset the first and second echo signals y1 and y2 against the input voice signal to generate the first and second echo-canceled signals e1 and e2.
+      <br/>
+      Then, the mode controller 25 selectively outputs one of the first and second echo-canceled signals e1 and e2, together with the non-linear process control signal NLPC.
+      <br/>
+      Then, the encoder 30 determines the rate according to the non-linear process control signal NLPC, and processes the echo-canceled signal input.
+    </p>
+    <p num="49">
+      Here, the encoder 30 and the echo canceler 20 operate by the frame unit of 20 msec.
+      <br/>
+      That is, the echo canceler 20 receives the input signals for 20 msec and cancels the echo signal therefrom.
+      <br/>
+      The encoder 30 receives and compresses the echo-canceled signals from the echo canceler 20 to convert the compressed signals into a voice packet.
+      <br/>
+      The echo canceler 20 starts a new frame every 20 msec, and receives the signals stored into a voice signal buffer and an echo signal buffer.
+      <br/>
+      Here, the echo signal buffer has the size of 160, and stores 160 sample echo signals received during the last period of 20 msec.
+      <br/>
+      Further, the voice signal buffer has the size of 160+N (tap size of the echo canceler), and stores 160 sample voice signals for the last 20 msec plus the preceding N sample voice signals.
+    </p>
+    <p num="50">
+      Now, referring to FIG. 8A, at a step 811, the echo canceler 20 sets all the coefficients of the adaptive filter 21 and the fixed filter 22 to "0", sets an internal flag ACT to "2" (ACT=2), and sets the counter to "0".
+      <br/>
+      Then, at the beginning of the 20 msec frame, the echo canceler 20 establishes the operation mode based on the signal values stored in the voice signal buffer and the echo signal buffer.
+      <br/>
+      For that purpose, the echo canceler 20 evaluates the energy of the voice signal buffer at a step 813, and compares the evaluated energy with a threshold value Tu at a step 815.
+      <br/>
+      As the result of the comparison, if the energy of the voice signal buffer is less than the threshold value Tu, a flag IDLE is set to "YES" (IDLE=YES) at a step 817.
+      <br/>
+      However, if the energy of the voice signal buffer is greater than the threshold value Tu, the flag IDLE is set to "NO" (IDLE=NO) at a step 819.
+    </p>
+    <p num="51">
+      Then, at a step 821, the maximum absolute values MAX_U and MAX_S of the voice signal buffer and the echo signal buffer are evaluated.
+      <br/>
+      It is checked at a step 823 whether or not MAX_S/MAX_U&gt;TDT.
+      <br/>
+      If MAX_S/MAX_U is less than the threshold value TDT, a flag DT is set to "NO" (DT=NO) at a step 825.
+      <br/>
+      However, if MAX_S/MAX_U is higher than the threshold value TDT, the flag DT is set to "YES" (DT=YES) at a step 827.
+      <br/>
+      Thereafter, the status of the flags IDLE and DT is checked at a step 829.
+      <br/>
+      As the results of checking the IDLE and DT flags, if IDLE=NO and DT=NO, a flag ADAP is set to "YES" (ADAP=YES) at a step 833.
+      <br/>
+      If not, the flag ADAP is set to "NO" (ADAP=NO) at a step 831.
+      <br/>
+      Thereafter, at a step 835, a flag SUPP is set to "ADAP" (SUPP=ADAP), and a flag COPY is set to "YES" (COPY=YES).
+    </p>
+    <p num="52">
+      Next, referring to FIG. 8B, at a step 837, the echo canceler 20 receives the first voice signal U of the voice signal buffer to evaluate the first and second echo estimation signals y1 and y2 generated from the adaptive filter 21 and the fixed filter 22, and evaluates the first and second echo-canceled signals e1 and e2 at a step 839.
+      <br/>
+      Here, the second voice signal S includes the echo signal, and the adders 23 and 24 evaluate the first and second echo-canceled signals e1 and e2 in which e1=S-y1 and e2=S-y2, respectively.
+      <br/>
+      Then, at a step 841, instantaneous powers of the signals y1, y2 and S are calculated.
+      <br/>
+      At a step 845, a power difference between the signal S and the signal e1 and a power difference between the signal S and the signal e2 are calculated in terms of decibels (dB), to generate ERLE1 and ERLE2.
+      <br/>
+      Here, the calculated values represent, in terms of power, how much the adaptive filter 21 and the fixed filter 22 cancel the echo signals.
+      <br/>
+      At a step 847, if it is judged that ERLE1 and ERLE2 are less than a threshold value TR, the counter increases by one at a step 849.
+    </p>
+    <p num="53">
+      The mode controller 25 analyzes a value of the internal flag ACT at a step 851, to select a final output.
+      <br/>
+      That is, if ACT=1 at the step 851, the mode controller 25 selects the first echo-canceled signal e1 from the adder 23 at a step 853.
+      <br/>
+      Then, the mode controller 25 checks at a step 855 whether ERLE1 is less than a threshold value TE.
+      <br/>
+      If ERLE1 is less than the threshold value TE, the flag COPY is set to "NO" (COPY=NO) at a step 857.
+      <br/>
+      However, if ACT=2 at the step 851, the mode controller 25 selects the second echo-canceled signal e2 from the adder 24 at a step 859.
+      <br/>
+      Then, at a step 861, the mode controller 25 checks whether ERLE2 is less than the threshold value TE.
+      <br/>
+      If ERLE2 is less than the threshold value TE, the flag COPY is set to "NO" (COPY=NO) at a step 863.
+    </p>
+    <p num="54">
+      Next, an operation of updating the coefficients of the adaptive filter 21 will be described in detail hereinbelow.
+      <br/>
+      The flag ADAP represents whether the coefficient of the adaptive filter 21 is updated or not.
+      <br/>
+      The flag ADAP is checked at a step 865.
+      <br/>
+      If ADAP=YES, the coefficient of the adaptive filter 21 is updated, at a step 867, by using the NLMS adaptive algorithm.
+      <br/>
+      Thereafter, through steps 869 to 877, ERLE1 and ERLE2 are compared with a threshold value TA.
+      <br/>
+      If ERLE1 and ERLE2 are less than the threshold value TA, the flag SUPP is set to "NO" (SUPP=NO).
+      <br/>
+      Then, the procedure checks at a step 879 whether it is the end of the frame.
+      <br/>
+      If not so, the procedure returns to the step 837 to repeat the above mentioned process.
+    </p>
+    <p num="55">Upon performing the procedure of FIG. 8B with respect to 160 sample inputs all and completing one frame (i.e., 160 samples), the echo canceler 20 performs a post-frame processing as shown in FIG. 8C.</p>
+    <p num="56">
+      Referring to FIG. 8C, if the counter value is greater than a predetermined threshold value TC at a step 881, the procedure is initialized at a step 883 and returns to the step 813 of FIG. 8A. Then, the procedure initializes all the values of the echo canceler 20 and starts the next frame.
+      <br/>
+      However, if the counter value is less than the predetermined threshold value TC at the step 881, the procedure checks the status of the flag COPY at a step 885.
+      <br/>
+      If COPY=NO, the procedure returns to a step 813 to start the next frame.
+    </p>
+    <p num="57">
+      However, if the flag COPY is set to "YES" (COPY=YES) at the step 885, ERLE1 is compared with ERLE2 at a step 887.
+      <br/>
+      If ERLE1&gt;ERLE2, the flag ACT is set to "1" (ACT=1) at a step 889, and the coefficient of the adaptive filter 21 is copied to the fixed filter 22 at a step 891.
+      <br/>
+      On the contrary, if ERLE1&lt;ERLE2, the flag ACT is set to "2" (ACT=2) at a step 893, and the coefficient of the fixed filter 22 is copied to the adaptive filter 21 at a step 895.
+      <br/>
+      Thereafter, the procedure returns to the step 813 to perform the echo cancellation with respect to the next frame.
+    </p>
+    <p num="58">
+      The value of the flag SUPP is transferred to the encoder 30, which is a variable rate vocoder, IS-96A, for use in the CDMA digital cellular system.
+      <br/>
+      The variable rate vocoder varies the rate according to the input signal level.
+      <br/>
+      In particular, for a 1/8 rate, the vocoder makes the packet such that the white noise has the same level as the input level generated, instead of just compressing the input signal as it is.
+      <br/>
+      The rate of the encoder 30 is determined by the rate determiner 31 according to the SUPP value output from the mode controller 25.
+      <br/>
+      That is, if the flag SUPP is set, the rate of the encoder 30 is unconditionally set to 1/8.
+    </p>
+    <p num="59">
+      As can be clearly understood from the foregoing descriptions, the echo canceler of the invention includes the adaptive filter and the fixed filter.
+      <br/>
+      In case the adaptive filter is more effective in canceling the echo signal, the fixed filter copies the filter coefficients from the adaptive filter, and the adaptive filter continues to be adaptive.
+      <br/>
+      One of the outputs from the adaptive filter and the fixed filter is selected to generate the final output signal of the echo canceler, based on ERLEs of the filters.
+    </p>
+    <p num="60">
+      The voice codec in the CDMA system is processed by the frame unit, thereby resulting into an improvement of the performance of the echo canceler without additional transmission time delay.
+      <br/>
+      Therefore, the echo canceler may operate in any situation, particularly in the CDMA digital cellular system.
+    </p>
+    <p num="61">Although various preferred embodiments of the present invention have been described in detail hereinabove, it should be clearly understood to those skilled in the art that many variations and/or modifications of the basic inventive concepts herein taught may fall within the spirit and scope of the present invention as defined in the appended claims.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>An echo canceler for canceling an echo signal mixed with an input signal received from a hybrid circuit, comprising:</claim-text>
+      <claim-text>an adaptive filter for receiving the input signal to generate a first echo estimation signal according to a filter coefficient thereof: a fixed filter for receiving the input signal to generate a second estimation signal according to a filter coefficient thereof, a first adder for subtracting said first echo estimation signal from the input signal received from the hybrid circuit to generate a first echo canceled signal;</claim-text>
+      <claim-text>and a mode selector having power determination means for determining a power value for the input signal, a first power difference between the power value of the input signal and a power value of the first echo-canceled signal, and a second power difference between the power value of the input signal and a power value of the second echo-canceled signal, said mode selector selectively outputting one of said first and second echo-canceled signals based on the determinations made by the power determination means, whereby when the first echo-canceled signal is selected, the adaptive filter is a filter in use and the fixed filter is a filter not in use, and when the second echo-canceled signal is selected, the fixed filter is the filter in use and the adaptive filter is the filter not in use, and wherein the filter coefficient of the filter in use is copied to the filter not in use.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The echo canceler as recited in claim 1 further comprises a non-linear processor for receiving the echo-canceled signals and for lowering a level of residual echo of the echo-canceled signal.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The echo canceler as recited in claim 1 wherein the filter coefficient of the adaptive filter is updated according to a normalized least mean square adaptive algorithm.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The echo canceler as recited in claim 1 wherein the mode controller selects the outputted echo-canceled signal based on a lower echo-canceled signal power of its respective filter.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A CDMA (Code Division Multiple Access) digital cellular system comprising: an echo canceler for canceling an echo signal mixed in an input signal received from a hybrid circuit including:</claim-text>
+      <claim-text>- an adaptive filter for receiving the input signal to generate a first echo estimation signal according to a filter coefficient thereof, - a fixed filter for receiving the input signal to generate a second echo estimation signal according to a filter coefficient thereof, - a first adder for subtracting said first echo estimation signal from the input signal received from the hybrid circuit to generate a first echo-canceled signal, - a second adder for subtracting said second echo estimation signal from the input signal received from the hybrid circuit to generate a second echo-canceled signal, and - a mode selector having power determination means for determining a power value for the input signal, a first power difference between the power value of the input signal and a power value of the first echo-canceled signal, and a second power difference between the power value of the input signal and a power value of the second echo-canceled signal, said mode selector selectively outputting one of said first and second echo-canceled signals based on the determinations made by the power determination means, and generating a non-linear process control signal, whereby when the first echo-canceled signal is selected, the adaptive filter is a filter in use and the fixed filter is a filter not in use, and when the second echo-canceled signal is selected, the fixed filter is the filter in use and the adaptive filter is the filter not in use, and wherein the filter coefficient of the filter in use is copied to the filter not in use;</claim-text>
+      <claim-text>and an encoder including: - a rate determiner for determining a rate based on said non-linear process control signal and receiving the selected echo-canceled signal output from the mode controller, and - a voice compressor for compressing the echo-canceled signal output from the rate determiner according to the rate determined by the rate determiner.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The CDMA (Code Division Multiple Access) digital cellular system as recited in claim 5 wherein the mode controller selects the outputted echo-canceled signal based on a lower echo-canceled signal power of its respective filter.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The CDMA (Code Division Multiple Access) digital cellular system as recited in claim 5 wherein the filter coefficient of the adaptive filter is updated according to a normalized least mean square adaptive algorithm.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method for canceling an echo signal in a CDMA digital cellular system including an echo canceler having an adaptive filter and a fixed filter, and an encoder having a voice compressor, comprising the steps of: generating a first echo estimation signal from the adaptive filter according to a filter coefficient thereof; generating a second echo estimation signal from the fixed filter according to a filter coefficient thereof; subtracting said first echo estimation signal from an input signal received from a hybrid circuit to generate a first echo-canceled signal; subtracting said second echo estimation signal from the input signal to generate a second echo-canceled signal; determining an instantaneous power value for the input signal; determining a first power difference between the instantaneous power value of the input signal and a power value of the first echo-canceled signal, and a second power difference between the instantaneous power value of the input signal and a power value of the second echo-canceled signal;</claim-text>
+      <claim-text>and selectively outputting one of said first and second echo-canceled signals based on the determined power differences, of which echo component is canceled relatively more than that of the other, and generating a non-linear process control signal, whereby when the first echo-canceled signal is selected, the adaptive filter is a filter in use and the fixed filter is a filter not in use, and when the second echo-canceled signal is selected, the fixed filter is the filter in use and the adaptive filter is the filter not in use, and wherein the filter coefficient of the filter in use is copied to the filter not in use.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method for canceling an echo signal according to claim 8, wherein the step of generating a first echo estimation signal includes: receiving an input signal; generating a first echo estimation signal from the adaptive filter;</claim-text>
+      <claim-text>and offsetting the first echo estimation signal against the input signal for canceling.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method for canceling an echo signal according to claim 8, wherein the step of generating a second echo estimation signal includes: receiving an input signal; generating a second echo estimation signal from the fixed filter;</claim-text>
+      <claim-text>and offsetting the second echo estimation signal against the input signal for canceling echo.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method for canceling an echo signal according to claim 8, further comprising a step of causing said encoder to determine a rate according to said non-linear process control signal to process the selectively outputted echo-canceled signal.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method for canceling an echo signal according to claim 8, wherein the step of selectively outputting further comprises comparing the first and second power differences derived from subtracting the power value of the first and second echo-canceled signals from the instantaneous power value of the input signal.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

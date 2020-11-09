@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182268B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182268</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182268</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21703073" extended-family-id="42109147">
+      <document-id>
+        <country>US</country>
+        <doc-number>09002894</doc-number>
+        <kind>A</kind>
+        <date>19980105</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09002894</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165831</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>289498</doc-number>
+        <kind>A</kind>
+        <date>19980105</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09002894</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/50        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>50</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>716104000</text>
+        <class>716</class>
+        <subclass>104000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>716106000</text>
+        <class>716</class>
+        <subclass>106000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>716132000</text>
+        <class>716</class>
+        <subclass>132000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/50D</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>017</main-group>
+        <subgroup>50D</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/5045</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>5045</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>26</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>6</number-of-drawing-sheets>
+      <number-of-figures>7</number-of-figures>
+      <image-key data-format="questel">US6182268</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Methods and apparatuses for automatic extraction of finite state machines</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>KITA RONALD A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5394347</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5394347</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>CHANDRA SUSHEEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5517432</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5517432</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>GIOMI JEAN-CHARLES, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5537580</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5537580</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>CANTONE MICHAEL R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5594657</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5594657</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>YU TONNY KAI TONG, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5706473</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5706473</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>GIOMI JEAN-CHARLES</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5774370</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5774370</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>YEAP GARY K</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5825644</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5825644</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>KITA RONALD ALLEN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5870590</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5870590</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Camposano, R.; Rosenstiel, W., Syntehsizing Circuits from Behaviorual Descriptions, Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, pp. 171-180, Feb. 1989.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Logic Synthesis and Verification Algorithms; Hachtel, Gary D., and Somenzi, Fabio; Sections 7.9 and 7.10; pp. 305-312; Klauwer Academic Publishing, 1996.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Synplicity, Inc.</orgname>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SYNPLICITY</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>McElvain, Kenneth S.</name>
+            <address>
+              <address-1>Los Altos, CA, US</address-1>
+              <city>Los Altos</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Blakely, Sokoloff, Taylor &amp; Zafman</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Teska, Kevin J.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus which automatically extract finite state machine circuits from a circuit design.
+      <br/>
+      Typically, the circuit design is specified by a hardware description language which is compiled to a level of description which shows logic and interconnections in the circuit.
+      <br/>
+      A circuit region which includes a register is automatically defined from this description.
+      <br/>
+      The circuit region is defined as the register and the group of logic gates within a feedback path from the output of the register to the input of the register.
+      <br/>
+      The circuit region is analyzed to define a finite state machine.
+      <br/>
+      For each finite state machine, the next state function of the state machine is determined.
+      <br/>
+      The next state function is derived by determining a next state from a current state of the state machine and a set of possible input values to the state machine.
+      <br/>
+      A symbolic representation of the state machine may be generated from the next state function, and state machine may be optimized and/or debugged in its symbolic representation.
+      <br/>
+      The state machine may then be recompiled from the symbolic representation.
+      <br/>
+      In one example, the state machine may be recompiled into a target architecture.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The present invention relates generally to the field of circuit design synthesis, and more particularly to the design of integrated circuits which include state machine circuits.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      For the design of digital circuits on the scale of VLSI (Very Large Scale Integration) technology, designers often employ computer-aided techniques.
+      <br/>
+      Standard languages known as Hardware Description Languages (HDL's) have been developed to describe digital circuits to aid in the design and simulation of complex digital circuits.
+      <br/>
+      Several hardware description languages, such as VHDL and Verilog, have evolved as industry standards.
+      <br/>
+      VHDL and Verilog are general purpose hardware description languages which allow definition of a hardware model at the gate level, the register transfer level (RTL), or the behavioral level using abstract data types.
+      <br/>
+      As device technology continues to advance, various product design tools have been developed to adapt HDLs for use with newer devices and design styles.
+    </p>
+    <p num="3">
+      One important aspect in the field of circuit synthesis and simulation is in the modeling and analysis of finite state machines.
+      <br/>
+      A state machine is a generalized type of sequential logic in which the next state of the machine (or circuit) can be written as a function of the current state and the value of the input signals to the machine.
+      <br/>
+      Because state machines can be used to represent digital circuits which combine combinational logic and a memory element, state machines are a fundamental building block in the synthesis of large scale digital circuits.
+      <br/>
+      The modeling of state machines is especially important given the prevalent use of programmable logic devices to implement sequential logic functions within a circuit.
+      <br/>
+      It is desirable to identify a state machine within a logic design because well known optimizations can be performed on the state machine.
+      <br/>
+      Further, a state machine may be debugged by using conventional debugging methods.
+      <br/>
+      However, designers who use HDL to create circuit designs often do not intentionally include a state machine in a circuit design.
+      <br/>
+      That is, a designer may merely write HDL code specifying the circuit design without intending to include a state machine and without realizing that, in fact, a state machine has been unintentionally included in the circuit design.
+      <br/>
+      Thus, the optimization and debugging of state machines is not possible when a state machine is included in this manner because the state machine's existence in the design is unrecognized and its definition in a symbolic form (e.g. definition by a next state function or by a state diagram or state table) is not provided by the designer or as a result of a compiler's logic synthesis.
+    </p>
+    <p num="4">
+      Present methods and products associated with HDL synthesis accommodate the analysis of finite state machines (FSM).
+      <br/>
+      These methods, however, require the users to either constrain the style in which the finite state machine is described by following a rigid coding template, or to isolate the finite state machine from other parts of the design and identify the HDL variable representing the current state of the finite state machine.
+      <br/>
+      In the first case the restriction allows the finite state machine to be recognized with pattern matching on the original HDL source code.
+      <br/>
+      In the second, the state machine is extracted from a netlist with Boolean logic techniques, relying on the user's identification of both the state register and the portion of the design that is to be considered part of the state machine.
+    </p>
+    <p num="5">
+      The identification of the part of the design and design information that is involved in the state machine is important.
+      <br/>
+      Not including enough of the design will lead to an extracted state machine that contains many states that are not reachable (invalid) in the whole design as well as state to state transitions that cannot be activated within the context of the whole design.
+      <br/>
+      These invalid states and transitions will both create a larger optimization problem as well as biasing the finite state machine optimization towards getting a good result for states and transitions which are not needed.
+      <br/>
+      Including too much of the design yields an analysis problem that can be computationally difficult or impractical, as well as disturbing the optimization of parts of the design that did not need to be included.
+    </p>
+    <p num="6">One deficiency in these techniques is that only circuits that the user thinks of as state machines and that the user makes the effort to identify are treated as state machines.</p>
+    <p num="7">A second deficiency is that theses techniques place strong constraints on the way the user can describe state machines, either by requiring a rigid coding template to be followed or by requiring he design to be organized to isolate the state machine (for example, using design hierarchy) from other parts of the design.</p>
+    <p num="8">It is therefore desirable to provide a system which automatically identifies finite state machines in a circuit.</p>
+    <p num="9">It is further desirable to provide a system that determines what part of the design should be included in the state machine extraction process.</p>
+    <p num="10">It is further desirable to provide a system for automatically extracting identified state machines and representing the state machines in symbolic or functional form to facilitate further analysis and optimization.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="11">The present invention discloses methods and apparatuses which automatically extract finite state machine circuits from a complex digital circuit.</p>
+    <p num="12">
+      In one example of a method of the invention, a circuit region is defined to include a register and a group of logic gates within a feedback path from the output of the register to the input of the register.
+      <br/>
+      This circuit region defines a state machine based on the identified register.
+      <br/>
+      For each defined state machine, the next state function is defined.
+      <br/>
+      The next state function is derived by determining the next state from each current state of the state machine and the possible input values to the state machine.
+    </p>
+    <p num="13">
+      In an exemplary embodiment of the present invention, a symbolic representation of an automatically defined state machine is created using next state values determined for all possible current state values and input value combinations.
+      <br/>
+      The symbolic representation of the state machine is used to recompile the circuit comprising the state machine into a target library.
+      <br/>
+      Further circuit analysis and optimization programs may be performed to improve the area or performance characteristics of the state machine.
+      <br/>
+      In one particular embodiment, a method according to the invention may additionally include a filtering of the registers in a synthesized design which has produced an RTL netlist.
+      <br/>
+      This filtering attempts to identify only registers which are possible state registers and hence may be part of a state machine.
+      <br/>
+      This filtering is performed before identifying circuit regions which include a state register and a group of logic gates within a feedback path from the output of a state register and the input to the state register.
+      <br/>
+      Those registers which are not possible state registers are ignored in further processing which defines a circuit region which includes possible state registers.
+    </p>
+    <p num="14">Other features of the present invention will be apparent from the accompanying drawings and from the detailed description which follows.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="15">
+      The present invention is illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements, and in which:
+      <br/>
+      FIG. 1A is a block diagram of a computer system which may be used to implement an embodiment of the present invention.
+      <br/>
+      FIG. 1B is a flowchart which shows a synthesis process which may be used with the present invention.
+      <br/>
+      FIG. 2 is a block diagram representation of a generalized digital state machine.
+      <br/>
+      FIG. 3 is a flowchart illustrating the process of automatically extracting state machines according to one embodiment of the present invention.
+      <br/>
+      FIG. 4 is a block diagram of a circuit including a state machine.
+      <br/>
+      FIG. 5A is a block diagram illustrating a minimum extraction region within a circuit including a state machine.
+      <br/>
+      FIG. 5B is a state diagram for the state machine illustrated in FIG. 5A.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="16">
+      A system for automatically extracting state machines from a complex digital circuit design is described.
+      <br/>
+      In the following description, for purposes of explanation, numerous specific details are set forth in order to provide a thorough understanding of the present invention.
+      <br/>
+      It will be evident, however, to one skilled in the art that the present invention may be practiced without these specific details.
+      <br/>
+      In other instances, well-known structures and devices are shown in block diagram form to facilitate explanation.
+    </p>
+    <p num="17">Hardware Overview</p>
+    <p num="18">
+      FIG. 1A illustrates a block diagram of a computer system which may be used to implement an embodiment of the present invention.
+      <br/>
+      The computer system is used to perform logic synthesis of a design which is described in an HDL.
+      <br/>
+      The computer system 100 includes a processor 102 coupled through a bus 101 to a random access memory (RAM) 104, a read only memory (ROM) 106, and a mass storage device 107.
+      <br/>
+      Mass storage device 107 represents a persistent data storage device, such as a floppy disk drive, fixed disk drive (e.g., magnetic, optical, magneto-optical, or the like), or streaming tape drive.
+      <br/>
+      Processor 102 may be embodied in a general purpose processor (such as the Intel.RTM. Pentium (tm)  processor), a special purpose processor, or a specifically programmed logic device.
+    </p>
+    <p num="19">
+      Display device 120 is coupled to processor 102 through bus 101 and provides graphical output for computer system 100.
+      <br/>
+      Keyboard 121 and cursor control unit 122 are coupled to bus 101 for communicating information and command selections to processor 102.
+      <br/>
+      Also coupled to processor 102 through bus 101 is an input/output (I/O) interface 123 which can be used to control and transfer data to electronic devices (printers, other computers, etc.) connected to computer 100.
+    </p>
+    <p num="20">It should be noted that the architecture of FIG. 1 is provided only for purposes of illustration, and that a computer used in conjunction with the present invention is not limited to this specific architecture.</p>
+    <p num="21">State Machine Extraction</p>
+    <p num="22">
+      A method of one embodiment of the present invention identifies and automatically extracts state machine circuits from a complex network of logic devices which have been created through a logic synthesis process from an HDL.
+      <br/>
+      In order to provide a context for a description of the present invention, an example of a logic synthesis process from HDL source code will be described.
+      <br/>
+      Then, a general example of a state machine will be provided before describing an example of a method of the present invention.
+    </p>
+    <p num="23">
+      FIG. 1B shows an example of an electronic design automation process which uses logic synthesis from an HDL description of a circuit to generate a detailed, gate level description which may be used to create the circuit in a semiconductor integrated circuit (IC).
+      <br/>
+      The following description assumes that the IC will be fabricated using a library of building blocks (e.g. lookup tables, multiplexers, I/O flip-flops, etc.) which is used by a particular target architecture.
+      <br/>
+      However, it will be appreciated that certain embodiments of the present invention may be used in design processes which are not confined to using a particular library with a confined set of building blocks.
+      <br/>
+      That is, the present invention may be used with circuit design which is technology independent.
+      <br/>
+      The process usually begins with the authoring of HDL source code which describes the circuit which is desired.
+      <br/>
+      The authoring process is well described in the literature.
+      <br/>
+      See, for example, Verilog HDL: A Guide to Digital Design and Synthesis, Samir Palnithar, SunSoft Press, 1996; also see, A VHDL Synthesis Primer, J. Bhasher, Star Galaxy Publishing, 1996.
+      <br/>
+      A completed version of the authored source code is, in step 131 of FIG. 1B, then submitted to a logic synthesis compiler.
+      <br/>
+      This logic synthesis compiler is typically a computer program which operates on a general purpose computer system, although in some embodiments the computer system may be a dedicated, special purpose computer system.
+      <br/>
+      An example of a logic synthesis compiler is the program "Synplify" from Synplicity, Inc. of Sunnyvale, Calif.
+      <br/>
+      The submitted HDL code is then compiled, in step 133, into a particular level of description which is often an RTL (register transfer level) netlist.
+      <br/>
+      The RTL netlist will usually show registers and other logic interconnected to show the flow of data through a circuit which was described in the HDL code.
+      <br/>
+      In other examples of logic synthesis, the compiler may produce a gate level description of the circuit.
+      <br/>
+      The logic synthesis compiler will next, in step 135, optimize and map the synthesized RTL netlist description from step 133 into a target architecture which is usually determined by a supplier of programmable IC's.
+      <br/>
+      An example of a target architecture is the programmed lookup tables (LUTs) and associated logic of the Xilinx XC4000 integrated circuit which is a field programmable gate array from Xilinx, Inc. of San Jose, Calif.
+      <br/>
+      Other examples of target architectures include those well known architectures in field programmable gate arrays and complex programmable logic devices from vendors such as Altera, Lucent Technologies, Advanced Micro Devices (AMD), and Lattice Semiconductor.
+      <br/>
+      The present invention may also be employed with ASICs (Application Specific Integrated Circuits).
+      <br/>
+      The mapping in step 135 converts the synthesized RTL level description of the desired circuit into the equivalent circuit implemented using building blocks of the target architecture.
+      <br/>
+      The optimization in step 135 optimizes the desired circuit, as implemented using those building blocks, by removing unnecessary logic, etc.
+    </p>
+    <p num="24">
+      Typically, step 137 will generate a netlist which is designed to serve as an input to the target architecture's place and route software tools (which is usually provided by the vendor which specifies the target architecture); these tools use the netlist to automatically specify the inputs to the vendor's IC in order to program the IC to produce the desired circuit.
+      <br/>
+      In one embodiment, however, step 137 may generate a gate level netlist for a particular target architecture by performing the operations of the vendor's place and route software tools.
+      <br/>
+      It will also be appreciated that, if no particular target architecture is specified (e.g. the designed circuit is to be technology independent), then steps 135 and 137 will usually produce a circuit schematic and associated netlist which may be used to construct an IC.
+      <br/>
+      A general description of a state machine will now be provided.
+    </p>
+    <p num="25">
+      Digital circuits designed for use in VLSI devices contain upwards of hundreds of thousands of transistors which make up various different circuits such as logic gates, counters, arithmetic units, and so on.
+      <br/>
+      State machines are fundamental building blocks or circuit elements within many digital circuits.
+      <br/>
+      State machines represent a general form of sequential logic in which the output state of the machine depends on the input values and on the previous state of the machine.
+      <br/>
+      Sequential logic thus requires some form of memory.
+      <br/>
+      This memory is typically implemented in the form of digital flip-flop circuits.
+      <br/>
+      Thus, a generalized state machine consists simply of logic circuits and a memory register.
+    </p>
+    <p num="26">
+      FIG. 2 is a block diagram representation of a general digital state machine circuit 200.
+      <br/>
+      In many current VLSI devices, the state machine of FIG. 2 would be implemented in a programmable logic device such as a field programmable gate array (FPGA) device or a complex programmable logic device (CPLD) or a Programmable Array Logic (PAL) device.
+      <br/>
+      The state machine circuit 200 includes logic gates 202 and a D flip flop state register 204.
+      <br/>
+      Logic gate block 202 represents a combinational logic circuit which processes input signals 206 to produce output signals 208.
+      <br/>
+      Logic gate block 202 may represent any number and type of combinational logic circuits.
+      <br/>
+      An output signal from logic gate block 202 is input to the D input of state register 204.
+      <br/>
+      This output signal represents the state value or "state" of the state machine.
+      <br/>
+      The output signal from the Q output of state register 204 is fed back and input to logic gate block 202.
+      <br/>
+      A clock 210 provides the clock signal to the clock input of state register 204.
+      <br/>
+      Each clock pulse causes the signal level present at the D input of the state register to be transferred to the Q output.
+      <br/>
+      The clock signal is sometimes referred to as a state clock or state clock signal.
+      <br/>
+      It will be appreciated that this clock signal may be a true clock signal (e.g. a signal with high and low voltage levels which exist at periodic, timed intervals with a consistent duty cycle) or just a signal which specifies that the next state is to be latched into the state register 204 (e.g. what might be referred to as a pseudo clock).
+      <br/>
+      Thus the "clock" input of register 204 may be merely a load or load enable input.
+      <br/>
+      It should be noted that D flip-flop 204 may represent a single register which consists of any number (n) of individual flip-flops in order to provide storage for an n-bit state value.
+      <br/>
+      In this case the D input would represent inputs D1 to Dn, and the Q output would represent outputs Q1 to Qn.
+    </p>
+    <p num="27">
+      The state machine of circuit 200 thus operates such that the logic gates receive both the Q output from state register 204 as well as the input signals 206 applied to the circuit.
+      <br/>
+      The logic gates 202 then generate a new set of D inputs to state register 204 as well as a new set of logic outputs 208.
+      <br/>
+      The output state of state machine 200 can therefore be represented as a function of the current state (from the Q output of register 204) and input signals.
+      <br/>
+      This relationship can be represented functionally by the equation:
+      <br/>
+      Next State=.function.�Current State, Inputs�
+    </p>
+    <p num="28">where .function. is a function which depends on the combinational logic within logic gate block 202.</p>
+    <p num="29">
+      Because sequential circuits, such as state machine 200 constitute a general form of digital logic, many logic circuits can be modeled as a collection of state machines.
+      <br/>
+      Because state machines may possess states which cannot be reached or should be excluded, accurate analysis of each state machine is important for effective synthesis and simulation of complex digital circuits.
+    </p>
+    <p num="30">
+      An embodiment of the present invention is intended for use with hardware description language design synthesis software, although the invention is not limited to such use.
+      <br/>
+      A method of the present invention automatically identifies and extracts state machines within a circuit and creates netlists of the state machines.
+      <br/>
+      This process facilitates the analysis and optimization of the sequential logic circuits which make up these state machines, after they have been automatically extracted.
+      <br/>
+      FIG. 3 is a flowchart which illustrates a method of extracting state machines within a digital circuit, according to one embodiment of the present invention.
+      <br/>
+      It will be appreciated that the method of FIG. 3 is part of a larger process of logic synthesis, such as the process shown in FIG. 1B. Thus, FIG. 3 typically begins after step 133 of FIG. 1B. That is, step 302 of FIG. 3 uses the synthesized RTL netlist description from step 133.
+      <br/>
+      In one embodiment of the invention, the user of the logic synthesis process of FIG. 1B may be presented with an option of enabling or disabling the automatic extraction of state machines.
+      <br/>
+      If the automatic extraction process is disabled then the system does not use the method of FIG. 3, and logic synthesis follows the process of FIG. 1B. If automatic extraction is enabled, then the process of FIG. 3 begins after step 133 of FIG. 1B.
+    </p>
+    <p num="31">
+      In step 302, the entire circuit to be analyzed or modeled is filtered to determine which registers are likely to be part of state machine circuits.
+      <br/>
+      This step serves to remove extraneous circuitry such as combinational logic devices which are not coupled to registers and non-state registers (which do not have a feedback path from an output of the register back to an input to the register).
+      <br/>
+      In one embodiment of the present invention, the identification step 302 is performed by identifying those portions of circuitry which possess flip-flops or registers connected to combinational logic through one or more feedback paths.
+      <br/>
+      A circuit consisting of a register and feedback path from the register's output to its input, such as that illustrated in FIG. 2, may usually be correctly identified as a state machine.
+      <br/>
+      A register which stores the current state of a state machine within a state machine is referred to as "state register." Step 302 searches through the RTL netlist description for all registers which have combinational logic in a feedback path of the register.
+      <br/>
+      Each register which has such logic in its feedback path is labeled as a candidate state register.
+      <br/>
+      Registers which do not have feedback paths (from output to input) are considered to be non-state registers.
+      <br/>
+      In one particular embodiment, registers in counters and arithmetic logic are considered to be non-state registers (in order to reduce analysis time for such logic which does not often benefit much from optimization).
+      <br/>
+      Thus, in step 302, non-state registers and those circuit elements which do not appear to be part of state machines are excluded from the circuit to be analyzed.
+    </p>
+    <p num="32">
+      In an alternative embodiment of the present invention the initial identification and filtering step 302 is not required.
+      <br/>
+      Instead, the definition of minimum extraction regions (which is described below as step 304) around each register within a circuit to be analyzed would serve to identify those circuits which are state machines.
+      <br/>
+      This initial identification and processing step 302, however, does remove the additional processing overhead incurred by the definition of minimum extraction regions around each register and subsequent filtering of incorrectly identified registers.
+    </p>
+    <p num="33">
+      In step 304 the actual state machine circuitry associated with each of the state registers identified in step 302 is defined.
+      <br/>
+      The region which corresponds to the minimum group of gates which comprise the state machine is referred to as the "minimum extraction region." In one embodiment of the present invention, the minimum extraction region for a state register is defined by determining all of the devices included within the feedback path of the state register.
+      <br/>
+      A feedback path is defined as the path from the output terminal of a state register to the input terminal of that state register.
+      <br/>
+      Any device between those terminals of the state register will be considered to be in the minimum extraction region.
+      <br/>
+      Thus, any combinational device which both receives one input which is traceable (coupled electrically) back to the state register's output and provides one output which is traceable (coupled electrically) forward to the input of the state register will be considered to be in the feedback path of the state register and will be in the minimum extraction region.
+      <br/>
+      FIG. 4 is a block diagram which illustrates the minimum extraction region of circuit 400 which includes a state machine.
+      <br/>
+      Circuit 400 consists of D flip-flop register 402 and several logic devices 404, 406, 408, 410, 412, 414, 416, 418, and 420 .
+      <br/>
+      An input signal is input to register 402 and logic device 412.
+      <br/>
+      The output of bit "1" and of bit "0" from register 402 is input respectively to devices 404 and 406, which, in turn, propagate the signal to devices 408 and 410.
+      <br/>
+      The output from device 408 is fed back to the "0" bit input (least significant bit) of register 402.
+      <br/>
+      Circuit 400 provides two output paths.
+      <br/>
+      Output 1 originates from device 408 and output 2 originates from device 412.
+      <br/>
+      The "0" bit output from register 402 is fed back to the "1" bit input of the register 402.
+      <br/>
+      The feedback path from the Q output of register 402 to the D input of register 402 defines the minimum extraction region of the state machine within circuit 400.
+      <br/>
+      In circuit 400, the minimum extraction region of the state machine consists of register 402 and devices 404, 406, 408, and 410.
+      <br/>
+      Device 412 is not part of the minimum extraction region of the state machine since output 2 is not connected back to register 402.
+      <br/>
+      That is, device 412 is not within the feedback path for register 402 since none of its outputs are coupled to the input of the state register 402.
+      <br/>
+      Devices 414, 416, 418, and 420 are also not part of the minimum extraction region of the state machine of circuit 400.
+      <br/>
+      Device 414 is not part of the minimum extraction region because none of its inputs are coupled to the output of the register 402.
+      <br/>
+      Similarly, device 416 is not part of this region.
+      <br/>
+      Device 418 is not part of this region because none of its outputs are coupled back to the input of the register 402.
+      <br/>
+      The input of inverter 420 is not coupled to an output of the register 402, and thus inverter 420 is not part of this region.
+    </p>
+    <p num="34">
+      After the minimum extraction region for each state machine has been defined, each of these regions is extended for further analysis.
+      <br/>
+      This is shown in step 305 of FIG. 3.
+      <br/>
+      This extension serves to determine all the necessary inputs to the state machine without also including signals which are in fact not inputs which effect the state machine.
+      <br/>
+      In one embodiment of the present invention the minimum extraction region is extended by applying a cutting algorithm to the circuit.
+      <br/>
+      The cutting algorithm is a well known algorithm which is referred to as a minimum cut (or cutting) algorithm.
+      <br/>
+      This algorithm determines all of the valid input combinations to the state machine and minimizes invalid input combinations.
+      <br/>
+      Invalid input combinations are those inputs which create input states which cannot logically exist within the state machine, e.g., input=0 and input bar=0 at the same time.
+    </p>
+    <p num="35">
+      The extension of the minimum extraction region for the state machine of FIG. 4 will attempt to determine the valid input combinations and to disregard the invalid input combinations.
+      <br/>
+      It can be seen from FIG. 4 that the valid input combinations to this state machine are determined by IN2, IN3 and IN4, and associated logic, and inputs IN5 and IN1 do not effect the next state of the state machine of FIG. 4.
+      <br/>
+      The extension of the minimum extraction region selects candidate signals and logic outside of the minimum extraction region in order to minimize the invalid input combinations.
+    </p>
+    <p num="36">
+      The minimum cutting algorithm searches the combinational logic feeding the inputs to the logic in the minimum extraction region in order to find the proper inputs and associated logic for the state machine.
+      <br/>
+      Typically this involves tracing the signal paths from the inputs to the logic in the minimum extraction region back to inputs within the entire circuit.
+      <br/>
+      As the signal paths are traced, the associated logic in the path is determined.
+      <br/>
+      Thus, as shown in FIG. 4, the inputs to the logic in the minimum extraction region are traced back to the outputs from devices 414 and 416, and their corresponding inputs which are inputs IN2, IN3, and IN4.
+      <br/>
+      Tracing back further reveals inverter 420.
+    </p>
+    <p num="37">
+      One technique for applying the minimum cutting algorithm is to determine the number of signals entering the logic in the minimum extraction region (e.g. there are 4 signals entering into the minimum extraction region of FIG. 4), and then search back from the inputs to this logic to find a multiple of this number of signals (e.g. 4 times the number of signals entering into the minimum extraction region).
+      <br/>
+      Then the minimum cutting algorithm is applied to this extended region and the number of signals is usually reduced to the actual inputs which effect the state machine.
+      <br/>
+      The result of this algorithm is that certain signals are not included as inputs in the valid input combinations.
+      <br/>
+      Thus, an inverter may be recognized by the algorithm as providing a signal which is not to be included as an input in the valid input combinations.
+      <br/>
+      In the case of FIG. 4, the inverter 420 merely inverts the signal IN2 and thus the output from the inverter 420 does not need to be considered separately as one of the possible input signals to the state machine, and the minimum cutting algorithm would not include inverter 420's output because including it would result in a higher value of a "cut."
+    </p>
+    <p num="38">
+      In an alternative embodiment of the present invention, the cutting algorithm assigns weights to each of the input signals and determines which input signals are valid by applying a weighted product relationship to these input signals.
+      <br/>
+      For example, user named input signals are assigned one weight value (a first value) which is lower than other signals (which are not named by the user), inputs for vector signals are assigned a second value, and unnamed signals and non-vector (non-grouped) signals are assigned a third value.
+      <br/>
+      Typically, the second value is lower than the third value; the first value may be the same as or lower than the second value.
+      <br/>
+      A weighted filter technique is then employed to determine which input signals are the proper inputs to the state machine.
+      <br/>
+      Again, the minimum cutting algorithm "cuts" the input signal lines at various places in the circuit (each cut representing a particular group of signals) and selects the group of signals which provide the lowest sum of weighted signals.
+      <br/>
+      The devices within the feedback loop corresponding to the selected input signals are then included within the extended minimum extraction region.
+    </p>
+    <p num="39">
+      In a further alternative embodiment of the present invention, the cutting algorithm derives the minimum transition region by measuring fanout and reconvergence associated with each input signal to a device within the minimum extraction region of a state machine.
+      <br/>
+      Reconvergence occurs in a circuit when a path can be traced back to a single signal from more than one input to the minimum extraction region.
+      <br/>
+      Fanout and reconvergence is the process of propagating a single signal through more than one device to produce multiple signals which then reconverge to a single output signal by a terminal device.
+      <br/>
+      Fanout and reconvergence of an input signal may cause phantom states or phantom transitions or phantom transition conditions (transition conditions which could not occur in the state machine) within the state machine due to the maintenance of various states through the propagation of the input signal through the various devices.
+      <br/>
+      The method according to this embodiment of the present invention identifies the fanout and reconvergence paths of the input signal and includes these circuits within the extended minimum extraction region, thus eliminating the phantom states created by these devices.
+      <br/>
+      That is, the input signal is derived and included within the state machine before it is propagated through the various gates which may cause a fanout and reconvergence effect.
+    </p>
+    <p num="40">
+      In another alternative embodiment, the minimum extraction region may be extended or augmented with information about the correlation of input signals to the minimum extraction region.
+      <br/>
+      This can be done by including Boolean information about the input signal correlation, or by including circuitry generating the input signals that cause the correlation.
+      <br/>
+      For example, the output of a 2-4 decoder could be driving the inputs of the minimum extraction region.
+      <br/>
+      The values of these inputs are correlated because it is known that only one of the signals can be true at one time.
+      <br/>
+      One can encode this correlation in a Boolean expression that must be true which can be used to rule out transitions that only happen when the given expression is false.
+      <br/>
+      Alternatively, one can extend the extraction region to include the circuitry responsible for the correlation.
+    </p>
+    <p num="41">Determining State Machine Symbolic Representation</p>
+    <p num="42">
+      Once the minimum extraction region for a state machine has been identified and extended as described above, the state function for the state machine is determined.
+      <br/>
+      This is shown as step 306 in FIG. 3.
+      <br/>
+      The next state function is determined by converting the interconnected logic devices in the extended extraction region into a Boolean logic representation.
+      <br/>
+      This involves deriving a Boolean logic expression from these logic devices and their associated signal paths.
+      <br/>
+      The inputs to the Boolean logic expression (excluding the state value input) will be those same state machine inputs derived from the process of extending the minimum extraction region, which process was described above.
+      <br/>
+      The state value is also an input to this Boolean logic expression.
+      <br/>
+      A generalized representation of this Boolean logic expression is:
+      <br/>
+      Next State=.function.�State Value, Inputs�
+    </p>
+    <p num="43">
+      Once this expression is created, the process selects, in the manner described below, an initial state value and all permutations of the inputs are applied to the Next State function to determine all possible state values (or states) of the state machine from the initial state value.
+      <br/>
+      In particular, all permutations of the inputs are applied to the Next State function while keeping the state value set at the initial state value.
+      <br/>
+      This produces a set of next state values from the initial state value.
+      <br/>
+      Next, all permutations of the inputs are applied to the Next State function for each state value in the current set of next state values, and this process produces further state values (if any) which are added into the set of next state values.
+      <br/>
+      This process continues until no further state values are produced.
+      <br/>
+      The result is a complete list of all possible states.
+    </p>
+    <p num="44">
+      For one embodiment of the present invention, if the state machine has an asynchronous reset state (e.g. the RTL netlist specifies a reset signal and a value for the resetted state), then this state defines the initial state for the state machine in the region of the circuit.
+      <br/>
+      If there is no asynchronous reset signal and no other reset condition such as a common state can be found, then the region will not be extracted and no further attempt is made to extract and/or analyze state machine in this region.
+      <br/>
+      The determination of all possible states of the state machine is used to determine a common state of the state machine if no asynchronous reset signal can be found.
+      <br/>
+      A common state is one which the state machine reaches regardless of the value of the current state.
+      <br/>
+      If such a common state exists, this state is considered the initial state and corresponds to a synchronous reset state.
+      <br/>
+      A specific embodiment for determining a synchronous reset state will now be provided.
+    </p>
+    <p num="45">
+      The method to determine a synchronous reset state uses two standard Boolean function operators known as "Consensus" and "Smooth," and these operators are referred to in the literature concerning finite state machine traversal.
+      <br/>
+      This literature describes the method for determining all possible states (and associated inputs) given an initial state for a state machine.
+      <br/>
+      Consensus and Smooth are two functional operators that are commonly used when manipulating sets which are represented implicitly.
+    </p>
+    <p num="46">
+      One can represent a set as a function that returns a Boolean value of true or false when applied to a candidate member of the set.
+      <br/>
+      For example, one could have a function "is_even" that can test integers to see if they are divisible by 2.
+      <br/>
+      This function then implicitly defines the set of even numbers as opposed to an explicit list of members, which is impossible for infinite sets and impractical for very large sets.
+    </p>
+    <p num="47">
+      Suppose there are a set of pairs of values (a, b) where a is a member of A-Set and b is a member of B-set.
+      <br/>
+      This set can be defined in terms of a membership function M(a, b) that returns true when the pair (a, b) is in the set and false when (a, b) is not in the set.
+    </p>
+    <p num="48">
+      One operation on the membership function M(a, b) that one may want to perform is to determine which values of a make M(a, b) true no matter what the value of b is.
+      <br/>
+      This operation is:
+      <br/>
+      F(a)=Consensus (M(a,b),b)
+    </p>
+    <p num="49">
+      Another operation on the membership function M(a, b) that one may want to perform is to determine the values of a for which there exists a value for b such that M(a, b) is true.
+      <br/>
+      This operation is:
+      <br/>
+      S(a)=Smooth (M(a,b),b)
+    </p>
+    <p num="50">Both of these operations have efficient implementations when a and b are represented as Boolean vectors and M is represented as a Bdd (Binary Decision Diagram).</p>
+    <p num="51">
+      A synchronous reset state may then be determined by calculating an implicit next state function ("INS"):
+      <br/>
+      INS (S',S,I).NS(S,I)
+    </p>
+    <p num="52">
+      In this expression, NS represents the next state function (which was determined from the extended minimum extraction region), S represents state value, S' represents a next state, and I represents the inputs.
+      <br/>
+      The Consensus operator is then used to find conditions for all possible current states where the inputs control the next state independent of the current state.
+      <br/>
+      This removes references to the current state from INS, thereby producing a function designated as R(S', I).
+      <br/>
+      In particular,
+      <br/>
+      R(S',I)=Consensus (INS(S',S,I),S)
+    </p>
+    <p num="53">
+      Then, a function Q (S') which does not depend upon the inputs is provided by:
+      <br/>
+      Q(S')=Smooth (R(S',I),I)
+    </p>
+    <p num="54">This method efficiently provides an initial state in the case where the initial state is a synchronous reset state.</p>
+    <p num="55">
+      After determining an initial state, such as a synchronous reset state (or using the discovered asynchronous reset state if the state machine uses an asynchronous reset which can be determined), the conventional finite state machine (FSM) traversal may be applied to produce a listing of all reachable states.
+      <br/>
+      In one embodiment, this traversal may be performed in the manner described by the following pseudocode:
+    </p>
+    <p num="56">
+      --
+      <br/>
+      --         genreach = Smooth (INS(S', S, I),I);
+      <br/>
+      --         lastreachset = empty;
+      <br/>
+      --         reachset = initialset;
+      <br/>
+      --         while (reachset �= lastreachset) +
+      <br/>
+      --             lastreachset = reachset;
+      <br/>
+      --             r = genreach &amp; reachset;
+      <br/>
+      --             r = Smooth (r, S);
+      <br/>
+      --             r = Map S' to S (r); /* relabel S' vars to S vars/
+      <br/>
+      --             reachset = r .vertline. reachset; /* add in new states */
+      <br/>
+      --         }
+    </p>
+    <p num="57">Other descriptions of FSM traversal may be found in the literature, including, for example, Logic Synthesis and Verification Algorithms, by Gary Hachtel and Fabio Somenzi (Klauwer Academic Publishing, 1996).</p>
+    <p num="58">
+      Once all possible states of a state machine have been determined, a symbolic representation of the state machine is created.
+      <br/>
+      This is illustrated as step 308 in FIG. 3.
+      <br/>
+      For one embodiment of the present invention, a symbolic representation of the state machine may be represented as a state table which relates the next state produced by a combination of a present state and given input values.
+      <br/>
+      For such a table, one column presents the possible input values to the state machine, a second column presents the possible current state values, and a third column presents the next state produced by a given current state and set of input values.
+      <br/>
+      Alternatively, the symbolic representation could be provided in the form of a state diagram or a similar graphic representation.
+    </p>
+    <p num="59">
+      An example of a resulting state diagram (shown in FIG. 5B) will be briefly described in conjunction with the state machine shown in FIG. 5A. Circuit 500 includes a state register 502 and several combinational logic gates 504, 506, 508, and 510.
+      <br/>
+      In circuit 500, an enable signal is input to an inverter 504 and an AND gate 506.
+      <br/>
+      The output from AND gate 506 is input to the 2-bit D input of state register 502.
+      <br/>
+      The 2-bit output from state register 502 forms the output signal from circuit 500.
+      <br/>
+      This output signal, having a first bit "�0�" and a second bit "�1�", is also fed back.
+      <br/>
+      The first bit "�0�" may be considered a least significant bit (LSB) and the second bit "�1�" may be considered a most significant bit (MSB).
+      <br/>
+      The AND gates 506 and 508 each receive as an input the feedback of the LSB from the state register 502, and the OR gate 510 receives feedback of the MSB as an input.
+      <br/>
+      The output of the AND gate 506 is provided on the MSB input to the register 502.
+      <br/>
+      The output from OR gate 510 is connected to the LSB input of state register 502.
+      <br/>
+      The asynchronous reset signal resets the state value in the state register to "01" when the reset signal is asserted.
+      <br/>
+      The feedback path from the output of state register 502 to the input of state register 502 defines the minimum extraction region for circuit 500.
+      <br/>
+      The minimum extraction region associated with state register 502 is enclosed within a dashed line and denoted circuit 501.
+      <br/>
+      Inverter 504 is not included within the minimum extraction region 501 since the feedback loop from the output from state register 502 does not pass through the input of this device.
+    </p>
+    <p num="60">
+      FIG. 5B is a state diagram which illustrates the states and state transitions produced by circuit 500 of FIG. 5A. Circuit 500 represents a two-state machine based upon the input value of the enable signal.
+      <br/>
+      State SO in FIG. 5B has a state value of "01" and represents the state when the enable signal is at a logic low ("0"), and state SI has a state value of "10" and represents the state when the enable signal is at a logic high ("1").
+    </p>
+    <p num="61">
+      At step 308, the present invention may, in one embodiment, optimize and debug the state machine using the symbolic representation produced by step 308.
+      <br/>
+      This optimization and debugging may include removing unreachable states and merging equivalent states.
+      <br/>
+      The optimization and debugging of a state machine from a symbolic representation is well known in the art.
+      <br/>
+      After the optional optimization and debugging, the optimized symbolic representation of the state machine is used to recompile the state machine into a compiled HDL design.
+      <br/>
+      If no optimization and/or debugging is performed, then the symbolic representation may be used to recompile the state machine into a compiled HDL design.
+    </p>
+    <p num="62">
+      In one embodiment, a method of the present invention is used in conjunction with a HDL synthesis program which converts HDL designs into device netlists for a target architecture.
+      <br/>
+      For this embodiment, the state machines identified by the methods described above may be recompiled into target libraries for use with the synthesis program.
+      <br/>
+      This is illustrated as step 310 in FIG. 3.
+      <br/>
+      The automatic state machine identification program is provided as a symbolic finite state machine compiler which optimizes, and re-encodes the identified finite state machines within a circuit design, and displays a report which illustrates the set of reachable states for each state machine.
+      <br/>
+      The errors reported for unreachable states provide an effective tool for debugging complex logic designs.
+      <br/>
+      Step 310 is typically performed with or as part of step 137 of FIG. 1B.
+    </p>
+    <p num="63">
+      An alternative embodiment of the present invention allows the user to specify a particular register as being a state register (or specify a portion of a circuit containing a register which is a state register).
+      <br/>
+      In this alternative embodiment, the present invention processes the circuitry associated with the identified register in the manner described above rather than processing the entire circuit described by the HDL code.
+    </p>
+    <p num="64">Programming Example</p>
+    <p num="65">
+      In one embodiment of the present invention, the state machine extractor is used with a circuit design and synthesis Computer Aided Design (CAD) program which is implemented as a C program.
+      <br/>
+      This program is stored in a computer readable storage medium which may be a CD-ROM or a magnetic hard disk or an optical disk or any of the various alternative storage devices.
+    </p>
+    <p num="66">
+      The steps of a method of the present invention may be implemented by a central processing unit (CPU) in a computer executing sequences of computer program instructions stored in a memory which may be considered to be a computer readable storage medium.
+      <br/>
+      The memory may be a random access memory (RAM), read-only memory (ROM), a persistent store, such as a mass storage device, or any combination of these devices.
+      <br/>
+      Execution of the sequences of instructions causes the CPU to perform steps according to the present invention.
+      <br/>
+      The instructions may be loaded into the memory of the computer from a storage device or from one or more other computer systems over a network connection.
+      <br/>
+      The instructions may be stored concurrently in several storage devices (e.g. DRAM and hard disk, as virtual memory).
+      <br/>
+      Consequently, execution of the instructions may be performed directly by the CPU.
+      <br/>
+      In other cases, the instructions may not be directly executable by the CPU.
+      <br/>
+      Under these circumstances, the instructions may be executed by causing the CPU to execute an interpreter that interprets the instructions, or by causing the CPU to execute instructions which convert the received instructions to instructions which can be directly executed by the CPU.
+      <br/>
+      In other embodiments, hardwired circuitry may be used in place of, or in combination with, software instructions to implement the present invention.
+      <br/>
+      Thus, the present invention is not limited to any specific combination of hardware circuitry and software, nor to any particular source for the instructions executed by the computer.
+    </p>
+    <p num="67">
+      In the foregoing, a system has been described for identifying and extracting state machines from a complex digital circuit design.
+      <br/>
+      Although the present invention has been described with reference to specific exemplary embodiments, it will be evident that various modifications and changes may be made to these embodiments without departing from the broader spirit and scope of the invention as set forth in the claims.
+      <br/>
+      Accordingly, the specification and drawings are to be regarded in an illustrative rather than a restrictive sense.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of identifying a finite state machine within a circuit, the method comprising:</claim-text>
+      <claim-text>compiling a description of a circuit, which is described in a hardware description language (HDL), to create a circuit representation; automatically defining an extraction circuit region from said circuit representation in order to identify said finite state machine, said extraction circuit region comprising a register of a first register type having associated therewith a feedback path, and one or more logic devices included within the feedback path associated with said register;</claim-text>
+      <claim-text>and determining a next state function for said finite state machine which is included within said extraction circuit region, said next state function being derived by determining a next state from a current state and a set of input signals.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A method as in claim 1 further comprising creating a symbolic representation of said next state function for said finite state machine.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method as in claim 2 further comprising analyzing said symbolic representation.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A method as in claim 3 wherein said symbolic representation is analyzed to optimize said finite state machine.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A method as in claim 3 wherein said symbolic representation is analyzed to debug said finite state machine.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method as in claim 3 further comprising recompiling said state machine from said symbolic representation.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A method as in claim 6 wherein said state machine is recompiled into a target architecture.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method as in claim 6 further comprising identifying one or more registers of said first register type prior to said automatically defining step and wherein said automatically defining is performed for only those regions in said circuit which are coupled to a register of said first register type.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method as in claim 1 wherein said extraction circuit region is augmented to minimize invalid input combinations of said state machine.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A computer readable medium having stored thereon sequences of instructions which are executable by a digital processing system, and which, when executed by the digital processing system, cause the system to perform a method comprising: compiling a description of a circuit, which is described in a hardware description language (HDL), to create a circuit representation; automatically defining an extraction circuit region from said circuit representation in order to identify a finite state machine, said extraction circuit region comprising a register of a first register type having associated therewith a feedback path, and one or more logic devices included within the feedback path associated with said register;</claim-text>
+      <claim-text>and determining a next state function for said finite state machine which includes said register, said next state function being derived by determining a next state from a current state and a set of input signals.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A computer readable medium as in claim 10 wherein said method further comprises: creating a symbolic representation of said next state function for said finite state machine.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A computer readable medium as in claim 11 wherein said symbolic representation is analyzed to optimize said finite state machine.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A computer readable medium as in claim 11 wherein said symbolic representation is analyzed to debug said finite state machine.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A computer readable medium as in claim 11, said method further comprising recompiling said state machine from said symbolic representation.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A computer readable medium as in claim 14 wherein said state machine is recompiled into a target architecture.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A computer readable medium as in claim 14, said method further comprising identifying one or more registers of said first register type prior to said automatically defining said first circuit region and wherein said automatically defining said first circuit region is performed for only those regions in said circuit which are coupled to a register of said first register type.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A computer readable medium as in claim 10 wherein said method further comprises augmenting said extraction circuit region to minimize invalid input combinations of said state machine.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A computer system comprising: a bus; a data storage device coupled to said bus;</claim-text>
+      <claim-text>and a processor coupled to said data storage device, said processor operable to receive instructions which, when executed by the processor, cause the processor to perform a method comprising:</claim-text>
+      <claim-text>- compiling a description of a circuit, which is described in a hardware description language (HDL), to create a circuit representation; - automatically defining an extraction circuit region including a register from said circuit representation in order to identify a finite state machine, said register having associated therewith a feedback path, said extraction circuit region comprising said register, and one or more logic devices included within said feedback path;</claim-text>
+      <claim-text>and - determining a next state function for said finite state machine which includes said register, said next state function being derived by determining a next state from a current state and a set of input signals.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A computer system as in claim 18 wherein said method further comprises creating a symbolic representation of said next state function for said finite state machine.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A computer system as in claim 19 wherein said method further comprises analyzing said symbolic representation.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A computer system as in claim 20 wherein said symbolic representation is analyzed to optimize said finite state machine.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. A computer system as in claim 20 wherein said symbolic representation is analyzed to debug said finite state machine.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. A computer system as in claim 19 wherein said state machine is recompiled from said symbolic representation.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. A computer system as in claim 19 wherein said state machine is recompiled into a target architecture.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. A computer implemented method of determining a reset state of a finite state machine, the method comprising: determining whether an asynchronous reset state of said finite state machine (FSM) exists or whether a synchronous reset state for said FSM exists wherein said FSM has more than two states and more than one output and wherein, if said FSM does not have said asynchronous reset state, said method comprises: - determining a next state function for said FSM; - determining a common state based on said next state function for said FSM, wherein said common state is a state of said FSM which said FSM reaches regardless of a current state of said FSM.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. A computer implemented method as in claim 25, said method further comprising: compiling a description of a circuit, which is described in a hardware description language (HDL), to create a circuit representation; automatically defining an extraction circuit region from said circuit representation in order to identify said finite state machine, said extraction circuit region comprising a register of a first register type having associated therewith a feedback path, and one or more logic devices included within the feedback path associated with said register;</claim-text>
+      <claim-text>and wherein said FSM includes said register, said next state function being derived by determining a next state from a current state and a set of input signals, and wherein said synchronous reset state and said next state function are used to create a symbolic representation of said next state function.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

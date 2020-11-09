@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185733B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185733</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185733</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21737688" extended-family-id="42113849">
+      <document-id>
+        <country>US</country>
+        <doc-number>09009444</doc-number>
+        <kind>A</kind>
+        <date>19980120</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09009444</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172234</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>944498</doc-number>
+        <kind>A</kind>
+        <date>19980120</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09009444</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <term-of-grant>
+      <disclaimer/>
+    </term-of-grant>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/445       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>445</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>717163000</text>
+        <class>717</class>
+        <subclass>163000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>717167000</text>
+        <class>717</class>
+        <subclass>167000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>719331000</text>
+        <class>719</class>
+        <subclass>331000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-009/445L</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>009</main-group>
+        <subgroup>445L</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/44521</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>44521</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>22</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>10</number-of-drawing-sheets>
+      <number-of-figures>17</number-of-figures>
+      <image-key data-format="questel">US6185733</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for remote object code inclusion</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>SAADE HENRY Y, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4567574</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4567574</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>LITTLETON JAMES G</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5247678</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5247678</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TAKI HIROKO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5303376</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5303376</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>ISHIZUKA AKIKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313635</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313635</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>FLUG CHRISTIAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5381547</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5381547</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>HANATSUKA MITSUHIRO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5394546</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5394546</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>PALAY ANDREW J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5613120</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5613120</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>UNNI SHANKAR, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5692196</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5692196</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>FOLEY JILL PAULA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5706502</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5706502</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>ARENDT JAMES WENDELL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5708811</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5708811</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>BLUMER THOMAS P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5732219</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5732219</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>SONDEREGGER KELLY ERVIN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5761499</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5761499</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>VAN HOFF ARTHUR A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5778231</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5778231</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="14">
+          <text>NISHIDA MUNECHIKA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5867707</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5867707</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="15">
+          <text>HO W WILSON, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5923882</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5923882</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>JOHNSON HERRICK J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5023907</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5023907</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>WU JEFF C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5185860</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5185860</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>WYMAN ROBERT M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5204897</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5204897</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>LUBKIN DAVID C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5339435</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5339435</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>ATTANASIO CLEMENT R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5371852</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5371852</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>CHRISTIANO MATTHEW</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5386369</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5386369</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>NARAYAN ROM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5418957</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5418957</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>SINHA PRADEEP K</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5437029</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5437029</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>BARRITZ ROBERT</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5499340</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5499340</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>CROSS CHARLES W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5517635</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5517635</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Phelps et al., "Towards Active, Extensible, Networked Documents: Multivalent Architecture and Applications", DL '96, ACM, 1996, pp100-108.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>"IBM VSE/ESA System Control Statements'" Version 2 Release 1, IBM, 1995, pp. 1, 251-262.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>IBM C Set ++ for AIX Reference Summary-Version 3 Release 1 SX09-1300-01-Second Edition (Aug. 1995).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>IBM VSE/Enterprise Systems Architecture-VSE/Central Functions Linkage Editor Diagnosis Reference, Version 6 Release 1-First Edition (Apr. 1995) LY33-9169-00.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>IBM/VSE Enterprise Systems Architecture-System Control Statements-Version 2, Release 1-First Edition (Apr. 1995)-SC33-6613-00.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>IBM TDB-vol. 29, No. 8, Jan. 1997-"Execution-Time Loading . . . Stubs" M.R. Beghtel et al-p. 3521.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>IBM TDB-vol. 33, No. 6B, Nov. 1990-Tracing The Exported Entry Points In An OS/2 Dynamic Link Library-R.C. Weeks-pp. 140-141.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>IBM TDB-vol. 33, No. 7, Dec. 1990-Tracing the Undocumented Exported Entry Points In An OS/2 . . . Library-R.C. Weeks-pp. 273-274.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="9">
+          <text>IBM TDB-vol. 34, No. 1, Jun. 1991-Alternate Image DLL Specification And Display In Office Vision/2-Bell et al-pp. 1-2.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="10">
+          <text>IBM TDB-vol. 34, No. 4B, Sep. 1991-Loading DLLs by ID Rather than By Name-Cox et al-p. 19.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="11">
+          <text>IBM TDB-vol. 34, No. 6, Nov. 1991-Dynamic Link Library Mechanism In DOS Environment-Johnson et al-pp. 209-210.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="12">
+          <text>IBM TDB-vol. 35, No. 2, Jul. 1992-Using a Universal QIC-122 CODEC For Dynamic Linking of Ojbect Code-Medan-pp. 54-55.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="13">
+          <text>IBM TDB-vol. 35, No. 7, Dec. 1992-Method and Mechanism For Dynamic Loader-Chan et al-pp. 8-13.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="14">
+          <text>IBM TDB-vol. 36, No. 6A, Jun. 1993-Transparent Dynamic Link Library Interface-Lennon et al-p. 195.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="15">
+          <text>IBM TDB-vol. 36, No. 10, Oct. 1993 -Transparently Separating Functions from a . . . Library-Corn et al-pp. 475-476.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="16">
+          <text>IBM TDB-vol. 37, No. 2B, Feb. 1994-Dynamic Link Library for Recognizing Multiplexed Keystrokes-Marik et al-pp. 483-484.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="17">
+          <text>IBM TDB-vol. 37, No. 3, Mar. 1994-Execution Trace Analysis of OS/2 2 .DLLs Using an Intercept Layer-Christensen et al-pp. 373-375.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="18">
+          <text>IBM TDB-vol. 37, No. 4B -Apr. 1994-Dynamic Link Library Merge Utility Dobbelstein et al-pp. 129-134.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="19">
+          <text>IBM TDB-vol. 37, No. 6B-Jun. 1994-Support for Dynamic Config of Link Support . . . UNIX-Baker, pp. 31-32.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="20">
+          <text>IBM TDB-vol. 37, No. 12-Dec. 1994-Inter-Program Binding-Hicks et al-pp. 415-420.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="21">
+          <text>IBM TDB-vol. 39, No. 1-Jan. 1996-Dynamic Interception Of Imported Procedure Calls-Blaschke-pp. 197-201.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="22">
+          <text>IBM TDB-vol. 39, No. 4-Apr. 1996-Efficient Method for Implementing Pre-Compiled Headers for C and C ++-Brolley et al-pp. 165-170.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Breslau, Franklin C.</name>
+            <address>
+              <address-1>Teaneck, NJ, US</address-1>
+              <city>Teaneck</city>
+              <state>NJ</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Greenstein, Paul G.</name>
+            <address>
+              <address-1>Croton-on-Hudson, NY, US</address-1>
+              <city>Croton-on-Hudson</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Rodell, John T.</name>
+            <address>
+              <address-1>Poughkeepsie, NY, US</address-1>
+              <city>Poughkeepsie</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Kinnaman, Jr., William A.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Chaki, Kakali</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus for operating a computer linkage editor to process include statements contained in an input stream that specify object modules resident at non-connected network locations.
+      <br/>
+      The linkage editor also receives as input library definition statements specifying object module libraries.
+      <br/>
+      The linkage editor initially examines each library definition statement to determine whether it specifies an object module library resident at a non-connected network location.
+      <br/>
+      If it does, the linkage editor establishes a connection with the network location and obtains a list of the contents of the object module library via the connection.
+      <br/>
+      The linkage editor then examines each include statement to determine whether it specifies an object module resident at a non-connected network location.
+      <br/>
+      If it does, the linkage editor establishes a connection with the network location and obtains the object module via the connection.
+      <br/>
+      The retrieved object module is then edited along with other object modules into an executable load module.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS-REFERENCE TO RELATED APPLICATION</heading>
+    <p num="1">
+      This application is related to the commonly owned, concurrently filed application of the same inventors, Ser.
+      <br/>
+      No. 09/009,293, entitled "METHOD AND APPARATUS FOR REMOTE SOURCE CODE INCLUSION", incorporated herein by reference.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="3">This invention is related to computer linkage editor programs and particularly to object module library search processing.</p>
+    <p num="4">2. Description of the Related Art</p>
+    <p num="5">
+      Computer linkage editors are well known in the art.
+      <br/>
+      Basically, a computer linkage editor is a computer program for creating load modules from one or more object modules by resolving cross references among the modules and, if necessary, adjusting addresses.
+      <br/>
+      See, for example, the IBM publication VSE/Central Functions, Linkage Editor, Diagnostic Reference, IBM publication number LY33-9169, incorporated herein by reference, and a related IBM publication System Control Statements, IBM publication number SC33-6613, incorporated herein by reference.
+    </p>
+    <p num="6">
+      An input stream to a linkage editor may contain one or more control statements known as include statements.
+      <br/>
+      Each include statement directs the linkage editor preprocessor to replace the statement with the contents of a specified object module.
+      <br/>
+      Normally, object modules referenced by include statements are contained in the input stream or reside in libraries contained in specified subdirectories.
+      <br/>
+      An include statement may explicitly specify the library containing an object module by specifying a drive and path location.
+      <br/>
+      Otherwise, object module libraries are specified by control statements that are known as library definition statements.
+      <br/>
+      A library definition statement is a control statement for specifying which program library or libraries to search for object modules specified in include statements.
+      <br/>
+      Library definition statements function in a manner similar to PATH statements in DOS and its derivatives to specify a search path for locating files (in this case, include files).
+    </p>
+    <p num="7">
+      Conventionally, when linking object modules to form a load module, the library or libraries containing the object modules to be included must be resident on either a local drive or a connected network drive.
+      <br/>
+      Here a "connected network" means a local area network (LAN) or other network in which LAN server or other disk drives can be accessed as if they were locally connected to each client system on the LAN.
+      <br/>
+      In an OS/2.RTM., Windows.RTM., or DOS environment, the LAN server disk drives would be referred to by a drive letter such as W: or Z:. In a UNIX.RTM.-based system, access to remote files is accomplished via a network file system (NFS) and is limited to disk drives attached to systems comprising the LAN.
+      <br/>
+      In both the above cases, a linkage editor accesses the accessible disks as if they were locally attached.
+    </p>
+    <p num="8">
+      As a result of this local access requirement for object module libraries, two sets of expenses are incurred.
+      <br/>
+      First, software producers pay media and distribution costs for the (sometimes rather substantial) amounts of data written on disks or CD-ROMs that are used for product distribution.
+      <br/>
+      Second, users have to allocate substantial amounts of space on their personal computers to store the object libraries distributed with compilers, linkage editors and product application program interfaces (APIs).
+    </p>
+    <p num="9">With the introduction of thin clients (cost-reduced computers having small amounts of memory and disk space that rely on a network to store most of their data), the ability to include remotely resident object modules becomes imperative.</p>
+    <p num="10">
+      Another reason for the present invention is related to the practice of team software development.
+      <br/>
+      During development of software, programmers within a development team are conventionally given access to the same local area network (LAN) so that they can easily share their data.
+      <br/>
+      This practice is based on the paradigm ascribing most or all of the programmers in a team to a single company developing code.
+    </p>
+    <p num="11">
+      With the widespread acceptance of Internet and the emergence of virtual enterprises, this static-team paradigm is being replaced with a dynamic, widely dispersed team of programmers, cooperating on a development project across vast distances, time zones, continents, etc., making it impossible to place all of the software developers on a single LAN.
+      <br/>
+      It is often necessary for a team of programmers to be able to access the same set of object libraries, but which, because of the distances involved, cannot be made available on any single LAN as a single instance.
+    </p>
+    <p num="12">
+      A number of products (e.g., IBM TeamConnection) exist for software version management and group development; however, they either provide programmers with access to shared data within a LAN, or replicate data among LANs or single nodes.
+      <br/>
+      Some way to access source libraries via a direct Internet access is what is required.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="13">Existing linkage editors do not automatically access a non-connected network destination (for example, an arbitrary Internet location outside of a local area network) that contains object libraries, therefore, to allow the specification of either a Transmission Control Protocol/Internet Protocol (TCP/IP) address or name (to be resolved via a name server or local TCP/IP name resolution file), or a World Wide Web (WWW) Uniform Resource Locator (URL) of a non-connected system that contains the libraries required to properly create the load module under construction.</p>
+    <p num="14">
+      When the linkage editor encounters such a remote address specification, it calls a program which attempts to make the remote connection.
+      <br/>
+      If the remote connection is made, the object library specified is accessed an appropriate protocol.
+      <br/>
+      These remote addresses are specified to the linkage editor via a linker option, just as it is done for local include paths currently.
+    </p>
+    <p num="15">The present invention provides for a library definition file that contains a user ID/password, along with any other required parameters that may need to be specified, so that in the case of a protocol that has more complex access requirements, for example, the File Transfer Protocol (FTP), the linkage editor will know how to login and get the object modules it needs to include.</p>
+    <p num="16">The present invention provides in a library definition file any information that may be necessary in case the remote library charges a fee for supplying remote object modules, such as an account number to be charged.</p>
+    <p num="17">Then, the retrieved object module is used for linking the object code to create the load module.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="18">
+      FIG. 1 shows schematically an overview of the preferred embodiment and particularly shows a first computer system executing a linkage editor that has access to a second computer system via a communications network.
+      <br/>
+      FIG. 2 shows representative linkage editor library definition statements used in a preferred embodiment.
+      <br/>
+      FIG. 3 shows schematically an overview of a linkage editor, comprising an include-option preprocessor that has a remote-include capability.
+      <br/>
+      FIG. 4 shows schematically a flow chart of a preferred embodiment of a linkage editor preprocessor having a remote-include capability.
+      <br/>
+      FIGS. 5A-5D show the steps in a preferred embodiment for processing remote libraries for retrieving object modules for inclusion in a load module.
+      <br/>
+      FIG. 6 shows a library definition file.
+      <br/>
+      FIG. 7 shows a library contents file.
+      <br/>
+      FIG. 8 shows usage metering performed by a remote include-file server executing in a second computer system.
+      <br/>
+      FIG. 9 shows a user table.
+      <br/>
+      FIG. 10 shows the search library list.
+      <br/>
+      FIG. 11 shows the temporary library (TEMPLIB1) for FTP access.
+      <br/>
+      FIG. 12 shows the temporary library (TEMPLIB2) for HTTP access.
+      <br/>
+      FIG. 13 shows the object module file list.
+      <br/>
+      FIG. 14 shows a search library.
+    </p>
+    <heading>DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="19">
+      FIG. 1 shows a preferred embodiment of the present invention in a client/server configuration.
+      <br/>
+      The configuration comprises two computer systems, a client system 100 (SYSTEM 1) and a server system 110 (SYSTEM 2), connected by means of a communications network 107.
+      <br/>
+      Client system 100 includes a central electronics complex (CEC) 101, while server system 110 includes a similar central electronics complex 111.
+      <br/>
+      Communications network 107 may be implemented using any suitable configuration or protocols; it may be a LAN or a wide-area network (WAN), or the Internet at large.
+      <br/>
+      In a preferred embodiment, the communications network 107 is the Internet, supporting TCP/IP communications.
+    </p>
+    <p num="20">
+      Linkage editing takes place on client system 100 in a linkage editor 103 that is started by a programmer on that system.
+      <br/>
+      Input to the linkage editor 103 comes from an input device 104 (SYSLNK) and consists of the linkage editor statements and object modules to be linked.
+    </p>
+    <p num="21">
+      Referring to FIG. 4, linkage editor 103 comprises (either integrally or as separate components) an include statement preprocessor 401, local and remote object module library searchers 402 and 403, and a load module builder 404.
+      <br/>
+      Linkage editor 103 reads in input records 104 and generates a load module 405 as an output.
+    </p>
+    <p num="22">
+      Referring to FIG. 2, the input records 104 to the linkage editor 103 comprise control statements 201 and object modules 202 produced by language translators such as assemblers or compilers (not shown).
+      <br/>
+      Each object module 202 in turn consists of dictionaries 205, including external symbol dictionaries (ESDs) and relocation list dictionaries (RLDs), and text 206 that, in the embodiment shown, consists of executable instructions and data fields in the form of control sections (CSECTs).
+      <br/>
+      Dictionaries 205 contain the information necessary for the linkage editor 103 to resolve references between different modules 202 and to relocate the program.
+    </p>
+    <p num="23">
+      The external symbol dictionary (ESD) contains records of several different types.
+      <br/>
+      An ESD record of particular interest in the present invention is the external reference (ER) record.
+      <br/>
+      An ER record contains the name of a reference in another module, generated in the present embodiment by the assembler instruction EXTRN or a V-type address constant in the source module.
+      <br/>
+      When the linkage editor 103 reads an object module 202, it stores the ESD information 205 in its control dictionary (CD) and writes the information from the text 206 into the linkage editor output being built.
+    </p>
+    <p num="24">
+      Referring to FIG. 14, in addition to the object modules 202 in input records 104, object modules 202 to be linked may reside either in local object module or search libraries 105 on local system 100 or in remote object module or search libraries or 114 on a remote system 110.
+      <br/>
+      Modules 202 in remote search libraries 114 are retrieved by the linkage editor 103 by means of an FTP client 102, which communicates with an FTP server 112 on the remote system 110 to transfer the designated object modules 202 from the remote search libraries 114 to the local system 100.
+    </p>
+    <p num="25">
+      Although an FTP client 102 and server 112 are shown in FIG. 1, the present invention is not limited to any specific transfer protocol.
+      <br/>
+      Other protocols may be used instead, such as Hypertext Transfer Protocol (HTTP) or Trivial File Transfer Protocol (TFTP).
+    </p>
+    <p num="26">Although not directly relevant to the present invention, an external storage device 106 (SYS001) is used by the linkage editor 103 as an intermediate storage device for information when internal buffers are full.</p>
+    <p num="27">Object modules 202 can be specified to linkage editor 103 either explicitly, by use of an explicit include statement 201, or implicitly, for example via an external reference record within another object module 202.</p>
+    <p num="28">
+      There are two types of control statements 201 relevant to the present invention: library definition statements and include statements.
+      <br/>
+      Include statements (in input records 104) specify the insertion of specified object modules at given points in the load module, while library definition statements (input 106) specify the search paths used for locating files referenced by include statements.
+    </p>
+    <p num="29">As one example of a library definition statement, in an IBM VSE/ESA operating system environment the sequence of sublibraries to be searched for input object modules is specified by a LIBDEF statement of the form:</p>
+    <p num="30">//LIBDEF OBJ, SEARCH=lib.sublib</p>
+    <p num="31">
+      where LIBDEF, OBJ and SEARCH are keywords and lib and sublib are variables indicating a particular library and sublibrary within the library.
+      <br/>
+      Up to 15 of such libraries may be specified by concatenating individual sublibrary specifications and enclosing the entire series in parentheses, so as to produce a statement of the type:
+      <br/>
+      //LIBDEF OBJ, SEARCH=(libl.sublib1, . . . ,libn.sublibn)
+    </p>
+    <p num="32">
+      This sequence is called a search sublibrary chain (or simply search library) chain, and a sublibrary in this chain is called a search sublibrary (or simply search library). (The hierarchy of libraries and sublibraries is a feature of the VSE/ESA environment and is not a part of the present invention.
+      <br/>
+      In the present specification, the terms "library" and "sublibrary" may be used interchangeably when the distinction is not relevant.)
+    </p>
+    <p num="33">
+      FIG. 3 shows representative library definition statements for both local and remote library specifications.
+      <br/>
+      These statements permit the linkage editor 103 to determine the location of the object modules 202 it needs to process.
+      <br/>
+      Although the statements shown are defined for specific platforms, it will be understood by persons skilled in the art that the techniques of this invention apply to other linkage editors and other types of systems besides the ones that have been enumerated in FIG. 3.
+    </p>
+    <p num="34">
+      As already noted above, a local library definition statement 301 for the IBM VSE/ESA (TM) operating system consists of the general parameter identifier // followed immediately by the parameter name LIBDEF and the parameter value OBJ, SEARCH=link.lib. The parameter value represents a local VSE directory, thus implying that the library link.lib can be accessed using file system access methods on the local system 110.
+      <br/>
+      A list of up to 15 sublibraries may be specified in one search chain, in which case the sublibrary names in the list are enclosed in parentheses and separated by commas.
+      <br/>
+      Note that some operating systems permit multiple library definition statements to effect a list of search libraries.
+    </p>
+    <p num="35">
+      Similar library definition statements exist for other OS environments.
+      <br/>
+      Thus, for the IBM OS/2 operating system, the library definition statement 302 of the form:
+      <br/>
+      -ID:.backslash.ibmcpp.backslash.link.lib
+    </p>
+    <p num="36">
+      specifies a library in subdirectory .backslash.ibmcpp.backslash.link.lib on drive D. Similarly, for the IBM AIX.RTM. operating system, a UNIX-based system, the library definition statement:
+      <br/>
+      -l/urs/lpp/xlc/link.lib
+    </p>
+    <p num="37">
+      specifies a library in local subdirectory /usr/lpp/xlc/link.lib. (In UNIX-based systems, the forward slash is used to indicate directory hierarchies rather than the backslash that is used in DOS, Windows and OS/2.
+      <br/>
+      So long as no confusion with any other demarcation symbol arises, their orientation is irrelevant to the present invention.)
+    </p>
+    <p num="38">
+      In accordance with the present invention, a remote search library specification may be made in a manner similar to the local search library specifications described above, except that the specified library is on a (disconnected) remote system rather than a local one.
+      <br/>
+      Thus, in an AIX system modified in accordance with the present invention, a library definition statement 303 of the form:
+      <br/>
+      -l1.2.3.4:/usr/lpp/remote.lib
+    </p>
+    <p num="39">
+      may be used to specify a library residing in a subdirectory /usr/lpp/remote.lib of a remote host having the explicit (i.e., quad decimal) TCP/IP address 1.2.3.4. When the search library value of 1.2.3.4:/usr/lpp/remote.lib is detected by the linkage editor 103, it will understand that this string, including a colon (:) in the middle, is not a valid AIX path designation.
+      <br/>
+      The colon delimiter separates the IP address 1.2.3.4 from the rest of the library name.
+      <br/>
+      Once the linkage editor 103 detects that an IP address has been specified for this library 114, it will treat this as a remote library specification, which should be accessed via FTP by connecting to the IP address indicated by the part of the parameter value that precedes the colon.
+      <br/>
+      Subsequently, an FTP transfer from system 1.2.3.4 (in this case, system 110) will be initiated.
+      <br/>
+      When the system 1.2.3.4 is reached by the FTP client 102, the FTP client will obtain a list of object modules in the directory /usr/lpp/remote.lib (called a library contents file) from the FTP server 112 on the target remote system.
+    </p>
+    <p num="40">
+      In a similar manner, instead of an explicit IP address, a TCP/IP name resolvable by a TCP/IP name server may be used, as shown in an example of an OS/2 remote include path specification 304.
+      <br/>
+      In this case, even though the colon is valid within an OS/2 path string, the linkage editor 103 will observe that REMOTE_A is not a valid drive designator, and therefore must be interpreted to be a network destination for the location of the search library path .backslash.exm.backslash.api.backslash.remote.lib. Consequently, a contents file for that path on system REMOTE_A will be retrieved via FTP for subsequent use.
+      <br/>
+      In a similar manner, a more complex system name (e.g., remote.sys.ibm.com) may be used instead of the simple name REMOTE_A.
+    </p>
+    <p num="41">
+      Still another way to indicate a remote path is by means of a uniform resource locator (URL), as shown in example 305.
+      <br/>
+      In this case, the linkage editor 103 will determine the remote location designation as: http://LIBRARY.SOFTWARE.IBM.COM. Because the remote location name is prefixed with http://, the linkage editor 103 will use the HTTP protocol to retrieve a contents file for the designated path /include/stuff.lib and store the contents file in a temporary library for HTTP accesses.
+      <br/>
+      The temporary library path is then added to the library search list for later searching, as described below.
+    </p>
+    <p num="42">
+      Include statements, as noted above, direct the insertion of a specified object module at the insertion point.
+      <br/>
+      In an IBM VSE/ESA environment, include statements have the form:
+      <br/>
+      INCLUDE modulename
+    </p>
+    <p num="43">
+      where INCLUDE is a keyword and modulename is a variable name specifying the name of an object module to be included in the load module under construction by the linkage editor 103.
+      <br/>
+      The INCLUDE statement causes the linkage editor 103 to search for a library member with the specified name along the OBJ search library chain.
+      <br/>
+      If found, the linkage editor process continues with the records from this member until an object module END record is found as last member record.
+      <br/>
+      The contents of the member can be an object module (single or multiple) or a list of control statements (link list) or both.
+      <br/>
+      Using further include statements in the member allows nesting.
+    </p>
+    <p num="44">
+      The include statement syntax allows implicit path specification for object modules 202 (in which case the whole of the library search chain is searched for a specific object module 202 to be included) or explicit object module specification which overrides the default search chain and indicates the exact location of an object module 202 to be included, for example, `INCLUDE D:.backslash.a.backslash.b.backslash.c.backslash.xxx.h`, where the double quotes denote explicit file designation.
+      <br/>
+      The same syntax rules that were described above would apply for explicit object module designation, so the following include statements are possible within a linkage editor input stream 104:
+      <br/>
+      INCLUDE 1.2.3.4:/usr/lpp/remotelib/file.hh
+      <br/>
+      INCLUDE REMOTE_SOURCE.SERVER.IBM.COM:D: .backslash.exm.backslash.api.backslash.remotelib.backslash.exmpjapc.h (note that the second colon is the drive designation)
+      <br/>
+      INCLUDE http://SEARCH.SOFTWARE.IBM.COM:/include/stuff/somefile.h
+    </p>
+    <p num="45">As already noted, object module search libraries 105 and 114 can also be specified via library definition statements on the linkage editor invocation.</p>
+    <p num="46">The INCLUDE statement preprocessor 401 will search local search libraries for the specified object modules using the local library searcher 402.</p>
+    <p num="47">
+      In a preferred embodiment an INCLUDE statement has the following format:
+      <br/>
+      INCLUDE modulename,(namelist)
+    </p>
+    <p num="48">
+      where both modulename and (namelist) are optional parameters.
+      <br/>
+      INCLUDE indicates that an object module or further control statements are to be included for execution by the linkage editor 103.
+      <br/>
+      If a modulename is specified, the linkage editor 103 searches for a library member with the specified name along the OBJ sublibrary chain.
+      <br/>
+      If found, the linkage editor process continues with the records retrieved from the specified member until an object module END record is found as last member record.
+    </p>
+    <p num="49">If a namelist is specified, only those control sections (CSECTs) of a module are selected for the load module generation, whose names match one of the names in the namelist.</p>
+    <p num="50">
+      Include statements 201 indicate that an object module 202 or further control statements 201 are to be included for execution by the linkage editor 103.
+      <br/>
+      An include statement 201 can specify the name of an object module 202.
+      <br/>
+      If a module name is specified, the linkage editor 103 searches for a library member with that name along the library search chain.
+      <br/>
+      If the module name includes the path, the module is retrieved from the specified library.
+      <br/>
+      In either case, the module is retrieved and processed as if it were part of the input stream 202-204 to the linkage editor 103.
+    </p>
+    <p num="51">
+      FIG. 7 shows a library contents file 700.
+      <br/>
+      As shown in that figure, a library contents file 700 contains a list of object module names 701-705 (recorded as character strings) in a designated search library 105 or 114, either remote or local, that was specified (as by a LIBDEF parameter) on the linkage editor invocation.
+      <br/>
+      The library contents file 700 is stored by the linkage editor 103 in a temporary library TEMPLIB1 (FIG. 11) or TEMPLIB2 (FIG. 12) and the TEMPLIB1 or TEMPLIB2 path is added to a search library list (FIG. 10) for subsequent location of specific object modules when INCLUDE statements or External Reference records are encountered within the linkage editor input stream 104.
+    </p>
+    <p num="52">
+      Note that the object module search path specifications are not limited to linkage editor invocation performed via line commands and associated parameters.
+      <br/>
+      The same method would apply to graphical tools where the search libraries are enumerated in appropriate linkage editor settings windows or profiles.
+    </p>
+    <p num="53">FIGS. 5A-5D show the steps in a preferred embodiment for processing remote libraries 114 for retrieving object modules 202 for inclusion in a load module 405.</p>
+    <p num="54">
+      FIGS. 5A-5B show the routine 500 for processing search library definition statements.
+      <br/>
+      Routine 500 parses the search library definition statements (e.g., the LIBDEF job control statement of the linkage editor invocation command) and extracts appropriate system names (SYSNAME) and library names (LIBNAME) (step 501).
+      <br/>
+      If the first parameter (SYSNAME) specifies a local path (step 502), the path is added as an entry 1001 to a search library list 1000 (FIG. 10) (step 503).
+      <br/>
+      If the first parameter does not specify a local path, then it indicates a remote path and is evaluated with respect to the type of access.
+    </p>
+    <p num="55">
+      If the first parameter (SYSNAME) specifies a remote FTP address (step 504), a check is made for the presence of an FTP.USER file; if the file does not exist, processing is terminated (step 505).
+      <br/>
+      Otherwise, the file is read and the following information is extracted from it: username, login command, and user password for FTP access (step 506).
+      <br/>
+      Then, using the extracted information, FTP is initiated to the specified remote system 110, and the presence of the search library name (LIBNAME) on the remote FTP host is verified (step 507).
+      <br/>
+      If the specified search library 114 is present on the remote system 110, its library contents file 700 (FIG. 7), containing the file names of the object modules 202 in that library, is retrieved and stored in a temporary library 1100 (TEMPLIB1) on the local system 100 (FIG. 10) (step 508).
+      <br/>
+      If retrieval of LIBNAME is successful (step 509), the TEMPLIB1 path is added as an entry 1001 to the search library list 1000 (step 510); otherwise, processing is terminated.
+    </p>
+    <p num="56">
+      If at step 504 the first parameter SYSNAME is found not to specify a remote FTP address, then control passes to the portion of the routine 500 shown in FIG. 5B (step 511).
+      <br/>
+      There the first parameter SYSNAME is checked to see if it is a remote URL address and, if it is not, processing is terminated (step 512). (Processing in FIGS. 5A-5B is restricted to FTP and HTTP access for the sake of simplicity; those skilled in the art will note that other types of remote access can be used.) If the first parameter SYSNAME is ascertained to be a remote URL address, the routine 500 checks for the presence of a browser invocation file; if the file does not exist, processing is terminated (step 513).
+      <br/>
+      Otherwise, the browser invocation file is read and two items of data are extracted: the name of the browser program to be used for accessing the remote URL and the name of the library contents file 700 (FIG. 7) to download (step 514).
+      <br/>
+      Then, the browser is invoked (step 515) and the specified remote library contents file 700 is stored in a temporary library 1200 (TEMPLIB2) on the local system 100 (step 516).
+      <br/>
+      If the retrieval of the specified library contents file 700 was not successful, processing is terminated (step 517).
+      <br/>
+      Otherwise, the TEMPLIB2 path is added as an entry 1001 to the search library list 1000 (step 518) and control returns to step 501.
+    </p>
+    <p num="57">
+      FIG. 5C shows the routine 520 for processing linkage editor INCLUDE statements, both explicit and implicit, contained in linkage editor input stream 104.
+      <br/>
+      Linkage editor input records 104 are examined one at a time to detect the presence of an INCLUDE statement (step 521).
+      <br/>
+      When an INCLUDE statement is detected (step 522) that has an explicit specification of an object module 202, including path name and file name (step 523), that specification is added as an entry 1301 to an object module list 1300 (step 524) and the routine 520 then resumes examining source code statements at step 521.
+    </p>
+    <p num="58">
+      If at step 523 an INCLUDE statement is found that does not contain an explicit specification of the object module location, the search library list 1000 is searched to determine the object module location (step 525).
+      <br/>
+      This is done by searching each of the search paths 1001 contained in the search library list 1000, as well as searching the library contents files 700 in temporary libraries 1100 (TEMPLIB1) and 1200 (TEMPLIB2) if their paths are contained in the list 1000.
+      <br/>
+      If the object module 202 is found in this search of the paths contained in search library list 1000 (step 526), its specification (including path name and file name) is added as an entry to the object module list 1300 (step 524), and examination of linkage editor input records 104 resumes (step 521).
+      <br/>
+      If the object module location does not appear in the search library list 1000, the default search specification is substituted (step 527) and added to the object module list 1300 (step 524).
+      <br/>
+      If there are remaining input records to process (step 528), examination of input records resumes at step 521; otherwise, control passes to the routine 530 (FIG. 5D) for processing the object module list 1300.
+    </p>
+    <p num="59">
+      FIG. 5D shows the routine 530 for processing the object module list 1300.
+      <br/>
+      The object module list 1300 is first sorted by location so that all entries 1301 for object modules 202 residing in the same location are together (step 531).
+      <br/>
+      The file list 1300 is then scanned for path specifications (step 532).
+      <br/>
+      If a path specification is found (step 533), it is examined to determine whether it specifies a local path (step 534).
+      <br/>
+      If a local path is specified, the object module 202, if it exists, is copied to an object module temporary load module file (not shown) (step 535).
+      <br/>
+      If the path specification is not a local path, then it is a remote path and the library definition file 600 (FIG. 6) is searched for an entry corresponding to the remote path specification (step 536).
+      <br/>
+      If the corresponding entry is not found in the library definition file 600 (step 537), the link edit fails and an error exit is taken.
+      <br/>
+      Otherwise, the remote object module 202 is retrieved from the remote location 110 using the retrieval method and parameters specified by the path specification and the corresponding library definition file entry (step 538).
+      <br/>
+      When the remote object module 202 is retrieved, it is added to the temporary load module file (step 535).
+    </p>
+    <p num="60">
+      The object module list 1300 is processed until all entries 1301 have been processed (step 539), and then the link edit of the object modules in the input stream 104 together with the object module temporary load module file just assembled is initiated using well known linkage editor techniques.
+      <br/>
+      After the link edit has been completed, all temporary local files are deleted, including the temporary load module file.
+    </p>
+    <p num="61">
+      FIG. 6 shows schematically the composition of the library definition file 600 used for retrieving remote object modules using the File Transfer Protocol (FTP) or Hypertext Transfer Protocol (HTTP).
+      <br/>
+      The library definition file 600 includes a number of entries (one per library 114 defined).
+      <br/>
+      Each entry contains five items of data: library name 601, library address (remote location) 602, library access parameters (pertinent to the specified library access method) 603, library metering parameters 604, and library contents file identifier 605.
+    </p>
+    <p num="62">
+      Most linkage editors permit their users to generate listings (hard or softcopy).
+      <br/>
+      These listings usually indicate from where (which library 105 or 114) a particular object module was taken.
+      <br/>
+      With the present invention, the listing will also indicate which system an object module came from and which method was used for retrieval.
+    </p>
+    <p num="63">
+      FIG. 9 shows a user table 901 containing user information associated with user access to the object modules on a remote network server.
+      <br/>
+      The user table 901 contains identifiers (USER_ID) 902 of valid users having the right to access the object modules on a network server.
+      <br/>
+      Note that in practice, the user IDs 902 will most likely be randomly or sequentially generated alphanumeric strings without any particular meaning attached; in fact, the most likely user ID is the customer license number.
+      <br/>
+      Along with each user ID 902, an access type field 903 is included, indicating whether the access is unlimited (as at 906) or usage based (as at 908).
+      <br/>
+      A usage count field 904 is set to 0 (as at 907) initially for all new users, and incremented to indicate the usage count (as at 909) with every use.
+      <br/>
+      Every time a user is billed for a particular number of uses, the usage count is transferred to the billing system (not shown) and the usage count field 904 is reset to 0.
+      <br/>
+      For usage-based users, a charge information field 905 is included, indicating a user account number 910 for billing purposes.
+    </p>
+    <p num="64">
+      FIG. 8 shows the usage metering procedure 800 performed by the remote object module server 110.
+      <br/>
+      If usage metering is required, the user ID entry 902 of the user accessing a library 114 is searched for in the user table 901 (step 801).
+      <br/>
+      If the user ID is not found among the USER_ID entries 902 in the user table 901, the user is not recognized as a valid user who is entitled to access that library 114, and the retrieval request is rejected (step 802).
+      <br/>
+      Otherwise, the access type 903 is retrieved from the user table entry associated with the present user (step 803).
+      <br/>
+      If the access type 903 indicates that the present user is entitled to unlimited usage (as at 906), metering is suspended (step 804); on the other hand, if the access type 903 indicates a usage-based license (step 805), the usage count field 904 associated with the present user (initialized to zero prior to the first use) is incremented (step 806).
+      <br/>
+      Then the retrieval of the requested object module(s) is permitted (step 807).
+    </p>
+    <p num="65">
+      While we have described our preferred embodiments of our invention, it will be understood that those skilled in the art, both now and in the future, may make various improvements and enhancements which fall within the scope of the claims which follow.
+      <br/>
+      These claims should be construed to maintain the proper protection for the invention first disclosed.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>In a computer linkage editor for editing an input stream comprising one or more include statements into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, a method of operating said linkage editor to process said include statements, comprising the steps of:</claim-text>
+      <claim-text>scanning said input stream for include statements specifying object modules resident at non-connected network locations; in response to detecting an include statement specifying an object module, adding an entry for said object module to an object module list; scanning said object module list for entries for object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and in response to detecting an entry for an object module resident at a non-connected network location, establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 in which the detected include statement specifies a network address of said non-connected network location.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1 in which the detected include statement specifies a name of said non-connected network location that is resolvable by a name server.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 in which the detected include statement specifies a uniform resource locator for said object module.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1 in which the entries in said object module list are sorted by location before being scanned.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. In a computer linkage editor for editing an input stream comprising one or more object modules and one or more include statements into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, apparatus for processing said include statements, comprising: means for scanning said input stream for include statements specifying object modules resident at non-connected network locations; means responsive to the detection of an include statement specifying an object module for adding an entry for said object module to an object module list; means for scanning said object module list for entries for object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and in response to detecting an entry for an object module resident at a non-connected network location, establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The apparatus of claim 6 in which the entries in said object module list are sorted by location before being scanned.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A program storage device readable by a machine, tangibly embodying a program of instructions executable by the machine to perform method steps for operating a computer linkage editor to process one or more include statements in an input stream on a local system, said linkage editor editing said input stream into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, said method steps comprising: scanning said input stream for include statements specifying object modules resident at non-connected network locations; in response to detecting an include statement specifying an object module, adding an entry for said object module to an object module list; scanning said object module list for object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and in response to detecting an entry for an object module resident at a non-connected network location, establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The program storage device of claim 8 in which the entries in said object module list are sorted by location before being scanned.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. In a computer linkage editor for editing an input stream comprising one or more include statements into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, said linkage editor also receiving as input one or more library definition statements, each of which specifies an object module library containing one or more object modules, a method of operating said linkage editor to process said include statements, comprising the steps of: examining each of said library definition statements to determine whether the library definition statement specifies an object module library resident at a non-connected network location; in response to detecting an library definition statement specifying an object module library resident at a non-connected network location, establishing a connection with said network location and obtaining a list of the contents of said object module library via said connection; scanning said input stream for include statements specifying object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and in response to detecting an include statement specifying an object module resident at a non-connected network location, establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 10, comprising the further step of storing said list in a temporary library accessible to said linkage editor.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 11 in which lists of the contents of a plurality of remotely resident object module libraries are stored in said temporary library.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 11 in which said temporary library has a path specification, said method comprising the further step of adding said path specification to a list of path specifications for object module libraries.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 10, comprising the further step of: storing library definition data on said local system for object module libraries resident at non-connected network locations.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method of claim 14 in which said data specifies the network locations of said libraries.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 14 in which said data specifies access parameters for said libraries.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method of claim 14 in which said data specifies metering parameters for said libraries.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 14 in which said data specifies the object modules contained in said libraries.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method of claim 18 in which said scanning step comprises the steps of: scanning said input stream for include statements;</claim-text>
+      <claim-text>and in response to detecting an include statement, determining whether said include statement specifies an object module resident at non-connected network locations.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The method of claim 19 in which said determining step comprises the step of: examining the object modules specified for each of the libraries in said library definition file to determine the library containing the object module referenced in said statement.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. In a computer linkage editor for editing an input stream comprising one or more object modules and one or more include statements into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, said linkage editor also receiving as input one or more library definition statements, each of which specifies an object module library containing one or more object modules, apparatus for processing said include statements, comprising: means for examining each of said library definition statements to determine whether the library definition statement specifies an object module library resident at a non-connected network location; means responsive to detecting an library definition statement specifying an object module library resident at a non-connected network location for establishing a connection with said network location and obtaining a list of the contents of said object module library via said connection; means for scanning said input stream for include statements specifying object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and means responsive to the detection of an include statement specifying an object module resident at a non-connected network location for establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. A program storage device readable by a machine, tangibly embodying a program of instructions executable by the machine to perform method steps for operating a computer linkage editor to process one or more include statements in an input stream on a local system, said linkage editor editing said input stream into an executable load module, each of said include statements directing the replacement of the statement with the contents of an object module specified by the statement, said linkage editor also receives as input one or more library definition statements, each of which specifies a library containing one or more object modules, said method steps comprising: examining each of said library definition statements to determine whether the statement specifies an object module library resident at a non-connected network location; in response to detecting an library definition statement specifying an object module library resident at a non-connected network location, establishing a connection with said network location and obtaining a list of the contents of said object module library via said connection; scanning said input stream for include statements specifying object modules resident at non-connected network locations;</claim-text>
+      <claim-text>and in response to detecting an include statement specifying an object module resident at a non-connected network location, establishing a connection with said network location and obtaining said object module via said connection.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

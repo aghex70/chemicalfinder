@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06179865B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06179865</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6179865</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="23084788" extended-family-id="1249188">
+      <document-id>
+        <country>US</country>
+        <doc-number>09283159</doc-number>
+        <kind>A</kind>
+        <date>19990401</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1999US-09283159</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>1407991</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>28315999</doc-number>
+        <kind>A</kind>
+        <date>19990401</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1999US-09283159</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>A61N   1/362       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>61</class>
+        <subclass>N</subclass>
+        <main-group>1</main-group>
+        <subgroup>362</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>600518000</text>
+        <class>600</class>
+        <subclass>518000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>A61N-001/362A2</text>
+        <section>A</section>
+        <class>61</class>
+        <subclass>N</subclass>
+        <main-group>001</main-group>
+        <subgroup>362A2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>A61N-001/3622</classification-symbol>
+        <section>A</section>
+        <class>61</class>
+        <subclass>N</subclass>
+        <main-group>1</main-group>
+        <subgroup>3622</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>25</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>13</number-of-drawing-sheets>
+      <number-of-figures>15</number-of-figures>
+      <image-key data-format="questel">US6179865</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Cross chamber interval correlation</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MASON DAVID, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5370125</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5370125</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>HSU WILLIAM, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5776072</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5776072</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>NIGAM INDRA B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5978700</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5978700</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>WITTKAMPF FREDERIK H M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4515161</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4515161</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>GESSMAN LAWRENCE J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4543963</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4543963</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>JACKMAN WARREN M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4572192</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4572192</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>GESSMAN LAWRENCE J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4577634</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4577634</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>LINDGREN ANDERS</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4802483</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4802483</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>BUCHANAN STUART W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5228438</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5228438</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>ELMQVIST HAKAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5253644</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5253644</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>RIFF KENNETH M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5351696</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5351696</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>LU RICHARD</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5476482</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5476482</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>LU RICHARD</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5496350</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5496350</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>ALTMAN PETER A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5551427</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5551427</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>WITTKAMPF FREDERIK H M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5697377</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5697377</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>GILLBERG JEFFREY M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5755736</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5755736</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>BORNZIN GENE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5810739</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5810739</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>WITTKAMPF FREDERIK H M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5983126</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5983126</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>LeCarpentier, G.L., et al., "Differentiation of sinus tachycardia from ventricular tachycardia with 1:1 ventriculoatrial conduction in dual chamber implantable cardioverter defibrillators: feasibility of a criterion based on atrioventricular interval.", PACE 1994; 17 (Pt. I), 1818-1831, (1994).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Thompson, J.A., et al., "Ventriculoatrial conduction metrics for classification of ventricular tachycardia with 1:1 retrograde conduction with dual-chamber sensing implantable cardioverter defibrillators", J. of Electrocardiography 1998; 31, 152-156, (1998).</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Cardiac Pacemakers, Inc.</orgname>
+            <address>
+              <address-1>St. Paul, MN, US</address-1>
+              <city>St. Paul</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>CARDIAC PACEMAKERS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Hsu, William</name>
+            <address>
+              <address-1>Circle Pines, MN, US</address-1>
+              <city>Circle Pines</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Sweeney, Robert J.</name>
+            <address>
+              <address-1>Woodbury, MN, US</address-1>
+              <city>Woodbury</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Schwegman, Lundberg, Woessner &amp; Kluth, P.A.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Kamm, William E.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method for discriminating cardiac rhythms occurring in an antegrade direction from cardiac rhythms occurring in a retrograde direction.
+      <br/>
+      Atrial and ventricular contractions are sensed, from which atrial and ventricular cycle lengths are determined.
+      <br/>
+      Ventricular contractions are also analyzed to determine the occurrence of a tachycardia episode that has a one-to-one association of atrial contractions to ventricular contractions.
+      <br/>
+      During a tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions, the atrial cycle lengths are paired with the ventricular cycle lengths, where for each of the atrial cycle lengths the atrial cycle length is paired with at least one ventricular cycle length started before the first atrial contraction of each of the atrial cycle lengths and paired with at least one ventricular cycle length started after the first atrial contraction of each of the atrial cycle lengths.
+      <br/>
+      A retrograde correlation coefficient is then determined for the atrial cycle lengths paired with the ventricular cycle lengths started before the first atrial contraction, and an antegrade correlation coefficient is determined for the atrial cycle lengths paired with the ventricular cycle lengths started after the first atrial contraction.
+      <br/>
+      The tachycardiac episode is then classified based on a comparison of the antegrade correlation coefficient and the retrograde correlation coefficient.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The present invention relates generally to implantable medical devices and more particularly to a system and method for discriminating cardiac rhythms occurring in an antegrade direction from cardiac rhythms occurring in a retrograde direction.</p>
+    <heading>BACKGROUND</heading>
+    <p num="2">
+      The heart is generally divided into two chambers, the atrial chamber and the ventricular chamber.
+      <br/>
+      As the heart beats, the atrial chamber and the ventricular chamber of the heart go through a cardiac cycle.
+      <br/>
+      The cardiac cycle consists of one complete sequence of contraction and relaxation of the chambers of the heart.
+      <br/>
+      The terms systole and diastole are used to describe the contraction and relaxation phases the chambers of the heart experience during a cardiac cycle.
+      <br/>
+      In systole, the ventricular muscle cells are contracting to pump blood through the circulatory system.
+      <br/>
+      During diastole, the ventricular muscle cells relax, causing blood from the atrial chamber to fill the ventricular chamber.
+      <br/>
+      After the period of diastolic filling, the systolic phase of a new cardiac cycle is initiated.
+    </p>
+    <p num="3">
+      Control over the timing and order of the atrial and ventricular contractions during the cardiac cycle is critical for the heart to pump blood efficiently.
+      <br/>
+      Efficient pumping action of the heart requires precise coordination of the contraction of individual cardiac muscle cells.
+      <br/>
+      Contraction of each cell is triggered when an electrical excitatory impulse (an "action potential") sweeps over the heart.
+      <br/>
+      Proper coordination of the contractual activity of the individual cardiac muscle cells is achieved primarily by the conduction of the action potential from one cell to the next by gap junctions that connect all cells of the heart into a functional system.
+      <br/>
+      In addition, muscle cells in certain areas of the heart are specifically adapted to control the frequency of cardiac excitation, the pathway of conduction and the rate of impulse propagation through various regions of the heart.
+      <br/>
+      The major components of this specialized excitation and conduction system include the sinoatrial node (SA node), the atrioventricular node (AV node), the bundle of His, and specialized cells called Purkinje fibers.
+    </p>
+    <p num="4">
+      The SA node is located at the junction of the superior vena cava and the right atrium.
+      <br/>
+      Specialized atrium muscle cells of the SA node spontaneously generate action potentials which are then propagated through the rest of the heart to cause cardiac contraction.
+      <br/>
+      This SA node region normally acts as the intrinsic cardiac pacemaker.
+      <br/>
+      The action potential generated by the SA node spreads through the atrial wall, causing the atrial chambers to contract and the P-wave of an electrocardiogram signal.
+    </p>
+    <p num="5">
+      The AV node consists of small, specialized cells located in the lower portion of the atrial chamber.
+      <br/>
+      The AV node acts like a bridge for the action potential to cross over into the ventricular chamber of the heart.
+      <br/>
+      Once the action potential has crossed over to the ventricular chambers, the bundle of His carries the action potential to specialized cardiac fibers called Purkinje fibers.
+      <br/>
+      The Purkinje fibers then distribute the action potential throughout the ventricular chamber of the heart.
+      <br/>
+      This results in rapid, very nearly simultaneous excitation of all ventricular muscle cells.
+      <br/>
+      The conduction of the action potential through the AV node and into the ventricular chambers creates the QRS-complex of an electrogram signal.
+    </p>
+    <p num="6">
+      During the cardiac cycle, the action potential moves in an antegrade direction, first causing the atrial chambers to contract and then causing the ventricle chambers to contract.
+      <br/>
+      When the action potential causes a single atrial contraction followed by a single ventricular contraction the heart is displaying a one-to-one atrial to ventricular response.
+      <br/>
+      In other words, for a given atrial contraction, the cardiac signal causing the atrial contraction subsequently causes a ventricle contraction.
+      <br/>
+      In this manner, there is a one-to-one atrial to ventricular response.
+      <br/>
+      Cardiac conditions also exist where the action potential moves in a retrograde direction, where the cardiac signal moves from the ventricular chamber up into the atrial chamber.
+    </p>
+    <p num="7">
+      When a patient's heart rate increases to above 100 beats per minute, the patient is said to be experiencing a tachyarrhythmia.
+      <br/>
+      Many different types of tachyarrhythmias can exist.
+      <br/>
+      For example, a heart in a sinus tachycardia (heart rates between 100-180 beats per minute) exhibits a normal cardiac cycle, where action potential moves in the antegrade direction from the atrial chambers to the ventricular chambers to cause the contraction of the heart.
+      <br/>
+      The increased heart rate during the sinus tachycardia is a response to a stimulus, and not to a cause within the heart.
+      <br/>
+      For example, sinus tachycardia stimulus can include physiologic responses to maintain adequate cardiac output and tissue oxygenation during exercise.
+      <br/>
+      Unlike sinus tachycardia, a ventricular tachycardia (heart rates between 120-250) is caused by electrical disturbances within the heart, and not due to the physiological demands of the body.
+      <br/>
+      Ventricular tachycardias must be treated quickly in order to prevent the tachycardia from degrading into a life threatening ventricular fibrillation.
+    </p>
+    <p num="8">
+      Distinguishing a ventricular tachycardia from a sinus tachycardia is important for diagnosing and properly treating the patient's cardiac condition.
+      <br/>
+      Misdiagnosis of a sinus tachycardia as a ventricular tachycardia can lead to inappropriate treatment.
+      <br/>
+      Difficulty in distinguishing among tachyarrhythmias increases when the heart is displaying a one-to-one atrial to ventricular rhythm.
+      <br/>
+      One reason for this difficulty is that the action potentials generated during the tachyarrhythmia can travel either in the antegrade direction, from the atria to the ventricles, or in a retrograde direction, from the ventricles into the atria.
+      <br/>
+      Tachyarrhythmias having action potentials conducted in an antegrade direction include sinus tachycardia and atrial tachycardia.
+      <br/>
+      Tachyarrhythmias having action potentials conducted in a retrograde direction include ventricular tachycardia with 1-to-1 retrograde conduction.
+      <br/>
+      Distinguishing the direction of the action potential (antegrade or retrograde) during a tachyarrhythmia is important in diagnosing and delivering the appropriate type of treatment to the patient.
+    </p>
+    <p num="9">For the reasons stated above, and for other reasons stated below which will become apparent to those skilled in the art upon reading and understanding the present specification, there is a need in the art for a reliable and convenient approach which can distinguish antegrade and retrograde action potentials during a tachyarrhythmia.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="10">
+      The present subject matter provides a system and a method for distinguishing antegrade from retrograde action potentials during a tachyarrhythmia episode.
+      <br/>
+      The classified action potentials are then used to classify the tachyarrhythmia episode as occurring in either a retrograde direction or an antegrade direction.
+    </p>
+    <p num="11">
+      In one embodiment, both atrial and ventricular contractions are detected in sensed cardiac signals.
+      <br/>
+      The detected atrial and ventricular contractions are then used to determine atrial and ventricular cycle lengths.
+      <br/>
+      In one embodiment, an atrial cycle length is the time between successively sensed atrial contractions, and a ventricular cycle length is the time between successively sensed ventricular contractions.
+      <br/>
+      The ventricular contractions are further analyzed to determine the occurrence of a tachycardia episode.
+    </p>
+    <p num="12">
+      When a tachycardia episode is detected, the sensed atrial and ventricular contractions are analyzed to determine if the contractions have a one-to-one association of atrial contractions to ventricular contractions.
+      <br/>
+      During a tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions, the atrial cycle lengths are paired with the ventricular cycle lengths.
+      <br/>
+      In one embodiment, the atrial cycle lengths are paired with the ventricular cycle lengths in the antegrade direction.
+      <br/>
+      In pairing the cycle lengths in the antegrade direction, an atrial cycle length is paired with a ventricular cycle length that starts just after the start of the atrial cycle length.
+      <br/>
+      In pairing the cycle lengths in the retrograde direction, the atrial cycle length is paired with the ventricular cycle length that starts just before the start of the atrial cycle length.
+    </p>
+    <p num="13">
+      In one embodiment, as the atrial and ventricular cycle lengths are paired in the antegrade and the retrograde directions the difference of the paired cycle lengths is calculated.
+      <br/>
+      The differences of the paired cycle lengths are then used to calculate correlation coefficients for both the cycle lengths paired in the antegrade direction and the retrograde direction.
+      <br/>
+      Based on the value of the correlation coefficients, the tachycardiac episode is then classified based on the values of the antegrade correlation coefficient and the retrograde correlation coefficient.
+    </p>
+    <p num="14">
+      In one embodiment, the tachycardia episode is classified as occurring in a retrograde direction when the retrograde correlation coefficient is greater then the antegrade correlation coefficient.
+      <br/>
+      Alternatively, the tachycardia episode is classified as occurring in an antegrade direction when the antegrade correlation coefficient is greater then the retrograde correlation coefficient.
+    </p>
+    <p num="15">
+      In addition to pairing atrial and ventricular cycle lengths in the antegrade and retrograde directions, the atrial and ventricular cycle lengths can also be paired in a super-antegrade and a super-retrograde direction.
+      <br/>
+      In one embodiment, atrial and ventricular cycle lengths are paired in the super-antegrade direction when an atrial cycle length is paired with a first ventricular cycle length started from an action potential causing the second atrial contraction of the atrial cycle length.
+      <br/>
+      The atrial and ventricular cycle lengths are paired in the super-retrograde direction when an atrial cycle length is paired with a second ventricular cycle length, the second ventricular cycle length having ended before the first atrial contraction of the atrial cycle length.
+    </p>
+    <p num="16">
+      As the atrial and ventricular cycle lengths are paired in the super-antegrade and the super-retrograde directions the difference of the paired cycle lengths is calculated.
+      <br/>
+      The differences of the paired cycle lengths are then used to calculate correlation coefficients for both the cycle lengths paired in the super-antegrade direction and the super-retrograde direction.
+      <br/>
+      Based on the value of the correlation coefficients, the tachycardiac episode is then classified based on the values of the super-antegrade correlation coefficient and the super-retrograde correlation coefficient.
+      <br/>
+      Alternatively, the tachycardiac episode is then classified based on the values of the antegrade, super-antegrade, retrograde and super-retrograde correlation coefficients.
+    </p>
+    <p num="17">
+      In one embodiment, the tachycardia episode is classified as occurring in a retrograde direction when the super-retrograde correlation coefficient is greater then the super-antegrade correlation coefficient.
+      <br/>
+      Alternatively, the tachycardia episode is classified as occurring in an antegrade direction when the super-antegrade correlation coefficient is greater then the super-retrograde correlation coefficient.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="18">
+      FIG. 1 is a schematic of a heart;
+      <br/>
+      FIG. 2 is a schematic illustrating one embodiment of an antegrade pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 3 is a schematic illustrating one embodiment of a retrograde pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 4 is a schematic view of one embodiment of an implantable medical device according to one embodiment of the present subject matter;
+      <br/>
+      FIG. 5 is a flow chart illustrating one embodiment of the present subject matter;
+      <br/>
+      FIG. 6 is a block diagram of one embodiment of an implantable medical device according to the present subject matter;
+      <br/>
+      FIG. 7 is one embodiment of a curve showing the association of AV interval delay time to ventricular cycle length time;
+      <br/>
+      FIG. 8 is a schematic illustrating one embodiment of a super-antegrade pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 9 is a schematic illustrating one embodiment of a super-retrograde pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 10 is a schematic illustrating one embodiment of a super-antegrade pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 11 is a schematic illustrating one embodiment of a super-retrograde pairing of atrial and ventricular cycle lengths;
+      <br/>
+      FIG. 12 is a flow chart illustrating one embodiment of the present subject matter;
+      <br/>
+      FIG. 13 is a flow chart illustrating one embodiment of the present subject matter;
+      <br/>
+      FIG. 14 is a schematic illustrating one embodiment of pairing of atrial and ventricular cycle lengths; and
+      <br/>
+      FIG. 15 is a schematic illustrating one embodiment of pairing of atrial and ventricular cycle lengths.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="19">
+      In the following detailed description, reference is made to the accompanying drawings which form a part hereof and in which is shown by way of illustration specific embodiments in which the invention can be practiced.
+      <br/>
+      These embodiments are described in sufficient detail to enable those skilled in the art to practice and use the invention, and it is to be understood that other embodiments may be utilized and that electrical, logical, and structural changes may be made without departing from the spirit and scope of the present invention.
+      <br/>
+      The following detailed description is, therefore, not to be taken in a limiting sense and the scope of the present invention is defined by the appended claims and their equivalents.
+    </p>
+    <p num="20">
+      The embodiments illustrated herein are demonstrated in an implantable cardiac defibrillator (ICD), which may include numerous defibrillation, pacing, and pulse generating modes known in the art.
+      <br/>
+      However, these embodiments are illustrative of some of the applications of the present system, and are not intended in an exhaustive or exclusive sense.
+      <br/>
+      The concepts described herein can be used in a variety of applications which will be readily appreciated by those skilled in the art upon reading and understanding this description.
+      <br/>
+      For example, the present system is suitable for implementation in a variety of implantable and external medical devices.
+    </p>
+    <p num="21">
+      As discussed above, discriminating one-to-one rhythms conducted in an antegrade direction (e.g., sinus tachycardia, atrial tachycardia) from one-to-one rhythms conducted in a retrograde direction (e.g., VT with one-to-one retrograde conduction) is important aspect of properly diagnosing a tachyarrhythmia episode.
+      <br/>
+      The present subject matter utilizes sensed cardiac complexes in determining, or distinguishing, the conduction direction of the cardiac signal.
+      <br/>
+      Cardiac complexes include the electrical excitatory impulses, or action potentials, that are sensed from the heart is it goes through the cardiac cycle.
+    </p>
+    <p num="22">
+      The present subject matter uses the sensed cardiac complexes in a process called Cross Chamber Interval Correlation (CCIC).
+      <br/>
+      CCIC discriminates and classifies tachyarrhythmias displaying a one-to-one atrial to ventricular rhythm as either being conducted in an antegrade direction or in a retrograde direction.
+      <br/>
+      In one embodiment, atrial cycle lengths and ventricular cycle lengths are used in determining whether the tachyarrhythmia is being conducted in the antegrade or retrograde direction.
+      <br/>
+      An atrial cycle length is the time between successively sensed atrial contractions.
+      <br/>
+      In one embodiment, the sensed atrial contractions are the P-waves of a sensed electrocardiogram signal.
+      <br/>
+      A ventricular cycle length is the time between successively sensed ventricular contractions.
+      <br/>
+      In one embodiment, the sensed ventricular contractions are the R-waves of a sensed electrocardiogram signal.
+    </p>
+    <p num="23">
+      FIG. 1 shows a drawing of a human heart 100.
+      <br/>
+      The heart 100 is divided into atrial chambers 110 and ventricular chambers 120.
+      <br/>
+      When the heart 100 is in normal sinus rhythm or in sinus tachycardia the contractile wave (action potential) for the heart beat originates in the SA node 130, which is located in the atrial region of the heart 100.
+      <br/>
+      In this situation the atrial chambers 110 can be though of as originating the signals to start the contraction of the heart 100.
+      <br/>
+      The contractile wave moves from the SA node 130 across the atria and then to the AV node 140.
+      <br/>
+      Lines 150 show the direction of the contractile wave as it would move across the atrial chambers 110.
+      <br/>
+      The AV node consists of small specialized cells located on the right side of the atrial septum just under the endocardium.
+      <br/>
+      The lower portion of the AV node consists of parallel fibers that form the only "bridge" of contiguous cardiac cells crossing the cartilaginous structure that provides support for the cardiac valves and electrically separates atria from ventricles.
+      <br/>
+      Propagation of the impulse through this AV nodal region is typically very slow (approximately 0.05 m/s) and therefore a delay is imposed between excitation of the atria and the ventricles.
+      <br/>
+      The term AV delay is given to denote this delay.
+      <br/>
+      The action potential causing the contractile wave then moves through the AV node and down into the ventricle chambers 120.
+      <br/>
+      The contractile wave is distributed quickly and essentially evenly through out the ventricle chambers 120 which allows for near simultaneous contraction of ventricles of the heart 100.
+    </p>
+    <p num="24">
+      When the contractile wave originates in the SA node and moves through the AV node into the ventricles, the contractile wave is said to be moving in an antegrade direction.
+      <br/>
+      Examples of when the contractile wave is moving in the antegrade direction include when the heart is in normal sinus rhythm or when the heart is in sinus tachycardia.
+      <br/>
+      There are also cardiac conditions in which the contractile wave, or action potential, can move in a retrograde direction.
+      <br/>
+      In this situation the cardiac signal moves from the ventricular chamber up into the atrial chamber.
+      <br/>
+      An example of a cardiac condition displaying a retrograde direction is ventricular tachycardia with 1-to-1 retrograde conduction.
+    </p>
+    <p num="25">
+      When a tachyarrhythmia displaying a one-to-one atrial to ventricular cycle length is detected, sensed atrial cycle lengths are paired with and compared with sensed ventricular cycle lengths.
+      <br/>
+      One way of comparing paired atrial cycle lengths and ventricular cycle lengths is in an antegrade direction.
+      <br/>
+      Another way of comparing paired atrial cycle lengths and ventricular cycle lengths in is a retrograde direction.
+    </p>
+    <p num="26">
+      In one embodiment, antegrade pairing and comparing is accomplished by pairing an atrial cycle length with at least one ventricular cycle length started after the start of the atrial cycle length being paired.
+      <br/>
+      FIG. 2 shows one embodiment of an antegrade pairing of atrial and ventricular cycle lengths.
+      <br/>
+      At 200 there is shown atrial cycle lengths, where 204 indicates the occurrence of atrial contraction.
+      <br/>
+      In one embodiment, the atrial contractions are indicated by the sensing of an electrocardiogram P-wave.
+      <br/>
+      An atrial cycle length (or P--P-wave interval) constitutes the time between successive atrial contractions as indicated by 208.
+      <br/>
+      At 212 there is shown ventricular cycle lengths, where 216 indicates the occurrence of ventricular contraction.
+      <br/>
+      In one embodiment, the ventricular contractions are indicated by the sensing of an electrocardiogram R-wave.
+      <br/>
+      An ventricular cycle length (or R--R wave interval) constitutes the time between successive ventricular contractions as indicated by 220.
+    </p>
+    <p num="27">
+      When a tachyarrhythmia having a one-to-one atrial to ventricular cycle length is detected, atrial cycle lengths 208 are paired with and compared to ventricular cycle lengths 220 in the antegrade direction 226.
+      <br/>
+      When atrial cycle lengths 208 and ventricular cycle lengths 220 are paired in the antegrade direction, the atrial cycle length 208 is paired with a ventricular cycle length 220 started after the start of the atrial cycle length being paired.
+      <br/>
+      An example of a pairing is shown by the enclosed area 230.
+    </p>
+    <p num="28">
+      In addition to pairing and comparing in the antegrade direction, the same atrial cycle lengths and ventricular cycle lengths can be paired and compared in a retrograde direction.
+      <br/>
+      For the retrograde direction, atrial cycle lengths are paired with ventricular cycle lengths started before each atrial cycle length being paired.
+      <br/>
+      FIG. 3 shows one embodiment of an retrograde pairing of atrial and ventricular cycle lengths.
+      <br/>
+      At 300 there is shown atrial cycle lengths, where 304 indicates the occurrence of atrial contraction.
+      <br/>
+      The atrial cycle length is indicated by 308.
+      <br/>
+      At 312 there are shown ventricular cycle lengths, where 316 indicates the occurrence of ventricular contraction.
+      <br/>
+      The ventricular cycle length is indicated by 320.
+      <br/>
+      During the tachyarrhythmia displaying a one-to-one atrial to ventricular cycle length, atrial cycle lengths 308 are paired with and compared to ventricular cycle lengths 320 in the retrograde direction 326.
+      <br/>
+      When atrial cycle lengths 308 and ventricular cycle lengths 320 are paired in the retrograde direction, the atrial cycle length 308 is paired with a ventricular cycle length 320 started before the start of the atrial cycle length being paired.
+      <br/>
+      An example of a pairing is shown by the enclosed area 330.
+    </p>
+    <p num="29">
+      Correlation coefficients are then determined for the paired atrial cycle lengths and ventricular cycle lengths.
+      <br/>
+      A correlation coefficient describes the strength of an association between two variables.
+      <br/>
+      A high correlation coefficient implies a strong association so that the value of one variable can be used to predict, to some extent, the value of the other variable.
+      <br/>
+      In this invention the sequence of atrial cycle is one variable and the sequence of ventricular cycle lengths is the other variable.
+      <br/>
+      The correlation coefficient is computed using these sequences using both the antegrade pairing (as in FIG. 2) and the retrograde pairing (as in FIG. 3).
+      <br/>
+      Depending on the true direction of conduction, either the antegrade or retrograde pairing will have a higher correlation coefficient.
+    </p>
+    <p num="30">
+      For example, a set of variable pairs, the correlation coefficient gives the strength of the association.
+      <br/>
+      For example, when the action potential is traveling in an antegrade direction during a one-to-one tachyarrhythmia, the atrial cycle lengths will more closely match the ventricular cycle lengths following the atrial cycle lengths, as the action potential initially causing atrial contraction is the action potential that subsequently causes the ventricular contraction.
+      <br/>
+      In this situation, the antegrade correlation coefficient will be larger than the retrograde correlation coefficient.
+      <br/>
+      On the other hand, when the action potential is traveling in the retrograde direction during a one-to-one tachyarrhythmia, the ventricular cycle lengths will more closely match the atrial cycle lengths following the ventricular cycle lengths, as the action potential initially causing the ventricular contraction is the action potential that subsequently causes the atrial contraction.
+      <br/>
+      In this situation, the retrograde correlation coefficient will be larger than the antegrade correlation coefficient.
+    </p>
+    <p num="31">Using the antegrade correlation coefficient and the retrograde correlation coefficient, the origin and conduction direction of a tachyarrhythmia can determined This information can then be used in making therapy determinations for the patient.</p>
+    <p num="32">
+      In one embodiment, cardiac complexes are sensed and analyzed using an ICD system.
+      <br/>
+      In one embodiment, the ICD system uses a dual chamber transvenous lead system to allow sensing of the cardiac action potentials in both the atrial chamber and the ventricular chamber.
+      <br/>
+      The transvenous lead system can include a ventricular lead and an atrial lead.
+      <br/>
+      In one embodiment, the ventricular lead has a rate-sensing (or near-field) electrode positioned at a distal end of the ventricular lead and at least one defibrillation electrode positioned along the surface of the lead.
+      <br/>
+      The atrial lead has a rate-sensing electrode positioned at a distal end of the atrial lead.
+      <br/>
+      In an additional embodiment, the atrial lead has at least two rate-sensing electrodes positioned along the peripheral surface of the atrial lead for rate-sensing.
+      <br/>
+      Other types of rate sensing electrodes are also considered appropriate to use with the present subject matter.
+      <br/>
+      Examples of other types of rate sensing electrodes include ring electrodes, both annular and semi-annular, as are known in the art.
+      <br/>
+      Rate sensing using the transvenous lead system can also be accomplished either through unipolar or bipolar sensing methods, as are known in the art.
+    </p>
+    <p num="33">
+      In one embodiment, the ventricular lead system has a single defibrillation electrode.
+      <br/>
+      When a single defibrillation electrode is present, the ICD uses unipolar sensing and defibrillation, as is known in the art.
+      <br/>
+      In one embodiment, a ventricular lead is implanted within a heart, where the rate sensing electrode and the defibrillation electrode are positioned within the right ventricular chamber.
+      <br/>
+      In an alternative embodiment, the ventricular lead has at least two defibrillation electrodes.
+      <br/>
+      When two defibrillation electrodes are present, the ICD system can preform bipolar sensing far-field (or morphology) sensing the cardiac action potentials.
+      <br/>
+      In bipolar sensing, cardiac action potentials are sensed between the two defibrillation electrodes, and defibrillation electrical shocks are delivered between the two defibrillation electrodes.
+      <br/>
+      The ICD system of the present subject matter can also use endocardial and patch electrodes as are known in the art.
+    </p>
+    <p num="34">
+      One example of an appropriate system is shown in FIG. 4.
+      <br/>
+      ICD 400 is coupled to ventricular lead 410 and atrial lead 420.
+      <br/>
+      In one embodiment, the ventricular lead 410 includes a first defibrillation electrode 412, a second defibrillation electrode 414 and a ventricular pacing/sensing electrode 418.
+      <br/>
+      In an additional embodiment, the atrial lead 420 includes an first atrial pacing/sensing electrode 422 and a second atrial pacing/sensing electrode 424.
+      <br/>
+      Additionally, the housing of the ICD 400 is optionally used as an electrical pole for unipolar sensing and pulse delivery.
+    </p>
+    <p num="35">
+      The ICD 400 senses cardiac signals, and when a tachyarrhythmic event is detected electronic circuitry within the ICD 400 analyze the sensed arrhythmic complexes (i.e., the cardiac signals) of the arrhythmic event.
+      <br/>
+      During the analysis, the ICD compares cycle lengths between contiguous pairs of cardiac events, or contractions, sensed from a first chamber of the heart (e.g. either the ventricular or the atrial chamber) to contiguous pairs of cardiac events, or contractions, sensed, or occurring, in the second chamber of the heart.
+      <br/>
+      Based on the comparison, the ICD 400 is able to distinguish the conduction as either being antegrade or retrograde, and depending upon the ICD's classification of the arrhythmic event.
+    </p>
+    <p num="36">
+      Referring now to FIG. 5, there is shown one embodiment for discriminating physiologic 1:1 antegrade rhythms such as sinus tachycardia (ST) from pathologic 1:1 retrograde rhythms such as ventricular tachycardia (VT).
+      <br/>
+      One of the underlying concepts of the present subject matter is based on the observation that during cardiac rhythms characterized by 1:1 atrial-to-ventricular or ventricular-to-atrial association, the cycle length variations in the originating chamber are correlated to the cycle length variations in the responding chamber except for any accompanying delay in the conduction path.
+      <br/>
+      For example, delay in the conduction path may be due to the actions of the AV-node or other structures of the conduction path.
+      <br/>
+      The resulting observation is that the cycle length variations (R--R or A--A intervals) in the origination chamber are statistically correlated with the cycle length variations in the responding chamber.
+    </p>
+    <p num="37">
+      At 500, atrial cycle lengths are determined from sensed atrial contractions, where an atrial cycle length is a time between a first atrial contraction and a second atrial contraction successively sensed.
+      <br/>
+      Also at 500, ventricular cycle lengths are determined from sensed ventricular contractions, where a ventricular cycle length is a time between a first ventricular contraction and a second ventricular contraction successively sensed.
+      <br/>
+      The sensed ventricular contractions are also analyzed for the occurrence of a tachycardia episode at 510.
+    </p>
+    <p num="38">
+      When a tachycardia episode is encountered, the sensed cardiac complexes are analyzed at 520 to determine if there is a one-to-one association of atrial contractions to ventricular contractions.
+      <br/>
+      In one embodiment, to determine whether there is a one-to-one association of atrial contractions to ventricular, the system compares the sensed atrial and ventricular rates to determine if the rates are in a one-to-one association.
+      <br/>
+      In an additional embodiment, atrial and ventricular cycle length pairs are excluded if either differs from the previous cycle lengths by larger than a predetermined threshold value.
+      <br/>
+      In one embodiment, the predetermined threshold value is approximately 10% of mean cycle lengths.
+      <br/>
+      If the difference in cycle length values is lager than the predetermined threshold this is typically indicative of undersensing or oversensing by the system and the value is not considered in the one-to-one determination.
+    </p>
+    <p num="39">
+      When there is not a one-to-one association, the tachycardia episode is analyzed and treated at 530 by other known protocols and methods.
+      <br/>
+      However, when a one-to-one association is detected, atrial cycle lengths are paired with the ventricular cycle lengths in the antegrade direction and in the retrograde direction at 540.
+      <br/>
+      As the atrial cycle lengths and the ventricular cycle lengths are paired, an antegrade correlation coefficient and a retrograde correlation coefficient are calculated at 550.
+    </p>
+    <p num="40">
+      At 560, the tachycardia event is classified as occurring in either an antegrade direction or in a retrograde direction depending upon which correlation coefficient has the larger value.
+      <br/>
+      If the conduction is in the antegrade direction, then absolute value of the antegrade correlation coefficient will be greater than the absolute value of the retrograde correlation coefficient.
+      <br/>
+      Alternatively, the tachycardia event is classified as occurring in the retrograde direction when the absolute value of the retrograde correlation coefficient is greater then the absolute value of the antegrade correlation coefficient.
+      <br/>
+      In one embodiment, a test statistic is constructed and used to determine if the two correlation coefficients, draw from samples of sizes n1 and n2 respectively, differ significantly from each other.
+      <br/>
+      If the correlation coefficient in one direction is significantly larger than that in the other direction, the rhythm can be classified.
+      <br/>
+      In one embodiment, sample sizes, n1 and n2, are predetermined values in the range of 10 to 1000, where 10 is an appropriate sample size.
+    </p>
+    <p num="41">
+      The correlation coefficients are then compared to determine if these two correlation coefficients are statistically different.
+      <br/>
+      In one embodiment, a Fisher Z transformation is used to determined if the correlation coefficients are statistically different.
+      <br/>
+      Based on the result of the statistical analysis, the one-to-one tachycardia episode is classified as either a sinus tachycardia or a ventricular tachycardia using the correlation coefficient that is closer to 1.
+      <br/>
+      Therefore, the CCIC can determine the origin and the conduction direction of the tachyarrhythmia using the antegrade correlation coefficient and the retrograde correlation coefficient.
+      <br/>
+      This information can then be used in making therapy determinations for the patient.
+    </p>
+    <p num="42">
+      Referring now to FIG. 6, there is shown an embodiment of a block diagram of an ICD 600 similar to ICD 400 shown in FIG. 4.
+      <br/>
+      The ICD 600 includes control circuitry 602 which receives one or more cardiac signals from the heart 430 (FIG. 4) and under predetermined conditions delivers electrical energy to the heart 430.
+    </p>
+    <p num="43">
+      In one embodiment, the control circuitry 602 is a programmable microprocessor-based system, with a microprocessor 604 and a memory circuit 606, which contains parameters for various pacing and sensing modes and stores data indicative of cardiac signals received by the control circuitry 602.
+      <br/>
+      The control circuitry 602 includes terminals labeled with reference numbers 608, 610, 612, 614 and 616 for connection to the electrodes attached to the surface of the ventricular lead 410 and the atrial lead 420.
+      <br/>
+      In the present embodiment, the first defibrillation electrode 412 is coupled to terminal 608 through a first electrically insulated conductor provided within the ventricular lead 410.
+      <br/>
+      The second defibrillation electrode 414 is coupled to terminal 610 through a second electrically insulated conductor provided within the ventricular lead 410.
+      <br/>
+      The ventricular pacing/sensing electrode 418 on the ventricular lead 410 is coupled to terminal 612 through a third electrically insulated conductor provided within the ventricular lead 410.
+      <br/>
+      Finally, the first atrial pacing/sensing electrode 422 and the second atrial pacing/sensing electrode 424 are coupled to terminals 614 and 616, respectively, by electrically insulated conductors provided within the atrial lead 420.
+    </p>
+    <p num="44">
+      The control circuitry 602 is encased and hermetically sealed in a housing 620 suitable for implanting in a human body.
+      <br/>
+      In one embodiment, the housing 620 is made of titanium, however, other biocompatible housing materials as are known in the art may be used.
+      <br/>
+      A connector block 624 is additionally attached to the housing 620 to allow for the physical and the electrical attachment of the ventricular lead 410, the atrial lead 420 and the electrodes to the ICD 600 and the encased control circuitry 602.
+    </p>
+    <p num="45">
+      Sense amplifier 626 is coupled to the control circuitry 602, and is electrically coupled to terminal 608, 610 and 612 to allow for cardiac signals to be sensed between the ventricular pacing/sensing electrode 418 and second defibrillation electrode 414 or between the ventricular pacing/sensing electrode 418 and the housing 620 of the ICD 600.
+      <br/>
+      The output of the sense amplifier 626 is connected to a ventricular contraction detector 630.
+      <br/>
+      In one embodiment, these components serve to sense and amplify ventricular contractions, for example by sensing ventricular R-waves, and apply signals indicative thereof to microprocessor 604.
+      <br/>
+      Among other things, the microprocessor 604 responds to the ventricular contraction detector 630 by providing pacing signals to a pace output circuit 632 via bus 634, as needed according to the programmed pacing mode.
+      <br/>
+      In one embodiment, the pace output circuit 632 then provides output pacing signals to terminals 610 and 612.
+    </p>
+    <p num="46">
+      Sense amplifier 640 is coupled to the control circuitry 602, and is electrically coupled to terminal 614 and 616 to sense cardiac signals between the first atrial pacing/sensing electrode 422 and the second atrial pacing/sensing electrode 424.
+      <br/>
+      The output of the sense amplifier 640 is connected to an atrial contraction detector 646.
+      <br/>
+      In one embodiment, these components serve to sense and amplify atrial contractions, for example by sensing atrial P-waves, and apply signals indicative thereof to microprocessor 604.
+      <br/>
+      Among other things, the microprocessor 604 can respond to the atrial contraction detector 646 by providing pacing signals to the pace output circuit 632 via bus 634, as needed according to the programmed pacing mode.
+      <br/>
+      Pace output circuit 632 provides output pacing signals to terminals 614 and 616.
+    </p>
+    <p num="47">
+      The first defibrillation electrode 412, the second defibrillation electrode 414 and the housing 620 are coupled to a cardioversion/defibrillation output circuit 650 to provide pulses of either cardioversion or defibrillation electrical energy to the terminals 610 or 608 and the housing 620 under the control of the microprocessor 604.
+      <br/>
+      Power to the ICD 600 is supplied by an electrochemical battery 654 that is housed within the ICD 600.
+    </p>
+    <p num="48">
+      The control circuitry 600 further includes a cardiac data analyzing circuit 660, which is coupled to the microprocessor 604 and the memory circuit 606 via bus 634.
+      <br/>
+      In one embodiment, the cardiac data analyzing circuit 660 determines, or calculates, atrial cycle lengths from the sensed atrial contractions.
+      <br/>
+      In addition to determining atrial cycle lengths, the cardiac data analyzing circuit 660 also determines ventricular cycle lengths from the sensed ventricular contractions.
+      <br/>
+      Finally, the cardiac data analyzing circuit 660 analyzes ventricular contractions for the occurrence of a tachycardia episode, where the circuit is able to detect tachycardia episodes that have a one-to-one association of atrial contractions to ventricular contractions.
+    </p>
+    <p num="49">
+      When a tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions is detected, the atrial cycle lengths and the ventricular cycle lengths are paired by a cycle length pairing circuit 664.
+      <br/>
+      The cycle length pairing circuit 664 is coupled to the control circuitry 602 via the bus 634.
+      <br/>
+      The cycle length pairing circuit 664 receives the atrial and ventricular cycle lengths from the cardiac data analyzing circuit 660 and pairs the atrial cycle lengths with the ventricular cycle lengths.
+      <br/>
+      In one embodiment, the cycle length pairing circuit 664 pairs the atrial and ventricular cycle lengths in both the antegrade and retrograde directions.
+      <br/>
+      Additionally, the cycle length pairing circuit 664 can also pair the atrial and ventricular cycle lengths in a super-antegrade and a super-retrograde direction as will be described in greater detail later.
+    </p>
+    <p num="50">
+      From the paired atrial and ventricular cycle lengths, the cycle length pairing circuit 664 determines a retrograde correlation coefficient for the atrial cycle lengths paired with the ventricular cycle lengths paired in the retrograde direction, and an antegrade correlation coefficient for the atrial cycle lengths paired with the ventricular cycle lengths in the antegrade direction.
+      <br/>
+      Additionally, the cycle length pairing circuit 664 can determine a super-retrograde and super-antegrade correlation coefficient, as will be discussed in greater detail later.
+      <br/>
+      The microprocessor 604 then compares the values of the correlation coefficients (retrograde vs. antegrade and/or super-retrograde vs. super-antegrade) and classifies the tachycardia episode based on the values of the correlation coefficients.
+      <br/>
+      In one embodiment, the microprocessor classifies the tachycardia episode as occurring in the retrograde direction when the retrograde correlation coefficient is greater then the antegrade correlation coefficient.
+      <br/>
+      Alternatively, the microprocessor 604 classifies the tachycardia episode as occurring in the antegrade direction when the antegrade correlation coefficient is greater then the retrograde correlation coefficient.
+    </p>
+    <p num="51">
+      In an additional embodiment, once a tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions has been identified, the microprocessor controls the pacing output circuit 632 to deliver a series of pacing pulses at a predetermine timing to the terminal connectors 608 and 610.
+      <br/>
+      Alternatively, once a tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions has been identified, the microprocessor controls the pacing output circuit 632 to deliver a series of pacing pulses at a predetermine timing to the terminal connectors 614 and 616.
+    </p>
+    <p num="52">
+      Electronic communication circuitry 668 is additionally coupled to the control circuitry 602 to allow the ICD 600 to communicate with an external controller 670.
+      <br/>
+      In one embodiment, the electronic communication circuitry 668 includes a data receiver and a data transmitter to send and receive and transmit signals and cardiac data to and from an external programmer 670.
+      <br/>
+      In one embodiment, the data receiver and the data transmitter include a wire loop antenna 672 to establish a radio frequency telemetric link, as is known in the art, to receive and transmit signals and data to and from the programmer unit 670.
+    </p>
+    <p num="53">
+      The correlation between atrial and ventricular cycle lengths using antegrade and retrograde pairings is relatively easy to see when the delay across the AV node is constant or nearly constant.
+      <br/>
+      However, FIG. 7 shows a typical property of a human AV node.
+      <br/>
+      It plots the AV conduction time versus the R--R interval.
+      <br/>
+      When the R--R intervals are large (i.e., lower heart rates, approximately 60 to 100 beats/minute) the AV conduction curve has a slope that approaches zero.
+      <br/>
+      In FIG. 7, this area is shown at 700.
+      <br/>
+      On the other hand, when the R--R interval is decreased (i.e., at faster heart rates), the slope of the AV conduction curve becomes more negative.
+      <br/>
+      The section of the AV curves where the slope is approximately -1 is shown as area 710 in FIG. 7.
+    </p>
+    <p num="54">
+      As the slope of the AV delay versus rate curve becomes negative, the delay required for an impulse to travel across the AV node gets longer and is more sensitive to the prematurity of the impulse.
+      <br/>
+      For example, at a R--R rate where the slope is -1, a contraction that occurs 10 msec prematurely (i.e., the R--R interval since the last contraction is 10 msec shorter than the average) will require an additional 10 msec to cross the AV node thus reaching the responding chamber at the same time it would have had the contraction occurred without prematurity.
+    </p>
+    <p num="55">
+      Even if the conduction was truly in the antegrade direction, this slope in the AV conduction curve would reduce the antegrade correlation coefficient so that both the antegrade and retrograde correlation coefficients would be small.
+      <br/>
+      The present invention deals with this problem by using a super-antegrade and super-retrograde pairing for the computations as described below.
+    </p>
+    <p num="56">
+      When the conduction through the AV node is constant (0 slope of AV conduction curve), any variation of cycle lengths in the atria are directly reflected by a similar (and correlated) cycle length variation in those same beats in the ventricles.
+      <br/>
+      However, when the AV conduction delay is inversely correlated cycle length (as when the AV conduction curve has a -1 slope), then the variations in the atria are no longer correlated with the variation of those same beats in the ventricles.
+      <br/>
+      That is why the correlation coefficient using the antegrade pairing is reduced.
+    </p>
+    <p num="57">
+      However, while it is not obvious, under the conditions of a -1 slope in the AV curve, variations in the atria cycle length are correlated with the ventricular cycle length variation of the NEXT beat rather than the same beat.
+      <br/>
+      Thus, in addition to the antegrade and retrograde pairing of atrial and ventricular cycle lengths, the invention also uses super-antegrade and super-retrograde pairings as described below.
+      <br/>
+      If the conduction is truly antegrade and the slope of the AV curve is -1, then the correlation coefficient using the super-antegrade pairing is expected to be approximately 1 while the correlation coefficients using the super-retrograde, antegrade, and retrograde pairing are all expected to be close to zero.
+    </p>
+    <p num="58">
+      FIG. 8 shows one embodiment of atrial cycle lengths and ventricular cycle lengths in the super-antegrade association.
+      <br/>
+      In one embodiment, the super-antegrade pairs consist of a comparison between a first atrial cycle length, as calculated from a first atrial contraction and a second atrial contraction immediately following the first atrial contraction, and a ventricular cycle length that is started from the action potential that caused the second atrial contraction of the first atrial cycle length.
+      <br/>
+      At 800 there is shown atrial cycle lengths, where 804 indicates the occurrence of atrial contraction.
+      <br/>
+      An atrial cycle length (or P--P-wave interval) constitutes the time between successive atrial contractions as indicated by 808.
+      <br/>
+      At 812 there are shown ventricular cycle lengths, where 816 indicates the occurrence of ventricular contraction.
+      <br/>
+      An ventricular cycle length (or R--R wave interval) constitutes the time between successive ventricular contractions as indicated by 820.
+    </p>
+    <p num="59">
+      When a tachyarrhythmia having a one-to-one atrial to ventricular cycle length is detected, atrial cycle lengths 808 are paired with and compared to ventricular cycle lengths 820 in the super-antegrade direction 826.
+      <br/>
+      When atrial cycle lengths 808 and ventricular cycle lengths 820 are paired in the super-antegrade direction, the atrial cycle length 808 is paired with the first full ventricular cycle length 820 started after the end of the atrial cycle length 808 being paired.
+      <br/>
+      An example of a super-antegrade pairing is shown by the enclosed area 830.
+    </p>
+    <p num="60">
+      In addition to pairing and comparing in the super-antegrade direction, the same atrial cycle lengths and ventricular cycle lengths can be paired and compared in the super-retrograde direction.
+      <br/>
+      For the super-retrograde pairs, a comparison is made between a first ventricular contraction and a second ventricular contraction, caused by a first R-wave event and a second R-wave event, respectively, and the time difference between a third R-wave event and a fourth R-wave event following the first and second R-wave events.
+      <br/>
+      For the super-retrograde direction, atrial cycle lengths are paired with ventricular cycle lengths that have ended before the start of the atrial cycle lengths they are being paired with.
+      <br/>
+      FIG. 9 shows one embodiment of a super-retrograde pairing of atrial and ventricular cycle lengths.
+      <br/>
+      At 900 there is shown atrial cycle lengths, where 904 indicates the occurrence of atrial contraction.
+      <br/>
+      The atrial cycle length is indicated by 908.
+      <br/>
+      At 912 there are shown ventricular cycle lengths, where 916 indicates the occurrence of ventricular contraction.
+      <br/>
+      The ventricular cycle length is indicated by 920.
+      <br/>
+      During the tachyarrhythmia displaying a one-to-one atrial to ventricular cycle length, atrial cycle lengths 908 can be paired with and compared to ventricular cycle lengths 920 in the super-retrograde direction 926.
+      <br/>
+      When atrial cycle lengths 908 and ventricular cycle lengths 920 are paired in the super-retrograde direction 926, the atrial cycle length 908 is paired with a ventricular cycle length 920 ending just prior to the start of the atrial cycle length being paired.
+      <br/>
+      An example of a pairing is shown by the enclosed area 930.
+    </p>
+    <p num="61">
+      Correlation coefficients are then calculated for the super-antegrade and the super-retrograde pairings, and these values are used in conjunction with the correlation coefficients from the antegrade and retrograde pairings made for the same sensed atrial and ventricular cycle lengths.
+      <br/>
+      Using the correlation coefficients calculated from these four comparisons allows for an improved classification of the cardiac arrhythmia as being either in the antegrade or retrograde direction.
+    </p>
+    <p num="62">
+      FIG. 10 shows one embodiment of a super-antegrade comparison.
+      <br/>
+      At 1000 there is shown atrial cycle lengths, where 1004 indicates the occurrence of atrial contraction.
+      <br/>
+      An atrial cycle length (or P--P-wave interval) constitutes the time between successive atrial contractions as indicated by 1008.
+      <br/>
+      At 1012 there are shown ventricular cycle lengths, where 1016 indicates the occurrence of ventricular contraction.
+      <br/>
+      An ventricular cycle length (or R--R wave interval) constitutes the time between successive ventricular contractions as indicated by 1020.
+      <br/>
+      In the present embodiment, the atrial chamber is the originating chamber.
+    </p>
+    <p num="63">
+      AV delay intervals are also shown in FIG. 10 at 1024.
+      <br/>
+      As previously discussed the AV delay interval is the time the contractile wave takes to move through the AV node after being received from the originating chamber.
+      <br/>
+      By way of example only, and not in any limiting way, in FIG. 10 it is assumed that the heart is initially in a steady state with an atrial and ventricular rate of approximately 300 milliseconds. 1030 shows an atrial cycle length 1008 and a ventricular cycle length 1020 where the atrial cycle length and the responding ventricular cycle length is approximately 300 milliseconds.
+      <br/>
+      Also by way of example only, and not in any limiting way, during the steady state condition, the AV delay interval is also at a steady state condition.
+      <br/>
+      In the present embodiment, the AV delay interval is 50 milliseconds for atrial cycle lengths of approximately 300 milliseconds. 1034 show an AV delay interval of 50 milliseconds for atrial cycle lengths of approximately 300 milliseconds.
+    </p>
+    <p num="64">
+      As previously discussed, when the R--R-wave interval decreases (the heart rate increasing) the slope of the AV conduction curve may become more negative.
+      <br/>
+      As the slope becomes negative, the delay required for an impulse to travel across the AV node depends on the rate at which the node is being activated.
+      <br/>
+      When there is a premature contraction from the originating chamber, the resulting AV delay value is increased by a value that corresponds to the prematurity of the originating chamber.
+      <br/>
+      Likewise, when the contraction in the originating chamber causes the contraction cycle length to be longer than previously experienced, the AV delay value is decreased by approximately the same amount of time that the signal was early.
+      <br/>
+      As the slope of the AV conduction curve changes the values of the antegrade and retrograde correlation coefficients become less distinctive.
+      <br/>
+      The correlation coefficients from the super-antegrade and super-retrograde comparisons can then aid in making the determination between antegrade conduction and retrograde conduction.
+    </p>
+    <p num="65">
+      By way of example only and not by way of limitation, in FIG. 10 it is assumed that the slope of the AV conduction curve is approximately -1.
+      <br/>
+      Therefore, changes in the originating chamber will be reflected inversely in the AV node delay.
+      <br/>
+      At 1038, there is a change in the atrial cycle length time from 300 milliseconds to 295 milliseconds.
+      <br/>
+      As this is a decrease in the atrial cycle length time, the contractile wave (or action potential) from the atrial chamber arrives at the AV node 5 milliseconds earlier than the steady state time.
+      <br/>
+      As the signal has arrived 5 milliseconds too early, there is a delay in the AV node of 5 milliseconds.
+      <br/>
+      So the total time for the contractile wave to move through the AV node is now 55 milliseconds as shown at 1044.
+      <br/>
+      The result is that the next subsequent ventricular cycle length is faster by 5 milliseconds.
+      <br/>
+      This faster ventricular cycle length is shown at 1048.
+    </p>
+    <p num="66">
+      If the subsequent atrial cycle length is again faster than steady state (e.g., 290 milliseconds at 1050) there will be a inversely proportional delay through the AV node.
+      <br/>
+      So, for an atrial cycle length of 290 milliseconds at 1050 the delay through the AV node will be an additional 10 milliseconds bringing the total delay to 60 milliseconds as shown at 1052 (50 millisecond of the steady state delay plus the 10 millisecond additional delay).
+      <br/>
+      The result is that the next subsequent ventricular cycle length is faster by 10 milliseconds.
+      <br/>
+      This faster ventricular cycle length is shown at 1054.
+    </p>
+    <p num="67">
+      Alternatively, at 1058 there is a change in the atrial cycle length time from 300 milliseconds to 304 milliseconds.
+      <br/>
+      As this is an increase in the atrial cycle length time, the contractile wave (or action potential) from the atrial chamber arrives at the AV node 4 milliseconds later than the steady state time.
+      <br/>
+      As the signal has arrived 4 milliseconds later, there is a increase in the AV node delay of 4 milliseconds.
+      <br/>
+      So the total time for the contractile wave to move through the AV node is now 46 milliseconds as shown at 1060.
+      <br/>
+      The result is that the next subsequent ventricular cycle length is slower by 4 milliseconds.
+      <br/>
+      This slower ventricular cycle length is shown at 1064.
+    </p>
+    <p num="68">
+      Looking at the antegrade and retrograde pairings for the atrial and ventricular cycle lengths in FIG. 10, it is evident that the correlation for these pairings begins to decrease.
+      <br/>
+      For example, the antegrade pairing of the atrial cycle length and ventricular cycle length for 1030 will still be well correlated.
+      <br/>
+      However, the atrial cycle length at 1038 and its antegrade pair at 1068 are no longer as well correlated as before (e.g., atrial cycle length of 295 ms and ventricular cycle length of 300 ms).
+      <br/>
+      The same goes for the remainder of the atrial cycle lengths and ventricular cycle lengths paired in the antegrade direction pairs.
+      <br/>
+      However, as the antegrade correlation values being to decrease, the super-antegrade correlation values will remain approximately the same.
+      <br/>
+      For example, in the super-antegrade direction the atrial cycle length 1030 and the ventricular cycle length at 1068 are well correlated.
+      <br/>
+      Similarly, the atrial cycle length at 1038 and the ventricular cycle length at 1048 are well correlated.
+      <br/>
+      This trend continues for the remainder of the atrial and ventricular cycle lengths paired in the super-antegrade direction.
+      <br/>
+      Thus, correlation coefficients for the super-antegrade and the super-retrograde pairings can be useful to further augment the antegrade and retrograde correlation coefficients.
+    </p>
+    <p num="69">
+      FIG. 11 shows one embodiment of a super-retrograde comparison.
+      <br/>
+      At 1100 there is shown atrial cycle lengths, where 1104 indicates the occurrence of atrial contraction. 1108 shows an example of an atrial cycle length.
+      <br/>
+      At 1112 there are shown ventricular cycle lengths, where 1116 indicates the occurrence of ventricular contraction. 1120 shows an example of a ventricular cycle length.
+      <br/>
+      In the present embodiment, the ventricular chamber is the originating chamber.
+    </p>
+    <p num="70">
+      AV delay intervals are also shown in FIG. 11 at 1124.
+      <br/>
+      By way of example only, and not in any limiting way, in FIG. 11 it is assumed that the heart is initially in a steady state with an atrial and ventricular rate of approximately 300 milliseconds. 1130 shows an atrial cycle length 1108 and a ventricular cycle length 1120 where the ventricular cycle length and the responding atrial cycle length is approximately 300 milliseconds.
+      <br/>
+      Also by way of example only, and not in any limiting way, during the steady state condition, the AV delay interval is also at a steady state condition.
+      <br/>
+      In the present embodiment, the AV delay interval is 50 milliseconds for ventricular cycle lengths of approximately 300 milliseconds. 1134 show an AV delay interval of 50 milliseconds for ventricular cycle lengths of approximately 300 milliseconds.
+    </p>
+    <p num="71">
+      By way of example only and not by way of limitation, in FIG. 11 it is assumed that the slope of the AV conduction curve is approximately -1.
+      <br/>
+      Therefore, changes in the originating chamber will be reflected inversely in the AV node delay.
+      <br/>
+      At 1138, there is a change in the ventricular cycle length time from 300 milliseconds to 295 milliseconds.
+      <br/>
+      As this is a decrease in the ventricular cycle length time, the contractile wave (or action potential) from the ventricular chamber arrives at the AV node 5 milliseconds earlier than the steady state time.
+      <br/>
+      As the signal has arrived 5 milliseconds too early, there is a delay in the AV node of 5 milliseconds.
+      <br/>
+      So the total time for the contractile wave to move through the AV node is now 55 milliseconds as shown at 1144.
+      <br/>
+      The result is that the next subsequent atrial cycle length is faster by 5 milliseconds.
+      <br/>
+      This faster atrial cycle length is shown at 1148.
+    </p>
+    <p num="72">
+      If the subsequent ventricular cycle length is again faster than steady state (e.g., 290 milliseconds at 1150) there will be an inversely proportional delay through the AV node.
+      <br/>
+      So, for a ventricular cycle length of 290 milliseconds at 1150 the delay through the AC node will be an additional 10 milliseconds bringing the total delay to 60 milliseconds as shown at 1152 (50 millisecond of the steady state delay plus the 10 millisecond additional delay).
+      <br/>
+      The result is that the next subsequent atrial cycle length is faster by 10 milliseconds.
+      <br/>
+      This faster atrial cycle length is shown at 1154.
+    </p>
+    <p num="73">
+      Alternatively, at 1158 there is a change in the ventricular cycle length time from 300 milliseconds to 304 milliseconds.
+      <br/>
+      As this is an increase in the ventricular cycle length time, the contractile wave (or action potential) from the ventricular chamber arrives at the AV node 4 milliseconds later than the steady state time.
+      <br/>
+      As the signal has arrived 4 milliseconds later, there is an increase in the AV node delay of 4 milliseconds.
+      <br/>
+      So the total time for the contractile wave to move through the AV node is now 46 milliseconds as shown at 1160.
+      <br/>
+      The result is that the next subsequent atrial cycle length is slower by 4 milliseconds.
+      <br/>
+      This slower atrial cycle length is shown at 1164.
+    </p>
+    <p num="74">
+      Looking at the antegrade and retrograde parings for the atrial and ventricular cycle lengths in FIG. 11, it is evident that the correlation for these pairings begins to decrease.
+      <br/>
+      For example, the retrograde paring of the ventricular cycle lengths and atrial cycle lengths for 1130 will still be well correlated.
+      <br/>
+      However, the ventricular cycle length at 1138 and its antegrade pair at 1168 are no longer as well correlated as before (e.g., ventricular cycle length of 295 ms and atrial cycle length of 300 ms).
+      <br/>
+      The same goes for the remainder of the atrial cycle lengths and ventricular cycle lengths paired in the antegrade direction.
+      <br/>
+      However, as the retrograde correlation values begin to decrease, the super-retrograde correlation values will remain approximately the same.
+      <br/>
+      For example, in the super-retrograde direction, the ventricular cycle length 1130 and the atrial cycle length at 1148 are well correlated.
+      <br/>
+      This trend continues for the remainder of the atrial and ventricular cycle lengths paired in the super-retrograde direction.
+      <br/>
+      Thus, correlation coefficients for the super-antegrade and the super-retrograde pairings can be useful to further augment the antegrade and retrograde correlation coefficients.
+    </p>
+    <p num="75">
+      As described thus far, the present subject matter can use intrinsic variations in the originating and responding chambers.
+      <br/>
+      In one embodiment, a series of pacing pulses are delivered to the atrial chamber of the heart, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.
+      <br/>
+      In one embodiment, the predetermined frequency is variable, so that variability in the cycle lengths is introduced.
+      <br/>
+      As the pacing pulses are delivered with the predetermined frequency into the atrial chamber, cardiac signals, including cardiac complexes, from the ventricular chamber are sensed and analyzed to determine whether the variability is detected in the ventricular chambers.
+      <br/>
+      In one embodiment, the CCIC coefficient, as previously described, is used to determine whether the variability is detected in the responding chamber.
+      <br/>
+      In an alternative embodiment, the predetermined frequency is constant, so that essentially no variability in the cycle lengths is introduced.
+      <br/>
+      The CCIC coefficient is then used to determine what type of response is detected in the ventricular chamber.
+    </p>
+    <p num="76">
+      In an alternative embodiment, a series of pacing pulses are delivered to the ventricular chamber, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.
+      <br/>
+      In one embodiment, the predetermined frequency is variable, so that variability in the cycle lengths is introduced.
+      <br/>
+      As the pacing pulses are delivered with the predetermined frequency into the ventricular chamber, cardiac signals, including cardiac complexes, from the atrial chamber are sensed and analyzed to determine whether the variability is detected in the atrial chambers.
+      <br/>
+      In one embodiment, the CCIC coefficient, as previously described, is used to determine whether the variability is detected in the responding chamber.
+    </p>
+    <p num="77">
+      In an alternative embodiment, the predetermined frequency is constant, so that essentially no variability in the cycle lengths is introduced.
+      <br/>
+      The CCIC coefficient is then used to determine what type of response is detected in the atrial chamber.
+    </p>
+    <p num="78">
+      Referring now to FIG. 12, there is shown an additional embodiment for discriminating physiologic 1:1 antegrade rhythms such as sinus tachycardia (ST) from pathologic 1:1 retrograde rhythms such as ventricular tachycardia (VT).
+      <br/>
+      At 1200, atrial cycle lengths and ventricular cycle lengths are determined as previously discussed.
+      <br/>
+      The sensed ventricular contractions are analyzed for the occurrence of a tachycardia episode at 1210.
+      <br/>
+      When a tachycardia episode is encountered, the sensed cardiac complexes are analyzed at 1220 to determine if there is a one-to-one association of atrial contractions to ventricular contractions.
+      <br/>
+      In an additional embodiment, besides determining that there is a one-to-one rhythm occurring, the stability of the AV interval is also tested to determine whether it is below a threshold (AV associated).
+      <br/>
+      In one embodiment, when the AV intervals are found to be stable (i.e., constant), the rhythm is more likely an associated rhythm.
+    </p>
+    <p num="79">
+      In an additional embodiment, the atrial and ventricular cycle length pairs are checked by determining if they are within a predetermined error range.
+      <br/>
+      In one embodiment, the predetermined error range is approximately 10-50%, where 20% is an acceptable value.
+      <br/>
+      In an additional embodiment, atrial and ventricular cycle length pairs are excluded if either differs from the previous cycle lengths by larger than a predetermined threshold value.
+      <br/>
+      In one embodiment, the predetermined threshold value is in the range of approximately 5-20% where 10% is an acceptable value.
+    </p>
+    <p num="80">
+      When there is not a one-to-one association, the tachycardia episode is analyzed and treated at 1230 by other known protocols and methods.
+      <br/>
+      However, when a one-to-one association is detected, atrial cycle lengths are paired with the ventricular cycle lengths in the antegrade direction, the retrograde direction, the super-antegrade direction and the super-retrograde direction at 1240.
+      <br/>
+      As the atrial cycle lengths and the ventricular cycle lengths are paired, the antegrade correlation coefficient, the retrograde correlation coefficient, the super-antegrade correlation coefficient and the Super-retrograde correlation coefficient are calculated at 1250.
+    </p>
+    <p num="81">
+      At 1260, the tachycardia event is classified as occurring in either an antegrade direction or in a retrograde direction depending upon which correlation coefficient has the larger value as previously discussed.
+      <br/>
+      If a determination as to the direction cannot be made from the antegrade and retrograde correlation coefficients, the super-antegrade and super-retrograde correlation coefficients can be used in conjunction with the antegrade and retrograde correlation coefficients to make the determination.
+      <br/>
+      In one embodiment, when the correlation coefficients are not statistically different, then the super-antegrade and super-retrograde correlation coefficients are used to classify the direction of the tachycardia event.
+    </p>
+    <p num="82">
+      Referring now to FIG. 13, there is shown an additional embodiment for discriminating physiologic 1:1 antegrade rhythms such as sinus tachycardia (ST) from pathologic 1:1 retrograde rhythms such as ventricular tachycardia (VT).
+      <br/>
+      At 1300, atrial cycle lengths and ventricular cycle lengths are determined as previously discussed.
+      <br/>
+      The sensed ventricular contractions are analyzed for the occurrence of a tachycardia episode at 1310.
+      <br/>
+      When a tachycardia episode is encountered, the sensed cardiac complexes are analyzed at 1320 to determine if there is a one-to-one association of atrial contractions to ventricular contractions.
+    </p>
+    <p num="83">
+      When there is not a one-to-one association, the tachycardia episode is analyzed and treated at 1330 by other known protocols and methods.
+      <br/>
+      However, when a one-to-one association is detected, atrial timing difference values between pairs of successive atrial cycle lengths are determined at 1340.
+      <br/>
+      In one embodiment, atrial timing difference values are calculated by taking the atrial interval value of a second atrial interval and subtracting the atrial interval value of a first atrial interval, where the second atrial interval immediately follows the first atrial interval.
+    </p>
+    <p num="84">
+      FIG. 14 shows one embodiment of determining atrial timing difference values.
+      <br/>
+      At 1400, there is shown atrial cycle lengths, where 1404 indicates the occurrence of atrial contractions and the atrial cycle lengths are shown at 1408, 1410, 1412, 1414 and 1416.
+      <br/>
+      In one embodiment, atrial timing difference values are calculated by taking the difference between atrial cycle length 1410 and atrial cycle length 1408, the difference between atrial cycle length 1412 and atrial cycle length 1410, atrial cycle length 1414 and atrial cycle length 1412, and atrial cycle length 1416 and atrial cycle length 1414.
+    </p>
+    <p num="85">
+      In addition to determining atrial timing difference values, ventricular timing difference values are determined between pairs of successive ventricular cycle lengths.
+      <br/>
+      In one embodiment, ventricular timing difference values are calculated by taking the ventricular interval value of a second ventricular interval and subtracting the ventricular interval value of a first ventricular interval, where the second ventricular interval immediately follows the first ventricular interval.
+    </p>
+    <p num="86">
+      FIG. 14 shows one embodiment of determining ventricular timing difference values.
+      <br/>
+      At 1420, there is shown ventricular cycle lengths, where 1424 indicates the occurrence of ventricular contractions and the ventricular cycle lengths are shown at 1428, 1430, 1432, 1434 and 1436.
+      <br/>
+      In one embodiment, ventricular timing difference values are calculated by taking the difference between ventricular cycle length 1430 and ventricular cycle length 1428, the difference between ventricular cycle length 1432 and ventricular cycle length 1430, ventricular cycle length 1434 and ventricular cycle length 1432, and ventricular cycle length 1436 and ventricular cycle length 1434.
+    </p>
+    <p num="87">
+      Referring again to FIG. 13, the atrial timing difference values are then paired with the ventricular timing difference values in an antegrade direction at 1360.
+      <br/>
+      In one embodiment, atrial timing difference values paired with the ventricular timing difference values in an antegrade direction are shown at 1440 in FIG. 14. Atrial timing difference values are also paired with the ventricular timing difference values in a retrograde direction at 1370.
+      <br/>
+      In one embodiment, atrial timing difference values paired with the ventricular timing difference values in a retrograde direction are shown at 1450 in FIG. 14.
+    </p>
+    <p num="88">
+      As the atrial timing difference values are paired with the ventricular timing difference values, the antegrade correlation coefficient and the retrograde correlation coefficient are calculated at 1380.
+      <br/>
+      At 1390, the tachycardia event is classified as occurring in either an antegrade direction or in a retrograde direction depending upon which correlation coefficient has the larger value as previously discussed.
+      <br/>
+      In an additional embodiment, if a determination as to the direction cannot be made from the antegrade and retrograde correlation coefficients, super-antegrade and super-retrograde correlation coefficients are determined and used in conjunction with the antegrade and retrograde correlation coefficients to make the determination.
+      <br/>
+      In one embodiment, when the correlation coefficients are not statistically different, then the super-antegrade and super-retrograde correlation coefficients are used to classify the direction of the tachycardia event.
+    </p>
+    <p num="89">
+      In an additional embodiment, it is possible that some of the sensed cardiac signals display large differences in consecutive cycle lengths due to premature ventricular contractions or over/undersensing by the system.
+      <br/>
+      To prevent a few cardiac cycle lengths from dominating the correlation coefficient calculations, cycle lengths (or cycle length differences) are processed using a predetermined function to yield an integer value that represents the cycle length difference.
+      <br/>
+      In one embodiment, processing the cycle length differences includes assigning integer values to cycle length and/or cycle length differences having magnitudes that fall into predetermined ranges.
+      <br/>
+      In one embodiment, the cardiac data analyzing circuit is adapted to preform the predetermined function described herein.
+    </p>
+    <p num="90">
+      In one embodiment, each of the atrial timing difference values are assigned an atrial integer value as a function of the magnitude of each of the atrial timing difference value.
+      <br/>
+      Additionally, each of the ventricular timing difference values is assigned a ventricular integer value as a function of the magnitude of each of the ventricular timing difference values.
+      <br/>
+      In one embodiment, when the magnitude of the ventricular timing difference value and/or the magnitude of the atrial timing difference value is approximately zero, the difference is represented by a zero (0).
+      <br/>
+      Additionally, when the magnitude of the ventricular timing difference value and/or the magnitude of the atrial timing difference value exceeds a first predetermined threshold, the difference is represented by a +1 or a -1, where a +1 represents a positive values of the difference between the intervals and a -1 represents a negative value of the difference between the intervals.
+      <br/>
+      In an additional embodiment, when the magnitude of the timing difference value and/or the magnitude of the atrial timing difference value exceeds a second predetermined threshold, the difference is represented by a +2 or a -2, where a +2 represents a positive values of the difference between the intervals and a -2 represents a negative value of the difference between the intervals.
+      <br/>
+      In one embodiment, the first predetermined threshold is a programmable value in the range of approximately 2 to 10 ms, where 2 ms is an acceptable value.
+      <br/>
+      In an additional embodiment, the second predetermined threshold is a programmable value larger than approximately 10 ms.
+    </p>
+    <p num="91">
+      Referring to FIG. 15, there is shown one embodiment of cardiac cycle lengths useful in determining correlation coefficients.
+      <br/>
+      At 1500, there is shown atrial cycle lengths, where 1504 indicates the occurrence of atrial contractions and the atrial cycle lengths are shown at 1508.
+      <br/>
+      At 1510, there is shown ventricular cycle lengths, where 1512 indicates the occurrence of ventricular contraction and the ventricular cycle lengths are shown at 1516.
+    </p>
+    <p num="92">
+      In one embodiment, using the atrial cycle lengths 1508 the atrial timing difference values between pairs of successive atrial cycle lengths are -5 ms, -5 ms, 100 ms, 114 ms, -4 ms, and 0 ms.
+      <br/>
+      Similarly, using the ventricular cycle lengths 1516 the ventricular timing difference values between pairs of successive ventricular cycle lengths are 0 ms, -5 ms, -5 ms, 10 ms, 4 ms, and -4 ms.
+      <br/>
+      Prior to paring the atrial timing difference values with the ventricular timing difference values in the antegrade and retrograde directions, the atrial timing difference values are assigned an atrial integer value and the ventricular timing difference values are assigned a ventricular integer value.
+    </p>
+    <p num="93">
+      In one embodiment, assigning each of the atrial timing difference values an atrial integer value is done as a function of the magnitude of each of the atrial timing difference values.
+      <br/>
+      In addition, assigning each of the ventricular timing difference values an ventricular integer value is also done as a function of the magnitude of each of the ventricular timing difference values.
+      <br/>
+      As previously discussed, when the magnitude of the ventricular timing difference value and/or the magnitude of the atrial timing difference value is approximately zero, the difference is represented by a zero (0).
+      <br/>
+      When the magnitude of the ventricular timing difference value and/or the magnitude of the atrial timing difference value exceeds 2 ms, the difference is represented by a +1 or a -1.
+      <br/>
+      Finally, when the magnitude of the timing difference value and/or the magnitude of the atrial timing difference value exceeds 10 ms, the difference is represented by a +2 or a -2.
+    </p>
+    <p num="94">
+      In the present embodiment, the atrial timing difference values �-5 ms, -5 ms, 100 ms, 114 ms, -4 ms, 0 ms� are each assigned an atrial integer value �-1, -1, 2, 2, -1, 0�. Likewise, the ventricular timing difference values �0 ms, -5 ms, -5 ms, 10 ms, 4 ms, -4 ms� are each assigned a ventricular integer value �0, -1, -1, 2, 1, -1�. An antegrade correlation coefficient is then determined from the atrial integer values paired with the ventricular integer values in the antegrade direction, and a retrograde correlation coefficient is determined from the atrial integer values paired with the ventricular integer values in the retrograde direction.
+      <br/>
+      The tachycardia event is then classified as occurring in either an antegrade direction or in a retrograde direction depending upon which correlation coefficient has the larger value as previously discussed.
+    </p>
+    <p num="95">
+      In an additional embodiment, atrial and ventricular cycle lengths sensed during a tachycardia episode can often time change during the course of the tachycardiac episode.
+      <br/>
+      For example, the atrial and ventricular cycle lengths can become increasingly smaller as the tachycardia episode progresses.
+      <br/>
+      In this situation, the heart rate of the patient increases.
+      <br/>
+      When the cardiac cycle lengths in both the atria and ventricle steadily decrease, a meaningful association between the cycle lengths can not always be ascertained.
+    </p>
+    <p num="96">
+      In one embodiment, to restore a portion of this association an estimated value of a change in the series of the atrial cycle lengths and a series of the ventricular cycle lengths can be determined.
+      <br/>
+      In one embodiment, this can be predicted by calculating an atrial trend value in the atrial cycle lengths by fitting a first curve to a series of atrial cycle lengths.
+      <br/>
+      In one embodiment, the series of atrial cycle lengths are determined from the sensed atrial contractions.
+      <br/>
+      Additionally, a ventricular trend value is also calculated for the ventricular cycle lengths by fitting a second curve to a series of ventricular cycle lengths.
+      <br/>
+      In one embodiment, the series of ventricular cycle lengths are determined from the sensed ventricular contractions.
+      <br/>
+      In one embodiment, the first and second curves can be fit by applying linear regression, parabolic regression, or cubic regression.
+      <br/>
+      In one embodiment, the cardiac data analyzing circuit is adapted to perform these functions.
+    </p>
+    <p num="97">
+      Once the first and second curves have been fit, the atrial trend value and the ventricular trend value is determined from the slope of the first and second curve, respectively.
+      <br/>
+      Thus, the atrial and ventricular trend values are determined from the slope of the rate of change in the atrial and ventricular cycle lengths. subtracting the atrial trend value from each atrial cycle length.
+      <br/>
+      The atrial trend value and the ventricular trend value are then subtracted from the atrial cycle lengths and the ventricular cycle lengths, respectively, as they are determined.
+      <br/>
+      Correlation coefficients are then determined using the processed cycle lengths and used to classify the ventricular tachyarrhythmia.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>We claim:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method comprising:</claim-text>
+      <claim-text>sensing atrial contractions and ventricular contractions; determining atrial cycle lengths from sensed atrial contractions, where an atrial cycle length is a time between a first atrial contraction which starts the atrial cycle length and a second atrial contraction which ends the atria cycle length; determining ventricular cycle lengths from sensed ventricular contractions, where a ventricular cycle length is a time between a first ventricular contraction which starts the ventricular cycle length and a second ventricular contraction which ends the ventricular cycle length; analyzing ventricular contractions for the occurrence of a tachycardia episode that has a one-to-one association of atrial contractions to ventricular contractions; during the tachycardia episode that has the one-to-one association of atrial contractions to ventricular contractions, pairing the atrial cycle lengths with the ventricular cycle lengths, where for each of the atrial cycle lengths the atrial cycle length is paired with at least one ventricular cycle length started before the first atrial contraction of each of the atrial cycle lengths and paired with at least one ventricular cycle length started after the first atrial contraction of each of the atrial cycle lengths; determining a retrograde correlation coefficient for the atrial cycle lengths paired with the ventricular cycle lengths started before the first atrial contraction; determining an antegrade correlation coefficient for the atrial cycle lengths paired with the ventricular cycle lengths started after the first atrial contraction;</claim-text>
+      <claim-text>and classifying the tachycardia episode based on a comparison of the antegrade correlation coefficient and the retrograde correlation coefficient.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, including classifying the tachycardia episode as occurring in a retrograde direction when the retrograde correlation coefficient is greater then the antegrade correlation coefficient.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, including classifying the tachycardia episode as occurring in an antegrade direction when the antegrade correlation coefficient is greater then the retrograde correlation coefficient.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1, including determining the retrograde correlation coefficient and the antegrade correlation coefficient from a predetermined sample size of between 10 to 1000 paired atrial cycle lengths and ventricular cycle lengths.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1, including using a Fisher Z transformation to determine whether the antegrade correlation coefficient and the retrograde correlation coefficient are statistically different.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1, wherein during the tachycardia episode, delivering a series of pacing pulses to an atrial chamber, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 6, wherein the predetermined frequency is variable.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 6, wherein the predetermined frequency is constant.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 1, wherein during the tachycardia episode, delivering a series of pacing pulses to a ventricular chamber, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 9, wherein the predetermined frequency is variable.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 9, wherein the predetermined frequency is constant.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 1, comprising: during the tachycardia episode having a one-to-one association of atrial contractions to ventricular contractions, pairing the atrial cycle lengths with the ventricular cycle lengths, where the atrial cycle length is paired with a first ventricular cycle length started from an action potential causing the second atrial contraction of the atrial cycle length, and where the atrial cycle length is paired with a second ventricular cycle length, the second ventricular cycle length having ended before the first atrial contraction of the atrial cycle length; determining a super-antegrade correlation coefficient for the atrial cycle lengths paired the first ventricular cycle lengths; determining a super-retrograde correlation coefficient for the atrial cycle lengths paired with the second ventricular cycle lengths;</claim-text>
+      <claim-text>and classifying the tachycardia episode based on a comparison of the antegrade correlation coefficient, the retrograde correlation coefficient, the super-antegrade correlation coefficient and the super-retrograde correlation coefficient.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 12, including classifying the tachycardia episode as occurring in a retrograde direction when the super-retrograde correlation coefficient is greater then the super-antegrade correlation coefficient.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 12, including classifying the tachycardia episode as occurring in an antegrade direction when the super-antegrade correlation coefficient is greater then the super-retrograde correlation coefficient.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method of claim 12, including determining the super-retrograde correlation coefficient and the super-antegrade correlation coefficient from a predetermined sample size of between 10 to 1000 paired atrial cycle lengths and ventricular cycle lengths.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 12, including using a Fisher Z transformation to determine whether the super-antegrade correlation coefficient and the super-retrograde correlation coefficient are statistically different.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method of claim 12, wherein during the tachycardia episode, delivering a series of pacing pulses to an atrial chamber, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 17, wherein the predetermined frequency is variable.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method of claim 17, wherein the predetermined frequency is constant.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The method of claim 12, wherein during the tachycardia episode, delivering a series of pacing pulses to a ventricular chamber, where each pacing pulse of the series of pacing pulses is delivered at a predetermined frequency.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The method of claim 20, wherein the predetermined frequency is variable.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The method of claim 20, wherein the predetermined frequency is constant.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method of claim 1, wherein during the tachycardia episode that has the one-to-one association of atrial contractions to ventricular contractions; calculating an atrial trend value in the atrial cycle lengths by fitting a first curve to a series of atrial cycle lengths, where the series of atrial cycle lengths are determined from the sensed atrial contractions; calculating a ventricular trend value in the ventricular cycle lengths by fitting a second curve to a series of ventricular cycle lengths, where the series of ventricular cycle lengths are determined from the sensed ventricular contractions; subtracting the atrial trend value from each atrial cycle length;</claim-text>
+      <claim-text>and subtracting the ventricular trend value from each ventricular cycle length.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. A method, comprising: sensing atrial contractions and ventricular contractions; determining atrial cycle lengths from sensed atrial contractions; determining ventricular cycle lengths from sensed ventricular contractions; analyzing ventricular contractions for the occurrence of a tachycardia episode that has a one-to-one association of atrial contractions to ventricular contractions; during the tachycardia episode that has the one-to-one association of atrial contractions to ventricular contractions determining atrial timing difference values between pairs of successive atrial cycle lengths; determining ventricular timing difference values between pairs of successive ventricular cycle lengths; pairing the atrial timing difference values with the ventricular timing difference values in an antegrade direction; pairing the atrial timing difference values with the ventricular timing difference values in a retrograde direction; determining an antegrade correlation coefficient from the atrial timing difference values paired with the ventricular timing difference values in the antegrade direction; determining a retrograde correlation coefficient from the atrial timing difference values paired with the ventricular timing difference values in the retrograde direction;</claim-text>
+      <claim-text>and classifying the tachycardia episode based on a comparison of the antegrade correlation coefficient and the retrograde correlation coefficient.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The method of claim 24, including assigning each of the atrial timing difference values an atrial integer value as a function of the magnitude of each of the atrial timing difference values; assigning each of the ventricular timing difference values a ventricular integer value as a function of the magnitude of each of the ventricular timing difference values; determining the antegrade correlation coefficient from the atrial integer values paired with the ventricular integer values in the antegrade direction;</claim-text>
+      <claim-text>and determining the retrograde correlation coefficient from the atrial integer values paired with the ventricular integer values in the retrograde direction.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

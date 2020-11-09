@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185591B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185591</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185591</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25415377" extended-family-id="42113647">
+      <document-id>
+        <country>US</country>
+        <doc-number>08902148</doc-number>
+        <kind>A</kind>
+        <date>19970729</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08902148</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171949</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>90214897</doc-number>
+        <kind>A</kind>
+        <date>19970729</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08902148</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/24        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>24</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>715210000</text>
+        <class>715</class>
+        <subclass>210000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/24</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>24</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/24</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>24</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>6</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6185591</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Text edit system with enhanced undo user interface</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>EICK STEPHEN GREGORY</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5644692</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5644692</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>BANGS DAVID L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5802380</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5802380</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HUDSON DUNCAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5990906</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5990906</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>SHULMAN MATTHEW, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6026233</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6026233</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>KANERVA HEIKKI J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6026416</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6026416</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Quattro Pro Version 3.0 User's Guide, Borland International, pp. 12-17, 30-31, 513-520, 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>WordPerfect User's Guide Version 6.1, Novell Incorporated, pp. 634-635, Oct. 1994.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="3">
+          <text>Editable graphical histories, Kurlander, D; Feiner, S; IEEE Workshop on Visual Languages, 1988, pp. 127-134, Oct. 1988.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="4">
+          <text>WordPerfect 6.1 For Wondows For Dummies, 2nd Edition, IDG Books, pp. 23-25, 66, 1994.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corp.</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Baker, Bruce Raymond</name>
+            <address>
+              <address-1>Toronto, CA</address-1>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Storisteanu, Adrian</name>
+            <address>
+              <address-1>Toronto, CA</address-1>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Clay, A. Bruce</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Myers, Bigel, Sibley &amp; Sajovec, P.A.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hong, Stephen S.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Present edit systems having undo/redo functions are typically inflexible and do not permit users of computer systems to make use of these functions to the greatest advantage.
+      <br/>
+      The disclosed edit system having an enhanced undo interface, permits the selective display of undo elements intermixed in the edit view of the document with actual text elements and positioned relative to the affected text The user may select any undo element and selectively restore changes to the text.
+      <br/>
+      A series of user interface enhancements provide the user with a flexible set of capabilities for manipulating and assessing changes to a document.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <p num="1">The subject invention relates to computer applications in general and more particularly to improvements in the carrying out and performing editing functions on data in computer systems which include a central processing system, an interactive display terminal and a user input device.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      The ability of data processing systems to store, retrieve and manipulate data has been well exploited in the fields of text and program processing.
+      <br/>
+      Typically, an author uses an interactive display terminal to create a document or file by entering text or data into a data processing system which stores the data in electronic form and displays the text on a display device, such as a cathode ray tube.
+      <br/>
+      When the author is satisfied, the text is stored in the form of a file or document in a memory device which may be, for example, a magnetic disk store.
+      <br/>
+      In order to change or manipulate the data, the system must be adapted to perform editing functions.
+    </p>
+    <p num="3">
+      Editor programs are well known in the field of data processing.
+      <br/>
+      A file of data, which may hold numerical data, computer programs, or documentation such as text, as well as other information, is created by the user.
+      <br/>
+      If it is required to make a change to the file of data, it is necessary to use a program executed on the computer to access and allow the user to effect changes.
+      <br/>
+      Thus, editors are known to allow users to work with files and perform such activities as to create files, enter data, manipulate the screen display, make changes to the file, and transfer data between files.
+      <br/>
+      Use of editors involves the interactive changing, adding or deleting data from files.
+    </p>
+    <p num="4">
+      An example of a general text processing editor for use on the Call Management System (CMS) computer environment is the XEDIT program.
+      <br/>
+      Details of this program and the functions involved can be found in the XEDIT User's Guide Virtual Machine/Enterprise Systems Architecture, available from International Business Machines Corporation as publication no. SC24-5463. XEDIT is available for use on host computer systems.
+    </p>
+    <p num="5">
+      A publication describing editors in general, as well as the LEXX editor in particular, is entitled LEXX--A Programmable Structured Editor, by M. F. Cowlishaw, published in the IBM Journal of Research and Development, Volume 31, No. 1, Jan. 1987, pp. 73-80. This paper describes details of aspects and capabilities of various text editors and structured editors.
+      <br/>
+      LEXX is a general purpose editor that can edit both documentation and programs while making evident the structure of the data being edited.
+      <br/>
+      LEXX is an editor that can be programmed not only to understand and present the structure of data, but also to display those data in a variety of styles and colors in order to best match the data to the user and to the task being performed.
+      <br/>
+      The result is a programmable editor that can be customized to suit the data, the task and the needs of the user.
+    </p>
+    <p num="6">
+      A further development of the LEXX editor that can also be used to create and edit many kinds of data, including programs and documentation, is referred to as the Live Parsing Extensible Editor (LPEX), which runs on workstations.
+      <br/>
+      The live parsing capability permits external commands and edit macros attached to the editor to monitor changes made to a document as the user works with and manipulates the document.
+      <br/>
+      Details of the LPEX editor can be found in the LPEX User's Guide and Reference Manual, IBM publication no. SC09-2202, available from International Business Machines Corporation.
+    </p>
+    <p num="7">
+      Text editor applications are continually being improved and made more useful and friendly to the end user.
+      <br/>
+      For example, IBM Technical Disclosure Bulletin, Volume 34, No. 7A, Dec. 1991, pp. 20-25, describes a pause review technique for improving the interactivity of direct manipulation in a text editor application.
+      <br/>
+      During direct manipulation of a document, a user may be uncertain of the effects of certain changes.
+      <br/>
+      This publication describes a technique for providing visual feedback and the effect that the change may have on the document before a direct manipulation is completed.
+      <br/>
+      It provides for a conversation-like preview/reject/continue sequence so as to permit the user to actually see what is happening to the document before the changes are finally implemented.
+    </p>
+    <p num="8">
+      Word processors are application programs for use in personal computer environments and perform similar functions on a document as an editor, including the creating and editing of files.
+      <br/>
+      Examples of available word processor applications are WordPerfect (tm)  from Corel Corporation, Amipro (tm)  from Lotus Development Corporation and PFS WindowWorks (tm)  from Softkey International Inc.
+      <br/>
+      Typically, user manuals are provided by the respective suppliers or manufacturers of these programs which readily describe the capabilities and functions of the programs.
+    </p>
+    <p num="9">
+      In general, currently available editors and word processing programs, and in particular the programs referred to above, provide for the functions of making a change to a document or file, such as deleting a word, line or some portion of a file, and providing the capability to recover or "undo" the change that had been originally made in the process of editing the document.
+      <br/>
+      Some programs also provide the capability to "redo" a change that was previously undone.
+      <br/>
+      It has been found, however, that these capabilities are not sufficient for all editing applications and there is a need for a multi-level, random access undo function, thus providing increased usability.
+      <br/>
+      There is a further need for an improved graphical user interface so as to display all changes to a document in their context, and to be able to selectively accept them as desired.
+      <br/>
+      Thus, new functions to be implemented in computer programs for editing documents are needed, along with an associated meaningful graphical interface.
+    </p>
+    <p num="10">Present undo/redo implementations in edit systems provide neither adequate visual feedback of the available undoable changes, nor flexible capabilities to handle these and can be characterized by the following shortcomings or limitations:</p>
+    <p num="11">
+      the user can only proceed through changes sequentially, from the most recent change backwards, must apply these changes (undo/redo them) while going through the Undo Stack, consequently eliminating from the document edit view the latest, and any other, variant of the affected text;
+      <br/>
+      the user cannot selectively restore part of a global change;
+      <br/>
+      the user cannot see all the text that is going to be restored (e.g., in the case of a global change);
+      <br/>
+      the user cannot see a certain change in the context of the other changes carried out in the course of editing, before undoing it.
+    </p>
+    <p num="12">
+      This lack of user-friendliness prevents users from using undo/redo functions in complex editing situations where they could be most useful, as the user is virtually operating blindly while doing changes to a document.
+      <br/>
+      As a result the user is forced to retype, carefully rescan the document manually while looking for changes, keep and open in the edit system several versions of the document or parts of it for reference, or similar unproductive alternatives, resulting in loss of time and productivity.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="13">
+      It is an object of the present invention to provide an edit system having an enhanced undo interface which selectively displays undo elements (records), that is, previous states of the document text, intermixed in the edit view of the document with the actual text elements, and positioned relative to the affected text.
+      <br/>
+      The invention allows the user to display selected undo elements that belong to one or more undo units (sets, or generations of changes), and selectively restore changes to the text.
+      <br/>
+      A series of user interface enhancements comprising visual indications, menu items, and key actions available in the enhanced edit system provide a rich and flexible set of capabilities to the user and to external command/edit macro writers to manipulate changes to the document.
+    </p>
+    <p num="14">
+      Another object of the invention is to allow the user to view, analyze, select specific undo unit elements and optionally restore changes selectively.
+      <br/>
+      For a line that underwent several modifications, the user can select any of those changes to be restored.
+    </p>
+    <p num="15">It is an object of the invention is to allow a user of an edit system to view and pick partial changes done in the context of a comprehensive (large-scope) document alteration, such as a global "find and replace" operation, and selectively restore the text in order to regress undesired text replaces.</p>
+    <p num="16">Another object of the invention is that, depending on the particular implementation in the enhanced edit system and the active mode of imbedding undo records, any changes being performed to the document text, including the processing of undo elements, may trigger a refresh of the undo elements imbedded in the document edit view.</p>
+    <p num="17">
+      Another object of the invention is to display attributes of the undo elements in the edit view such that they are clearly distinguished from the current text elements.
+      <br/>
+      The user can navigate easily between the undo elements selected, and zoom-in on one or more types of undo elements selected for display, and then zoom out to the surrounding context.
+    </p>
+    <p num="18">
+      Another object of the invention is to permit this enhanced undo interface to be implemented in addition to the conventional undo/redo options or commands currently implemented in edit systems.
+      <br/>
+      The described method does not affect the basic underlying mechanism of storing undo information in the edit system (either separate structures, or structures intermixed with the text elements), nor the processing of the regular undo/redo operations.
+    </p>
+    <p num="19">
+      According to one aspect of the present invention, there is provided an improved method implemented in a computer system, for editing a document containing text stored in and displayed by said computer system.
+      <br/>
+      The method comprises the steps of displaying the document incorporating a plurality of changes, displaying the document with all of the text along with the plurality of changes, selecting and "undoing" certain of said plurality of changes, and displaying and storing an edited document having certain changes implemented and the selected changes undone so that the resulting document has text corresponding to the undone changes along with the remaining plurality of changes.
+    </p>
+    <p num="20">
+      According to another aspect of the invention there is provided a programmed computer system to enable a user to edit a document containing text stored in and displayed by said computer system.
+      <br/>
+      The programmed computer system comprises means for a user to enter into the computer system a plurality of changes to the text of the document, means for displaying the document with all of the text along with the plurality of changes, means for selecting and undoing certain of said plurality of changes, and means for displaying and storing an edited document having certain changes implemented and the selected changes undone so that the final document has text corresponding to the undone changes along with the remaining plurality of changes.
+    </p>
+    <p num="21">According to a further aspect of the invention there is provided a computer program product comprising a computer usable medium having computer readable program code means embodied therein for causing the editing of a document containing text, the computer readable program code means in said computer program product comprises computer readable program code means for causing a computer to enter a plurality of changes to the text of the document, computer readable program code means for causing the document to be displayed on a monitor with the text along with the plurality of changes, computer readable program code means, in response to user inputs, for selecting and undoing certain of said plurality of changes, and computer readable program code means for displaying and storing an edited document having certain changes implemented and the selected changes undone so that the document has text corresponding to the undone changes along with the remaining plurality of changes.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="22">
+      The foregoing and other objects, aspects and advantages of the invention will be better understood from the following detailed description of the preferred embodiment of the invention with reference to the accompanying drawings in which:
+      <br/>
+      FIGS. 1A to 1E is a series of document images on a screen display illustrating a sample application of the invention; and
+      <br/>
+      FIG. 2 provides an overview of the main components of an edit system showing the implementation of the invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT OF THE INVENTION</heading>
+    <p num="23">
+      The disclosed invention as embodied in a method, computer system and computer program product, is particularly applicable to the live parsing extensible editor (LPEX) environment.
+      <br/>
+      Those skilled in the relevant art will appreciate that the invention is also suitable and relevant to various computer system environments, which are appropriately programmed in accordance with the features to be subsequently described, including use in conjunction with host computer systems such as VM/CMS operating systems and personal computer systems such as OS/2.RTM., AIX.RTM. and Windows.RTM. operating systems.
+    </p>
+    <p num="24">
+      The edit screen display depicting an application of the subject invention displays requested undo elements or records, intermixed with the affected text elements.
+      <br/>
+      User interface components of the screen provide for the selective display of the undo elements of one or more sets of changes to a document and provide for the undo or redo changes to be selectively made to the text.
+    </p>
+    <p num="25">
+      The present invention may be implemented in a computer application in addition to the regular undo options or commands that are currently implemented, including "undo change" which retrieves and undoes the changes in a most recent-earlier order, and "undo line change" which restores the current edit line of the document to its previous state.
+      <br/>
+      The subject invention displays the undo elements or changes intermixed in the edit view of the document on the screen with the affected text elements.
+      <br/>
+      It allows the user to view, analyze, select specific undo unit elements, and optionally undo the changes selectively.
+      <br/>
+      For a line that underwent several modifications, the user can select any of those changes to be undone.
+      <br/>
+      The invention allows the user to view and pick partial changes done in the context of a comprehensive, large-scope document alteration, such as a "global find and replace" operation, and selectively undo text replaces which have subsequently been found to be undesirable, for whatever reason.
+      <br/>
+      The invention provides that the display attributes of the undo elements in the edit view clearly distinguish them from the current text elements.
+      <br/>
+      The user is able to easily navigate between the undo elements selected and zoom in on all the undo elements selected for display and then zoom out to the surrounding related text.
+    </p>
+    <p num="26">
+      Reference to FIGS. 1A to 1E of the drawings will provide an example of a specific application of the invention.
+      <br/>
+      Each of the various screen displays depicted in FIGS. 1A to 1E have the format of a conventional user interface window display, generally indicated by the numeral designation 10, and includes such familiar components as title bar 11, menu bar 12, tool bar 13, status line 14 and document working area generally indicated as 15.
+      <br/>
+      FIG. 1A depicts the initial state of a document file which had been previously created and has been opened for editing purposes.
+      <br/>
+      This particular file is a C++ program source file.
+      <br/>
+      In order to illustrate this sample application of the invention, the user desires to perform the following examples of changes or editing operations on the displayed document:
+    </p>
+    <p num="27">
+      (A) add a comment before the last line of code (record 014) in order to explain the value returned by the function;
+      <br/>
+      (B) delete the instruction in record 012 which is deemed unnecessary, namely "block.setGraphicBundle(bundle);"
+      <br/>
+      (C) a global find-and-replace of all occurrences of "Colour" to "Color" so that the code conforms to the usage in the C++ libraries; and
+      <br/>
+      (D) modify the top comment in record 001 to indicate the changes carried out in the document.
+    </p>
+    <p num="28">These changes to the document can be entered into the computer and the document in any well known manner such as by use of a keyboard.</p>
+    <p num="29">
+      The term "record" as used herein refers to the lines or rows of text in the document and these are numbered along the left side of the window display 10 in the prefix area (16), as shown in FIGS. 1A to 1E. With the above described changes entered by the user, the new state of the document incorporating all of the entered plurality of changes is shown in FIG. 1B. It can be seen that the status line 14 in display 10 indicates that four changes were executed in the document, including a global change that affected several records.
+      <br/>
+      Thus there are four undo units recorded in the editor software.
+    </p>
+    <p num="30">The above changes are depicted in FIG. 1B as follows:</p>
+    <p num="31">Change (A) resulted in a new record 013;</p>
+    <p num="32">Change (B) resulted in deletion of record 012 from FIG. 1A so that previous record 013 is now record 012 in FIG. 1B;</p>
+    <p num="33">Change (C) resulted in changes to records 009, 010 and 011; and</p>
+    <p num="34">Change (D) resulted in a change to record 001.</p>
+    <p num="35">
+      All of the changes to the records are recorded in the edit system, and at this point these can be chosen to be displayed as inserted undo elements.
+      <br/>
+      These can be displayed, for example, by selecting a menu option "Show all changes".
+      <br/>
+      This results in the screen display as depicted in FIG. 1C. Thus, in FIG. 1C, all of the proposed changes are shown in highlighted format as records following the document text records in which changes have been made.
+      <br/>
+      Also shown in FIG. 1C of this example, the editor provides an indication of the type of the undo element shown in the edit view by way of designations in the prefix area towards the left of each record, as shown by reference 17, namely "c" for changed records, "d" for deletions and "i" for insertions.
+      <br/>
+      As can be seen, the undo elements are also highlighted in comparison to the text of the document.
+      <br/>
+      They generally refer to the text and/or location in the document immediately above or at their position.
+      <br/>
+      The changes that would result from their implementation into the text thus become readily apparent.
+    </p>
+    <p num="36">
+      The user now carries out a series of editing operations on the sample document in an effort to arrive at a final document.
+      <br/>
+      For the purposes of this example, the processing of undo elements is activated by a double right button mouse click or via a pop-up menu.
+      <br/>
+      With reference to FIG. 1D, the user performs the following operations:
+      <br/>
+      Click the right mouse button while pointing the cursor to the change "c" undo element below document record 010.
+      <br/>
+      This brings up a pop-up menu 18 with an item "Restore changed record".
+      <br/>
+      The user activates this selective record by clicking on it in order to restore the original statement since it was determined that "lineColour" was incorrectly modified to "lineColor" by the previously indicated global change (C) of "Colour" to "Color";
+      <br/>
+      In a similar manner, for change (B), restore the previously deleted statement by double clicking on the "d" (deletion) undo element above document record 012;
+      <br/>
+      As for change (D), double click on the "c" (change") element below record 001 so as to restore the original top comment in record 001; and
+      <br/>
+      Remove the display of the undo elements from the edit view by activating the appropriate pull-down menu, for example, menu item "Remove all undo elements" in the "Actions" pull-down, and then saving the final edited document.
+    </p>
+    <p num="37">FIG. 1E illustrates the resulting current and final state of the document in the edited view after all of the changes and selected undo elements as described above have been incorporated into the document.</p>
+    <p num="38">
+      A more detailed description of the implementation of the invention will now be provided.
+      <br/>
+      The present invention provides for a set of comprehensive enhancements to the user interface of an edit system for the processing of undo/redo elements, through the imbedding in the document edit view of undo elements intermixed with the document text.
+      <br/>
+      These enhancements include:
+      <br/>
+      menu actions;
+      <br/>
+      pop-up menu actions;
+      <br/>
+      key and mouse actions;
+      <br/>
+      font attributes and colors of the undo elements imbedded in the document view in order
+    </p>
+    <p num="39">
+      - to make them stand out from the regular text,
+      <br/>
+      - to clearly distinguish their type, and
+      <br/>
+      - to highlight a particular generation of changes;
+      <br/>
+      the marking of the undo elements in a separate area of the document view (such as the prefix area);
+      <br/>
+      fly-over help;
+      <br/>
+      context-sensitive help.
+    </p>
+    <p num="40">
+      One or more of these may be implemented by an edit system which embodies the subject invention.
+      <br/>
+      Also, certain capabilities may be made available in the external command/edit macro interface of the edit system, even if not made available in the basic user interface.
+    </p>
+    <p num="41">Edit System</p>
+    <p num="42">
+      With reference to FIG. 2 of the drawings, an overview of a high-level description of the main components of a typical edit system will be provided with particular reference to the implementation of the subject invention.
+      <br/>
+      The blocks shown in FIG. 2 are intended to pictorially represent the functions performed by the code in an edit system to support the subject invention, as well as data structures maintained for the documents being edited.
+      <br/>
+      The control code is generally referred to in various blocks in FIG. 2 by reference numeral 20 and the components of the data structures by reference numeral 21.
+      <br/>
+      The various components in the edit system will now be briefly described to the extent needed to provide a context for the subject invention.
+    </p>
+    <p num="43">
+      Dealing first with the components of control code 20, Edit Control 22 is responsible for the instantiation and management of the various components of the edit system.
+      <br/>
+      It processes the edit system internal commands.
+      <br/>
+      It handles the binding of internal commands or external commands and edit macros to menu items, key actions, mouse actions, etc.
+      <br/>
+      When an action is received, it invokes the command bound to it (if any).
+    </p>
+    <p num="44">
+      Text Processing component 23 handles the loading of documents into the Edit Buffer 29 of the edit system, all the text editing operations and the formatting of the text, and the saving of the document.
+      <br/>
+      It records changes to the document in the Undo Stack 31 for subsequent undo and redo.
+      <br/>
+      Edit Buffer 29 and Undo Stack 31 temporarily store the documents and changes to the documents during processing.
+    </p>
+    <p num="45">
+      Imbedded Undo 24 handles the imbedding, removal, and processing of undo elements in the document edit view.
+      <br/>
+      This is the component of the edit system by which the main aspects of the subject invention will be implemented as will be more fully described.
+    </p>
+    <p num="46">
+      The Graphical User Interface control 25 controls the document edit view and builds and renders the edit view.
+      <br/>
+      Interface control 25 manages the display attributes of the rendered elements.
+      <br/>
+      It can show the document Edit Buffer 29 selectively (zoom in/out), by only including in the view those elements whose visibility matches the current settings.
+    </p>
+    <p num="47">
+      External Commands/Macros Interface 26 controls the interface to external commands and edit macros, including live (incremental) parsers.
+      <br/>
+      Interface 26 loads and runs external commands and macros.
+      <br/>
+      It records committed changes into a stack for subsequent processing by any live parser attached to the edit system.
+    </p>
+    <p num="48">
+      As part of the data structure 21 of the edit system, edit control structure 27 represents the global data for controlling the edit system.
+      <br/>
+      Document control structure 28 contains information to control the operations on a document in the edit system, and as is illustrated pictorially in FIG. 2, there are a plurality of these controls created, one for each document.
+      <br/>
+      Edit buffer 29 comprises a linked list of all the elements for a particular document as further described with reference to element structure 30.
+      <br/>
+      Classes are defined for a document, that broadly classify element types in the document.
+      <br/>
+      Classes are used to filter out elements from the view, and are used by the parsers or external commands to interpret the edit buffer on contents at various degree of detail.
+      <br/>
+      Each element can belong to one or more classes.
+    </p>
+    <p num="49">
+      Element structure 30 represents the elements that make up the edit buffer 29 and include TEXT elements, SHOW elements and the combination of TEXT and SHOW elements.
+      <br/>
+      TEXT elements are the contents of the document loaded in the edit system.
+      <br/>
+      The display attributes for each character are usually set by the tokenizer of a live parser attached to the edit system.
+      <br/>
+      SHOW elements are the elements that are created for the purpose of display only: error and status messages, imbedded undo records.
+      <br/>
+      The display attributes are set separately for SHOW elements.
+      <br/>
+      They are protected from regular editing, and are not saved into the document file.
+      <br/>
+      For a combination of TEXT and SHOW elements, the SHOW display attributes take precedence, but the element may be edited and it is saved in the document.
+      <br/>
+      An element structure contains
+      <br/>
+      the text contents
+      <br/>
+      the corresponding prefix area contents
+      <br/>
+      formatting flags and display attributes
+      <br/>
+      the type (e.g., TYPE_DELETION for an imbedded DELETION undo SHOW element)
+      <br/>
+      class information.
+    </p>
+    <p num="50">
+      Undo structure 32 within Undo Stack 31 consists of a linked list of undo records created as changes take place to the document during the edit session, while undo recording is enabled.
+      <br/>
+      There is a structure 32 for each document being processed in the edit system.
+      <br/>
+      The information stored depends on the type of change, and the particular edit system.
+      <br/>
+      Undo records are of three basic types:
+      <br/>
+      INSERTION--records the insertion of elements in the Edit Buffer
+      <br/>
+      DELETION--records the deletion of elements
+      <br/>
+      CHANGE--records changes to the contents of the document.
+    </p>
+    <p num="51">
+      Complex operations will create a series of the above undo records.
+      <br/>
+      For example, a block move will create a series of DELETION and INSERTION undo records that all belong to one undo unit.
+      <br/>
+      An undo unit records a set (generation) of changes in the document.
+      <br/>
+      It comprises all the data necessary to undo an entire edit operation performed on the text, from one character change in one text record, to all the changes done in the context of one global change operation.
+    </p>
+    <p num="52">View control structure 33 comprises data related to the control of an edit view for one document in an edit system window and includes fonts defined for the view, view's size, format of its displayed prefix area, the required visibility of elements (for filtering/zooming in), screen fields for the document view consisting of the particular area of the edit buffer that displays.</p>
+    <p num="53">It is believed that the above descriptions of the components of the control code and data structures of an edit system provides sufficient understanding for one skilled in the art of edit systems to be able to fully appreciate further aspects of the implementation of the invention which will now be described.</p>
+    <p num="54">Imbedding Undo Elements</p>
+    <p num="55">
+      In an edit system which embodies the subject invention there are several ways to display undo elements in the edit view of the document, provided by menu items and/or in the undo dialog (panel) that cycles through the modifications performed to the document contents.
+      <br/>
+      They allow the user a choice of options to view, in the context of the current state of the document, certain sets of changes that were carried out in the edit session and consist of:
+    </p>
+    <p num="56">
+      Show all changes--imbeds all the stored undo elements (the entire Undo Stack) to the edit view of the document.
+      <br/>
+      The latest undo unit displays with highlighted attributes.
+    </p>
+    <p num="57">Show changes for line--imbeds all the stored undo elements that refer to the line on which the cursor (entry point) is positioned.</p>
+    <p num="58">
+      Show/hide undo unit--incrementally adds or removes a single undo unit, as the user cycles through the changes via the undo/redo dialog or menu items.
+      <br/>
+      The latest undo unit displays with highlighted attributes.
+    </p>
+    <p num="59">In accordance with the present invention, the views of a document for which undo elements are shown in an edit system, have several of their menus and actions in the menu bar or tool bar respectively, updated with options to embed and manipulate imbedded undo elements.</p>
+    <p num="60">
+      (1) "Actions" menu options to process the imbedded undo elements include:
+      <br/>
+      Select all undo elements
+      <br/>
+      Deselect all undo elements
+      <br/>
+      Restore selected undo elements
+      <br/>
+      Remove selected undo elements
+      <br/>
+      Remove all undo elements
+    </p>
+    <p num="61">
+      Select all undo elements--selects for subsequent processing all the undo elements imbedded in the document view.
+      <br/>
+      The user may then deselect particular undo elements.
+    </p>
+    <p num="62">Deselect all undo elements--deselects all the imbedded undo elements.</p>
+    <p num="63">
+      Restore selected undo elements--processes all the imbedded undo elements currently selected in the document view.
+      <br/>
+      This restores changes to the affected current document text.
+    </p>
+    <p num="64">
+      Remove selected undo elements--removes from the document view all the selected imbedded undo elements.
+      <br/>
+      This does not affect the contents of the document.
+    </p>
+    <p num="65">
+      Remove all undo elements--removes all the imbedded undo elements from the document view, which is then restored to its previous state--undo elements-related menus are removed, action keys restored, etc.
+      <br/>
+      This option does not affect the contents of the document.
+    </p>
+    <p num="66">
+      (2) "View" menu options to filter (zoom-in on) the imbedded undo elements include:
+      <br/>
+      Insertions
+      <br/>
+      Deletions
+      <br/>
+      Changes
+    </p>
+    <p num="67">Insertions--only display INSERTION imbedded undo elements.</p>
+    <p num="68">Deletions--only display DELETION imbedded undo elements.</p>
+    <p num="69">Changes--only display CHANGE imbedded undo elements.</p>
+    <p num="70">
+      When activating one or more of these choices, the document view is collapsed to only display undo elements, and only of the selected type(s) (if there are any).
+      <br/>
+      The user is shown an overview of the particular changes carried out on the document in the edit session.
+      <br/>
+      The user can move the cursor (insertion point) to a particular imbedded undo element and zoom-out (restore normal display of the entire document and all the imbedded undo elements) for the context of the change.
+    </p>
+    <p num="71">
+      (3) "Locate" (sub)menu options to navigate between the imbedded undo elements include:
+      <br/>
+      Edit
+      <br/>
+      - Locate
+    </p>
+    <p num="72">
+      -  Next undo element
+      <br/>
+      -  Previous undo element
+    </p>
+    <p num="73">Next undo element--move cursor to the next imbedded undo element (if any) in the document edit view.</p>
+    <p num="74">Previous undo element--move cursor to the previous imbedded undo element (if any).</p>
+    <p num="75">
+      Accelerators are also set up by the invention for selected menu options, and other key combinations can be set up to process individual undo elements.
+      <br/>
+      For example, double-clicking with the mouse on an undo element in a view of such a document will be set to process it (i.e., restore the particular change to the text).
+    </p>
+    <p num="76">Similarly, fly-over help for additional information when the cursor hovers over imbedded undo elements (e.g., showing the type of change indicated by the particular undo element); any prefix area of each record in the edit view is enlarged to accommodate an indication as to the type of the imbedded undo elements; appropriate menu items are added to the document edit views pop-up menu (e.g., for the particular imbedded undo element at the cursor, for its processing, for general and particular help on imbedded undo elements); context-sensitive help is upgraded to present help on undo elements.</p>
+    <p num="77">Imbedded Undo Elements in the Edit System</p>
+    <p num="78">
+      The invention provides that undo elements are inserted into the edit view as special lines, assigned the SHOW display and edit attributes, and set the edit system class UNDO.
+      <br/>
+      These elements are protected from regular editing and are not regularly saved with the file.
+    </p>
+    <p num="79">
+      An element that is both a regular TEXT and a SHOW element (for imbedded undo elements of type INSERTION), is treated appropriately as either TEXT or SHOW, depending on the edit system function handling it.
+      <br/>
+      Such an element will display with SHOW display attributes, but will be saved normally with the rest of the document, and will not be read-only (protected from editing).
+    </p>
+    <p num="80">
+      The running row number displayed on the status line in a conventional edit system, and queriable by external commands and macros, is not directly affected in the existing interface.
+      <br/>
+      Therefore, the user still refers to records in the document text by their real record numbers, and the external "view" of the document seen by an external command/edit macro through the existing interface is not affected.
+    </p>
+    <p num="81">The edit system UNDO class also allows external commands or tools attached to the edit system to distinguish the undo elements from regular text, and optionally process them.</p>
+    <p num="82">
+      Imbedded undo elements, like the undo records saved by the edit system in the course of the edit session, are of three types, depending on the type of text modification represented:
+      <br/>
+      INSERTION
+      <br/>
+      DELETION
+      <br/>
+      CHANGE.
+    </p>
+    <p num="83">
+      This undo type indication is stored in the imbedded undo elements, via three corresponding flag bits, which may appear in combination in certain cases:
+      <br/>
+      TYPE_INSERTION
+      <br/>
+      TYPE_DELETION
+      <br/>
+      TYPE_CHANGE.
+    </p>
+    <p num="84">
+      An undo element in the view of a document is displayed differently from the regular text elements, so that it is easily visible in the file.
+      <br/>
+      The type of undo element is reflected in the foreground and background colors, and attributes (e.g. bold, italics) of the (user-settable) display fonts:
+      <br/>
+      FONT_INSERTION
+      <br/>
+      FONT_DELETION
+      <br/>
+      FONT_CHANGE.
+    </p>
+    <p num="85">
+      A particular generation of changes, usually the latest added to the view or processed, is reflected in a variation to the display attributes (e.g., a different nuance of the colors above, and/or the addition of the bold attribute) to the imbedded undo elements it comprises:
+      <br/>
+      FONTHIGHLIGHT_INSERTION
+      <br/>
+      FONTHIGHLIGHT_DELETION
+      <br/>
+      FONTHIGHLIGHT_CHANGE.
+    </p>
+    <p num="86">
+      Each undo element refers:
+      <br/>
+      to the text or undo element immediately above it;
+      <br/>
+      to the text element to which it belongs, in the case of INSERTION undo elements; or
+      <br/>
+      to the location in the document immediately above it, in the case of DELETION undo elements.
+    </p>
+    <p num="87">
+      The "View" menu is updated to provide zoom-in on the undo elements.
+      <br/>
+      This is achieved by setting a view visibility parameter to the UNDO edit system class, which in combination with the type of the undo element will exclude from the display all the elements for which the UNDO edit system class is not set, and all the undo elements of other types.
+      <br/>
+      Other menu items, key actions, mouse actions, etc. are set for the document edit view showing imbedded undo elements.
+    </p>
+    <p num="88">The new menu items and key combinations are set via the regular edit system interface to add menu items and accelerators, to set/reset action keys, etc.</p>
+    <p num="89">
+      Now that an overview and functional aspects of the subject invention have been introduced and described, pseudo code will now be presented and described for implementing the functions and routines of the subject invention into the edit view of an edit system under the topic headings of (1) Imbedding Undo Elements, (2) Removing Imbedded Undo Elements, (3) Processing Imbedded Undo Elements, and (4) Other Routines.
+      <br/>
+      Terms used in this description have been previously introduced and described.
+    </p>
+    <p num="90">(1) Imbedding Undo Elements</p>
+    <p num="91">AddAllUndoUnits--ADD ALL UNDO UNITS</p>
+    <p num="92">
+      This routine adds all of the undo elements that comprise the Undo Stack, to the edit view of the document.
+      <br/>
+      clear all existing imbedded undo elements for all undo records in the Undo Stack
+      <br/>
+      - if in most recent undo unit
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT (highlight)
+      <br/>
+      - else
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="93">AddLineUndo--ADD ALL UNDO ELEMENTS FOR A TEXT LINE</p>
+    <p num="94">
+      This routine adds all of the undo elements that refer to a particular existing line of text, to the edit view of the document.
+      <br/>
+      remove all existing imbedded undo records for text line for all undo records in the Undo Stack
+      <br/>
+      - if undo record refers to current text line
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="95">AddUndoUnit--ADD UNDO UNIT</p>
+    <p num="96">
+      This routine adds the undo elements that comprise one particular undo unit, to the edit view of the document.
+      <br/>
+      The routine first scans the document view for previously-imbedded undo elements, and changes their highlight to that defined for older generations of undo
+    </p>
+    <p num="97">(1) Imbedding Undo Elements</p>
+    <p num="98">AddAllUndoUnits--ADD ALL UNDO UNITS</p>
+    <p num="99">
+      This routine adds all of the undo elements that comprise the Undo Stack, to the edit view of the document.
+      <br/>
+      clear all existing imbedded undo elements for all undo records in the Undo Stack
+      <br/>
+      - if in most recent undo unit
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT (highlight)
+      <br/>
+      - else
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="100">AddLineUndo--ADD ALL UNDO ELEMENTS FOR A TEXT LINE</p>
+    <p num="101">
+      This routine adds all of the undo elements that refer to a particular existing line of text, to the edit view of the document.
+      <br/>
+      remove all existing imbedded undo records for text line for all undo records in the Undo Stack
+      <br/>
+      - if undo record refers to current text line
+      <br/>
+      -  AddUndoElement--ADD UNDO ELEMENT
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="102">AddUndoUnit--ADD UNDO UNIT</p>
+    <p num="103">
+      This routine adds the undo elements that comprise one particular undo unit, to the edit view of the document.
+      <br/>
+      The routine first scans the document view for previously-imbedded undo elements, and changes their highlight to that defined for older generations of undo elements.
+      <br/>
+      It then iteratively invokes the function to add an undo element for all the undo elements that comprise the undo unit.
+      <br/>
+      Finally, the screen is rebuilt and refreshed.
+    </p>
+    <p num="104">
+      ResetUndoHighlight--UNHIGHLIGHT VIEW'S UNDO ELEMENTS for all undo elements in an undo unit
+      <br/>
+      -  AddUndoElement--ADD AN UNDO ELEMENT (highlight)
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="105">AddUndoElement--ADD UNDO ELEMENT</p>
+    <p num="106">
+      This routine adds one undo element to the edit view of a document.
+      <br/>
+      An optional highlight parameter, is used to highlight undo elements recently added or that belong to a particular (e.g., latest) undo unit.
+      <br/>
+      Processing here depends on the type of the undo record in the Undo Stack.
+    </p>
+    <p num="107">
+      The undo element is imbedded at a location in the Edit Buffer determined by the undo record in the Undo Stack, and its type.
+      <br/>
+      This is the location of the text element for an INSERTION undo record, the location after the text element for a CHANGE undo record, or the location that the undo record refers to for a DELETION undo record.
+      <br/>
+      Further, this location is adjusted to point in between any previously imbedded undo elements for the referenced document text or location.
+    </p>
+    <p num="108">
+      Parser trigger recording of committed changes is disabled during the insertion of undo elements.
+      <br/>
+      The insertion is not recorded in the Undo Stack of the document either.
+    </p>
+    <p num="109">
+      When the user edits a document text element that is also marked as an INSERTION imbedded undo element, beginning to type the modification opens a new undo unit in the edit system Undo Stack, which in turn may trigger an automatic refresh of the imbedded undo elements (in this example, a CHANGE undo element is added that contains the current text element before the change).
+      <br/>
+      This behavior depends on the particular implementation in the edit system and the active mode of imbedding undo records.
+    </p>
+    <p num="110">save original state of parser trigger recording</p>
+    <p num="111">disable parser trigger recording</p>
+    <p num="112">disable undo recording</p>
+    <p num="113">
+      if class UNDO not defined for context document
+      <br/>
+      InitializeViewForUndo--SET UP VIEW FOR UNDO ELEMENTS
+    </p>
+    <p num="114">
+      if INSERTION undo record
+      <br/>
+      determine and set the Edit Buffer location at the text element that the insertion undo record refers to
+      <br/>
+      type bits=TYPE_INSERTION
+      <br/>
+      append to its formatting attributes the SHOW display attributes
+      <br/>
+      if highlight
+      <br/>
+      - set FONTHIGHLIGHT_INSERTION
+      <br/>
+      else
+      <br/>
+      - set FONT_INSERTION
+    </p>
+    <p num="115">
+      else if DELETION undo record
+      <br/>
+      determine and set Edit Buffer location at the location that the deletion undo record refers to
+      <br/>
+      if any other undo element at this location reposition according to sequence of changes in Undo Stack
+      <br/>
+      insert undo element
+      <br/>
+      type bits=TYPE_DELETION
+      <br/>
+      set its formatting attributes to SHOW attributes
+      <br/>
+      if highlight
+      <br/>
+      - set FONTHIGHLIGHT_DELETION
+      <br/>
+      else
+      <br/>
+      - set FONT_DELETION
+    </p>
+    <p num="116">
+      else /* i.e., CHANGE undo record */
+      <br/>
+      determine and set Edit Buffer location following the text that the change undo record refers to
+      <br/>
+      if any other undo element at this location
+      <br/>
+      - reposition according to sequence of changes in Undo Stack
+      <br/>
+      if element at this location is not a TYPE_INSERTION imbedded undo element
+      <br/>
+      - insert undo element
+      <br/>
+      if element also indicates an INSERTION undo
+      <br/>
+      - set type bits=TYPE_INSERTION+TYPE_CHANGE
+      <br/>
+      else
+      <br/>
+      - type bits=TYPE_CHANGE
+      <br/>
+      set its formatting attributes to SHOW attributes
+      <br/>
+      if highlight
+      <br/>
+      - set FONTHIGHLIGHT_CHANGE
+      <br/>
+      else
+      <br/>
+      - set FONT_CHANGE
+    </p>
+    <p num="117">append class UNDO to the element's class bits</p>
+    <p num="118">set type indication in prefix area</p>
+    <p num="119">re-enable undo recording</p>
+    <p num="120">restore original state of parser trigger recording</p>
+    <p num="121">
+      if not called from another undo function
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="122">InitializeViewForUndo--Set Up View for Undo Elements</p>
+    <p num="123">
+      This routine prepares the document edit view for undo elements to be imbedded and is called when the first undo element is being added to the edit view.
+      <br/>
+      The routine defines a new UNDO class in the document scope to identify the undo elements for processing.
+      <br/>
+      It adds new menu items (and their accelerator keys) and corresponding action bindings to the current edit view, to allow user to view, navigate, process, and remove imbedded undo elements.
+    </p>
+    <p num="124">add class UNDO to document's defined classes</p>
+    <p num="125">
+      add "Select all undo elements"
+      <br/>
+      menu item and accelerator to the "Actions" pull-down, and
+    </p>
+    <p num="126">bind it to edit system's command SelectAllUndo</p>
+    <p num="127">
+      add "Deselect all undo elements"
+      <br/>
+      menu item and accelerator to the "Actions" pull-down, and
+    </p>
+    <p num="128">bind it to edit system's command DeselectAllUndo</p>
+    <p num="129">
+      add "Restore selected undo elements"
+      <br/>
+      menu item and accelerator to the "Actions" pull-down, and
+    </p>
+    <p num="130">bind it to edit system's command RestoreSelectedUndo</p>
+    <p num="131">
+      add "Remove selected undo elements"
+      <br/>
+      menu item and accelerator to the "Actions" pull-down, and
+    </p>
+    <p num="132">bind it to edit system's command RemoveSelectedUndo</p>
+    <p num="133">
+      add "Remove all undo elements"
+      <br/>
+      menu item and accelerator to the "Actions" pull-down, and
+    </p>
+    <p num="134">bind it to edit system's command RemoveAllUndo</p>
+    <p num="135">
+      add "Insertions"
+      <br/>
+      menu item and accelerator to the "View" pull-down, and
+    </p>
+    <p num="136">bind it to edit system's command ZoomonUndo TYPE_INSERTION</p>
+    <p num="137">
+      add "Deletions"
+      <br/>
+      menu item and accelerator to the "View" pull-down, and
+    </p>
+    <p num="138">bind it to edit system's command ZoomOnUndo TYPE_DELETION</p>
+    <p num="139">
+      add "Changes"
+      <br/>
+      menu item and accelerator to the "View" pull-down, and
+    </p>
+    <p num="140">bind it to edit system's command ZoomOnUndo TYPE_CHANGE</p>
+    <p num="141">
+      add "Next undo element"
+      <br/>
+      menu item and accelerator to the "Locate" (sub)menu, and
+    </p>
+    <p num="142">bind it to edit system's command NextUndoElement</p>
+    <p num="143">
+      add "Previous undo element"
+      <br/>
+      menu item and accelerator to the "Locate" (sub)menu, and
+    </p>
+    <p num="144">bind it to edit system's command PreviousUndoElement</p>
+    <p num="145">bind mouse actions to RestoreUndoElement</p>
+    <p num="146">set-up fly-over help for imbedded undo elements</p>
+    <p num="147">set-up prefix area for indication of type of imbedded undo element</p>
+    <p num="148">add call to PopupUndo to edit view's popup initialization binding</p>
+    <p num="149">add call to HelpUndo to the current contextual-help key binding</p>
+    <p num="150">define the FONT_xxx and FONTHIGHLIGHT_xxx display attributes</p>
+    <p num="151">ResetUndoHighlight--Unhighlight View's Undo Elements</p>
+    <p num="152">This routine restores the regular display attributes of the imbedded undo elements in the document view.</p>
+    <p num="153">
+      for all elements in document
+      <br/>
+      if UNDO element
+      <br/>
+      - if FONTHIGHLIGHT_xxx
+      <br/>
+      -  set corresponding FONT_xxx
+    </p>
+    <p num="154">
+      if not called from another undo function
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="155">(2) Removing Imbedded Undo Elements</p>
+    <p num="156">The routines below handles the removal of imbedded undo elements in a document from the document edit view.</p>
+    <p num="157">
+      Parser trigger recording is disabled during the removal of undo elements, in order to prevent unnecessarily triggering external live parsers during this operation.
+      <br/>
+      The resulting change to the Edit Buffer is not recorded in the Undo Stack of the document either.
+    </p>
+    <p num="158">
+      When the request to remove imbedded undo elements comes from a live parser attached to the edit system for the document, the selected imbedded undo elements are not immediately removed from the Edit Buffer, but are instead just marked for deletion.
+      <br/>
+      They will be actually deleted from the Edit Buffer following the call return from the live parser/external command, after all the pending lines have been processed by the said parser.
+      <br/>
+      This ensures edit buffer--parser synchronization, as otherwise the parse range initially determined by the parser would be continuously altered by the deletion of the undo elements.
+    </p>
+    <p num="159">RemoveAllUndo--Remove All Undo Elements</p>
+    <p num="160">This routine removes all the imbedded undo elements from the document edit view, and restores its original state (undoes the changes performed in InitializeViewForUndo).</p>
+    <p num="161">
+      for all elements in document
+      <br/>
+      if undo element
+      <br/>
+      - RemoveUndoElement--REMOVE UNDO ELEMENT
+    </p>
+    <p num="162">remove class UNDO from document's defined classes</p>
+    <p num="163">remove class UNDO from the editing-protection selection</p>
+    <p num="164">
+      remove "Select all undo elements", "Deselect all undo elements",
+      <br/>
+      "Restore selected undo elements", "Remove selected undo elements", and "Remove all undo elements" menu items and accelerators from the "Actions" pull-down
+    </p>
+    <p num="165">remove "Insertions", "Deletions", and "Changes" menu items and accelerators from the "View" pull-down</p>
+    <p num="166">remove "Next undo element" and "Previous undo element" menu items and accelerators from the "Locate" (sub)menu</p>
+    <p num="167">restore modified mouse actions</p>
+    <p num="168">remove fly-over help for imbedded undo elements</p>
+    <p num="169">restore prefix area format</p>
+    <p num="170">remove call to PopupUndo from edit view's popup initialization binding</p>
+    <p num="171">remove call to HelpUndo from the current contextual-help key binding</p>
+    <p num="172">rebuild view and refresh display</p>
+    <p num="173">RemoveSelectedUndo--Remove A Selection of Undo Elements</p>
+    <p num="174">This routine removes the selected imbedded undo elements from the edit view document.</p>
+    <p num="175">
+      for all selected elements in document
+      <br/>
+      if undo element
+      <br/>
+      - RemoveUndoElement--REMOVE UNDO ELEMENT
+    </p>
+    <p num="176">rebuild view and refresh display</p>
+    <p num="177">RemoveUndoElement--Remove Undo Element</p>
+    <p num="178">
+      This routine removes the specified imbedded undo element from the edit view document.
+      <br/>
+      Usually this is invoked by a higher-level function that either removes a processed undo element, or all those imbedded undo elements in the document view that belong to one particular undo unit, or that are of a certain type.
+      <br/>
+      If both TYPE_CHANGE and TYPE_INSERTION flag bits are set, the undo element will be treated as a CHANGE one.
+      <br/>
+      CHANGE and DELETION undo elements are deleted.
+      <br/>
+      An INSERTION undo element is restored to be a regular text element.
+    </p>
+    <p num="179">save original state of parser trigger recording</p>
+    <p num="180">disable parser trigger recording</p>
+    <p num="181">disable undo recording</p>
+    <p num="182">
+      if TYPE DELETION or TYPE_CHANGE flag bit set
+      <br/>
+      delete the element
+    </p>
+    <p num="183">
+      else if TYPE_INSERTION flag bit set
+      <br/>
+      /* i.e., here not both TYPE_CHANGE+TYPE_INSERTION flag bits set */
+      <br/>
+      remove the SHOW formatting attributes
+      <br/>
+      drop class UNDO from the element
+      <br/>
+      clear undo element type indication from prefix area
+    </p>
+    <p num="184">re-enable undo recording</p>
+    <p num="185">restore original state of parser trigger recording</p>
+    <p num="186">
+      if not called from another undo function
+      <br/>
+      rebuild view and refresh display
+    </p>
+    <p num="187">(3) Processing Imbedded Undo Elements</p>
+    <p num="188">RestoreSelectedUndo--Process A Selection of Undo Elements</p>
+    <p num="189">
+      This routine restores the changes indicated by the selected imbedded undo elements.
+      <br/>
+      Where several selected imbedded undo records refer to changes to the same text element, only the most recent change is restored.
+    </p>
+    <p num="190">
+      for all selected elements in document
+      <br/>
+      if undo element
+      <br/>
+      - RestoreUndoElement--RESTORE UNDO ELEMENT
+    </p>
+    <p num="191">rebuild view and refresh display</p>
+    <p num="192">RestoreUndoElement--Restore Undo Element</p>
+    <p num="193">
+      This routine restores the referenced text element or location in the document, according to the type of the imbedded undo element, effectively undoing the particular change.
+      <br/>
+      The text element is restored, and the currently affected text is added to the undo buffer in the regular manner.
+      <br/>
+      Note that processing an imbedded undo record in this manner is not a regular undo action, but rather a new change to the document.
+      <br/>
+      It gets added into the Undo Stack of the document like any other text change.
+    </p>
+    <p num="194">
+      The document edit view must now be updated in order to display the current state of the imbedded undo elements that presently refer to this text.
+      <br/>
+      Depending of the active mode of imbedding undo elements and the particular edit system implementation, the imbedded undo elements in the document edit view may be updated automatically as a result of restoring the undo element.
+    </p>
+    <p num="195">
+      if undo element
+      <br/>
+      if TYPE_CHANGE flag bit set
+      <br/>
+      - change referenced element with contents (text, prefix area, etc.) of the undo element
+      <br/>
+      - remove the processed undo element
+      <br/>
+      else if TYPE_INSERTION flag bit set
+      <br/>
+      /* i.e.here not both TYPE_CHANGE+TYPE_INSERTION flag bits set */
+      <br/>
+      make referenced element a regular text element (drop anything that has to do with imbedded undo record and SHOW element)
+    </p>
+    <p num="196">
+      else /* i.e., TYPE_DELETION flag bit set */
+      <br/>
+      insert an element at the referenced location with contents (text, prefix area, etc.) of the undo element
+      <br/>
+      remove the processed undo element
+    </p>
+    <p num="197">rebuild view and refresh display</p>
+    <p num="198">(4) Other Functions</p>
+    <p num="199">NextUndoElement--Go to the Next Imbedded Undo Element</p>
+    <p num="200">This routine moves the cursor position to the next (if any) undo element imbedded in the document edit view.</p>
+    <p num="201">
+      from current cursor position to end of document
+      <br/>
+      if an undo element
+      <br/>
+      - move cursor to this element
+      <br/>
+      - rebuild view and refresh display
+    </p>
+    <p num="202">PreviousUndoElement--Go to the Previous Imbedded Undo Element</p>
+    <p num="203">This routine moves the cursor position the previous (if any) undo element imbedded in the document edit view.</p>
+    <p num="204">
+      from current cursor position to start of document
+      <br/>
+      if an undo element
+      <br/>
+      - move cursor to this element
+      <br/>
+      - rebuild view and refresh display
+    </p>
+    <p num="205">HelpUndo--Give Help for Imbedded Undo Element</p>
+    <p num="206">This routine provides general help about undo elements and specific help for the type of undo element.</p>
+    <p num="207">
+      if cursor located on an undo element
+      <br/>
+      if help for type of undo registered with the edit system
+      <br/>
+      - create help instance
+      <br/>
+      - invoke help display
+      <br/>
+      - return
+    </p>
+    <p num="208">run original command bound to the contextual-help key</p>
+    <p num="209">ZoomOnUndo--Zoom in on Imbedded Undo Elements</p>
+    <p num="210">
+      This routine zooms in on (filters) undo elements in the document edit view.
+      <br/>
+      A parameter indicates what type(s) of undo elements should be toggled, added to, or removed from the display: INSERTION, DELETION, or CHANGE.
+    </p>
+    <p num="211">
+      When the document view screen fields are built, their visibility and, accordingly, their inclusion or exclusion from the current view, is determined based on their type, and the type(s) selected to display.
+      <br/>
+      ZoomOnUndo routine sets the new desired visibility flags, then calls to rebuild the view and refresh the display.
+    </p>
+    <p num="212">SelectAllUndo--Select All Undo Elements</p>
+    <p num="213">The routine selects all the undo elements in the document edit view.</p>
+    <p num="214">
+      for all elements in document
+      <br/>
+      if undo element
+      <br/>
+      - select element
+    </p>
+    <p num="215">DeselectAllUndo--Deselect All Undo Elements</p>
+    <p num="216">This routine deselects all the undo elements in the document edit view.</p>
+    <p num="217">
+      for all elements in document
+      <br/>
+      if undo element
+      <br/>
+      - deselect element
+    </p>
+    <p num="218">PopupUndo--Initialize Popup Menu</p>
+    <p num="219">
+      This routine adds any menu items related to imbedded undo elements to a popup window ready to display.
+      <br/>
+      If both TYPE_CHANGE and TYPE_INSERTION flag bits are set, the undo element will be treated as a CHANGE one.
+    </p>
+    <p num="220">
+      if cursor on undo element
+      <br/>
+      add "Remove undo element" menu item, and
+      <br/>
+      bind it to edit system's command RemoveUndoElement
+    </p>
+    <p num="221">
+      if TYPE_CHANGE flag bit set
+      <br/>
+      add "Restore changed record" menu item, and
+      <br/>
+      bind it to edit system's command RestoreUndoElement
+    </p>
+    <p num="222">
+      if TYPE_INSERTION flag bit set
+      <br/>
+      add "Restore inserted record" menu item, and
+      <br/>
+      bind it to edit system's command RestoreUndoElement
+    </p>
+    <p num="223">
+      else /* i.e., TYPE_DELETION flag bit set */
+      <br/>
+      add "Restore deleted record" menu item, and
+      <br/>
+      bind it to edit system's command RestoreUndoElement
+    </p>
+    <p num="224">From the provisions of the above pseudo code and accompanying descriptions, the building, developing and creating actual code to implement the previously described routines and functions in an edit system in order to carry out the subject invention is believed to be well within the skill and abilities of a competent programmer and particularly one familiar with edit systems.</p>
+    <p num="225">
+      It should be readily understood that the foregoing description is only illustrative of the invention and in particular is only a preferred embodiment of the invention.
+      <br/>
+      Various alternatives and modifications can be devised by those skilled in the art without departing from the spirit of the invention.
+      <br/>
+      Accordingly, the present invention is intended to embrace all such alternatives, modifications and variations which fall within the scope of the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>An improved method implemented in a programmed computer system for editing a document containing initial text stored in and displayed by said computer system, comprising the steps of:</claim-text>
+      <claim-text>displaying the document; accepting user input to define a sequence of changes to the initial text of the document; obtaining user input so as to select a subset of the sequence of changes to the text of the document; displaying the document with said subset of the sequence of changes; selecting and undoing changes in the subset of the sequence of changes irrespective of the sequence in which the changes to the initial text of the document were made; implementing changes in the sequence of changes which are not selected and undone to provide an edited document;</claim-text>
+      <claim-text>and displaying and storing the edited document and the selected changes undone so that the stored document has text corresponding to the undone changes along with the remaining sequence of changes.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method as described in claim 1 wherein the step of selecting and undoing changes in the subset of the sequence of changes results in at least one of said changes being undone.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method as described in claim 1 wherein said selected ones of the sequence of changes to the document are displayed in highlighted format in comparison to the initial text of the document.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A method according to claim 1, wherein the subset of the sequence of changes comprise changes associated with a cursor location in the document.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A method according to claim 1, wherein the subset of the sequence of changes comprise all of the sequence of changes.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method according to claim 1, wherein the subset of the sequence of changes comprise changes having a common undo type.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A method according to claim 6, wherein the undo types are selected from the group comprising insertion changes, deletion changes and change changes.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method according to claim 6, wherein the step of obtaining user input so as to selects a subset of the sequence of changes to the text of the document comprises the steps of: obtaining user input as to a common undo type;</claim-text>
+      <claim-text>and selecting all of the changes in the sequence of changes having the common undo type.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A programmed computer system to enable a user to edit a document containing initial text stored in and displayed by said computer system, comprising: means for a user to enter into the computer system a plurality of changes to the initial text of the document so as to provide a sequence of changes; means for selecting a subset of the sequence of changes; means for displaying the document with the subset of the sequence of changes; means for selecting and undoing changes in the subset of the sequence of changes irrespective of the sequence in which the changes to the initial text of the document were made; means for implementing changes in the sequence of changes which are not selected and undone so as to provide an edited document;</claim-text>
+      <claim-text>and means for displaying and storing the edited document and the selected changes undone so that the stored document includes text corresponding to the undone changes along with the remaining plurality of changes.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A system according to claim 5, wherein the subset of the sequence of changes comprise changes from a generation of changes.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A system according to claim 5, wherein the subset of the sequence of changes comprise changes associated with a cursor location in the document.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A system according to claim 5, wherein the subset of the sequence of changes comprise changes having a common undo type.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A method according to claim 12, wherein the undo types are selected from the groups comprising insertion changes, deletion changes and change changes.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A method according to claim 12, wherein the means for selecting a subset of the sequence of changes comprises: means for obtaining user input as to a common undo type;</claim-text>
+      <claim-text>and means for selecting all of the changes in the sequence of changes having the common undo type.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A computer program product comprising: a computer usable medium having computer readable program code means embodied therein for causing the editing of a document containing initial text, the computer readable program code means in said computer program product comprising:</claim-text>
+      <claim-text>- computer readable program code means for causing a computer to enter a plurality of changes to the initial text of the document so as to provide a sequence of changes to the document; - computer readable program code means for selecting a subset of the sequence of changes; - computer readable program code means for causing the document to be displayed on a monitor with the subset of the sequence of changes; computer readable program code means, in response to user inputs, for selecting and undoing changes in the subset of the sequence of changes displayed on the monitor irrespective of the sequence in which the changes to the initial text of the document were made; computer readable program code means for implementing changes in the sequence of changes which are not selected and undone so as to provide an edited document;</claim-text>
+      <claim-text>and computer readable program code means for displaying and storing the edited document and the selected changes undone so that the stored document has text corresponding to the undone changes along with the remaining plurality of changes.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A computer program product according to claim 7, wherein the subset of the sequence of changes comprise changes from a generation of changes.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A computer program product according to claim 15, wherein the subset of the sequence of changes comprise changes associated with a cursor location in the document.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A computer program product according to claim 15, wherein the subset of the sequence of changes comprise changes having a common undo type.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A computer program product according to claim 18, wherein the undo types are selected from the groups comprising insertion changes, deletion changes and change changes.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A computer program product according to claim 18, wherein the computer readable program code means for selecting a subset of the sequence of changes comprises: computer readable program code means for obtaining user input as to a common undo type;</claim-text>
+      <claim-text>and computer readable program code means for selecting all of the changes in the sequence of changes having the common undo type.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

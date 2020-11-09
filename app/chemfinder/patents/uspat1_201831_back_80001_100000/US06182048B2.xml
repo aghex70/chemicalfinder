@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182048B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182048</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182048</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22730640" extended-family-id="42108804">
+      <document-id>
+        <country>US</country>
+        <doc-number>09197755</doc-number>
+        <kind>A</kind>
+        <date>19981123</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09197755</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165360</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>19775598</doc-number>
+        <kind>A</kind>
+        <date>19981123</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09197755</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06Q  40/08        20120101A I20160226RMEP</text>
+        <ipc-version-indicator>
+          <date>20120101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>Q</subclass>
+        <main-group>40</main-group>
+        <subgroup>08</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20160226</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>705004000</text>
+        <class>705</class>
+        <subclass>004000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06Q-040/08</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>Q</subclass>
+        <main-group>40</main-group>
+        <subgroup>08</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06Q-040/08</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>Q</subclass>
+        <main-group>40</main-group>
+        <subgroup>08</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>66</number-of-claims>
+    <exemplary-claim>33</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>11</number-of-figures>
+      <image-key data-format="questel">US6182048</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">System and method for automated risk-based pricing of a vehicle warranty insurance policy</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>FOX HENRY L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4766539</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4766539</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>LUCHS CHARLES M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4831526</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4831526</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>DETORE ARTHUR W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4975840</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4975840</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>WONG DAVID C</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5432904</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5432904</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>TYLER MAX C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5523942</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5523942</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>MCMILLAN ROBERT JOHN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5797134</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5797134</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>GRECO N J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5809478</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5809478</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>SCHREITMUELLER JAMES, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5839112</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5839112</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>FEDERAU DOUGLAS L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5839113</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5839113</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>PESCITELLI JOHN B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5845256</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5845256</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>WALKER JAY S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5884274</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5884274</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>PETERSON DONALD R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5884275</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5884275</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>ZIZZAMIA FRANK M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5893072</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5893072</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="14">
+          <text>APTE CHIDANAND VINAYAK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5970464</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5970464</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="15">
+          <text>SERETTI HARRY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5978776</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5978776</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="16">
+          <text>CHRYSALIS MANAGEMENT SERVICES, et al</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9506915</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9506915</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Lyons, Lois J., "New Jersey collision rates tied to repair costs," (abstract), National Underwriter: Property/Casualty, Dec. 21, 1984, p. 8.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>"What's a Nice Car Like You Doing with a Repair Tag Like This?" (abstract), Journal of American Insurance, vol. 66, pp. 16-17, 1985.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>L. H. Crow, "Reliability Analysis for Complex, Repairable Systems", Reliability and Biometry, Statistical Analysis of Lifelength, 1974, pp. 379-410.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>General Electric Company</orgname>
+            <address>
+              <address-1>Schenectady, NY, US</address-1>
+              <city>Schenectady</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>GENERAL ELECTRIC</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Osborn, Brock Estel</name>
+            <address>
+              <address-1>Niskayuna, NY, US</address-1>
+              <city>Niskayuna</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Hershey, John Erik</name>
+            <address>
+              <address-1>Ballton Lake, NY, US</address-1>
+              <city>Ballton Lake</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Goldman, Dave C.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Breedlove, Jill M.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Trammell, James P.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system and method for automated risk-based pricing of a vehicle-warranty insurance policy.
+      <br/>
+      A vehicle warranty policy request input source receives a request for a vehicle warranty policy.
+      <br/>
+      A processor receives the request and uses analytical tools in conjunction with an environmental database, a vehicle database, and a historical database, to service the request.
+      <br/>
+      The processor generates a price, conditions and terms for the request using a risk-based pricing algorithm.
+      <br/>
+      A system operator reviews the price, conditions and terms and either accepts or rejects the policy request.
+      <br/>
+      The system operator also has the option to adjust the price, conditions and terms derived from the processor.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">This invention relates generally to vehicle warranty insurance policy preparation and sale and more particularly to a system and method for automated risk-based pricing of such policies.</p>
+    <p num="2">
+      Typically, vehicle warranty insurance policy pricing, preparation and sale involve assessing the expected lifetime cost of an issued policy for a particular vehicle.
+      <br/>
+      The expected cost is generally determined as a function of several variables such as the make, model and year of the vehicle as well as the mileage of the vehicle at the time of submitting an application for a vehicle warranty insurance policy.
+      <br/>
+      This expected cost determination is mathematically complex and requires a sophisticated computational capability in order to perform the relevant calculations.
+    </p>
+    <p num="3">
+      In addition to being mathematically complex, the above-described expected cost determination is not very competitive for the vehicle warranty insurer.
+      <br/>
+      In particular, the current expected cost determination does not spread the costs uniformly amongst its customers, which results in low risk customers being overcharged, while high risk customers are undercharged.
+      <br/>
+      The market response is that the population of high risk customers will increase because they are undercharged and the population of low risk customers will decrease because they are overcharged.
+      <br/>
+      In order to remain competitive, the vehicle warranty insurer must try to readjust the prices charged to compensate for the undercharged high risk customers.
+      <br/>
+      Generally, the vehicle warranty insurer will try to readjust the average price charged by implementing a uniform price increase.
+      <br/>
+      This causes a decrease in the amount of high risk customers, however, readjusting the average price causes the low risk customer to be overcharged even more.
+      <br/>
+      Another alternative for the vehicle warranty insurer is to simply eliminate the entire population of high risk customers, however, this also results in a imbalance of low risk and high risk customers.
+      <br/>
+      The vehicle warranty insurer cannot be competitive with either of these approaches because it cannot grow its business.
+      <br/>
+      Eventually, the vehicle warranty insurer will lose its market share and may even go bankrupt.
+    </p>
+    <p num="4">
+      Therefore, there is a need for a system and method that can price vehicle warranty insurance policies that vary for low and high risk customers so that a vehicle warranty insurer can increase its business.
+      <br/>
+      Also, this system and method must be easy to use so that the vehicle warranty insurance personnel can understand and use it.
+    </p>
+    <heading>BRIEF SUMMARY OF THE INVENTION</heading>
+    <p num="5">
+      This invention is able to provide a system and method that can price vehicle warranty insurance policies that vary for low and high risk customers so that a vehicle warranty insurer can increase its business by using a risk-based pricing technique that takes into account other variables besides the make, model and year of the vehicle as well as the mileage of the vehicle, such as geographic and environmental factors where the vehicle is operated.
+      <br/>
+      For example, risk-based pricing might charge more for a significantly driven vehicle than a vehicle which has driven far fewer miles.
+      <br/>
+      Risk-based pricing might also charge more for a vehicle operated in one particular geographic region versus another region because of expected losses in that region.
+    </p>
+    <p num="6">
+      In a first embodiment of this invention there is a system for performing risk-based pricing of a vehicle warranty insurance policy.
+      <br/>
+      In this embodiment, there is a vehicle warranty policy request input source that receives a request for a vehicle warranty policy.
+      <br/>
+      A historical database contains a plurality of historical vehicle warranty policies.
+      <br/>
+      A plurality of databases each contain vehicle warranty related information.
+      <br/>
+      A processor, coupled to the vehicle warranty policy request input source, the historical database, and the plurality of databases, services the request for a vehicle warranty policy.
+      <br/>
+      The processor comprises a means for risk-based pricing the request and a means for suggesting terms and conditions for the risk-based priced policy.
+      <br/>
+      A vehicle warranty policy output source, coupled to the processor, outputs the serviced request for a vehicle warranty policy.
+    </p>
+    <p num="7">
+      In a second embodiment of this invention there is a method for performing risk-based pricing of a vehicle warranty insurance policy.
+      <br/>
+      In this embodiment, a request for a vehicle warranty policy is received.
+      <br/>
+      A plurality of historical vehicle warranty policies are stored.
+      <br/>
+      In addition, a plurality of vehicle warranty related information are stored.
+      <br/>
+      The vehicle warranty policy request is risk-based priced after being received.
+      <br/>
+      In addition, terms and conditions are suggested for the risk-based price vehicle warranty policy request.
+      <br/>
+      The price and the suggested terms and conditions for the vehicle warranty policy request are then outputted.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="8">
+      FIG. 1 shows a schematic of an automated risk-based pricing system for a vehicle warranty insurance policy according to this invention;
+      <br/>
+      FIG. 2 shows a block diagram of the processing architecture of the automated risk-based pricing system according to this invention;
+      <br/>
+      FIGS. 3a-3b shows examples of environmental data stored in the environmental database shown in FIG. 2 according to this invention;
+      <br/>
+      FIG. 4 shows a flow chart setting forth steps performed in a risk-based pricing algorithm used in this invention;
+      <br/>
+      FIGS. 5a-5b show an example of a history of vehicle warranty claims for the interior climate and comfort (ICC) system of a vehicle made on a nationwide state-by-state basis;
+      <br/>
+      FIG. 6 shows a plot of both the normal monthly maximum daily temperature and the claim percentages versus month for the state of Arizona;
+      <br/>
+      FIG. 7 shows a plot fitting a simple temperature model to the temperature data results shown in FIG. 6 according to this invention;
+      <br/>
+      FIG. 8 shows a plot of the predicted percentage of vehicle warranty insurance claims for the (ICC) system the in the state of Arizona by month according to this invention; and
+      <br/>
+      FIG. 9 shows a plot of historical 12 month/12,000 miles contract claims along with projected contract claims for vehicles having odometer mileage greater than 1000 miles and under 10 years old according to this invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="9">
+      FIG. 1 shows a schematic of an automated risk-based pricing system 10 for a vehicle warranty insurance policy according to this invention.
+      <br/>
+      The automated risk-based pricing system 10 includes a workstation or personal computer 12, a multi-task processor 14, and large volumes of data 16 stored in memory units.
+      <br/>
+      The computer 12 and the processor 14 are connected together by a network 18.
+      <br/>
+      The processor 14 receives a request for a vehicle warranty policy from a customer for a particular vehicle.
+      <br/>
+      The request comprises vehicle information from the customer such as the vehicle make, vehicle model, vehicle year, vehicle identification number (VIN), region in which the vehicle is operated and vehicle mileage.
+      <br/>
+      The processor 14 receives the request via an electronic channel such as the telephone 20 or the Internet 22.
+      <br/>
+      The processor 14 may also receive the request by the mail 24, wherein the vehicle information is entered into the system 10 by using conventional data entry techniques.
+      <br/>
+      In addition to using the mail, the customer may send a facsimile of the request.
+      <br/>
+      After receiving the request, the processor then services the request.
+      <br/>
+      Servicing the request comprises pricing a policy for the request and suggesting terms and conditions for the priced policy.
+    </p>
+    <p num="10">
+      A system operator working on the computer 12 reviews the priced policy and the suggested terms and conditions.
+      <br/>
+      If the suggested price and terms and conditions are acceptable, then the system operator offers the policy and communicates it to the customer.
+      <br/>
+      However, if the suggested price and terms and conditions are unacceptable, then the system operator has the option of overriding the priced policy and manually entering a modified policy.
+      <br/>
+      The system operator can then communicate this policy to the customer.
+      <br/>
+      Alternatively, the system operator may reject the suggested price and terms and conditions of the policy determined by the processor 44 and notify the customer.
+    </p>
+    <p num="11">
+      FIG. 2 shows a block diagram of the processing architecture of the automated risk-based pricing system 10.
+      <br/>
+      In the processing architecture there is a vehicle warranty policy request input source 26 that receives the request for a vehicle warranty policy.
+      <br/>
+      The vehicle warranty policy request input source 26 may be via the telephone 20, Internet 22 or mail 24.
+      <br/>
+      For requests submitted via the telephone, one alternative is to use a public switched telephone network (PSTN), wherein the vehicle warranty policy request is handled by a telephone operator upon successful connection.
+      <br/>
+      The telephone operator enters the vehicle information according to a menu or template.
+      <br/>
+      Another alternative for the telephone is to use a voice activated network wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a speech recognition system recognizes the aural responses generated from the customer.
+      <br/>
+      A third alternative is to use a voice mail network wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a recognition system recognizes responses entered by the customer through key buttons on a dual tone multi-frequency telephone(DTMF).
+    </p>
+    <p num="12">
+      The processor 14 receives the request from the input source 26 and uses a risk-based pricing algorithm obtained from an analytical tools unit 28 to determine a price for the request, as well as suggest terms and conditions for the priced policy.
+      <br/>
+      Using the risk-based pricing algorithm, which is described below in more detail, the processor 14 partitions the vehicle listed in the request into a plurality of components that comprise its assembly.
+      <br/>
+      For instance, some of the major systems that form the vehicle's assembly are the braking system, the engine system, the interior climate and comfort system, the electrical system, and the exhaust system.
+      <br/>
+      These systems are only illustrative of some the systems that comprise a vehicle and are not meant to limit this invention.
+    </p>
+    <p num="13">
+      The processor 14 determines a correlation between the failure rates of each of the plurality of components and costs to repair the failed component with vehicle warranty related information contained in the plurality of databases 16 using various evaluation applications obtained from the analytical tools unit 28.
+      <br/>
+      As shown in FIG. 2, the databases comprise an environmental database 30 and a vehicle database 32.
+      <br/>
+      The environmental database 30 contains environmental information for various geographic regions and the vehicle database 32 contains information on a variety of vehicles.
+      <br/>
+      In particular, the environmental database contains environmental data derived from the Water Information Center, Inc., entitled Climates of the States (1974), which is incorporated herein by reference and the vehicle database 32 contains information obtained from various commercial organizations such as J. D. Powers and Consumer Reports incorporated.
+    </p>
+    <p num="14">
+      FIGS. 3a-3b show some of the environmental data obtained from Water Information Center, Inc.
+      <br/>
+      In particular, FIGS. 3a-3b show environmental data for cities in each of the fifty states in the United States.
+      <br/>
+      The environmental data includes the maximum of average monthly maximum temperature in that city (Tmax), minimum of average monthly minimum temperature in that city (Tmin), yearly average snow and sleet accumulation in inches (S&amp;S), average relative humidity percentage (RH) near mid-day in that city, normal degree days (DD) in that city, yearly average total precipitation in inches in that city (Precip), average number of days in year for which the minimum temperature is  &lt;= 32 (degree)  F. (F) in that city, and the elevation above sea level in feet for that city (E).
+      <br/>
+      The environmental database 30 may contain other types of environmental data and is not limited to the data shown in FIGS. 3a-3b.
+    </p>
+    <p num="15">
+      Referring back to FIG. 2, the processor 14 uses each correlation to derive an expected cost of policy claims for the vehicle described in the request.
+      <br/>
+      The processor 14 uses tools from the analytical tools unit 28 to search a historical policy database 34 that contains a plurality of historical vehicle warranty policies for historical vehicle warranty policies that are substantially similar to the policy request.
+      <br/>
+      The processor 14 compares the derived expected cost of the policy request to the actual incurred costs of the similar historical vehicle warranty policies.
+      <br/>
+      If the expected cost is consistent with the historical data, then the processor 14 uses the derived expected cost.
+      <br/>
+      However, if the expected cost is not consistent with the historical data, then the processor 14 adjusts the derived expected cost to the historical policies.
+      <br/>
+      After checking the derived expected cost with the historical policies, the processor 14 then sets a policy proffer price along with suggested terms and conditions.
+    </p>
+    <p num="16">
+      The system operator working on the computer 12 reviews the priced policy and the suggested terms and conditions via a system operator input/output 36.
+      <br/>
+      As mentioned above, the system operator reviews the suggested price and terms and conditions to determine if they are acceptable.
+      <br/>
+      If the suggested price and terms and conditions are unacceptable, then the system operator may use the system operator input/output 36 to override the priced policy and manually enter a modified priced policy with terms and conditions.
+      <br/>
+      The system operator then offers the modified policy to the customer through a vehicle warranty policy output source 38.
+      <br/>
+      If the suggested price and terms and conditions are acceptable, then the system operator communicates the policy to the customer via the vehicle warranty policy output source 38.
+      <br/>
+      Like the vehicle warranty policy request input source 26, the output source 38 may comprise channels of communication such as the telephone, the Internet or the mail.
+    </p>
+    <p num="17">
+      FIG. 4 shows a flow chart setting forth the steps performed in the risk-based pricing algorithm.
+      <br/>
+      At block 40, the processor receives the request which includes the template prepared by the customer for the vehicle warranty insurance policy.
+      <br/>
+      The template includes items entered by the customer such as the vehicle make, model and year, the odometer reading of the vehicle at the time of application, the geographical area in which the insured vehicle will be primarily operated, the VIN, the type of contract desired and items to be covered.
+      <br/>
+      The template also includes customer particulars such as their address, phone number and payment instrument.
+    </p>
+    <p num="18">
+      Next, the processor reviews the template at 42 to determine if all of the necessary information is present in the template.
+      <br/>
+      If an item of information is not present, then the customer is notified and requested to provide the missing data at 44 before further processing is continued.
+      <br/>
+      After the processor determines that the template is complete, then it begins the expected cost determination for the applicant's vehicle.
+      <br/>
+      The processor begins the expected cost determination by partitioning the applicant's vehicle into a plurality of components (e.g., the braking system, the engine system, the interior climate and comfort system, the electrical system, the exhaust system etc.).
+    </p>
+    <p num="19">
+      This invention partitions the vehicle into a plurality of components because it can be shown that there is a correlation between the components of the vehicle and environmental data with the number of warranty claims.
+      <br/>
+      For example, consider the interior climate and comfort (ICC) system of a vehicle.
+      <br/>
+      This invention subsumes that the ICC system includes the compressor, compressor mounting bracket, clutch and pulley, orifice tube, condensor, heater core, heater control valve, receiver/dryer, evaporator, air duct and outlets, accumulator, air conditioning temperature control program, and seals and gaskets.
+    </p>
+    <p num="20">
+      A history of ICC claims on a nationwide state-by-state database of closed vehicle warranty policy contracts is shown in FIGS. 5a-5b. Using techniques of multivariate linear regression, as described, for example, in Johnson et al., Applied Multivariate Statistical Analysis, Third Edition, Prentice-Hall (1992), which is incorporated herein by reference, the dependent variables of interest can be fitted to a subset of the aforementioned eight environmental variables (i.e., Tmax, Tmin, S&amp;S, RH, DD, Precip, F, and E).
+      <br/>
+      The equations were derived by successive weighted least square refinements by excluding independent environmental variables with p-values that are no greater than 0.01. The resulting equation for the average number of claims for ICC per policy contract is defined as:  (Equation image '1' not included in text)
+    </p>
+    <p num="21">
+      Note that the ICC system component appears to be especially sensitive to temperature.
+      <br/>
+      This component also has a relatively high cost of repair and thus any seasonality exhibited by it could be reflected in an overall seasonality effect.
+      <br/>
+      Being able to accurately predict costs associated with strong seasonality behavior can be highly cost beneficial in husbanding cash reserves.
+      <br/>
+      As an example of such a seasonality behavior in ICC claims, consider Arizona, a state with a large seasonal temperature variation.
+      <br/>
+      Temperature data taken at Sky Harbor Airport in Phoenix, is displayed in Table 1.
+    </p>
+    <p num="22">
+      -- TABLE 1
+      <br/>
+      -- Normal Monthly Maximum Daily Temperature ( (degree)  F.)
+      <br/>
+      -- Ja     Fe      Ma     Ap     Ma     Jn     Ju     Au     Sp     Oc     No
+      <br/>
+      --    Dc
+      <br/>
+      -- 64.0   68.1    75.0   83.9   92.9   101.6  104.6  101.6  98.2   86.7   73.7
+      <br/>
+      --    66.1
+    </p>
+    <p num="23">For a large set of closed contracts on Arizona vehicles, the percentage of ICC claims by month is shown in Table 2.</p>
+    <p num="24">
+      -- TABLE 2
+      <br/>
+      -- Percentage of ICC Claims by Month for Arizona
+      <br/>
+      -- Ja   Fe     Ma   Ap      Ma     Jn     Ju     Au     Sp   Oc   No   Dc
+      <br/>
+      -- 1.8  2.2    5.6  10.4    13.4   12.7   16.8   15.8   9.3  6.8  3.0  2.2
+    </p>
+    <p num="25">
+      FIG. 6 shows a plot of both the normal monthly maximum daily temperature and the claim percentages versus month for the state of Arizona.
+      <br/>
+      The data of FIG. 6 does indeed suggest a dependency between the normal monthly maximum daily temperature and the claim probabilities.
+      <br/>
+      In addition, FIG. 6 shows that the specific season has an effect on the claims for Arizona.
+      <br/>
+      A quick assessment of the dependency can be gained by computing the linear correlation coefficient,  RHO .
+      <br/>
+      This coefficient is defined in Press et al., Numerical Recipes: The Art of Scientific Computing (FORTRAN Version), Cambridge University Press (1989), which is incorporated herein by reference.
+      <br/>
+      For two variables, x and y, the coefficient is defined as:  (Equation image '2' not included in text)
+    </p>
+    <p num="26">
+      Using equation 2 with the data displayed in FIG. 6 results in a linear correlation coefficient of  RHO  equal to 0.939. This indicates that there is an extremely high degree of linear correlation.
+      <br/>
+      It is easy to verify that  RHO  computed for the data set +x,y} will be invariant under the transformation:
+      <br/>
+      y &lt;-- ay+b  (3)
+    </p>
+    <p num="27">in which the y variable is replaced by a non zero multiple, `a`, of itself, a scale factor, and a constant offset, `b`. Therefore, there must exist for a simple (linear) model that will directly relate policy claims to normal monthly maximum daily temperature.</p>
+    <p num="28">
+      The first step is to develop a simple model for the normal maximum daily temperature.
+      <br/>
+      Using physics laws that describe the Earth's seasonal path about the sun, this invention postulated that the normal monthly maximum daily temperature, Tmax, might be well modeled by a sine wave which is defined as:  (Equation image '3' not included in text)
+    </p>
+    <p num="29">wherein i is the month (for January, i=0 and for December, i=11), Tmax is the normal maximum daily temperature for the i-th month, Ymin is the minimum of the normal maximum daily temperatures over the entire year, and Ymax is the maximum of the normal maximum daily temperatures over the entire year.</p>
+    <p num="30">
+      Applying the above simple temperature model to the appropriate Arizona temperature data results in a linear correlation coefficient of  RHO  equal to 0.995. The fit of the temperature model is shown in FIG. 7.
+      <br/>
+      Using the model for maximum monthly temperature, it can be tied into a claims predictor.
+      <br/>
+      If Ci is the actual percentage of claims in a particular state in the i-th month then:  (Equation image '4' not included in text)
+    </p>
+    <p num="31">
+      wherein Ci is the estimated percentage of claims in the i-th month and a and b are constants which will be a function of the specific state.
+      <br/>
+      FIG. 8 shows the data of the predicted percentage of ICC claims for the state of Arizona by month after doing a least squares fit.
+      <br/>
+      The predictor and the data in FIG. 8 achieve a linear correlation coefficient of  RHO  equal to 0.922. Other correlations having similar analysis can be performed for the other vehicle components.
+    </p>
+    <p num="32">
+      Likewise, similar analysis can be performed for the components of a car based on mileage based contract claims.
+      <br/>
+      For example, a Repairable System Model for projecting auto warranty claims can be used.
+      <br/>
+      Repairable system models were first developed by L. H. Crow in 1974 and further developed by Basu and Rigdon.
+      <br/>
+      When applied to auto warranty contracts, the time interval (a,b) when the contract exists where time is measured either in days or in miles is considered.
+      <br/>
+      The probability density function that the automobile experiences N claims at times (t1, t2, . . . , tN) is given by:  (Equation image '5' not included in text)
+    </p>
+    <p num="33">
+      The parameters  BETA  and  THETA  can be estimated using the standard technique of maximum likelihood.
+      <br/>
+      When this technique was applied to 5,532 12 month, 12,000 mile contracts, and time was measured in miles, the resulting parameters were found to be:  BETA =1.58 and  THETA =47552.
+      <br/>
+      The quantity  (Equation image '6' not included in text)
+    </p>
+    <p num="34">
+      gives the resulting expected number of cumulative claims per vehicle by mile.
+      <br/>
+      This curve is plotted in FIG. 9 along with the corresponding empirical curve calculated directly from the data according to the formula:
+      <br/>
+      H(ti+1)=H(ti)+h(ti+1) * (ti+1 -ti)  (7)
+    </p>
+    <p num="35">where for each specific mileage at which a failure occurred, the following is calculated:  (Equation image '7' not included in text)</p>
+    <p num="36">The initial point, H(0) was chosen to minimize the mean squared error:  (Equation image '8' not included in text)</p>
+    <p num="37">
+      Referring back to FIG. 4, for each partitioned component, the processor determines the expected environmental costs ($E) and the expected mileage based costs ($M) of the policy contract at 46 and 48, respectively.
+      <br/>
+      The expected environmental costs ($E) and the expected mileage based costs ($M) for each of the partitioned components are aggregated into one value at blocks 46 and 48, respectively.
+    </p>
+    <p num="38">
+      The processor then determines the expected weighted cost, ($C), from the expected environmental costs ($E) and the expected mileage costs ($M) at 50. The expected weight cost ($C) is defined as:
+      <br/>
+      C= ALPHA 1 E+ ALPHA 2 M  (10)
+    </p>
+    <p num="39">
+      wherein  ALPHA 1 and  ALPHA 2 are numerical coefficients or "weights" specified externally by the system operator.
+      <br/>
+      The processor then searches the historical policy database 34 at block 52 for historical vehicle warranty policies that are substantially similar to the policy request.
+      <br/>
+      If there are substantially similar historical policies as determined at 54, then the processor 14 compares the derived expected cost of the policy request to the actual incurred costs of the similar historical vehicle warranty policies at 56.
+      <br/>
+      The threshold to determine if the costs between the derived expected cost ($C) and the previously incurred costs of the historical policy contracts is set by the system operator.
+      <br/>
+      If the expected cost is not consistent with the historical data, then the processor 14 adjusts the derived expected cost to the historical policies at 58.
+      <br/>
+      The expected cost ($C) is adjusted according to the following step:
+      <br/>
+      C &lt;-- (1- ALPHA 3)C+ ALPHA 3 (H-C)  (11)
+    </p>
+    <p num="40">where H is the average historical cost for the similar historical policy contracts and  ALPHA 3 is a numerical coefficient or weight entered by the system operator.</p>
+    <p num="41">
+      If there are no substantially similar historical policy contracts as determined at 54 or if the expected costs ($C) is in conformance with the historical policy contracts as determined at 56, then processing continues at 60 where the processor adds the profit margin to the derived expected cost.
+      <br/>
+      The profit margin is added to the expected cost using the following step:
+      <br/>
+      C &lt;-- C+P  (12)
+    </p>
+    <p num="42">
+      where P is the profit margin which is specified externally.
+      <br/>
+      The processor then sends the derived expected cost with profit margin along with terms and conditions for a policy to the system operator at 62 for review.
+      <br/>
+      If the system operator approves the suggested price at 64, then the contract is offered to the potential customer at 66.
+      <br/>
+      However, if the system operator does not approve the suggested contract price at 64, then the system operator may override the suggested price with a manually entered price as indicated at 68 and offer the modified policy at 66.
+      <br/>
+      If the system operator decides at 68 not to modify the price of the policy, then the potential customer's request for coverage is rejected at 70.
+    </p>
+    <p num="43">
+      It is therefore apparent that there has been provided in accordance with the present invention, a system and method for risk-based pricing of a vehicle warranty insurance policy that fully satisfy the aims and advantages and objectives hereinbefore set forth.
+      <br/>
+      The invention has been described with reference to several embodiments, however, it will be appreciated that variations and modifications can be effected by a person of ordinary skill in the art without departing from the scope of the invention.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33.</claim-text>
+      <claim-text>A system for performing risk-based pricing of a vehicle warranty insurance policy, comprising: a vehicle warranty policy request input source for receiving a request for a vehicle warranty policy; a historical database containing a plurality of historical vehicle warranty policies; a plurality of databases each containing vehicle warranty related information; a processor, coupled to the vehicle warranty policy request input source, the historical database, and the plurality of databases, for servicing the request for a vehicle warranty policy, the processor comprising means for risk-based pricing the request and means for suggesting terms and conditions for the risk-based policy, wherein the risk-based pricing means partitions the vehicle listed in the request into a plurality of components and determines a correlation between failure rates of each of the plurality of components and costs to effect repair of the failed component with the vehicle warranty related information contained in the plurality of databases;</claim-text>
+      <claim-text>and a vehicle warranty policy output source, coupled to the processor, for outputting the serviced request for a vehicle warranty policy.</claim-text>
+      <claim-text>1. A system for performing risk-based pricing of a vehicle warranty insurance policy, comprising:</claim-text>
+      <claim-text>a vehicle warranty policy request input source for receiving a request for a vehicle warranty policy; a historical database containing a plurality of historical vehicle warranty policies; a plurality of databases each containing vehicle warranty related information; a processor, coupled to the vehicle warranty policy request input source, the historical database, and the plurality of databases, for servicing the request for a vehicle warranty policy, the processor comprising means for risk-based pricing the request and means for suggesting terms and conditions for the risk-based policy, wherein the risk-based pricing means partitions the vehicle listed in the request into a plurality of components, determines a correlation between failure rates of each of the plurality of components and costs to effect repair of the failed component with the vehicle warranty related information contained in the plurality of databases, derives an expected cost of policy claims from the correlations and sets a policy proffer price covering the expected cost of policy claims plus a predetermined profit margin;</claim-text>
+      <claim-text>and a vehicle warranty policy output source, coupled to the processor, for outputting the serviced request for a vehicle warranty policy.</claim-text>
+      <claim-text>2. The system according to claim 1, wherein the vehicle warranty policy request input source comprises an electronic channel connected to the Internet.</claim-text>
+      <claim-text>3. The system according to claim 1, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a public switched telephone network, wherein the vehicle warranty policy request is handled by a telephone operator.</claim-text>
+      <claim-text>4. The system according to claim 1, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a speech recognition system recognizes aural responses generated from the customer.</claim-text>
+      <claim-text>5. The system according to claim 1, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a dual tone multi-frequency telephone network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a recognition system recognizes responses entered by a customer through key buttons on a dual tone multi-frequency telephone.</claim-text>
+      <claim-text>6. The system according to claim 1, wherein the plurality of databases comprise an environmental database containing a plurality of environmental information for geographic regions and a vehicle database containing vehicle related information.</claim-text>
+      <claim-text>7. The system according to claim 1, wherein the plurality of databases comprise a plurality of analytical tools.</claim-text>
+      <claim-text>8. The system according to claim 1, wherein the vehicle warranty related information comprises a plurality of environmental variables of a region within which the vehicle is likely to be operated over a term of the policy, make, model and year of the vehicle and the mileage of the vehicle at the time of starting the policy.</claim-text>
+      <claim-text>9. The system according to claim 1, wherein the pricing means searches the historical database for historical vehicle warranty policies that are substantially similar to the policy request and compares the derived expected cost of the policy request to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+      <claim-text>10. The system according to claim 9, wherein the pricing means adjusts the derived expected cost of the policy request to conform to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+      <claim-text>11. The system according to claim 1, wherein the vehicle warranty policy output source comprises a system operator input/output enabling a system operator to review the price, terms and conditions of the serviced policy request.</claim-text>
+      <claim-text>12. The system according to claim 11, wherein the system operator input/output comprises means for accepting or rejecting the price, terms and conditions of the serviced policy request and means for manually entering a modified price, terms and conditions for the policy request.</claim-text>
+      <claim-text>13. The system according to claim 12, wherein the vehicle warranty policy output source further comprises means for communicating to the customer of the vehicle warranty policy request whether the request has been accepted and the price, terms and conditions of the policy or whether the request has been rejected.</claim-text>
+      <claim-text>14. The system according to claim 1, wherein the vehicle warranty policy output source comprises an electronic channel connected to the Internet.</claim-text>
+      <claim-text>15. The system according to claim 1, wherein the vehicle warranty policy output source comprises an electronic channel connected to a public switched telephone network, wherein the serviced request is communicated to a customer by a telephone operator.</claim-text>
+      <claim-text>16. The system according to claim 1, wherein the vehicle warranty policy output source comprises an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech communicating the results of the serviced request to a customer.</claim-text>
+      <claim-text>17. A method for performing risk-based pricing of a vehicle warranty insurance policy, comprising: receiving a request for a vehicle warranty policy; storing a plurality of historical vehicle warranty policies; storing a plurality of vehicle warranty related information; risk-based pricing the vehicle warranty policy request, wherein the risk-based pricing comprises partitioning the vehicle listed in the request into a plurality of components, determining a correlation between failure rates of each of the plurality of components and costs to effect repair of the failed component with the stored vehicle warranty related information, deriving an expected cost of policy claims from the correlations and setting a policy proffer price covering the expected cost of policy claims plus a predetermined profit margin; suggesting terms and conditions for the risk-based priced policy;</claim-text>
+      <claim-text>and outputting the price and the suggested terms and conditions for the vehicle warranty policy request.</claim-text>
+      <claim-text>18. The method according to claim 17, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to the Internet.</claim-text>
+      <claim-text>19. The method according to claim 17, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a public switched telephone network, wherein the vehicle warranty policy request is handled by a telephone operator.</claim-text>
+      <claim-text>20. The method according to claim 17, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a speech recognition system recognizes aural responses generated from the customer.</claim-text>
+      <claim-text>21. The method according to claim 17, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a dual tone multi-frequency telephone network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a recognition system recognizes responses entered by a customer through key buttons on a dual tone multi-frequency telephone.</claim-text>
+      <claim-text>22. The method according to claim 17, wherein the stored plurality of vehicle warranty related information comprises a plurality of environmental information for geographic regions and a plurality of vehicle related information.</claim-text>
+      <claim-text>23. The method according to claim 17, further comprising storing a plurality of analytical tools.</claim-text>
+      <claim-text>24. The method according to claim 17, wherein the vehicle warranty related information comprises a plurality of environmental variables of a region within which the vehicle is likely to be operated over a term of the policy, make, model and year of the vehicle and the mileage of the vehicle at the time of starting the policy.</claim-text>
+      <claim-text>25. The method according to claim 17, wherein risk-based pricing the vehicle warranty policy request further comprises searching the stored historical vehicle warranty policies to find policies that are substantially similar to the policy request and comparing the derived expected cost of the policy request to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+      <claim-text>26. The method according to claim 25, wherein risk-based pricing the vehicle warranty policy request further comprises adjusting the derived expected cost of the policy request to conform to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+      <claim-text>27. The method according to claim 17, wherein the outputting comprises sending the price and the suggested terms and conditions for the vehicle warranty policy request to a system operator for review.</claim-text>
+      <claim-text>28. The method according to claim 27, further comprising enabling the system operator to accept or reject the price, terms and conditions of the serviced policy request and manually enter a modified price, terms and conditions for the policy request.</claim-text>
+      <claim-text>29. The method according to claim 28, further comprising communicating to the customer of the vehicle warranty policy request whether the request has been accepted and the price, terms and conditions of the policy or whether the request has been rejected.</claim-text>
+      <claim-text>30. The method according to claim 17, wherein the outputting comprises using an electronic channel connected to the Internet.</claim-text>
+      <claim-text>31. The method according to claim 17, wherein the outputting comprises using an electronic channel connected to a public switched telephone network, wherein the serviced request is communicated to a customer by a telephone operator.</claim-text>
+      <claim-text>32. The method according to claim 17, wherein the outputting comprises using an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech communicating the results of the serviced request to a customer.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. The system according to claim 33, wherein the vehicle warranty policy request input source comprises an electronic channel connected to the Internet.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The system according to claim 33, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a public switched telephone network, wherein the vehicle warranty policy request is handled by a telephone operator.</claim-text>
+    </claim>
+    <claim num="36">
+      <claim-text>36. The system according to claim 33, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a speech recognition system recognizes aural responses generated from the customer.</claim-text>
+    </claim>
+    <claim num="37">
+      <claim-text>37. The system according to claim 33, wherein the vehicle warranty policy request input source comprises an electronic channel connected to a dual tone multi-frequency telephone network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a recognition system recognizes responses entered by a customer through key buttons on a dual tone multi-frequency telephone.</claim-text>
+    </claim>
+    <claim num="38">
+      <claim-text>38. The system according to claim 33, wherein the plurality of databases comprise an environmental database containing a plurality of environmental information for geographic regions and a vehicle database containing vehicle related information.</claim-text>
+    </claim>
+    <claim num="39">
+      <claim-text>39. The system according to claim 33, wherein the plurality of databases comprise a plurality of analytical tools.</claim-text>
+    </claim>
+    <claim num="40">
+      <claim-text>40. The system according to claim 33, wherein the risk-based pricing means derives an expected cost of policy claims from the correlations and sets a policy proffer price covering the expected cost of policy claims plus a predetermined profit margin.</claim-text>
+    </claim>
+    <claim num="41">
+      <claim-text>41. The system according to claim 40, wherein the vehicle warranty related information comprises a plurality of environmental variables of a region within which the vehicle is likely to be operated over a term of the policy, make, model and year of the vehicle and the mileage of the vehicle at the time of starting the policy.</claim-text>
+    </claim>
+    <claim num="42">
+      <claim-text>42. The system according to claim 40, wherein the risk-based pricing means searches the historical database for historical vehicle warranty policies that are substantially similar to the policy request and compares the derived expected cost of the policy request to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+    </claim>
+    <claim num="43">
+      <claim-text>43. The system according to claim 42, wherein the risk-based pricing means adjusts the derived expected cost of the policy request to conform to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+    </claim>
+    <claim num="44">
+      <claim-text>44. The system according to claim 33, wherein the vehicle warranty policy output source comprises a system operator input/output enabling a system operator to review the price, terms and conditions of the serviced policy request.</claim-text>
+    </claim>
+    <claim num="45">
+      <claim-text>45. The system according to claim 44, wherein the system operator input/output comprises means for accepting or rejecting the price, terms and conditions of the serviced policy request and means for manually entering a modified price, terms and conditions for the policy request.</claim-text>
+    </claim>
+    <claim num="46">
+      <claim-text>46. The system according to claim 45, wherein the vehicle warranty policy output source further comprises means for communicating to the customer of the vehicle warranty policy request whether the request has been accepted and the price, terms and conditions of the policy or whether the request has been rejected.</claim-text>
+    </claim>
+    <claim num="47">
+      <claim-text>47. The system according to claim 33, wherein the vehicle warranty policy output source comprises an electronic channel connected to the Internet.</claim-text>
+    </claim>
+    <claim num="48">
+      <claim-text>48. The system according to claim 33, wherein the vehicle warranty policy output source comprises an electronic channel connected to a public switched telephone network, wherein the serviced request is communicated to a customer by a telephone operator.</claim-text>
+    </claim>
+    <claim num="49">
+      <claim-text>49. The system according to claim 33, wherein the vehicle warranty policy output source comprises an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech communicating the results of the serviced request to a customer.</claim-text>
+    </claim>
+    <claim num="50">
+      <claim-text>50. A method for performing risk-based pricing of a vehicle warranty insurance policy, comprising: receiving a request for a vehicle warranty policy; storing a plurality of historical vehicle warranty policies; storing a plurality of vehicle warranty related information; risk-based pricing the vehicle warranty policy request, wherein the risk-based pricing comprises partitioning the vehicle listed in the request into a plurality of components and determining a correlation between failure rates of each of the plurality of components and costs to effect repair of the failed component with the stored vehicle warranty related information; suggesting terms and conditions for the risk-based priced policy according to the risk-based pricing;</claim-text>
+      <claim-text>and outputting the price and the suggested terms and conditions for the vehicle warranty policy request.</claim-text>
+    </claim>
+    <claim num="51">
+      <claim-text>51. The method according to claim 50, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to the Internet.</claim-text>
+    </claim>
+    <claim num="52">
+      <claim-text>52. The method according to claim 50, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a public switched telephone network, wherein the vehicle warranty policy request is handled by a telephone operator.</claim-text>
+    </claim>
+    <claim num="53">
+      <claim-text>53. The method according to claim 50, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a speech recognition system recognizes aural responses generated from the customer.</claim-text>
+    </claim>
+    <claim num="54">
+      <claim-text>54. The method according to claim 50, wherein receiving a request for a vehicle warranty policy comprises using an electronic channel connected to a dual tone multi-frequency telephone network, wherein a voice synthesizer generates a facsimile of speech guiding a customer to prepare the request and a recognition system recognizes responses entered by a customer through key buttons on a dual tone multi-frequency telephone.</claim-text>
+    </claim>
+    <claim num="55">
+      <claim-text>55. The method according to claim 50, wherein the stored plurality of vehicle warranty related information comprises a plurality of environmental information for geographic regions and a plurality of vehicle related information.</claim-text>
+    </claim>
+    <claim num="56">
+      <claim-text>56. The method according to claim 50, further comprising storing a plurality of analytical tools.</claim-text>
+    </claim>
+    <claim num="57">
+      <claim-text>57. The method according to claim 50, wherein risk-based pricing the vehicle warranty policy request further comprises deriving an expected cost of policy claims from the correlations and setting a policy proffer price covering the expected cost of policy claims plus a predetermined profit margin.</claim-text>
+    </claim>
+    <claim num="58">
+      <claim-text>58. The method according to claim 57, wherein the vehicle warranty related information comprises a plurality of environmental variables of a region within which the vehicle is likely to be operated over a term of the policy, make, model and year of the vehicle and the mileage of the vehicle at the time of starting the policy.</claim-text>
+    </claim>
+    <claim num="59">
+      <claim-text>59. The method according to claim 57, wherein risk-based pricing the vehicle warranty policy request further comprises searching the stored historical vehicle warranty policies to find policies that are substantially similar to the policy request and comparing the derived expected cost of the policy request to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+    </claim>
+    <claim num="60">
+      <claim-text>60. The method according to claim 59, wherein risk-based pricing the vehicle warranty policy request further comprises adjusting the derived expected cost of the policy request to conform to the actual incurred costs set forth in the historical vehicle warranty policies.</claim-text>
+    </claim>
+    <claim num="61">
+      <claim-text>61. The method according to claim 50, wherein the outputting comprises sending the price and the suggested terms and conditions for the vehicle warranty policy request to a system operator for review.</claim-text>
+    </claim>
+    <claim num="62">
+      <claim-text>62. The method according to claim 61, further comprising enabling the system operator to accept or reject the price, terms and conditions of the serviced policy request and manually enter a modified price, terms and conditions for the policy request.</claim-text>
+    </claim>
+    <claim num="63">
+      <claim-text>63. The method according to claim 62, further comprising communicating to the customer of the vehicle warranty policy request whether the request has been accepted and the price, terms and conditions of the policy or whether the request has been rejected.</claim-text>
+    </claim>
+    <claim num="64">
+      <claim-text>64. The method according to claim 50, wherein the outputting comprises using an electronic channel connected to the Internet.</claim-text>
+    </claim>
+    <claim num="65">
+      <claim-text>65. The method according to claim 64, wherein the outputting comprises using an electronic channel connected to a public switched telephone network, wherein the serviced request is communicated to a customer by a telephone operator.</claim-text>
+    </claim>
+    <claim num="66">
+      <claim-text>66. The method according to claim 50, wherein the outputting comprises using an electronic channel connected to a voice activated network, wherein a voice synthesizer generates a facsimile of speech communicating the results of the serviced request to a customer.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

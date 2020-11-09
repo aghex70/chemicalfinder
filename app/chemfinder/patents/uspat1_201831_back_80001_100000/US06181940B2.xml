@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181940B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181940</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181940</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="21803852" extended-family-id="1212181">
+      <document-id>
+        <country>US</country>
+        <doc-number>09021378</doc-number>
+        <kind>A</kind>
+        <date>19980210</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09021378</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>1256889</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>2137898</doc-number>
+        <kind>A</kind>
+        <date>19980210</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09021378</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04W  60/00        20090101A I20090105RMEP</text>
+        <ipc-version-indicator>
+          <date>20090101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>60</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20090105</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>455435200</text>
+        <class>455</class>
+        <subclass>435200</subclass>
+      </main-classification>
+    </classification-national>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04W-060/00</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>60</main-group>
+        <subgroup>00</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>4</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6181940</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Methods and apparatus for location area scheme negotiation in communications systems</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>TIEDEMANN JR EDWARD G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5642398</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5642398</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KAUPPI HANNA-MARIA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832381</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832381</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>PASHTAN ARIEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5842127</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5842127</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>DUFOUR DANIEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5850604</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5850604</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>DERSHOWITZ KENNETH L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4672657</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4672657</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>WOOD DANIEL E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5412375</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5412375</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>DICECCO STEPHEN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5452287</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5452287</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>DEVANEY DAVID B</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5548816</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5548816</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>MAMAGHANI FARZAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5574728</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5574728</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>KOJIMA SUSUMU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5590397</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5590397</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>SPIESS GARY N</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5592512</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5592512</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>BLAKENEY II ROBERT D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5638412</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5638412</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>ARMBRUSTER PETER JOSEPH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5710805</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5710805</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>MOTOROLA LTD</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0667725</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-667725</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>ERICSSON TELEFON AB L M, et al</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9634504</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9634504</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>ERICSSON TELEFON AB L M</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9638989</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9638989</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>ERICSSON GE MOBILE INC</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9734438</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9734438</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Aura Ganz et al., "On Optimal Design of Multitier Wireless Cellular Systems", IEEE Communications Magazine, Feb. 1997, pp. 88-93.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Ivan Seskar et al., "Rate of Location Area Updates in Cellular Systems", BNR, 1992 IEEE, Richardson, Texas, pp. 694-697.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Lon-Rong Hu et al., "An Adaptive Location Management Scheme for Global Personal Communications", Dept. of Electrical Engineering, State University of New York, pp. 1-25.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Sadaatsu Okasaka et al., "A New Location Updating Method for Digital Cellular Systems", 1991 IEEE, NTT Mobile Communications Division, 1-2356, Take, Japan, pp. 345-350.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>Hanna-Maria Kauppi et al., "Advanced Location Management for UMTS", Jun. 1993, pp. 0112-0115.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="6">
+          <text>Seshu Madhavapeddy et al., "Adaptive Paging Algorithms for Cellular Systems", Bell Northern Research, Richardson, Texas, pp. 347-361 (Date unknown).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="7">
+          <text>D. Plassman, "Location Management Strategies for Mobile Cellular Networks of 3rd Generation", 1994 IEEE, Aachen University of Technology, pp. 649-653.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="8">
+          <text>Timothy X. Brown et al., "Mobility Management for Personal Communications Systems", pp. 1-17 (Date and source unknown).</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Telefonaktiebolaget LM Ericsson (publ)</orgname>
+            <address>
+              <address-1>Stockholm, SE</address-1>
+              <city>Stockholm</city>
+              <country>SE</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SE</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>ERICSSON</orgname>
+          </addressbook>
+          <nationality>
+            <country>SE</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Rune, Johan</name>
+            <address>
+              <address-1>Lidingö, SE</address-1>
+              <city>Lidingö</city>
+              <country>SE</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>SE</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Burns, Doane, Swecker &amp; Mathis, L.L.P.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Urban, Edward F.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Methods and apparatus allow a communications network and a mobile terminal to dynamically negotiate for a preferred location area registration scheme, a preferred communications protocol and/or a preferred communications standard.
+      <br/>
+      As a result, differently configured equipment can coexist within a single network, and advanced schemes, protocols and/or standards can be gradually introduced into implemented systems.
+      <br/>
+      According to an exemplary embodiment, a mobile terminal and a network negotiate, upon an initial registration of the terminal with the network, for a location area registration scheme to be used for tracking terminal movement.
+      <br/>
+      In the embodiment, available location area registration schemes are numbered according to complexity level, and numbers corresponding to schemes which the terminal and the network can implement are used to negotiate a preferred, mutually acceptable scheme.
+      <br/>
+      When the terminal enters an area in which the prevailing scheme is no longer supported, or where the prevailing scheme is no longer the best available scheme, the terminal and the network renegotiate for a new best, mutually agreeable scheme.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">The present invention relates to communications systems, and more particularly to location area registration in communications systems.</p>
+    <p num="2">
+      Wireless communications networks of today continually track mobile terminal movement within an overall network coverage area so that incoming traffic can be routed to intended mobile terminal destinations quickly and efficiently.
+      <br/>
+      Such tracking is typically accomplished by way of mobile terminal location updates or registrations.
+      <br/>
+      In other words, each mobile terminal within a network coverage area typically notifies the network whenever the mobile terminal changes location.
+    </p>
+    <p num="3">
+      In order to reduce the frequency of location updates and to thereby reduce the associated processing overhead, the overall coverage area of a network is typically divided into multiple location areas within which mobile terminals can move around without having to notify the network.
+      <br/>
+      In practice, the size of each location area represents a trade off between the traffic load caused by location updates and that caused by the paging required to notify mobile terminals of incoming traffic.
+      <br/>
+      Generally, the larger a location area is, the fewer location updates are required to track mobile terminal movement and the more base stations are involved in paging.
+    </p>
+    <p num="4">
+      Today, most cellular systems use a single set of static location areas for every terminal within a network.
+      <br/>
+      The more advanced schemes (e.g., Personal Digital Cellular or PDC) use overlapping location areas and track hysteresis at the area borders to provide different terminals with different effective location areas.
+      <br/>
+      The overlapping location areas are nonetheless of fixed shape and size.
+      <br/>
+      Since the optimal shape and size of a location area is ultimately dependent upon terminal type and terminal user behavior, as well as the particular application a terminal user is running, location areas are ideally customized specifically for each user and/or for each terminal.
+      <br/>
+      Several schemes for customizing location areas for specific terminals are being developed at the research level.
+    </p>
+    <p num="5">
+      No matter which particular type of location area scheme is preferred, however, conventional techniques permit only one type of location area scheme to be employed within a given system or network.
+      <br/>
+      In other words, to achieve compatibility across a given system or network, all equipment within the system or network is constructed consistently to utilize a single, common location area registration scheme.
+      <br/>
+      Equipment utilizing different types of location area registration cannot coexist, and varying levels of location area registration complexity cannot be achieved.
+    </p>
+    <p num="6">
+      As a result, today's networks are difficult to upgrade.
+      <br/>
+      In other words, since all equipment within a network must utilize a common location area registration scheme, all network equipment must be upgraded simultaneously.
+      <br/>
+      Also, because such network-wide upgrades can be prohibitively costly and protracted, it is often difficult to introduce a more advanced location area registration scheme or to standardize an improved location area algorithm.
+      <br/>
+      For example, since tremendous effort must be put forth to implement even the first version of a new standard, the proposed customized-location area schemes described above have been less attractive than they would otherwise be to standardization bodies.
+      <br/>
+      As a result, the significant advantages provided by such schemes are presently being under utilized.
+    </p>
+    <p num="7">
+      Furthermore, known techniques for implementing location area registration schemes are not suitable for the flexible and powerful "universal" networks being proposed today.
+      <br/>
+      For example, PCT Publication No. 96/34504, published Oct. 31, 1996 and entitled "Method and Arrangement for Increasing the Range for a Telecommunication Network in a Telecommunications System" (and corresponding to PCT Application No. PCT/SE96/00510 filed Apr. 18, 1996), describes a Generic Radio Access Network (GRAN) which is now being targeted for standardization by the European Telecommunications Standards Institute (ETSI) in the Universal Mobile Telecommunications System (UMTS) standardization work.
+    </p>
+    <p num="8">
+      The Generic Radio Access Network, now also known in the art as the UMTS Radio Access Network (URAN), provides a generic interface to which any type of service network can connect.
+      <br/>
+      Future service networks can be tailored to explicitly fit the generic interface, and existing service networks (e.g., the Global System for Mobile Communications (GSM), the Integrated Services Digital Network (ISDN), the Public Switched Telephony Network (PSTN), etc.) can utilize an appropriate intermediary or interworking function (IWF).
+      <br/>
+      Terminals used to access the Generic Access Radio Network are divided logically into two parts, one part logically belonging to the Generic Radio Access Network itself and another part logically belonging to a particular service network to which the terminal user subscribes.
+    </p>
+    <p num="9">
+      The Generic Radio Access Network itself has no direct subscribers.
+      <br/>
+      Rather, terminal users subscribe to services within their respective service networks, and the service networks in turn connect with generic bearer services offered by the Generic Radio Access Network.
+      <br/>
+      The service networks then use the bearer services to connect with their subscribers and thereby extend the range of their networks and provide increased mobility to their subscribers.
+    </p>
+    <p num="10">
+      To provide these advantages, the bearer services offered by the Generic Radio Access Network are extremely flexible and are capable of providing diverse signaling and traffic connections that match those of the many existing and yet to be developed service networks which will ultimately utilize the Generic Radio Access Network.
+      <br/>
+      By way of contrast, the above described conventional techniques for implementing location area registration schemes are inflexible and therefore inadequate in the context of universal networks such as the Generic Radio Access Network.
+      <br/>
+      In other words, since universal networks are designed to allow differently configured equipment to coexist, conventional techniques requiring that all equipment be uniformly configured to utilize a common registration scheme are inapplicable.
+    </p>
+    <p num="11">Thus, there is a need for improved methods and apparatus for implementing location area registration schemes in communications systems.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="12">
+      The present invention fulfills the above-described and other needs by providing methods and apparatus for allowing a communications network and a mobile terminal to dynamically negotiate for a preferred location area registration scheme.
+      <br/>
+      Thus, the invention enables differently configured equipment to coexist within a network and thereby allows for the gradual introduction of new and sophisticated location area schemes into implemented and still developing communications systems and standards.
+      <br/>
+      Advantageously, multiple location area registration schemes, each representing a different level of sophistication, effectiveness and complexity, can be simultaneously utilized within a single communications system and/or standard.
+    </p>
+    <p num="13">
+      According to the invention, a mobile terminal and a network negotiate, at an initial registration of the terminal with the network (e.g., at first contact between the terminal and the network, or when the terminal is first powered up within the network coverage area), for a location area registration scheme to be used for tracking terminal movement.
+      <br/>
+      According to exemplary embodiments, available location area registration schemes are numbered (e.g., from 0 to N according to complexity, with 0 for example representing the simplest available scheme and N representing the most complex), and the numbers corresponding to the schemes which the terminal and the network can implement are used to negotiate a preferred, mutually acceptable scheme.
+    </p>
+    <p num="14">
+      The disclosed techniques for negotiating a mutually acceptable level of scheme complexity and sophistication are extremely useful when a new communications standard is introduced.
+      <br/>
+      For example, the first implementation of a new standard can use lower levels of complexity, and higher levels of complexity can then be introduced gradually into networks and terminals as time and resources permit.
+      <br/>
+      Further, new algorithms can be introduced within a standard as work with the algorithms continues and as experience with respect to algorithm efficiency in already implemented systems is gained.
+    </p>
+    <p num="15">
+      The disclosed negotiation techniques are also particularly useful for effecting partial network upgrades.
+      <br/>
+      Partial upgrading can be preferable, for example, where an improvement is necessary in a particular part of a network (e.g., to relieve a particularly heavy paging, traffic or location registration burden), but where an overall network upgrade would be prohibitively expensive or untimely.
+      <br/>
+      Advantageously, the present invention allows different location area registration schemes to coexist within such a partially upgraded system.
+    </p>
+    <p num="16">
+      According to a first exemplary embodiment, a number indicating a highest level of location area registration that a mobile terminal can implement is sent from the mobile terminal to a communications network upon an initial registration of the mobile terminal with the network.
+      <br/>
+      The number is received at the network and compared with another number indicating a highest level of location area registration that the network can implement.
+      <br/>
+      If, based on the comparison, the network determines that it can implement the highest level of registration implementable by the terminal (i.e., the network's number is greater than or equal to the network's number), then the network sends an acceptance message back to the terminal.
+      <br/>
+      However, if the network determines that it cannot implement the highest level of registration implementable by the terminal (i.e., the network's number is less than the terminal's number), then the network sends its own (lower) number back to the terminal.
+      <br/>
+      The result of the negotiation (i.e., the lower of the two numbers) is then stored at the terminal and at the network, and the corresponding location area registration scheme is thereafter used to track movement of the terminal.
+    </p>
+    <p num="17">
+      According to a second exemplary embodiment, one or more numbers are sent from the mobile terminal to the network upon initial registration by the mobile terminal, wherein each number indicates a level of location area registration the terminal can implement.
+      <br/>
+      The number(s) are received at the network and are compared with one or more other numbers, wherein each other number indicates a level of location area registration the network can implement.
+      <br/>
+      Then, if the network and the terminal can both implement at least one common level of location area registration, an acceptance message including a result number (which indicates a highest level of location area registration that both the terminal and the network can implement) is sent from the network back to the terminal, and the location area registration scheme corresponding to the result number is used to track movement of the terminal.
+      <br/>
+      Otherwise, a reject message is sent from the network to the terminal.
+    </p>
+    <p num="18">
+      According to a third exemplary embodiment, a first number is sent from the mobile terminal to the network upon initial registration by the terminal, wherein the first number indicates a single specific level of location area registration the terminal can implement.
+      <br/>
+      The first number is received at the network and compared with at least one other number, wherein each other number indicates a level of location area registration the network can implement.
+      <br/>
+      If the network can implement the single specific level of location area registration, an acceptance message is sent from the network back to the terminal and the specific level of location area registration is used to track terminal movement.
+      <br/>
+      Otherwise, a reject message is sent from the network to the terminal.
+    </p>
+    <p num="19">
+      Advantageously, once a location area registration scheme has been negotiated according to any of the above described embodiments, either the network or the terminal can initiate a renegotiation of registration scheme should the terminal enter an area in which the network cannot support the prevailing (previously negotiated) scheme, or in which the network can support a more sophisticated scheme which the terminal can also implement.
+      <br/>
+      For example, according to one embodiment of the invention, a location update request is sent from the terminal to the network in accordance with a prevailing (i.e., previously negotiated) location area registration scheme when the terminal enters a coverage area in which the network does not support the prevailing location area registration scheme.
+      <br/>
+      The location update request is received at the network, and a location update reject message is sent from the network back to the terminal.
+      <br/>
+      When the location update reject message is received at the terminal, the terminal initiates a renegotiation of location area registration scheme with the network, and a newly negotiated location area registration scheme is thereafter used to track movement of the terminal.
+      <br/>
+      Alternatively, the network itself can initiate the renegotiation of registration scheme when sending the reject message.
+    </p>
+    <p num="20">
+      According to another exemplary embodiment, when the terminal enters a coverage area in which the network supports a level of location area registration which is higher than that of a currently implemented (i.e., previously negotiated) location area registration scheme, a location update request is sent from the terminal to the network in accordance with the currently implemented scheme.
+      <br/>
+      When the location update request is received at the network, the network compares stored negotiation information (relating to levels of location area registration supported by the terminal) with levels of location area registration supported by the network within the entered coverage area.
+      <br/>
+      When the terminal and the network can both implement a level of location area registration within the entered coverage area which is higher than the level of the currently implemented location area registration scheme, a message instructing the terminal to begin implementing the higher level of location area registration is sent from the network to the terminal.
+    </p>
+    <p num="21">
+      Advantageously, the above described aspects of the invention can be generalized to provide for negotiation of system aspects other than location area registration scheme.
+      <br/>
+      For example, a mobile terminal and a network can negotiate for a particular communications protocol (e.g., the Call Control and/or Radio Resource Control protocols).
+      <br/>
+      Indeed, according to the invention, a mobile terminal and a network can negotiate for the entire standard by which they ultimately communicate.
+      <br/>
+      For example, a range of numbers can be assigned to the various versions of a known standard in a manner analogous to that described above with respect to the various levels of complexity for location area registration schemes.
+      <br/>
+      Doing so facilitates the introduction of new versions of a standard since multiple versions of the standard can coexist within a single network and since newer versions of the standard need not be backward compatible with older versions.
+    </p>
+    <p num="22">
+      The above described and additional features of the present invention are explained in greater detail hereinafter with reference to the illustrative examples shown in the accompanying drawings.
+      <br/>
+      Those skilled in the art will appreciate that the described embodiments are provided for purposes of illustration and understanding and that numerous equivalent embodiments are contemplated herein.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="23">
+      FIG. 1 depicts an exemplary communications system in which the methods of the present invention can be utilized.
+      <br/>
+      FIG. 2 depicts exemplary components within a mobile switching center, a base station and a mobile station in a communications system such as that of FIG. 1, wherein the depicted components can be configured to implement the methods of the present invention.
+      <br/>
+      FIG. 3 depicts one of many possible location area registration schemes which can be selectively utilized, according to the methods of the present invention, in a system such as that of FIG. 1.
+      <br/>
+      FIG. 4 depicts an exemplary method of location area registration scheme negotiation and renegotiation according to the invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE EXEMPLARY EMBODIMENTS</heading>
+    <p num="24">
+      FIG. 1 depicts a wireless mobile radio communications system in which the teachings of the present invention can be utilized.
+      <br/>
+      As shown, the system includes a plurality of cells C1-C10, a plurality of base stations B1-B10, and a plurality of mobile stations M1-M9.
+      <br/>
+      Each base station B1-B10 provides coverage for a corresponding cell C1-C10, and each mobile station M1-M9 is free to move within a cell and from one cell to another.
+      <br/>
+      A mobile switching center MSC is coupled to each of the base stations B1-B10 and also to a public switched telephone network (not shown).
+      <br/>
+      The mobile switching center MSC, the base stations B1-B10, and the mobile stations M1-M9 are all computer controlled and permit both mobile-to-mobile and mobile-to-landline communication.
+      <br/>
+      Since conventional operation of the system of FIG. 1 is well known, a detailed description of the same is omitted.
+      <br/>
+      Those skilled in the art will appreciate that the simplified system of FIG. 1 is provided by way of example only and that the teachings of the present invention are readily applicable to virtually any wireless communications system.
+    </p>
+    <p num="25">
+      FIG. 2 depicts basic components which can be included in the mobile switching center MSC, the base stations B1-B10 and the mobile stations M1-M9 of the exemplary system of FIG. 1.
+      <br/>
+      Advantageously, the depicted components can be configured to implement the methods of the present invention.
+      <br/>
+      Those skilled in the art will appreciate that the components of FIG. 2 are provided by way of example only and that the teachings of the present invention can be implemented using any appropriate configuration.
+    </p>
+    <p num="26">
+      As shown, an exemplary mobile switching center 200 includes a control and processing unit 205, and an exemplary base station 210 includes a control and processing unit 230, a voice channel transceiver 250 and a control channel transceiver 260.
+      <br/>
+      Additionally, an exemplary mobile station 220 includes a voice and control channel transceiver 270 and a processing unit 280.
+      <br/>
+      As with the system of FIG. 1, basic operation of the components of FIG. 2 is well known, and a detailed description of the same is omitted here.
+    </p>
+    <p num="27">
+      Briefly, the base station 210 utilizes a plurality of assigned voice or traffic channels and one or more assigned control channels to permit communication by mobile stations located within an area for which the base station 210 provides coverage.
+      <br/>
+      The control channel transceiver 260 broadcasts control information to mobile stations which are locked onto the assigned control channel(s), and the voice channel transceiver 250 broadcasts and receives voice or data (and perhaps additional control information as well) to and from the mobile stations via the plurality of assigned voice or traffic channels.
+      <br/>
+      Operation of the voice and control channel transceivers 250, 260 is controlled by the base station control and processing unit 230.
+    </p>
+    <p num="28">
+      The control information broadcast by the base station 210 typically includes details relating to prevailing conditions in the base station coverage area and/or adjacent coverage areas.
+      <br/>
+      The mobile station 220 can thus periodically scan the control channels of proximate base stations to determine which base station or coverage area it should lock on or camp to.
+      <br/>
+      When the mobile station 220 is camped in a particular coverage area, it can communicate via the voice or traffic channels assigned to that coverage area.
+      <br/>
+      The mobile station 220 transmits and receives control and voice or traffic information via the voice and control channel transceiver 270 (the operation of which is controlled by the mobile station processing unit 280).
+    </p>
+    <p num="29">
+      As shown, the mobile switching center 200 and the base station 210 are coupled via the switching center and base station control and processing units 205, 230.
+      <br/>
+      The switching center control and processing unit 205 is also typically coupled to a Public Switching Telephony Network (PSTN) as is well known in the art.
+      <br/>
+      Thus, mobile stations camped to the base station 210 can communicate with landline stations as well as other mobile stations as is described above with respect to FIG. 1.
+    </p>
+    <p num="30">
+      FIG. 3 depicts a basic location area registration scheme which can be implemented, for example, using the exemplary components of FIG. 2 in the exemplary system of FIG. 1.
+      <br/>
+      In FIG. 3, an overall network coverage area is divided into four fixed and non-overlapping location registration areas RA1-RA4, each registration area including a pair of base stations (B11-B12, B21-B22, B31-B32, B41-B42).
+      <br/>
+      As shown, a mobile station MS is free to move about within the overall network coverage area and can thus contact each of the registration areas in a random order.
+      <br/>
+      So long as the mobile station remains within a particular registration area, the mobile station need not report its location to the network, and paging of the mobile is accomplished via the base stations within that particular registration area.
+      <br/>
+      However, upon first entering (or re-entering) another registration area, the mobile station must register its location with the network.
+      <br/>
+      For example, when the mobile station MS follows a random path, designated P1 in FIG. 3, it successively registers six times (with registration areas RA3, RA4, RA2, RA3, RA2 and RA1, respectively).
+    </p>
+    <p num="31">
+      The basic location area registration scheme of FIG. 3 is just one of many possible registration schemes.
+      <br/>
+      Other schemes include fixed location areas with a location area identifier broadcast in each cell (as, for example, in GSM) and fixed overlapping location areas with sets of location area identifiers broadcast in each cell (as, for example, in PDC).
+      <br/>
+      Additionally, advanced methods for providing customized location registration areas are being developed at the research level.
+      <br/>
+      Details regarding known methods for location area registration are provided, for example, in: I. Seskar, S. Maric, J. Holtzman and J. Wasserman, Rate of Location Area Updates in Cellular Systems, Institute of Electrical and Electronics Engineers (IEEE) Publication No. 0-7803-0673-2, 1992; S. Okasaka, S. Onoe, S. Yasuda and A. Maebara, A New Location Updating Method for Digital Cellular Systems, IEEE Publication No. CH2944-7/91/0000/0345, 1991; and D. Plassmann, Location Management Strategies for Mobile Cellular Networks of 3rd Generation, IEEE Publication No. 0-7803-1927-3/94, 1994.
+    </p>
+    <p num="32">
+      While many types of location area registration exist, conventional systems employ only a single type of scheme at a time.
+      <br/>
+      Different schemes cannot coexist within a single network.
+      <br/>
+      As a result, conventional systems cannot be easily upgraded, and new standards cannot be easily implemented.
+      <br/>
+      Advantageously, the present invention provides methods and apparatus by which multiple location area registration schemes can be utilized simultaneously within a single network.
+      <br/>
+      More specifically, the invention teaches that a location area registration scheme which is to be utilized by a particular mobile terminal within a network can be negotiated upon initial contact between the terminal and the network.
+    </p>
+    <p num="33">
+      FIG. 4 depicts the basic steps in a method of registration scheme negotiation between a mobile terminal and a network according to the invention.
+      <br/>
+      As shown, the process starts at step S10, and the mobile terminal makes first contact with the network at step S20 (e.g., when the mobile terminal is first powered up within the network coverage area or first roams into the network coverage area).
+      <br/>
+      At step S30, the mobile terminal initially registers with the network (e.g., using conventional methods), and the mobile terminal and the network negotiate for an optimal, mutually agreeable location area registration scheme.
+      <br/>
+      Thereafter, at step 540, the mobile terminal and the network adhere to the agreed upon location area registration scheme to track movement of the terminal within the network coverage area.
+      <br/>
+      As shown at steps S50 and S60, the terminal and the network continue to utilize the negotiated location area registration scheme until the terminal moves into a portion of the network in which the prevailing scheme is no longer appropriate (e.g., where the network no longer supports the prevailing scheme or supports a scheme which is superior to the prevailing scheme and which the terminal also supports).
+      <br/>
+      At that time, the terminal and the network renegotiate for a new best, mutually agreeable scheme and thereafter use the newly negotiated scheme to track movement of the terminal.
+    </p>
+    <p num="34">
+      Thus, according to the invention, different terminals within the same network can simultaneously use different location area registration algorithms.
+      <br/>
+      The scheme used for a particular terminal is appropriately based upon the capabilities of the terminal (and the network) and is not limited to a particular predefined algorithm.
+      <br/>
+      Literally any type of registration scheme can be negotiated for, so long as it is supported by both the terminal and the network.
+      <br/>
+      For example, any of the registration schemes described above can be utilized simultaneously within a given network.
+      <br/>
+      Note, however, that if a particular network does not broadcast both location area identifiers and geographical coordinates, then all terminals within the network should use algorithms that are based on either location area identifiers or geographical coordinates, as appropriate.
+      <br/>
+      Also note that the schemes described above are merely exemplary and that any other presently available or yet to be developed scheme can be implemented as well.
+    </p>
+    <p num="35">
+      Advantageously, the negotiation and renegotiation steps (i.e., steps 530 and 560) of the method of FIG. 4 can be implemented in a variety of ways.
+      <br/>
+      For example, known location area registration schemes can be numbered according to complexity level.
+      <br/>
+      A set of N available schemes, for instance, can be numbered 0 to N-1 with 0 representing the simplest scheme and N-1 the most complex.
+      <br/>
+      Thus, a mobile terminal can, for example, begin negotiating with a network by transferring the number corresponding to the highest level of registration complexity the terminal is equipped to implement.
+      <br/>
+      Thereafter, the network can either accept the level transmitted by the terminal or respond with a lower number corresponding to the highest level of complexity the network is equipped to implement.
+      <br/>
+      The highest, mutually agreeable level of complexity can then be used by both the terminal and the network.
+    </p>
+    <p num="36">
+      Alternatively, the terminal and the network can indicate exactly which location area registration scheme, or schemes, they can implement.
+      <br/>
+      Where the terminal and the network transmit only one number, the number can be accompanied by a flag indicating whether the number represents the highest level of complexity supported or the only level of complexity supported.
+    </p>
+    <p num="37">
+      Negotiation for a level of complexity and/or sophistication as described above can be extremely useful when a new communications standard is introduced.
+      <br/>
+      For example, early implementations of a standard can employ low complexity levels, and higher complexity levels can be gradually introduced in networks and terminals as is deemed necessary or appropriate.
+      <br/>
+      Additionally, new algorithms can be introduced within the standard as work with the algorithms proceeds and as experience with respect to the efficiency of different algorithms in already implemented systems is gained.
+      <br/>
+      The negotiation mechanism is also especially useful for partially upgraded networks.
+      <br/>
+      As described above, partial upgrading can be useful when it is desirable to gradually introduce improvements within an existing network (e.g., to accommodate heavily loaded parts of a network without having to upgrade the entire network).
+      <br/>
+      Advantageously, the described negotiation mechanism provides a vehicle by which such partially upgraded networks can be created with respect to location area registration.
+    </p>
+    <p num="38">
+      When a mobile terminal roams from an area covered by an upgraded part of the network (using a relatively advanced location area registration scheme) to an area covered by a non-upgraded part of the network (using a simpler location area registration scheme), the terminal and the network renegotiate for a more suitable location area registration scheme as noted above.
+      <br/>
+      In some systems, the terminal can detect that the advanced registration scheme is not present based upon the broadcast system information.
+      <br/>
+      If so, the terminal can immediately initiate a renegotiation with the network.
+      <br/>
+      However, if the broadcast system information is insufficient for the terminal to detect that the advanced registration scheme is no longer present, then the terminal will first attempt a location update according to the prevailing (more advanced) registration scheme.
+      <br/>
+      When the network then rejects the location update attempt, the terminal can initiate a renegotiation.
+      <br/>
+      Alternatively, the network can initiate the renegotiation when rejecting the location update attempt (provided that the network recognizes the message from the terminal as a location update attempt).
+    </p>
+    <p num="39">
+      When a mobile terminal roams from a non-upgraded network area (using a first location area scheme) to an upgraded network area (using both the first scheme and a more advanced scheme), the terminal can first attempt a location update according to the first location area scheme.
+      <br/>
+      The network can then instruct the terminal directly to start using the more advanced scheme (provided the terminal can support the more advanced scheme).
+      <br/>
+      To provide this functionality, the initial negotiation data (i.e., the data describing which location area registration schemes the terminal supports), can be stored within the network upon initial registration by the terminal.
+      <br/>
+      For example, the data can be included in the data structure many networks maintain with respect to individual terminals.
+      <br/>
+      If such information is not maintained by the network, the network can instead initiate a renegotiation with the terminal.
+      <br/>
+      Alternatively, if the terminal itself can detect the presence of the more advanced location area scheme based on the broadcast system information, then the terminal can initiate a renegotiation with the network.
+    </p>
+    <p num="40">
+      Those skilled in the art will appreciate that the above described detailed methods for negotiating and renegotiating a location area registration scheme are provided for purposes of illustration and that numerous variations are contemplated herein.
+      <br/>
+      Broadly speaking, the present invention teaches that location area registration can be negotiated and that many benefits can be derived therefrom.
+      <br/>
+      The preferred method of implementation can vary depending upon the particular application at hand.
+    </p>
+    <p num="41">
+      Those skilled in the art will also appreciate that the invention can be generalized to provide for negotiation of system aspects other than location area registration scheme.
+      <br/>
+      For example, a mobile terminal and a network can negotiate for a particular communications protocol (e.g., the Call Control and/or Radio Resource Control protocols).
+      <br/>
+      Indeed, a mobile terminal and a network can negotiate for the entire standard by which they will communicate.
+      <br/>
+      For example, they can negotiate for a particular version of a known standard in a manner analogous to that described above with respect to the level of complexity for a location area registration scheme.
+      <br/>
+      Doing so makes introduction of a new version of a standard still easier.
+      <br/>
+      For example, since multiple versions of a standard can coexist within a single network, newer versions of the standard need not be backward compatible with older versions.
+    </p>
+    <p num="42">
+      In sum, the present invention provides a negotiation scheme which enables differently configured equipment to coexist and interwork within a single network.
+      <br/>
+      Thus, the present invention provides a vehicle for gradually introducing more advanced location area schemes, protocols and/or standards into implemented systems.
+      <br/>
+      Advantageously, when new schemes or standards are introduced, relatively low complexity levels can be utilized initially, and higher levels of complexity can be utilized as is necessary or appropriate.
+      <br/>
+      For example, new algorithms can be introduced within a standard as work with the algorithms proceeds and as experience with respect to the efficiency of the algorithms in implemented systems is gained.
+    </p>
+    <p num="43">
+      Those skilled in the art will appreciate that the present invention is not limited to the specific exemplary embodiments which have been described herein for purposes of illustration.
+      <br/>
+      The scope of the invention, therefore, is defined by the claims which are appended hereto, rather than the foregoing description, and all equivalents which are consistent with the meaning of the claims are intended to be embraced therein.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>I claim:</claim-text>
+      <claim-text>1. A method of interfacing a communications network and a mobile terminal, comprising the steps of:</claim-text>
+      <claim-text>negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal;</claim-text>
+      <claim-text>and using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network, wherein said step of negotiating a location area registration scheme comprises the steps of:</claim-text>
+      <claim-text>- sending a first number from said mobile terminal to said network, said first number indicating a highest level of location area registration said mobile terminal can implement; - receiving said first number at said network; - comparing said received first number with a second number indicating a highest level of location area registration said network can implement; - sending one of an acceptance message and said second number from said network to said terminal, wherein said acceptance message is sent when said network can implement a level of location area registration corresponding to said first number, and wherein said second number is sent when said network cannot implement a level of location area registration corresponding to said first number; - receiving said one of said acceptance message and said second number at said terminal;</claim-text>
+      <claim-text>and - storing one of said first and second numbers at said terminal and at said network, wherein said first number is stored when said network can implement a level of location area registration corresponding to said first number, and wherein said second number is stored when said network cannot implement a level of location area registration corresponding to said first number.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein an initial negotiation message sent from said terminal to said network includes a flag indicating that said first number represents a highest level of location area registration said terminal can implement.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, further comprising the step of storing said first number at said network.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal;</claim-text>
+      <claim-text>and using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network, wherein said step of negotiating a location area registration scheme comprises the steps of: - sending at least one number from said terminal to said network, each number indicating a level of location area registration said terminal can implement; - receiving said at least one number at said network; - comparing said at least one number with at least one other number, each other number indicating a level of location area registration said network can implement; - sending an acceptance message with a result number indicating a highest level of location area registration that both said terminal and said network can implement from said network to said terminal when said network and said terminal can both implement at least one common level of location area registration, and sending a reject message from said network to said terminal when said network and said terminal cannot both implement at least one common level of location area registration; - receiving one of a) said acceptance message with said result number and b) said reject message at said terminal;</claim-text>
+      <claim-text>and - storing said result number at said terminal and at said network when said network and said terminal can both implement at least one common level of location area registration.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 4, further comprising the step of storing, at said network, said at least one number sent from said terminal to said network.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal;</claim-text>
+      <claim-text>and using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network, wherein said step of negotiating a location area registration steps of: - sending a first number from said terminal to said network, said first number indicating a single specific level of location area registration which said terminal can implement; - receiving said first number at said network; - comparing said first number with at least one other number, each other number indicating a level of location area registration said network can implement; - sending an acceptance message from said network to said terminal when said network can implement said single specific level of location area registration, and sending a reject message from said network to said terminal when said network cannot implement said single specific level of location area registration; - receiving one of said acceptance message and said reject message at said terminal;</claim-text>
+      <claim-text>and - storing a negotiation result at said terminal and at said network.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 6, wherein an initial negotiation message sent from said terminal to said network includes a flag indicating that said first number represents a single specific level of location area registration that said terminal can implement.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 6, further comprising the step of storing said first number at said network.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal; using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network; detecting, at said terminal, that said terminal has entered a coverage area in which said network does not support a location area registration scheme currently being implemented by said terminal; initiating, from said terminal, a renegotiation of location area registration scheme with said network;</claim-text>
+      <claim-text>and subsequently using a location area registration scheme, resulting from said renegotiation, to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal; using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network; sending a location update request in accordance with a currently implemented location area registration scheme from said terminal to said network when said terminal enters a coverage area in which said network does not support said currently implemented location area registration scheme; receiving said location update request at said network; sending a location update reject message from said network to said terminal; receiving said location update reject message at said terminal; initiating, from said terminal, a renegotiation of location area registration scheme with said network;</claim-text>
+      <claim-text>and subsequently using a location area registration scheme, resulting from said renegotiation, to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal; using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network; sending a location update request in accordance with a currently implemented location area registration scheme from said terminal to said network when said terminal enters a coverage area in which said network does not support said currently implemented location area registration scheme; receiving said location update request at said network; sending a location update reject message from said network to said terminal; initiating, from said network, a renegotiation of location area registration scheme with said terminal;</claim-text>
+      <claim-text>and subsequently using a location area registration scheme, resulting from said renegotiation, to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 11, wherein said renegotiation is initiated via said location update reject message.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 11, wherein said renegotiation is initiated via a message separate from said location update reject message.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal; using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network; sending a location update request in accordance with a currently implemented location area registration scheme from said terminal to said network when said terminal enters a coverage area in which said network supports a level of location area registration which is higher than a level of said currently implemented location area registration scheme; receiving said location update request at said network; comparing, at said network, stored negotiation information relating to levels of location area registration supported by said terminal with levels of location area registration supported by said network within said entered coverage area; sending a message from said network to said terminal when said terminal and said network can both implement a level of location area registration within said entered coverage area which is higher than the level of said currently implemented location area registration scheme, said message instructing said terminal to begin implementing said higher level of location area registration;</claim-text>
+      <claim-text>and subsequently using said higher level of location area registration to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a location area registration scheme for said mobile terminal; using said location area registration scheme to track movement of said mobile terminal within a coverage area of said communications network; detecting, at said terminal, that said terminal has entered a coverage area in which said terminal and said network can both support a level of location area registration that is higher than a level of location area registration currently being implemented; initiating, from said terminal, a renegotiation of location area registration scheme with said network;</claim-text>
+      <claim-text>and subsequently using a location area registration scheme, resulting from said renegotiation, to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A wireless communications system, comprising: a network of base stations;</claim-text>
+      <claim-text>and at least one mobile station, wherein said network and said at least one mobile station comprise means for negotiating, upon an initial registration with said network by said mobile station, a location area registration scheme for tracking movement of said mobile station within a coverage area of said network, wherein said one mobile station further comprises means for detecting that said mobile station has entered a coverage area in which said mobile station and said network can both support a level of location area registration that is higher than a level of location area registration currently being implemented, and comprises means for initiating a renegotiation of location area registration scheme with said network;</claim-text>
+      <claim-text>wherein a location area registration scheme, resulting from said renegotiation, is subsequently used to track movement of said mobile terminal within said entered coverage area.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, an interface protocol to be used for said mobile terminal;</claim-text>
+      <claim-text>and using said interface protocol to conduct communications between said mobile terminal and said network;</claim-text>
+      <claim-text>wherein said step of negotiating an interface protocol comprises the steps of: - sending a first number from said mobile terminal to said network, said first number indicating a highest version of said interface protocol that said mobile terminal can implement; - receiving said first number at said network; - comparing said received first number with a second number indicating a highest version of said interface protocol that said network can implement; - sending one of an acceptance message and said second number from said network to said terminal, wherein said acceptance message is sent when said network can implement a version of said interface protocol corresponding to said first number, and wherein said second number is sent when said network cannot implement a version of said interface protocol corresponding to said first number; - receiving said one of said acceptance message and said second number at said terminal;</claim-text>
+      <claim-text>and - storing the lesser of said first and second numbers at said terminal and at said network.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 21, wherein said interface protocol is a Call Control protocol.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method of claim 21, wherein said interface protocol is a Radio Resource Control protocol.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A method of interfacing a communications network and a mobile terminal, comprising the steps of: negotiating, upon an initial registration by said mobile terminal with said network, a communications standard to be used for said mobile terminal;</claim-text>
+      <claim-text>and using said communications standard to conduct communications between said mobile terminal and said network; wherein said step of negotiating a communications standard comprises the steps of: - sending a first number from said mobile terminal to said network, said first number indicating a highest version of said standard that said mobile terminal can implement; - receiving said first number at said network; - comparing said received first number with a second number indicating a highest version of said standard that said network can implement; - sending one of an acceptance message and said second number from said network to said terminal, wherein said acceptance message is sent when said network can implement a version of said standard corresponding to said first number, and wherein said second number is sent when said network cannot implement a version of said standard corresponding to said first number; - receiving said one of said acceptance message and said second number at said terminal;</claim-text>
+      <claim-text>and - storing the lesser of said first and second numbers at said terminal and at said network.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

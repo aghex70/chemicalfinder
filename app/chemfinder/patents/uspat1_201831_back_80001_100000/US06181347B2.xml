@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181347B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181347</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181347</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25462872" extended-family-id="42107796">
+      <document-id>
+        <country>US</country>
+        <doc-number>08932760</doc-number>
+        <kind>A</kind>
+        <date>19970917</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08932760</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43164095</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>93276097</doc-number>
+        <kind>A</kind>
+        <date>19970917</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08932760</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T  15/04        20110101A I20140524RMEP</text>
+        <ipc-version-indicator>
+          <date>20110101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>15</main-group>
+        <subgroup>04</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20140524</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>345586000</text>
+        <class>345</class>
+        <subclass>586000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-015/04</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>15</main-group>
+        <subgroup>04</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-015/04</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>15</main-group>
+        <subgroup>04</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>5</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>7</number-of-drawing-sheets>
+      <number-of-figures>9</number-of-figures>
+      <image-key data-format="questel">US6181347</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Selectable mode smoothing texture filter for computer graphics</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>LIN YU-MING, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5740344</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5740344</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="2">
+          <text>HEARTZ ROBERT A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4583185</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4583185</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="3">
+          <text>SIMS EDWARD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4586038</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4586038</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>MERZ DONALD M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4692880</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4692880</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>BUNKER WILLIAM M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4714428</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4714428</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>HEARTZ ROBERT A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4715005</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4715005</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>BUNKER WILLIAM M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4727365</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4727365</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>BUNKER WILLIAM M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4811245</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4811245</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>HEARTZ ROBERT A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4821212</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4821212</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>MERZ DONALD M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4825391</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4825391</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>HEARTZ ROBERT A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4855937</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4855937</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>BUNKER WILLIAM M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4862388</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4862388</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>QUICK LEE T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4868771</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4868771</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>CHANDLER JIMMY E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4905164</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4905164</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>PIAZZA THOMAS A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4958305</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4958305</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>ECONOMY RICHARD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4965745</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4965745</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>BUCHNER GREGORY C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4974176</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4974176</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>HOWARD EDWIN O, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5126726</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5126726</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>CURRIN BENA L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5187754</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5187754</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>QUICK LEE T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5191642</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5191642</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>STEINER WALTER R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5268996</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5268996</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>BUCHNER GREGORY C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5293467</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5293467</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>BUCHNER GREGORY C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5357579</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5357579</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>ECONOMY RICHARD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5367615</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5367615</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>STEINER WALTER R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5420970</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5420970</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>3DO CO</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9636011</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9636011</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Application Ser. No. 08/831,283; Inventors: Gautam P. Vaswani, Daniel P. Wilde and Thomas Dye; Filed Mar. 31, 1997; Title of Invention: Dynamically Selectable Texture Filter for Computer Graphics.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Cirrus Logic, Inc.</orgname>
+            <address>
+              <address-1>Fremont, CA, US</address-1>
+              <city>Fremont</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>CIRRUS LOGIC</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Devic, Goran</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Shaw, Christopher</name>
+            <address>
+              <address-1>Pflugerville, TX, US</address-1>
+              <city>Pflugerville</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Harris, Jonathan M.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Rutkowski, Peter</name>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Bell, Robert P.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Powell, Mark R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A graphics system including a selectable mode smoothing filter for improved texture mapping.
+      <br/>
+      An x, y pixel coordinate is mapped into a u, v texture map.
+      <br/>
+      The mapped u, v coordinate includes integer and fractional portions.
+      <br/>
+      Depending on the location of the coordinate relative to the four nearest texels, which are represented as integers, one of several texture mapping schemes are used to either select or calculate the texel value to be used to render the pixel at the x, y screen location.
+      <br/>
+      The three texture mapping schemes include point sampling in which the nearest texel from the texture map is selected, two-texel averaging in which the closest two texels are combined in a weighted average, and four-texel averaging in which the closest four texels are combined in a weighted average.
+      <br/>
+      Scale factors in the range of 0 to 1 are computed for averaging texel values together.
+      <br/>
+      By including the complete range of 0 to 1, the scale factors permit greater control over the averaging process and accordingly, images with high spatial frequency content are not distorted as much as in previous graphics systems.
+      <br/>
+      By providing a selectable filter than can perform point sampling or two or four-texel averaging, the speed benefit of point sampling can be approached as well as the superior quality of two and four-texel averaging.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+    <p num="1">Not applicable.</p>
+    <heading>STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT</heading>
+    <p num="2">Not applicable.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="3">
+      A.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="4">
+      The present invention relates generally to a graphics system for a personal computer.
+      <br/>
+      More particularly, the present invention relates to a graphics system for providing texture to images on a computer screen.
+      <br/>
+      Still more particularly, the present invention relates to an improvement in texture filtering techniques.
+    </p>
+    <p num="5">B. Background of the Invention</p>
+    <p num="6">
+      Before the availability of the personal computer (commonly referred to as a PC), computer graphics packages were expensive tools primarily reserved for industrial applications.
+      <br/>
+      Early microcomputers were only capable of rendering simple line drawings with a low screen resolution (256 pixels * 256 pixels, for example).
+      <br/>
+      As microcomputers evolved, higher resolution color displays became available, and software applications routinely provided data output in a graphical format.
+      <br/>
+      The graphics techniques used were unstructured, with objects defined in terms of absolute coordinates using straight lines.
+      <br/>
+      Subsequently, graphics "primitives" were developed, enabling circles, ellipses, rectangles and polygons to be drawn with single software instructions.
+      <br/>
+      The use of primitives for drawing shapes increased the speed at which the images could be rendered.
+    </p>
+    <p num="7">
+      The availability of computer graphics has generated a demand for higher resolutions and three dimensional (3-D) rendering capabilities.
+      <br/>
+      Computer animation and games, in particular, have spawned a revolution in computer graphics capabilities.
+      <br/>
+      A 3-D image can be represented in a computer system as a collection of graphical objects, such as polygons, lines, and points.
+      <br/>
+      A set of vertex points defines a polygon.
+      <br/>
+      Associated with each point are certain parameters, such as shading, texturing, color, and the like.
+      <br/>
+      Identification of other non-vertex points within the polygon typically is done through the use of linear interpolation.
+      <br/>
+      Once interpolated, the polygon can be rendered on a computer monitor by scanning of successive rows of the polygon.
+      <br/>
+      By drawing multiple polygons on the screen at a time, an object can be drawn.
+    </p>
+    <p num="8">
+      Further advancements in the computer graphics arena have led to techniques for enhancing the realistic appearance of objects drawn on the screen.
+      <br/>
+      Texture mapping, one of the significant aspects of 3-D graphics, permits images on a computer screen to be displayed with texture.
+      <br/>
+      Thus, for example, a table top can be textured to have the appearance of a wood-grain or marble surface, or any other desired surface.
+      <br/>
+      In computer graphics, a texture map is an array of pixels that represents a particular pattern, such as a single brick.
+      <br/>
+      By repeatedly applying the texture map of a brick to side of a building, for example, the side will appear as a brick wall.
+      <br/>
+      The amount of memory required to represent the brick wall is minimal because only enough memory is required to store a texture map for a single brick.
+    </p>
+    <p num="9">
+      A pixel in a texture map is called a "texel." A texture map typically is constructed from a two-dimensional array of texels (typically represented with digital values).
+      <br/>
+      A u, v address or coordinate is associated with each texel value in the texture map.
+      <br/>
+      Pixels on the computer screen, however, are assigned x, y coordinates or addresses to represent the spatial location of the pixel on the computer screen.
+      <br/>
+      Thus, a pixel with an address of (10, 14) would be in the tenth column of pixels, fourteen rows down from the top of the computer screen.
+      <br/>
+      Because texel values are not assigned an x, y value when applying a texture map to a polygon on the screen, a conversion from an x, y pixel address to a u, v texture map address is necessary.
+      <br/>
+      The conversion process is termed "texture mapping." A texture mapping algorithm thus uses an x, y pixel address to look up a corresponding texel in a texture map.
+      <br/>
+      The texel is then used to render the pixel at the x, y screen address.
+    </p>
+    <p num="10">
+      Texture maps often are applied to objects that are a different shape and size from the texture map.
+      <br/>
+      For example, a texture may be expanded and applied to an object that is larger than the original texture map.
+      <br/>
+      Expanding a texture map to apply to an object, however, makes the resulting object appear blocky.
+      <br/>
+      To minimize this and related problems with applying texture maps to screen objects, graphics systems normally employ texture filtering techniques.
+      <br/>
+      Some of these filtering techniques are described below.
+    </p>
+    <p num="11">
+      Ordinarily, an x, y pixel address converts to a fractional u, v texture map coordinate.
+      <br/>
+      A "10.16" format is typically used to represent the converted u and v coordinates in which 10 bits are used for the integer portion of the coordinate along with 16 fractional bits.
+      <br/>
+      The coordinates of texel values in a texel map, however, include only integer values, and thus the converted u, v coordinate usually will not map exactly to a texel in the texel map.
+      <br/>
+      Point sampling provides the simplest method for selecting a texel from a texel map for applying to objects.
+      <br/>
+      In point sampling, the texel from the texture map closest to the fractional u, v coordinate is selected to render the corresponding x, y pixel on the screen.
+      <br/>
+      For example and referring now to FIG. 1, four texels A, B, C, and D from a texture map are shown with their integer u, v coordinates.
+      <br/>
+      An address in x, y space might convert to u, v texture space as point P1 with u, v coordinates (0.25, 0.30).
+      <br/>
+      Of the four closest to texels A, B, C, and D, point P1 is closest to texel A. Using the point sampling technique, texel A would be selected to be mapped onto the x, y pixel.
+      <br/>
+      With point sampling, only one texel is used for each pixel during mapping and thus only one memory access is required to fetch the selected nearest texel.
+      <br/>
+      Although simple and fast, images rendered with point sampling may appear blocky and "scintillate," or sparkle, when the object moves detracting from the appearance of the object.
+    </p>
+    <p num="12">
+      In certain instances, however, point sampled images are acceptable.
+      <br/>
+      For example, rendered with perspective, a brick wall may appear to recede into the distance.
+      <br/>
+      The appearance of the foreground part of the wall would suffer if point sampling was used because the texture map used may be "super sampled" meaning the same texel value will be used for a large group of pixels in the wall.
+      <br/>
+      However, the problems associated with super sampled point sampled images would be imperceptible if point sampling were used to texture the distant part of the wall because of the diminished resolution associated with objects drawn to appear distant.
+      <br/>
+      However, problems with subsampled textures may occur on the distant part of the wall as too few texels may be used from the texture map causing insufficient texture information to be used to give a realistic brick wall appearance.
+    </p>
+    <p num="13">
+      Another filtering technique referred to as bilinear averaging results generally in higher quality texture images.
+      <br/>
+      Bilinear averaging combines the four nearest texels in a weighted average to derive a single texel value used to render the pixel.
+      <br/>
+      Referring again to FIG. 1, in the u axis point P1 is generally closer to texel A than texel B and closer to texel C than texel D. Thus, the bilinear weighted average of texels A, B, C, and D generally weights A more than B, and C more than D. In the v axis, the result is similar with texels A and B weighted more heavily than texels C and D because point P1 is closer to texels A and B than C and D. Bilinear averaged images achieve superior quality than point sampled images, but require more computer and processing power.
+      <br/>
+      Because four texels are averaged together, four accesses to texture memory are required to fetch the four texels, taking considerably more time than the single memory access required by point sampling.
+      <br/>
+      Further, the averaging process, including calculation of the weights associated with each texel to be averaged, requires time to perform.
+    </p>
+    <p num="14">
+      Graphics systems that employ texturing typically use only one texture mapping technique at a time when rendering images.
+      <br/>
+      Thus, one graphics system might use point sampling for faster speed, while other systems might use bilinear averaging for higher quality.
+      <br/>
+      Both types of systems, however, suffer from the problems attendant to each texturing technique.
+    </p>
+    <p num="15">
+      Another filtering technique described in commonly assigned and co-pending application "Dynamically Selectable Texture Filter For Computer Graphics," Ser.
+      <br/>
+      No. 08/831,283, filed Mar. 31, 1997, combines the speed advantage of point sampling with the quality advantage of bilinear averaging.
+      <br/>
+      In this technique, the texel array is divided into nine regions as shown in FIG. 2.
+      <br/>
+      The area surrounding the four texels A, B, C, D are divided into the nine regions labeled I-IX.
+      <br/>
+      In accordance with the preferred embodiment described in Ser.
+      <br/>
+      No. 08/831,283, the graphics processor uses the point sampling technique when a fractional texel coordinate corresponds to one of the four comer regions I, III, VII and IX.
+      <br/>
+      The graphics processor however, averages the two nearest texel values when the fractional u, v coordinate falls within one of the four side regions II, IV, VI, and VIII.
+      <br/>
+      Finally, the graphics processor computes a four texel average when the fractional texel coordinate falls within the center region V. This technique takes advantage of the speed benefit from point sampling when a fractional texel coordinate is close to one texel in a texture map, but also takes advantage of the quality improvements realized by using a two or four texel filtering technique when the fractional texel coordinate lies elsewhere.
+    </p>
+    <p num="16">
+      Although the filtering techniques described above solve many of the short comings associated with texture mapping, these techniques may still be improved.
+      <br/>
+      Many images, such as a checkerboard 70 shown in FIG. 3, include high frequency components.
+      <br/>
+      The checkerboard 70 in FIG. 3 includes an array of alternating black squares 71 and white squares 73, although in general each square may include any color besides black and white.
+      <br/>
+      The transition 72 in color between black square 71 and white square 73 is very sharp, occurring over a range of one pixel.
+      <br/>
+      The sharp transition 72 corresponds to a high spatial frequency, as is well known.
+      <br/>
+      The filtering techniques described above represent low pass filters.
+      <br/>
+      A low pass filter passes only low spatial frequency components of an image, while attenuating or eliminating high spatial frequency components of the image.
+      <br/>
+      Because the checkerboard 70 in FIG. 3 includes both low spatial frequency components represented at the center of each square 71, 73, and high special frequency components represented by the sharp color transition 72 between squares, low pass filtering checkerboard 70 allows the low frequency components to pass through the filter unhindered, while attenuating or completely eliminating the high frequency transitions.
+      <br/>
+      The resulting filtered image may bare little resemblance to the checker board shown in FIG. 70 as the transitions between squares of color are blurred.
+    </p>
+    <p num="17">
+      The filtering technique of co-pending application Ser.
+      <br/>
+      No. 08/831,283, filed Mar. 31, 1997 is now further described with reference to FIG. 4.
+      <br/>
+      The coordinates of two exemplary texels, texel A and texel B are shown along the horizontal axis which represents the texel coordinate.
+      <br/>
+      Unless otherwise stated, all texel coordinates refer to sub-texel coordinates in which each coordinate is defined relative to an adjacent texel.
+      <br/>
+      Referring to FIG. 2, for example, the sub-texel coordinates of texels B (1,0), C (0,1), and D (1,1) are defined relative to texel A which is assumed to have a sub-texel coordinate of (0, 0).
+    </p>
+    <p num="18">
+      Referring to FIG. 4, the color value associated with texel A is shown as color A on the vertical axis and the color value associated with texel B is also shown on the vertical axis as color B. The sub-texel coordinates between texel A and texel B are divided into three ranges 52, 54, 56.
+      <br/>
+      These ranges correspond to regions I, II, and III, respectively, in FIG. 2.
+      <br/>
+      The preferred embodiment of this invention describes a graphics processor that employs the point sampling filtering technique when a texel coordinate is in regions 52 or 56.
+      <br/>
+      For sub-texel coordinates in range 52, the graphics processor uses only color A to render the pixel on the screen, and does not average colors A and B together.
+      <br/>
+      Similarly, the graphics processor uses only color B for sub-texel coordinates within range 56.
+      <br/>
+      In the intermediate range 54, the graphics processor computes a weighted average of the color A and color B values to produce a color value in the range 60.
+      <br/>
+      The weighted average is computed based on a scale factor determined as a percentage of the range between texels A and B corresponding to the sub-texel fractional coordinate.
+      <br/>
+      For example, if the sub-texel coordinate is exactly half way between texels A and B, then color A and color B are averaged evenly (i.e., scale factor equal to 0.5).
+      <br/>
+      If, however, the sub-texel coordinate corresponds to a value of 1/4 (i.e., 1/4 of the range between texel A and texel B and represented by coordinate 50), then the scale factor equals 1/4 and the weighted average is computed by combining 1/4 of color B with 3/4 of color A (color A*3/4+color B*1/4).
+      <br/>
+      The transitions between the point sampling regions 52, 56 and the weighted average region 58, represented by vertical lines 57, are abrupt and cause the bluriness or distortion described above with respect to the checkerboard 70.
+    </p>
+    <p num="19">
+      Texture mapping techniques, such as point sampling and bilinear averaging for example, have advantages and disadvantages as discussed above.
+      <br/>
+      Point sampling is generally faster than bilinear averaging, but bilinear averaging generally produces higher quality images than images produced using point sampling.
+      <br/>
+      Current graphics systems typically only use one texture mapping technique.
+      <br/>
+      Thus, one system might use only point sampling to apply a texture map to an object on the screen, while another system might use bilinear averaging.
+      <br/>
+      The advantages current graphics systems enjoy, as well as the disadvantages such systems suffer, depend to a large extent on the particular texture mapping technique used.
+      <br/>
+      Generally, graphics systems designers tradeoff speed against quality; higher speed is achieved with point sampling and higher image quality is achieved with bilinear averaging.
+    </p>
+    <p num="20">
+      Thus there is a need for an improved graphic system that allows texture maps with high frequency components, such as a checkerboard, to be applied to an object on the screen with as little distortion as possible.
+      <br/>
+      Such a system should preferably combine the speed advantages of point sampling with an improved multi-texel averaging technique to provide a graphics system that generates high quality images at faster speeds than previous graphics systems.
+      <br/>
+      Despite the advantages such a system would offer, to date no such system is known.
+    </p>
+    <heading>BRIEF SUMMARY OF THE INVENTION</heading>
+    <p num="21">
+      A method and apparatus is disclosed which includes a selectable mode smoothing filter for improved texture mapping.
+      <br/>
+      As part of the texturing process, and in accordance with prior techniques, an x, y pixel address is converted to a u, v coordinate in a texture map.
+      <br/>
+      The converted u, v coordinate includes integer and fractional portions.
+      <br/>
+      The texture map includes texels with only integer coordinates.
+      <br/>
+      Depending on the location of the u, v coordinate relative to the four closest texels, the present invention selects one of three texture mapping schemes to select a texel value from the texture map to use in rendering the pixel at the x, y pixel address.
+      <br/>
+      The three texture mapping schemes used to select the texel value preferably include point sampling (in which the nearest texel from the texture map is selected), two-texel averaging (in which the closest two texels are combined in a weighted average), and four-texel averaging (in which the closest four texels are combined in a weighted average).
+    </p>
+    <p num="22">
+      In accordance with the present invention, the graphics system selects the texture mapping scheme to implement based upon some predetermined criteria.
+      <br/>
+      Thus, the point sampling scheme preferably is implemented when the u, v coordinate is within a predetermined distance from a texel.
+      <br/>
+      If the point sampling scheme is implemented, the closest texel is selected and used to render the x, y pixel.
+      <br/>
+      Point sampling generally is faster than other texture mapping techniques, but provides graphics images whose quality is inferior to other techniques.
+      <br/>
+      By only implementing point sampling when the converted u, v coordinate is relatively close to a texel value in the texel map, graphics distortion is kept at a minimum, while the system speed is maximized.
+    </p>
+    <p num="23">
+      If, however, the converted u, v coordinate is located within a predetermined distance from two texels, but greater than a certain distance from all other texels, then the two closest texels are combined in a weighted average.
+      <br/>
+      The two-texel average weights the closest texel proportionately more heavily than the other texel.
+      <br/>
+      Two-texel averaging generally is slower than point sampling because two texels must be fetched from memory, weights for each texel must be calculated, and the texels then must be combined in a weighted average.
+      <br/>
+      The quality of two-texel filtered images, however, is generally superior to images produced by point sampling.
+      <br/>
+      In addition, the graphics processing of a two-texel filtering scheme is faster than a four-texel averaging scheme.
+    </p>
+    <p num="24">
+      If the mapped u, v coordinate is sufficiently distant from all four of the four closest texels, the four closest texels are combined in a weighted average based upon the proximity of each texel to the converted u, v coordinate values.
+      <br/>
+      Consequently, texels closer to the u, v location are weighted more heavily than the texels located farther away from the converted coordinates.
+      <br/>
+      Four-texel averaging generally provides superior computer graphics, but requires the time-consuming retrieval of four texels from memory, as well as the calculation of a weight for each texel and the weighted combination of the four texels.
+    </p>
+    <p num="25">
+      The weights, or scale factors, calculated for each texel in the two and four texel averages are a function of the proximity of the converted fractional u, v coordinate to each of the two or four nearest texels in the texture map.
+      <br/>
+      The scale factors range from 0 to 1 and are computed by subtracting a first value from the fractional u, v coordinate and the difference is then multiplied by a second value.
+      <br/>
+      In accordance with the preferred embodiment, the first value equals 1/4 and the second value equals 2.
+      <br/>
+      Accordingly, the logic necessary to compute the scale factors generally requires simple shift registers.
+    </p>
+    <p num="26">
+      By providing a selectable filter that performs point sampling, as well as two or four-texel averaging, the graphics system can achieve the speeds approaching those of systems that use only point sampling, while at the same time obtaining superior quality texturing.
+      <br/>
+      Moreover, the areas in the texture map in which each of the three texture mapping techniques is used is adjustable permitting increased system flexibility to fine tune the texture mapping process.
+      <br/>
+      Thus, a programmer can use the fast point sampling when quality and accuracy of an individual texel is of less concern, while using a higher quality scheme in other instances.
+      <br/>
+      Further, because the scale factors range from 0 to 1, greater control is provided over the filtering process.
+      <br/>
+      Accordingly, screen images with high spatial frequency components are not distorted as much as with previous filtering techniques.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="27">
+      For a detailed description of the preferred embodiments of the invention, reference will now be made to the accompanying drawings wherein:
+      <br/>
+      FIG. 1 illustrates exemplary portion of a texture map including two points with fractional u, v coordinates;
+      <br/>
+      FIG. 2 is a portion of a texture map divided into nine regions for texture mapping in accordance with the present invention;
+      <br/>
+      FIG. 3 illustrates an exemplary object with high spatial frequencies to be rendered on a monitor;
+      <br/>
+      FIG. 4 shows a prior art technique for averaging texel values together;
+      <br/>
+      FIG. 5 is a block diagram a preferred embodiment including a selectable mode smoothing filter address selection and a selectable mode smoothing filter;
+      <br/>
+      FIG. 6 illustrates the improved texel averaging technique of a preferred embodiment of the invention;
+      <br/>
+      FIG. 7 further illustrates the preferred averaging technique of FIG. 6;
+      <br/>
+      FIG. 8 shows an alternative texture map to that of FIG. 2; and
+      <br/>
+      FIG. 9 is a schematic diagram of the selectable mode filter of FIG. 5 constructed in accordance with the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="28">
+      Referring now to FIG. 5, a graphics processor 100 constructed in accordance with a preferred embodiment generally includes texture map address generator 150, selectable mode smoothing filter address selection 200, address translator 300, texture memory 350, and selectable mode smoothing filter 400.
+      <br/>
+      An x, y pixel address is provided as an input to texture map address generator 150 which converts the x, y pixel address to a fractional u, v texel coordinate (i.e., a coordinate with integer and fractional portions).
+      <br/>
+      Graphics system 100 uses the u, v coordinate to access texel values from texture memory 350.
+      <br/>
+      Selectable mode smoothing filter 400 calculates scale factors to linearly combine the texel values (texel_in) from texture memory 350 to compute a single texel output value (texel_out) which then is used to render the pixel associated with the x, y address.
+      <br/>
+      Load and accumulate signals are also provided by selectable mode smoothing filter address selection 200 to selectable mode smoothing filter 400 to control operation of filter 400, as will be explained in detail below with reference to FIG. 9.
+    </p>
+    <p num="29">
+      Texture map address generator 150, address translation 300, and texture memory 350 are components known to those of ordinary skill in the art.
+      <br/>
+      Texture map address generator 150 preferably converts an x, y pixel address to a u, v coordinate with a 10.16 format.
+      <br/>
+      The u, v coordinate with a 10.16 format includes 10 integer bit and 16 fractional bit values.
+      <br/>
+      Selectable mode smoothing filter address selection 200 preferably produces an integer u, v texel address, (u_out, v_out,) according to the smoothing filter techniques of a preferred embodiment of the invention.
+      <br/>
+      Address translation unit 300 translates the (u_out, v_out) texel address into a texture memory address.
+    </p>
+    <p num="30">
+      Texture maps preferably are stored in texture memory 350.
+      <br/>
+      Texture memory 350 may include any common memory device and preferably includes random access memory (RAM) operating as system memory.
+      <br/>
+      The texture map address provided by address translation 300 to texture memory 350 preferably comprises physical memory address space.
+      <br/>
+      Address translation 300 may be integrated in the memory controller unit (not specifically shown) of the computer if desired.
+    </p>
+    <p num="31">
+      Referring now to FIG. 2, a group of four texels A, B, C, D from an exemplary texture map is shown divided into nine regions labeled I, II, III, IV, V, VI, VII, VIII, and IX, respectively.
+      <br/>
+      The nine regions are separated by dashed lines 50, 52, 54, 56.
+      <br/>
+      Each texel has an integer sub-texel u, v address or coordinate.
+      <br/>
+      As shown, the u axis runs horizontally and the v axis runs vertically in accordance with normal convention.
+      <br/>
+      Texel A has a u, v address of (0,0), while the address of texel B is (1,0), and the addresses of texels C and D are (0, 1) and (1,1), respectively.
+      <br/>
+      As discussed in the Background of the Invention, the conversion of an x, y address to a u, v coordinate typically results in a u, v coordinate with a fractional value.
+      <br/>
+      The smoothing texture filter of the preferred embodiment dynamically selects an appropriate texture filtering technique for each pixel.
+      <br/>
+      As will be seen below, the selection of the filtering technique depends on the location of the u, v texel coordinate within the nine regions.
+    </p>
+    <p num="32">
+      The present invention takes advantage of the benefits of three texture filtering techniques and uses each technique only in those situations in which the speed versus quality tradeoff favors each technique.
+      <br/>
+      Moreover, it is understood that other texture filtering techniques may be included as part of the selection process.
+    </p>
+    <p num="33">
+      The determination as to which filtering technique to use is made dynamically for each texel while the image is being drawn on the screen.
+      <br/>
+      Thus, one texel value for rendering a pixel may be generated using one filtering technique, while the next texel is generated using a different technique, and so on.
+      <br/>
+      In those situations when the benefit of point sampling (higher speed) outweighs its disadvantage (lower quality images), point sampling is used as the texture filtering technique of the preferred embodiment.
+      <br/>
+      Further, in those instances that favor high quality images over speed, the two or four nearest texels are linearly averaged together.
+      <br/>
+      For example, referring to FIG. 1, the sub-texel u, v coordinate of point P2 (0.05, 0.05) is very close to texel A. Graphics systems that use bilinear averaging will combine texels A, B, C, and D to generate a four texel, weighted average for point P2.
+      <br/>
+      Because of the substantial proximity of point P1 to texel A, however, the value of texel A dominates the averaging equation and heavily influences the texel value of point P1.
+      <br/>
+      In fact, the texel color value computed for point P1 may be almost identical to the color value of texel A. In that case bilinear averaging provides little benefit because the weights given to texels B, C, and D are minimal compared to the weight given texel A. The same result is true for any u, v point substantially close to a texel.
+      <br/>
+      Thus, for this situation, the speed advantage of point sampling outweighs the quality advantage of bilinear averaging.
+      <br/>
+      Referring still to FIG. 2, regions I, III, VII, and IX represent those regions in which point sampling preferably is used by the present invention.
+      <br/>
+      For u, v coordinates falling within these regions, the speed advantage of point sampling generally outweighs the quality benefit of bilinear averaging, or any other filtering technique.
+    </p>
+    <p num="34">Bilinear filtering (or four-texel averaging) is employed for u, v coordinates falling within region V because points in region V are sufficiently distant from texels A, B, C, and D that the quality benefit of bilinear filtering becomes crucial, outweighing the higher speed of point sampling.</p>
+    <p num="35">
+      For u, v points falling within regions II, IV, VI, and VIII, a different filtering method is used in which the nearest two texels are averaged together with appropriate scale factors.
+      <br/>
+      Points in region II, for example, are sufficiently distant from texels C and D that if bilinear averaging were used, the relative contributions to the computed texel value would be dominated by contributions from texels A and B, with little contribution from texels C and D. In computing texel values for points in region II, texels C and D are ignored and only texels A and B are used in a two-texel, scaled averaging technique.
+      <br/>
+      Similarly, for region IV, texels A and C are averaged.
+      <br/>
+      For region VI, texels B and D are averaged and for region VIII, texels C and D are averaged.
+    </p>
+    <p num="36">
+      Scale factors are calculated for each texel A and B. The scale factors are a function of the proximity of the u, v coordinate to each texel.
+      <br/>
+      Thus, closer texels are weighted more heavily than more distant texels.
+      <br/>
+      The averaging technique of the preferred embodiment, however, represents a significant advance over the technique of U.S. application Ser.
+      <br/>
+      No. 08/831,283 generally illustrated in FIG. 4.
+      <br/>
+      The averaging technique of the preferred embodiment is referred to as a smoothing filter technique because it smoothes the sharp color transactions that typify filtered renditions of images with high spatial frequency content.
+    </p>
+    <p num="37">
+      Referring now to FIG. 6, the smoothing filter technique of the preferred embodiment uses point sampling when a sub-texel coordinate is in ranges 62 and 66 near texels A and B and an improved weighted averaging technique when a sub-texel coordinate is in intermediate range 64.
+      <br/>
+      A scale factor is determined for sub-texel coordinates in region 64 for use in calculating the weighted average.
+      <br/>
+      The scale factors preferably range between 0 and 1.
+      <br/>
+      A scale factor associated with coordinate 50 preferably is 0 and the scale factor of point 52 is 1.
+      <br/>
+      The scale factor varies linearly between points 50 and 52 within the range of 0 to 1.
+      <br/>
+      At point 51, halfway between points 50 and 52, the scale factor is 1/2.
+      <br/>
+      Because the range of scale factors includes the complete range of values between 0 to 1, there are no sharp discontinuities in FIG. 6, in contrast with the averaging scheme of U.S. application Ser.
+      <br/>
+      No. 08/831,283 generally illustrated in FIG. 4.
+      <br/>
+      Moreover, the smoothing filter technique of the preferred embodiment provides smoother transitions between ranges of texel coordinates in which no averaging is required (ie., ranges 62, 66) and ranges in which averaging is required (range 64).
+      <br/>
+      The preferred filtering technique thus allows images with high spatial frequency components to be drawn on a screen with less distortion than previously possible.
+      <br/>
+      Although illustrated with respect to texels A and B, whose sub-texel coordinates differ only with respect to the u coordinate,the smoothing filter technique preferably is applied to adjacent texels along both the u and v axes as described in detail below.
+    </p>
+    <p num="38">
+      Although boundary lines 50, 52, 54, 56 in FIG. 2 can be set anywhere, it is preferred for lines 50, 52, 54, 56 to be set at the 1/4 and 3/4 interval points between adjacent texels.
+      <br/>
+      Accordingly, boundary line 50 is set at a point 1/4 of the range of sub-texel coordinates between texel A and texel B. Boundary line 52 is set a point 3/4 of the range of the range between texels A and B. Boundary lines 54, 56 similarly are set at points 1/4 and 3/4, respectively, between texels A and C. As will become apparent below, setting the boundary lines at the 1/4 and 3/4 points advantageously allows the selectable mode smoothing filter address selection 200 (FIG. 5) to include relatively few logic gates.
+    </p>
+    <p num="39">
+      The following discussion describes how a scale factor is calculated and assumes that the boundary lines 50, 52, 54, 56 are set at the 1/4 and 3/4 points as discussed above.
+      <br/>
+      Referring to FIG. 6, the sub-texel coordinates in range 64 are converted to a scale factor between 0 and 1.
+      <br/>
+      This conversion is accomplished by subtracting 1/4 from each sub-texel coordinate in range 64 and then multiplying 2.
+      <br/>
+      Converting the 1/4 sub-texel coordinate 50, for example, results in a scale factor of (1/4-1/4)*2=0.
+      <br/>
+      Similarly, the scale factor for the 3/4 sub-texel coordinate 52 is (3/4-1/4)*2=1.
+    </p>
+    <p num="40">Table I defines the scale factors and the weighted averaging equations for the nine regions of FIG. 2, in accordance with the preferred embodiment in which boundaries 50, 52, 54, 56 are set at the 1/4 and 3/4 points.</p>
+    <heading>-- TABLE I</heading>
+    <p num="41">
+      -- Smoothing Filter Scale Factors and Averaging Equations
+      <br/>
+      --           TEXELS                            AVERAGING
+      <br/>
+      -- REGION    NEEDED    SCALE FACTORS           EQUATIONS
+      <br/>
+      -- I         1         None                    A (no averaging)
+      <br/>
+      -- II        2         AS = 1 - 2(UF - 1/4) A  *  AS + B
+      <br/>
+      --   *  BS
+      <br/>
+      --                     BS = 2(UF - 1/4)
+      <br/>
+      -- III       1         None                    B (no averaging)
+      <br/>
+      -- IV        2         AS = 1 - 2(VF - 1/4) A  *  AS + C
+      <br/>
+      --   *  CS
+      <br/>
+      --                     CS 2(VF - 1/4)
+      <br/>
+      -- V         4         AS = 2(1 - 2(UF - 1/4)) A  *  AS
+      <br/>
+      --  + B  *  BS +
+      <br/>
+      --                     (VF - 1/4) C  *  CS + D  *
+      <br/>
+      --  DS
+      <br/>
+      --                     BS = 4(UF - 1/4) (VF - 1/4)
+      <br/>
+      --                     CS = 2(1 - 2(UF - 1/4))
+      <br/>
+      --                     (VF - 1/4)
+      <br/>
+      --                     DS = 4(UF - 1/4) (VF - 1/4)
+      <br/>
+      -- VI        2         BS = 1 - 2(VF - 1/4) B  *  BS + D
+      <br/>
+      --   *  DS
+      <br/>
+      --                     DS 2(VF - 1/4)
+      <br/>
+      -- VII       1         None                    C (no averaging)
+      <br/>
+      -- VIII      2         CS = 1 - 2(UF - 1/4) C  *  CS + D
+      <br/>
+      --   *  DS
+      <br/>
+      --                     DS 2(UF - 1/4)
+      <br/>
+      -- IX        1         None                    D (no averaging)
+    </p>
+    <p num="42">
+      In Table I, A, B, C and D represent the color values associated with texels A, B, C, and D. The values UF and VF represent the u, v sub-texel coordinate of the fractional texel coordinate falling within a one of the regions II, IV-VI, and VII (FIG. 2) in which scaled averaging is preferred.
+      <br/>
+      The values AS, BS, CS, DS represent the scale factors computed in accordance with a preferred embodiment.
+      <br/>
+      It should be noted that the averaging equation for region V is more complex than for regions II, IV, VI and VIII because four texel values are averaged rather than two.
+    </p>
+    <p num="43">
+      The mathematical operations necessary for the averaging equations in Table I (subtraction by 1/4 and multiplication by 2) are simply bit shift operations in hardware or software.
+      <br/>
+      As one of ordinary skill in the art will understand, multiplication by 2 requires a bit shift to the left by one bit position.
+      <br/>
+      Further, only sub-texel coordinates in the second and third quarters are used to calculate the scale factors.
+      <br/>
+      As illustrated in FIG. 7, subtracting 1/4 from sub-texel coordinates in the regions in which averaging is appropriate requires keeping the most significant bit N of the sub-texel coordinate, rejecting the next most significant bit N-1, and shifting the remaining bits to the left by one bit position.
+      <br/>
+      A bit value of 0 preferably is inserted in the right most bit position.
+    </p>
+    <p num="44">
+      Accordingly, logic to implement the averaging equations is relatively simple and comprises standard shift registers and other common logic devices necessary for implementing the averaging equations in Table I. If desired, however, the boundary lines 50, 52, 54, 56 can be set at points other than the 1/4 and 3/4 points described previously.
+      <br/>
+      For example, referring back to FIG. 6, the boundary points 50, 52 of the intermediate range of sub-texel coordinates may represent the 1/8 and 7/8 boundary points.
+      <br/>
+      As such, the scale factor is computed by subtracting 1/8 and multiplying 4/3 to convert the sub-texels coordinates in the range of 1/8 to 7/8 to the range of 0 to 1.
+      <br/>
+      Multiplying by 4/3 requires more complex logic than simple shifts registers for implementing multiplication by 2.
+      <br/>
+      Although more complex logic may be required, the complexity required is within the grasp of one of ordinary skill in the art.
+      <br/>
+      It should also be realized that the location of the boundary lines 50, 52, 54, 56 defining the regions in which averaging is preferred may be programmable and the averaging equations may be implemented in software.
+    </p>
+    <p num="45">
+      By permitting the location of the boundary defining lines 50, 52, 54, 56 to be programmable, the present invention also advantageously allows for control over the sizes of the nine regions I-IX.
+      <br/>
+      Moreover, by controlling the sizes of the nine regions, the present invention provides flexibility in determining when to use each of the three texturing mapping techniques.
+      <br/>
+      Further, while a rectangular boundary region has been defined, it should be understood that other boundary schemes may be used without departing from the principles of the present invention, as shown for example in FIG. 8.
+      <br/>
+      In FIG. 8 point sampling may be used for u, v coordinates in regions X, two texel averaging in region XI, and four-texel averaging in region XII.
+    </p>
+    <p num="46">
+      Referring now to FIGS. 5 and 9, the selectable mode filter 400 preferably includes multiplier 410, adder 412, multiplexers 414 and 418 and accumulator register 416.
+      <br/>
+      The input signals to the filter 400 include the texel_in value from texture memory 350 and scale factor, load, accumulate, and tex_1 signals from the selectable mode smoothing filter address selection 200.
+      <br/>
+      The texel_in value represents a texel value either to be averaged (during two or four-texel filtering) or to be used to render the pixel (during point sampling texture mapping).
+      <br/>
+      Selectable mode filter 400 generally performs adding and accumulating functions to compute the averaging equations in the fourth column of Table I. At substantially the same time that a texel value is retrieved from texture memory 350, an appropriate scale factor is provided by selectable mode smoothing filter address selection 200 during either two or four texel-averaging.
+      <br/>
+      Multiplier 410 multiplies the texel value by its scale factor.
+      <br/>
+      The output of multiplier 410 is provided to multiplexer 414 and selected as the output signal for multiplexer 414 output by the load control signal.
+      <br/>
+      The first texel*scale factor value from multiplier 410 is then loaded into accumulator register 416 when the accumulate signal is asserted.
+      <br/>
+      At this point, the first term in the averaging equation, such as A*As from Table I, is loaded into the accumulator register 416.
+      <br/>
+      For each of the next two terms during four-texel averaging (terms 2 and 3), multiplier 410 multiplies the texel_in value by the associated scale factor and the resulting product is added to the current contents of the accumulator register by adder 412.
+      <br/>
+      The resulting sum of adder 412 is loaded through multiplexer 414 and stored in accumulator register 416.
+    </p>
+    <p num="47">
+      When the fourth texel*scale term during four-texel averaging (or the second term during two-texel averaging) is computed by multiplier 410, it is added to the current contents of accumulator register 416 and provided as the output texel_out value from multiplexer 418 under control by the tex_1 signal from the selectable mode smoothing filter address selection 200.
+      <br/>
+      Thus the tex_1 signal is asserted to select the output value from adder 412 during two or four texel averaging.
+    </p>
+    <p num="48">
+      If, instead, point sampling is required (i.e., no averaging required), the texel_in value, which is also provided directly to multiplexer 418 is selected via the tex_1 control signal from the selectable mode smoothing filter address selection 200.
+      <br/>
+      The texel_in value during point sampling is simply the closest pixel to the u, v coordinate generated by texture map address generator 150.
+      <br/>
+      Because no averaging is needed, the texel_out value is selected to be the texel_out value from the selectable mode smoothing filter 400.
+    </p>
+    <p num="49">
+      Numerous variations and modifications will become apparent to those skilled in the art once the above disclosure is fully appreciated.
+      <br/>
+      It is intended that the following claims be interpreted to embrace all such variations and modifications.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A computer system that applies texel values from a texture map to computer screen pixels by selectively using a variety of texture mapping techniques, said computer system comprising:</claim-text>
+      <claim-text>a texture map address generator that converts an x, y pixel address to a fractional coordinate in a texture map including an integer portion and a fractional portion, said fractional coordinate corresponding to one of a plurality of regions in said texture map, said regions include a first plurality of regions in which point sampling is performed, a second plurality of regions in which two-texel averaging is performed, and another region in which four texel averaging is performed; a selectable mode smoothing filter address selection unit coupled to said texture map address generator, said selectable mode smoothing filter address selection unit using said fractional coordinate to generate an integer coordinate in said texture map of a texel to be used in applying said texel values to said pixels, said selectable mode smoothing filter address selection unit further determining to which region said integer coordinate corresponds to determine an appropriate filtering technique to use to render a pixel, and further said selectable mode smoothing filter address selection unit calculating scale factors for two and four texel averaging in which said scale factor include the range of 0 to 1, including 0 and 1; wherein said scale factors are calculated by subtracting a first value equal to 1/4 from said fractional coordinate and multiplying the difference by a second value equal to 2; a texture memory device that stores said texture map;</claim-text>
+      <claim-text>and an address translator disposed between said selectable mode smoothing filter address selection unit and said texture memory that translates said integer texture map coordinate to a texture memory address.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The computer system of claim 1 wherein said selectable mode smoothing filter address selection unit includes a shift register to multiply said difference by said second value.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A graphics processor that applies texel values from a texture map to computer screen pixels by selectively using a variety of texture mapping techniques, said computer system comprising: a texture map address generator that converts an x, y pixel address to a fractional coordinate in a texture map including an integer portion and a fractional portion, said fractional coordinate corresponding to one of a plurality of regions in said texture map, said regions including a first plurality of regions in which point sampling is performed, a second plurality of regions in which two-texel averaging is performed, and another region in which four texel averaging is performed; a selectable mode smoothing filter address selection unit coupled to said texture map address generator, said selectable mode smoothing filter address selection unit using said fractional coordinate to generate an integer coordinate in said texture map of a texel to be used in applying said texel values to said pixels, said selectable mode smoothing filter address selection unit further determining to which region said integer coordinate corresponds and calculating scale factors for two and four texel averaging in which said scale factors include the range of 0 to 1, including 0 and 1, wherein said scale factors arc calculated by subtracting a first value equal to 1/4 from said fractional coordinate and multiplying the difference by a second value equal to 2; a texture memory device that stores said texture map; an address translator disposed between said selectable mode smoothing filter address selection unit and said texture memory and that translates said integer texture map coordinate to a texture memory address;</claim-text>
+      <claim-text>and a selectable mode smoothing filter for computing the texel value to be applied to said computer screen pixels based on a filtering technique dynamically selected when rending each pixel.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The computer system of claim 3 wherein said selectable mode smoothing filter address selection unit includes a shift register to multiply said difference by said second value.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A texture filtering method of applying a texel value from a texture map to a pixel on a computer screen using a dynamically selectable texture filtering technique, comprising: (a) dividing said texture map into a plurality of regions; (b) converting a screen pixel address to a fractional coordinate in a texture map, said fractional coordinate including an integer portion and a fractional portion and said texture map including integer texel values;</claim-text>
+      <claim-text>and (c) computing a first scale factor within the range of 0 to 1 and a weighted four-texel average using said first scale factor if said fractional coordinate is within a first region in said texture map;</claim-text>
+      <claim-text>or (d) computing a second scale factor within the range of 0 to 1 and a weighted two-texel average using said second scale factor if said fractional coordinate is within a second region in said texture map;</claim-text>
+      <claim-text>or (e) selecting a nearest texel to said fractional coordinate if said fractional coordinate is within a third region in said texture map; wherein computing said first and second scale factors includes subtracting a first value equal to 1/4 from said fractional coordinate and multiplying the difference by a second value equal to 2.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

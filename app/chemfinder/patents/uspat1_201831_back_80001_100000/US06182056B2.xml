@@ -1,0 +1,4890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182056B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182056</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182056</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="46256196" extended-family-id="42022538">
+      <document-id>
+        <country>US</country>
+        <doc-number>09203309</doc-number>
+        <kind>A</kind>
+        <date>19981201</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09203309</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43045060</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>20330998</doc-number>
+        <kind>A</kind>
+        <date>19981201</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09203309</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="2">
+        <country>US</country>
+        <doc-number>44560595</doc-number>
+        <kind>A</kind>
+        <date>19950522</date>
+        <priority-linkage-type>2</priority-linkage-type>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="2">
+        <doc-number>1995US-08445605</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/44        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>44</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>706011000</text>
+        <class>706</class>
+        <subclass>011000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-009/44W</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>009</main-group>
+        <subgroup>44W</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20180201</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/451</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>451</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20180219</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>2</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>13</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6182056</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method of modeling complex navigational logic in a client/server environment</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>FUJISAWA HIROMICHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5404506</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5404506</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>HELLERSTEIN JOSEPH</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5717835</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5717835</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HEKMATPOUR AMIR</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5720007</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5720007</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>BOOKMAN MATTHEW, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5761673</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5761673</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>HEKMATPOUR AMIR</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5799292</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5799292</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>EBERMAN BRIAN SCOTT, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5805775</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5805775</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>SCHATZ JOEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5845270</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5845270</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>DOCKTER MICHAEL J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5854923</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5854923</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>ENOMOTO HAJIME</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5895459</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5895459</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>YOURICK DENISE A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4775935</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4775935</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>LANIER CHARLES D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5103498</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5103498</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>KLEINERMAN AUREL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5228137</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5228137</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>EAGEN STEPHEN T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5247614</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5247614</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>BOGART FRANK J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5289535</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5289535</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>POTTS RICHARD J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5432940</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5432940</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>NONAKA NAOMICHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5485544</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5485544</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>AUSTIN JON O, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5500934</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5500934</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>HIRAGA RUMI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5509116</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5509116</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>MINTZ DONALD J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5539872</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5539872</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>SHRIVER DAVID I</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5546583</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5546583</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>M. St. Jacques, D. Stevens, J. Getchius, L. Lau, "A Knowledge-Based Method for Engineering Navigational Capability into User Interface Software", Fourth International Conference on Software Engineering and Knowledge Engineering, Jun. 1992.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>T. Negrino and D. Smith, JavaScript for the World Wide Web, 2nd Edition, pp. 73-87, Dec. 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>T. Fukuda, et al., "Concept and Realization of Adaptive Interface Based on User's Skill and Uncomfortableness," Proc. IEEE Int'l. Workshop on Robot and Human Communication, pp. 171-176 (Sep. 1992).</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <related-documents>
+      <continuation-in-part>
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>US</country>
+              <doc-number>44560595</doc-number>
+              <kind>A</kind>
+              <date>19950522</date>
+            </document-id>
+          </parent-doc>
+        </relation>
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>US</country>
+              <doc-number>5870727</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </parent-doc>
+        </relation>
+      </continuation-in-part>
+    </related-documents>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>GTE Data Services Incorporated</orgname>
+            <address>
+              <address-1>Irving, TX, US</address-1>
+              <city>Irving</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>GTE DATA SERVICES</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>St. Jacques, Michael G.</name>
+            <address>
+              <address-1>Tampa, FL, US</address-1>
+              <city>Tampa</city>
+              <state>FL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Stevens, Delano C.</name>
+            <address>
+              <address-1>Weston, FL, US</address-1>
+              <city>Weston</city>
+              <state>FL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Suchyta, Leonard Charles</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Anderson, Floyd E.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Hafiz, Tariq R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method for modeling complex navigational logic that automatically controls the presentation of screen displays at the user interface of a client in a client/server environment utilizes a Navigation Analysis Vehicle "NAV") (or module) and a Matrix Analysis Package ("MAP").
+      <br/>
+      The MAP facilitates creation of navigation rules for linkage with the rest of the application.
+      <br/>
+      In a preferred embodiment of the invention, the NAV communicates navigational instructions to a user interface for the display and take-down of screens, and also communicates with other processes such as editors and data manipulators.
+      <br/>
+      After the navigation rules are created, those rules are then applied to provide navigational logic for the user interface for the processing of the user interface screens.
+      <br/>
+      MAP creates the navigation rules in a user-friendly, C-like language and parses them into ANSI-standard C language for linkage with other processes that control the user interface.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>RELATED APPLICATION</heading>
+    <p num="1">
+      The present invention is a continuation-in-part application of U.S. patent application Ser.
+      <br/>
+      No. 08/445,605, entitled "A Rule-Based System for the Provision of Complex Navigational Logic." by Michael S. Jacques and Dealno Stevens, filed on May 22, 1995, now U.S. Pat. No. 5,870,787, and assigned to the assignee of the present invention, and which is incorporated by reference as if fully set forth herein.
+    </p>
+    <heading>COPYRIGHTS</heading>
+    <p num="2">
+      A portion of the disclosure of this patent contains material which is subject to copyright protection.
+      <br/>
+      The copyright owner has no objection to facsimile reproduction by anyone of the patent document or the patent disclosure, as it appears in the Patent and Trademark Office patent file or records, but otherwise reserves all copyright rights whatsoever.
+    </p>
+    <heading>TECHNICAL FIELD OF THE INVENTION</heading>
+    <p num="3">
+      The present invention relates generally to the management of information.
+      <br/>
+      More particularly, the invention relates to a method for automatically controlling the presentation of screen displays at the user interface of a client in a client/server environment.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="4">
+      Significant advances in presentation technologies have occurred in recent years.
+      <br/>
+      Workstations with sophisticated user interfaces--long the sole domain of engineers and scientists--now are finding application in the broader marketplace.
+    </p>
+    <p num="5">
+      New presentation of software and standardization efforts have bolstered this migration to a larger commercial environment. X-Windows software from MIT and its X-Consortium are illustrative of such development.
+      <br/>
+      The combination of X-Windows with other standards, such as OSF/Motif.
+      <br/>
+      UNIX and C, has allowed application developers a new freedom from many platform issues and has enhanced the efficiency in the creation of user interface (UIs).
+    </p>
+    <p num="6">
+      In spite of such strides in efficiency and much continuing work in X-Windows, one of the most time consuming tasks in creating working UIs has received little or no attention--the development of software to control the screens a user sees and the sequence with which those screens are presented.
+      <br/>
+      Throughout this disclosure, this type of software is referred to as navigational logic.
+    </p>
+    <p num="7">
+      Currently, the only mechanism provided within X-Windows and many other environments to accomplish navigation is through what are generically referred to as "callback" routines.
+      <br/>
+      That mechanism provides a means of linking the processing of a function to an X-Event, such as a button push or the filling in of a field on the screen.
+    </p>
+    <p num="8">
+      With callback functions it is possible to achieve certain navigational goals.
+      <br/>
+      For example, a callback might be executed from a button press in the current screen which unmaps that screen and presents another subsequent screen.
+      <br/>
+      The approach has value, but it becomes cumbersome when the navigational logic is more complex than simple screen-to-screen traversal.
+    </p>
+    <p num="9">1. Client/Server Architecture</p>
+    <p num="10">
+      Many modern system are based on a three-tier, client/server architecture in which work is distributed over a number of processors.
+      <br/>
+      At the first tier, users interface with the system through easy-to-use graphical screens presented on workstations (shown as Group 3 in FIG. 1).
+      <br/>
+      Significant savings in user efficiency can be realized with a graphical user interface (OUI) based on the X-Windows System and OSF/Motif standards.
+    </p>
+    <p num="11">
+      Workstations are linked via Ethernet to servers at tier two which handle some data management tasks and communicate with other systems as shown in FIG. 1 (Group 2 in FIG. 1).
+      <br/>
+      Often, workstations and servers run under UNIX and software is generally written in the C programming language.
+      <br/>
+      Tier three consists of mainframe computers and timeshare systems which, for example, access corporate data repositories for customer records, service orders and other data.
+    </p>
+    <p num="12">2. Navigational Complexity in Modern Systems</p>
+    <p num="13">
+      In more advanced systems, the user is guided through complex transactions by the system.
+      <br/>
+      This factor is often critical to cost savings because it allows less experienced people to competently use the system.
+      <br/>
+      However, this user-friendly approach complicates the navigational aspects of the system.
+    </p>
+    <p num="14">
+      The correct screen must appear to the user at the proper time without user intervention.
+      <br/>
+      At certain points in the transaction, however, the user must have substantial flexibility in choosing screens.
+      <br/>
+      Often, both of these requirements have to be met simultaneously with navigational logic.
+      <br/>
+      It is also often unnecessary to control which fields are available to a user or to impact the field-to-field flow.
+    </p>
+    <p num="15">
+      Transactions often require at least one end, more frequently, two or three asynchronous accesses to tier three computers.
+      <br/>
+      During these sometimes lengthy excursions, certain screens are presented or are at least made available to users.
+      <br/>
+      This is often done so that the users can take any additional information from the customer which can logically be obtained prior to receiving a return response from the tier three computer.
+      <br/>
+      When results do come back, they often influence which screens must appear in the flow and possibly how the transaction must proceed from that point forward.
+      <br/>
+      The navigational logic must have the capability to handle these situations.
+    </p>
+    <p num="16">
+      A second factor contributing to navigational complexity stems from the fact that many modern systems are to be implemented globally at a large number of locations.
+      <br/>
+      Each location has its own methods of doing business based on local demographics.
+      <br/>
+      Therefore, screen availability and order of presentation have to be controllable by the local user group.
+      <br/>
+      Often, to accomplish this, a table is periodically edited.
+      <br/>
+      The table is subsequently read by the system at start-up and the screens presented accordingly.
+    </p>
+    <p num="17">
+      A third factor is the result of recent industry trends toward rapidly creating specialized services and bringing them to market quickly.
+      <br/>
+      Of course, part of bringing any service to market includes integrating the service into a company's operational support systems.
+      <br/>
+      System integration has traditionally been a slow process, but in recent years the need for faster integration has become much more evident.
+    </p>
+    <p num="18">
+      For all the above-stated considerations, there is a need for a method which can accommodate more complex navigation and is more sophisticated than the use of callback functions provided by X-Windows.
+      <br/>
+      The new method for creating navigational logic must be efficient and responsive to transaction requirements, while providing features such as speed of development, maintainability and flexibility.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="19">Accordingly, an advantage of the present invention is the provision of a rule-based method for managing messages between clients, servers or other interfaces, while retaining the complex relationships that affect the order and appropriateness of actions with an application.</p>
+    <p num="20">Another advantage of an exemplary embodiment of the present invention is the provision of a novel, time-saving approach to creating complex navigational logic.</p>
+    <p num="21">A further advantage of an exemplary embodiment of the present invention is the provision of a C-like language parser which facilitates the creation of navigational rules.</p>
+    <p num="22">A still further advantage of an exemplary embodiment of the present invention is the ease of maintaining navigational code because the navigational code is disposed in a centralized location and is isolated from the UI.</p>
+    <p num="23">Yet another advantage of the present invention is that complex navigational relationships are more easily envisioned, described and implemented.</p>
+    <p num="24">
+      The above and other advantages of various embodiments of the present invention are carried out in one form by a novel, time-saving technique for providing complex navigational logic, which has been developed as a general method.
+      <br/>
+      In this document the general method will be referred to as the Navigational Analysis Vehicle ("NAV") or module.
+      <br/>
+      NAV is a rule-based system that illustratively provides navigational logic for UIs in an X-Windows environment.
+      <br/>
+      NAV is supported by the Matrix Assembly Package (MAP), a C-like language parser which facilitates the creation of navigational rules.
+    </p>
+    <p num="25">In an illustrative embodiment of the invention, the invention is directed to a method of modeling complex logical relationships associated with an interaction of a multiplicity of screen displays at a user interface and other processes, comprising the steps of: organizing a matrix data structure comprising a plurality of cells configured in an arrangement of rows and columns; and populating the cells with a set of descriptors defining the interaction of the multiplicity of screen displays with the other processes associated with the navigation at the user interface of the application.</p>
+    <p num="26">In another illustrative embodiment, the invention is directed to a system for modeling complex logical relationships, comprising: a work station comprising a processor programmed to organize a matrix data structure comprising a plurality of cells configured in an arrangement of rows and columns, and to populate said plurality of cells with a set of descriptors defining the interaction of said multiplicity of screen displays with said other processes associated with the navigation at said user interface of said application, wherein each row and column corresponds to one of a screen or an asynchronous external event, the processor further being programmed to be responsive to a transition between selected screens to generate a corresponding control signal; and an information processing center including a host data server electrically connected to the processor and responsive to receipt of the control signal from the processor to execute a corresponding transaction and to transmit results of the transaction to the work station processor for display in connection with a corresponding screen.</p>
+    <p num="27">Other advantages and features of the invention will be apparent from the following description of the preferred embodiment thereof and from the claims herein.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="28">
+      A more complete understanding of the present invention may be derived by referring to the detailed description and claims when considered in connection with the appended FIGURES, wherein like reference numbers refer to similar items throughout the FIGURES, and wherein:
+      <br/>
+      FIG. 1 illustrates a typical configuration including workstations linked with a server, and the server is linked with a mainframe computer and other external hosts;
+      <br/>
+      FIG. 2 illustrates a transition representation of a simple transactional flow, including eight screens;
+      <br/>
+      FIG. 3 schematically illustrates the screens of FIG. 2;
+      <br/>
+      FIG. 4 schematically illustrates the screens of FIG. 5;
+      <br/>
+      FIG. 5 illustrates a transition representation of a complex transactional flow, including twelve screens and interaction with an asynchronous event;
+      <br/>
+      FIG. 6 schematically illustrates the software architecture of a typical client/server system;
+      <br/>
+      FIG. 7 pictorially illustrates the terminology and concepts embodied in the matrix approach to organization of navigational rules according to the present invention;
+      <br/>
+      FIG. 8 schematically illustrates the flow of steps for the navigational algorithm embodied in the NAV software;
+      <br/>
+      FIG. 9 schematically illustrates the flow of steps for operation of the matrix scan rules embodied in the NAV software;
+      <br/>
+      FIG. 10 schematically illustrates the flow of steps for operation of the Resolve Rules algorithm embodied in the NAV software;
+      <br/>
+      FIG. 11 pictorially illustrates the interactions and cell rules for a simple navigational case;
+      <br/>
+      FIG. 12 schematically illustrates the MAP language description of matrix elements, including the structure of the language and the keywords recognized by MAP, as well as their meaning; and
+      <br/>
+      FIG. 13 pictorially illustrates the interactions and cell rules for a complex navigational case.
+    </p>
+    <heading>DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="29">
+      The preferred environment for the present invention is a three-tier, client/server architecture in which work is distributed over a number of processors.
+      <br/>
+      At the first tier, users interface with the system through easy-to-use graphical screens (i.e., a graphical user interface or "GUI") presented on workstations 10 that are well known to those skilled in the art (Group 3).
+      <br/>
+      Typically, workstation hardware includes a display capable of simultaneously presenting multiple graphical user interface ("GUI") screens "X" and includes a processor and memory for utilizing this invention.
+      <br/>
+      The GUI screens are based on the X-Windows System and OSF/Motif standards.
+      <br/>
+      For this implementation, the MP 9000 server workstations from the Hewlett-Packard Company may be used.
+    </p>
+    <p num="30">
+      The diskless workstations are linked via Ethernet to servers 20 at tier (or Group) two which handle some data management tasks and communicate with other system as shown in FIG. 1.
+      <br/>
+      For this implementation, HP 9000 Series servers, also from Hewlett-Packard Company, may preferably be employed.
+      <br/>
+      Both the workstations and servers may run under the UNIX operating system and all software can be written in the C programming language.
+      <br/>
+      Tier three consists of mainframe computers 30 (Group 1) and timeshare systems which, for example, access corporate data repositories 32 for customer records and service orders and other data.
+    </p>
+    <p num="31">1. Navigational Analysis Vehicle ("NAV")</p>
+    <p num="32">
+      The approach to navigational logic disclosed herein is based on the two software routines, NAV and MAP, as will now be describe din greater detail.
+      <br/>
+      NAV communicates navigational instructions to an X Windows-based user interface telling it which screens to display and take-down.
+      <br/>
+      NAV also communicates with other processes such as editors and data manipulators with standard, UNIX System V Interprocess Communications.
+    </p>
+    <p num="33">
+      FIG. 6 illustrates the architectural relationships between the user interface UI, NAV and other processes including editors and data manipulators (DMs) as are known to those skilled in the art.
+      <br/>
+      The UI 110 sends messages to NAV 130 using callbacks when events of interest occur.
+      <br/>
+      Examples include:
+    </p>
+    <p num="34">
+      OK button is pressed in Screen_1
+      <br/>
+      Cancel button is pressed in Screen_6
+    </p>
+    <p num="35">
+      Other processes send messages to NAV when necessary.
+      <br/>
+      For example:
+      <br/>
+      Async_Transaction reaches state Success_6 or Fix_1_Required Screen_8 has been edited, updated or primed.
+    </p>
+    <p num="36">
+      NAV 130, in turn, must send messages to the UI 110 (e.g., Display Screen_2).
+      <br/>
+      This case is different from the others because of the way the X Window system has been designed. X-Window is event-driven and is primarily set up to receive and process events from users via the X Server.
+      <br/>
+      However, there is a mechanism in X-Windows to recognize input from UNIX files which include pipes and sockets as well as conventional files.
+      <br/>
+      With the present invention, this mechanism is preferably used to establish a communication link into the UI using a combination of UNIX fifo (named pipe) and an IPC queue.
+      <br/>
+      The fifo was described to the UI and made available for reading with the XtAppAddInput function.
+    </p>
+    <p num="37">
+      The transfer of a message is accomplished in two steps NAV 130 knows the fifo name and writes one byte to it whenever it is necessary to send a message.
+      <br/>
+      NAV 130 then sends the message to the appropriate IPC queue which the UI can access.
+      <br/>
+      On the UI 110 side, whenever data is written into the fifo, a UI function is called which accesses the IPC queue and reads the message.
+    </p>
+    <p num="38">
+      NAV's main utility comes from its ability to retain complex relationships that affect the order and appropriateness of screen presentation.
+      <br/>
+      The relationships are contained in a matrix of navigational rules.
+      <br/>
+      Each row in the matrix represents a screen or other pertinent event which can occur at an unpredictable time.
+    </p>
+    <p num="39">2. Matrix Assembly Package ("MAP")</p>
+    <p num="40">
+      MAP is used to create the navigation rules in a user friendly, C-like language and parse them into ANSI standard C for linkage with the rest of the application.
+      <br/>
+      The conceptual model of navigation resembles a spread sheet or matrix where interactions between screens and other asynchronous events are viewed positionally.
+      <br/>
+      In other words, the position of an interaction defines the two participants of the interaction.
+    </p>
+    <p num="41">
+      The main advantages of this approach are twofold.
+      <br/>
+      First, the navigational code is all together and isolated from the UI making maintenance a much easier task.
+      <br/>
+      Second, complex navigational relationships are more easily envisioned, described and implemented.
+    </p>
+    <p num="42">3. Matrix Concepts</p>
+    <p num="43">
+      Referring now to FIG. 7, the matrix 500 looks like a spreadsheet in which each row (and column) corresponds to a screen or an asynchronous external event such as the status of Async_Transaction.
+      <br/>
+      The matrix is square.
+      <br/>
+      The rows 700 and columns 600 have identical labels.
+    </p>
+    <p num="44">
+      Within the matrix 500, each cell contains a description of the effect of one row on one column (i.e., another row).
+      <br/>
+      The cell may contain any combination of values, processing steps, decision rules or indicator flags to express and alter the state of its row or other rows.
+      <br/>
+      In essence, the matrix describes how activities carried out in one window can affect other windows in the system and organizes these interactions in such a way that they are easy to describe and modify.
+    </p>
+    <p num="45">
+      Multiple cause-and-effect relationships are organized into rows and columns.
+      <br/>
+      The row and column labels identify the names of the elements in the matrix, where an element is any value in the system which may effect another value.
+      <br/>
+      Therefore, the names of matrix elements are the names of rows (or columns).
+    </p>
+    <p num="46">
+      The terms "element" and "row" are somewhat interchangeable but are differentiated as follows.
+      <br/>
+      Elements consist of a data value, a set of flags and a row containing cells.
+    </p>
+    <p num="47">
+      There are as many cells in every row as there are elements in the matrix.
+      <br/>
+      The diagonal cell of any element's row represents the element's influence on itself.
+      <br/>
+      Other cells in the element's row represent the element's influence on other elements.
+      <br/>
+      Reading the contents of cells along an element's row describes how that element effects other elements in the system.
+      <br/>
+      Reading down its column describes how the element is affected by other elements.
+    </p>
+    <p num="48">
+      The matrix model of a transactional flow is completely described using the following building blocks:
+      <br/>
+      1.
+      <br/>
+      A set of elements each of which consists of a data value, a set of flags and a row containing cells.
+      <br/>
+      Cells "contain" cell rules described below.
+      <br/>
+      In the special case of diagonal cells, the cells "contain" initial processing (IP) rules which are a special set of things to do when the element becomes the "active" element.
+      <br/>
+      Only one element is active at any point in time.
+      <br/>
+      2. A set of cell rules describing how elements in the system interact with one another (and themselves when the cell rule exists "in the diagonal cell").
+      <br/>
+      3. A set of "matrix scan rules" which are used to determine which element is the next (or first) active element.
+    </p>
+    <p num="49">4. Matrix Elements</p>
+    <p num="50">
+      A matrix element can be any entity whose individual state affects the overall state of the system.
+      <br/>
+      Therefore, the entities chosen to be elements depend on the granularity of control required.
+      <br/>
+      For example, an element may represent a screen, a set of screens, the status of a particular data field on a screen, or the status of an asynchronous event such as Async_Transaction.
+      <br/>
+      Typically, all elements are selected to be at the same level of granularity although this is not a requirement.
+      <br/>
+      For the simple transaction shown in FIGS. 2 and 3, the 8 screens correspond to the elements of the matrix.
+      <br/>
+      The complex navigational example of FIGS. 4 and 5 includes 13 elements, the 12 screens which can appear and the status of Async_Transaction.
+      <br/>
+      These examples will be expended below.
+    </p>
+    <p num="51">
+      The dynamic behavior of elements is described by the IP rules contained in diagonal cells and in the cell rules.
+      <br/>
+      IP rules are executed only when an element becomes active.
+      <br/>
+      An example of an action which probably belongs in the IP rules is priming or displaying a screen.
+      <br/>
+      Cell rules are executed only when the data value (see below) of the row changes.
+      <br/>
+      Both IP rules and cell rules are C functions, which manipulate element flags and data values.
+      <br/>
+      The only difference between the two types of rules is the time when they are executed or get fired.
+    </p>
+    <p num="52">
+      Each element has a set of descriptors (a data value, several flags and a sequence number) to hold its current state.
+      <br/>
+      These descriptors are more fully discussed below.
+      <br/>
+      Initial values for element flags are read from a table when the application is started.
+      <br/>
+      This table may be accessed by the user group to customize the application.
+    </p>
+    <p num="53">
+      The sequence number defines the relative order of the element.
+      <br/>
+      This is meaningful to the algorithm which finds the next active element, as is discussed later.
+      <br/>
+      The VALUE descriptor contains the current data value for the element.
+      <br/>
+      It may be set from other elements in the matrix or set by means of messages received by NAV.
+    </p>
+    <p num="54">
+      The element flags are boolean, only taking on the two values TRUE and FALSE.
+      <br/>
+      These flags are named:
+      <br/>
+      IGNORE
+      <br/>
+      AVAILABLE
+      <br/>
+      IMMEDIATE
+      <br/>
+      WAIT
+      <br/>
+      INSERT
+      <br/>
+      REQUIRED
+      <br/>
+      COMPLETED
+      <br/>
+      OPEN
+      <br/>
+      DATA_ONLY
+      <br/>
+      DATA_CHANGED
+    </p>
+    <p num="55">
+      The IGNORE flag indicates whether the element should be included.
+      <br/>
+      If the IGNORE flag for an element is set to TRUE, the element is essentially excluded from the matrix.
+      <br/>
+      This flag may be set by the end user and is useful for elements which are discretionary such as optional or regional screens.
+    </p>
+    <p num="56">
+      As the name implies, the AVAILABLE flag indicates whether an element is available to be made the active element at the current time.
+      <br/>
+      It can be thought of as a more temporary flag than IGNORE.
+    </p>
+    <p num="57">
+      The IMMEDIATE flag indicates that the element is a candidate for activation under the highest priority matrix scan rule (discussed below).
+      <br/>
+      The IMMEDIATE flag is generally used to immediately introduce a window into the normal flow.
+      <br/>
+      Examples would be error message windows, optional (child) windows selected by the user or other conditions requiring immediate user response.
+    </p>
+    <p num="58">
+      The WAIT, REQUIRED and INSERT flags all have the same (lowest) priority to the matrix scan rules.
+      <br/>
+      WAIT flags are used when a barrier must be placed on further normal flow processing rules (i.e., a wait state).
+      <br/>
+      The WAIT screen shown in the complex transaction of FIG. 5 is an example.
+      <br/>
+      INSERT flags are used when a screen which is only sometimes need is to be inserted into the normal flow.
+      <br/>
+      Screens Fix_1 and Fix_2 in FIG. 5 are examples.
+      <br/>
+      Either screen may be "inserted" into the normal flow so that Async_Transaction can complete.
+      <br/>
+      The REQUIRED flag indicates that the window must be completed by the user before a given sequence of windows can be finished.
+      <br/>
+      It is generally preset to indicate which screens are required to complete a transaction.
+      <br/>
+      In the examples, such as in FIG. 5, the sequence of Screens 1, 5, either 6 or 7, and 8 are required.
+    </p>
+    <p num="59">
+      The COMPLETED flag is set to TRUE when the screen represented by the element has been logically completed.
+      <br/>
+      This allows NAV to know how much of the transaction is finished, thus assisting in the choice of the next active element.
+      <br/>
+      Generally a value of TRUE means that a window has been populated with all required fields or in the case of the two examples, "Ok" has been selected.
+    </p>
+    <p num="60">
+      The DATA_ONLY flag indicates that the element represents a status of some kind and does not represent a window displayed to the user.
+      <br/>
+      In the complex flow of FIG. 5, the element which represents the status of Async_Transaction is an example of a DATA_ONLY element.
+    </p>
+    <p num="61">
+      The OPEN flag indicates that a screen is currently displayed on the user's workstation.
+      <br/>
+      In the case of a DATA_ONLY type element, the OPEN flag is meaningless and is not used.
+      <br/>
+      Similarly, the OPEN_LINK identifier indicates the next window in a list of open windows and helps keep track of parent-child dependencies.
+    </p>
+    <p num="62">
+      A value of TRUE for the flag indicates that a change has been made to the element's VALUE.
+      <br/>
+      Note that the DATA_CHANGED flag is set only when the element's data value is changed, not when flags are changed.
+    </p>
+    <p num="63">5. Typical Flow of Work</p>
+    <p num="64">
+      A.
+      <br/>
+      Transition Networks
+    </p>
+    <p num="65">
+      Transition networks are a well known method of representing state information.
+      <br/>
+      In this parent disclosure, transition networks are utilized to illustrate transactional flow through a set of screens and events (states).
+      <br/>
+      Notation has been added to describe some of the complexities in real systems, which are more fully described.
+      <br/>
+      Two examples illustrate the method: a simple transactional flow and a complex transactional flow.
+    </p>
+    <p num="66">B. Simple Navigation</p>
+    <p num="67">
+      FIG. 2 illustrates a simple transactional flow.
+      <br/>
+      This flow could easily be described and controlled with callback routines.
+      <br/>
+      The boxes are states in the flow.
+      <br/>
+      To the user of a system, they are screens.
+      <br/>
+      The connecting lines are transitions from screen to screen.
+    </p>
+    <p num="68">
+      When a departure is made from a particular screen, the line indicates this transition to the next screen.
+      <br/>
+      The lines are called transition lines.
+      <br/>
+      If a screen remains visible upon departure from the screen, the letter V appears on the transition line near the screen which remains visible.
+      <br/>
+      If, on the other hand, the screen disappears from view the letter D appears.
+      <br/>
+      Direction is important and arrowheads are used to indicate direction on the diagram.
+      <br/>
+      An arrowhead pointing away from the screen is a leaving transition.
+      <br/>
+      One arrowhead pointing into the screen is an entering transition.
+      <br/>
+      If a transition line has an arrowhead on both ends it simply means that there exists a two way path between the two screens.
+      <br/>
+      Therefore, each screen can get to the other somehow.
+      <br/>
+      An example of this is a screen which has sub-screens or child screens which it can access as needed.
+      <br/>
+      If a parent screen remains visible while its child is accessed, it is possible for the parent to have more than one child screen visible at a time.
+      <br/>
+      In addition, children screens can have children in which case they are parents as well as children.
+    </p>
+    <p num="69">
+      If more than one line emanates from a screen, a choice is possible and navigational logic must dictate the appropriate path.
+      <br/>
+      The logic can be based on both user input (e.g., a button press) and other state information.
+      <br/>
+      Conversely, if more than one path ends up a screen, it has not special meaning because the logic has been applied at the leaving end to get there.
+    </p>
+    <p num="70">
+      For the simple transition shown in FIGS. 2 and 3, the flow proceeds from Screen_1 to Screen_8.
+      <br/>
+      Departure from Screen_8 indicates completion of the transaction (ground symbol in FIG. 2).
+      <br/>
+      Screen_2 and Screen_4 (FIG. 2) are "child" screens of Screen_1 and Screen_3 is a child of Screen_2.
+      <br/>
+      Traversals from Screen_1 to Screens 2 or 4 (or 3) do not "make progress" in the flow through the transaction.
+      <br/>
+      That is, the user is getting no closer to the goal of completing the transaction in a diagrammatic sense although the user may be making great progress from the standpoint of customer satisfaction etc.
+      <br/>
+      Therefore, these transitions are shown at right angles to the flow or at least off of the direction toward the final screen (Screen_8 in this case).
+      <br/>
+      Screens 2, 3 and 4 are, in fact, optional to completing the transaction.
+    </p>
+    <p num="71">
+      Screen_5 is the next screen which makes progress toward completing the transaction and it is not optional.
+      <br/>
+      Then a choice exists in which traversal can be to either of Screens 6 or 7, but at least one is required.
+      <br/>
+      Finally, Screen_8 is reached and upon its completion the transaction is complete as shown by a transition line to ground.
+    </p>
+    <p num="72">
+      The screen images are shown in FIG. 3.
+      <br/>
+      Each transition corresponds to a button on one of the screens.
+      <br/>
+      AS the user presses appropriate buttons, a transition occurs to the next screen.
+      <br/>
+      The screen event causing the transition is shown near each of the transition lines at their exit from the screen in FIG. 3 (e.g., OK on transition line from Screen_1 to Screen_5).
+    </p>
+    <p num="73">
+      Note that transitions do not have to depend on button press events.
+      <br/>
+      They could in fact depend on user input to a field, selection from a set of "radio buttons" or highlighting a field or set of fields, as well as other types of user-initiated events.
+      <br/>
+      The button press event is used in these examples for the sake of simplicity.
+    </p>
+    <p num="74">
+      This simplified example is somewhat impractical for other reasons also.
+      <br/>
+      It lacks the ability to cancel out of the flow and does not include priming of screens, editing or updating databases, with associated error handling.
+      <br/>
+      It does, however, illustrate how transition networks can represent the navigational flow through a simple transaction.
+      <br/>
+      At this level of complexity, there is really no need for methods other than the callbacks provided in X-Windows.
+    </p>
+    <p num="75">C. Complex Navigation</p>
+    <p num="76">
+      To illustrate a complex case, asynchronous access to a foreign machine and the ability to cancel out of the flow are added to the relatively simple flow of FIGS. 2 and 3 to arrive at the complex flow of FIGS. 4 and 5.
+      <br/>
+      Moreover, one of the screens, Screen_8, requires priming, editing and a database update, which illustrates a more common screen management scenario.
+      <br/>
+      The screens' images are shown in FIG. 4 and the transitions are shown in FIG. 5.
+      <br/>
+      Note that the S5 and S6 buttons on Screen_5 have been replaced with an Ok button.
+      <br/>
+      Now, the system will determine which path to take and present the appropriate screen.
+      <br/>
+      The choice will depend on the results of the asynchronous access to a tier three machine which is simply called Async_Transaction.
+    </p>
+    <p num="77">
+      Async_Transaction is supposed to begin when a departure is made from Screen_1.
+      <br/>
+      This includes any transition to another screen whether it be a child of Screen_1 (Screens 2 or 4) or the next screen in the flow (Screen_5).
+      <br/>
+      The advantage of starting Async_Transaction at any of these transitions is that if child screens are visited, there is more time available for the transaction to complete while the user is doing useful work.
+    </p>
+    <p num="78">
+      The transition network shown in FIG. 5 shows the being of Async_Transaction by a bold vertical line on the right side of Screen_1.
+      <br/>
+      Any transition line starting on the bold line initiates the asynchronous transaction.
+      <br/>
+      Note that this does not include the Cancel button which takes one of two possible paths depending on whether or not Async_Transaction has begun.
+    </p>
+    <p num="79">
+      The processing of Async_Transaction is also represented as a transition network but with less detail than the one which represents the transactional flow through the UI.
+      <br/>
+      States or events having to do with Async_Transaction are represented by the elongated boxes.
+      <br/>
+      Complexities of the access to the foreign machine, which are of no interest here, are represented by the large box labeled Async_Transaction-Intermediate (ATI).
+      <br/>
+      The remaining elongated boxes are final events indicating completion.
+      <br/>
+      The screens Fix_1 and Fix_2 indicate intermediate results requiring further user input to resolve some issue.
+      <br/>
+      They are connected both to the UI flow and to the flow of Async_Transaction as indicated by the two-way transition lines.
+    </p>
+    <p num="80">
+      The small circular dot to the right of Screen_1 represents the fact that any of the transition lines connected there can occur as a result of a single X event (e.g., a button push).
+      <br/>
+      For Screen_1, pressing the OK button (FIG. 5) can result in taking any of the paths shown.
+      <br/>
+      There are five possible paths and the one taken at any given time depends on both the intermediate and final results of Aysnc_Transaction.
+    </p>
+    <p num="81">
+      Examining these transitions more closely reveals the complexities involved.
+      <br/>
+      First, the three screens which are connected both to ATI and to the UI flow are intermediate screens which only appear as necessary.
+      <br/>
+      The two Fix screens appear only when:
+      <br/>
+      1.
+      <br/>
+      The user has pressed OK on Screen_1 to move on in the flow.
+      <br/>
+      2. Async_Transaction has reached an intermediate stopping point in its flow and needs user input (via Fix_1 and Fix_2).
+    </p>
+    <p num="82">
+      The Wait screen appears only when:
+      <br/>
+      1.
+      <br/>
+      The user has pressed OK on Screen_1 to move on in the flow.
+      <br/>
+      2. Async Transaction is still in process (ATI) and is not currently at an intermediate or final state.
+    </p>
+    <p num="83">
+      The Fix screens return control to Async_Transaction when their OK button is pushed.
+      <br/>
+      The Wait screen has no buttons.
+      <br/>
+      It just appears when it should and disappears when it should.
+      <br/>
+      In this case, the transition line between Screen_1 and the Wait screen means simply that the Wait screen will appear at this point in the flow if it is appropriate for it to do so.
+      <br/>
+      How this is accomplished will be discussed in the next section.
+    </p>
+    <p num="84">
+      Clearly, a number of scenarios are possible when the user presses Ok in Screen_1.
+      <br/>
+      One possibility is that Screen_5 appears without any intervening Fix screens or the Wait screen.
+      <br/>
+      This would be the case if Async_Transaction proceeded to a successful completion faster than the user progressed to the Ok button on Screen_1 and there were no clarifications (Fix screens) necessary.
+      <br/>
+      If, on the other hand, Async_Transaction completes more slowly than the user, the Wait screen appears.
+      <br/>
+      Among other possibilities, Async_Transaction could fail at which time the user is presented with Cleanup and the transaction is finished, albeit unsuccessfully.
+    </p>
+    <p num="85">
+      Note that the Fix screens could be required to appear at the other points in the UI flow.
+      <br/>
+      This would be represented by connecting their UI transition lines to those points.
+      <br/>
+      It is also possible that one asynchronous transaction could trigger another.
+      <br/>
+      In many systems multiple asynchronous transactions are initiated one from the other.
+      <br/>
+      The transition network becomes complex but the behavior is entirely describable.
+      <br/>
+      Making these behaviors occur as required will be discussed in the next section.
+    </p>
+    <p num="86">
+      The other two transitions exiting from Screen_1 are connected to the elongated boxes corresponding to final events.
+      <br/>
+      Only one of these paths is allowed, therefore a switch notation is used to help represent these cases.
+      <br/>
+      When Async_Transaction reaches a final state, the switches connected to that state (by the curved lines) are closed, thus allowing the UI flow to proceed along that path(s).
+      <br/>
+      So, if Async_Transaction fails, the user is presented with a Clean_Up screen after pressing OK on Screen_1.
+      <br/>
+      Also, all attempts by the user to cancel, after Async_Transaction has begun, cause the Clean_Up screen to appear on the way out of the transaction.
+      <br/>
+      Only a cancellation from Screen_1 prior to initiating Async_Transaction avoids being presented with Clean Up screen.
+    </p>
+    <p num="87">
+      Async_Transaction can succeed in two possible ways (Success_6 and Success_7).
+      <br/>
+      Screen_5 is always the next screen in the flow, thus both success conditions activate the switch between Screens 1 and 5.
+      <br/>
+      The switch from Screen_5 to Screen_6 is activated by Success_6 indicating that this is the required path.
+      <br/>
+      Conversely, Screen_7 is made available instead of Screen_6 when Success_7 has occurred.
+    </p>
+    <p num="88">
+      As complex as this flow appears to be, it still leaves out numerous details.
+      <br/>
+      For example, it only includes one screen which must be primed with data, edited and updated when, in fact, most screens require these actions.
+      <br/>
+      In addition, no error conditions are checked and handled.
+    </p>
+    <p num="89">
+      A transition network of the required transactional behavior is first created.
+      <br/>
+      From this network a description of the matrix is devised and placed in a matrix file.
+      <br/>
+      This file contains a description of all elements which comprise the matrix including initial flag values, a sequence number, IP rules and any cell rules.
+      <br/>
+      Examples of these will be presented for the two previously discussed cases and syntax will be discussed at that time.
+    </p>
+    <p num="90">
+      Once a matrix file has been created, the matrix file is compiled by MAP into several code modules and header files.
+      <br/>
+      These modules and header files are then linked to and accessed by NAV.
+      <br/>
+      NAV contains a matrix data structure with a list of all the elements, their flags, data values and sequence numbers.
+      <br/>
+      Cell and IP rules are translated by MAP into C functions.
+      <br/>
+      NAV's matrix data structure contains pointers to these functions, thus allowing access to them as though they were organized by rows and columns.
+    </p>
+    <p num="91">
+      The MAP-generated codes is processed by NAV using the logic described below.
+      <br/>
+      In addition to processing the MAP-generated code, NAV also processes messages that NAV receives from the UI or other processes.
+      <br/>
+      Those messages contain new data values for matrix elements and are constructed by the UI and other processes (e.g., editors and DMs) to inform NAV of significant events which determine the further flow of the application.
+      <br/>
+      These events include, illustratively, entry of data into a particular field, an indication that the user has pressed a button, or a return from an external process.
+    </p>
+    <p num="92">6. Navigational Algorithm</p>
+    <p num="93">
+      Turning now to FIG. 8, after initialization, the Navigational Algorithm is cyclic and begins when a message arrives at task 810.
+      <br/>
+      The salient steps in the Navigational Algorithm include:
+      <br/>
+      1.
+      <br/>
+      RECEIVE MESSAGE (Task 810);
+      <br/>
+      2.
+      <br/>
+      RESOLVE RULES (Task 820);
+      <br/>
+      3.
+      <br/>
+      RUN MATRIX SCAN RULES TO FIND THE "ACTIVE" ELEMENT (Task 830);
+      <br/>
+      4.
+      <br/>
+      CHECK TO SEE IF THE ACTIVE ELEMENT HAS BEEN FOUND (Task 840);
+      <br/>
+      5.
+      <br/>
+      Process the Active Element (Task 850).
+    </p>
+    <p num="94">Each step is described fully in turn below.</p>
+    <p num="95">
+      STEP 1.
+      <br/>
+      RECEIVE MESSAGE.
+      <br/>
+      When a message arrives, it is read from the input queue at Task 810.
+      <br/>
+      Part of the message contains an element name to which the message is addressed.
+      <br/>
+      The element's data value (row_no.VALUE) is set to a unique message identifier (e.g., Screen2OkSelected, which has been -defined to type integer).
+      <br/>
+      The element to which the message was addressed now becomes the current (not active) element.
+    </p>
+    <p num="96">
+      STEP 2.
+      <br/>
+      RESOLVE RULES.
+      <br/>
+      At task 820, if the now-current element's data value has changed (thereby setting the element's data changed flag to TRUE), the data changed flag is reset to FALSE and the element's entire row is checked for cell rules which can "fire".
+      <br/>
+      This is called "running the row" and consists of executing code (cell rules which can fire) in each interaction cell across the element's row starting on the diagonal at the element's interaction with itself and eventually wrapping around to itself again.
+    </p>
+    <p num="97">
+      If this process changes the data value (not the flags) of any other elements in the matrix, the data changed flags for those elements are set to TRUE.
+      <br/>
+      If this process changes the flags only of any other elements in the matrix, the data changed flags for those elements are not set to TRUE.
+    </p>
+    <p num="98">
+      Then, the rows of any other elements in the matrix whose data value has been changed are handled similarly.
+      <br/>
+      This is continued until no element's data value changes or until the maximum number of iterations allowed has been reached.
+      <br/>
+      If the maximum number of iterations allowed is reached, NAV issues an error message.
+    </p>
+    <p num="99">
+      STEP 3.
+      <br/>
+      RUN MATRIX SCAN RULES TO FIND THE "ACTIVE" ELEMENT.
+      <br/>
+      Initialize matrix scan rules 805.
+      <br/>
+      At task 830, determine the next matrix element to become the active element using the Matrix Scan Rules (discussed below).
+    </p>
+    <p num="100">If there are no elements matching the selection rules, the application is complete, and any needed cleanup and file closures are executed before terminating the NAV process.</p>
+    <p num="101">
+      STEP 4.
+      <br/>
+      PROCESS THE ACTIVE ELEMENT.
+      <br/>
+      At task 840, a check is made to see if the active element has been found.
+      <br/>
+      When it is found, if it is not yet open, its IP rules are executed at Task 850.
+      <br/>
+      In most cases, this will include priming or displaying a window.
+      <br/>
+      If the element is a DATA_ONLY type element (as indicated by the flag DATA_ONLY=TRUE), its OPEN flag is still checked as above, but the OPEN flag has no meaning for DATA_ONLY elements.
+      <br/>
+      Typically, DATA_ONLY elements have no IP rules.
+      <br/>
+      Finally, after task 850, another message is received at the input queue, i.e. the algorithm recycles to task 810.
+    </p>
+    <p num="102">
+      The IP rules can change both the data values and flags of any other elements, or its own data value and/or flags.
+      <br/>
+      If data values are changed, the Resolve Rules step, as previously described above, is executed, otherwise (i.e. if nothing is changed or if only flags are changed) the Resolve Rules step is not executed.
+      <br/>
+      The latter case (with no execution of the Resolve Rules step required after IP rules) is more typical.
+    </p>
+    <p num="103">If the active element is already open, the element's IP rules are bypassed (e.g., do nothing, the window is open and not completed).</p>
+    <p num="104">In either case (open or not) return to the input message queue to wait for a new message.</p>
+    <p num="105">7. Matrix Scan Rules Algorithm</p>
+    <p num="106">
+      Three Matrix Scan rules (MSRs) are used to locate the next (or first) active element in the matrix.
+      <br/>
+      The Matrix Scan rules algorithm is illustrated in FIG. 9.
+      <br/>
+      The rules all function by scanning the entire matrix, and examining the flags for all of the elements in the matrix.
+      <br/>
+      Order is important, so if one of the three rules finds candidates to be the active element, subsequent rules are not checked.
+    </p>
+    <p num="107">
+      MATRIX SCAN RULE 1 (MSR_1).
+      <br/>
+      At task 910, a search is conducted for an immediate element.
+      <br/>
+      All elements which are not ignored, available and immediate are found, at task 920.
+      <br/>
+      The one with the lowest sequence number is selected at task 950.
+      <br/>
+      The purpose of this rule is to force interruption in the normal required window flow.
+      <br/>
+      In other words, IF (the element flags are: (not IGNORED) and AVAILABLE and IMMEDIATE), THEN this rule succeeds.
+    </p>
+    <p num="108">
+      MATRIX SCAN RULE 2 (MSR_2).
+      <br/>
+      At task 930, a search is conducted for an open element.
+      <br/>
+      If there are no elements which match the Matrix Scan Rule 1 above, then search for an open element.
+      <br/>
+      All elements which are not ignored, available, open, and not completed, and found, at task 940.
+      <br/>
+      Then the one with the lowest sequence number is selected at task 950.
+      <br/>
+      Matrix Scan Rule 2 is used to resolve open windows before initiating new windows.
+      <br/>
+      In other words, IF (the element flags are: (not IGNORED) and AVAILABLE and OPEN and (not COMPLETED)), THEN this rule succeeds.
+    </p>
+    <p num="109">
+      MATRIX SCAN RULE 3 (MSR_3).
+      <br/>
+      At task 960, a search is conducted for the next required, waiting or inserted element.
+      <br/>
+      If there are no elements which match the first or second rules, then a search is made for the next required, waiting or inserted element.
+      <br/>
+      Further, at task 970 all elements are found which are not ignored, available, either required, waiting or inserted and not completed.
+      <br/>
+      Then the one with the lowest sequence number is selected at task 950.
+      <br/>
+      The purpose of Matrix Scan Rule 3 is to continue with the normal, required window flow, or the alter the normal flow with a wait type screen or an inserted type screen.
+      <br/>
+      In other words, IF (the element flags are: (not IGNORED) and AVAILABLE and (REQUIRED or WAITING or INSERTED)), THEN this rule succeeds.
+    </p>
+    <p num="110">If none of the three Matrix Scan rules is matched, all required windows have been completed and all windows are closed, and the application is therefore complete.</p>
+    <p num="111">8. Examples of Code For Simple and Complex Transactions</p>
+    <p num="112">
+      Two examples, which correspond to the simple and complex transactional flows discussed above in the BACKGROUND OF THE INVENTION section of this patent disclosure, are presented.
+      <br/>
+      The code describing the IP rules and cell rules is explained, along with examples of the C functions which are created from them by MAP.
+      <br/>
+      Operation of the Navigational Algorithm and Matrix Scan Rules is also illustrated.
+    </p>
+    <p num="113">
+      A number of functions are available to NAV for sending messages to the UI, an editor, DM and ASYNC_TRANSACTION.
+      <br/>
+      These are used extensively within the cell and IP rules.
+      <br/>
+      Illustratively, these functions are:
+      <br/>
+      int send_UI_messge(int msg_id);
+      <br/>
+      int send_EDITOR_message(int row_no, int msg_id);
+      <br/>
+      int send_DM_message(int row_no, int msg_id);
+      <br/>
+      int send_ASYNC_TRANSACTION_message(int row_no, int msg_id).
+    </p>
+    <p num="114">
+      Note that these functions are specific to the two examples below.
+      <br/>
+      Other uses may require that users write their own "send" functions.
+    </p>
+    <p num="115">A. Simple Navigation</p>
+    <p num="116">
+      TABLE I illustrates the code describing the IP rules and cell rules for the simple navigational flow.
+      <br/>
+      In addition, TABLE II illustrates the C functions for IP and cell rules after translation by MAP.
+      <br/>
+      As previously mentioned, this relatively simple example includes eight elements, one for each screen in the flow.
+      <br/>
+      FIG. 11 illustrates the locations of cell rules for the entire flow.
+    </p>
+    <heading>-- TABLE I</heading>
+    <heading>-- MATRIX DESCRIPTION CODE FOR SIMPLE FLOW</heading>
+    <p num="117">
+      -- /*
+      <br/>
+      -- /*
+      <br/>
+      --      FLAGS
+      <br/>
+      --      TFFFFFFFFF     IGNORE
+      <br/>
+      --      FTFFFFFFFF     AVAILABLE
+      <br/>
+      --      FFTFFFFFFF     IMMEDIATE
+      <br/>
+      --      FFFTFFFFFF     WAIT
+      <br/>
+      --      FFFFTFFFFF     INSERT
+      <br/>
+      --      FFFFFTFFFF     REQUIRED
+      <br/>
+      --      FFFFFFTFFF     COMPLETED
+      <br/>
+      --      FFFFFFFTFF     OPEN
+      <br/>
+      --      FFFFFFFFTF     DATA_ONLY
+      <br/>
+      --      FFFFFFFFFT     DATA_CHANGED
+      <br/>
+      --      FFFFFFFFFF100    SEQ_NO = 100
+      <br/>
+      -- */
+      <br/>
+      -- /*
+    </p>
+    <p num="118">
+      -- int send_UI_message( int msg_id );
+      <br/>
+      -- int send_EDITOR_message( int row_no, int msg_id );
+      <br/>
+      -- int send_DM_message( int row_no, int msg_id );
+      <br/>
+      -- int send_ASYNC_TRANSACTION_message( int row_no,
+      <br/>
+      -- int msg_id );*/
+      <br/>
+      -- /*
+      <br/>
+      -- 8 Elements with Rows:
+      <br/>
+      -- SCREEN_1
+      <br/>
+      -- SCREEN_2
+      <br/>
+      -- SCREEN_3
+      <br/>
+      -- SCREEN_4
+      <br/>
+      -- SCREEN_5
+      <br/>
+      -- SCREEN_6
+      <br/>
+      -- SCREEN_7
+      <br/>
+      -- SCREEN_8
+      <br/>
+      -- */
+      <br/>
+      -- /*
+      <br/>
+      -- INCLUDE example_msg.h
+      <br/>
+      -- INCLUDE cmss_structs.h
+      <br/>
+      -- INCLUDE NSI_Res_test_Global_Messages.h
+      <br/>
+      -- FLOW example_simple_flow
+      <br/>
+      -- */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_1
+      <br/>
+      --      FLAGS FTFFFTFFFF100
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen1Display);
+      <br/>
+      --      -
+      <br/>
+      --      SCREEN_3
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen3Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_3.IMMEDIATE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_3
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen3Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen3OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen3Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_4
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen4Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen4OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen4Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen1OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen1Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_2
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen2Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_2.IMMEDIATE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_4
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen4Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_4.IMMEDIATE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_2
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen2Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen2OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen2Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_5
+      <br/>
+      --      FLAGS FTFFFTFFFF1300
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen5Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == Screen6Selected) .vertline..vertline.
+      <br/>
+      --              (row_no.VALUE == Screen7Selected) )
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen5Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- /* User selects from either Screen 6 or Screen 7 */
+      <br/>
+      --      SCREEN_6
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen6Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_6.AVAILABLE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_7
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen7Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_7.AVAILABLE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- /* Screens 6 &amp; 7 are REQUIRED but start with AVAILABLE flag =
+      <br/>
+      -- FALSE */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_6
+      <br/>
+      --      FLAGS FFFFFTFFFF1350
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen6Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen6OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen6Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_7
+      <br/>
+      --      FLAGS FFFFFTFFFF1375
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen7Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == ScreenOkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen7Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_8
+      <br/>
+      --      FLAGS FTFFFTFFFF1400
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen8Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen8OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen8Close);
+      <br/>
+      --             send_UI_message(EndFlow); /* Transaction complete,
+      <br/>
+      -- shut down */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- END
+    </p>
+    <heading>-- TABLE II</heading>
+    <heading>-- C CODE FOR MAP - SIMPLE TRANSACTIONAL FLOW</heading>
+    <p num="119">
+      -- /*
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      -- /*
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  */
+      <br/>
+      -- -include &lt;stdio.h&gt;
+      <br/>
+      -- -include &lt;string.h&gt;
+      <br/>
+      -- -include "nav_constants.h"
+      <br/>
+      -- -include "navigator.h"
+      <br/>
+      -- -include "JFMM_row.h"
+      <br/>
+      -- -include "message.h"
+      <br/>
+      -- -include "msg_constants.h"
+      <br/>
+      -- -include "JFMM_std_data_msg.h"
+      <br/>
+      -- extern int  send_UI_message( );    /* matrix_util.c */
+      <br/>
+      -- extern int  set_flag_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  set_data_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  set_global( );         /* matrix_util.c */
+      <br/>
+      -- extern int  my_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  my_global( );          /* matrix_util.c */
+      <br/>
+      -- extern int  my_flag( ); /* matrix_util.c */
+      <br/>
+      -- extern MATRIX matrix;
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - -� PROCESSING
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - -*/
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen1Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen2Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_3_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_3;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen3Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_4_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_4;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen4Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen5Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_6_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_6;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen6Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_7_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_7;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen7Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_8_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_8;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen8Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - -� INTERACTIONS
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - -*/
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_1_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen1OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen1Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen2Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_2,IMMEDIATE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_4_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen4Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_4,IMMEDIATE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_SCREEN_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      if(my_value(row_no,Screen2OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen2Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_SCREEN_3_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      if(my_value(row_no,Screen3Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_3,IMMEDIATE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_3_SCREEN_3_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_3;
+      <br/>
+      --      if(my_value(row_no,Screen3OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen3Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_4_SCREEN_4_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_4;
+      <br/>
+      --      if(my_value(row_no,Screen4OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen4Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_SCREEN_5_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      if( (my_value(row_no,Screen6Selected)) .vertline..vertline.
+      <br/>
+      -- (my_value(row_no,Screen7Selected)) )
+      <br/>
+      --      +
+      <br/>
+      --           set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --           set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --           send_UI_message(Screen5Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_SCREEN_6_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      if(my_value(row_no,Screen6Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_6,AVAILABLE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_SCREEN_7_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      if(my_value(row_no,Screen7Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_7,AVAILABLE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_6_SCREEN_6_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_6;
+      <br/>
+      --      if(my_value(row_no,Screen6OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen6Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_7_SCREEN_7_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_7;
+      <br/>
+      --      if(my_value(row_no,Screen7OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen7Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_8_SCREEN_8_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_8;
+      <br/>
+      --      if(my_value(row_no,Screen8OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen8Close);
+      <br/>
+      --         send_UI_message(EndFlow);
+      <br/>
+      --         /* Transaction complete , shut down */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - -� matrix_fns.c
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - -*/
+    </p>
+    <p num="120">
+      The first element described in this file is Screen_1.
+      <br/>
+      It is used as an example to illustrate basic behaviors.
+      <br/>
+      The basic structure and keywords of an element description are illustrated in FIG. 12, which uses Screen_1 as an example.
+      <br/>
+      The keywords ROW, FLAGS, PROC, SELF and NULL must appear.
+      <br/>
+      ROW is followed by the element's name, SCREEN_1 in this case.
+      <br/>
+      FLAGS is followed by a list of the flag's initial values in the order shown.
+      <br/>
+      All rule sets are preceded by the characters "+" and "-".
+      <br/>
+      Rule sets are ended with "-" and followed by "}".
+      <br/>
+      The keyword PROC precedes the IP rules and the keyword SELF designates that cell rules on the diagonal cell follow (i.e. the element's influence on itself).
+      <br/>
+      All other cell rules (if they exist) are preceded by the name of the element which they influence.
+      <br/>
+      The keyword NULL ends the element description and the keyword END designates the end of all element descriptions for the entire matrix.
+      <br/>
+      Within the description of an element, the term "row_no" is a shorthand substitute for the element name.
+    </p>
+    <p num="121">
+      TABLE I illustrates the various behaviors of Screen_1 and its impact on other elements.
+      <br/>
+      The IP rules send a message to the UI to display the screen and set its OPEN flag to TRUE.
+      <br/>
+      Messages are identified by a noun-verb pair such as Screen1Display.
+      <br/>
+      Recall that the IP rules are fired when the SCREEN_1 element (Screen_1) is discovered to be the active element by the Matrix Scan Rules.
+      <br/>
+      So, when SCREEN_1 becomes active (by MSR_3 in this case because it is the first required screen), Screen_1 is displayed.
+      <br/>
+      This is the first thing which happens in the transactional flow.
+    </p>
+    <p num="122">
+      The next events are the result of the user pressing buttons on Screen_1 and the actions associated with these events are expressed in the cell rules.
+      <br/>
+      The cell rules shown under SELF (the diagonal cell rules or the element's influence on itself) indicate that if the user presses the Ok button, a message is sent to the UI to close Screen_1.
+      <br/>
+      Also, the OPEN flag is set FALSE and the COMPLETED flag is set TRUE.
+      <br/>
+      The impact of this latter action is that the Matrix Scan rules will no longer find the SCREEN element, i.e., Screen_1 is completed.
+      <br/>
+      All things being equal, the Matrix Scan Rules will find the next required screen in the flow (via MSR_3) which is Screen_5 in this example.
+    </p>
+    <p num="123">
+      If the user presses the S2 button (FIG. 3), the UI sends a message from its button callback routine to NAV.
+      <br/>
+      The message content (Screen2Selected) is loaded into element SCREEN_1's data value switching its DATA_CHANGED flag to TRUE.
+      <br/>
+      Following the Navigational Algorithm, Resolve Rules is executed next and the element's entire row is checked for cell rules which can fire (running the row).
+      <br/>
+      The cell rule which influences the SCREEN_2 row is activated which turns on the IMMEDIATE flag for the element SCREEN_2.
+      <br/>
+      This action sets the stage for the Matrix Scan Rules which are run next.
+      <br/>
+      In this case, MSR_1 finds SCREEN_2 and fires its IP rules.
+    </p>
+    <p num="124">
+      The ultimate effect of all this is that Screen_2 appears along with Screen_1 as desired.
+      <br/>
+      The code for Screen_2 appears in TABLE II.
+      <br/>
+      When the user presses the Screen_2 "Ok" button, the Screen2OkSelected message is received by NAV which fires the SELF rule for Screen_2 closing the screen and toggling the OPEN flag to FALSE.
+      <br/>
+      NAV also sends a message to the UI to close Screen_2 leaving Screen_1 still open.
+      <br/>
+      MSR_2 will continually find the SCREEN_1 element (because it is open and not completed) until the user presses the Screen_1 Ok button.
+    </p>
+    <p num="125">
+      If the user presses the S3 button while Screen_2 is displayed, Screen_3 appears via the same mechanism that brought up Screen_2.
+      <br/>
+      The result would be all three screens displayed simultaneously.
+    </p>
+    <p num="126">
+      Once the user presses the Ok button on Screen_1, the SELF rules are fired closing the screen, setting its COMPLETED flag to TRUE and setting its OPEN flag to FALSE.
+      <br/>
+      Now MSR_3 finds Screen_5 as the next required screen and its IP rules take care of displaying it and setting appropriate flags.
+    </p>
+    <p num="127">
+      If the user presses either the S6 or S7 button on Screen_5, its SELF rules take care of closing the screen and setting appropriate flags.
+      <br/>
+      In addition to SELF rules, the SCREEN_5 element has interactions with the SCREEN_6 and SCREEN_7 elements.
+      <br/>
+      Only one of these rules fires depending on which button was pressed by the user in Screen_5.
+      <br/>
+      For example, if the user pressed the S7 button, the cell rule for the interaction of element SCREEN_5 with SCREEN_7 would fire setting the SCREEN7.AVAILABLE flag to TRUE.
+    </p>
+    <p num="128">
+      Now, when the MSRs search for the next active element, MSR 3 will find SCREEN_7 because it meets all of the necessary conditions.
+      <br/>
+      Both SCREEN_6 and SCREEN_7 are started with their REQUIRED flags set to TRUE and their AVAILABLE flags set to FALSE.
+      <br/>
+      The latter condition keeps either of them from becoming the active element until the cell rule (interaction of SCREEN_5 with SCREEN_7) sets the appropriate AVAILABLE flag.
+    </p>
+    <p num="129">
+      After the user presses the Ok button on Screen_7, Screen_8 appears and the flow finally ends as this screen is closed.
+      <br/>
+      The SCREEN_8 element SELF rule sends a special message to the UI indicating that the transaction is over--send_UI_Message(EndFlow).
+      <br/>
+      The rules encountered thus far and through the rest of this matrix in TABLE I indicate some obvious patterns, for example:
+      <br/>
+      IP rules generally display the element's associated screen;
+      <br/>
+      At least one rule is required for every message from the UI;
+      <br/>
+      Required screens are numbered in their preferred order of appearance so that MSR_3 finds them in that order.
+      <br/>
+      Conversely, changing an element's sequence number relative to that of other elements changes its order of appearance.
+      <br/>
+      This feature along with the IGNORE flag can be used to great advantage to allow local user customization.
+    </p>
+    <p num="130">Non-Required screens are made accessible (capable of being found) to the MSRs using the IMMEDIATE flag.</p>
+    <p num="131">Choice points (e.g., Screen_5 to either Screen_6 or Screen_7) can readily be handled as shown above, but can also be handled using other flags such as the INSERT flag.</p>
+    <p num="132">Further inspection of the foregoing example illustrates how the Navigational Algorithm works with the Matrix Scan Rules and Resolve Rules to achieve the desired navigational capability, and how knowledge of all three of these algorithms is essential to correctly write IP and cell rules.</p>
+    <p num="133">B. Complex Navigation</p>
+    <p num="134">
+      Interactions for the complex navigation example are shown in FIG. 13. The code describing the IP rules and cell rules is shown in the following TABLE III.
+      <br/>
+      Subsequent TABLE IV contains the associated C functions for IP and cell rules after translation by MAP.
+      <br/>
+      As previously indicated, this example includes thirteen elements, one for each screen in the flow and one additional element for the status of Async_Transaction flow.
+    </p>
+    <heading>-- TABLE III</heading>
+    <heading>-- MATRIX DESCRIPTION CODE FOR COMPLEX</heading>
+    <heading>-- TRANSACTIONAL FLOW</heading>
+    <p num="135">
+      -- /*
+      <br/>
+      -- /*
+      <br/>
+      --      FLAGS
+      <br/>
+      --      TFFFFFFFFF     IGNORE
+      <br/>
+      --      FTFFFFFFFF     AVAILABLE
+      <br/>
+      --      FFTFFFFFFF     IMMEDIATE
+      <br/>
+      --      FFFTFFFFFF     WAIT
+      <br/>
+      --      FFFFTFFFFF     INSERT
+      <br/>
+      --      FFFFFTFFFF     REQUIRED
+      <br/>
+      --      FFFFFFTFFF     COMPLETED
+      <br/>
+      --      FFFFFFFTFF     OPEN
+      <br/>
+      --      FFFFFFFFTF     DATA_ONLY
+      <br/>
+      --      FFFFFFFFFT     DATA_CHANGED
+      <br/>
+      --      FFFFFFFFFF100   SEQ_NO = 100
+      <br/>
+      -- */
+      <br/>
+      -- /*
+      <br/>
+      -- int send_UI_message( int msg_id );
+      <br/>
+      -- int send_EDITOR_message( int row_no, int msg_id );
+      <br/>
+      -- int send_DM_message( int row_no, int msg_id );
+      <br/>
+      -- int send_ASYNC_TRANSACTION_message( int row_no,
+      <br/>
+      -- int msg_id );
+      <br/>
+      -- */
+      <br/>
+      -- /*
+      <br/>
+      -- 13 Elements with Rows:
+      <br/>
+      -- SCREEN_1
+      <br/>
+      -- CLEAN_UP
+      <br/>
+      -- SCREEN_2
+      <br/>
+      -- SCREEN_3
+      <br/>
+      -- SCREEN_4
+      <br/>
+      -- ASYNC_TRANSACTION
+      <br/>
+      -- FIX_1
+      <br/>
+      -- FIX_2
+      <br/>
+      -- WAIT
+      <br/>
+      -- SCREEN_5
+      <br/>
+      -- SCREEN_6
+      <br/>
+      -- SCREEN_7
+      <br/>
+      -- SCREEN_8
+      <br/>
+      -- */
+      <br/>
+      -- /*
+      <br/>
+      -- INCLUDE example_msg.h
+      <br/>
+      -- INCLUDE cmss_structs.h
+      <br/>
+      -- INCLUDE NSI_Res_test_Global_Messages.h
+      <br/>
+      -- FLOW example_complex_flow
+      <br/>
+      -- */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_1
+      <br/>
+      --      FLAGS FTFFFTFFFF100
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen1Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen1CancelSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen1Close);
+      <br/>
+      --             send_UI_message(EndFlow);    /* shut down */
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen1OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen1Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_2
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen2Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_2.IMMEDIATE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_4
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen4Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_4.IMMEDIATE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      ASYNC_TRANSACTION
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if( ( (row_no.VALUE == Screen1OkSelected) .vertline..vertline. /*
+      <br/>
+      --  User
+      <br/>
+      -- presses S1, S2 or S4 buttons and  */
+      <br/>
+      --                (row_no.VALUE == Screen2Selected) .vertline..vertline.
+      <br/>
+      --                (row_no.VALUE == Screen4Selected) ) &amp;&amp;
+      <br/>
+      --             (ASYNC_TRANSACTION.VALUE == NIL) ) /* have
+      <br/>
+      -- not started Async Transaction,  */
+      <br/>
+      --         +
+      <br/>
+      --             (ASYNC_TRANSACTION.VALUE = SEND; /* then
+      <br/>
+      -- get it ready to go */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if( (row_no.VALUE == Screen1CancelSelected) &amp;&amp; /*
+      <br/>
+      -- User cancels, Async Transaction started */
+      <br/>
+      --             (ASYNC_TRANSACTION.VALUE �= NIL) )
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE; /* then
+      <br/>
+      -- bring in Cleanup */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- CLEAN_UP
+      <br/>
+      --      FLAGS FTFFFFFFFF200
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.INSERT = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(CleanupDisplay);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if (row_no.VALUE == CleanupOkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(CleanupClose);
+      <br/>
+      --             send_UI_message(EndFlow);   /* shut down */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_2
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      Proc
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen2Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen2OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen2Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_3
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen3Selected)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_3.IMMEDIATE = TRUE;
+      <br/>
+      --             }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_3
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen3Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen3OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen3Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_4
+      <br/>
+      --      FLAGS FTFFFFFFFF
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.IMMEDIATE = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen4Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen4OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen4Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- ASYNC_TRANSACTION         /* DATA_ONLY element */
+      <br/>
+      --      FLAGS FTFFFFFFTF
+      <br/>
+      --      PROC          /* no processing */
+      <br/>
+      --      +
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == SEND) /* need to start Async
+      <br/>
+      -- Transaction */
+      <br/>
+      --         +
+      <br/>
+      --             send_ASYNC_TRANSACTION_message(row_no,
+      <br/>
+      -- AsyncTransactionBegin);
+      <br/>
+      --             row_no.VALUE = SENT;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      WAIT
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == SEND) .vertline..vertline.
+      <br/>
+      --             (row_no.VALUE == SENT) ) /* i.e. still out there with
+      <br/>
+      -- Transaction */
+      <br/>
+      --         +
+      <br/>
+      --             WAIT.WAIT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --         else if( (row_no.VALUE == Fix1Required) .vertline..vertline. /*
+      <br/>
+      --  i.e.
+      <br/>
+      -- anything back */
+      <br/>
+      --                (row_no.VALUE == Fix2Required) .vertline..vertline.
+      <br/>
+      --                (row_no.VALUE == Success6) .vertline..vertline.
+      <br/>
+      --                (row_no.VALUE == Success7) .vertline..vertline.
+      <br/>
+      --                (row_no.VALUE == Failure) )
+      <br/>
+      --         +
+      <br/>
+      --             WAIT.VALUE = KILL;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_6
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Success6)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_6.AVAILABLE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SCREEN_7
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Success7)
+      <br/>
+      --         +
+      <br/>
+      --             SCREEN_7.AVAILABLE = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      FIX_1
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix1Required)
+      <br/>
+      --         +
+      <br/>
+      --             FIX_1.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      FIX_2
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix2Required)
+      <br/>
+      --         +
+      <br/>
+      --             FIX_2.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Failure)
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- FIX_1
+      <br/>
+      --      FLAGS FTFFFFFFFF300
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.INSERT = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Fix1Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix1OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Fix1Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      ASYNC_TRANSACTION
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix1OkSelected) /* User
+      <br/>
+      -- presses Ok button */
+      <br/>
+      --         +
+      <br/>
+      --             ASYNC_TRANSACTION.VALUE = SEND; /* then get
+      <br/>
+      -- it ready to go again */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- FIX_2
+      <br/>
+      --      FLAGS FTFFFFFFFF400
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.INSERT = FALSE;
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Fix2Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix2OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Fix2Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      ASYNC_TRANSACTION
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Fix2OkSelected) /* User
+      <br/>
+      -- presses Ok button */
+      <br/>
+      --         +
+      <br/>
+      --             ASYNC_TRANSACTION.VALUE = SEND; /* then get
+      <br/>
+      -- it ready to go again */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- WAIT
+      <br/>
+      --      FLAGS FTFFFFFFFF1200
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(WaitDisplay);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == KILL)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.WAIT = FALSE;
+      <br/>
+      --             if(row_no.OPEN == TRUE)
+      <br/>
+      --             +
+      <br/>
+      --                row_no.OPEN = FALSE;
+      <br/>
+      --                send_UI_message(WaitClose);
+      <br/>
+      --             }
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- /* Screen_5 is first required screen available after
+      <br/>
+      -- Async_Transaction is complete */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_5
+      <br/>
+      --      FLAGS FTFFFTFFFF1300
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen5Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen5CancelSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Screen5Close);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen5OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen5Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == Screen5CancelSelected) &amp;&amp;
+      <br/>
+      --              (ASYNC_TRANSACTION.VALUE �= NIL) )
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- /* Screens 6 &amp; 7 are REQUIRED but start with AVAILABLE flag =
+      <br/>
+      -- FALSE */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_6
+      <br/>
+      --      FLAGS FFFFFTFFFF1350
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(Screen6Display);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen6CancelSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Screen6Close);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen6OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen6Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == Screen6CancelSelected) &amp;&amp;
+      <br/>
+      --              (ASYNC_TRANSACTION.VALUE �= NIL) )
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_7
+      <br/>
+      --      FLAGS FFFFFTFFFF1375
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_UI_message(ScreenDisplay);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen7CancelSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Screen7Close);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen7OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen7Close);
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == Screen7CancelSelected) &amp;&amp;
+      <br/>
+      --              (ASYNC_TRANSACTION.VALUE �= NIL) )
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- /* Screen 8 needs to be primed, edited and a database update is
+      <br/>
+      -- required */
+      <br/>
+      -- ROW
+      <br/>
+      -- SCREEN_8
+      <br/>
+      --      FLAGS FTFFFTFFFF1400
+      <br/>
+      --      PROC
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         row_no.OPEN = TRUE;
+      <br/>
+      --         send_DM_message(Screen8Prime);
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      SELF
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(row_no.VALUE == Screen8Primed)
+      <br/>
+      --         +
+      <br/>
+      --             send_UI_message(Screen8Display);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen8CancelSelected)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             send_UI_message(Screen8Close);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen8OkSelected)
+      <br/>
+      --         +
+      <br/>
+      --             send_EDITOR_message(row_no, Screen8Edit);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen8Edited)
+      <br/>
+      --         +
+      <br/>
+      --             send_DM_message(row_no, Screen8Update);
+      <br/>
+      --         }
+      <br/>
+      --         if(row_no.VALUE == Screen8Updated)
+      <br/>
+      --         +
+      <br/>
+      --             row_no.OPEN = FALSE;
+      <br/>
+      --             row_no.COMPLETED = TRUE;
+      <br/>
+      --             send_UI_message(Screen8Close);
+      <br/>
+      --             send_UI_message(EndFlow); /* Transaction complete,
+      <br/>
+      -- shut down */
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      --      CLEAN_UP
+      <br/>
+      --      +
+      <br/>
+      --      -
+      <br/>
+      --         if(  (row_no.VALUE == Screen8CancelSelected) &amp;&amp;
+      <br/>
+      --              (ASYNC_TRANSACTION.VALUE �= NIL) )
+      <br/>
+      --         +
+      <br/>
+      --                CLEAN_UP.INSERT = TRUE;
+      <br/>
+      --         }
+      <br/>
+      --      -
+      <br/>
+      --      }
+      <br/>
+      -- NULL
+      <br/>
+      -- END
+    </p>
+    <heading>-- TABLE IV</heading>
+    <heading>-- C CODE FROM MAP - COMPLEX TRANSACTIONAL FLOW</heading>
+    <p num="136">
+      -- /*
+      <br/>
+      --  *
+      <br/>
+      --  */
+      <br/>
+      -- /*
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  *
+      <br/>
+      --  */
+      <br/>
+      -- -include &lt;stdio.h&gt;
+      <br/>
+      -- -include &lt;string.h&gt;
+      <br/>
+      -- -include "nav_constants.h"
+      <br/>
+      -- -include "navigator.h"
+      <br/>
+      -- -include "JFMM_row.h"
+      <br/>
+      -- -include "message.h"
+      <br/>
+      -- -include "msg_constants.h"
+      <br/>
+      -- -include "JFMM_std_data_msg.h"
+      <br/>
+      -- extern int  send_UI_message( ); /* matrix_util.c */
+      <br/>
+      -- extern int  send_flag_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  set_data_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  set_global( ); /* matrix' util.c */
+      <br/>
+      -- extern int  my_value( ); /* matrix_util.c */
+      <br/>
+      -- extern int  my_global( ); /* matrix_util.c */
+      <br/>
+      -- extern int  my_flag( ); /* matrix_util.c */
+      <br/>
+      -- extern MATRIX matrix;
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - - - � PROCESSING
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - - - */
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen1Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- CLEAN_UP_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = CLEAN_UP;
+      <br/>
+      --      set_flag_value(row_no,INSERT,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(CleanupDisplay);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen2Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_3_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_3;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen3Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+    </p>
+    <p num="137">
+      -- SCREEN_4_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_4;
+      <br/>
+      --      set_flag_value(row_no,IMMEDIATE,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen4Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_1_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_1;
+      <br/>
+      --      set_flag_value(row_no,INSERT,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Fix1Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_2_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_2;
+      <br/>
+      --      set_flag_value(row_no,INSERT,FALSE);
+      <br/>
+      --        set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Fix2Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- WAIT_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = WAIT;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(WaitDisplay);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen5Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_6_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_6;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen6Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_7_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_7;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_UI_message(Screen7Display);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_8_proc( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_8;
+      <br/>
+      --      set_flag_value(row_no,OPEN,TRUE);
+      <br/>
+      --        send_DM_message(Screen8Prime);
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - - - � INTERACTIONS
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - - - */
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_1_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen1CancelSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row,no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen1Close);
+      <br/>
+      --         send' UI_message(EndFlow);
+      <br/>
+      --         /* shut down */
+      <br/>
+      --      }
+      <br/>
+      --       if(my_value(row_no,Screen1OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen1Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen2Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_2,IMMEDIATE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_SCREEN_4_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if(my_value(row_no,Screen4Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_4,IMMEDIATE,TRUE);
+      <br/>
+      --         }
+      <br/>
+      --         return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_ASYNC_TRANSACTION_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if( ( (my_value(row_no,Screen1OkSelected)) .vertline..vertline. /*
+      <br/>
+      --  User presses
+      <br/>
+      -- S1 , S2 or S4 buttons and */  (my_value(row_no,Screen2Selected))
+      <br/>
+      --  .vertline..vertline.
+      <br/>
+      -- (my_value(row_no,Screen4Selected)) ) &amp;&amp;
+      <br/>
+      -- (my_value(ASYNC_TRANSACTION,NIL)) ) /* have not started
+      <br/>
+      -- Async Transaction , */
+      <br/>
+      --      +
+      <br/>
+      --         set_data_value(ASYNC_TRANSACTION,SEND);
+      <br/>
+      --         /* then get it ready to go */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_1_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_1;
+      <br/>
+      --      if( (my_value(row_no,Screen1CancelSelected)) &amp;&amp; /* User
+      <br/>
+      -- cancels Async Transaction started */  (�my_value
+      <br/>
+      -- (ASYNC_TRANSACTION,NIL)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --         /* then bring in Cleanup */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- CLEAN_UP_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = CLEAN_UP;
+      <br/>
+      --      if(my_value(row_no,CleanupOkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(CleanupClose);
+      <br/>
+      --         send_UI_message(EndFlow);
+      <br/>
+      --         /* shut down */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_SCREEN_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      if(my_value(row_no,Screen2OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen2Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_2_SCREEN_3_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_2;
+      <br/>
+      --      if(my_value(row_no,Screen3Selected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_3,IMMEDIATE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_3_SCREEN_3_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_3;
+      <br/>
+      --      if(my_value(row_no,Screen3OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen3Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_4_SCREEN_4_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_4;
+      <br/>
+      --      if(my_value(row_no,Screen4OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen4Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_ASYNC_TRANSACTION_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,SEND)) /* need to start Async Transaction */
+      <br/>
+      --      +
+      <br/>
+      --         send_ASYNC_TRANSACTION_message(row_no,
+      <br/>
+      -- AsyncTransactionBegin);
+      <br/>
+      --         set_data_value(row_no,SENT);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_WAIT_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if( (my_value(row_no,SEND)) .vertline..vertline.
+      <br/>
+      --  (my_value(row_no,SENT)) ) /*
+      <br/>
+      -- i.e. still out there with Transaction */
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(WAIT,WAIT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      else if( (my_value(row_no,Fix1Required)) .vertline..vertline. /* i.e.
+      <br/>
+      --  anything
+      <br/>
+      -- back */  (my_value(row_no,Fix2Required)) .vertline..vertline.
+      <br/>
+      -- (my_value(row_no,Success6)) .vertline..vertline.
+      <br/>
+      --  (my_value(row_no,Success7)) .vertline..vertline.
+      <br/>
+      -- (my_value(row_no,Failure)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_data_value(WAIT,KILL);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_SCREEN_6_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,Success6))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_6,AVAILABLE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_SCREEN_7_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,Successs7))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(SCREEN_7,AVAILABLE,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_FIX_1_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,Fix1Required))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(FIX_1,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_FIX_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,Fix2Required))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(FIX_2,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- ASYNC_TRANSACTION_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = ASYNC_TRANSACTION;
+      <br/>
+      --      if(my_value(row_no,Failure))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_1_FIX_1_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_1;
+      <br/>
+      --      if(my_value(row_no,Fix1OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Fix1Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_1_ASYNC_TRANSACTION_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_1;
+      <br/>
+      --      if(my_value(row_no,Fix1OkSelected)) /* User presses Ok button
+      <br/>
+      -- */
+      <br/>
+      --      +
+      <br/>
+      --         set_data_value(ASYNC_TRANSACTION,SEND);
+      <br/>
+      --         /* then get it ready to go again */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_2_FIX_2_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_2;
+      <br/>
+      --      if(my_value(row_no,Fix2OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Fix2Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- FIX_2_ASYNC_TRANSACTION_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = FIX_2;
+      <br/>
+      --      if(my_value(row_no,Fix2OkSelected)) /* User presses Ok button
+      <br/>
+      -- */
+      <br/>
+      --      +
+      <br/>
+      --         set_data_value(ASYNC_TRANSACTION,SEND);
+      <br/>
+      --         /* then get it ready to go again */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- WAIT_WAIT_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = WAIT;
+      <br/>
+      --      if(my_value(row_no,KILL))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,WAIT,FALSE);
+      <br/>
+      --         if(my_flag(row_no,OPEN) == TRUE)
+      <br/>
+      --         +
+      <br/>
+      --             set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --             send_UI_message(WaitClose);
+      <br/>
+      --         }
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_SCREEN_5_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      if(my_value(row_no,Screen5CancelSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Screen5Close);
+      <br/>
+      --      }
+      <br/>
+      --       if(my_value(row_no,Screen5OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen5Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_5_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_5;
+      <br/>
+      --      if( (my_value(row_no,Screen5CancelSelected)) &amp;&amp;
+      <br/>
+      -- (�my_value(ASYNC_TRANSACTION,NIL)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_6_SCREEN_6_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_6;
+      <br/>
+      --      if(my_value(row_no,Screen6CancelSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Screen6Close);
+      <br/>
+      --      }
+      <br/>
+      --       if(my_value(row_no,Screen6OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen6Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_6_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_6;
+      <br/>
+      --      if( (my_value(row_no,Screen6CancelSelected)) &amp;&amp;
+      <br/>
+      -- (�my_value(ASYNC_TRANSACTION,NIL)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_7_SCREEN_7_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_7;
+      <br/>
+      --      if(my_value(row_no,Screen7CancelSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Screen7Close);
+      <br/>
+      --      }
+      <br/>
+      --      if(my_value(row_no,Screen7OkSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen7Close);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_7_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_7;
+      <br/>
+      --      if( (my_value(row_no,Screen7CancelSelected)) &amp;&amp;
+      <br/>
+      -- (�my_value(ASYNC_TRANSACTION,NIL)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_8_SCREEN_8_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_8;
+      <br/>
+      --      if(my_value(row_no,Screen8Primed))
+      <br/>
+      --      +
+      <br/>
+      --         send_UI_message(Screen8Display);
+      <br/>
+      --      }
+      <br/>
+      --      -if(my_value(row_no,Screen8CancelSelected))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         send_UI_message(Screen8Close);
+      <br/>
+      -- }
+      <br/>
+      --  if(my_value((row_no,Screen8OkSelected))
+      <br/>
+      -- +
+      <br/>
+      --         send_EDITOR_message(row_no, Screen8Edit);
+      <br/>
+      --      }
+      <br/>
+      --       if(my_value(row_no,Screen8Edited))
+      <br/>
+      --      +
+      <br/>
+      --         send_DM_message(row_no, Screen8Update);
+      <br/>
+      --      }
+      <br/>
+      --       if(my_value(row_no,Screen8Updated))
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(row_no,OPEN,FALSE);
+      <br/>
+      --         set_flag_value(row_no,COMPLETED,TRUE);
+      <br/>
+      --         send_UI_message(Screen8Close);
+      <br/>
+      --         send_UI_message(EndFlow);
+      <br/>
+      --         /* Transaction complete , shut down */
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- int
+      <br/>
+      -- SCREEN_8_CLEAN_UP_inter( )
+      <br/>
+      -- +
+      <br/>
+      --      char  row_no = SCREEN_8;
+      <br/>
+      --      if( (my_value(row_no,Screen8CancelSelected)) &amp;&amp;
+      <br/>
+      -- (�my_value(ASYNC_TRANSACTION,NIL)) )
+      <br/>
+      --      +
+      <br/>
+      --         set_flag_value(CLEAN_UP,INSERT,TRUE);
+      <br/>
+      --      }
+      <br/>
+      --      return TRUE;
+      <br/>
+      -- }
+      <br/>
+      -- /*- - - - - - - - - - - - - - - - - - - - - � matrix_fns.c
+      <br/>
+      -- �- - - - - - - - - - - - - - - - - - - - - */
+    </p>
+    <p num="138">
+      In order to handle cancellation after the start of Async_Transaction or the failure of Async_Transaction, the Clean Up screen (with corresponding CLEAN_UP element) has been added.
+      <br/>
+      This screen is made a candidate for selection by MSR_3 when necessary by setting its INSERT flag to TRUE as shown by a number of the cell rules in FIG. 13. These rules are relatively easy to find because they all lie on the column marked CU.
+      <br/>
+      Like SCREEN_8, the CLEAN_UP element uses the EndFlow message to indicate the end of the transaction.
+    </p>
+    <p num="139">
+      The interactions between a Screen and its child screens are the same as they were in the simple example.
+      <br/>
+      In addition, Screen_1 now has an interaction with Async_Transaction which occurs when any of the Screen_1 buttons are pushed and Async_Transaction has not yet been sent (i.e., ASYNC_TRANSACTION.VALUE=NIL).
+      <br/>
+      In essence, this action primes Async_Transaction to begin by setting ASYNC_TRANSACTION.VALUE to SEND.
+      <br/>
+      This requires the ASYNC_TRANSACTION row to be run, which fires a SELF rule to begin the transaction.
+      <br/>
+      In other words, send_ASYNC_TRANSACTION_message(row_no, AsyncTransactionBegin); The same rule sets ASYNC.TRANSACTION.VALUE to SENT, thus establishing that the transaction has begun.
+      <br/>
+      Similarly, results from Async_Transaction fire other interaction rules in the ASYNC_TRANSACTION row to enable Fix_1, Fix_2, Wait and Clean_Up to appear when and if they are necessary.
+      <br/>
+      The behavior of these screens is manipulated with their INSERT flags as shown by the appropriate cell rules.
+      <br/>
+      The sequence numbers of these screens is chosen to be lower than the first required screen after completion of Async_Transaction so that MSR_3 will find them first as required.
+    </p>
+    <p num="140">
+      Screens 6 and 7 are enabled with their respective AVAILABLE flags depending on the results of Async_Transaction (Success_6 or Success_7).
+      <br/>
+      Screen_5 is found by the MSR_3 as the next required screen in the flow.
+      <br/>
+      It is notable that no specific cell rule is necessary to accomplish this action.
+    </p>
+    <p num="141">
+      Screens Fix_1 and Fix_2 re-initiate Async_Transaction via cell rules which fire after their respective Ok buttons are pressed.
+      <br/>
+      This is accomplished in the same way the SCREEN_1 element initiates the transaction.
+      <br/>
+      The rule to enable the Wait screen behaves similarly to rules which manipulate the INSERT flags of other elements.
+    </p>
+    <p num="142">
+      Since Screen_8 is primed from a database, this action occurs via the IP rules, and actual display of the screen is delayed until the screen priming data has been successfully accessed.
+      <br/>
+      Thus, in the SELF rules, the rule to display the screen fires upon receipt of the Screen8Primed message from the Data Manipulator (DM).
+      <br/>
+      The SELF rules also handle the editing and updating scenarios in a similar manner.
+    </p>
+    <p num="143">
+      In summary, the present invention is a rule-based system, employed in a client/server environment, for the provision of complex navigational logic which utilizes a Navigation Analysis Vehicle ("NAV") (or Navigational Analysis module) and a Matrix Analysis Package ("MAP").
+      <br/>
+      The MAP facilitates creation of navigation rules for linkage with the rest of the application.
+      <br/>
+      In a preferred embodiment of the invention, the NAV communicates navigational instructions to a user interface for the display and the take-down of screens, and also communicates with other processes such as editors and data manipulators.
+      <br/>
+      After the navigation rules are created, those rules are then applied to provide navigational logic for the user interface for processing the user interface screens.
+      <br/>
+      MAP creates the navigation rules in a user-friendly, C-like language and parses them into ANSI-standard C language for linkage with other processes that control the user interface.
+    </p>
+    <p num="144">
+      The present invention has been described above with reference to a preferred embodiment.
+      <br/>
+      However, those skilled in the art will recognize that changes and modifications may be made in this preferred embodiment without departing from the scope of the present invention.
+      <br/>
+      For example, although the exemplary embodiment of NAV relates to the provision of navigational logic for UIs in an X-Windows environment, the technique can be extended to other environments.
+      <br/>
+      Further, the technique can handle field-to-field navigation as well as the screen-to-screen navigation disclosed.
+      <br/>
+      These and other changes and modifications are intended to be circumscribed by the scope of the present invention.
+      <br/>
+      Variations may be made in the construction, arrangement or operation of the elements of the various embodiments as disclosed herein without departing from the spirit and scope of the invention as defined in the following claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>In a system for processing an application in a client/server environment, a method of managing presentation of a multiplicity of screen displays at a user interface of a client, said method comprising the steps of:</claim-text>
+      <claim-text>receiving at a controller associated with said user interface a first set of messages from said client and one or more processors associated with said controller; processing said first set of messages, in accordance with a predetermined set of navigation rules associated with said application, to generate a sequence by which selected ones of said multiplicity of screen displays are to be exhibited at said user interface; operating on said first set of messages with a predetermined set of resolve rules; executing a set of matrix scan rules on a matrix containing an IGNORE flag, an AVAILABLE flag, or an IMMEDIATE flag, wherein said set of matrix scan rules comprises:</claim-text>
+      <claim-text>- searching for an element to be immediately executed; - if an element to be immediately executed is found, terminating execution of the matrix scan rules;</claim-text>
+      <claim-text>if no immediate element is found, identifying a first set of elements and selecting from said first set of elements the element with the lowest sequence number, wherein the sequence number defines the relative order of executing the element; - searching for an open element, wherein the open element comprises a screen that is currently displayed on a user interface; - if an open element is found, terminating execution of said matrix scan rules; - if no open element is found, identifying a second set of elements and selecting from said second set of elements the element with the lowest sequence number; - searching for the next required, waiting, or inserted element;</claim-text>
+      <claim-text>and - identifying a third set of elements and selecting from said third set of elements the element with the lowest sequence number; finding an active element;</claim-text>
+      <claim-text>and if an active element is found, executing said set of resolve rules until a data value associated with an element has not changed, or until a maximum number of iterations allowed in processing said resolve rules has been reached;</claim-text>
+      <claim-text>and communicating a second set of corresponding messages to said client in accordance with said sequence of displaying the selected ones of the multiplicity of screen displays.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. In a system for procesing an application in a client/server environment, said application comprising a plurality of events with which are associated with a corresponding plurality of messages, a method of managing presentation of a multiplicity of screen displays at a user interface of a client, said method comprising the steps of: receiving at a controller associated with said user interface a first set of messages from said client and one or more processors associated with said controller; processing, in turn, each said message in accordance with a predetermined set of navigation rules associated with said application, wherein said set of navigation rules comprises a set of resolve rules and a set of matrix scan rules run on a matrix containing an IGNORE flag, an AVAILABLE flag, an OPEN flag, or a COMPLETED flag, said set of matrix scan rules comprising the steps of: - searching for an element to be immediately executed; - if an immediate element is found, terminating execution of the matrix scan rules; - if no immediate element is found, identifying a first set of elements and selecting from said first set of elements the element with the lowest sequence number, wherein the sequence number defines the relative order of executing the element; searching for an open element, wherein the open element comprises a screen that is currently displayed on a user interface; - if an open element is found, terminating execution of said matrix scan rules; - if no open element is found, identifying a second set of elements and selecting from said second set of elements the element with the lowest sequence number; - searching for the next required, waiting, or inserted element; - identifying a third set of elements and selecting from said third set of elements the element with the lowest sequence number;</claim-text>
+      <claim-text>and using said set of predetermined navigation rules to establish a sequence by which selected one of said multiplicity of screen displays are to be exhibited at said user interface;</claim-text>
+      <claim-text>and communicating a second set of messages to said client corresponding to said sequence for displaying the selected screen displays.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

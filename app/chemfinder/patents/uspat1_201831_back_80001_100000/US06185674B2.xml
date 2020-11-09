@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185674B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185674</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185674</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="23653969" extended-family-id="13718144">
+      <document-id>
+        <country>US</country>
+        <doc-number>08417421</doc-number>
+        <kind>A</kind>
+        <date>19950405</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1995US-08417421</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>14013987</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>41742195</doc-number>
+        <kind>A</kind>
+        <date>19950405</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1995US-08417421</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/38        20060101AFI20051220RMJP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>38</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>JP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051220</date>
+        </action-date>
+      </classification-ipcr>
+      <classification-ipcr sequence="2">
+        <text>G06F   9/32        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>32</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>712230000</text>
+        <class>712</class>
+        <subclass>230000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>712233000</text>
+        <class>712</class>
+        <subclass>233000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>712E09075</text>
+        <class>712</class>
+        <subclass>E09075</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-009/32B</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>009</main-group>
+        <subgroup>32B</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/322</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>322</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>18</number-of-claims>
+    <exemplary-claim>8</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>9</number-of-figures>
+      <image-key data-format="questel">US6185674</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for reconstructing the address of the next instruction to be completed in a pipelined processor</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>COLWELL ROBERT P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4833599</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4833599</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>FAVOR JOHN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5093778</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5093778</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>FITE DAVID B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5142634</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5142634</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>STILES DAVID R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5163140</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5163140</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>FAVOR JOHN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5226130</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5226130</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>HIRATA HIROAKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5430851</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5430851</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>PUZIOL DAVID L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5454117</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5454117</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>BYERS LARRY L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5471597</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5471597</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>VEGESNA ANANTAKOTIRAJU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5488729</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5488729</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>JAIN DANNY K, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5553255</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5553255</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>FETTERMAN MICHAEL A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5553256</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5553256</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>BLOMGREN JAMES S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5608886</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5608886</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>POMERENE JAMES H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4679141</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4679141</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>DESYLLAS PETER L L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4714990</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4714990</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>BRYG WILLIAM R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4914582</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4914582</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>SUZUKI ATSUSHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5014240</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5014240</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>GOTO TATUHIRO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5461722</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5461722</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>HEWLETT PACKARD CO</text>
+          <document-id>
+            <country>GB</country>
+            <doc-number>2277819</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>GB2277819</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>MOTOROLA INC</text>
+          <document-id>
+            <country>GB</country>
+            <doc-number>2284912</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>GB2284912</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Dictionary of Computers, information processing &amp; telecommunications, second edition by Rosenberg, p. 357, 1984.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>G.F. Grohoski, "Machine organization of the IBM RISC System/6000 Processor", IBM J. Res. Develop., vol. 34 #1, Jan. 1990 pp. 37-58.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>A. Davis et al. "Fully Integrated Cache Architecture", S.N. 08/060,776, Filed May 11, 1993, Grp. Art Unit 2312.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>"Superscalar Microprocessor Design", Mike Johnson, Advanced Micro Devices, Chapter 5, The Role of Exception Recovery, Prentice Hall, Englewood Cliff, NJ 07632.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Chan, Kin Shing</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Chuang, Chiao-Mei</name>
+            <address>
+              <address-1>Cupertino, CA, US</address-1>
+              <city>Cupertino</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Marchioro, Alessandro</name>
+            <address>
+              <address-1>Ferney Voltaire, FR</address-1>
+              <city>Ferney Voltaire</city>
+              <country>FR</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>FR</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Sbrollini, Jay P.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Maung, Zarni</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A computer processing unit is provided that includes an apparatus for generating an address of the next instruction to be completed.
+      <br/>
+      The apparatus includes a first table for storing a plurality of entries each corresponding to a dispatched instruction, each entry comprising an identifier that identifies the corresponding instruction and a status bit that indicates if the corresponding instruction is completed; a second table for storing a plurality of entries each corresponding to dispatched branch instructions, each entry comprising the same identifier stored in the first table, a target address of the dispatched branch instruction and a resolution status field that indicates at least if the corresponding branch instruction has been resolved taken or has been resolved not taken; program counter update logic that, in each machine cycle, updates a program counter to store and output the address of the next instruction to be completed according to the entries stored in the first table and the second table.Because the first and second tables employ efficient identification tags to identify instructions that modify the control flow of the execution pipeline and the target address of such instructions, the computer processing unit of the present invention need not store the full address of each instruction in the execution pipeline to update the program counter as is conventional, and thus saves real estate that may be used for other circuitry.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Technical Field
+    </p>
+    <p num="2">The invention relates to computer processor units and, more particularly, to reconstructing the address of the next instruction to be completed in pipelined computer processing units.</p>
+    <p num="3">2. Description of the Prior Art</p>
+    <p num="4">
+      Pipelined processors divide the processing of instructions into a number of stages such that several instructions can be processed simultaneously, thereby providing improved efficiency and performance with respect to conventional non-pipelined processors.
+      <br/>
+      More recently superscalar processors, such as the Pentium processor from Intel and the PowerPC 601, 603, 604 and 620 processors from Apple/IBM/Motorola have been developed that utilize multiple instruction pipelines to provide the ability to execute multiple instructions in a single clock cycle.
+      <br/>
+      Thus, superscalar and pipelined microprocessors process a large number of instructions concurrently.
+    </p>
+    <p num="5">
+      As shown in FIG. 1, the structure of these devices typically may be broken down into four stages.
+      <br/>
+      In the fetch stage, a copy of one or more instructions are obtained from memory and placed into an input queue.
+      <br/>
+      In the dispatch stage, one or more instructions are read from the input queue and examined to initialize the control signals that are required for execution, and then dispatched to the execution unit(s).
+      <br/>
+      In the execution stage, when resources are available, one or more instructions are executed.
+      <br/>
+      Finally, in the completion stage, the results produced by the execution unit(s) are committed to the architected registers.
+    </p>
+    <p num="6">
+      The instructions are typically fetched and dispatched in order, but may be executed out of order.
+      <br/>
+      In order to give the illusion of a traditional sequential machine, the instructions are finally reordered at completion time.
+      <br/>
+      Such an architecture has the advantage of decoupling instruction fetch from execution, thus providing higher performance.
+    </p>
+    <p num="7">
+      In addition, branch prediction and prefetch control logic may be utilized to fetch, dispatch and execute instructions speculatively.
+      <br/>
+      However, these speculative instructions are not completed until the speculative conditions have been resolved.
+      <br/>
+      Such speculative fetching and execution also improves system performance in most applications.
+    </p>
+    <p num="8">
+      Microprocessors that incorporate the structure of FIG. 1 typically include a program counter that stores the memory address of the last instruction completed by the completion stage such that the microprocessor can service interrupts and/or program exceptions.
+      <br/>
+      Upon experiencing an interrupt/exception, the current address of the program counter is saved.
+      <br/>
+      The program counter is then initialized with an address vector corresponding to the interrupt/exception and the instruction pipeline reset for fetching, dispatching, executing and completing the instructions of the interrupt/exception.
+      <br/>
+      To return from the interrupt/exception, the stored address value (or the next sequential address following the stored address value) is loaded into the program counter and the instruction pipeline is reset for fetching, dispatching, executing and completing the instruction sequence that the microprocessor left to service the interrupt/exception.
+    </p>
+    <p num="9">
+      Conventionally, the program counter is implemented by saving the full address of each instruction in the fetch stage, and writing the full address+1 or target address to the program counter upon completing the instruction.
+      <br/>
+      However, this implementation may be unsuitable for use in superscalar and deeply pipelined microprocessors that process a large number of instructions concurrently.
+      <br/>
+      In these applications, storing the full address of each instruction requires that a large amount of information be stored, and thus may consume an unacceptable amount of real estate.
+    </p>
+    <p num="10">It is therefore an object of the present invention to provide a system that utilizes a limited amount of stored information and a small amount of real estate to perform the conventional functions of the program counter, and is thus suitable for use in superscalar and pipelined microprocessors.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="11">
+      According to the present invention, a computer processing unit is provided that includes an apparatus for generating an address of the next instruction to be completed.
+      <br/>
+      The apparatus includes a first table for storing a plurality of entries each corresponding to a dispatched instruction, each entry comprising an identifier that identifies the corresponding instruction and a status bit that indicates if the corresponding instruction is completed; a second table for storing a plurality of entries each corresponding to dispatched branch instructions, each entry comprising the same identifier stored in the first table, a target address of the dispatched branch instruction and a resolution status field that indicates at least if the corresponding branch instruction has been resolved taken or has been resolved not taken; program counter update logic that, in each machine cycle, updates a program counter to store and output the address of the next instruction to be completed according to the entries stored in the first table and the second table.
+    </p>
+    <p num="12">
+      More specifically, the program counter update logic, in each machine cycle, reads out one or more entries from said first table, and for each entry corresponding to a branch instruction and whose status bit indicates the corresponding branch instruction is completed, accesses the second table with the associated identifier of the entry to determine if a corresponding entry exists in the second table.
+      <br/>
+      If the second table includes one corresponding entry whose resolution status field indicates the branch instruction has been resolved taken, the program counter update logic updates the program counter to correspond to the target address of the one entry plus any offset associated with subsequent completed sequential instructions.
+      <br/>
+      If the second table includes more than one corresponding entry whose resolution status field indicates the branch instruction has been resolved taken, the program counter update logic updates the program counter to correspond to the target address of one of the corresponding entries plus any offset associated with subsequent completed sequential instructions, wherein said one of the corresponding entries is associated with an instruction latter in program sequence relative to instructions associated with other of the corresponding entries.
+      <br/>
+      If the second table does not include at least one corresponding entry whose resolution status field indicates the branch instruction has been resolved taken, the program counter update logic updates the program counter to correspond to the address associated with completed sequential instructions.
+      <br/>
+      Moreover, if each of the one or more entries read out from the first table do not correspond to a branch instruction, the program counter update logic updates the program counter to correspond to the address associated with completed sequential instructions.
+    </p>
+    <p num="13">Because the first and second tables employ efficient identification tags to identify instructions that modify the control flow of the execution pipeline and the target address of such instructions, the computer processing unit of the present invention need not store the full address of each instruction in the execution pipeline to update the program counter as is conventional, and thus saves real estate that may be used for other circuitry.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="14">
+      FIG. 1 is a flow chart illustrating the pipeline structure of the computer processing unit of the present invention;
+      <br/>
+      FIG. 2 is a functional block diagram of a computer processing unit according to the present invention;
+      <br/>
+      FIG. 3 is a pictorial representation of the instruction sequence table (IST) of FIG. 2;
+      <br/>
+      FIG. 4 is a pictorial representation of the format of an entry of the branch target address table (BTAT) of FIG. 2;
+      <br/>
+      FIG. 5 is a functional block diagram of the Program Counter Unit (PCU) and PCU Control Unit of FIG. 2;
+      <br/>
+      FIG. 6 is a functional block diagram of a hardware implementation of the BTAT of FIG. 2;
+      <br/>
+      FIG. 7 is a functional block diagram of a hardware implementation of the matching circuits M1 . . . M12 of FIG. 6;
+      <br/>
+      FIG. 8 is a functional block diagram of the Program Counter Unit (PCU) and PCU Control Unit of FIG. 2 according to a second embodiment of the present invention; and
+      <br/>
+      FIG. 9 is a functional block diagram of a hardware implementation of the BTAT of FIG. 2 according to the second embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="15">
+      With reference to FIG. 2, a high performance pipelined computer processing unit includes a memory system 101 that stores instructions to be executed by a processor unit 103 as well as data associated with the instructions executed by the processor unit 103.
+      <br/>
+      As is conventional, the memory system 101 may include a main memory and a cache memory subsystem.
+      <br/>
+      The cache memory subsystem may be a conventional combined data/instruction cache type, or in the alternative a split cache.
+      <br/>
+      Typically, the cache is a set associative structure.
+    </p>
+    <p num="16">
+      An input queue 105 is connected to receive instructions fetched from the memory system 101.
+      <br/>
+      Instructions may be fetched from the memory system 101 individually or in a group commonly called a block.
+      <br/>
+      Fetching blocks of instructions is preferable in cache systems because it provides greater cache access for operands.
+      <br/>
+      In current practice, a block is typically a quadword (QW--16 bytes) or eight words (32 bytes), but in future machines the block size may be larger.
+      <br/>
+      Moreover, instructions may or may not be aligned on block boundaries.
+    </p>
+    <p num="17">
+      The fetching of instructions from the memory system 101 into the input queue 105 is coordinated by an instruction fetch unit 106.
+      <br/>
+      The functions of the instruction fetch unit 106 may include address generation and translation of instruction fetch addresses.
+      <br/>
+      The primary function of the instruction fetch unit 106 is loading into an I-FETCH address register 107 the address that identifies the block of instructions to be fetched from the memory system 101 into the input queue 105.
+      <br/>
+      The instruction fetch unit 106 may also include prefetch logic that controls the speculative prefetch of instructions and/or data from the memory system 101 into the input queue 105.
+      <br/>
+      Typically, such prefetch logic includes a branch history table and associative control logic.
+      <br/>
+      A more detailed description of an example of such prefetch logic may be found in Pomerene et al., U.S. Pat. No. 4,679,141, which is commonly assigned to the assignee of the present invention and herein incorporated by reference in its entirety.
+    </p>
+    <p num="18">
+      The processor unit 103 typically includes at least one instruction register that stores the instruction(s) dispatched from the input queue 105, an instruction decoder that decodes the contents of the instruction register and schedules decoded instructions for execution by execution and control logic, which may include one or more hardware execution elements.
+      <br/>
+      For example, PowerPC architecture includes three pipelined execution units: a branch processing unit for executing all branch instructions, a fixed point unit for executing all fixed-point instructions, and a floating point unit for executing all floating point operations.
+      <br/>
+      A detailed example of such hardware execution elements may be found in Grohoski, Machine Organization of the IBM RISC System/6000 Processor, IBM J. Res. Develop., Vol. 34 No. 1, January 1990, pp. 37-58, herein incorporated by reference in its entirety.
+    </p>
+    <p num="19">The results of the instructions executed by the hardware execution elements of the processor unit 103 are supplied to a completion unit 108 which, if executed out of order, reorders the results and updates the architected registers 109 accordingly.</p>
+    <p num="20">A branch resolution unit 110 receives at least the results of branch instructions executed by the hardware execution elements of the processor unit 103 and, according to these results, controls the fetching, dispatch and execution of the instruction stream by the instruction fetch unit 106, input queue 105 and processor unit 103, respectively.</p>
+    <p num="21">
+      According to the present invention, the memory address of the next instruction to be completed, commonly known as the program counter, is stored in a program counter unit (PCU) 111. The memory address stored in the PCU 111 is principally provided by an instruction sequence table (IST) 113, a branch target address table (BTAT) 115 and a PCU control unit 117.
+      <br/>
+      Generally, the IST 113 stores an identification tag (IID), a branch bit (BB), and a finished bit (FB) for each instruction dispatched from the input queue 105 to the processor unit 103.
+      <br/>
+      The IID uniquely identifies the particular instruction from other instructions in the execution stream.
+      <br/>
+      The BB when set indicates the particular instruction is a control flow modifying instruction, hereinafter called a branch instruction.
+      <br/>
+      When not set, the BB indicates the instruction is a sequential (non-branch) instruction.
+      <br/>
+      The FB when set indicates the instruction has been completed.
+      <br/>
+      When not set, the FB indicates the instruction is not yet completed.
+      <br/>
+      The BTAT 115, on the other hand, stores the IID, associated target address (TA), and resolution status (i.e., unresolved, resolved taken, resolved not taken) of all branch instructions dispatched from the input queue 105 to the processor unit 103.
+    </p>
+    <p num="22">
+      During each machine cycle, the PCU control unit 117 reads the IID and FB of one or more instructions from the IST 113.
+      <br/>
+      For each instruction read from the IST 113 whose FB is set, the PCU control unit 117 accesses the BTAT 115 with the IID of the particular instruction.
+      <br/>
+      The BB of the instructions read from the IST 113 by the PCU control unit 117 may be supplied to the BTAT 115 directly, or via the PCU control unit 117.
+      <br/>
+      As described above the BTAT 115 stores the IID, target address TA, and resolution status of all branch instructions.
+    </p>
+    <p num="23">
+      For machines that complete only one instruction per cycle, the BTAT 115 queries �1� whether the IID of the completed instruction provided by the PCU control unit 117 matches the IID of stored branch instructions and �2� whether the BB of the instruction is set.
+      <br/>
+      If a match is found and the corresponding BB is set, the BTAT 115 outputs the target address TA and resolution status associated with the instruction and a hit signal indicating a valid match was found.
+      <br/>
+      Otherwise, the BTAT 115 outputs a miss signal indicating a valid match was not found.
+      <br/>
+      Upon receiving the hit signal, the PCU control unit 117 queries whether the resolution status of the instruction output from the BTAT 115 indicates the branch instruction was resolved taken, and if so loads the target address TA output from the BTAT 115 into the PCU 111.
+      <br/>
+      However, if the resolution status of the instruction indicates the branch instruction has been resolved not taken, or in the alternative, upon receiving the miss signal, the PCU control unit 117 loads the next sequential address (PC+1) into the PCU 111.
+    </p>
+    <p num="24">
+      For machines capable of completing more than one instruction per cycle, the operation of the PCU 111, the PCU control unit 117, and the BTAT 115 is more complicated because more than one taken branch instruction may be completed in the cycle.
+      <br/>
+      In this case, the PCU control unit 117 accesses the BTAT 115 with the IID of each instruction whose FB is set.
+      <br/>
+      The BTAT 115 queries �1� whether the IID of the instructions supplied by the PCU control unit 117 matches the IID of stored branch instructions, and �2� whether the BB of the corresponding instruction is set.
+      <br/>
+      If a match is found and the corresponding BB is set, the BTAT 115 outputs the target address TA and resolution status associated with the instruction and a hit signal indicating a valid match was found.
+      <br/>
+      Otherwise, the BTAT 115 outputs a miss signal indicating a valid match was not found.
+    </p>
+    <p num="25">According to the hit/miss and resolution status signals output from the BTAT 115 and the FB of each of the instructions read from the IST 113, the PCU control unit 117 selects the target address TA of a particular branch instruction resolved taken that is latter in program sequence relative to other branch instructions resolved taken, determines an offset that corresponds to the number of sequential instructions completed after the particular branch instruction, and loads the selected target address TA plus offset into the PCU 111.</p>
+    <p num="26">
+      For example, consider the case where the processor unit 103 may complete three instructions in a cycle, wherein the first instruction read from the IST 113 is a completed branch instruction resolved taken and the next two instructions read from the IST 113 are completed sequential instructions.
+      <br/>
+      In this case, PCU control unit 117 loads into the PCU 111 an address that corresponds to the target address of the first instruction plus the offset associated with the second and third completed sequential instructions.
+      <br/>
+      Thus, in the case, the address loaded into the PCU 111 would be the instruction address immediately following the address of the third instruction.
+    </p>
+    <p num="27">
+      In another example, if the first instruction read from the IST 113 is a completed branch instruction resolved taken, the second instruction is a completed branch instruction resolved not taken, and the third instruction is a completed sequential instruction, the PCU control unit 117 loads into the PCU 111 an address that corresponds to the target address of the first instruction plus the offset associated with the second branch instruction resolved not taken and third sequential instruction.
+      <br/>
+      In this case, the address loaded into the PCU 111 would be the instruction address immediately following the address of the third instruction.
+      <br/>
+      However, in this example, if the second instruction is also a branch instruction resolved taken, the address loaded into the PCU 111 corresponds to the target address of the second instruction plus the offset associated with the third instruction.
+      <br/>
+      Again, the address loaded into the PCU 111 would be the instruction address immediately following the address of the third instruction.
+    </p>
+    <p num="28">
+      Finally, consider another example wherein the first instruction read from the IST 113 is a completed branch instruction resolved taken, the second instruction is a completed sequential instruction, and the third instruction is a completed branch instruction resolved taken.
+      <br/>
+      In this case, because the third instruction is latter in program sequence relative to other branch instructions read from the IST 113 that have been completed and have been resolved taken, the PCU control unit 117 loads into the PCU 111 an address that corresponds to the target address of the third instruction.
+    </p>
+    <p num="29">
+      In the case where the processor unit 103 may complete three instructions in a cycle, the PCU control unit 117 may also determine if completed instructions are preceded in the IST 113 by instructions that are not yet completed, and update the PCU 111 accordingly.
+      <br/>
+      For example, consider the case wherein the first instruction read from the IST 113 is completed sequential instruction, the second instruction is a branch (or sequential) instruction not yet completed, and the third instruction is a completed sequential instruction.
+      <br/>
+      In this case, PCU control unit 117 loads into the PCU 111 an address that corresponds to the offset associated with the first instruction, thus disregarding the completion of the third instruction until the preceding second instruction has been completed.
+      <br/>
+      In effect, the PCU control unit 117 may wait until preceding instructions have been completed before updating the PCU 111.
+    </p>
+    <p num="30">
+      On the other hand, if all of the instructions read from the IST 113 have an FB set, but do not have a BB set (i.e. all are completed sequential instructions), in this case, the PCU control unit 117 loads the address of the next sequential instruction into the PCU 111.
+      <br/>
+      For example, in the case where the processor completes three sequential instructions in a cycle, the address loaded by the PCU control unit 117 into the PCU 111 corresponds to the next sequential instruction (PC+3).
+    </p>
+    <p num="31">
+      Having provided a general description of the system for storing the address of the next instruction to be completed, a more detailed hardware embodiment is now set forth.
+      <br/>
+      For illustrative purposes only, the embodiment described below is part of a system capable of executing three instructions per cycle.
+      <br/>
+      However, the invention is not limited in this respect, and may be used in systems capable of executing one or more instructions per cycle.
+    </p>
+    <p num="32">
+      Specifically, instruction(s) dispatched from input queue 105 to the processor unit 103 for execution are supplied to a tag generator 119 and branch address generator 121.
+      <br/>
+      The tag generator 119 generates the IID corresponding to each instruction.
+      <br/>
+      The tag generator 119 may store a plurality of next available identifiers (for example, the next five available identifiers) and assign one or more of the stored available identifiers to the dispatched instructions depending upon the number of instructions dispatched from the input queue 105 to the processor unit 103.
+      <br/>
+      The branch address generator 121 determines if each dispatched instruction is a sequential type instruction, a conditional branch type instruction or an unconditional branch type instruction and outputs a control signal indicating the type of each instruction.
+      <br/>
+      In addition, for conditional and unconditional branch type instructions, the branch address generator 121 generates the target address of the instruction.
+    </p>
+    <p num="33">
+      The IID output from the tag generator 119 and control signal output from the branch address generator 121 are supplied to an instruction sequencing table control unit (IST control unit) 123 and branch target address control unit (BTAT control unit) 125.
+      <br/>
+      In addition, the target address of branch instructions generated by the branch address generator 121 is supplied to the BTAT control unit 125.
+    </p>
+    <p num="34">
+      The IST control unit 123 inserts the IID output from the tag generator 119 as an entry of the IST 113.
+      <br/>
+      Preferably, the IST 113 is ordered logically as a first-in first-out structure.
+      <br/>
+      In this case, the IST control unit 123 inserts the IID output from the tag generator 119 as the top entry of the IST 113.
+      <br/>
+      Thus, the IST 113 maintains an ordered list of the identifiers IID of each instruction dispatched for execution.
+      <br/>
+      In addition, if the control signal output from the branch address generator 121 identifies the instruction as a conditional or unconditional branch type instruction, the IST control unit 123 marks the branch bit (BB) associated with the IID of the branch type instruction in the IST 113.
+      <br/>
+      The IST control unit 121 may also initialize the FB associated with the IID of the instruction to indicate the instruction has yet to be completed.
+    </p>
+    <p num="35">
+      An example of the structure of the IST 113 is shown in FIG. 3.
+      <br/>
+      The IID tag, BB and FB of the most recent instructions (i.e., IIDN, BBN, FBN, IIDN-1, BBN-1, FBN-1, IIDN-2, BBN-2, FBN-2) are loaded into the top of the IST 113 by the IST control unit 123.
+      <br/>
+      The IID tag, BB and FB of the most aged instructions (i.e., IID2, BB2, FB2, IID1, BB1, FB1 IID0, BB0, FB0) are read from the bottom of the IST 113.
+      <br/>
+      Preferably, the number of entries in each row of the IST 113 correspond to the number of instructions that the processor unit 103 is capable of completing in a single cycle.
+      <br/>
+      For example, the IST 113 of FIG. 3 is designed for a system in which the processor unit 103 is capable of completing three instructions per cycle and, thus, includes three entries in each row.
+    </p>
+    <p num="36">
+      The BTAT control unit 125 receives the IID output from the tag generator 119, the control signal output from the branch address generator 121, and, for conditional and unconditional branch type instructions, the target address of the branch instruction.
+      <br/>
+      If the control signal output from the branch address generator indicates the instruction is a conditional or unconditional branch instruction, the BTAT control unit 125 stores the IID and associated target address TA of the particular branch instruction as an entry in the BTAT 115.
+      <br/>
+      As shown in FIG. 4, each entry of the BTAT 115 may also include a usage bit (U) that indicates the entry is in use and a resolution status field (RSF) that indicates whether the branch is unresolved, resolved taken or resolved not taken.
+      <br/>
+      In this case, if the control signal output from the branch address generator 121 indicates the particular instruction is an unconditional branch type instruction, the BTAT control unit 125 sets the U bit of the entry and sets the RSF of the entry to resolved taken.
+      <br/>
+      However, if the control signal output from the branch address generator 121 indicates the particular instruction is a conditional branch type instruction, the BTAT control unit 125 sets the U bit of the entry and initializes the RSF of the entry to unresolved.
+    </p>
+    <p num="37">
+      In addition, the computer processing unit of FIG. 1 may support speculative execution of branch type instructions.
+      <br/>
+      More particularly, some branch instructions may themselves depend upon the resolution of previous unresolved conditional branch instructions (i.e., the branch instruction lies in a speculative path).
+      <br/>
+      In this case, as shown in FIG. 4, each entry of the BTAT 115 may include a speculation tag (ST) that identifies that the instruction is part of a speculative path and identifies the speculative branch instruction from which it depends.
+      <br/>
+      Moreover, the control signal output from the branch address generator 121 not only indicates if the dispatched instruction is a sequential type instruction, condition branch type instruction or unconditional branch type instruction, but also includes a branch tag that identifies if the instruction is part of a speculative path and, if so, the speculative branch instruction from which it depends.
+      <br/>
+      The branch tag output from the branch address generator 121 is supplied to the BTAT control unit 125.
+      <br/>
+      If the branch tag of the dispatched instruction identifies the instruction as belonging to a speculative path, the BTAT control unit 123 sets the ST of the entry in the BTAT 115 accordingly.
+      <br/>
+      The speculation tag may be one or more bits depending upon the encoding scheme, and preferably reflects the number of speculative paths that may be taken by the instruction fetch unit 106.
+      <br/>
+      For example, consider the case where the instruction fetch unit 106 may pursue two speculative paths labeled, for example, A and B. In this case, the ST of the entries of the BTAT 115 may include two bits ST0, ST1.
+      <br/>
+      ST0 when set indicates the entry is part of the first speculative path A, and when cleared indicates the entry is not part of the first speculative path A. On the other hand, ST1 when set indicates the entry is part of the second speculative path B, and when cleared indicates the entry is not part of the second speculative path B.
+    </p>
+    <p num="38">
+      The BTAT 115 as described above requires updating.
+      <br/>
+      For instance, the resolution status of each conditional branch instruction stored in the BTAT 115 is preferably updated upon the resolution of the particular branch instruction.
+      <br/>
+      This may be achieved by the branch resolution unit 110 which, upon determining the resolution (taken/not taken) of conditional branch instructions that have completed execution by the processor unit 103, updates the BTAT 115 accordingly.
+      <br/>
+      The branch resolution unit 110 accomplishes this by associatively searching the entries of the BTAT 115 to locate the entry whose IID matches the IID of the completed branch instruction, and updating the RSF of the matching entry accordingly.
+    </p>
+    <p num="39">
+      The branch resolution unit 110 may also update the BTAT 115 upon the resolution of speculatively executed branch instructions.
+      <br/>
+      In this case, if the branch resolution unit 110 determines that a speculatively executed branch instruction was wrongly executed (i.e., a branch instruction speculatively executed as taken is resolved not taken, or a branch instruction speculatively executed as not taken is resolved taken), branches depending from the wrongly executed branch instruction must be cancelled from the BTAT 115.
+      <br/>
+      The branch resolution unit 110 accomplishes this by associatively searching all the entries of the BTAT 115 to find instructions that share the ST of the wrongly executed branch instruction, and for those instructions with the matching ST, clearing the U bit, thus freeing the corresponding entry in the BTAT 115.
+    </p>
+    <p num="40">
+      For example, in the example described above, upon determining that the speculatively executed branch instruction at the root of the first speculative path A was wrongly executed, the branch resolution unit 110 would update the BTAT 115 by associatively searching all the entries of the BTAT 115 to find instructions having a set ST0 bit.
+      <br/>
+      For those instructions with ST0 bit set, the U bit is cleared, thus freeing the corresponding entry in the BTAT 115.
+      <br/>
+      The update of the entries of the BTAT 115 may be accomplished in a manner similar to updating the lines of a cache memory as described in U.S. Pat. No. 4,914,582 to Bryg et al., U.S. Pat. No. 5,014,240 to Suzuki, and U.S. patent application Ser.
+      <br/>
+      No. 08/060,776 in the name of Davis et al., entitled "Fully Integrated Cache Architecture" and commonly assigned to the assignee of the present invention, all herein incorporated by reference in their entirety.
+    </p>
+    <p num="41">
+      In addition, the branch resolution unit 110 may also update the IST 113 upon the resolution of speculatively executed branch instructions and/or wrongly dispatched instructions.
+      <br/>
+      This may be accomplished as follows.
+      <br/>
+      Preferably, the IST control unit 123 includes a register that stores a pointer to the next available address of the IST 113.
+      <br/>
+      The IST control unit 123 writes new entries to the IST 113 at locations corresponding to the pointer stored in the register, and updates the register accordingly.
+      <br/>
+      When the branch resolution unit 110 determines that an instruction was wrongly executed and/or dispatched, the branch resolution unit 110 deletes the entries subsequent to the wrongly executed and/or dispatched instruction by updating the register of the IST control unit 123 to point to the address of the particular wrongly executed and/or dispatched instruction.
+    </p>
+    <p num="42">
+      Having described the general operation of the IST 113, BTAT 115, PCU control unit 117 and PCU 111, a specific hardware embodiment of these elements as described above is now set forth.
+      <br/>
+      With reference to FIG. 5, the PCU control unit 117 includes PCU control logic 200 that in each machine cycle reads from the IST 113 the IID and FB corresponding to the maximum number of instructions that may be completed by the processor unit 103 in the cycle.
+      <br/>
+      For example, the PCU control logic 200 may read IID2, FB2, IID1, FB1, IID0, FB0 from the bottom of the IST 113 as shown in FIG. 3.
+      <br/>
+      In addition, the branch bit of the instructions are read from the bottom of the IST 113 and supplied to the BTAT 115.
+      <br/>
+      For example, BB2, BB1, and BB0 may be read from the bottom of the IST 113 as shown in FIG. 3.
+      <br/>
+      For each instruction whose FB is set (i.e. the instruction is a completed instruction), the PCU control logic 200 accesses the BTAT 115 with a completion IID (C_IID) that corresponds to the IID of that instruction.
+      <br/>
+      It is important to realize that there may be more than one completed instruction read from the bottom of the IST 113.
+      <br/>
+      For example, the instruction identified by IID1 may be a completed instruction whose corresponding FB1 is set, and the instruction identified by IID0 may be a completed instruction whose corresponding FB0 is set.
+      <br/>
+      In this case, the PCU control logic 200 accesses the BTAT 115 with both a C_IID1, and C_IID0 that corresponds to IID1 and IID0, respectively.
+    </p>
+    <p num="43">
+      As described above, the BTAT 115 stores the IID, usage bit U, target address TA, and resolution status field RSF of the branch instructions currently dispatched for execution.
+      <br/>
+      More particularly, with reference to FIG. 6, the entries may be arranged as an array 300.
+      <br/>
+      The array may be organized as a fully associative structure, a set associative structure, or a direct mapped structure.
+      <br/>
+      As shown, the array 300 is organized as a fully associative structure for example only.
+      <br/>
+      Moreover, the array 300 as shown includes four entries for example only.
+    </p>
+    <p num="44">
+      More specifically, the target address TA of each entry is provided as an input to target address multiplexing logic 302.
+      <br/>
+      The RSF of each entry is provided as an input to RSF multiplexing logic 304.
+      <br/>
+      The IID field IIDM and usage bit UM of the first entry is supplied to matching circuits M1,M2,M3.
+      <br/>
+      The IID field IIDM-1 and usage bit UM-1 of the second entry is supplied to matching circuits M4,M5,M6.
+      <br/>
+      The IID field IIDM-2 and usage bit UM-2 of the third entry is supplied to matching circuits M7,M8,M9.
+      <br/>
+      Finally, the IID field IIDM-2 and usage bit UM-3 of the fourth entry is supplied to matching circuits M10,M11,M12.
+    </p>
+    <p num="45">
+      An input identifier bus 306 supplies the completion IID tag (C_IID) of each of the completed branch instructions provided by the PCU control logic 200 to the appropriate matching circuits M1,M2,M3 . . . M12. Because it is possible that three taken branch instructions have been completed, the input identifier bus 302 may supply to the matching circuits the completion IID tag (C_IID2, C_IID1, C_IID0) of three completed branch instructions.
+      <br/>
+      In this case, the first completion IID tag (C_IID2) is supplied to the matching circuits M1,M4,M7 and M10.
+      <br/>
+      The second completion IID tag (C_IID1) is supplied to the matching circuits M2,M5,M8 and M11.
+      <br/>
+      And the third completion IID tag (C_IID0) is supplied to the matching circuits M3,M6,M9 and M12.
+    </p>
+    <p num="46">
+      As shown in FIG. 7, the matching circuits include a comparator 400 that compares the completion IID tag supplied via the input identifier bus 302 to the IID field of the respective entry.
+      <br/>
+      The output of the comparator 400 and usage bit U of the respective entry is supplied to an AND gate 402.
+      <br/>
+      The output of the AND gates 402 of the matching circuits M1 . . . M12 identifies each valid entry that matches the completion IID tags supplied via the input identifier bus 306.
+      <br/>
+      This output is supplied to mux control logic 308.
+    </p>
+    <p num="47">
+      The mux control logic 308 controls the operation of the target address multiplexing logic 302 and RSF multiplexing logic 304.
+      <br/>
+      More specifically, if the output of the matching circuit M1 indicates that a valid entry IIDM matches the completion IID tag C_IID2, the mux control logic 308 controls the target address multiplexing logic 302 to output TAM as TA2 and the RSF multiplexing logic 304 to output RSFM as RSF2.
+      <br/>
+      Similarly, if the output of the matching circuit M2 indicates that a valid entry IIDM matches the completion IID tag C_IID1, the mux control logic 308 controls the target address multiplexing logic 302 to output TAM as TA1 and the RSF multiplexing logic 304 to output RSFM as RSF1.
+      <br/>
+      The operation of the mux control logic 308 is similar for other matches indicated by the outputs of the matching circuits M3 . . . M12.
+    </p>
+    <p num="48">
+      The output of the matching circuits M1 . . . M12 is also supplied to hit recognition logic 310.
+      <br/>
+      In the simplest approach, the hit recognition logic 310 outputs a hit/miss signal (H/M2, H/M1, H/M0) that indicates if a valid matching entry exists for each completion IID tag (C_IID2, C_IID1, C_IID0 ) supplied to the BTAT 115 via the input identifier bus 306.
+      <br/>
+      However, because the hit recognition logic 310 relies solely on matching the completion IID tags to the IID fields of the entries, this approach may be prone to error.
+      <br/>
+      In the preferred embodiment, as shown in FIG. 6, an input branch bit bus 312 supplies the branch bits BB2, BB1, and BB0 read out from the bottom of the IST 113 to the hit recognition logic 310.
+      <br/>
+      In this case, the hit recognition logic 310 outputs a hit/miss signal (H/M2, H/M1, H/M0) that indicates if the following two conditions have been met: �1� a valid matching entry exists for each completion IID tag (C_IID2, C_IID1, C_IID0) supplied to the BTAT 115 via the input identifier bus 306, and �2� the corresponding branch bit (BB2, BB1, BB0) supplied from the IST 113 via the input branch bit bus 312 is set.
+      <br/>
+      Because the hit recognition logic 310 of the preferred embodiment generates the hit/miss signal according to the two conditions, the hit recognition logic 310 of the preferred embodiment is less prone to error.
+    </p>
+    <p num="49">Thus, for each completion IID tag supplied to the BTAT 115, the BTAT 115 returns a hit/miss signal, the corresponding target address TA if appropriate, and the corresponding resolution status field (RSF) if appropriate.</p>
+    <p num="50">
+      As shown in FIG. 5, the PCU 111 includes an output driver 500 that outputs the address of the next instruction to be completed.
+      <br/>
+      For example, the address may be a 62 bit value as shown.
+      <br/>
+      In this case, the full memory address of the instruction may be a 64 bit value with the lower order two bits set to zero.
+      <br/>
+      Generally, the output driver 500 is controlled by the PCU control logic 200 to output the address of the next instruction to be completed according to the hit/miss signals (H/M2, H/M1, H/M0, target addresses (TA2, TA1, TA0) and resolution status fields (RSF2, RSF1,RSF0) output from the BTAT 115.
+    </p>
+    <p num="51">
+      More specifically, the address output by the output driver 500 and the target addresses output from the BTAT 115 is supplied to a multiplexer 502 whose output is supplied to a staging register 504.
+      <br/>
+      The address stored in the staging register 504 is divided into two portions, a most significant portion and a least significant portion.
+      <br/>
+      For example, the most significant portion may be the most significant 58 bits and the least significant portion may be the least significant 4 bits of the full address as shown.
+      <br/>
+      The most significant portion of staging register 504 is supplied to a multiplexer 506 and an incrementer 508 for update.
+      <br/>
+      The least significant portion of the staging register 504 is supplied to offset generation logic 510 for update.
+    </p>
+    <p num="52">
+      The offset generation logic 510, which may be a full adder as shown, performs two functions.
+      <br/>
+      First, the offset generation logic 510 updates the least significant portion of the staging register 504 according to an offset signal supplied by the PCU control logic 200 and supplies the updated least significant portion to the driver 500 for output.
+      <br/>
+      Secondly, the offset generation logic controls the multiplexer 306 to pass to the driver 500 either the most significant portion output for the staging register 504 or the most significant portion+1 output from the incrementer 508 if necessary, thus updating the most significant portion of the address output by the output driver 500.
+    </p>
+    <p num="53">
+      Upon receiving from the BTAT 115 one hit signal and corresponding RSF indicating that a single branch instruction has been completed and resolved taken, the PCU control logic 200 controls the multiplexer 502 to pass to the input of the staging register 504 the appropriate one of the target addresses TA2, TA1, TA0 output from the BTAT 115 that corresponds to the single branch instruction, and controls the staging register 504 to load selected target address.
+      <br/>
+      The PCU control logic 200 also outputs an offset signal associated with sequential instructions completed subsequent to the single branch instruction in the same machine cycle as described above.
+      <br/>
+      The offset generation logic 510 adds the offset signal supplied by the PCU control logic 200 to the corresponding lower portion of the target address stored in to the staging register 504, and outputs the resultant data to the driver 500 for output.
+      <br/>
+      In addition, upon determining a carry is required, the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion+1 output from the incrementer 508 to the driver 500 for output, otherwise the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion output from staging register 504 to the driver 500 for output.
+      <br/>
+      Importantly, the incrementer 508 is utilized to update the most significant portion when a carry is required, thus obviating the need for a full adder for the full address (e.g, 64 bits as shown) stored in the staging register 304.
+    </p>
+    <p num="54">
+      Upon receiving from the BTAT 115 more than one hit signal and corresponding RSF indicating that more than one branch instruction has been completed and resolved taken, the PCU control logic 200 controls the multiplexer 502 to pass to the input of the staging register 504 the appropriate one of the target addresses TA2, TA1, TA0 output from the BTAT 115 that corresponds to a particular branch instruction of the more than one branch instructions that have been completed and resolved taken, wherein the particular branch instruction is latter in sequence than the other of the more than one branch instructions that have been completed and resolved taken, and controls the staging register 504 to load selected target address.
+      <br/>
+      The PCU control logic 200 also outputs an offset signal associated with sequential instructions completed subsequent to the particular branch instruction in the same machine cycle as described above.
+      <br/>
+      The offset generation logic 510 adds the offset signal supplied by the PCU control logic 200 to the corresponding lower portion of the target address stored in to the staging register 504, and outputs the resultant data to the driver 500 for output.
+      <br/>
+      In addition, upon determining a carry is required, the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion+1 output from the incrementer 508 to the driver 500 for output, otherwise the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion output from staging register 504 to the driver 500 for output.
+    </p>
+    <p num="55">
+      Upon receiving all miss signals from the BTAT 115, the PCU control logic 200 controls the multiplexer 502 to pass the address output by the driver 500 to the input of the staging register 504, and controls the staging register 504 to load the address.
+      <br/>
+      The PCU control logic 200 outputs an offset signal associated with the sequential instructions completed in the machine cycle.
+      <br/>
+      The offset generation logic 510 adds the offset signal supplied by the PCU control logic 200 to the corresponding lower portion of the address stored in to the staging register 504, and outputs the resultant data to the driver 500 for output.
+      <br/>
+      In addition, upon determining a carry is required, the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion+1 output from the incrementer 508 to the driver 500 for output, otherwise the offset generation logic 510 controls the multiplexer 506 to pass the most significant portion output from staging register 504 to the driver 500 for output.
+    </p>
+    <p num="56">
+      Upon experiencing an interrupt or program exception, the interrupt controller (not shown) saves the address of the next instruction to be completed as output from the output driver 500 into a storage register via the PC_to_SPR Bus 512.
+      <br/>
+      As is conventional, the storage register may be the machine status save/restore register (SRR0) or the link register (LR).
+      <br/>
+      The interrupt controller then places the interrupt entry address, also commonly called an interrupt vector, on the SPR_TO_PC Bus 514, and sends an interrupt request to the PCU control logic 200 via the interrupt control bus 202.
+      <br/>
+      Upon receiving the interrupt request signal, the PCU control logic 200 controls the multiplexer 502 to load the interrupt entry address into the staging register 504 and zeroes the offset signal output to the offset generation logic 510.
+      <br/>
+      The offset generation logic 510 controls the multiplexer 506 to load the interrupt entry address into the driver 500 for output, and processing continues to execute the interrupt.
+    </p>
+    <p num="57">
+      To return from the interrupt or exception, the interrupt controller places the return address previously stored in the storage register onto the SPR_to_PC bus 514, and sends an interrupt return signal to the PCU control logic 200 via the interrupt control bus 202.
+      <br/>
+      Upon receiving the interrupt return signal, the PCU control logic 200 controls the multiplexer 502 to load the return address into the staging register 504 and zeroes the offset signal output to the offset generation logic 510.
+      <br/>
+      The offset generation logic 510 controls the multiplexer 506 to load the return address into the driver 500 for output, and processing continues to execute the instruction stream at the returned address.
+    </p>
+    <p num="58">
+      As described above, the completion IID tag of one or more completed instructions (i.e., one or more instructions whose FB is set) and the corresponding branch bit BB are supplied from the IST 113 to the BTAT 115 to locate a valid matching entry in the BTAT 115.
+      <br/>
+      However, in an alternate embodiment, the BTAT 115 may be accessed with only the completion IID tag of the one or more completed branch instructions read from the IST 113.
+      <br/>
+      More specifically, the PCU control logic 200, in each machine cycle, may read from the IST 113 the IID, BB and FB corresponding to the maximum number of instructions that may be completed by the processor unit 103 in the cycle.
+      <br/>
+      For each instruction whose FB and BB is set (i.e. the instruction is a completed branch instruction), the PCU control logic 200 accesses the BTAT 115 with a completion IID (C_IID) that corresponds to the IID of that instruction.
+      <br/>
+      The BTAT 115 includes a similar structure as described above with respect to FIG. 6; however, the hit recognition logic 310 is not supplied with the branch bits (BB2, BB1, BB0) read from the IST 113.
+      <br/>
+      In this alternate embodiment, only the output of the matching circuits M1 . . . M12 is supplied to the hit recognition logic 310 which outputs a hit/miss signal (H/M2, H/M1, H/M0) that indicates if a valid matching entry exists for each completion IID tag (C_IID2, C_IID1, C_IID0) supplied to the BTAT 115 via the input identifier bus 306.
+    </p>
+    <p num="59">
+      According to a second embodiment of the present invention, the structure and operation of the instruction sequence table (IST), branch target address table (BTAT) and a PCU control unit as described above may be modified slightly.
+      <br/>
+      In this embodiment, the finishing bit FB of the entries of the IST 113 indicate whether or not the instruction corresponding to the entry has finished execution, as distinguished from indicating whether or not the instruction has been completed as described above.
+      <br/>
+      When set, the FB may indicate that the corresponding instruction has finished execution.
+      <br/>
+      When not set, the FB may indicate the instruction is not yet finished execution.
+      <br/>
+      The FB of the entries are updated by the IST control unit 123 according to execution results supplied to the IST control unit 123 by the hardware execution elements of the processor unit 103.
+    </p>
+    <p num="60">
+      In this case, during each machine cycle, the PCU control unit 117 reads the IID and BB of one or more instructions from the IST 113 and accesses the BTAT with the IID and BB of the particular instruction.
+      <br/>
+      The IID and BB for each instruction read from the IST 113 may be supplied to the BTAT 115 directly, or via the PCU control unit 117 as shown in FIG. 8.
+    </p>
+    <p num="61">
+      In addition, the IID and FB of the instructions read from the IST 113 are supplied to the completion unit 108.
+      <br/>
+      For each instruction read from the IST 113, the completion unit 108 analyzes the FB of the instructions and exception bits generated by the hardware execution elements of the processor unit 103 to determine +1� if the instruction has finished execution and �2� if the instruction failed to generate an interrupt.
+      <br/>
+      For each instruction read from the IST 113, if these two conditions have been met, the completion unit 108 generates a completion valid signal; otherwise, the completion unit 108 generates a completion invalid signal.
+      <br/>
+      The completion valid/invalid signals generated by the completion unit 108 are also supplied to the BTAT.
+    </p>
+    <p num="62">
+      For each instruction read from the IST 113, the BTAT determines whether the IID of the instruction matches the IID of stored branch instructions, generates match signals according thereto, and outputs the resolution status of each matching entry.
+      <br/>
+      In parallel, for each instruction read from the IST 113, the BTAT queries �1� whether the IID of the instruction matches the IID of stored branch instructions, �2� whether the BB corresponding to the instruction is set, �3� whether a completion valid signal corresponding to the instruction was generated by the completion unit 108, and �4�, if there is a matching entry, whether the resolution status field of the matching entry indicates the instruction has been resolved taken.
+      <br/>
+      If all four conditions are met for a single instruction read from the IST 113, the BTAT outputs the target address of the single instruction and a hit signal that indicates a valid match was found.
+      <br/>
+      If all four conditions are met for more than one instruction read from the IST 113, the BTAT outputs the target address of a particular instruction of the more than one instructions that satisfy the four conditions, wherein the particular instruction is latter in program sequence than the other instructions of the more than one instructions that satisfy the four conditions, and also outputs a hit signal indicating that a valid match was found.
+      <br/>
+      However, if all four conditions are not met for any of the instructions read from the IST 113, the BTAT 115 outputs a miss signal indicating a valid match was not found.
+    </p>
+    <p num="63">
+      According to the hit/miss signal, match signals and resolution status signals output from the BTAT 115 and completion valid/invalid signals generated by the completion unit 108, the PCU control unit 117 determines an offset.
+      <br/>
+      If a hit is found, the offset corresponds to the number of sequential instructions completed after the latest completed branch instruction resolved taken.
+      <br/>
+      However, if a miss is encountered, the offset signal corresponds to the number of completed sequential instructions.
+      <br/>
+      Moreover, if the hit/miss signal indicates a hit was found, the PCU control unit utilizes the target address TA output from the BTAT 115 plus offset to update the PCU 111.
+      <br/>
+      Otherwise, if the hit/miss signal indicates a miss, the PCU control unit utilizes the offset and the sequential address output from the output driver 500 to update the PCU 111.
+    </p>
+    <p num="64">
+      More specifically, with reference to FIG. 8, the PCU control unit 117 includes PCU control logic 601 that in each machine cycle reads from the IST 113 the IID and BB corresponding to the maximum number of instructions that may be completed by the processor unit 103 in the cycle.
+      <br/>
+      For example, the PCU control logic 601 may read IID2, BB2, IID1, BB1, IID0, BB0 from the bottom of the IST 113 as shown in FIG. 3.
+    </p>
+    <p num="65">
+      In addition, the IID and FB of the instructions read from the IST 113 are supplied to the completion unit 108.
+      <br/>
+      For example, IID2, FB2, IID1, FB1, IID0, FB0 as shown in FIG. 3 are supplied to the completion unit 108.
+      <br/>
+      For each instruction read from the IST 113 (IID2, IID1, IID0) the completion unit 108 analyzes the FB (FB2, FB1, FB0) of the instruction and exception bits generated by the hardware execution elements of the processor unit 103 to determine +1� if the instruction has finished execution, and �2� if the instruction failed to generate an interrupt (which is or will be handled by an interrupt controller).
+      <br/>
+      For each instruction read from the IST 113, if these two conditions have been met, the completion unit 108 generates a completion valid signal (completion valid0 . . . 2); otherwise, the completion unit 108 generates a completion invalid signal (completion invalid0 . . . 2) The completion valid/invalid signals (completion valid/invalid0 . . . 2) generated by the completion unit 108 are also supplied to the BTAT.
+    </p>
+    <p num="66">
+      The BTAT of the second embodiment is shown in FIG. 9.
+      <br/>
+      Like the BTAT of the first embodiment, the target address TA of each entry is provided as an input to target address multiplexing logic 302.
+      <br/>
+      The RSF of each entry is provided as an input to RSF multiplexing logic 304.
+      <br/>
+      Moreover, the IID field IIDM and usage bit UM of the first entry is supplied to matching circuits M1,M2,M3.
+      <br/>
+      The IID field IIDM-1 and usage bit UM-1 of the second entry is supplied to matching circuits M4,M5,M6.
+      <br/>
+      The IID field IIDM-2 and usage bit UM-2 of the third entry is supplied to matching circuits M7,M8,M9.
+      <br/>
+      Finally, the IID field IIDM-3 and usage bit UM-3 of the fourth entry is supplied to matching circuits M10,M11,M12.
+      <br/>
+      An input identifier bus 306 supplies the IID tag (C_IID) of each of the instructions provided by the PCU control logic 601 to the appropriate matching circuits M1,M2,M3 . . . M12. Because it is possible that three taken branch instructions have been completed in a cycle, the input identifier bus 302 may supply to the matching circuits the completion IID tag (C_IID2, C_IID1, C_IID0) of three completed branch instructions.
+      <br/>
+      In this case, the first completion IID tag (C_IID2) is supplied to the matching circuits M1,M4,M7 and M10.
+      <br/>
+      The second completion IID tag (C_IID1) is supplied to the matching circuits M2,M5,M8 and M11.
+      <br/>
+      And the third completion IID tag (C_IID0) is supplied to the matching circuits M3,M6,M9 and M12.
+    </p>
+    <p num="67">
+      The output of matching circuits M1 . . . M12, designated as match signals1 . . . 12, are supplied to RSF mux control logic 701.
+      <br/>
+      The RSF mux control logic 701 controls the operation of the RSF multiplexing logic 304 according to the match signals1 . . . 12. More specifically, if the output of the matching circuit M1 (i.e., match signal1) indicates that a valid entry IIDM matches the completion IID tag C_IID2, the RSF mux control logic 701 controls the RSF multiplexing logic 304 to output RSFM as RSF2.
+      <br/>
+      Similarly, if the output of the matching circuit M2 (i.e., match signal2) indicates that a valid entry IIDM matches the completion IID tag C_IID1, the RSF mux control logic 501 controls the RSF multiplexing logic 701 to output RSFM as RSF1.
+      <br/>
+      The operation of the RSF mux control logic 701 is similar for other matches indicated by the outputs of the matching circuits M3 . . . M12.
+    </p>
+    <p num="68">
+      The match signals1 . . . 12 are also supplied to hit recognition and selection logic 703, which is also provided with the branch bits (BB2, BB1, and BB0) read from the bottom of the IST 113, the completion valid/invalid signals (completion valid/invalid0 . . . 2) generated by the completion unit 108, and the RSF status fields (RSF2, RSF1, RSF0) of matching entries output from the RSF multiplexing logic 304.
+      <br/>
+      The hit recognition and selection logic 703 determines, for each instruction read from the IST 113, �1� whether the matching signals1 . . . 12 indicate the IID corresponding to the instruction matches the IID of stored branch instructions, �2� whether the BB corresponding to the instruction is set, �3� whether a completion valid signal corresponding to the instruction was generated by the completion unit 108, and �4�, if there is a matching entry, whether the resolution status field of the matching entry indicates the instruction has been resolved taken.
+      <br/>
+      If all four conditions are met for a single instruction read from the IST 113, the hit recognition and selection logic 703 controls the target address multiplexing logic 302 to output the target address TA of the single instruction, and outputs a hit signal H that indicates a valid match was found.
+    </p>
+    <p num="69">
+      If all four conditions are met for more than one instruction read from the IST 113, the hit recognition and selection logic 703 controls the target address multiplexing logic 302 to output the target address TA of a particular instruction of the more than one instructions that satisfy the four conditions, wherein the particular instruction is latter in program sequence than the other instructions of the more than one instructions that satisfy the four conditions, and also outputs a hit signal H indicating that a valid match was found.
+      <br/>
+      However, if all four conditions are not met for any of the instructions read from the IST 113, the BTAT 115 outputs a miss signal M indicating a valid match was not found.
+    </p>
+    <p num="70">
+      According to the hit/miss signal, the match signals1 . . . 12 and the resolution status signals (RSF0, RSF1, RSF2) output from the BTAT 115 and the completion valid/invalid signals0 . . . 2 generated by the completion unit 108, the PCU control logic 601 determines an offset.
+      <br/>
+      If a hit is found, the offset corresponds to the number of sequential instructions completed after the latest completed branch instruction resolved taken.
+      <br/>
+      However, if a miss is encountered, the offset corresponds to the number of completed sequential instructions.
+      <br/>
+      Moreover, if the hit/miss signal indicates a hit was found, the PCU control logic 601 utilizes the target address TA output from the BTAT 115 plus offset to update the PCU 111.
+      <br/>
+      Otherwise, if the hit/miss signal indicates a miss, the PCU control logic 601 utilizes the offset and the sequential address output by the output driver 500 to update the PCU 111.
+      <br/>
+      The operation of the PCU control logic 601 in utilizing the target address and offset to update the PCU 111 is similar to the operation of the PCU control logic 200 as described above with respect to the first embodiment.
+    </p>
+    <p num="71">
+      In a simpler approach, the hit recognition and selection logic 703 of FIG. 9 may generate the hit/miss signal that indicates if a valid matching entry exists for the completion IID tags (C_IID2, C_IID1, C_IID0) without checking the status of the branch bits (BB2, BB1, BB0) of the corresponding instructions.
+      <br/>
+      However, in this case, because the hit recognition and selection logic 703 relies on matching the completion IID tags to the IID fields of the entries, this approach may be prone to error.
+    </p>
+    <p num="72">
+      In summary, the computer processing unit of the present invention utilizes an IST and BTAT to update a program counter unit that stores the address of the last completed instruction.
+      <br/>
+      Because the IST and BTAT employ efficient IID tags to identify instructions that modify the control flow of the execution pipeline and the target address of such instructions, the computer processing unit of the present invention need not store the full address of each instruction in the execution pipeline to update the program counter as is conventional, and thus saves real estate that may be used for other circuitry.
+    </p>
+    <p num="73">
+      Other embodiments of the invention will be apparent to those skilled in the art from consideration of the specification and practice of the invention disclosed herein.
+      <br/>
+      It is intended that the specification and examples be considered as examples only, with the true scope of the invention being indicated by the claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>We claim:</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8.</claim-text>
+      <claim-text>An apparatus for use in a computer processing unit for generating an address of the next instruction to be completed, said apparatus comprising: a first table for storing a plurality of entries each corresponding to a dispatched instruction, each entry comprising an identifier that identifies the associated instruction and a completion status field that indicates if the associated instruction is complete; a second table for storing a plurality of entries each corresponding to a dispatched branch instruction, each entry comprising the same identifier stored in said first table, a target address of the dispatched branch instruction and a resolution status field that indicates at least if the corresponding branch instruction has been resolved taken or has been resolved not taken; program counter update logic that, in each machine cycle, updates a program counter with the address of the next instruction to be completed according to said entries stored in said first table and said second table, wherein said program counter update logic in a given machine cycle, - reads out at least one entry from said first table;</claim-text>
+      <claim-text>and - for each entry read from said first table whose completion status field indicates the associated instruction is completed, accesses said second table with the associated identifier of the entry to thereby determine said address of the next instruction to be completed in said computer processing unit.</claim-text>
+      <claim-text>1. A method of generating an address of the next instruction to be completed in a computer processing unit, the method comprising the steps of:</claim-text>
+      <claim-text>for each instruction dispatched for execution,</claim-text>
+      <claim-text>- generating an identifier that identifies the instruction; - adding an entry to a first table, wherein said entry of said first table comprises said identifier and a completion status field bit that indicates if the corresponding instruction is complete; - if the instruction is a branch instruction, adding an entry to a second table, wherein said entry of said second table comprises said identifier, a target address of the instruction and a resolution status field that indicates at least if the instruction has been resolved taken or has been resolved not taken; updating the completion status field of entries of said first table corresponding to completed instructions; updating the resolution status field of entries of said second table according to resolution of branch instructions;</claim-text>
+      <claim-text>and in each machine cycle, controlling a program counter to generate the address of the next instruction to be completed according to said entries of said first table and said second table, wherein the following steps are performed in a given machine cycle, - reading out at least one entry from said first table;</claim-text>
+      <claim-text>and - for each entry read from said first table whose completion status field indicates the associated instruction is completed, accessing said second table with the associated identifier of the entry to thereby determine said address of the next instruction to be completed in said computer processing unit.</claim-text>
+      <claim-text>2. The method of claim 1, wherein the step of controlling a program counter to generate the address of the next instruction to be completed includes the following steps performed in said given machine cycle: accessing said second table with the associated identifier of the entry to determine if a valid matching entry exists in said second table: - if said second table includes a single valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the target address of said single valid matching entry plus offset associated with subsequent completed sequential instructions; - if said second table includes more than one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and - if said second table does not include at least one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+      <claim-text>3. The method of claim 1, wherein each of said entries of said first table include a branch bit that indicates if the corresponding instruction is a branch instruction.</claim-text>
+      <claim-text>4. The method of claim 3, wherein the step of controlling a program counter to generate the address of the next instruction to be completed according to said entries of said first table and said second table includes the steps of: in each machine cycle, - reading out one or more entries from said first table; - for each entry read from said first table whose completion status field indicates the associated instruction is complete, supplying said second table with the associated identifier of the entry.</claim-text>
+      <claim-text>5. The method of claim 4, further comprising the steps of: for each identifier supplied to said second table, generating a hit/miss signal that represents if a valid matching entry exists in said second table and that represents if the branch bit associated with the identifier in said first table indicates the instruction is a branch instruction; outputting the resolution status field of matching entries from said second table; outputting the target address of matching entries from said second table; if said second table includes a single valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the target address of said single valid matching entry plus offset associated with subsequent completed sequential instructions; if said second table includes more than one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and if said second table does not include at least one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updating the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+      <claim-text>6. The method of claim 3, wherein the step of controlling a program counter to generate the address of the next instruction to be completed according to said entries of said first table and said second table includes the steps of: in each machine cycle, - reading out one or more entries from said first table; - for each entry read from said first table whose completion status field indicates the associated instruction is complete and whose branch bit indicates the associated instruction is a branch instruction, supplying said second table with the associated identifier of the entry.</claim-text>
+      <claim-text>7. The method of claim 6, further comprising the steps of: for each identifier supplied to said second table, generating a hit/miss signal that indicates if a valid matching entry exists in said second table; outputting the resolution status field of matching entries from said second table; outputting the target address of matching entries from said second table; if said hit/miss signals and said resolution status fields indicate a single valid matching entry exists in said second table, updating the program counter to correspond to the target address of the single valid matching entry plus offset associated with subsequent completed sequential instructions; if said hit/miss signals and said resolution status fields indicate more than one valid matching entry exists in said second table, updating the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and if said hit/miss signals and said resolution status fields indicates that no valid matching entries exist in said second table, updating the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The apparatus of claim 8, wherein, said program counter update logic, in said given machine cycle, reads out one or more entries from said first table, and, for each entry whose status bit indicates the associated instruction is complete, accesses said second table with the associated identifier of the entry to determine if a valid matching entry exists in said second table; if said second table includes a single valid matching entry whose resolution status field indicates the instruction has been resolved taken, updates the program counter to correspond to the target address of said single valid matching entry plus offset associated with subsequent completed sequential instructions; if said second table includes more than one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updates the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and if said second table does not include at least one valid matching entry whose resolution status field indicates the instruction has been resolved taken, updates the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The apparatus of claim 8, wherein each of said entries of said first table include a branch bit that indicates if the corresponding instruction is a branch instruction.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The apparatus of claim 10, wherein said program counter update logic, in each machine cycle, reads out one or more entries from said first table; for each entry read from said first table whose completion status field indicates the associated instruction is complete, said program counter update logic supplies said second table with the associated identifier of the entry.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The apparatus of claim 11, wherein said program counter update logic, for each identifier supplied to said second table, generates a hit/miss signal that represents if a valid matching entry exists in said second table and that represents if the branch bit associated with the identifier in said first table indicates the instruction is a branch instruction; outputs the resolution status field of matching entries from said second table; outputs the target address of matching entries from said second table; if said hit/miss signals and said resolution status fields indicate a single valid matching entry exists in said second table, updates the program counter to correspond to the target address of the single valid matching entry plus offset associated with subsequent completed sequential instructions; if said hit/miss signals and said resolution status fields indicate more than one valid matching entry exists in said second table, updates the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and if said hit/miss signals and said resolution status fields indicates that no valid matching entries exist in said second table, updates the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The apparatus of claim 10, wherein said program counter update logic, in each machine cycle, reads out one or more entries from said first table;</claim-text>
+      <claim-text>and for each entry read from said first table whose completion status field indicates the associated instruction is complete and whose branch bit indicates the associated instruction is a branch instruction, supplies said second table with the associated identifier of the entry.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The apparatus of claim 13, wherein said program counter update logic, for each identifier supplied to said second table, generates a hit/miss signal that indicates if a valid matching entry exists in said second table; outputs the resolution status field of matching entries from said second table; outputs the target address of matching entries from said second table; if said hit/miss signals and said resolution status fields indicate a single valid matching entry exists in said second table, updates the program counter to correspond to the target address of the single valid matching entry plus offset associated with subsequent completed sequential instructions; if said hit/miss signals and said resolution status fields indicate more than one valid matching entry exists in said second table, updates the program counter to correspond to the target address of one of said more than one valid matching entries plus offset associated with subsequent completed sequential instructions, wherein said one of said more than one valid matching entries corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one valid matching entries;</claim-text>
+      <claim-text>and if said hit/miss signals and said resolution status fields indicates that no valid matching entries exist in said second table, updates the program counter to correspond to the address associated with completed sequential instructions.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A method of generating an address of the next instruction to be completed in a computer processing unit, the method comprising the steps of: for each instruction dispatched for execution, - generating an identifier that identifies the instruction; - adding an entry to a first table, wherein said entry of said first table comprises said identifier and a branch bit that indicates if the instruction is a branch instruction; - if the instruction is a branch instruction, adding an entry to a second table, wherein said entry of said second table comprises said identifier, a target address of the instruction and a resolution status field that indicates at least if the instruction has been resolved taken or has been resolved not taken; updating the resolution status field of one or more entries of said second table according to resolution of branch instructions;</claim-text>
+      <claim-text>and in each machine cycle, reading one or more entries from said first table, generating a completion status signal corresponding to each of said one or more entries read from said first table, wherein said completion status signal indicates if the instruction associated with each entry is completed, and controlling a program counter to generate the address of the next instruction to be completed according to said entries of said second table and said completion status signal.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 15, wherein the step of controlling a program counter to generate the address of the next instruction to be completed according to said entries of said second table and said completion status signal includes the steps of: generating a match signal that indicates if identifiers of said entries read from said first table match identifiers of said entries stored in said second table; outputting the resolution status field of matching entries from said second table according to said match signal; if the match signal indicates that the identifier of only one entry read from said first table matches the identifiers of said entries stored in said second table, and the corresponding branch bit of the one entry indicates the associated instruction is a branch instruction, and the completion status signal corresponding to the one entry indicates the associated instruction is complete, generating a hit signal that indicates a valid match was found and outputting the target address of the entry of said second table that corresponds to the matching one entry of said first table; if the match signal indicates that the identifier of more than one of said entries read from said first table matches said identifiers of said entries stored in said second table, and the corresponding branch bit of each of said more than one entries read from said first table indicates the associated instruction is a branch instruction, and the completion status signal corresponding to the each of said more than one entries read from said first table indicates the associated instruction is completed, generating a hit signal that indicates a valid match was found and outputting the target address of one entry of said second table that corresponds to one of said more than one entries read from said first table, wherein said one entry of said second table corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one entries read from said first table; if the match signal indicates none of the identifiers read from said first table match the identifiers of said entries stored in said second table, generating a miss signal; according to said match signal, said hit/miss signal and the resolution status fields output from said second table, updating the program counter to correspond to the target address output from said second table plus offset associated with subsequent completed sequential instructions.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. An apparatus for use in a computer processing unit for generating an address of the next instruction to be completed, said apparatus comprising: a first table for storing a plurality of entries each corresponding to a dispatched instruction, each entry comprising an identifier that identifies the associated instruction and a branch bit that indicates if the associated instruction is a branch instruction; a second table for storing a plurality of entries each corresponding to a dispatched branch instruction, each entry comprising the same identifier stored in said first table, a target address of the dispatched branch instruction and a resolution status field that indicates at least if the corresponding branch instruction has been resolved taken or has been resolved not taken; means for generating, in each machine cycle, a completion status signal corresponding to one or more entries read from said first table that indicate if the instructions associated with said one or more entries are completed; program counter update logic that, in each machine cycle, updates a program counter with the address of the next instruction to be completed according to said entries stored in said second table and said completion status signal.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The apparatus of claim 17, wherein said program counter update logic comprises: matching circuits that generate a match signal indicating if identifiers of said entries read from said first table match identifiers of said entries stored in said second table; resolution status field multiplexing logic that outputs the resolution status field of matching entries from said second table according to said match signal; hit recognition and selection logic that - if the match signal indicates that the identifier of only one entry read from said first table matches the identifiers of said entries stored in said second table, and the corresponding branch bit of the one entry indicates the associated instruction is a branch instruction, and the completion status signal corresponding to the one entry indicates the associated instruction is completed, generates a hit signal that indicates a valid match was found and outputs the target address of the entry of said second table that corresponds to the matching one entry of said first table; if the match signal indicates that the identifier of more than one of said entries read from said first table matches said identifiers of said entries stored in said second table, and the corresponding branch bit of each of said more than one entries read from said first table indicates the associated instruction is a branch instruction, and the completion status signal corresponding to the each of said more than one entries read from said first table indicates the associated instruction is completed, generates a hit signal that indicates a valid match was found and outputs the target address of one entry of said second table that corresponds to one of said more than one entries read from said first table, wherein said one entry of said second table corresponds to an instruction latter in program sequence than instructions corresponding to other of said more than one entries read from said first table; - if the match signal indicates none of the identifiers read from said first table match the identifiers of said entries stored in said second table, generates a miss signal, and control logic that, according to said match signal, said hit/miss signal and the resolution status fields output from said second table, updates the program counter to correspond to the target address output from said second table plus offset associated with subsequent completed sequential instructions.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

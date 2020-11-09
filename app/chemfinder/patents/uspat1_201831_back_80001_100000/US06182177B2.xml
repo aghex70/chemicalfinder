@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182177B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182177</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182177</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25364861" extended-family-id="42109029">
+      <document-id>
+        <country>US</country>
+        <doc-number>08874917</doc-number>
+        <kind>A</kind>
+        <date>19970613</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08874917</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165657</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>87491797</doc-number>
+        <kind>A</kind>
+        <date>19970613</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08874917</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/18        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>18</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710112000</text>
+        <class>710</class>
+        <subclass>112000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710039000</text>
+        <class>710</class>
+        <subclass>039000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710052000</text>
+        <class>710</class>
+        <subclass>052000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/18</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>18</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/18</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>18</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>35</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>6</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6182177</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for maintaining one or more queues of elements such as commands using one or more token queues</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>DITZEL DAVID R</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4587632</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4587632</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>PRITTY DAVID W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4819229</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4819229</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>COLE ALAN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4914704</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4914704</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>BARTH PAUL S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5263161</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5263161</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>GENUSOV ALEXANDER, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5263169</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5263169</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>NIKHIL RISHIYUR S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5353418</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5353418</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>MCCAULEY DONALD W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5386560</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5386560</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>PAPADOPOULOS GREGORY M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5412799</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5412799</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>NIKHIL RISHIYUR S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5499349</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5499349</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>KAJITANI KOUICHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5581735</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5581735</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>LARSEN ALLEN J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832240</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832240</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Intel Corporation, Accelerated Graphics Port Interface Specification, Revision 1.0, Jul. 31, 1996, pp. ii-x and 1-112.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Intel Corporation</orgname>
+            <address>
+              <address-1>Santa Clara, CA, US</address-1>
+              <city>Santa Clara</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>INTEL</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Harriman, David J.</name>
+            <address>
+              <address-1>Sacramento, CA, US</address-1>
+              <city>Sacramento</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Draeger, Jeffrey S.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Sheikh, Ayaz R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus for queuing commands.
+      <br/>
+      An apparatus of the present invention utilizes one or more token queues and a storage block to avoid maintaining multiple separate queues and/or to facilitate reordering of queued elements.
+      <br/>
+      The apparatus includes at least one token queue and a token assignment circuit which queues a selected token in a token queue.
+      <br/>
+      A storage block stores an element in a slot corresponding to the selected token.
+      <br/>
+      One system employing the present invention includes a processor, a bus agent, a memory controller, and a main memory.
+      <br/>
+      The memory controller queues tokens representing received commands into appropriate command queues.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of Invention
+    </p>
+    <p num="2">
+      The present invention pertains to the field of computer systems.
+      <br/>
+      More particularly, the present invention relates to queuing prioritized instructions, commands, or other elements.
+    </p>
+    <p num="3">2. Art Background</p>
+    <p num="4">
+      Computer systems utilize several varieties of command execution units which receive commands from a queuing or prefetching mechanism.
+      <br/>
+      For example, a central processing unit may process commands that are fetched as a part of a computer program.
+      <br/>
+      A memory controller may process commands requesting that data be written to or read from a portion of memory, and an I/O controller may process commands and data passing to and from I/O devices.
+    </p>
+    <p num="5">
+      Each of these command execution units may process commands of varying length and/or urgency.
+      <br/>
+      A memory controller may receive singular access requests or may receive requests for larger blocks of memory.
+      <br/>
+      An I/O controller may receive low priority commands such as a request for data, or high priority commands such as an interrupt issued due to a power interruption.
+      <br/>
+      Moreover, some commands are simply more intricate, such as processor commands which require one or more memory accesses.
+    </p>
+    <p num="6">
+      Due to the varying lengths and urgencies of commands processed, priorities may be assigned. I/O systems often assign different priorities to different interrupts, and these prioritized commands may be more optimally executed if out-of-order processing is available.
+      <br/>
+      Similarly, processor and memory commands may often be executed out-of-order to improve efficiency.
+      <br/>
+      Other elements such as data words or data packets may also be separated by types or priorities in data retrieval or network access environments.
+      <br/>
+      Accordingly, it is not always desirable to use a single queue as traditionally done with in-order processing.
+    </p>
+    <p num="7">
+      Unfortunately, queuing elements for out-of-order processing may require costly storage and tracking hardware.
+      <br/>
+      For example, multiple queues may be used to allow out-of-order command execution by separating commands into queues by their priority and then favoring the high priority queue(s).
+      <br/>
+      This approach may consume an unnecessarily large amount of hardware, especially if the system must be able to maintain a queue of a predetermined number of entries.
+      <br/>
+      In such a case, it may be necessary to provide each queue with the predetermined number of entries unless the system guaranties a certain mix of priorities for the received commands.
+      <br/>
+      Since such a guaranteed mix of priorities is unlikely, the queuing mechanism typically must handle the worst case.
+    </p>
+    <p num="8">
+      Additionally, even when there is no predetermined queuing requirement, queue length for each separate queue must be chosen in some manner, often by analyzing a predicted command stream composition.
+      <br/>
+      Queue space is often wasted since command streams are not likely to be continuously uniform and predictable during normal operation.
+      <br/>
+      Additionally, queue slots which were included to provide for a worst case mix of commands may rarely be used.
+    </p>
+    <p num="9">
+      One environment in which queuing prioritized commands may be appropriate is prioritized memory access.
+      <br/>
+      For example, some microprocessors allow read commands to be reordered around write commands by maintaining writes in a separate write buffer.
+      <br/>
+      As previously mentioned, such use of multiple queues may be less than optimal because write queue slots may not be used to store read command information and read queue slots cannot store write command information.
+      <br/>
+      Additionally, this technique does not accommodate multiple priorities of read or write commands.
+    </p>
+    <p num="10">
+      The Accelerated Graphics Port (A.G.P.) Interface Specification, Revision 1.0, Jul. 31, 1996, available from Intel Corporation of Santa Clara, Calif., defines an interface protocol between a bus master (typically a graphics accelerator) and a memory controller.
+      <br/>
+      Since the accelerated graphics port provides four different types of commands (normal priority reads, normal priority writes, high priority reads, and high priority writes), at least the use of separate read and write queues may be appropriate.
+      <br/>
+      The A.G.P. Specification, however, does not suggest the use of any particular hardware implementation for such queues, and prior art queuing techniques may prove inefficient, especially since an A.G.P. compliant memory controller is required to be able to queue a predetermined number of commands.
+    </p>
+    <p num="11">
+      Thus, some prior art command queuing techniques fail to allow out-of-order command execution for multiple types or priorities of commands.
+      <br/>
+      Other techniques, such as multiple queue approaches may inefficiently utilize storage space.
+      <br/>
+      Accordingly, the prior art does not provide appropriate and efficient techniques for out-of-order processing of multiple types of commands or other elements in a computer system.
+    </p>
+    <heading>SUMMARY</heading>
+    <p num="12">
+      An apparatus of the present invention utilizes one or more token queues and a storage block to avoid maintaining multiple separate queues and/or to facilitate reordering of queued elements.
+      <br/>
+      The apparatus includes at least one token queue and a token assignment circuit which queues a selected token in a token queue.
+      <br/>
+      A storage block stores an element in a slot corresponding to the selected token.
+      <br/>
+      One system employing the present invention includes a processor, a bus agent, a memory controller, and a main memory.
+      <br/>
+      The memory controller includes one or more token queues and logic to queue tokens representing received commands into the appropriate queues.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE FIGURES</heading>
+    <p num="13">
+      The present invention is illustrated by way of example and not limitation in the Figures of the accompanying drawings.
+      <br/>
+      FIG. 1 illustrates one embodiment of the queuing logic of the present invention.
+      <br/>
+      FIG. 2 illustrates an embodiment of a system which uses queuing logic of the present invention.
+      <br/>
+      FIG. 3 illustrates details of one embodiment the memory controller 200 shown in FIG. 2.
+      <br/>
+      FIG. 4 illustrates details of one embodiment of the command queue block 314 of FIG. 3.
+      <br/>
+      FIG. 5 illustrates one embodiment of a method of queuing commands according to the present invention.
+      <br/>
+      FIG. 6 illustrates one embodiment of a method of removing commands from a queue according to the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="14">
+      The present invention provides a method and apparatus for maintaining one or more queues of varying types of elements.
+      <br/>
+      In the following description, numerous specific details such as command types, command priorities, and queue implementations are set forth in order to provide a more thorough understanding of the present invention.
+      <br/>
+      It will be appreciated, however, by one skilled in the art that the invention may be practiced without such specific details.
+      <br/>
+      In other instances, control structures and gate level circuits have not been shown in detail in order not to obscure the invention.
+      <br/>
+      Those of ordinary skill in the art, with the included functional descriptions, will be able to implement the necessary logic circuits without undue experimentation.
+    </p>
+    <p num="15">
+      As will be further discussed below, the present invention provides a method and apparatus for maintaining multiple queues that may be advantageously applied in a variety of contexts.
+      <br/>
+      Through the use of representative tokens, individual queues of different types of elements may be maintained without bearing the hardware penalty associated with queuing the entire element in multiple separate queues.
+      <br/>
+      Instead, a storage block may be used to store all commands, with the representative tokens being used to access a selected element.
+      <br/>
+      The elements may be commands and/or data or data packets which may have different priorities or types.
+      <br/>
+      Additionally, even a single token queue may be used in a case where sorting or rearranging elements is desired.
+    </p>
+    <p num="16">
+      FIG. 1 illustrates one embodiment of the queuing logic of the present invention.
+      <br/>
+      A command input circuit 105 is coupled to receive incoming commands for this queuing logic.
+      <br/>
+      A command decode and token assignment circuit 110 receives enough command information from the command input circuit 105 to categorize incoming commands into one of a predetetermined number of categories.
+      <br/>
+      Commands may be separated into categories by command type, command priority, or some other characteristic.
+    </p>
+    <p num="17">
+      As incoming commands are received, the command decode and token assignment circuit 110 selects an empty slot in a command storage block 135 by consulting a free token queue 115 to locate available slots.
+      <br/>
+      The free token queue 115 is a queue which maintains a number of entries corresponding to available slots in the command storage block 135.
+      <br/>
+      As these slots in the command storage block 135 are filled by incoming commands, tokens are removed from the free token queue 115.
+      <br/>
+      Tracking of entries in the free token queue 115 may be accomplished by maintaining a list of available slots, or by maintaining an array of bits indicating the status of each slot in the command storage block 135.
+    </p>
+    <p num="18">
+      As illustrated, the command queuing logic includes a predetermined number of token queues (N) corresponding to the number of categories into which the command decode and token assignment circuit 110 separates incoming commands.
+      <br/>
+      As indicated by line 117, the free token queue 115 passes tokens to one of the token queues 120,125, or 130, depending upon the categorization determined.
+      <br/>
+      Thus, each of the token queues 120,125, and 130 may correspond to a different type or priority of command.
+    </p>
+    <p num="19">
+      A priority arbitration and command selection circuit 145 selects a token from one of the N queues based on a priority scheduling algorithm.
+      <br/>
+      This circuit selects a highest priority token from the head of the appropriate token queue available on one of the lines 122, 127, and 132.
+      <br/>
+      The selected token indicates an entry in the command storage block 135 and allows the priority arbitration and command selection circuit 145 to access the appropriate command.
+      <br/>
+      The priority arbitration and command selection circuit 145 may have one or more read ports, depending on whether multiple commands are to be simultaneously withdrawn from the command storage block 135, and also whether the reads from the command storage block 135 represent a critical speed path.
+      <br/>
+      After selection, the commands are passed to a command execution circuit 150.
+    </p>
+    <p num="20">
+      One system in which the command queuing logic of FIG. 1 may be used is illustrated in FIG. 2.
+      <br/>
+      A memory controller 200 provides a processor 205, a system bus 225, and a bus agent 215 access to a memory 210.
+      <br/>
+      In one embodiment, the memory 210 is a dynamic random access memory system; however, in alternate embodiments, the memory 210 may be mechanical storage such as a hard drive or other input/output device, or may be an abstract memory space including disk space, static and/or dynamic memory, and other memory devices.
+      <br/>
+      In one embodiment, a system arbiter 245 handles a first type of command from the bus agent 215, the system bus 225, and the processor 205, while a scheduler 230 handles a second type of command from the bus agent 215.
+      <br/>
+      The scheduler 230 contains the command queuing logic of FIG. 1 as indicated by a command queue block 235 and a command arbiter 240.
+      <br/>
+      In addition to the system shown in FIG. 2, the command queuing techniques discussed may be used in other system configurations which are known in the art.
+    </p>
+    <p num="21">
+      Commands selected by the command arbiter 240 are presented to a memory interface circuit 260, where they may also compete for access to the memory 210 with other commands from the processor 205 and the system bus 225.
+      <br/>
+      For example, in one embodiment, the bus agent 215 is a graphics accelerator which communicates with the memory controller 200 via the Accelerated Graphics Port (A.G.P.) protocol.
+      <br/>
+      In this embodiment, the system arbiter includes logic to interface with the processor 205, a second interface of the bus agent 215, and any Peripheral Components Interconnect (PCI) bus agents on system bus 225.
+      <br/>
+      The second interface of the bus agent 215 may allow a separate type of transaction (e.g., a FRAME- based transaction) to configure and send certain commands to the bus agent 215.
+      <br/>
+      FRAME- based transactions are initiated using the well known FRAME- signal as opposed to using, for example, the PIPE- signal described in the A.G.P. Specification.
+    </p>
+    <p num="22">
+      Further details of the memory controller 200 are shown in FIG. 3.
+      <br/>
+      The memory controller 200 includes a command decoder 306, which receives commands and decodes them for the command queue block 314.
+      <br/>
+      As illustrated, the command queue block has three separate command queues, a normal priority read queue 316, a normal priority write queue 318, and a high priority read and write queue 320.
+      <br/>
+      These command queues are illustrated as three separate queues which is how they logically appear using the command token queuing techniques of the present invention.
+    </p>
+    <p num="23">
+      Arbitration logic coupled to select commands from the command queue block includes a read arbiter 322, a write and priority arbiter 324, and a command stream arbiter 330.
+      <br/>
+      The read arbiter 322 includes four slots 323a-323d, which may be used to reorder memory accesses to reduce page breaks or to optimize based on another criteria such as command age.
+    </p>
+    <p num="24">
+      The write and priority arbiter 324 includes a pending write queue 326, which assures that the command stream arbiter 330 only selects write commands which have data available for execution.
+      <br/>
+      This additional circuitry is provided because a write command may be received by the command decoder 306 prior to the write data being received by a write posting buffer 308.
+      <br/>
+      The write and priority arbiter communicates with the write posting buffer 308 through a write tracking circuit 328 in order to determine which writes are available for selection and execution.
+    </p>
+    <p num="25">
+      The write tracking circuit 328 also helps detect blocked write commands by alerting the write and priority arbiter 324 if there is insufficient space in the pending write queue 326 or if there is insufficient space in the write posting buffer 308 for the data associated with a write command at the head of the normal priority write queue 318 or the high priority read and write queue 320.
+      <br/>
+      In that case, the write and priority arbiter 324 may raise the priority of at least one write command in the pending write queue 326, in order to make space in the write posting buffer 308 for the incoming data.
+      <br/>
+      The write tracking circuit 328 ensures that the data from the write posting buffer 308 is passed along to an interface circuit 336 before the buffer location is overwritten with the incoming data.
+    </p>
+    <p num="26">
+      The command stream arbiter cooperates with the read arbiter 322 and the write and priority arbiter 324 to select a command for execution.
+      <br/>
+      While all of the queues in the command queue block 314 may not be simultaneously accessible in this embodiment because the normal priority write and high priority read/write queues may have a single read port, multiple commands may still reach the command stream arbiter 330 and be available for execution in the same bus cycle.
+      <br/>
+      For example, the command stream arbiter 330 may need to choose between a normal priority read from the read arbiter 322, a high priority read available at the write and priority buffer 324, and a high priority write also available from the pending write queue 326 at the write and priority arbiter 324 in the same clock cycle because its associated data arrived at the write posting buffer 308.
+    </p>
+    <p num="27">
+      The command stream arbiter 330 passes commands to the interface circuit 336 which transforms commands to a format recognized by a memory interface circuit 340.
+      <br/>
+      In one embodiment, the interface circuit 336 receives A.G.P. commands, and the memory interface circuit 340 provides a Dynamic Random Access Memory (DRAM) interface.
+      <br/>
+      The memory interface circuit 340 also receives other system memory access requests such as processor or PCI requests.
+      <br/>
+      The A.G.P. input port to the memory interface 340 is labeled non-snooped because A.G.P. memory accesses do not provide memory coherency checks with other system components.
+      <br/>
+      On the other hand, PCI and/or processor memory accesses may include such coherency checks and are received at the snooped input port of the memory interface 340.
+    </p>
+    <p num="28">
+      The interface circuit 336 also returns data from the memory interface 340 to a read data input control block 332.
+      <br/>
+      High priority data is returned in order and placed in a priority read data return buffer 310.
+      <br/>
+      Normal priority read data, however, may be returned out of order if the read arbiter 322 alters the sequence of incoming reads prior to their execution.
+      <br/>
+      In this case, the read data input control block 332 places data in a particular location in a read data return buffer 312, such that the data reflects the original request order when the read data return buffer 312 fills.
+      <br/>
+      A read data return block 302 first selects priority read data from the priority read data return buffer 310 if available, and subsequently returns the properly ordered normal priority read data to the requesting bus agent.
+      <br/>
+      Read tracking logic 304 tracks read commands from the time they reach the command decoder 306 until the time the requested data is returned by the read data return block 302.
+    </p>
+    <p num="29">
+      FIG. 4 illustrates details of one embodiment of the command queue block 314 of FIG. 3.
+      <br/>
+      This embodiment queues and retrieves normal and high priority read and write commands such as those used with the A.G.P. protocol.
+      <br/>
+      The steps occurring in this embodiment are illustrated in FIG. 5, beginning with the receipt of a command in step 505.
+      <br/>
+      Address and length information is received by a data input of the write port 420 and subsequently stored in a command storage block 425.
+      <br/>
+      The write port 420 writes to the command storage block 425 when a normal priority read, a normal priority write, or a priority read or write occurs as indicated respectively by NRPUT, NWPUT, and PRWPUT.
+      <br/>
+      These three signals are logically ORed together by the OR gate 415 to generate a write signal which causes the write port 420 to write to the command storage block 425.
+    </p>
+    <p num="30">
+      The location written to in the command storage block 425 is determined by a token removed from a free token queue 405, as indicated by step 510.
+      <br/>
+      The write signal generated by the OR gate 415 serves as a free token queue get (FTQGET) signal used to retrieve an available token from the free token queue 405.
+      <br/>
+      In one embodiment, the free token queue 405 is an array of bits, each of which may be set to a zero or a one to mark unavailable an entry in the command storage block 425.
+      <br/>
+      In other embodiments, the free token queue 405 may contain addresses or slot numbers of entries in the command storage block 425.
+      <br/>
+      In either case, the free token queue 405 maintains a record of available slots in the command storage block 425.
+    </p>
+    <p num="31">
+      Line 407 connects the free token queue to a normal priority read queue 410, to the write port 420, to a normal priority write queue 435, and to a priority read and write queue 440.
+      <br/>
+      As indicated by step 515, this allows tokens to be queued in a command queue based upon their command type and priority.
+      <br/>
+      For example, when the NRPUT signal is asserted as a normal priority read command is received, a free token is removed from the free token queue 405 (NRPUT causes assertion of FTQGET) and stored in the normal priority read queue 410.
+      <br/>
+      Similarly, the NWPUT and the PRWPUT signals respectively place tokens in the normal priority write queue 435 and the priority read and write queue 440.
+    </p>
+    <p num="32">
+      The write port 420 stores address and length information in a slot of the command storage block 425 corresponding to the token as shown in step 520.
+      <br/>
+      The exact correspondence between the token queued in step 515 and a command stored in the command storage block 425 in step 520 may vary in different embodiments.
+      <br/>
+      In one embodiment, each token queue simply stores the number of the slot in the command storage block 425 which contains the command corresponding to that token.
+      <br/>
+      The constraint on the command identification is that there be a one-to-one correspondence between the tokens and the command slots available in the command storage block 425.
+    </p>
+    <p num="33">
+      FIG. 6 illustrates a procedure for removing commands from the queues illustrated in FIG. 4.
+      <br/>
+      In step 605, a highest priority command is chosen by one or both of the read arbiter 322 and the write and priority arbiter 324.
+      <br/>
+      The overall priority is then dictated by the command stream arbiter 330.
+      <br/>
+      In one embodiment, high priority blocking write commands are selected first.
+      <br/>
+      A blocked write is a command which the memory controller is unable to buffer because its buffering facilities are full.
+      <br/>
+      Blocking commands are writes which are queued in the pending write queue 326 preceding a blocked write.
+      <br/>
+      Both normal and priority writes in the pending write queue 326 may become blocking writes if a subsequently received command is blocked due to full buffering facilities.
+    </p>
+    <p num="34">
+      After unblocking high priority write commands, this embodiment next selects other high priority commands, preferring reads before unblocked high priority writes.
+      <br/>
+      Blocked normal priority writes are chosen next, followed by commands from the present normal priority command stream (i.e., the last one selected, either reads or writes), unless that normal priority command stream is empty.
+      <br/>
+      In one embodiment, all commands are considered, such that interposed high priority commands may switch the stream considered to be the present normal priority stream.
+      <br/>
+      In alternate embodiments, the value considered to be the normal priority stream is unaffected by high priority commands.
+      <br/>
+      If there are no more commands in the present normal priority command stream, this embodiment switches to the other normal priority command stream.
+      <br/>
+      Notably, these are rules of precedence, with each rule only being executed if none of the prior rules apply.
+    </p>
+    <p num="35">
+      Other priority arbitration algorithms may be used with the present invention, but in any case, a highest priority command is selected in step 605.
+      <br/>
+      Since multiple read ports are provided (read ports 430 and 450), multiple commands may be selected at one time.
+      <br/>
+      In step 610, a token is retrieved representing a selected command.
+      <br/>
+      For example, when the highest priority command is a normal priority read command, a NRGET signal is generated to free a token from the normal priority read queue 410.
+      <br/>
+      The NRGET signal also serves as a first PTQPUT signal which causes the bit in the free token queue 405 corresponding to the slot number indicated by the token to be reset (to a value opposite the "unavailable" value), indicating that this slot is now available in the command storage block 425.
+      <br/>
+      The slot number is returned from the normal priority read queue 410 via a first token return line 447a.
+      <br/>
+      Thus, the token is at least figuratively replaced back in the free token queue 405 by resetting that bit.
+    </p>
+    <p num="36">
+      As the bit is reset in the free token queue, the token is used to access the command of the command storage block as indicated by step 615.
+      <br/>
+      The bits of the token form an address provided to a read port 430.
+      <br/>
+      The read port 430 accesses the command storage block 425 and reads out the appropriate command.
+      <br/>
+      Any known storage array or register technique may be used to store the appropriate read commands and their lengths.
+      <br/>
+      Additionally, the various substeps shown for steps 610 and 615 may occur simultaneously or in an order different from that shown.
+    </p>
+    <p num="37">
+      In the case where a normal priority write or a priority read or write command is selected, the process is similar.
+      <br/>
+      NWGET and PRWGET signals respectively release tokens from the normal priority write queue 435 and the priority read and write queue 440.
+      <br/>
+      A multiplexer 445 selects between a signal line 437 and a signal line 442 which provide the tokens from the normal priority write queue 435 and the priority read and write queue 440.
+      <br/>
+      If priority commands are available, they are always selected over normal priority writes as indicated by the AVAILABLE selector of the multiplexer 445, which comes from the priority read and write queue 440.
+    </p>
+    <p num="38">
+      The multiplexer output, a second token return line 447b, allows the return of the selected token to the free token queue 405 and provides the selected token to a second read port 450.
+      <br/>
+      This second read port is used to reduce the number of logic gates in the path from the queue head to the read port output so commands are more rapidly available at the read port output.
+      <br/>
+      The use of multiple read ports also has the advantage that the read arbiter 322 shown in FIG. 3 can reorder reads while other commands are being accessed by the second read port 450.
+      <br/>
+      Since both the read port 430 and the read port 450 may simultaneously read commands, two token return lines 447a and 447b are used to return the released tokens.
+      <br/>
+      Additionally, OR gate 448 having NWGET and PRWGET as inputs generates a second FTQPUT signal to indicate when a token is being returned on this second token return line 447b.
+    </p>
+    <p num="39">
+      In one alternate embodiment, a single read port with additional token selection circuitry is used.
+      <br/>
+      In that case, a selection circuit chooses from the multiplexer output 447b and signal line 447a or the three signal lines 447a, 437, and 442, before the selected token is provided to the single read port.
+      <br/>
+      Another alternative is to allow separate read ports for each token queue such that one command for each command type may be simultaneously taken from the command storage block 425.
+      <br/>
+      In either case, a command is read, and as shown in the step 620, that selected command is executed.
+    </p>
+    <p num="40">
+      Thus, the present invention provides a method and apparatus for maintaining one or more queues of elements such as commands using one or more token queues which may be used in a variety of contexts.
+      <br/>
+      While certain exemplary embodiments have been described and shown in the accompanying drawings, it is to be understood that such embodiments are merely illustrative of and not restrictive on the broad invention, and that this invention not be limited to the specific constructions and arrangements shown and described, since various other modifications may occur to those ordinarily skilled in the art upon studying this disclosure.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>An apparatus comprising:</claim-text>
+      <claim-text>a first token queue; a token assignment circuit coupled to queue a selected token in said first token queue in response to receiving an input element;</claim-text>
+      <claim-text>and a storage block coupled to receive said input element and to store said input element in ar. element slot corresponding to said selected token.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The apparatus of claim 1 wherein said input element comprises an input command, and wherein said storage block comprises a command storage block, and further wherein said element slot comprises a command slot.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The apparatus of claim 2, further comprising a second token queue, wherein said token assignment circuit is coupled to queue said selected token in one of said first token queue and said second token queue.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The apparatus of claim 3 wherein said token assignment circuit queues said selected token by storing a command storage block slot number into one of said first token queue and said second token queue.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The apparatus of claim 3 further comprising a free token queue, wherein said token assignment circuit is coupled to mark as unavailable said selected token from said free token queue.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The apparatus of claim 5 wherein the free token queue comprises a plurality of stored bits, each of said plurality of stored bits corresponding to one slot in said command storage block.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The apparatus of claim 3 wherein said token assignment circuit further comprises a command decoder and wherein said selected token is queued in one of said first token queue and said second token queue according to an input command type determined by the command decoder.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The apparatus of claim 7 wherein said input command type includes an input command priority.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The apparatus of claim 3 further comprising a command selection circuit coupled to access commands from said command storage block by using a token from one of the first token queue and the second token queue.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The apparatus of claim 9 wherein said command selection circuit further comprises a first read port and a second read port coupled to said command storage block, said first read port being coupled to read commands from said command storage block indicated by said first token queue, said second read port being coupled to read commands from said command storage block indicated by said second token queue.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The apparatus of claim 9 wherein said command selection circuit further comprises a single read port coupled to said command storage block, said single read port being coupled to read commands from said command storage block indicated by either of said first token queue and said second token queue.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The apparatus of claim 7, further comprising a priority arbitration circuit coupled to select a highest priority token from one of said first token queue and said second token queue, the highest priority token corresponding to a highest priority command in said command storage block.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The apparatus of claim 12 wherein one of said first token queue and said second token queue is a high priority token queue and said highest priority token is a head token in said high priority token queue.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The apparatus of claim 12, further comprising: a third token queue; a token selection circuit selectably coupling either of the second token queue and the third token queue to the priority arbitration circuit.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The apparatus of claim 14 wherein said first token queue comprises a high priority read/write queue, said second token queue comprises a normal priority write queue, and said third token queue comprises a normal priority read queue.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The apparatus of claim 15 wherein said command selection circuit comprises: a first read port coupled to read a normal priority read command from said command storage block addressed by a normal priority read token from said normal priority read queue;</claim-text>
+      <claim-text>and a second read port coupled to read a command from said command storage block addressed by a second token selected by said command selection circuit from one of said normal priority write queue and said high priority read/write queue.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A system comprising: a processor; a main memory; a bus agent coupled to generate a plurality of commands to access said main memory; a memory controller coupled to the main memory, the processor, and the bus agent, the memory controller being coupled to queue, in response to receiving said plurality of commands from said bus agent, a plurality of tokens into a plurality of token queues, each of said plurality of tokens representing one of said plurality of commands from said bus agent, said plurality of commands having at least a first priority level and a second priority level and being stored in a storage block as indicated by said plurality of tokens in said plurality of token queues.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The system of claim 17 wherein said plurality of commands are queued into said plurality of token queues by priority level.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The system of claim 17 wherein said plurality of commands comprises: a high priority read command; a high priority write command; a low priority read command;</claim-text>
+      <claim-text>and a low priority write command.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The system of claim 17 wherein the bus agent is a graphics accelerator and said main memory comprises dynamic random access memory.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The system of claim 17 further comprising: a token assignment circuit coupled to queue said plurality of tokens into said plurality of token queues, wherein the storage block is a command storage block coupled to receive said plurality of commands indicated by said plurality of tokens.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. A method of queuing commands, comprising the steps of: receiving a first command having a first priority; queuing a first token representing said first command in a first token queue in response to receiving said first command;</claim-text>
+      <claim-text>and storing said first command in a command storage block, wherein said command storage block comprises a command slot corresponding to said first token.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method of claim 22 further comprising the steps of: receiving a second command having a second priority, said second priority being higher than said first priority; queuing a second token representing said second command in a second token queue;</claim-text>
+      <claim-text>and storing said second command in said command storage block.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The method of claim 23 further comprising the steps of: retrieving a token from said second token queue;</claim-text>
+      <claim-text>and reading said second command from said command storage block.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The method of claim 22, before the step of queuing, further comprising the step of: removing a selected token from a free token queue.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The method of claim 25 wherein the step of removing further comprises the step of: setting a bit in said free token queue to mark said selected token as unavailable.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method of claim 22, further comprising the steps of: retrieving said first token from said first token queue; accessing said first command in said command storage block using said first token;</claim-text>
+      <claim-text>and executing said first command.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method of claim 27 wherein the step of retrieving said first token comprises the steps of: freeing an entry on said first token queue;</claim-text>
+      <claim-text>and resetting a bit to mark said first token as available.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method of claim 28 wherein the step of accessing further comprises the steps of: providing said first token to a read port;</claim-text>
+      <claim-text>and addressing said command storage block using said first token.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. The method of claim 29 wherein said step of providing said first token comprises the step of providing a plurality of bits representing a storage block slot number to said read port.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. An apparatus comprising: a first token queue; a second token queue; a free token queue; a token assignment circuit coupled to queue a selected token in one of said first token queue and said second token queue in response to an input element and to mark as unavailable said selected token from said free token queue;</claim-text>
+      <claim-text>and a storage block coupled to receive said input element and to store said input element in an element slot corresponding to said selected token.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The apparatus of claim 31 wherein said token assignment circuit is coupled to queue said selected token in one of said first token queue and said second token queue based on a type of said input element.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. The apparatus of claim 31 wherein said token assignment circuit is coupled to queue said selected token in one of said first token queue and said second token queue based on a priority of said input element.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. A method comprising: receiving a first command having a first priority; queuing a first token representing said first command in a first token queue; storing said first command in a command storage block; retrieving said first token from said first token queue; accessing said first command in said command storage block using said first token; executing said first command; freeing an entry on said first token queue;</claim-text>
+      <claim-text>and resetting a bit to mark said first token as available.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The method of claim 34 further comprising: receiving a second command having a second priority, said second priority being higher than said first priority; queuing a second token representing said second command in a second token queue;</claim-text>
+      <claim-text>and storing said second command in said command storage block.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

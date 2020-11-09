@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185309B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185309</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185309</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25401730" extended-family-id="42113312">
+      <document-id>
+        <country>US</country>
+        <doc-number>08893536</doc-number>
+        <kind>A</kind>
+        <date>19970711</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08893536</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171466</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>89353697</doc-number>
+        <kind>A</kind>
+        <date>19970711</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08893536</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H01Q   1/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>01</class>
+        <subclass>Q</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>381094100</text>
+        <class>381</class>
+        <subclass>094100</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>381066000</text>
+        <class>381</class>
+        <subclass>066000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>381071100</text>
+        <class>381</class>
+        <subclass>071100</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>381094200</text>
+        <class>381</class>
+        <subclass>094200</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H01Q-001/00E</text>
+        <section>H</section>
+        <class>01</class>
+        <subclass>Q</subclass>
+        <main-group>001</main-group>
+        <subgroup>00E</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H01Q-001/007</classification-symbol>
+        <section>H</section>
+        <class>01</class>
+        <subclass>Q</subclass>
+        <main-group>1</main-group>
+        <subgroup>007</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>41</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6185309</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for blind separation of mixed and convolved sources</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>BETHEL LAWRENCE L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5237618</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5237618</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>TORKKOLA KARI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5675659</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5675659</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>NGO JOHN-THOMAS CALDERON, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5694474</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5694474</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>BELL ANTHONY J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5706402</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5706402</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>GRAUPE DANIEL</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5768392</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5768392</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>DEVILLE YANNICK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5825671</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5825671</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>MARASH JOSEPH</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5825898</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5825898</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>DEVILLE YANNICK</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5909646</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5909646</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>MICHELSON ROBIN P</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4405831</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4405831</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>FOGLER ROBERT J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4630246</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4630246</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>HEIDE JORGEN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4759071</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4759071</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>WEINSTEIN EHUD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5208786</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5208786</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>DONALD JAMES, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5216640</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5216640</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>SHALVI OFIR, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5283813</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5283813</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>OPPENHEIM ALAN V, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5293425</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5293425</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>SEJNOWSKI TERRENCE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5383164</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5383164</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>WEINSTEIN EHUD, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5539832</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5539832</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>The Regents of the University of California</orgname>
+            <address>
+              <address-1>Oakland, CA, US</address-1>
+              <city>Oakland</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>UNIVERSITY OF CALIFORNIA</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Attias, Hagai</name>
+            <address>
+              <address-1>San Francisco, CA, US</address-1>
+              <city>San Francisco</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Townsend and Townsend and Crew LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Isen, Forester W.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus for separating signals from instantaneous and convolutive mixtures of signals.
+      <br/>
+      A plurality of sensors or detectors detect signals generated by a plurality of signal generating sources.
+      <br/>
+      The detected signals are processed in time blocks to find a separating filter, which when applied to the detected signals produces output signals that are statistically independent.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <p num="1">
+      This invention was made with Government support under Grant No. N00014-94-1-0547, awarded by the Office of Naval Research.
+      <br/>
+      The Government has certain rights in this invention.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">The present invention relates generally to separating individual source signals from a mixture of the source signals and more specifically to a method and apparatus for separating convolutive mixtures of source signals.</p>
+    <p num="3">
+      A classic problem in signal processing, best known as blind source separation, involves recovering individual source signals from a mixture of those individual signals.
+      <br/>
+      The separation is termed `blind` because it must be achieved without any information about the sources, apart from their statistical independence.
+      <br/>
+      Given L independent signal sources (e.g., different speakers in a room) emitting signals that propagate in a medium, and L' sensors (e.g., microphones at several locations), each sensor will receive a mixture of the source signals.
+      <br/>
+      The task, therefore, is to recover the original source signals from the observed sensor signals.
+      <br/>
+      The human auditory system, for example, performs this task for L'=2.
+      <br/>
+      This case is often referred to as the `cocktail party` effect; a person at a cocktail party must distinguish between the voice signals of two or more individuals speaking simultaneously.
+    </p>
+    <p num="4">
+      In the simplest case of the blind source separation problem, there are as many sensors as signal sources (L=L') and the mixing process is instantaneous, i.e., involves no delays or frequency distortion.
+      <br/>
+      In this case, a separating transformation is sought that, when applied to the sensor signals, will produce a new set of signals which are the original source signals up to normalization and an order permutation, and thus statistically independent.
+      <br/>
+      In mathematical notation, the situation is represented by  (Equation image '1' not included in text)
+    </p>
+    <p num="5">where g is the separating matrix to be found, v(t) are the sensor signals and u(t) are the new set of signals.</p>
+    <p num="6">
+      Significant progress has been made in the simple case where L=L' and the mixing is instantaneous.
+      <br/>
+      One such method, termed independent component analysis (ICA), imposes the independence of u(t) as a condition.
+      <br/>
+      That is, g should be chosen such that the resulting signals have vanishing equal-time cross-cumulants.
+      <br/>
+      Expressed in moments, this condition requires that
+      <br/>
+      &lt;ui (t)m uj (t)n &gt;=&lt;ui (t)m &gt;&lt;uj (t)n &gt;
+    </p>
+    <p num="7">for i=j and any powers m, n; the average taken over time t. However, equal-time cumulant-based algorithms such as ICA fail to separate some instantaneous mixtures such as some mixtures of colored Gaussian signals, for instance.</p>
+    <p num="8">
+      The mixing in realistic situations is generally not instantaneous as in the above simplified case.
+      <br/>
+      Propagation delays cause a given source signal to reach different sensors at different times.
+      <br/>
+      Also, multi-path propagation due to reflection or medium properties creates multiple echoes, so that several delayed and attenuated versions of each signal arrive at each sensor.
+      <br/>
+      Further, the signals are distorted by the frequency response of the propagation medium and of the sensors.
+      <br/>
+      The resulting `convolutive` mixtures cannot be separated by ICA methods.
+    </p>
+    <p num="9">
+      Existing ICA algorithms can separate only instantaneous mixtures.
+      <br/>
+      These algorithms identify a separating transformation by requiring equal-time cross-cumulants up to arbitrarily high orders to vanish.
+      <br/>
+      It is the lack of use of non-equal-time information that prevents these algorithms from separating convolutive mixtures and even some instantaneous mixtures.
+    </p>
+    <p num="10">As can be seen from the above, there is need in the art for an efficient and effective learning algorithm for blind separation of convolutive, as well as instantaneous, mixtures of source signals.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="11">
+      In contrast to existing separation techniques, the present invention provides an efficient and effective signal separation technique that separates mixtures of delayed and filtered source signals as well as instantaneous mixtures of source signals inseparable by previous algorithms.
+      <br/>
+      The present invention further provides a technique that performs partial separation of source signals where there are more sources than sensors.
+    </p>
+    <p num="12">
+      The present invention provides a novel unsupervised learning algorithm for blind separation of instantaneous mixtures as well as linear and non-linear convoluted mixtures, termed Dynamic Component Analysis (DCA).
+      <br/>
+      In contrast with the instantaneous case, convoluted mixtures require a separating transformation gij (t) which is dynamic (time-dependent): because a sensor signal vi (t) at the present time t consists not only of the sources at time t but also at the preceding time block t-T &lt;= t'&lt;t of length T, recovering the sources must, in turn, be done using both present and past sensor signals, vi (t' &lt;= t).
+      <br/>
+      Hence:  (Equation image '2' not included in text)
+    </p>
+    <p num="13">
+      The simple time dependence gij (t)=gij DELTA (t) reduces the convolutive to the instantaneous case.
+      <br/>
+      In general, the dynamic transformation gij (t) has a non-trivial time dependence as it couples mixing with filtering.
+      <br/>
+      The new signals ui (t) are termed the dynamic components (DC) of the observed data; if the actual mixing process is indeed linear and square (i.e., where the number of sensors L' equals the number of signal sources L), the DCs correspond to the original sources.
+    </p>
+    <p num="14">
+      To find the separating transformation gij (t) of the DCA procedure, it first must be observed that the condition of vanishing equal time cross-cumulance described above is not sufficient to identify the separating transformation because this condition involves a single time point.
+      <br/>
+      However, the stronger condition of vanishing two-time cross-cumulants can be imposed by invoking statistical independence of the sources, i.e.,
+      <br/>
+      &lt;ui (t)m uj (t+ TAU )n &gt;=&lt;ui (t)m &gt;&lt;uj (t+ TAU )n &gt;,
+    </p>
+    <p num="15">
+      for i not equal to j in any powers m, n at any time  TAU .
+      <br/>
+      This is because the amplitude of source i at time t is independent of the amplitude of source j not equal to i at any time t+ TAU .
+      <br/>
+      This condition requires processing the sensor signals in time blocks and thus facilitates the use of their temporal statistics to deduce the separating transformation, in addition to their intersensor statistics.
+    </p>
+    <p num="16">
+      An effective way to impose the condition of vanishing two-time cross-cumulants is to use a latent variable model.
+      <br/>
+      The separation of convoluted mixtures can be formulated as an optimization problem: the observed sensor signals are fitted to a model of mixed independent sources, and a separating transformation is obtained from the optimal values of the model parameters.
+      <br/>
+      Specifically, a parametric model is constructed for the joint distribution of the sensor signals over N-point time blocks, pv �v1 (t1) . . . , v1 (tN) , . . . , vL' (t1), . . . , vL' (tN)�. To define pv, the sources are modeled as independent stochastic processes (rather than stochastic variables), and a parameterized model is used for the mixing process which allows for delays, multiple echoes and linear filtering.
+      <br/>
+      The parameters are then optimized iteratively to minimize the information-theory distance (i.e., the Kullback-Leibler distance) between the model sensor distribution and the observed distribution.
+      <br/>
+      The optimized parameter values provide an estimate of the mixing process, from which the separating transformation gij (t) is readily available as its inverse.
+    </p>
+    <p num="17">
+      Rather than work in the time domain, it is technically convenient to work in the frequency domain since the model source distribution factorizes there.
+      <br/>
+      Therefore, it is convenient to preprocess the signals using Fourier transform and to work with the Fourier components Vi (wk).
+    </p>
+    <p num="18">
+      In the linear version of DCA, the only information about the sensor signals used by the estimation procedure is their cross-correlations &lt;vi (t)vj (t')&gt; (or, equivalently, their cross-spectra &lt;Vi (w)Vj *(w)&gt;).
+      <br/>
+      This provides a computational advantage, leading to simple learning rules and fast convergence.
+      <br/>
+      Another advantage of linear DCA is its ability to estimate the mixing process in some non-square cases with more sources than sensors (i.e., L&gt;L').
+      <br/>
+      However, the price paid for working with the linear version is the need to constrain separating filters by decreasing their temporal resolution, and consequently to use a higher sampling rate.
+      <br/>
+      This is avoided in the non-linear version of DCA.
+    </p>
+    <p num="19">
+      In the non-linear version of DCA, unsupervised learning rules are derived that are non-linear in the signals and which exploit high-order temporal statistics to achieve separation.
+      <br/>
+      The derivation is based on a global optimization formulation of the convolutive mixing problem that guarantees the stability of the algorithm.
+      <br/>
+      Different rules are obtained from time- and frequency-domain optimization.
+      <br/>
+      The rules may be classified as either Hebb-like, where filter increments are determined by cross-correlating inputs with a non-linear function of the corresponding outputs, or lateral correlation-based, where the cross-correlation of different outputs with a non-linear function thereof determine the increments.
+    </p>
+    <p num="20">According to an aspect of the invention, a signal processing system is provided for separating signals from an instantaneous mixture of signals generated by first and second signal generating sources, the system comprising: a first detector, wherein the first detector detects first signals generated by the first source and second signals generated by the second source; a second detector, wherein the second detector detects the first and second signals; and a signal processor coupled to the first and second detectors for processing all of the signals detected by each of the first and second detectors to produce a separating filter for separating the first and second signals, wherein the processor produces the filter by processing the detected signals in time blocks.</p>
+    <p num="21">According to another aspect of the invention, a method is provided for separating signals from an instantaneous mixture of signals generated by first and second signal generating sources, the method comprising the steps of: detecting, at a first detector, first signals generated by the first source and second signals generated by the second source; detecting, at a second detector, the first and second signals; and processing, in time blocks, all of the signals detected by each of the first and second detectors to produce a separating filter for separating the first and second signals.</p>
+    <p num="22">According to yet another aspect of the invention, a signal processing system is provided for separating signals from a convolutive mixture of signals generated by first and second signal generating sources, the system comprising: a first detector, wherein the first detector detects a first mixture of signals, the first mixture including first signals generated by the first source, second signals generated by the second source and a first time-delayed version of each of the first and second signals; a second detector, wherein the second detector detects a second mixture of signals, the second mixture including the first and second signals and a second time-delayed version of each of the first and second signals; and a signal processor coupled to the first and second detectors for processing the first and second signal mixtures in time blocks to produce a separating filter for separating the first and second signals.</p>
+    <p num="23">According to a further aspect of the invention, a method is provided for separating signals from a convolutive mixture of signals generated by first and second signal generating sources, the method comprising the steps of: detecting a first mixture of signals at a first detector, the first mixture including first signals generated by the first source, second signals generated by the second source and a first time-delayed version of each of the first and second signals; detecting a second mixture of signals at a second detector, the second mixture including the first and second signals and a second time-delayed version of each of the first and second signals; and processing the first and second mixtures in time blocks to produce a separating filter for separating the first and second signals.</p>
+    <p num="24">According to yet a further aspect of the invention, a signal processing system is provided for separating signals from a mixture of signals generated by a plurality L of signal generating sources, the system comprising: a plurality L' of detectors for detecting signals +vn }, wherein the detected signals +vn } are related to original source signals +un } generated by the plurality of sources by a mixing transformation matrix A such that vn =Aun, and wherein the detected signals +vn } at all time points comprise an observed sensor distribution pv �v(t1), . . . ,v(tN)� over N-point time blocks +tn } with n=0, . . . ,N-1; and a signal processor coupled to the plurality of detectors for processing the detected signals +vn } to produce a filter G for reconstructing the original source signals +un }, wherein said processor produces the reconstruction filter G such that a distance function defining a difference between the observed distribution and a model sensor distribution py �y(t1), . . . ,y(tN)� is minimized, the model sensor distribution parametrized by model source signals +xn } and a model mixing matrix H such that yn =Hxn, and wherein the reconstruction filter G is a function of H.</p>
+    <p num="25">According to an additional aspect of the invention, a method is provided for constructing a separation filter G for separating signals from a mixture of signals generated by a first signal generating source and a second signal generating source, the method comprising the steps of: detecting signals +vn }, the detected signals +vn } including first signals generated by the first source and second signals generated by the second source, the first and second signals each being detected by a first detector and a second detector, wherein the detected signals +vn } are related to original source signals +un } by a mixing transformation matrix A such that vn =Aun, wherein the original signals +un } are generated by the first and second sources, and wherein the detected signals +vn } at all time points comprise an observed sensor distribution pv �v(t1), . . . ,v(tN)� over N-point time blocks +tn } with n=0, . . . ,N-1; defining a model sensor distribution py �y(t1), . . . ,y(tN)� over N-point time blocks +tn } the model sensor distribution parametrized by model source signals +xn } and a model mixing matrix H such that Yn =Hxn ; minimizing a distance function, the distance function defining a difference between the observed distribution and the model distribution; and constructing the separating filter G, wherein G is a function of H.</p>
+    <p num="26">The invention will be further understood upon review of the following detailed description in conjunction with the drawings.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="27">
+      FIG. 1 illustrates an exemplary arrangement for the situation of instantaneous mixing of signals;
+      <br/>
+      FIG. 2 illustrates an exemplary arrangement for the situation of convolutive mixing of signals;
+      <br/>
+      FIG. 3a illustrates a functional representation of a 2 * 2 network; and
+      <br/>
+      FIG. 3b illustrates a detailed functional diagram of the 2 * 2 network of FIG. 3a.
+    </p>
+    <heading>DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="28">
+      FIG. 1 illustrates an exemplary arrangement for the situation of instantaneous mixing of signals.
+      <br/>
+      Signal source 11 and signal source 12 each generate independent source signals.
+      <br/>
+      Sensor 15 and sensor 16 are each positioned in a different location.
+      <br/>
+      Sensor 15 and sensor 16 are any type of sensor, detector or receiver for receiving any type of signals, such as sound signals and electromagnetic signals, for example.
+      <br/>
+      Depending on the respective proximity of signal source 11 to sensor 15 and sensor 16, sensor 15 and sensor 16 each receive a different time-delayed version of signals generated by signal source 11.
+      <br/>
+      Similarly, for signal source 12, depending on the proximity to sensor 15 and sensor 16, sensor 15 and sensor 16 each receive a different time-delayed version of signals generated by signal source 12.
+      <br/>
+      Although realistic situations always include propagation delays, if the signal velocity is very large those delays are very small and can be neglected, resulting in an instantaneous mixing of signals.
+      <br/>
+      In one embodiment, signal source 11 and signal source 12 are two different human speakers in a room 18 and sensor 15 and sensor 16 are two different microphones located at different locations in room 18.
+    </p>
+    <p num="29">
+      FIG. 2 illustrates an exemplary arrangement for the situation of convolutive mixing of signals.
+      <br/>
+      As in FIG. 1, signal source 11 and signal source 12 each generate independent signals which are received at each of sensor 15 and sensor 16 at different times, depending on the respective proximity of signal source 11 and signal source 12 to sensor 15 and sensor 16.
+      <br/>
+      Unlike the instantaneous case, however, sensor 15 and sensor 16 also receive delayed and attenuated versions of each of the signals generated by signal source 11 and signal source 12.
+      <br/>
+      For example, sensor 15 receives multiple versions of signals generated by signal source 11.
+      <br/>
+      As in the instantaneous case, sensor 15 receives signals directly from signal source 11.
+      <br/>
+      In addition, sensor 15 receives the same signals from sensor 11 along a different path.
+      <br/>
+      For example, first signals generated by the first signal source travels directly to sensor 15 and is also reflected off the wall to sensor 15 as shown in FIG. 2.
+      <br/>
+      As the reflected signals follow a different and longer path than the direct signals, they are received by sensor 11 at a slightly later time than the direct signals.
+      <br/>
+      Additionally, depending on the medium through which the signals travel, the reflected signals may be more attenuated than the direct signals.
+      <br/>
+      Sensor 15 therefore receives multiple versions of the first generated signals with varying time delays and attenuation.
+      <br/>
+      In a similar fashion, sensor 16 receives multiple delayed and attenuated versions of signals generated by signal source 11.
+      <br/>
+      Finally, sensor 15 and sensor 16 each receive multiple time delayed and attenuated versions of signals generated by signal source 12.
+    </p>
+    <p num="30">
+      Although only 2 sensors and 2 sources are shown in FIGS. 1 and 2, the invention is not limited to 2 sensors and 2 sources, and is applicable to any number of sources L and any number of sensors L'. In the preferred embodiment, the number of sources L equals the number of sensors L'. However, in another embodiment, the invention provides for separation of signals where the number of sensors L' is less than the number of sources L. The invention is also not limited to human speakers and sensors in a room.
+      <br/>
+      Applications for the invention include, but are not limited to, hearing aids, multisensor biomedical recordings (e.g., EEG, MEG and EKG) where sensor signals originate from many sources within organs such as the brain and the heart, for example, and radar and sonar (i.e., techniques using sound and electromagnetic waves).
+    </p>
+    <p num="31">
+      FIG. 3a illustrates a functional representation of a 2 * 2 network.
+      <br/>
+      FIG. 3b illustrates a detailed functional diagram of the 2 * 2 network of FIG. 3a. The 2 * 2 network (e.g., representative of the situation involving only 2 sources generating signals received by 2 sensors or detectors) includes processor 10, which can be used to solve the blind source separation problem given two physically independent signal sources, each generating signals observed by two independent signal sensors.
+      <br/>
+      The inputs of processor 10 are the observed sensor signals vn received at sensor 15 and sensor 16, for example.
+      <br/>
+      Processor 10 includes first signal processing unit 30 and second signal processing unit 32 (e.g., in an L * L situation, a processing unit for each of the L sources), each of which receives all observed sensor signals vn (as shown, only v1 and v2 for the 2 * 2 case) as input.
+      <br/>
+      Signal processors 30 and 32 each also receive as input, the output of the other processing units (processing units 30 and 32, as shown in the 2 * 2 situation).
+      <br/>
+      The signals are processed according to the details of the invention as described herein.
+      <br/>
+      The outputs of processor 10 are the estimated source signals, un, which are equal to the original source signals, un, once the network converges on a solution to the blind source separation problem as will be described below in regard to the instantaneous and convolutive mixing cases.
+    </p>
+    <p num="32">Instantaneous Mixing</p>
+    <p num="33">
+      In one embodiment, discrete time units, t=tn, are used.
+      <br/>
+      The original, unobserved source signals will be denoted by ui (tn), where i=1, . . . ,L, and the observed sensor signals are denoted by vi (tn), where i=1, . . . ,L'. The L' * L mixing matrix Aij relates the original source signals to the observed sensor signals by the equation  (Equation image '3' not included in text)
+    </p>
+    <p num="34">
+      For simplicity's sake, the following notation is used: ui,n =ui (tn), vin =vi (tn).
+      <br/>
+      Additionally, vector notation is used, where un denotes an L-dimensional source vector at time tn whose coordinates are ui,n, and similarly where vn is an L'-dimensional vector, for example.
+      <br/>
+      Hence, vn =Aun.
+      <br/>
+      Finally, N-point time blocks +tn }, where n=0, . . . N-1, are used to exploit temporal statistics.
+    </p>
+    <p num="35">
+      The problem is to estimate the mixing matrix A from the observed sensor signals vn.
+      <br/>
+      For this purpose, a latent-variable model is constructed with model sources xi,n =xi (tn), model sensors yi,n =yi (tn), and a model mixing matrix Hij, satisfying
+      <br/>
+      yn =Hxn,  (4)
+    </p>
+    <p num="36">
+      for all n. The general approach is to generate a model sensor distribution py (+yn }) which best approximates the observed sensor distribution pv (+vn }).
+      <br/>
+      Note that these distributions represent all sensor signals at all time points, i.e.,
+      <br/>
+      py (+yn })=py (y1,1, . . . y1,N, . . . YL',1, . . . yL',N).
+    </p>
+    <p num="37">
+      This approach can be illustrated by the following:
+      <br/>
+      un --&gt; A --&gt; vn' pv.about.py' yn --&gt; H --&gt; xn
+    </p>
+    <p num="38">The observed distribution pv is created by mixing the sources un via the mixing matrix A, whereas the model distribution py is generated by mixing the model sources xn via the model mixing matrix H.</p>
+    <p num="39">
+      The DC's obtained by un =H-1 vn in the square case are the original sources up to normalization factors and an ordering permutation.
+      <br/>
+      The normalization ambiguity introduces a spurious continuous degree of freedom since renormalizing xj,n --&gt; aj xj,n can be compensated for by Hij --&gt; Hij /ajj, leaving the sensor distribution unchanged.
+      <br/>
+      In one embodiment, the normalization is fixed by setting Hii =1.
+    </p>
+    <p num="40">
+      It is assumed that the sources are independent, stationary and zero-mean, thus
+      <br/>
+      &lt;Xn &gt;=0, &lt;Xn Xn+mT &gt;=sm,  (5)
+    </p>
+    <p num="41">
+      where the average runs over time points n. xn is a column vector, xn+mT is a row vector; due to statistical independence, their products sm are diagonal matrices which contain the auto-correlations of the sources, sij,m =&lt;xi,n xi,n+m &gt; DELTA ij.
+      <br/>
+      In one embodiment, the separation is performed using only second-order statistics, but higher order statistics may be used.
+      <br/>
+      Additionally, the sources are modelled as Gaussian stochastic processes parametrized by sm.
+    </p>
+    <p num="42">
+      In one embodiment, computation is done in the frequency domain where the source distribution readily factorizes.
+      <br/>
+      This is done by applying the discrete Fourier transform (DFT) to the equation yn =Hxn to get
+      <br/>
+      yk =HXk  (6)
+    </p>
+    <p num="43">where the Fourier components Xk corresponding to frequencies  OMEGA k =2 PI k/N, k=0, . . . ,N-1 are given by  (Equation image '4' not included in text)</p>
+    <p num="44">
+      and satisfy XN-k =Xk* ; the same holds for Yk ; Vk.
+      <br/>
+      The DFT frequencies  OMEGA k are related to the actual sound frequencies fk by  OMEGA k =2 PI fk /fs, where fs is the sampling frequency.
+      <br/>
+      The DFT of the sensor cross-correlations &lt;vi,n vj,n+m &gt; and the source auto-correlations &lt;xi,n xi,n+m &gt; are the sensor cross-spectra Cij,k =&lt;Vi,k Vj,k* &gt; and the source power spectra Sij,k =&lt;.vertline.Xi,k.vertline.2 &gt; DELTA ij.
+      <br/>
+      In matrix notation
+    </p>
+    <p num="45">Sk =&lt;Xk Xk.dagger. &gt;, Ck =&lt;Vk Vk.dagger. &gt;.  (8)</p>
+    <p num="46">Finally, the model sources, being Gaussian stochastic processes with power spectra Sk, have a factorial Gaussian distribution in the frequency domain: the real and imaginary parts of Xi,k are distributed independently of each other and of Xi,k' not equal to k with variance Sii,k /2,  (Equation image '5' not included in text)</p>
+    <p num="47">(N is assumed to be even only for concreteness).</p>
+    <p num="48">
+      To achieve py.apprxeq.pv the model parameters H and Sk are adjusted to obtain agreement in the second-order statistics between model and data, &lt;Yk Yk.dagger. &gt;=&lt;Vk Vk.dagger. &gt;, which, using equations (6) and (8) implies
+      <br/>
+      HSk HT =Ck  (10)
+    </p>
+    <p num="49">
+      This is a large set of coupled quadratic equations.
+      <br/>
+      Rather than solving the equations directly, the task of finding H and Sk is formulated as an optimization problem.
+    </p>
+    <p num="50">
+      The Fourier components X0, XN/2 (which are real) have been omitted from equation (9) for notational simplicity.
+      <br/>
+      In fact, it can be shown by counting variables in equation (10), noting that Ck.dagger. =Ck,Sk is diagonal and all three matrices are real, that H in the square case can be obtained as long as no less than two frequencies  OMEGA k are used, thus solving the separation problem.
+      <br/>
+      However, these equations may be under-determined, e.g., when two sources i,j have the same spectrum Sii,k =Sjj,k for these  OMEGA k, as will be discussed below.
+      <br/>
+      It is therefore advantageous to use many frequencies.
+    </p>
+    <p num="51">
+      In one embodiment, the number of sources L equals the number of sensors L'. In this case, since the model sources and sensors are related linearly by equation (6), the distribution pY can be obtained directly from px equation (9), and is given in a parametric form py (+Yk };H,+Sk }).
+      <br/>
+      This is the joint distribution of the Fourier components of the model sensor signals and is Gaussian, but not factorial.
+    </p>
+    <p num="52">
+      To measure its difference from the observed distribution pv (+Vk }) in one embodiment we use the Kullback-Leibler (KL) distance D(pv, py), an asymmetric measure of the distance between the correct distribution and a trial distribution.
+      <br/>
+      One advantage of using this measure is that its minimization is equivalent to maximizing the log-likelihood of the data; another advantage is that it usually has few irrelevant local minima compared to other measures of distance between functions, e.g., the sum of squared differences.
+      <br/>
+      The KL distance is derived in more detail below when describing convolutive mixing.
+      <br/>
+      The KL distance is given in terms of the separating transformation G, which is the inverse mixing matrix
+      <br/>
+      G=H-1  (11)
+    </p>
+    <p num="53">Using matrix notation,  (Equation image '6' not included in text)</p>
+    <p num="54">
+      Note that Ck, Sk, G are all matrices (Sk are diagonal) and have been defined in equations (8) and (11); the KL distance is given by determinants and traces of their products at each frequency.
+      <br/>
+      The cross-spectra Ck are computed from the observed sensor signals, whereas G and Sk are optimized to minimize D(py, pv).
+    </p>
+    <p num="55">
+      In one embodiment, this minimization is done iteratively using the gradient descent method.
+      <br/>
+      To ensure positive definiteness of Sk, the diagonal elements (the only non-zero ones) are expressed as Sii,k = EPSILON qi,k  and the log-spectra qi,k are used in their place.
+      <br/>
+      The rules for updating the model parameters at each iteration are obtained from the gradient of D (py, pv):  (Equation image '7' not included in text)
+    </p>
+    <p num="56">
+      These are the linear DCA learning rules for instantaneous mixing.
+      <br/>
+      The learning rate is set by  EPSILON .
+      <br/>
+      These are off-line rules and require the computation of the sensor cross-spectra from the data prior to the optimization process.
+      <br/>
+      The corresponding on-line rules are obtained by replacing the average quantity Ck by the measured vk vk.dagger. in equation (13), and would perform stochastic gradient descent when applied to the actual sensor data.
+    </p>
+    <p num="57">
+      The learning rules, equation (13) above, for the mixing matrix H involves matrix inversion at each iteration.
+      <br/>
+      This can be avoided if, rather than updating H, the separating transformation G is updated.
+      <br/>
+      The resulting less expensive rule is derived below when describing convolutive mixing.
+    </p>
+    <p num="58">
+      The optimization formulation of the separation problem can now be related to the coupled quadratic equations.
+      <br/>
+      Rewriting them in terms of G gives GCk GT =Sk for all k. The transformation G and spectra Sk which solve these equations for the observed sensors' Ck can then be seen from equation (13) to extremize the KL distance (minimization can be shown by examining the second derivatives).
+      <br/>
+      The spectra Sk are diagonal whereas the cross-spectra Ck are not, corresponding to uncorrelated source and correlated sensor signals, respectively.
+      <br/>
+      Therefore, the process that minimizes the KL distance through the rules, equation (13), decorrelates the sensor signals in the frequency domain by decorrelating all their Fourier components simultaneously producing separated signals with vanishing cross-correlations.
+    </p>
+    <p num="59">Convolutive Mixing</p>
+    <p num="60">
+      In realistic situations, the signal from a given source arrives at the different sensors at different times due to propagation delays as shown in FIG. 2, for example.
+      <br/>
+      Denoting by dij the number of time points corresponding to the time required for propagation from source j to sensor i, the mixing model for this case is  (Equation image '8' not included in text)
+    </p>
+    <p num="61">
+      The parameter set consisting of the spectra Sk and mixing matrix H is now supplemented by the delay matrix d. This introduces an additional spurious degree of freedom (recall that in one embodiment the source normalization ambiguity above is eliminated by fixing Hii =1), because the t=0 point of each source is arbitrary: a shift of source j by mj time points, xj,n --&gt; xj,n-mj  ; can be compensated for by a corresponding shift in the delay matrix, dij --&gt; dij +mj.
+      <br/>
+      This ambiguity arises from the fact that only the relative delays dij -dlj can be observed; absolute delays dij cannot.
+      <br/>
+      This is eliminated, in one embodiment, by setting dii =0.
+    </p>
+    <p num="62">
+      More generally, sensor i may receive several progressively delayed and attenuated versions of source j due to the multi-path signal propagation in a reflective environment, creating multiple echoes.
+      <br/>
+      Each version may also be distorted by the frequency response of the environment and the sensors.
+      <br/>
+      This situation can be modeled as a general convolutive mixing, meaning mixing coupled with filtering:  (Equation image '9' not included in text)
+    </p>
+    <p num="63">
+      The simple mixing matrix of the instantaneous case, equation (4), has become a matrix of filters hm, termed the mixing filter matrix.
+      <br/>
+      It is composed of a series of mixing matrices, one for each time point m, whose ij elements hij,m constitute the impulse response of the filter operating on the source signal j on its way to sensor i. The filter length M corresponds to the maximum number of detectable delayed versions.
+      <br/>
+      This is clearer when time and component notation are used explicitly:  (Equation image '10' not included in text)
+    </p>
+    <p num="64">
+      where * indicates linear convolution.
+      <br/>
+      This model reduces to the single delay case, equation (14), when hij,m =Hij DELTA m,dij .
+      <br/>
+      The general case, however, includes spurious degrees of freedom in addition to absolute delays as will be discussed below.
+    </p>
+    <p num="65">
+      Moving to the frequency domain and recalling that the m-point shift in xj,n multiplies its Fourier transform Xj,k by a phase factor e- OMEGA k m, gives
+      <br/>
+      Yk =Hk Xk,  (16)
+    </p>
+    <p num="66">where Hk is the mixing filter matrix in the frequency domain.  (Equation image '11' not included in text)</p>
+    <p num="67">whose elements Hij,k give the frequency response of the filter hij,m.</p>
+    <p num="68">
+      A technical advantage is gained, in one embodiment, by working with equation (16) in the frequency domain.
+      <br/>
+      Whereas convolutive mixing is more complicated in the time domain, equation (15), than instantaneous mixing, equation (4), since it couples the mixing at all time points, in the frequency domain it is almost as simple: the only difference between the instantaneous case, equation (6), and the convolutive case, equation (16) is that the mixing matrix becomes frequency dependent, H --&gt; Hk, and complex, with Hk =HN-k *.
+    </p>
+    <p num="69">The KL distance between the convolutive model distribution py (+Yk }; +hm }, +Sk }), parametrized by the mixing filters and the source spectra, and the observed distribution pv will now be derived.</p>
+    <p num="70">
+      Starting from the model source distribution, equation (9), and focusing on general convolutive mixing, from which the derivation for instantaneous mixing follows as a special case.
+      <br/>
+      The linear relation Yk =Hk Xk, equation (16), between source and sensor signals gives rise to the model sensor distribution  (Equation image '12' not included in text)
+    </p>
+    <p num="71">To derive equation (18) recall that the distribution px of the complex quantity, Xk (or py of Yk :) is defined as the joint distribution of its real and imaginary parts, which satisfy  (Equation image '13' not included in text)</p>
+    <p num="72">The determinant of the 2L * 2L matrix in equation (19) equals det Hk Hk.dagger. used in equation (18).</p>
+    <p num="73">
+      The model source spectra Sk, and mixing filters hm, (see equation (17)) are now optimized to make the model distribution py as close as possible to the observed pv.
+      <br/>
+      In one embodiment, this is done by minimizing the Kullback-Leibler (KL) distance  (Equation image '14' not included in text)
+    </p>
+    <p num="74">
+      (V=+Vk }).
+      <br/>
+      Since the observed sensor entropy Hv is independent of the mixing model, minimizing D(pv,py) is equivalent to maximizing the log-likelihood of the data.
+    </p>
+    <p num="75">
+      The calculation of -&lt;log py (V)&gt; includes several steps.
+      <br/>
+      First, take the logarithm of equation (18) and write it in terms of the sensor signals Vk, substituting Yk =Vk and Xk =Gk Vk where Gk =Hk-1.
+      <br/>
+      Then convert it to component notation, use the cross-spectra, equation (8), to average over Vk, and convert back to matrix notation.
+      <br/>
+      Dropping terms independent of the parameters Sk and Hk gives:  (Equation image '15' not included in text)
+    </p>
+    <p num="76">
+      where Gk =Hk-1.
+      <br/>
+      A gradient descent minimization of D is performed using the update rules:  (Equation image '16' not included in text)
+    </p>
+    <p num="77">To derive the update rules, equations (22a and 22b), for example, differentiate D(pv,py) with respect to the filters hji,m and the log-spectra qi,k, using the chain rule as is well known.</p>
+    <p num="78">As mentioned above, a less expensive learning rule for the instantaneous mixing case can be derived by updating the separating matrix G at each iteration, rather than updating H. For example, multiply the gradient of D by GT G to obtain  (Equation image '17' not included in text)</p>
+    <p num="79">
+      Equations (22a) and (22b) are the DCA learning rules for separating convolutive mixtures.
+      <br/>
+      These rules, as well as the KL distance equation (21), reduce to their instantaneous mixing counterparts when the mixing filter length in equation (15) is M=1. The interpretation of the minimization process as performing decorrelation of the sensor signals in the frequency domain holds here as well.
+    </p>
+    <p num="80">Once the optimal mixing filters hm are obtained, the sources can be recovered by applying the separating transformation  (Equation image '18' not included in text)</p>
+    <p num="81">
+      to the sensors to get the new signals un =gn *vn.
+      <br/>
+      The length of the separating filters gn is N', and the corresponding frequencies are  OMEGA 'k =2 PI k/N'. N' is usually larger than the length M of the mixing filters and may also be larger than the time block N. This can be illustrated by a simple example.
+      <br/>
+      Consider the case L=L'=1 with Hk =1 / ae-i OMEGA k , which produces a single echo delayed by one time point and attenuated by a factor of a. The inverse filter is  (Equation image '19' not included in text)
+    </p>
+    <p num="82">Stability requires .vertline.a.vertline.&lt;1, thus the effective length N' of gn is finite but may be very large.</p>
+    <p num="83">
+      In the instantaneous case, the only consideration is the need for a sufficient number of frequencies to differentiate between the spectra of different sources.
+      <br/>
+      In one embodiment, the number of frequencies is as small as two.
+      <br/>
+      However, in the convolutive case, the transition from equation (15) to equation (16) is justified only if N +character pullout}M (unless the signals are periodic with period N or a divisor thereof, which is generally not the case).
+      <br/>
+      This can be understood by observing that when comparing two signals, one can be recognized as a delayed version of the other only if the two overlap substantially.
+      <br/>
+      The ratio M/N that provides a good approximation decreases as the number of sources and echoes increase.
+      <br/>
+      In practical applications M is usually unknown, hence several trials with different values of N are run before the appropriate N is found.
+    </p>
+    <p num="84">Non-Linear DCA</p>
+    <p num="85">
+      In many practical applications no information is available about the form of the mixing filters, and imposing the constraints required by linear DCA will amount to approximating those filters, which may result in incomplete separation.
+      <br/>
+      An additional, related limitation of the linear algorithm is its failure to separate sources that have identical spectra.
+    </p>
+    <p num="86">
+      Two non-linear versions of DCA are now described, one in the frequency domain and the other in the time domain.
+      <br/>
+      As in the linear case, the derivation is based on a global optimization formulation of the convolutive separation problem, thus guaranteeing stability of the algorithm.
+    </p>
+    <p num="87">Optimization in the Frequency Domain</p>
+    <p num="88">Let un be the original (unobserved) source vector whose elements ui,n =ui (tn), i=1, . . . , L are the source activities at time tn, and let vn be the observed sensor vector, obtained from un via a convolutive mixing transformation  (Equation image '20' not included in text)</p>
+    <p num="89">
+      where * denotes linear convolution.
+      <br/>
+      Processing is done in N-point time blocks +tn }, n=0, . . . , N-1.
+    </p>
+    <p num="90">The convolutive mixing situation is modeled using a latent-variable approach. xn is the L-dimensional model source vector, yn is similarly the model sensor vector, and hn, n=0, . . . , M-1 is the model mixing filter matrix with filter length M. The model mixing process or, alternatively, its inverse, are described by  (Equation image '21' not included in text)</p>
+    <p num="91">
+      where gn is the separating transformation, itself a matrix of filters of length M' (usually M'&gt;M).
+      <br/>
+      In component notation  (Equation image '22' not included in text)
+    </p>
+    <p num="92">
+      In one embodiment, the goal is to construct a model sensor distribution parametrized by gn (or hn), then optimize those parameters to minimize its KL distance to the observed sensor distribution.
+      <br/>
+      The resulting optimal separating transformation gn, when applied to the sensor signals, produces the recovered sources  (Equation image '23' not included in text)
+    </p>
+    <p num="93">
+      In the frequency domain equation (24) becomes
+      <br/>
+      Yk =Hk Xk, Xk =Gk Yk,  (25)
+    </p>
+    <p num="94">
+      obtained by applying the discrete Fourier transform (DFT).
+      <br/>
+      A model sensor distribution pY(+Yk }) is constructed with a model source distribution px (+Xk }).
+      <br/>
+      A factorial frequency-domain model  (Equation image '24' not included in text)
+    </p>
+    <p num="95">is used, where Pi,k is the joint distribution of ReXi,k, ImXi,k which, unlike equation (9) in the linear case, is not Gaussian.</p>
+    <p num="96">Using equations (25) and (26), the model sensor distribution py(+Yk }) is obtained by  (Equation image '25' not included in text)</p>
+    <p num="97">
+      The corresponding KL distance function is then
+      <br/>
+      D(pV,pY)=-Hv -(log pY)V,
+    </p>
+    <p num="98">yielding  (Equation image '26' not included in text)</p>
+    <p num="99">after dropping the average sign and terms independent of Gk.</p>
+    <p num="100">
+      In the most general case, the model source distribution Pi,k may have a different functional form for different sources i and frequencies  OMEGA k. In one embodiment, the frequency dependence is omitted and the same parametrized functional form is used for all sources.
+      <br/>
+      This is consistent with a large variety of natural sounds being characterized by the same parametric functional form of their frequency-domain distribution.
+      <br/>
+      Additionally, in one embodiment, Pi,k (Xi,k) is restricted to depend only on the squared amplitude .vertline.Xi,k.vertline.2. Hence
+      <br/>
+      Pi,k (Xi,k)=P(.vertline.Xi,k.vertline.2 ;  XI i), (28)
+    </p>
+    <p num="101">where  XI i is a vector of parameters for source i. For example, P may be a mixture of Gaussian distributions whose means, variances and weights are contained in  XI i.</p>
+    <p num="102">
+      The factorial form of the model source distribution (26) and its simplification (28) do not imply that the separation will fail when the actual source distribution is not factorial or has a different functional form; rather, they determine implicitly which statistical properties of the data are exploited to perform the separation.
+      <br/>
+      This is analogous to the linear case, above, where the use of factorial Gaussian source distribution, equation (9), determines that second-order statistics, namely the sensor cross-spectra, are used.
+      <br/>
+      Learning rules for the most general Pi,k are derived in a similar fashion.
+    </p>
+    <p num="103">
+      The  OMEGA k -independence of Pi,k implies white model sources, in accord with the separation being defined up to the source power spectra.
+      <br/>
+      Consequently, the separating transformation may whiten the recovered sources.
+      <br/>
+      Learning rules that avoid whitening will now be derived.
+    </p>
+    <p num="104">Starting with the factorial frequency-domain model, equation (26), for the source distribution px (+Xk }) and the corresponding KL distance, equation (27), the factor distributions Pi,k given in a parameterized form by equation (28) are modified to include the source spectra Sk :  (Equation image '27' not included in text)</p>
+    <p num="105">This Sii,k -scaling is obtained by recognizing that Sii,k is related to the variance of Xi,k by (.vertline.Xi,k.vertline.2 =Sii,k ; e.g., for Gaussian sources Pi,k =(1/ PI Sii,k)e-.vertline.Xi,k.vertline.2 /Sii,k (see equation (9).</p>
+    <p num="106">
+      The derivation of the learning rules from a stochastic gradient-descent minimization of D follows the standard calculation outlined above.
+      <br/>
+      Defining the log-spectra qi,k =log Sii,k and using Hk =Gk-1, gives:  (Equation image '28' not included in text)
+    </p>
+    <p num="107">where the vector  PHI (Xk) is given by  (Equation image '29' not included in text)</p>
+    <p num="108">Note that for Gaussian model sources  PHI (Xi,k)=Xi,k, the linear DCA rules, equations (22a) and (22b), are recovered.</p>
+    <p num="109">The learning rule for the separating filters gm can similarly be derived:  (Equation image '30' not included in text)</p>
+    <p num="110">with the rules for qi,k,  XI i in equation (30) unchanged.</p>
+    <p num="111">It is now straightforward to derive the frequency-domain non-linear DCA learning rules for the separating filters gm and the source distribution parameters  XI i, using a stochastic gradient-descent minimization of the KL distance, equation (27).  (Equation image '31' not included in text)</p>
+    <p num="112">The vector  PHI (Xk) above is defined in terms of the source distribution P(.vertline.Xi,k.vertline.2 ;  XI i); its i-th element is given by  (Equation image '32' not included in text)</p>
+    <p num="113">
+      Note that  PHI (Xk)Yk.dagger. in equation (33) is a complex L * L matrix with elements  PHI (Xi,k)Y*j,k. Note also that only  DELTA Gk, k=1, . . . , N/2-1 are computed in equation (33);  DELTA G0 = DELTA Gn/2 =0 (see equation (26)) and for k&gt;N/2,  DELTA Gk = DELTA G*N-k.
+      <br/>
+      The learning rate is set by  EPSILON .
+    </p>
+    <p num="114">In one embodiment, to obtain equation (33), the usual gradient,  DELTA gm =- EPSILON .differential.D/.differential.gm is used, as are the relations  (Equation image '33' not included in text)</p>
+    <p num="115">Equation (33) also has a time-domain version, obtained using DFT to express Xk, Gk in terms of xm, gm and defining the inverse DFT of  PHI (Xk) to be  (Equation image '34' not included in text)</p>
+    <p num="116">where gm is the impulse response of the filter whose frequency response is (Gk-1).dagger., or since Gk-1 =Hk, the time-reversed form of hmT.</p>
+    <p num="117">
+      In one embodiment, the transformation of equation (24) is regarded as a linear network with L units with outputs xn, and that all receive the same L inputs yn, then equation (36) indicates that the change in the weight gij,m connecting input yj,n and output xi,n is determined by the cross-correlation of that input with a function of that output.
+      <br/>
+      A similar observation can be made in the frequency domain.
+      <br/>
+      However, both rules, equations (33) and (36), are not local since the change in gij,m is determined by all other weights.
+    </p>
+    <p num="118">
+      It is possible to avoid matrix inversion for each frequency at each iteration as required by the rules, equations (33) and (36).
+      <br/>
+      This can be done by extending the natural gradient concept to the convolutive mixing situation.
+    </p>
+    <p num="119">Let D(g) be a KL distance function that depends on the separating filter matrix elements gij,n for all i, j=1, . . . , L and n=0, . . . , N. The learning rule  DELTA gij,m =- EPSILON .differential.D/.differential.gij,m derived from the usual gradient does not increase D in the limit  EPSILON  --&gt; 0:  (Equation image '35' not included in text)</p>
+    <p num="120">since the sum over i, j, n is non-negative.</p>
+    <p num="121">
+      The natural gradient increment  DELTA gm ' is defined as follows.
+      <br/>
+      Consider the DFT of  DELTA gm given by  (Equation image '36' not included in text)
+    </p>
+    <p num="122">
+      The DFT of  DELTA gm ' is defined by  DELTA Gk '= DELTA Gk (Gk.dagger.
+      <br/>
+      Gk).
+      <br/>
+      Hence  (Equation image '37' not included in text)
+    </p>
+    <p num="123">where the DFT rule  (Equation image '38' not included in text)</p>
+    <p num="124">and the fact that  (Equation image '39' not included in text)</p>
+    <p num="125">were used.</p>
+    <p num="126">When g is incremented by  DELTA g' rather than by  DELTA g, the resulting change in D is  (Equation image '40' not included in text)</p>
+    <p num="127">
+      The second line was obtained by substituting equation (38) in the first line.
+      <br/>
+      To get the third line the order of summation is changed to represented it as a product of two identical terms.
+      <br/>
+      The natural gradient rules therefore do not increase D. Considering the usual gradient rule, equation (33), the natural gradient approach instructs one to multiply  DELTA Gk by the positive-definite matrix Gk.dagger.
+      <br/>
+      Gk to get the rule  (Equation image '41' not included in text)
+    </p>
+    <p num="128">The rule for  XI i remains unchanged.</p>
+    <p num="129">The time-domain version of this rule is easily derived using DFT:  (Equation image '42' not included in text)</p>
+    <p num="130">
+      Here, the change is a given filter gij,m is determined by the filter together with the following sum: take the cross-correlation of a function  PHI  of output i with each output i' (square brackets in equation (41)), compute its own cross-correlation with the filter gi'j,m connecting it to input j, and sum over outputs i'. Thus, in contrast with equation (36), this rule is based on lateral correlations, i.e., correlations between outputs.
+      <br/>
+      It is more efficient than equation (36) but is still not local.
+    </p>
+    <p num="131">
+      Any rule based on output-output correlation can be alternatively based on input-input or output-input correlation by using equation (24).
+      <br/>
+      The rules are named according to the form in which their gn -dependence is simplest.
+    </p>
+    <p num="132">For Gaussian model sources, Pi,k =Xi,k is linear and the rules derived here may not achieve separation, unless they are supplemented by learning rules for the source spectra as described above.</p>
+    <p num="133">Optimization in the Time Domain</p>
+    <p num="134">Equation (24) can be expanded to the form  (Equation image '43' not included in text)</p>
+    <p num="135">Recall that xm, ym are L-dimensional vectors and gm are L * L matrices with gm =0 for m &lt;= M', the separating filter length; 0 is a L * L matrix of zeros.</p>
+    <p num="136">
+      The LN-dimensional source vector on the l.h.s. of equation (42) is denoted by x, whose elements are specified using the double index (mi) and given by x(mi) =xi,m. The LN-dimensional sensor vector y is defined in a similar fashion.
+      <br/>
+      The above LN * LN separating matrix is denoted by g; its elements are given in terms of gm by g(im),(jn) =gij,m-n for n &lt;= m and g(im),(in) =0 for n&gt;m.
+      <br/>
+      Thus:  (Equation image '44' not included in text)
+    </p>
+    <p num="137">The advantage of equation (43) is that the model sensor distribution py (+ym }) can now be easily obtained from the model source distribution px (+xm }), since the two are related by det g, which can be shown to depend only on the matrix g0 lying on the diagonal: det g=(det g0)N. Thus py =(det g0)N px.</p>
+    <p num="138">As in the frequency domain case, equation (26), it is convenient to use a factorial form for the time-domain model source distribution  (Equation image '45' not included in text)</p>
+    <p num="139">This form leads to the following KL distance function:  (Equation image '46' not included in text)</p>
+    <p num="140">
+      Again, in one embodiment, a few simplifications in the model, equation (44), are appropriate.
+      <br/>
+      Assuming stationary sources, the distribution pim is independent of the particular time point tm.
+      <br/>
+      Also, the same functional form is used for all sources, parameterized by the vector  XI i. Hence
+      <br/>
+      pi,k (xi,m)=p(xi,m ; XI i).  (46)
+    </p>
+    <p num="141">Note that the tm -independence of pi,m combined with the factorial form, equation (44), imply white model sources as in the frequency-domain case.</p>
+    <p num="142">In one embodiment, to derive the learning rules for gm and  XI i, the appropriate gradients of the KL distance, equation (45), are calculated, resulting in  (Equation image '47' not included in text)</p>
+    <p num="143">The vector  PSI (xm) above is defined in terms of the source distribution p(xi,m ;  XI i); its i-th element is given by  (Equation image '48' not included in text)</p>
+    <p num="144">Note that  PSI (xn)yn-mT is a L * L matrix whose elements are the output-input cross-correlations  PSI (xi,n)yj'm-n.</p>
+    <p num="145">
+      This rule is Hebb-like in that the change in a given filter is determined by the activity of only its own input and output.
+      <br/>
+      For instantaneous mixing (m=M=0) it reduces to the ICA rule.
+    </p>
+    <p num="146">
+      In one embodiment, an efficient way to compute the increments of gm in equation (47) is to use the frequency-domain version of this rule.
+      <br/>
+      To do this the DFT of  PSI (xm) is (defined by  (Equation image '49' not included in text)
+    </p>
+    <p num="147">
+      which is different from  PHI (X)k in equation (34), and recall that the DFT of the Kronecker delta  DELTA m,0 is 1.
+      <br/>
+      Thus:  (Equation image '50' not included in text)
+    </p>
+    <p num="148">This simple rule requires only the cross-spectra of the output  PSI (xi,m) and input yj,m (i.e., the correlation between their frequency components) in order to compute the increment of the filter gij,m.</p>
+    <p num="149">
+      Yet another time-domain learning rule can be obtained by exploiting the natural gradient idea.
+      <br/>
+      As in equation (40) above, multiplying  DELTA Gk in equation (49) by the positive-definite matrix Gk.dagger.
+      <br/>
+      Gk, gives  (Equation image '51' not included in text)
+    </p>
+    <p num="150">
+      In contrast with the rule in equation (49), the present rule determines the increment of the filter gij,m based on the cross-spectra of  PSI (xi,m) and of xj,m, both of which are output quantities.
+      <br/>
+      Being lateral correlation-based, this rule is similar to the rule in equation (40).
+    </p>
+    <p num="151">Next, by applying inverse DFT to equation (50), a time-domain learning rule is obtained that also has this property:  (Equation image '52' not included in text)</p>
+    <p num="152">This rule, which is similar to equation (41), consists of two terms, one of which involves the cross-correlation of the separating filters with the cross-correlation of the outputs xn and a non-linear function  PHI (xn) thereof (compare with the rule in equation (41)), whereas the other involves the cross-correlation of those filters with themselves.</p>
+    <p num="153">
+      The invention has now been explained with reference with specific embodiments.
+      <br/>
+      Other embodiments will be apparent to those of ordinary skill in the art upon reference to the present description.
+      <br/>
+      It is therefore not intended that this invention be limited, except as indicated by the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A signal processing system for separating signals from an instantaneous mixture of signals generated by first and second generating sources, the system comprising:</claim-text>
+      <claim-text>a first detector, wherein said first detector detects first signals generated by the first source and second signals generated by the second source; a second detector, wherein said second detector detects said first and second signals;</claim-text>
+      <claim-text>and a signal processor coupled to said first and second detectors for processing the first and second signals detected by each of said first and second detectors (detected signals) wherein the signal processor derives a separating filter using a parameterized model of first and second signals for separating said first and second signals, wherein said processor derives said filter by processing said detected signals in a plurality of time blocks, each time block representing an interval of time wherein said separating filter is constructed by said processor by minimizing a distance function defining a difference between a plurality of said detected signals over the plurality of time blocks and a plurality of the model signals over the time blocks.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The system of claim 1, wherein applying said separation filter to said detected signals reproduces one of said first and second signals.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The system of claim 1, wherein said processor processes said detected signals in the time domain.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The system of claim 1, wherein said processor processes said detected signals in the frequency domain.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A signal processing system for separating signals from a convolutive mixture of signals generated by first and second signal generating sources, the system comprising: a first detector, wherein said first detector detects a first mixture of signals, said first mixture including first signals generated by the first source, second signals generated by the second source and a first time-delayed version of each of said first and second signals; a second detector, wherein said second detector detects a second mixture of signals, said second mixture including said first and second signals and a second time-delayed version of each of said first and second signals;</claim-text>
+      <claim-text>and a signal processor coupled to said first and second detectors for processing said first and second signal mixtures detected by the first and second detectors (detected signals) in a plurality of time blocks to construct a separating filter for separating said first and second signals wherein the separating filter is constructed using a parameterized model of the first and second signals and wherein said separating filter is constructed by said processor by minimizing a distance function defining a difference between a plurality of said detected signals over the plurality of time blocks and a plurality of the sensor signals over the time blocks.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The system of claim 5, wherein applying said separation filter to one of said first and second signal mixtures reproduces one of said first and second signals.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The system of claim 5, wherein said processor processes said detected signals in the time domain.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system of claim 5, wherein said processor processes said detected signals in the frequency domain.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A signal processing system for separating signals from a mixture of signals generated by a plurality L of signal generating sources, the system comprising: a plurality L' of detectors, wherein each of said detectors detects a mixture of signals including original source signals generated by each of said sources;</claim-text>
+      <claim-text>and a signal processor coupled to each of said detectors for processing said detected mixture of signals in a plurality of time blocks to construct a separating filter for separating said original source signals wherein the separating filter is constructed using a parameterized model of the original source signals and wherein said separating filter is constructed by said processor by minimizing a distance function defining a difference between a plurality of said detected signals over the plurality of time blocks and a plurality of the model signals over the time blocks.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system of claim 9, wherein each detector detects a time-delayed version of each of said original signals, whereby said mixtures are convolutive.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The system of claim 9, wherein L' is equal to L.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The system of claim 9, wherein applying said filter to said detected mixture of signals reproduces one of said original source signals.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The system of claim 12, wherein said one original source signal is reproduced without interference from the other signals in said detected mixture of signals.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The system of claim 9, wherein said processor processes said mixtures in the time domain.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The system of claim 9, wherein said processor processes said mixtures in the frequency domain.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A signal processing system for separating signals from a mixture of signals generated by a plurality L of signal generating sources, the system comprising: a plurality L' of detectors for detecting signals +vn }, wherein said detected signals +vn } are related to original source signals +un } generated by the plurality of sources by a mixing transformation matrix A such that vn =Aun, and wherein said detected signals +vn } at all time points comprise an observed sensor signal distribution pv �v(t1), . . . ,v(tN)� over N-point time blocks +tn } with n=0, . . . ,N-1;</claim-text>
+      <claim-text>and a signal processor coupled to said plurality of detectors for processing said detected signals +vn } to produce a filter G for reconstructing said original source signals +un }, wherein said processor produces said reconstruction filter G by minimizing a distance function defining a difference between said observed sensor signal distribution Pv and a model sensor signal distribution py �y(t1), . . . ,y(tN)� �is minimized�, said model sensor signal distribution parameterized by a statistical model of original source signals +xn } and a model mixing matrix H such that yn =Hxn, and wherein said reconstruction filter G is a function of H.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The system of claim 16, wherein said processor minimizes said distance function using a gradient descent method.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The system of claim 16, wherein applying said filter to said detected signals +vn } reproduces one of said original source signals +un }.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The system of claim 16, wherein G is the inverse of H: G=H-1.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The system of claim 16, wherein L' is equal to L.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The system of claim 16, wherein said detected signals +vn } further include a first and a second time-delayed version of each of said first and second signals, said first delayed version being detected by said first detector, and said second delayed version being detected by said second detector, such that A is a convolutive mixing matrix, and such that vn =A*un.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The system of claim 21, wherein H is a model mixing filter matrix, such that yn =H*xn.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The system of claim 22, wherein H is frequency dependent and complex.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The system of claim 16, wherein said processor processes said mixtures in the time domain.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The system of claim 16, wherein said processor processes said mixtures in the frequency domain.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. In a signal processing system, a method of separating signals from an instantaneous mixture of signals generated by first and second signal generating sources, the method comprising the steps of: detecting, at a first detector, first signals generated by the first source and second signals generated by the second source; detecting, at a second detector, said first and second signals;</claim-text>
+      <claim-text>and processing, in a plurality of time blocks, all of said signals detected by each of said first and second detectors (detected signals) to construct a separating filter for separating said first and second signals wherein the separating filter is constructed using a parameterized model of the first and second signals and wherein said processing step includes the step of minimizing a distance function defining a difference between a plurality of said detected signals over the plurality of time blocks and a plurality of the model signals over the time blocks.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method of claim 26, further comprising the step of applying said separation filter to said detected signals to reproduce one of said first and second signals.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method of claim 26, wherein said processing step includes the step of processing said detected signals in the time domain.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method of claim 26, wherein said processing step includes the step of processing said detected signals in the frequency domain.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. In a signal processing system, a method of separating signals from a convolutive mixture of signals generated by first and second signal generating sources, the method comprising the steps of: detecting a first mixture of signals at a first detector, said first mixture including first signals generated by the first source, second signals generated by the second source and a first time-delayed version of each of said first and second signals; detecting a second mixture of signals at a second detector, said second mixture including said first and second signals and a second time-delayed version of each of said first and second signals;</claim-text>
+      <claim-text>and processing said first and second mixtures in a plurality of time blocks to construct a separating filter for separating said first and second signals wherein the separating filter is constructed using a parameterized model of the first and second signals and wherein said processing step includes the step of minimizing a distance function defining a difference between a plurality of said detected signals over the plurality of time blocks and a plurality of the model signals over the time blocks.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. The method of claim 30, further comprising the step of applying said separation filter to one of said first and second mixtures to reproduce one of said first and second signals.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The method of claim 30, wherein said processing step includes the step of processing said detected signals in the time domain.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. The method of claim 30, wherein said processing step includes the step of processing said detected signals in the frequency domain.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. A method of constructing a separation filter G for separating signals from a mixture of signals generated by a first signal generating source and a second signal generating source, the method comprising the steps of: detecting signals +vn }, said detected signals +vn } including first signals generated by the first source and second signals generated by the second source, said first and second signals each being detected by a first detector and a second detector, wherein said detected signals +vn } are related to original source signals +un } by a mixing transformation matrix A such that vn =Aun, wherein said original signals +un } are generated by the first and second sources, and wherein said detected signals +vn } at all time points comprise an observed sensor signal distribution pv �v(t1), . . . ,v(tN)� over N-point time blocks +tn } with n=0, . . . ,N-1; defining a model sensor signal distribution py �y(t1), . . . ,y(tN)� over N-point time blocks +tn }, said model sensor signal distribution parameterized by a statistical model of original source signals +xn } and a model mixing matrix H such that yn =Hxn ; minimizing a distance function, said distance function defining a difference between said observed sensor signal distribution Pr and said model sensor signal distribution Py ;</claim-text>
+      <claim-text>and constructing the separating filter G, wherein G is a function of H.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The method of claim 34, further comprising the step of: applying the separation filter G to said received signals +vn } to reproduce said original source signals +un }.</claim-text>
+    </claim>
+    <claim num="36">
+      <claim-text>36. The method of claim 35, wherein G is constructed such that two-time cross-cumulants of said reproduced source signals approach zero.</claim-text>
+    </claim>
+    <claim num="37">
+      <claim-text>37. The system of claim 34, wherein G is the inverse of H: G=H-1.</claim-text>
+    </claim>
+    <claim num="38">
+      <claim-text>38. The method of claim 34, wherein said step of minimizing said distance function includes using a gradient descent method.</claim-text>
+    </claim>
+    <claim num="39">
+      <claim-text>39. The method of claim 34, wherein said detected signals +vn } further include a first and a second time-delayed version of each of said first and second signals, said first delayed version being detected by said first sensor, and said second delayed version being detected by said second sensor, such that A is a convolutive mixing matrix, and such that vn =A*un.</claim-text>
+    </claim>
+    <claim num="40">
+      <claim-text>40. The system of claim 39, wherein H is a model mixing filter matrix, such that yn =H*xn.</claim-text>
+    </claim>
+    <claim num="41">
+      <claim-text>41. The method of claim 40, wherein model mixing filter matrix H is frequency dependent and complex.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

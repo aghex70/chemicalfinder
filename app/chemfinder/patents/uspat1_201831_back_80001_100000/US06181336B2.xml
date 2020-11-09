@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06181336B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06181336</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6181336</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="24585941" extended-family-id="42107776">
+      <document-id>
+        <country>US</country>
+        <doc-number>08644686</doc-number>
+        <kind>A</kind>
+        <date>19960531</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996US-08644686</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43164073</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>64468696</doc-number>
+        <kind>A</kind>
+        <date>19960531</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1996US-08644686</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T   1/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>715736000</text>
+        <class>715</class>
+        <subclass>736000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-001/00</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-001/00</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>19</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>11</number-of-figures>
+      <image-key data-format="questel">US6181336</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Database-independent, scalable, object-oriented architecture and API for managing digital multimedia assets</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <patcit num="1">
+          <text>DAVIS LEMUEL L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5091849</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5091849</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Aronson "HTML3 Manual of Style" pp. 112-123, 1995.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Colton, M., "Multimedia Asset Management White Paper," About Informix White Papers, Informix, actual publication date unknown, estimated 1992-1993.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Silicon Graphics, Inc.</orgname>
+            <address>
+              <address-1>Mountain View, CA, US</address-1>
+              <city>Mountain View</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SILICON GRAPHICS INTERNATIONAL</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Chiu, Sheng-Yang</name>
+            <address>
+              <address-1>Palo Alto, CA, US</address-1>
+              <city>Palo Alto</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Menon, Sathis N.</name>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Hollar, Jeffrey D.</name>
+            <address>
+              <address-1>Livermore, CA, US</address-1>
+              <city>Livermore</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Sterne, Kessler, Goldstein &amp; Fox, p.l.l.c.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Jankus, Almis R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system is described for providing an integrated, efficient and consistent production environment for the shared development of multimedia productions.
+      <br/>
+      Examples of multimedia productions include feature animation films, computerized animation films, interactive video games, interactive movies, and other types of entertainment and/or educational multimedia works.
+      <br/>
+      The development of such multimedia products typically involve heterogenous and diverse forms of multimedia data.
+      <br/>
+      Further, the production tools and equipment that are used to create and edit such diverse multimedia data are in and of themselves diverse and often incompatible with each other.
+      <br/>
+      The incompatibility between such development tools can be seen in terms of their methods of operation, operating environments, and the types and/or formats of data on which they operate upon.
+      <br/>
+      Disclosed herein, is a complete solution that provides a consistent and integrated multimedia production environment in the form of common utilities, methods and services.
+      <br/>
+      The common utilities, methods and services disclosed herein, are used to integrate the diverse world of multimedia productions.
+      <br/>
+      By using the common utilities, methods and services provided, diverse multimedia production tools can access, store, and share data in a multiple user production environment in a consistent, safe, efficient and predictable fashion.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention relates generally to management and processing of multimedia works and more particularly to providing a uniform and consistent environment for the orderly development and archival of diverse multimedia works.</p>
+    <p num="3">2. Related Art</p>
+    <p num="4">
+      The authoring of multimedia works can be a very expensive, time consuming and complicated process.
+      <br/>
+      Such projects can involve huge production teams, enormous budgets, and the resources of entire production studios for significant amounts of time.
+      <br/>
+      Such multimedia works not only include computerized feature films such as those produced by major Hollywood studios and the like, but they can also include interactive movies, video games and other entertainment and educational type content that can run on personal computers, dedicated game consoles, kiosk machines and the like.
+      <br/>
+      It is becoming more common that the production of such multimedia titles consume monetary budgets and other resources not unlike those commonly associated with major Hollywood feature film productions.
+    </p>
+    <p num="5">
+      Multimedia data, such as collections of digital animations come in a variety of heterogeneous formats and structures.
+      <br/>
+      Typically, during the creation of a multimedia project, many different tools and application programs are used to create, edit, and otherwise process various types of multimedia data.
+      <br/>
+      In general each of the application programs, such as multimedia content authoring tools, operate on particular types and/or formats of data.
+      <br/>
+      Such types and formats of data are typically not compatible with all the various application programs used in the production process.
+    </p>
+    <p num="6">
+      Additionally, each tool generally requires its own unique file structures, hierarchies, and naming conventions, etc., to manage, store and retrieve data.
+      <br/>
+      Each tool may also use different methods to catalog, search, and preview data.
+      <br/>
+      Likewise, each tool may use a different method (or no method at all), to track different versions of multimedia data.
+      <br/>
+      In addition, many tools operate on different computer platforms and environments that are not compatible with each other.
+      <br/>
+      In a typical shared development process, such inconsistencies make it difficult to coordinate and share resources among various members of the development team.
+      <br/>
+      In addition, such inconsistencies make it difficult to catalog and archive data in an efficient, safe, and consistent manner.
+      <br/>
+      Problems arising from such inconsistencies can be very costly.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="7">
+      The present invention is directed toward a system and method for providing a consistent and efficient production environment for the development of various types of multimedia works and for the orderly archiving of the multimedia works to facilitate their re-use in later projects.
+      <br/>
+      Examples of multimedia works can include feature animation films, computer animation films, video games, interactive movies, news clips, educational multimedia products, corporate multimedia productions, multimedia sales catalogs and the like.
+      <br/>
+      The present invention assists artists, computer programmers, production managers, editors, directors, and producers in tracking and managing all multimedia data created and used during the process of multimedia productions and in finding and re-using assets from previous productions.
+    </p>
+    <p num="8">
+      Multimedia data, as the term is used herein, includes any and all types of data used to produce any and all types of multimedia works.
+      <br/>
+      Each instance of multimedia data need not comprise multiple data components or different types of media.
+      <br/>
+      Indeed multimedia data can comprise data of a single media type.
+      <br/>
+      For example, a JPEG data file is an industry standard for a compressed data format that comprises a single still video image.
+      <br/>
+      Even though a JPEG file comprises a single media type, it is considered to be multimedia data because it can be used as part of a multimedia production.
+      <br/>
+      Likewise, a multimedia authoring tool that can be used to create JPEG files may be referred to herein as a multimedia tool.
+      <br/>
+      Multimedia data can also comprise multiple types of media.
+      <br/>
+      For example, an MPEG data file is an industry standard for a compressed data format that comprises full-motion video as well as audio data components.
+      <br/>
+      Thus, an MPEG data file is another example of multimedia data.
+    </p>
+    <p num="9">
+      The present invention provides an integrated platform for a variety of diverse computerized utilities and application programs that operate on and/or create various types of multimedia data.
+      <br/>
+      Such computerized utilities and application programs can include video film editors, painting programs, three-dimensional modeling utilities, animation tools, and other multimedia data tools, running on a variety of computer systems and platforms.
+    </p>
+    <p num="10">
+      The present invention provides a means for bringing compatibility and uniformity to diverse multimedia production environments.
+      <br/>
+      As stated, a multimedia production environment typically comprises a plurality of diverse types of production tools.
+      <br/>
+      The present invention accomplishes compatibility and uniformity among such diverse multimedia production tools by providing them with common program resources.
+      <br/>
+      The common program resources include a plurality of utilities and services related to the management, organization and storage of multimedia data.
+      <br/>
+      Such program resources are used to facilitate the creation of a consistent and uniform multimedia production environment.
+    </p>
+    <p num="11">
+      The program resources provided by the present invention also include a plurality of user interface components.
+      <br/>
+      Such user interface components provided by the present invention can include dialog boxes, scrollable list boxes, data entry tables, data browsing facilities and the like.
+      <br/>
+      By using a common set of user interface components, diverse multimedia production tools can achieve a common overall look and feel and thereby create a more consistent and uniform production environment from the user's perspective.
+    </p>
+    <p num="12">
+      Also provided is a means for modifying and/or adding extensions to the plurality of utilities and services provided by the present invention.
+      <br/>
+      This feature allows production studios to quickly adapt to the rapidly changing environment of multimedia data and multimedia production tools.
+    </p>
+    <p num="13">
+      Further, the present invention provides services and utilities for indexing, storing, retrieving, searching, and generally managing and manipulating all of the multimedia data created or used during the production process.
+      <br/>
+      The present invention provides for implementation of these features through the use of one or more data base management systems (DBMSs).
+      <br/>
+      Typically, DBMSs that are supported by the present invention are of the commercial-off-the self variety.
+      <br/>
+      This feature facilitates the use of presently existing and/or readily available DBMSs.
+      <br/>
+      However, support for additional DBMSs can easily be added.
+      <br/>
+      Likewise, the services and utilities provided by the present invention, which interact with the supported DBMSs, can easily be modified and/or extended.
+      <br/>
+      Thus, a production studio simply attaches, in a `plug-and-play` (PNP) fashion, one or more supported DBMS(s), and the file management features of the present are automatically implemented.
+    </p>
+    <p num="14">
+      All multimedia data created and used during the production process are organized by the present invention into data objects that are referred to herein as `assets`. An asset is a data object that is defined by the present invention in a particular manner.
+      <br/>
+      Each asset comprises two components, namely, a contents component and a metadata component.
+      <br/>
+      The metadata component comprises information about an asset, such as its storage location, creation date, creator(s), etc. The contents component comprises the actual multimedia data, which is typically a digital representation of, for example, a visual and/or audio data object.
+      <br/>
+      For example, an asset representing a JPEG type image file as described above, comprises a metadata component and a contents component.
+      <br/>
+      The contents component is the JPEG file itself, which is a digital representation of a still video image.
+      <br/>
+      The creator's name, the date of creation, and the fact that the file is a 240  * 320 JPEG image are examples of the types of information comprising the metadata component of an asset.
+    </p>
+    <p num="15">
+      All multimedia data is managed by the present invention in the form of assets.
+      <br/>
+      Assets are logically stored by the present invention in a location that is referred to herein as the `asset bank` or `Vault`. As stated, the actual implementation of the asset bank or Vault is via one or more supported DBMS(s) and associated file systems.
+    </p>
+    <p num="16">
+      In addition, the present invention provides a means for managing and controlling separate and distinct versions of assets that are developed during the production process.
+      <br/>
+      Further, a means for logically relating versions of different assets to each other is provided.
+      <br/>
+      Accordingly, any asset version stored in the Vault can refer to any other asset versions stored in the Vault that is in some way related.
+    </p>
+    <p num="17">
+      The contents component of asset data objects include for example, scanned-in line drawings, drawings that are inked and painted, backgrounds, inspirational artwork, color models, 3D models, x-sheets, and production spreadsheets.
+      <br/>
+      In addition, complex assets can be defined which comprise a combination of assets.
+      <br/>
+      For example, a sequence asset can comprise a combination of assets each comprising a single frame.
+      <br/>
+      In addition, the present invention can also be used to track non-digital assets such as film, analog and/or `off-line` recordings, as well as paper drawings and the like.
+      <br/>
+      In this case, the metadata component of the non-digital data asset typically discloses, among other things, the actual physical location of the non-digital contents component of the asset data object.
+    </p>
+    <p num="18">
+      Assets are defined and represented through an application programming interface (API), which is used as a uniform layer on top of the DBMS(s) and file system(s) which are typical implementations of the asset bank of the present invention.
+      <br/>
+      The API is implemented with a standard object-oriented class library (OOCL).
+      <br/>
+      Multimedia production tools can use the utilities provided by the OOCL to convert their multimedia data to assets of the type and format required by the Vault according to the present invention.
+      <br/>
+      Likewise, multimedia production tools can use the utilities provided by the OOCL to convert data assets retrieved from the Vault into multimedia data types and formats required by the multimedia production tool.
+    </p>
+    <p num="19">
+      Assets are implemented using a technique referred to herein as `data modeling`. Data modeling provides the support for the inquiry of assets during runtime.
+      <br/>
+      For example, at runtime, a multimedia production tool can determine information pertaining to any asset in the Vault.
+      <br/>
+      This enables the generation of a class of tools that can be used to work with all types of assets, including those that may be newly defined during the production process.
+      <br/>
+      For example, a generic browser can be implemented to convey detailed information about assets of any type, by using the run-time inquiry feature provided by an implementation of the present invention.
+    </p>
+    <p num="20">In addition, the present invention provides utilities which support the construction of common services which can include without limitation: checkin/checkout; asset version control; asset searches (including relational and indexed); access permissions to assets; support for Constant Frame Rate (`CFR`) for movie and video playback; and support for work flow management.</p>
+    <p num="21">
+      In particular, the present invention consists of a Vault for the permanent storage of assets.
+      <br/>
+      In addition, a class library (API) is provided as an interface between multimedia production tools and the Vault.
+      <br/>
+      The collection of assets, and services provided by the class library are all extensible over time during entertainment product authoring, without re-implementing existing assets.
+    </p>
+    <p num="22">
+      Note that in the instant disclosure, many of the examples contained herein, refer to the production of a feature animation film.
+      <br/>
+      However, it should be appreciated that the descriptions and examples are used herein to particularly point out the principals of the present invention, and such examples should not be construed to limit the scope of the present invention.
+      <br/>
+      As stated the present invention applies to all types of multimedia works.
+    </p>
+    <p num="23">Features and Advantages</p>
+    <p num="24">General</p>
+    <p num="25">A feature of the present invention is that it provides support so that a diverse variety of multimedia development tools which operate on a diverse variety of multimedia data can be integrated into an efficient, consistent and uniform environment for the production of multimedia works.</p>
+    <p num="26">Another feature of the present invention is that it provides support for consistent and orderly cataloging and archiving.</p>
+    <p num="27">An advantage of the present invention is that the cataloging and archiving features, facilitates reusing multimedia among diverse projects thereby reducing and/or eliminating costly and time-consuming authoring processes.</p>
+    <p num="28">Another feature of the present invention is that it can be used with commercial off-the-shelf database management systems for the storage, retrieval, indexing and general management of multimedia data.</p>
+    <p num="29">Versioning</p>
+    <p num="30">Another feature of the present invention is that it provides support for different versions of assets.</p>
+    <p num="31">Another feature of the present invention is that it provides support for branch versioning of assets.</p>
+    <p num="32">Hierarchical Storage Management</p>
+    <p num="33">Another feature of the present invention is that it provides support for hierarchical storage of assets.</p>
+    <p num="34">Relationships Among Assets</p>
+    <p num="35">Another feature of the present invention is that it provides support for relationships between assets including asset derivation.</p>
+    <p num="36">User Defined Types</p>
+    <p num="37">
+      Another feature of the present invention is that it provides support for user defined assets.
+      <br/>
+      Such user defined assets can be defined dynamically in a run-time environment.
+    </p>
+    <p num="38">Shared Development</p>
+    <p num="39">Another feature of the present invention is that it provides support for access control and replication of assets.</p>
+    <p num="40">Another feature of the present invention is that it provides checkout/checkin functions to facilitate control of multimedia assets during shared development processing.</p>
+    <p num="41">Data Integrity and Availability</p>
+    <p num="42">
+      Another feature of the present invention is that it provides for the control over assets integrity by detecting lost or corrupted assets.
+      <br/>
+      Additionally, corrupted or lost assets can be corrected upon detection by restoring such assets from backup tapes or the like.
+    </p>
+    <p num="43">Another feature of the present invention is that it supports different user selectable levels of fault tolerance where each level specifies the importance of immediate access to specific assets.</p>
+    <p num="44">Off-line Storage</p>
+    <p num="45">Another feature of the present invention is that it provides support for automatic incremental backups and/or full backups into off-line storage.</p>
+    <p num="46">
+      An advantage of the present invention is that it provides support so that a user can search and browse off-line assets as easily as one can search and browse on-line assets.
+      <br/>
+      Additionally, a user can easily bring assets offline and/or on-line.
+    </p>
+    <p num="47">Interoperability</p>
+    <p num="48">Another feature of the present invention is that it supports data translation.</p>
+    <p num="49">An advantage of the present invention is that it is easy to import and export assets to and from the file system.</p>
+    <p num="50">Distribution</p>
+    <p num="51">Another feature of the present invention is that all functions provided are accessible from client stations over a computer network.</p>
+    <p num="52">Another feature of the present invention is that it provides for the storage and retrieval of assets to and from multiple machines and multiple platforms.</p>
+    <p num="53">An advantage of the present invention is that it supports a variety of client platforms.</p>
+    <p num="54">Another feature of the present invention is that it provides an open architecture such that a variety of data base management systems (DBMSs) manufactured by a variety of vendors can be used.</p>
+    <p num="55">Searching/Browsing</p>
+    <p num="56">Another feature of the present invention is that it supports multiple indices for retrieval of data and assets.</p>
+    <p num="57">Another feature of the present invention is that it supports keyword searching including a cataloging system for keyword definition and tagging.</p>
+    <p num="58">An advantage of the present invention is that it provides support for consistent and user-friendly methods for expressing queries and browsing assets.</p>
+    <p num="59">Another advantage of the present invention is that it provides support for automatic cataloging when assets are created.</p>
+    <p num="60">
+      Another feature of the present invention is that it provides support for thumbnails and previews for all appropriate assets.
+      <br/>
+      A preview is a method to view an asset in a lower-than-normal-resolution.
+      <br/>
+      The preview of a video clip, for example, may be the first and last frame plus user selectable intermediate frame(s) from the clip at a lower frame resolution.
+    </p>
+    <p num="61">Usability</p>
+    <p num="62">An advantage of the present invention is that it is fast and it uses storage space efficiently.</p>
+    <p num="63">Another feature of the present invention is that a user can launch an asset's application (if available) from the asset's thumbnail/icon.</p>
+    <p num="64">Security</p>
+    <p num="65">Another feature of the present invention is that it provides support for various levels of access control.</p>
+    <p num="66">Extensibility</p>
+    <p num="67">Another feature of the present invention is that its architecture is modular and extensible.</p>
+    <p num="68">Application Integration</p>
+    <p num="69">Another feature of the present invention is that it supports integration with production management, such as notification when changes have been made to assets.</p>
+    <p num="70">
+      Another feature of the present invention is that it does not require immediate modifications to existing applications that are to be used as clients (described below).
+      <br/>
+      Instead, the present invention provides a path for clients to become more tightly integrated with the present invention at selectable paces and timings as desired.
+    </p>
+    <p num="71">Constant Frame Rate Delivery</p>
+    <p num="72">
+      Another feature of the present invention is that it supports frame accurate playback of video and audio.
+      <br/>
+      This is used for viewing work-in-progress, for instance.
+      <br/>
+      The constant frame rate delivery feature works on a variety of client platforms and a variety of connectivity means.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE FIGURES</heading>
+    <p num="73">
+      The present invention will be described with reference to the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 is a block diagram depicting the structure and the architecture according to an embodiment of the present invention;
+      <br/>
+      FIG. 2 is a block diagram depicting a typical operating environment according to an embodiment of the present invention;
+      <br/>
+      FIG. 3 is a block diagram depicting a representation of a data object according to an embodiment of the present invention;
+      <br/>
+      FIG. 4 is a block diagram depicting a representation of a family tree of versions of data assets according to an embodiment of the present invention;
+      <br/>
+      FIG. 5 is a block diagram depicting a representation of a data object represented by references to other assets;
+      <br/>
+      FIG. 6 is a block diagram depicting a representation of a tree of data assets according to an embodiment of the present invention;
+      <br/>
+      FIG. 7 is a block diagram depicting the structure of an embodiment of the present invention;
+      <br/>
+      FIG. 8 is a block diagram depicting the constant frame rate support according to an embodiment of the present invention;
+      <br/>
+      FIG. 9 is a block diagram depicting two asset management tools according to an embodiment of the present invention; and
+      <br/>
+      FIG. 10 is a flowchart depicting a process used to develop an asset management tool according to an embodiment of the present invention.
+      <br/>
+      FIG. 11 is a block diagram of an asset table and plurality of metadata tables according to a preferred embodiment of the present invention.
+    </p>
+    <p num="74">In addition, a program listing comprising the application programming interface, according to a preferred embodiment of the present invention is presented in the Appendix below.</p>
+    <p num="75">
+      In the drawings, like reference numbers generally indicate identical, functionally similar, and/or structurally similar elements.
+      <br/>
+      The drawing in which an element first appears is indicated by the leftmost digit(s) in the reference number.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="76">
+      The present invention provides a means for bringing compatibility and uniformity to multimedia production environments by providing common programming tools to be used in a common environment by diverse multimedia production tools.
+      <br/>
+      The programming tools include a plurality of utilities and services related to the management, organization, and storage of multimedia data.
+      <br/>
+      In addition, such programming tools can include a plurality of user interface components to facilitate a common look and feel between the diverse multimedia production tools.
+    </p>
+    <p num="77">
+      The present invention also provides services and utilities for indexing, storing, retrieving, searching, and generally managing and manipulating all of the multimedia data created or used during a multimedia production process.
+      <br/>
+      The present invention provides for implementation of these features through the use of one or more commercial off-the-shelf data base management systems (DBMSs).
+      <br/>
+      Thus, a production studio implementing an embodiment of the present invention simply attaches one or more of the supported DBMS(s), to implement the file management features of the present invention.
+    </p>
+    <p num="78">
+      All multimedia data created and used during the production process are organized by the present invention into data objects that are referred to herein as assets.
+      <br/>
+      Each asset comprises two components, namely, a contents component and a metadata component.
+      <br/>
+      The metadata component comprises information about an asset, while the contents component comprises actual multimedia data, which is typically a digital representation of a visual and/or audio data object.
+    </p>
+    <p num="79">
+      In order to distinctly point out the principles of the present invention, an example environment of an implementation of the present invention will be described herein.
+      <br/>
+      This example environment described herein is a shared multimedia development environment which is implemented by using the present invention.
+      <br/>
+      This development environment is referred to as the `Asset Management System` or more simply, the `AMS`.
+    </p>
+    <p num="80">
+      Referring now to FIG. 1, the AMS development environment comprises the following.
+      <br/>
+      A plurality of `asset management tools` 102a, 102b, . . . 102n (generally 102) (also referred to herein as `AMS clients`).
+      <br/>
+      The asset management tools 102 interface with the present invention via the StudioLib 104 and/or the Vault API 106.
+      <br/>
+      Note that the StudioLib 104 and the Vault API 106 comprises the program resources provided by the present invention, which is collectively referred to herein as the program resources 100.
+      <br/>
+      Multimedia data objects are logically stored and represented by assets in one or more Vault repositories 108a, 108b, . . . 108n (generally 108).
+      <br/>
+      Assets are physically stored by one or more asset storage servers 109a, 110b, . . . 110n (generally 110).
+      <br/>
+      The asset storage servers 110 interface with each Vault repository 108 through the asset storage APIs 109a, 109b, . . . 109n (generally 109).
+      <br/>
+      As will be described below, each asset storage server 110 comprises at least one metadata server for the metadata components of assets, and at least one content server for the content component of assets.
+    </p>
+    <p num="81">
+      The asset management tools 102 typically include a variety of content creation tools which editors, artists and the line uses to create and edit multimedia content data.
+      <br/>
+      Such tools can include for example, video film editors, painting programs, three-dimensional modeling utilities and animation tools.
+      <br/>
+      Asset management tools may be commercial off-the-self type tools or tools that are developed according to particular needs.
+    </p>
+    <p num="82">
+      Asset management tools are referred to herein as being `AMS aware`. A presently existing or newly created multimedia production tool can become an asset management tool 102 by integrating its program code with an embodiment of the present invention.
+      <br/>
+      The level of integration depends on the needs and/or desires of the tool developer.
+      <br/>
+      A tool that uses few of the services and utilities of the present invention is referred to as being less integrated or less AMS aware, than a tool that uses more of the available services and utilities provided by the present invention.
+      <br/>
+      Thus, tool developers can become increasingly integrated with the present invention at their own paces and timings.
+    </p>
+    <p num="83">
+      Asset management tools 102 can also include stand-alone utilities that generally provide services that operate on the assets stored in the Vault repositories 108.
+      <br/>
+      The services provided by such stand-alone asset management tools 102 can include for example, checking in, checking out, browsing, navigating, tagging, cataloging and previewing such assets.
+    </p>
+    <p num="84">
+      Stand-alone asset management tools 102 can also be developed to be used as an interface between non-AMS aware application programs and the asset management system of the present invention.
+      <br/>
+      For example, instead of modifying an existing content creation tool to become AMS aware, a stand-alone tool can be developed that is not only AMS aware, but is also aware of the multimedia data file management system used in the non-AMS aware program.
+    </p>
+    <p num="85">
+      For example, suppose a developer of a complex video editing tool would like such tool to be integrated with the asset management facilities provided by the present invention without making any changes therein.
+      <br/>
+      Alternatively, suppose a tool developer other than the developer of the complex video editing tool would like to provide a utility program that allows the complex video editing tool to use the asset management facilities provided by the present invention.
+      <br/>
+      In either case, instead of modifying the code and rebuilding the complex video editing tool so that it is directly integrated with an embodiment of the present invention, a relatively small stand-alone AMS aware checkin/checkout tool can be developed.
+      <br/>
+      This stand-alone tool acts as an interface between the asset management system of the present invention and the multimedia file management system of the complex video editing tool.
+      <br/>
+      In this fashion, an existing unmodified content creation tool can be seemingly integrated into the production system environment of the present invention.
+      <br/>
+      Examples of this concept will be subsequently provided herein with reference to FIG. 2.
+    </p>
+    <p num="86">
+      As stated, the present invention provides program resources 100.
+      <br/>
+      Such program resources 100 are typically embodied in various APIs, objects, library functions, and the like.
+      <br/>
+      The program resources 100 depicted in the example environment in FIG. 1 includes the StudioLib 104 and the Vault API 106.
+      <br/>
+      Asset management tools interact with assets via the services provided by the StudioLib 104 and/or the Vault API 106.
+    </p>
+    <p num="87">
+      In addition to services such as user interface dialogs (described below), the StudioLib 104 provides a means to define assets which are stored and managed by the present invention.
+      <br/>
+      As stated, all multimedia data created and used during the production process are organized by the present invention into data objects that are referred to herein as assets.
+      <br/>
+      Each asset comprises two components, namely, a contents component and a metadata component.
+      <br/>
+      The metadata component comprises information about an asset, such as its storage location, creation date, creator, etc.
+      <br/>
+      The contents component comprises the actual multimedia data, which is typically a digital representation of a visual and/or audio data object.
+    </p>
+    <p num="88">
+      Referring now to FIG. 10, a process used by a tool developer to develop an asset management tool 102 (i.e. a tool that is AMS aware), is depicted.
+      <br/>
+      The process begins with step 1002 and immediately continues with step 1004.
+      <br/>
+      Step 1004, which is typically the first step in the design process, represents a key and fundamental design decision.
+      <br/>
+      In step 1004 the tool developer designs the composition and structure of each of the assets that may be created or otherwise used by the asset management tool 102.
+    </p>
+    <p num="89">
+      Each tool can define one or more asset types.
+      <br/>
+      In making this decision, the tool developer decides what type of information is to be included for each instance of each asset type.
+      <br/>
+      In other words, the tool developer in step 1004, defines the set of attributes and the ranges of values permitted for such attributes, that comprise the metadata component for each asset type that is to be defined in step 1006.
+    </p>
+    <p num="90">
+      Many common attributes such as object IDs, names of creators, dates, times, etc., are predefined for all asset types by the programming resources 100 of the present invention.
+      <br/>
+      In addition, other unique attributes not included in the predefined list of attributes, can be defined and selected via the programming resources 100 provided by the present invention.
+    </p>
+    <p num="91">
+      In step 1006, classes of objects provided by the StudioLib object library 104 are used to construct the asset types designed in step 1004.
+      <br/>
+      As will be described below, these classes are subclasses of a predefined base class of object provided by the present invention.
+      <br/>
+      As part of the definition of an asset type, the name, attributes, and legal ranges of values for the attributes are registered with a object referred to herein as the `Data Model Manager`. This information is used by the cataloging function in step 1008 to ensure that all necessary metadata about an asset are obtained and stored with the asset in the Vault.
+    </p>
+    <p num="92">
+      Next in step 1008, programming code is supplied to provide for a cataloging function for each asset type defined in step 1006.
+      <br/>
+      As will be described in more detail below, a cataloging function involves assigning values to each of the attributes included in the metadata component for each asset defined in step 1006.
+      <br/>
+      Typically, this will take place either upon creating a new asset or when new assets are checked into the Vault 108.
+      <br/>
+      In any case, all attributes values should be assigned before an asset is checked into the Vault 108.
+    </p>
+    <p num="93">
+      Some of the attribute values, such as time, date, and object size is typically filled-in automatically under program control.
+      <br/>
+      Other attributes are typically supplied by the creator or user of the asset management tool 102.
+      <br/>
+      Thus, support code for user interaction, typically implemented in the form of a dialog box or the like, is provided in step 1008.
+      <br/>
+      Additionally, a selection of common user interface functions may be provided by the program resources 100 of the present invention to facilitate the implementation of such services and to provide a common look and feel among diverse asset management tools 102.
+      <br/>
+      Note that the programming code of step 1008 consults the Data Model Manager for information about the asset type inserted in step 1006 to determine what attributes to request from the user.
+      <br/>
+      The programming code also uses this asset type (or data model) information in the Data Model Manager to ensure that values supplied by the user fall within the allowed ranges.
+    </p>
+    <p num="94">
+      Note that not all asset management tools 102 will support cataloging.
+      <br/>
+      In general, cataloging is supported by asset managment tools that provide a means for defining assets and/or checking in assets to the Vault repostiories 108.
+      <br/>
+      However, some asset managment tools, such as asset browsers and the like, may not provide asset definition or checkin functions.
+      <br/>
+      Thus, if such functions are not provided, step 1008 is bypassed and the process continues with step 1010.
+    </p>
+    <p num="95">
+      In step 1010, the tool developer provides support code for the checkin and checkout procedures.
+      <br/>
+      Again, most, but not all asset management tools 102 typically support these functions.
+      <br/>
+      Thus, if such functions are not provided, step 1010 is bypassed and the process continues with step 1012.
+      <br/>
+      If checkin and/or checkout is supported, the support code typically comprises code in the form of user interface components and the like.
+      <br/>
+      For example, a user typically selects which asset is to be checked in or checked out, and the location of the source and destination of such assets.
+      <br/>
+      After the required information is gathered via the user interaction or otherwise, a call via the program resources 100 provided by present invention is made to perform the actual checkin or checkout service.
+    </p>
+    <p num="96">
+      In addition, some asset types may require specialized checkin and/or checkout procedures.
+      <br/>
+      For example, an asset type that has contents in multiple files in the local work area, may have a specialized checkin procedure that gathers all the multiple files before calling the checkin routine provided by the program resources 100.
+      <br/>
+      Similarly, a specialized checkout procedure may also be provided to restore the contents of an asset into its original multiple files and/or locations within the local work area.
+    </p>
+    <p num="97">
+      In step 1012, the tool developer provides support code for other program functions that are supplied by the asset management tool via the program resources 100 of the present invention.
+      <br/>
+      Which functions are used depends upon what type of asset management tool 102 is being implemented.
+      <br/>
+      For example, some tools may have browsing or searching capabilities.
+      <br/>
+      Thus, depending on the functionality of the asset management tool 102, different program resources 100 of the present invention will be utilized and thus different support code will be required.
+    </p>
+    <p num="98">
+      Next as step 1014 indicates, the programming code of the asset management tool is built via a compiler or the like, and is linked with the program resources 100 provided by the present invention.
+      <br/>
+      Thus, an asset management tool 102 is created that is AMS aware.
+      <br/>
+      Next as step 1014 indicates, the process ends.
+    </p>
+    <p num="99">
+      Typically, each asset management tool 102 defines its own unique types of assets.
+      <br/>
+      However, it is also common in production environments to have several tools that operate on the same types of assets.
+      <br/>
+      For example, in an animation film studio environment, common assets such as storyreels, sequences, scenes, cels and projects may be defined via the StudioLib 104.
+    </p>
+    <p num="100">
+      Complex assets may refer to other assets and thus comprise a plurality of individual data files.
+      <br/>
+      For example, an asset defined as a sequence type (which represents a video clip, for example), can comprise a plurality of individual data files, each representing a single frame of the video sequence.
+      <br/>
+      Each still frame image is stored as a single data file.
+      <br/>
+      However, because the present invention allows asset management tools 102 to refer to assets types, asset management tools 102 need not specify each data file that comprises an asset.
+      <br/>
+      For example, an asset management tool 102 which operates on sequence data objects, only needs to specify a name of a sequence asset.
+      <br/>
+      The StudioLib 104 automatically translates the sequence asset into the plurality of individual components that comprise the sequence.
+      <br/>
+      Accordingly, the plurality of data files that comprise the sequence are stored, and/or retrieved to and from the asset storage system of the present invention (described below).
+      <br/>
+      Thus, the conversion of a sequence asset is transparent to the users and the asset management tools 102.
+      <br/>
+      Consequently, consistency among a variety of asset management tools is accomplished by using common asset definitions among diverse asset management tools.
+    </p>
+    <p num="101">
+      For example, suppose that two video tools (such as 102a and 102b), operate on video sequence type data.
+      <br/>
+      Further suppose that each tool (102a and 102b) formats data differently in terms of their internal or tool-unique representations (i.e. unique data types, file hierarchy etc. ).
+      <br/>
+      However, once data objects are checked-in to the asset management system of the present invention, (for example as an asset of type sequence), they are automatically converted from their internal tool-unique representations to a representation that is compatible with the asset management system of the present invention.
+      <br/>
+      Thus, a sequence type asset created by either tool can be subsequently checked out by either tool.
+      <br/>
+      Upon checkout, the reverse transformation takes place.
+      <br/>
+      That is the asset that is compatible with the asset management system of the present invention, is transformed into the tool-unique representation of whichever tool checks out the asset.
+      <br/>
+      Either tool can then modify the asset, and, if desired, check it back into the system.
+      <br/>
+      In this fashion, two tools which were previously incompatible with each other, are now able to operate and modify data that was created by the other tool.
+      <br/>
+      Furthermore, all of the necessary transformations of data are transparent to both the user of each tool and to the tools themselves.
+    </p>
+    <p num="102">
+      To illustrate this process, refer to FIG. 9.
+      <br/>
+      In FIG. 9 the video editor 1 902 creates a video sequence (depicted as a city 902).
+      <br/>
+      Video editor 902 stores the sequence into its local storage facility 904, as 8 individual still frame image files.
+      <br/>
+      The video editor 1 902 then checks-in the video sequence as an asset of the type sequence 906, into the Vault 108.
+      <br/>
+      Later, video editor 2, which also operates on assets of the type sequence 906, checks out the sequence 906.
+      <br/>
+      The sequence 906 is translated into 8 individual still frame image files in a format and structure that is unique to video tool 2 910.
+      <br/>
+      Note that internal tool-unique representations of the sequence asset is different within the local storage of video editor 1 904 and video editor 2 908.
+      <br/>
+      Notwithstanding this incompatibility both video editors 902 and 910 can share data assets that are provided to and from the Vault 108.
+    </p>
+    <p num="103">
+      Additionally, the StudioLib 104 provides user interface services which can be called upon by asset management tools 102.
+      <br/>
+      This feature of the present invention provides a means to provide consistent user interfaces among a variety of diverse asset management tools 102.
+      <br/>
+      For example, a video editing tool (such as tool 902) calls upon the user interface services of the StudioLib 104, so that dialog box related to the retrieval of a video sequence data object is displayed to the user.
+      <br/>
+      A different asset management tool that operates on sequence data (such as tool 910), can also call upon the StudioLib 104 to produce the same dialog box as used by the video tool 902.
+      <br/>
+      Thus, not only can the two diverse tools 902 and 910, share data assets, but consistency in terms of user interfaces can also be accomplished.
+      <br/>
+      Similarly, other types of dialog boxes and other user interface components provided by the StudioLib 104, can provide a common `look and feel` among diverse variety of asset management tools 102.
+    </p>
+    <p num="104">
+      As stated, assets are logically stored in a Vault repository 108a, 108b, . . . 108n. That is, as far as the user, and the asset management tools 102 are concerned, all assets are stored in one or more named Vault repositories 108 (described below).
+      <br/>
+      Thus, for the purposes of the present disclosure, an asset is said to be stored in the Vault repository 108 or more simply the Vault 108.
+      <br/>
+      However, the actual physical location of assets (which are typically transparent to the user and the asset management tools 102), are provided by one or more asset storage servers 110, as previously described.
+    </p>
+    <p num="105">
+      In one embodiment, the asset management server(s), 112 is (are) implemented using a DBMS for indexing and one or more file system volumes for the storage of the assets.
+      <br/>
+      The file system volumes can be located in various content servers which may reside in a single computer system or may be distributed among various content servers connected to the AMS 100, via a computer network or other connection (not shown).
+      <br/>
+      The system administrative function of the present invention (described below) defines these parameters.
+    </p>
+    <p num="106">Each of the components of the present invention, the asset management tools 102, the Vault API 106 and the StudioLib 104 will now be described in more detail below.</p>
+    <p num="107">Asset Management Tools 102</p>
+    <p num="108">
+      Multimedia production tools that may become asset management tools 102, are those tools, utilities, and complex multimedia development systems, which are typically provided by a variety of manufacturers.
+      <br/>
+      Such manufacturers can use the present invention to modify their program code to convert their tools into asset management tools 102, according to the present invention.
+      <br/>
+      As stated, asset management tools 102 typically include a variety of content creation tools such as video film editors, painting programs, three-dimensional modeling utilities and animation tools.
+    </p>
+    <p num="109">
+      In addition asset management tools 102 can include stand-alone utilities that provide services which operate on various types of multimedia assets which are stored and managed by the underlying DBMS and file systems.
+      <br/>
+      The services provided by such stand-alone asset management tools 102, can include for example, retrieving, storing, browsing, navigating, tagging, cataloging and previewing assets.
+    </p>
+    <p num="110">
+      The services provided to asset management tools 102 by the present invention fall into five primary functions as follows: checkin/checkout; catalog; browse; query; and system administration.
+      <br/>
+      Examples of each of these functions will now be described below.
+    </p>
+    <p num="111">Checkin/Checkout (CICO)</p>
+    <p num="112">
+      Checkin is an operation that puts a new asset or a new version of an existing asset into the Vault repository 108.
+      <br/>
+      Checkout is an operation that retrieves a specified version of an asset from the Vault repository 108.
+      <br/>
+      Optionally a user may checkout an asset and lock the asset to inhibit another user from modifying the same asset.
+      <br/>
+      If this option is used, later checkin will only be permitted by the lock holder, which is typically the user that locked the asset upon checkout.
+      <br/>
+      If an asset is locked, other users are prevented from modifying the asset in any way, including the storage of a new version of the locked asset.
+    </p>
+    <p num="113">
+      As stated, for some tools, CICO occurs transparently to the user (i.e. the user does not have to deal with the transfer to or from the Vault repository 108 explicitly).
+      <br/>
+      Such tools are referred to herein as being AMS aware.
+      <br/>
+      Other tools may not be integrated with the AMS.
+      <br/>
+      As such, these non-AMS aware tools may require additional steps to perform explicit CICO procedures via standalone applications, as previously described as will be further described below.
+    </p>
+    <p num="114">Cataloging (assigning attributes)</p>
+    <p num="115">
+      Cataloging is a process for specifying values for an asset's attributes.
+      <br/>
+      Cataloging may occur on two occasions: (1) each time an asset is checked in; and/or (2) during archival.
+      <br/>
+      At checkin time, some attributes are filled-in automatically.
+      <br/>
+      For example, the file size, modification date and time, creator, may all be filled-in automatically, under program control.
+      <br/>
+      Other asset attributes are provided by the user.
+      <br/>
+      For example, keywords used for searching, and indexing, names of attributes, and other comments are typically filled-in manually by users.
+      <br/>
+      At archival time, an archivist may add additional keywords to the asset attributes via the cataloger tool, if desired.
+      <br/>
+      As described previously, the cataloging function may be helped by the use of the Data Model Manager object provided in StudioLib 104.
+      <br/>
+      The Data Model Manager helps the cataloging function ensure that all the necessary attributes of an asset type are supplied for check in and that the values are within the permitted ranges.
+    </p>
+    <p num="116">Browsing and Querying</p>
+    <p num="117">
+      The contents of the Vault repository 108 are organized into structures that are useful to the user.
+      <br/>
+      Organization is a task that is typically performed by a system administrator or the like.
+      <br/>
+      For example, it would be convenient to collect all assets that are created for a particular animation feature under a single asset tree.
+      <br/>
+      In this example, the root of the tree is an object that represents the production.
+      <br/>
+      Leaves represent the sequences of the feature.
+      <br/>
+      In addition, the leaves of a sequence represents the scenes that make up the sequence.
+      <br/>
+      A scene, in turn, may comprise subtrees that represent the `ruff,` `cleanup` and `color` variants of the scene.
+    </p>
+    <p num="118">
+      Browsing is accomplished when a user navigates through an asset tree.
+      <br/>
+      While browsing, the user views the contents of an asset tree and the nodes and leaves that comprise the assets of a particular tree.
+      <br/>
+      Browsing is very much like navigating the directory hierarchy of a file system.
+    </p>
+    <p num="119">
+      Querying involves describing the assets of interest, rather than navigating through the structure of the Vault repository 108.
+      <br/>
+      A query is formed by specifying the desired values for asset attributes, including keywords.
+      <br/>
+      When the query is executed, a set of matching assets is returned.
+      <br/>
+      The user can then browse through this set, rather than browse through the entire Vault repository 108.
+    </p>
+    <p num="120">System Administration</p>
+    <p num="121">The activities that fall under system administration can include: configuring content servers (described below); specifying the content servers where different assets should be placed; setting access controls; specifying which versions of assets should be kept online, nearline and offline storage; specifying how many copies of (a version of) an asset to have online for performance and availability reasons and where these copies should be placed; systematic monitoring and reporting of AMS operations; and periodic adjustments to configurations to maintain proper performance.</p>
+    <p num="122">
+      These activities may be performed manually by a system administrator or production manager, or automatically, under program control of a production management system.
+      <br/>
+      In either case, operational policies are typically set by the production managers after consulting the producers and directors.
+    </p>
+    <p num="123">Examples of Tools and their use of the Vault 108</p>
+    <p num="124">
+      In FIG. 2, an example operating environment of the present invention is depicted.
+      <br/>
+      In this example, four studio production tools 202, 204, 206 and 208 are depicted.
+      <br/>
+      This example environment shows the various methods in which diverse production tools running on diverse computer platforms can become integrated with a production environment according to the present invention.
+      <br/>
+      Production tools 202, 204, 206 and 208 are interconnected via appropriate connectivity means such as a computer network (not shown).
+      <br/>
+      Additionally each production tool is connected via appropriate connectivity means such as a computer network (not shown) to the Vault repository 108.
+    </p>
+    <p num="125">
+      Production tool 202 depicts the use of a stand-alone Checkin/Checkout tool 214, as a means for interfacing with the Vault 108.
+      <br/>
+      In this example, system 202 includes an editor's tool 210.
+      <br/>
+      The edit system may be executed on different computer platforms and/or different computer systems for example, a Silicon Graphics, Inc. (SGI) computer system or a Macintosh (`Mac`) computer system.
+      <br/>
+      In this example, suppose the user on the computer system 202 requests a data asset of the type `storyreel`(not shown) which is stored in a Vault repository 108.
+    </p>
+    <p num="126">
+      The Edit System 210 is a tool that is not AMS aware.
+      <br/>
+      Nevertheless, the Edit System 210 is still an integrated part of the development environment provided by the present invention.
+      <br/>
+      This is accomplished through the use of the stand-alone asset management tool 214, which is AMS aware.
+      <br/>
+      In addition the stand-alone CICO tool 214 is specifically designed to work with the file management system 212 of the Edit system 210.
+      <br/>
+      Thus, for example, the stand-alone CICO tool 210 is used to checkout an asset from the Vault of the type storyreel.
+      <br/>
+      The storyreel asset is then transformed via program resources 100 residing in the CICO tool, into for example, the appropriate set of JPEG compressed OMF files that comprise the asset.
+      <br/>
+      These files are then delivered by the CICO tool 214 to the file system 221 in a unique-tool format that is required by the Edit System tool 210.
+    </p>
+    <p num="127">
+      As previously stated, the CICO 214 knows what it means to checkout an asset such as a storyreel.
+      <br/>
+      Thus, the user need not explicitly request each of the files associated with a storyreel.
+      <br/>
+      This knowledge is accomplished by a storyreel object in the StudioLib class library 104.
+      <br/>
+      It is in the checkin/checkout methods contained in the storyreel object that knowledge about particular applications (i.e. the Edit System's 210) use of file names and directory hierarchy is encapsulated.
+      <br/>
+      Thus, the user typically issues a simple checkin command, such as a keystroke, or a mouse click, to express a desire to work on the next version of the storyreel.
+      <br/>
+      The CICO tool 214 checks out the appropriate files comprising such storyreel and deposits them in the proper directory hierarchy, under the proper file names within the file system 212 contained in the computer system 202.
+    </p>
+    <p num="128">
+      After the user is finished modifying the storyreel, the standalone CICO tool 214 is executed so that the files from the file system 214 are checked into the appropriate Vault repository 108.
+      <br/>
+      As with checkout, a simple checkin command such as a keystroke, or a mouse click will be performed.
+      <br/>
+      The CICO tool 214 knows the directory hierarchy (contained in the file system 212) used to represent the storyreel and will determine which files have changed and needs to be checked in.
+      <br/>
+      The checkin tool will query the user if necessary, to complete attribute information (described below) as needed to be stored along with the storyreel into the Vault repository 108.
+    </p>
+    <p num="129">
+      Note that the storyreel assets in the user's file system 212 are outside the control of the present invention, and are not linked in any way to the storyreel assets in the Vault repository 108 of which they are a copy.
+      <br/>
+      Also these files within the file system 212 are not necessarily deleted at checkin.
+      <br/>
+      It all depends upon the policy that the checkin tool implements.
+    </p>
+    <p num="130">
+      In the second example, computer system 204 comprises an SGI workstation running an off-the-shelf animation software program 216 to generate three dimensional (3D) images.
+      <br/>
+      A 3D artist uses the Animation program 216 in exactly the same way as an editor uses the edit system 210.
+      <br/>
+      A 3D artist uses the workstation's stand-alone CICO tool 220 to checkout assets from the Vault repository 108 to the file system 218 for the Animation program 216. checkin is accomplished via the reverse procedure.
+      <br/>
+      Just as the CICO tool 214 knows what it means to checkin and/or checkout a storyreel, the CICO tools 220 knows how to checkin and/or checkout a project asset, which in this example, is the type of asset in which the animation program 216 operates upon.
+      <br/>
+      Note that tools 220 and 214 may be the stand-alone CICO tool.
+    </p>
+    <p num="131">
+      In a third example, the storyboard and layout tool 224 have the CICO library 226 incorporated in its address space.
+      <br/>
+      In other words, the storyboard and layout tool 224 is an integrated asset management tool that is AMS aware.
+      <br/>
+      Thus, typically, the CICO process is completely transparent to the user.
+      <br/>
+      The storyboard/layout tool 224 modifies the copies that are cached in its local file system 222, flushing them to the Vault repository 108 with calls to the CICO services as appropriate, according to the particular implementation of the asset management tool 206.
+    </p>
+    <p num="132">
+      Additionally, the storyboard and layout tool 224 can be used to call on the Vault repository 108 for other than checkout/checkin purposes.
+      <br/>
+      For example, such tool 224 can be used to read or modify attribute values and/or to read an asset directly.
+      <br/>
+      Preferably, such accesses to the Vault repository 108 will be supplied via objects in the StudioLib 104, but as previously stated, calls to the Vault API 106 may be made directly by an asset management tool, such as asset management tool 206.
+    </p>
+    <p num="133">
+      Another class of tool is a read-only type tool.
+      <br/>
+      Read only tools cannot modify assets in the Vault 108, and thus provide checkout procedures, but not support for checking assets into the Vault.
+      <br/>
+      An example of a read only tool is a movieplayer 208.
+      <br/>
+      The movie player tool is an example of a tool that is unique because assets read from the Vault repository 108 must be delivered at a particular rate, (e.g., 24 or 30 frames per second for movies and video respectively).
+      <br/>
+      The present invention provides support for constant frame rate (CFR) services by providing program resources 100 that are specifically designed for this purpose.
+      <br/>
+      In particular the CFR Delivery Agent (CDA) 230 and the CFR Delivery Server (CDS) 232 to support CFR.
+    </p>
+    <p num="134">
+      The movieplayer 208 functions as follows.
+      <br/>
+      When the movieplayer 208 plays a movie, it first makes a request of the CFR Delivery Agent (CDA) 230. The CDA selects a copy of the movie from which the desired frame rate could be delivered at that moment and from which network bandwidth to the movieplayer can be reserved.
+      <br/>
+      Once the disk and network bandwidth are reserved, the movieplayer 208 contacts the chosen copys CFR Delivery Server (CDS) 232 to get the contents.
+      <br/>
+      The CDS 232 is allowed access to the file where the Vault repository 108 stores the contents of the selected copy and reads directly from it to ensure that it can deliver the bits at the requested rate.
+    </p>
+    <p num="135">A more detailed description of the working and interactions of the movieplayer with Silicon Studio's CFR service is subsequently provided herein.</p>
+    <p num="136">The Vault Repositories 108 and the Vault API 106</p>
+    <p num="137">Features</p>
+    <p num="138">
+      The features provided by the Vault API 106 includes storage means for both metadata and content data.
+      <br/>
+      As stated, information about assets, such as attributes, etc., is referred to as the metadata component of the asset.
+      <br/>
+      The contents of an asset itself is referred to as the content component of the asset.
+      <br/>
+      Physically, the Vault repositories 108 are merely abstractions of one or more DBMS(s) and file system(s).
+      <br/>
+      However, as previously stated, for the sake of simplicity, assets are described herein as being stored in and retrieved from the Vault repository 108, or merely the Vault 108.
+      <br/>
+      A more detailed description of the physical implementation(s) of the storage and indexing of the Vault repository 108 are described herein.
+      <br/>
+      Below are examples of features that are provided by present invention via the Vault API 106.
+    </p>
+    <p num="139">Immutable Versions.</p>
+    <p num="140">
+      An asset is preferably stored as a collection of versions in the Vault repository 108.
+      <br/>
+      Whenever an asset is modified in the Vault repository 108, a new version is created for it.
+      <br/>
+      Preferably, old versions are never overwritten and may be accessed as needed, as long as they haven't been deleted explicitly by a system administrator or the like.
+      <br/>
+      Additionally, the Vault API 106 may support unversioned assets.
+      <br/>
+      Unversioned assets are overwritten if modified.
+      <br/>
+      An asset is typically declared as either Versioned or unversioned at creation time and it stays Versioned or unversioned from that point on.
+    </p>
+    <p num="141">Shared Development.</p>
+    <p num="142">
+      As previously stated, the Vault API 106 provides a checkin and checkout means for coordinating modifications of assets by multiple users of the present invention.
+      <br/>
+      A user may prevent others from modifying an asset by checking out the asset with a lock.
+      <br/>
+      The locking user then release the lock on the asset when such asset is subsequently checked-in, presumably after modifications have been made.
+    </p>
+    <p num="143">Cataloging.</p>
+    <p num="144">
+      Different attributes, e.g., type, date created, and keywords, may be associated with an asset when stored in the Vault repository 108.
+      <br/>
+      Many tools derive and store much of this associated information automatically on behalf of the user.
+      <br/>
+      Examples of such derived information may include the date and time an asset is created, as well as the identity of the creator.
+    </p>
+    <p num="145">Relationships Among Assets.</p>
+    <p num="146">
+      The present invention provides a means for users to link related assets within the Vault repository 108.
+      <br/>
+      For example, it may be reasonable to link a scene asset to the assets that are its frames, or a frame to the set of cels that were used to compose it, or a cel to the color model used to paint it.
+      <br/>
+      These relationships provide another means for capturing important information about assets.
+    </p>
+    <p num="147">Relative Naming.</p>
+    <p num="148">
+      Typically, users access assets through its relationships.
+      <br/>
+      The Vault API 106 provides support that facilitates this process.
+      <br/>
+      For example, with a scene in hand, a user may request the scene's first frame by simply querying the Vault API 106 for the asset which is named "frame�1�" in such scene.
+    </p>
+    <p num="149">Access Control</p>
+    <p num="150">
+      The Vault API 106 permits an authorized person, for example, the production manager, to specify who has access to particular public assets and who may modify particular public assets.
+      <br/>
+      In addition, individual users control when assets they are developing in their private workspaces, are to be made public and available to others, via the Vault repository 108.
+    </p>
+    <p num="151">Searching by Annotations.</p>
+    <p num="152">
+      Procedures that may be performed by a client with the searching support provided in the Vault API 106 include searching for annotations or keywords that are associated with an asset, via metadata, as previously described.
+      <br/>
+      For example, a user can launch a query for finding all backgrounds (one kind of annotation) that have a particular keyword (another kind of annotation).
+      <br/>
+      Another example, a user can launch a query for finding all drawings that are linked and painted by a particular user, for example, in the past month.
+    </p>
+    <p num="153">Accommodating New Asset Types.</p>
+    <p num="154">The present invention provides for the addition of new asset types, which may be stored in the Vault repository 108 without requiring that the Vault API 106 be recompiled or changed in any way.</p>
+    <p num="155">Hierarchical Storage Management (HSM).</p>
+    <p num="156">
+      The Vault repository 108 uses online, nearline and offline storage for holding the contents of the assets entrusted to it.
+      <br/>
+      The present invention provides support to implement various policies for migrating assets among these levels in the storage hierarchy.
+    </p>
+    <p num="157">Replicas.</p>
+    <p num="158">
+      The contents of assets in the Vault repository 108 may be distributed among content servers in different machines, including client workstations.
+      <br/>
+      An asset that is stored in the Vault may have multiple copies of its contents in various content servers to ensure better availability and performance.
+      <br/>
+      A user may change the number of copies and their locations dynamically.
+    </p>
+    <p num="159">Support for CFR Delivery.</p>
+    <p num="160">In addition, the Vault API 106 provides support (such as client control of content placement and direct access to content files) so CFR delivery of its assets may be implemented.</p>
+    <p num="161">Services</p>
+    <p num="162">
+      The services provided by the Vault API 106 are described below.
+      <br/>
+      The Vault API 106 supports three classes of objects, namely, repository objects 108, asset managers objects (not shown), and data objects (assets).
+      <br/>
+      Each of these classes of objects will be discussed below.
+    </p>
+    <p num="163">
+      As stated, a Vault repository 108 is an abstraction of a database.
+      <br/>
+      It serves as a container for data objects.
+      <br/>
+      A data object resides in exactly one repository.
+      <br/>
+      However, an object in a repository (such as repository 108a, for example), may reference objects in another repository (such as repository 108b, for example).
+    </p>
+    <p num="164">
+      An asset manager object maps repository names to repository objects 108.
+      <br/>
+      A user gains an object reference to a repository from the repository's asset manager.
+      <br/>
+      Typically a studio will have one asset manager per site.
+    </p>
+    <p num="165">
+      An organization may use a repository for any natural grouping of assets.
+      <br/>
+      Even though assets may be organized in finer grained units, a studio is just as likely to use one repository per feature production.
+      <br/>
+      In this case, everyone who is working on a particular production will use that production's repository to store and share their work.
+    </p>
+    <p num="166">
+      As stated, an asset is comprised of its contents (data) and metadata (i.e., data about the asset).
+      <br/>
+      The combination of data and its associated metadata is referred to herein as an AMS data object (or asset).
+      <br/>
+      An image is an example of contents.
+      <br/>
+      The information that the image is a JPEG 240 * 320 file is an example of metadata.
+      <br/>
+      To store a version of an asset in the Vault repository 108, such asset is be converted into an AMS data object.
+    </p>
+    <p num="167">
+      The asset's metadata are stored as attributes of its AMS data object.
+      <br/>
+      For example, the `type` attribute of an object may be set to the string `JPEG` to denote that the contents is a JPEG image.
+      <br/>
+      Contents may be saved with the AMS data object and stored in an content server of the Vault repository 108.
+      <br/>
+      Alternatively, the asset's contents may be stored outside of the Vault repository 108 and a pointer (e.g., file name) to where the contents are located stored as an attribute in the AMS data object.
+    </p>
+    <p num="168">
+      Preferably, the contents of each asset are stored directly in the Vault repository 108 so that the present invention can control and guarantee the integrity of such assets.
+      <br/>
+      Additionally, this method is preferred so that content based searches (e.g., adaptive pattern recognition) can be performed.
+      <br/>
+      However, it is sometimes impossible to store the contents of assets in the Vault repository 108.
+      <br/>
+      For example, non-digital contents such as paper drawings cannot be stored in the Vault 108.
+      <br/>
+      Thus, in this case, the Vault repository 108 merely contains a pointer to the locations where such contents are actually stored.
+    </p>
+    <p num="169">Metadata data tables</p>
+    <p num="170">
+      In a preferred embodiment of the present invention, attributes are stored in separate tables to facilitate efficient searching of assets stored within the Vault repositories 108.
+      <br/>
+      In addition, an asset table comprising all of an asset's metadata in the form of a `property list` comprising attributes (described below) is maintained.
+    </p>
+    <p num="171">
+      Referring now to FIG. 11, an asset table 1102 is depicted.
+      <br/>
+      In addition a plurality of separate tables 1106a, 1106b, . . . , 1106n (generally 1106) is depicted.
+      <br/>
+      The asset table 1102 comprises a plurality of asset entries 1104a, 1104b, . . . , 1104n (generally 1104).
+      <br/>
+      Each asset entry 1104 comprises two columns.
+      <br/>
+      The first column 1103 comprises the object-ids of each asset entry 1104.
+      <br/>
+      The second column 1105 comprises a `blob` data type comprising all of the attributes associated with each asset entry 1104.
+    </p>
+    <p num="172">
+      The attributes comprising the second column 1105 of each asset table entry 1104 comprises a variable number of attributes.
+      <br/>
+      In this example, only the data types for each attribute is depicted.
+      <br/>
+      For example, the types String, Integer, and Bool are depicted for entry 1104a.
+      <br/>
+      Each box depicted within the second column 1105 represents a particular attribute for the associated asset.
+      <br/>
+      Each attribute typically comprises three elements: (1) an attribute name; (2) an attribute value; and (3) a an attribute type.
+      <br/>
+      The type is selected from a predefined list of types.
+      <br/>
+      As will be described below, each predefined type is associated with one of the separate metadata tables 1106.
+      <br/>
+      Such types typically include types such as bool, char, date, float, long, string, object-id, blob, struct and vectors of the basic types.
+    </p>
+    <p num="173">
+      Note that each entry 1104a can have a variable number of attributes within the second column 1105.
+      <br/>
+      Each attribute is also stored in a separate metadata table 1106.
+      <br/>
+      For example, a string metadata table 1106a is depicted in FIG. 11. The string metadata table contains a plurality of entries 1108a, 1108b, . . . 108n (generally 1108).
+      <br/>
+      The string metadata table 1106a comprises all of the attributes of the type `String` contained in the asset table 1102.
+      <br/>
+      Similarly the Char metadata table 1106b comprises all of the attributes of type `Char` contained in the asset table 1102.
+      <br/>
+      Likewise, the Integer metadata table 1106n comprises all of the attributes of the type `Integer` contained in the asset table 1102.
+      <br/>
+      In a similar fashion, a separate metadata table 1106 is maintained for each predefined list of types that are valid types for attributes.
+      <br/>
+      Note that attributes of an asset are automatically split into the metadata tables 1106 by the present invention and is transparent to the asset management tools 102 that use programming resources 100.
+    </p>
+    <p num="174">
+      For example, as depicted by the arrow 1114, the `String` attribute (name and value) associated with the asset in entry 1104a, is stored in the String metadata table 1106a in entry 1108a.
+      <br/>
+      Note that the same entry 1108a also comprises an object-id which maps back to the asset represented by the entry 1104a in the asset table 1102, as depicted by the arrow 1110.
+      <br/>
+      Thus the object-id serves to link both tables together.
+      <br/>
+      Similarly, the `String` attribute associated with the asset entry 1104b is also stored in the String metadata table 1106a, as depicted by the arrow 1112.
+    </p>
+    <p num="175">
+      Similarly, as depicted by the arrow 1118, the `Char` attribute (name and value) associated with the asset in entry 1104b, is stored in the Char metadata table 1106b.
+      <br/>
+      Note that the same entry pointed to by the arrow 1118, also comprises an object-id which maps back to the asset represented by the entry 1104b in the asset table 1102, as depicted by the arrow 1116.
+      <br/>
+      Thus the object-id serves to link both tables together.
+    </p>
+    <p num="176">
+      This architecture facilitates fast and efficient search and query capabilities of the present invention.
+      <br/>
+      It also provides for a choice of whether to permit searching capabilities for particular assets.
+      <br/>
+      For example, if searching capabilities for a particular asset is not desired, the attributes associated with such asset is not duplicated within the separate metadata tables 1106.
+      <br/>
+      However, if searching capabilities are desired, the architecture of the separate metadata tables provides for fast and efficient searches.
+    </p>
+    <p num="177">
+      For example, suppose a list of all assets created by `John Doe` is desired.
+      <br/>
+      In this case, assume that an attribute named `Creator` having the type `String` has been predefined.
+      <br/>
+      Thus, a search of the string metadata table 1106a is conducted until a set of matches is found.
+      <br/>
+      The search is fast because each entry is known to contain only a string value.
+      <br/>
+      Finally, a list of assets, identified by the object-ids in the string metadata table 1106 is presented.
+    </p>
+    <p num="178">
+      Note that if only the asset table 1102 were provided, even a simple search such as the one in the preceding example, would be complex and inefficient, assuming that such table is made searchable.
+      <br/>
+      This is because each entry in the asset table comprises a variable set of attributes of different types.
+      <br/>
+      In addition, such attributes are presented in no particular order.
+      <br/>
+      Thus, each column in each entry 1104 in the asset table 1102 would have to be searched in order to look for a particular value of a particular asset.
+    </p>
+    <p num="179">Attributes and References</p>
+    <p num="180">
+      Preferably AMS data objects have a set of mandatory attributes (metadata).
+      <br/>
+      These attributes are: object-id, versionName, versionNumber, type, is Versioned, dateCheckedOut, dateCheckedIn, contentSize, accessControlList, and replicaLocations.
+      <br/>
+      Some of these are set automatically by the invention either when an asset is checked in or when it is checked out.
+    </p>
+    <p num="181">
+      In addition, there is another set that all AMS data objects are encouraged to include.
+      <br/>
+      These are: displayName, representationType, typeVersion, creators, description, notes, keywords, associatedApp, thumbnail, preview, derivedFrom, and physicalAssetLocations.
+    </p>
+    <p num="182">Each of these attributes will now be described in detail.</p>
+    <p num="183">Object-id</p>
+    <p num="184">This is a data object identifier that is provided by the Vault API 106 when an asset is created.</p>
+    <p num="185">versionName</p>
+    <p num="186">
+      This is the name of the object's branch in the version tree (e.g. `background` or `background.4.retouched`).
+      <br/>
+      Version names are unique within a repository.
+      <br/>
+      For new version trees, a name may be provided by the user, or the Vault API 106 will generate a unique name.
+    </p>
+    <p num="187">versionNumber</p>
+    <p num="188">
+      This field gives the version number of the object along its branch.
+      <br/>
+      For example, if the object is `background.4.retouched.3,` its version number is 3 (and its versionName is `background.4.retouched`).
+    </p>
+    <p num="189">displayname</p>
+    <p num="190">Clients may use this field to associate an alternative name with the data object.</p>
+    <p num="191">type</p>
+    <p num="192">This field contains a string that identifies the type of the asset, e.g. `image`.</p>
+    <p num="193">typeVersion</p>
+    <p num="194">This field may be used as a fine-grain distinction for the type of an asset.</p>
+    <p num="195">representationType</p>
+    <p num="196">
+      This field contains a string that identifies the representation or format of the asset.
+      <br/>
+      For example, an object of type `image` may have `GIF`, `TIFF`, etc. as its representational type.
+    </p>
+    <p num="197">isVersioned</p>
+    <p num="198">This can be TRUE of FALSE if the user created the asset as versioned or unversioned respectively.</p>
+    <p num="199">creators</p>
+    <p num="200">Name(s) of person(s) who created the data object.</p>
+    <p num="201">dateCheckedOut</p>
+    <p num="202">
+      Date the asset version was checked out for modification.
+      <br/>
+      Note: This value is set by the present invention.
+    </p>
+    <p num="203">dateCheckedIn</p>
+    <p num="204">
+      Date the asset version was checked in.
+      <br/>
+      Note: This value is set by the present invention.
+    </p>
+    <p num="205">contentSize</p>
+    <p num="206">
+      The size of the object's contents (not including metadata) in bytes.
+      <br/>
+      This value is set by the present invention.
+    </p>
+    <p num="207">description</p>
+    <p num="208">A paragraph or two to describe the asset version.</p>
+    <p num="209">notes</p>
+    <p num="210">Notes kept with the data object.</p>
+    <p num="211">keywords</p>
+    <p num="212">Keywords associated with the asset version.</p>
+    <p num="213">associatedApp</p>
+    <p num="214">Name of the application used to create the data object.</p>
+    <p num="215">thumbnail</p>
+    <p num="216">
+      This field contains the AMS data object identifier of the asset version's thumbnail.
+      <br/>
+      Generally, a thumbnail is a small (postage stamp sized) image of an asset, which may be used to display a representation of the contents of a version of a particular asset.
+      <br/>
+      Typically, a user can launch an assets's application (if available) from the thumbnail icon.
+    </p>
+    <p num="217">preview</p>
+    <p num="218">
+      This field contains the AMS data object id of the asset version's preview.
+      <br/>
+      For an image, a preview is typically a lower-resolution version of the image.
+      <br/>
+      For a video object, a preview may be lower-resolution versions of some choice segment.
+      <br/>
+      For CGI, a preview may be an image that contains polygons/trianglesAines.
+      <br/>
+      The idea is to give the user a representation of an asset in such a way that is fast and convenient, without having to display the actual contents of the asset, which in some cases may be time and/or resource consuming.
+    </p>
+    <p num="219">derivedFrom</p>
+    <p num="220">Identity of the AMS data object from which this one was created.</p>
+    <p num="221">replicaLocations</p>
+    <p num="222">This field tells how many copies there are of the object's contents and where in AMS they are located.</p>
+    <p num="223">physicalAssetLocation</p>
+    <p num="224">For a non-digital asset, this field may be used to remember how to find it, e.g. `building 21, shelf 14, bin 5`.</p>
+    <p num="225">accessControlList</p>
+    <p num="226">This field determines who is allowed access to the data object's digital contents.</p>
+    <p num="227">Additional (user defined) Attributes</p>
+    <p num="228">
+      In addition to those enumerated above, an AMS data object may have additional attributes stored with it.
+      <br/>
+      Each attribute is given a unique name, a type and a value.
+      <br/>
+      The type that is associated with an attribute is typically constrained to a predefined set, such as bool, char, long, string, etc.
+      <br/>
+      Typically every instance of the same asset type (e.g. cel, frame, scene, sequence, project), will use AMS data objects that have the same set of defined attributes.
+    </p>
+    <p num="229">References in Assets</p>
+    <p num="230">
+      As used herein, references (or relationships) are attributes whose values contain identifiers of other AMS data objects.
+      <br/>
+      Thumbnail, preview, and derivedFrom, as previously described, are references, for example.
+    </p>
+    <p num="231">
+      There are some asset types whose purpose it is to capture structure.
+      <br/>
+      Such assets do not possess content of their own.
+      <br/>
+      The main pieces of information such assets carry are the identities of the AMS data objects they refer to in their reference field, and possibly an ordering on such referenced objects.
+    </p>
+    <p num="232">
+      For example, referring now to FIG. 3, a scene 300 may be represented by an AMS data object 302.
+      <br/>
+      This object 302 has a `frame` attribute that references the sequence of JPEG images frame �1� 304, frame�2� 306, . . . Frame �5040� 308.
+      <br/>
+      Such AMS data objects that reference other objects are referred to herein as `structured objects`, in contrast to objects that do not reference other objects which are referred to as `simple objects`. An example of a simple object is the AMS data object represented by Frame �5040� 308.
+    </p>
+    <p num="233">
+      As stated, another reference that some asset types may define is derivedFrom which relates the asset to the AMS data objects from which it is derived.
+      <br/>
+      For example, an asset that is the result of composing three cels would be derivedFrom these three cels.
+    </p>
+    <p num="234">Versioning Assets in the Vault</p>
+    <p num="235">
+      In one embodiment of the present invention, assets in the Vault 106 are immutable.
+      <br/>
+      That is, whenever a user modifies an asset and checks it back into the Vault 106, a new version (a new asset with its own unique object) is automatically created.
+      <br/>
+      Additionally, as previously stated, assets can be created as unversioned assets, in which case, such assets are overwritten with new assets when modified.
+    </p>
+    <p num="236">Version Trees</p>
+    <p num="237">
+      Versioning is a special type of data object relationship that is supported by the Vault API 106.
+      <br/>
+      Related versions are organized as trees in the Vault 106.
+      <br/>
+      A line of versions that have the same name as the first version is considered the trunk of the tree.
+      <br/>
+      For example, in FIG. 4, a version tree is depicted whose trunk is `scene1.
+      <br/>
+      Each version of `scene1` such as version 1 413, version 2 414 and version 3 416 is a separate asset.
+    </p>
+    <p num="238">
+      Traversing a branch represents pursuit along a particular path of development.
+      <br/>
+      For example, in FIG. 4, three branches are depicted: branch scenel 402, branch rotund_butcher 404, and branch Ed 408.
+      <br/>
+      The versions along the rotund butcher branch 404 suggest pursuit of an alternative to scene 1, where the butcher is portrayed for example, as a rotund and jolly fellow.
+      <br/>
+      In this case two versions of a rotund_butcher are depicted, version 1 410 and version 2 412.
+      <br/>
+      Versions in a branch represent changes and refinements along the alternative represented by the branch.
+    </p>
+    <p num="239">
+      An example of the use of versioning may be as follows.
+      <br/>
+      Jo, the storyboard artist, after roughing out a sequence stores it in the Vault repository 108 (for example version 1 410).
+      <br/>
+      She then asks Ed, a fellow storyboard artist to take a look.
+      <br/>
+      Ed checks out a branch from Jo's version 410 so as not to interfere with Jo's work.
+      <br/>
+      After he makes his changes (represented by versions 416 and 418), he then checks them into the Vault repository 108 and calls Jo to let her know.
+      <br/>
+      Jo takes a look at Ed's versions (416 and/or 418).
+      <br/>
+      If she likes what she sees, she could adopt Ed's version by simply incorporating it into her branch (as the latest version 2 412).
+    </p>
+    <p num="240">Names</p>
+    <p num="241">
+      Preferably, there are three ways to name versions in the Vault repository 108: object-ids, absolute names, and relative names.
+      <br/>
+      Each method of naming versions will now be described.
+    </p>
+    <p num="242">Object-ID Names</p>
+    <p num="243">
+      Each asset is automatically assigned a unique object ID when it is created (checked-in) to the Vault repository 108 (via the objectID attribute as previously described).
+      <br/>
+      Thus, any asset may be referenced (i.e. checked-in, checked out, etc.), by specifying its unique object ID.
+    </p>
+    <p num="244">Absolute Names</p>
+    <p num="245">
+      Absolute names in version trees are referred to herein as dot names because dots are used as separators.
+      <br/>
+      Every object has exactly one dot name.
+      <br/>
+      For example, in FIG. 4, the latest version of the scene1 asset has an absolute or dot name of `scene1.3` 416.
+    </p>
+    <p num="246">Partially Specified Dot-Names</p>
+    <p num="247">
+      An object may be named with a partially specified dotname (p-dot name) (p stands for partial), or a fully specified dotname (f-dotname) (f stands for full) in the Vault API 106.
+      <br/>
+      The Vault API 106 follows rules for resolving a p-dot names into a fully specified f-dot-names.
+      <br/>
+      An example of a p-dot name is `scene1`. When such a name is presented to the Vault API 106 it is resolved into the latest version on the specified branch.
+      <br/>
+      In this case, as can be seen in FIG. 4, the p-dot name `scene1` is resolved into the f-dot name `scene1.3` 416. (In this case, an intermediate version described as `scene1.2` 414 also depicted in FIG. 4, is ignored because it is not the latest version).
+    </p>
+    <p num="248">As another example, the p-dot name `scene1.rotund_butcher` is resolved to its latest version on the branch, namely, `scene1.3.rotund_butcher.2` 412. If there were no `rotund_butcher` branch in FIG. 4, `scene1.rotund_butcher` would not resolve into any f-dot name.</p>
+    <p num="249">Relative Names</p>
+    <p num="250">
+      In addition to object IDS and absolute names, data objects in the Vault repository 108 may also be named with relative names.
+      <br/>
+      One form of relative naming uses attributes that reference other assets.
+      <br/>
+      For example, suppose an attribute called `girlfriend` in an asset named `Bambi` is assigned a current value of `Faline` (this value refers to another asset whose absolute (partial) version name is `Faline`).
+      <br/>
+      Thus, without having to remember the name `Faline`, the Faline asset may be referenced by specifying the relative name `Bambi.1/girlfriend`. The Vault API 106 will resolve this name into the appropriate asset name.
+    </p>
+    <p num="251">
+      Relative naming uses slashes to denote a hierarchy structure, similar to that used with many file systems (such as the UNIX file system).
+      <br/>
+      For example, the slash name 502 in FIG. 5, names an object that is the background offrame�10� of scene�52� of sequence�7� of storyreel3.
+      <br/>
+      The assumption here is that the storyreel object 504 has an attribute which is an array of object IDS named `sequence`. In this case, one value of the array attribute points to a particular sequence (depicted as the arrow 506 which references sequence �7�). (The standard square bracket notation is used for indexing an object-id in an array.) The actual asset which is pointed to by the array attribute 506, is the sequence�7� asset 508.
+      <br/>
+      The sequence�7� asset 508 has an attribute named `scene` 510 that references the scenes of the sequence.
+      <br/>
+      The scene�52� object 512 has an attribute named `frame` 514 that references the frames of the scene.
+      <br/>
+      Finally, the frame�10� object 516 has an attribute named `background` 518 that references the background of the frame 520.
+    </p>
+    <p num="252">
+      An object may have zero or more slash names.
+      <br/>
+      The background image in FIG. 5 may have two slash names if it has not changed since the last version of storyreel.
+      <br/>
+      That is, it may be reached through the name storyreel2/sequence�7�/scene �52�/frame�10�/background as well as storyreel3/sequence�7�/scene�52�/frame �10�/lbackground.
+    </p>
+    <p num="253">Referencing an Asset Instead of an Asset Version (delayed binding)</p>
+    <p num="254">
+      As described thus far herein, an AMS data object refers to a particular version of a particular asset.
+      <br/>
+      For example, `frame�9�` of a scene refers to a data object identifier of a particular version of frame�9�. However, it is sometimes desired to always refer to the latest version of an asset rather than the latest version at the time the asset is checked in.
+      <br/>
+      The present invention provides support for such a function in the Vault API 106.
+    </p>
+    <p num="255">
+      The present invention includes with every branch (including the trunk) of an asset's version tree, a special data object id called the zeroth version id.
+      <br/>
+      Whenever a zeroth version data object id is specified, the Vault API 106 resolves it to the latest version in its branch at the time of use.
+      <br/>
+      For example, to have frame�9� always refer to the latest version along the trunk, the user simply refers to the zeroth version of the trunk.
+    </p>
+    <p num="256">Checkout/checkin.</p>
+    <p num="257">
+      Versioned objects in the Vault repository 108 are not modified in place.
+      <br/>
+      If a user wants to modify an object, a new version of the object is first created.
+      <br/>
+      To do this, the user reserves the dot name of the version he wants to create, which effectively prevents or locks out other users from creating that particular version.
+      <br/>
+      Later the user checks in the changes under the reserved dot name.
+      <br/>
+      For example, to continue the development of the scene1 branch 402 in FIG. 4, a user would reserve and later checkin his new version under scene1.4.
+    </p>
+    <p num="258">
+      The Vault API 106 does not permit reservations that will create gaps in the version tree.
+      <br/>
+      For example, in FIG. 4, a client will not be allowed to reserve scene1.5 until a scene1.4 version exists.
+    </p>
+    <p num="259">Checkouts Through Slash Names and Object Ids.</p>
+    <p num="260">
+      As previously stated, to modify an asset, a client performs the following.
+      <br/>
+      The client determines where in the version tree a new version will reside.
+      <br/>
+      Next the client reserves the dot name that represents such position in the version tree.
+      <br/>
+      Next the client creates a new version and finally, checks-in such version under the reserved dot name.
+    </p>
+    <p num="261">
+      A dot name, as stated, begins with a user-given name (for example, `LionQueen`).
+      <br/>
+      Thus, if dot names are the only way that checkouts are permitted, users would be required to supply names to all assets.
+      <br/>
+      Additionally, conventions would have to be invented and enforced so that all users working on particular assets will know the correct names.
+      <br/>
+      For example, an asset named `LionQueen_sequence1_scene1_penciltest _xsheet`, refers to the pencil test variant of the x-sheet of scene1 of sequencel of the production Lion Queen.
+    </p>
+    <p num="262">
+      The present invention provides a better way.
+      <br/>
+      The Vault API 106 permits checkouts to be made relative to data objects named with either slash names or object IDS.
+      <br/>
+      For example, the command: `reserveVersion(`LQ/sequence�1�/scene�1�/penciltest/xsheet`)` will reserve the next version in the branch that the AMS data object with the slash name `LQ/sequence�1�/scene�1�/penciltest/xsheet` is in.
+      <br/>
+      For example, if `LQ/sequence1/scene1/penciltest/xsheet` refers to xxx.2 604 in FIG. 6, then xxx.4 (not shown) will automatically be reserved.
+    </p>
+    <p num="263">
+      In addition, the command `reserve(`LQ/sequence�1�/scene�1�/penciltest/xsheet`,`2.funky.3`)` will reserve version 3 of the funky branch 608 of version 2 of the asset of which `LQ/sequence�1�/scene�1�/penciltest/xsheet` is a version.
+      <br/>
+      Again, if `LQ/sequence�1�/scene �1�/penciltest/xsheet` refers to xxx.2 604, then xxx.2.funky.3 (not shown) is reserved.
+    </p>
+    <p num="264">The object id (see attributes and references, herein) of `LQ/sequence�1�/scene�1�/penciltest/xsheet` may be used instead of the slash name in the example above.</p>
+    <p num="265">Queries</p>
+    <p num="266">
+      In addition to navigating version trees and references, data objects in the Vault repository 108 may also be found with queries.
+      <br/>
+      Queries are boolean expressions of attribute comparisons.
+      <br/>
+      For example, the query "(creator=`James B`) AND (keyword=`sunset`)" will return the id and type of all objects that James B created that have the keyword `sunset` associated with it.
+    </p>
+    <p num="267">Access Control</p>
+    <p num="268">
+      Access control in the Vault repository 108 is based on access control lists (ACLs).
+      <br/>
+      An ACL identifies the users that are permitted access to the objects the ACL controls.
+      <br/>
+      When a user asks to access an object, his user id is checked against either the read, write or administrative ACL.
+      <br/>
+      The user is allowed access only if his user id is in the ACL.
+    </p>
+    <p num="269">
+      Each object has an ACL that controls who can read the object.
+      <br/>
+      Each branch in a version tree has an ACL that determines who can create the next version in the branch.
+      <br/>
+      Each repository has an ACL that controls who can change the ACLs of objects and version branches in the repository.
+      <br/>
+      In addition to these system administrators, a creator of an object has the right to change the (read) ACL of the object and a creator of a branch has the right to change the ACL of the branch.
+      <br/>
+      The creators of a branch are the creators of the first version of the branch.
+    </p>
+    <p num="270">
+      With the ACL mechanism, an authorized user (such as the system administrator and/or production manager or the like) will be able to control the following types of accesses including: (1) Who can create new versions of AMS data objects on a branch of an asset.
+      <br/>
+      Different access control may be applied to different branches of an asset; (2) who can read which data objects; and (3) who are authorized to make access control changes
+    </p>
+    <p num="271">
+      In addition, a user when creating a data object in the Vault repository 108 can override the system setting and restrict access to just himself if desired.
+      <br/>
+      This is useful for versions that represent work-in-progress and of which users are not ready to show to their colleagues.
+    </p>
+    <p num="272">Locking</p>
+    <p num="273">
+      A user obtains the equivalent of a `write lock` on a branch by reserving the next version in the branch.
+      <br/>
+      A user releases the lock by creating the version that is reserved or by aborting the reservation.
+    </p>
+    <p num="274">Version Pruning</p>
+    <p num="275">
+      The present invention provides support in the Vault API 106 for two methods for pruning versions as follows.
+      <br/>
+      The first method may be executed by a user pointing to a node in the asset tree (typically the root) and requesting that the n latest versions of that node and all versions reachable from them be kept.
+      <br/>
+      Objects not reachable from the n latest versions will be pruned.
+    </p>
+    <p num="276">The second method may be executed by a user pointing directly at a version and requesting that the version and all objects reachable from it be pruned (generally subject to user-specifiable referential integrity constraints).</p>
+    <p num="277">
+      When pruning, a user can specify that only the contents be removed and that metadata remains.
+      <br/>
+      Objects pruned this way will continue to be searchable.
+    </p>
+    <p num="278">
+      In the extreme, a user can request that an object (both data and metadata) be completely removed.
+      <br/>
+      Objects pruned in this fashion will not be available for subsequent browsing and searching.
+    </p>
+    <p num="279">
+      In addition, a user may request that a pruned version be deleted from the Vault or merely moved to an archive such as storage tape or the like.
+      <br/>
+      Preferably, a daemon routine may be run on a regular basis, such as each night, to keep the version tress well pruned.
+      <br/>
+      A system administrator or the like will generally control such routines and parameters for pruning via a simple scripting language or the like.
+    </p>
+    <p num="280">Replicas</p>
+    <p num="281">
+      The Vault API 106 provides support for the creation, placement and deletion of copies of an object's contents.
+      <br/>
+      Asset contents in the Vault repository 108 are generally dispersed among the various storage devices of computer systems coupled with the present invention via a computer network, as previously discussed.
+    </p>
+    <p num="282">StudioLib 104</p>
+    <p num="283">
+      StudioLib 104 contains object oriented C++ classes whose instances are in-memory representations of data objects in the Vault repository 108.
+      <br/>
+      It also contains utility library routines and classes, as well as definitions of user interface components that asset management tools 102 can incorporate for a common look and feel.
+    </p>
+    <p num="284">
+      The most basic asset class in StudioLib 104 is the AmsBase class.
+      <br/>
+      AmsBase has methods for checking out the metadata of a data object from the Vault repository 108 into memory.
+      <br/>
+      Once in memory, a client uses accessor methods of AmsBase to get individual attributes of a data object.
+      <br/>
+      Contents may be checked out into memory or into a file in the local file system.
+      <br/>
+      AmsBase also has methods for converting and checking metadata and contents into the Vault repository 108.
+    </p>
+    <p num="285">
+      The Vault's 106 API is designed so that it requires that any data object that is checked out from the Vault repository 108 must be checked out into memory as an AmsBase (or subtype of AmsBase) object.
+      <br/>
+      Similarly, it requires that any data object to be stored in the Vault repository 108 must be presented as an AmsBase (or subtype of AmsBase) object.
+    </p>
+    <p num="286">
+      Another class provided by the present invention in the StudioLib 104 is referred to as AmsBasePL, which is a subclass of the AmsBase as previously discussed.
+      <br/>
+      When a data object is checked out from the Vault repository 108 as an AmsBasePL object, the data object's metadata are manifested as a property list.
+      <br/>
+      A property in a property list consists of three elements: (1) a name, which is the name of an attribute, (2) a value, which is the value of the attribute. (This value can be a simple value such as an integer or string, or a set of values.
+      <br/>
+      Values can be also structured; elements of those structures can themselves be simple, sets or structures.) (3) a type, which is the type of the attribute's value. (This type must be chosen from a predefined set.
+      <br/>
+      This set includes bool, char, date, float, long, string, object-id, blob, struct and vectors of these types.) Thus, an application program could at runtime, query this property list to determine the structure, i.e. attributes and types, and values of the object's metadata.
+      <br/>
+      Consequently, It is not necessary for the application to use built-in accessor methods to read the attributes.
+    </p>
+    <p num="287">
+      Further, the AmsBasePL object's property list is directly modifiable.
+      <br/>
+      In this fashion, new attributes could be added and the values of old attributes may be changed.
+      <br/>
+      Again, no special asset class need be created to provide accessor methods to perform this function.
+      <br/>
+      At checkin, AmsBasePL converts its object's property list into a form that the Vault API 106 requires.
+    </p>
+    <p num="288">
+      Note that using a property list to modify or create new attributes requires care by the application program making such changes.
+      <br/>
+      For instance, it should not introduce a new attribute that is not appropriate to the object's asset type.
+      <br/>
+      As previously noted, to handle this problem, an object referred to as the Data Model Manager may be provided by an implementation of the present invention.
+      <br/>
+      The Data Model Manager maintains information about what attributes are possible for each asset type, and the legal values of such attributes.
+      <br/>
+      The Data Model Manager is an example of a utility class in the StudioLib 104.
+    </p>
+    <p num="289">
+      Another example of a utility class which may be included in the StudioLib 104 is the LWA (or local work area) class.
+      <br/>
+      This class manages the use of the local file systems as a cache for modifying contents in the Vault repository 108.
+    </p>
+    <p num="290">
+      Other asset classes and utility routines are included in StudioLib 104.
+      <br/>
+      The user interface components for example that may be provided in an implementation of the present invention include: an Asset tree browser, an Asset information dialog, a Query constructor, a Query results browser, a checkin dialog, a Checkout dialog and a Cataloger.
+    </p>
+    <p num="291">
+      Referring now to FIG. 7, the architecture of the present invention is depicted.
+      <br/>
+      A number of AMS clients (asset management tools), such as Query 714, Browse 716, Catalog 718, checkin/Checkout 720 and a CFR Placer &amp; CDA (described below) 722 are depicted.
+      <br/>
+      In addition, a client that represents a plurality and variety of content creation tools 724 (as previously discussed), are shown.
+      <br/>
+      Finally, production management tools 728 are also depicted as one or more AMS client(s).
+      <br/>
+      These tools are used for example, for system management functions, as previously described, and for workflow management of the production process.
+      <br/>
+      As stated, the AMS clients, preferably communicate with the Vault's 104 API, via the Class Library objects 106 (not shown in this Figure).
+    </p>
+    <p num="292">Architecture of the present invention</p>
+    <p num="293">
+      FIG. 7 shows the architecture of the present invention.
+      <br/>
+      A number of AMS clients or asset management tools 102 are depicted.
+      <br/>
+      Such functions as query 714, browse 716 catalog 718, checkin and checkout 720, CFR placer &amp; CDA 722, content creation tools 724 and production management tools 728 are depicted.
+      <br/>
+      Most of these functions have been previously described.
+      <br/>
+      The CFR Placer and CDA function client 722, will be described below.
+      <br/>
+      The Production management tools 728, as previously described, provide functions for system administration and the like, such as configurations for the nearline, online, and offline storage, archiving of data, actual locations of data storage, user access lists, etc.
+      <br/>
+      The production management tools also provide functions for workflow management.
+    </p>
+    <p num="294">
+      The Vault 730 contains one or more repositories 108 as previously described.
+      <br/>
+      Each repository 108 may have a different implementation.
+      <br/>
+      For example, the metadata server 706 that is used for the repository 108 may be implemented with the commonly available `Oracle` data base management system, while the metadata server 710 that is used for the repository 108b may be implemented with the commonly available `Sybase` database management system.
+      <br/>
+      The architecture of the present invention does not limit the number of repositories 108 at any one time, nor does it limit the number of different repository implementations.
+    </p>
+    <p num="295">
+      Typically content servers 708 and 712 are implemented with one or more file servers.
+      <br/>
+      The file servers may be distributed among multiple content servers (as depicted by 708 and 712), which may reside in multiple computer systems that are coupled together via a computer network (not shown).
+      <br/>
+      The content servers are the storage means for the content portion of AMS data objects and the metadata servers represent the storage and indexing means for the metadata portion of AMS data objects.
+    </p>
+    <p num="296">
+      The metadata servers 706 and 710 provide services (such as searching, indexing, querying, etc.), that are typically associated with services provided by database management systems.
+      <br/>
+      In a preferred embodiment of the present invention, support for off-the-shelf type DBMSs are provided in the Vault API 106.
+      <br/>
+      This feature makes it convenient to couple already existing DBMSs with an implementation of the present invention.
+      <br/>
+      Support for a variety of commonly available DBMSs are provided by the present invention in the Vault API 106, via communications through their respective publicly available client DBMS libraries.
+    </p>
+    <p num="297">
+      The metadata servers are used to manage the data objects of the present invention.
+      <br/>
+      As previously stated, attributes in the metadata portion of each data object, defines the actual location (within one or more content server(s)) of the content portion of each data object.
+      <br/>
+      Thus, all interactions with data objects of the present invention begin with interaction with one or more metadata servers, which lead to the content data portions.
+    </p>
+    <p num="298">
+      Note, that such interaction with the content and metadata servers is transparent to both the asset management tools 102, and the users of such asset management tools.
+      <br/>
+      The present invention provides the necessary underlying support.
+      <br/>
+      Additionally, as stated, system administrative functions are provided within the Vault API 106, so that online, nearline, and offline storage, as well as the parameters for the content and metadata servers, are defined.
+    </p>
+    <p num="299">Movie Play</p>
+    <p num="300">
+      All multimedia data created and used during the production process are organized by the present invention into data objects that are referred to herein as assets.
+      <br/>
+      Each asset comprises two components, namely, a contents component and a metadata component.
+      <br/>
+      The metadata component comprises information about an asset, while the contents component comprises actual multimedia data, which is typically a digital representation of a visual and/or audio data object.
+    </p>
+    <p num="301">
+      As previously mentioned, one of the features of the present invention is that it provides support for a device that delivers contents at a constant frame rate (CFR) for accurate playback of video and audio.
+      <br/>
+      The CFR Placer &amp; CDA client 722 is an example of an implementation of this function.
+      <br/>
+      The architecture for CFR delivery is shown in detail in FIG. 8.
+      <br/>
+      The CFR Placer 802 is a program that decides how many copies of a CFR asset to make, and where such copies are to be placed to minimize denial of service.
+      <br/>
+      The CFR Placer 802 takes into consideration recent resource usage 804 as well as the configurations of the servers and network 806 when making its decisions.
+      <br/>
+      Information about how many copies a movie has and where they are located are communicated to other CFR modules through the config and usage databases 804 and 806.
+    </p>
+    <p num="302">The CFR modules depicted in FIG. 8 are best described by going through the steps of playing a movie as follows:</p>
+    <p num="303">
+      1.
+      <br/>
+      The movieplayer 808 makes an open call 822 on CDA 810 (CFR Delivery Service, the CFR module that decides which copy of the movie to use in order to play the movie).
+      <br/>
+      2. The CDA 810 calls the Vault 106 for the locations of all the copies of the movie (call depicted by `Get Location` arrow 824)
+      <br/>
+      3.
+      <br/>
+      If the movie has multiple copies, the CDA 810 consults the usage and configuration databases (804 and 806) to decide on a copy that has adequate disk and bus bandwidth to support the movie play.
+      <br/>
+      4. The CDA 810 calls the Connection Manager 812 to reserve a network connection (see 820) of the desired bandwidth between the chosen copy and the movieplayer 808.
+      <br/>
+      5. If successfill, the CDA 810 calls on the CDS (CFR Delivery Service) 814.
+    </p>
+    <p num="304">
+      Note that the CDA 814 is in the same machine as the copy for a movie object (here such location is depicted by file system 828.
+      <br/>
+      The CDS 814 is the CFR module that provides a movie's contents to the client machine.
+      <br/>
+      6. The CDA 810 updates the usage database 804 to reflect the disk and network bus bandwidth allotted to the current movie play.
+      <br/>
+      7. The CDA 810 returns CDS's movie object to the movieplayer.
+      <br/>
+      8. The Movieplayer calls play 826 on the movie object.
+      <br/>
+      9. Depending on the protocol the movieplayer 816 adopts, the CDS 814 could either stream the movie to the movieplayer at the pre-arranged frame rate ("push model") or it could let the movieplayer request contents a chunk at a time ("pull model").
+      <br/>
+      Either way, the CDS 814 reads directly from the content server's file system 708.
+      <br/>
+      10. When the movie is complete, the movieplayer 808 calls close 830 on CDS's movie object.
+      <br/>
+      11. The CDS 814 informs CDA 810 ofthe close.
+      <br/>
+      12. The CDA 810 calls the Connection Manager 812 to release the connection reserved for the movie play.
+      <br/>
+      13. The CDA 810 updates the usage database 804 to reflect end of the movie play.
+    </p>
+    <p num="305">
+      While various embodiments of the present invention have been described above, it should be understood that they have been presented by way of example only, and not limitation.
+      <br/>
+      Thus, the breadth and scope of the present invention should not be limited by any of the above-described exemplary embodiments, but should be defined only in accordance with the following claims and their equivalents.       (Vertical spacing image '1' not included in text)  (Vertical spacing image '2' not included in text)  (Vertical spacing image '3' not included in text)  (Vertical spacing image '4' not included in text)  (Vertical spacing image '5' not included in text)  (Vertical spacing image '6' not included in text)  (Vertical spacing image '7' not included in text)  (Vertical spacing image '8' not included in text)  (Vertical spacing image '9' not included in text)  (Vertical spacing image '10' not included in text)  (Vertical spacing image '11' not included in text)  (Vertical spacing image '12' not included in text)  (Vertical spacing image '13' not included in text)  (Vertical spacing image '14' not included in text)  (Vertical spacing image '15' not included in text)  (Vertical spacing image '16' not included in text)  (Vertical spacing image '17' not included in text)  (Vertical spacing image '18' not included in text)  (Vertical spacing image '19' not included in text)  (Vertical spacing image '20' not included in text)  (Vertical spacing image '21' not included in text)  (Vertical spacing image '22' not included in text)  (Vertical spacing image '23' not included in text)  (Vertical spacing image '24' not included in text)  (Vertical spacing image '25' not included in text)  (Vertical spacing image '26' not included in text)  (Vertical spacing image '27' not included in text)  (Vertical spacing image '28' not included in text)  (Vertical spacing image '29' not included in text)  (Vertical spacing image '30' not included in text)  (Vertical spacing image '31' not included in text)  (Vertical spacing image '32' not included in text)  (Vertical spacing image '33' not included in text)  (Vertical spacing image '34' not included in text)  (Vertical spacing image '35' not included in text)  (Vertical spacing image '36' not included in text)  (Vertical spacing image '37' not included in text)  (Vertical spacing image '38' not included in text)  (Vertical spacing image '39' not included in text)  (Vertical spacing image '40' not included in text)  (Vertical spacing image '41' not included in text)  (Vertical spacing image '42' not included in text)
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A system for providing an integrated, efficient and consistent production environment for the development of diverse multimedia works comprising a plurality of diverse types of multimedia data, said production environment comprising a plurality of interconnected diverse computer systems running a plurality of diverse asset management tools for creating, editing, and managing said multimedia data, wherein each multimedia data comprises an asset comprising a content data component and a metadata component, wherein said content data component comprises a representation of the contents of said asset and said metadata component comprises, at least one attribute associated with said content data component said system comprising:</claim-text>
+      <claim-text>asset management means for providing common object-oriented program services to the diverse asset management tools for the management of the multimedia data; storage means for providing common storage for the diverse multimedia data, wherein said storage means includes an interface for connecting with a variety of commonly available database management systems; system management means for providing system management services for the production environment, including control over user access of the multimedia data and control over said storage means;</claim-text>
+      <claim-text>and multimedia data object means for providing object definitions for one or more predefined types of multimedia data, wherein said asset management means comprises means for dynamically defining user defined attributes for said assets at runtime, wherein said assets are cataloged in said database management system without altering existing tables in said database management system.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The system of claim 1, wherein said asset management means further comprises user interface means for providing common user interface services to the diverse asset management tools.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The system of claim 1, wherein said asset management means includes a service for checking in said assets to said storage means and checking out said assets from said storage means.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The system of claim 1, wherein said asset management means includes a service for cataloging said assets, wherein said service for cataloging includes a means for assigning values to said metadata component of said assets.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The system of claim 1, wherein said asset management means includes a service for browsing said assets.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The system of claim 1, wherein said asset management means includes a service for querying said assets.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The system of claim 1, wherein said storage means includes at least one repository, said repository being coupled with at least one metadata server and at least one content server.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system of claim 7, wherein said metadata server comprises a database management system.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The system of claim 7, wherein said content server comprises a database management system.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The system of claim 7 wherein said content server and said metadata server are each implemented with a different database management system.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The system of claim 1, wherein said asset managment means includes a version means for managing different versions said assets.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The system of claim 11, wherein said version means includes a tree structured format comprising a root comprising a branch comprising at least one leaf, wherein said branch represents a particular said asset having a name coinciding with a name assigned to said root, and each of said leaves represents a particular version of said particular asset.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The system of claim 12, wherein a new root may originate from any of said leaves, wherein said new root represents a variation of said particular version of said particular asset.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The system of claim 13, wherein said asset version means includes a means to identify a particular asset by specifying at least one particular value of said at least one attribute associated with a specified asset, wherein said at least one particular value refers to said particular asset.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The system of claim 11, wherein said user defined attributes are defined by modifying a property list associated with said asset.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The system of claim 11, wherein said asset management means includes a means to launch user inquiries based on said user defined attribute means.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The system of claim 11, wherein said asset management means includes a service for browsing said assets that have been modified by said user defined attributes, without having previous knowledge of said user defined attributes.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The system of claim 11, wherein said asset management means includes a service for querying said assets that have been modified by said user defined attributes, without having previous knowledge of said user defined attributes.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A computer program product comprising: a computer useable medium having computer program logic stored therein, said computer program logic for enabling a computer to provide an integrated, efficient and consistent production environment for the development of diverse multimedia works comprising a plurality of diverse types of multimedia data, said production environment comprising a plurality of diverse computer systems interconnected via a computer network, running a plurality of diverse asset management tools used to create, edit, and manage said multimedia data, wherein each multimedia data comprises an asset comprising a content data component and a metadata component, wherein said content data component comprises a representation of the contents of said asset and said metadata component comprises at least one attribute associated with said content data component, wherein said computer program logic comprises:</claim-text>
+      <claim-text>- asset management means for enabling the computer to provide common object-oriented program services to the diverse asset management tools for the management of the multimedia data; - user interface means for enabling the computer to provide common user interface services to the diverse asset management tools; - storage means for enabling the computer to provide common storage for the diverse multimedia data wherein said storage means includes an interface for connecting with a variety of commonly available database management systems; - system management means for enabling the computer to provide system management services for the production environment, including control over user access of the multimedia data and control over said storage means;</claim-text>
+      <claim-text>and - multimedia data object means for enabling the computer to provide object definitions for predefined types of multimedia data, - wherein said asset management means comprises means for enabling the computer to dynamically define user defined attributes for said assets at runtime, wherein said assets are cataloged in said database management system without altering existing tables in said database management system.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182189B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182189</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182189</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="21701998" extended-family-id="42109027">
+      <document-id>
+        <country>US</country>
+        <doc-number>09002691</doc-number>
+        <kind>A</kind>
+        <date>19980105</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09002691</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165656</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>269198</doc-number>
+        <kind>A</kind>
+        <date>19980105</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09002691</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/42        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>42</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>711103000</text>
+        <class>711</class>
+        <subclass>103000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>365189040</text>
+        <class>365</class>
+        <subclass>189040</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>711154000</text>
+        <class>711</class>
+        <subclass>154000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/42C3S</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>42C3S</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/4243</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>4243</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>12</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>5</number-of-drawing-sheets>
+      <number-of-figures>5</number-of-figures>
+      <image-key data-format="questel">US6182189</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus for placing a memory in a read-while-write mode</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>CHEN JOHNNY C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5867430</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5867430</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="2">
+          <text>KOSONOCKY GEORGE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5245572</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5245572</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="3">
+          <text>ODAIRA HIDEKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5361227</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5361227</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>KOSONOCKY GEORGE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5361343</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5361343</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>NAKAMURA MASAYUKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5426603</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5426603</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>JAVANIFARD JAHANSHIR J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5483486</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5483486</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>AKAOGI TAKAO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5590074</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5590074</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>IKEDA YUTAKA</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5625595</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5625595</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>MIYAMOTO TAIYUU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5648929</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5648929</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>DORNEY TIMOTHY D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5732030</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5732030</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>CAMPARDO GIOVANNI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5748528</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5748528</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>ITOH YASUO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5751634</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5751634</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>LEE PETER W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5796657</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5796657</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>KIRIHATA TOSHIAKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5917744</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5917744</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>HASBUN ROBERT N, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5936884</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5936884</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>BEDARIDA LORENZO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5949713</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5949713</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Advanced Micro Devices, Inc., AM29DL800T/Am29DL800B (preliminary), Publication #21357, Rev. A, Amendment/0, May 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Sharp Press Release, "Sharp Electronics Corporation Announces Unique Dual-Task 4 Mbit Flash Memory", pp. 1-2, Aug. 1, 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Mitsubishi Press Release, Mitsubishi Announces Backgraoud Operation Feature in High Density, 8-Mbit Dinor Mobile Flash Memory, pp. 1-3, May 19, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Sharp Corporation, "Flash Memory LH28F800SUTD", Ver. 1 (Preliminary), pp. 1-37, Dec. 9, 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>International Seach Report, PCT/US98/25217, 5 pages.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Intel Corporation</orgname>
+            <address>
+              <address-1>Santa Clara, CA, US</address-1>
+              <city>Santa Clara</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>INTEL</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Alexis, Ranjeet</name>
+            <address>
+              <address-1>Folsom, CA, US</address-1>
+              <city>Folsom</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Hazen, Peter K.</name>
+            <address>
+              <address-1>Auburn, CA, US</address-1>
+              <city>Auburn</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Brown, Charles W.</name>
+            <address>
+              <address-1>Folsom, CA, US</address-1>
+              <city>Folsom</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Larsen, Robert E.</name>
+            <address>
+              <address-1>Shingle Springs, CA, US</address-1>
+              <city>Shingle Springs</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Faatz, Cindy</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Robertson, David L.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An interface for a read-while-write memory.
+      <br/>
+      A memory device includes a single-chip memory array and an interface that is responsive to one or more commands to configure the memory array in a read-while-write configuration.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The present invention relates generally to memory devices and more particularly to an interface for accessing memories that include hardware read-while-write capabilities.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      There are many different types of memory devices available today with a wide range of capabilities and operating characteristics.
+      <br/>
+      As with many other types of integrated circuit devices, there is a focus on increasing memory device performance, speed, and utility while reducing power consumption or maintaining power consumption at a low level.
+    </p>
+    <p num="3">
+      Flash memory, an increasingly popular type of memory, is a nonvolatile memory that is electrically erasable and electrically programmable.
+      <br/>
+      In many cases, flash memories are now being used for functions traditionally provided by Electrically Erasable Programmable Read Only Memories (EEPROMs) and Static Random Access Memories (SRAMs).
+      <br/>
+      Such applications include Basic Input/Output System (BIOS) memories, for example.
+    </p>
+    <p num="4">There are three basic types of memory access operations that are typically performed in a flash memory: a write (also referred to as program) operation, an erase operation and a read operation.</p>
+    <p num="5">
+      In currently available flash memories, each of the different memory access operations requires a different amount of time, or latency, to perform.
+      <br/>
+      For example, in some current flash memories, a read operation may take approximately 100 nanoseconds to perform, while a program operation may require about 10 microseconds and an erase cycle may take as long as one second to perform.
+    </p>
+    <p num="6">
+      The difference between the time required for erase and program cycles versus the time required for a read cycle is significant.
+      <br/>
+      Therefore, it is advantageous to be able to perform read operations while either program or erase cycles are in process.
+      <br/>
+      A flash memory or other memory that provides these capabilities is referred to as a "read-while-write" (RWW) memory.
+    </p>
+    <p num="7">
+      RWW memories provide increased efficiency along with other advantages.
+      <br/>
+      For example, in some prior systems, multiple memory devices are provided such that read and write or program operations can be performed concurrently in order to achieve higher system performance.
+      <br/>
+      Using memories that include RWW capability, it may be possible to achieve the same system performance level using fewer memory devices.
+    </p>
+    <p num="8">
+      Flash memories, like other memories, include an interface that controls operation of the read and write circuitry of the flash memory in response to commands it receives from a processor or other external source.
+      <br/>
+      The interface, referred to alternately as a command interface, a user interface, or a command user interface, generally supports a specific set of commands.
+      <br/>
+      The supported command set determines, to some extent, the software required to interact with the flash memory.
+    </p>
+    <p num="9">
+      In some current systems using non-RWW flash memories, if a read request or command is received by a non-RWW flash memory while a write or erase operation is being performed, the read command is not recognized by the flash user interface and may produce an error.
+      <br/>
+      For one currently available non-RWW memory, instead of processing the read command, the flash interface controls a flash memory status register to provide status information indicating a status of the write operation being performed.
+      <br/>
+      For such a memory, the read command cannot be processed until the write or erase operation is either completed or suspended.
+    </p>
+    <p num="10">Because of this constraint, if the system cannot tolerate the read/write suspend latency before reading code, then the system may not be able to store both data and code in the same device.</p>
+    <p num="11">Thus, there is an issue with respect to using existing non-RWW flash memory interfaces for RWW memories.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="12">
+      An interface method and apparatus for a memory including read-while-write capabilities is described.
+      <br/>
+      For one embodiment, a memory device includes a single-chip memory array and an interface responsive to one or more commands to configure the memory array in a read-while-write configuration.
+    </p>
+    <p num="13">Other features and advantages of the present invention will be apparent from the accompanying drawings and from the detailed description that follows below.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="14">
+      The present invention is illustrated by way of example and not limitation in the figures of the accompanying drawings, in which like references indicate similar elements, and in which:
+      <br/>
+      FIG. 1 is a block diagram of a system including a memory having read-while-write capabilities.
+      <br/>
+      FIG. 2 is a block diagram showing the flash memory of FIG. 1 in more detail.
+      <br/>
+      FIG. 3 is a flow diagram showing the read-while-write method of one embodiment.
+      <br/>
+      FIG. 4 is a block diagram of a flash memory of an alternate embodiment.
+      <br/>
+      FIG. 5 is a flow diagram showing the read-while-write method of an alternate embodiment.
+    </p>
+    <heading>DETAILED DESCRIPTION</heading>
+    <p num="15">
+      An interface for accessing memories including read-while-write capabilities is described.
+      <br/>
+      Although the following embodiments are described with reference to a flash memory, other embodiments are applicable to other types of memories that are capable of performing read operations from one area of a memory device or array while concurrently performing program or erase and verify operations in another area of the memory array.
+    </p>
+    <p num="16">
+      An intended advantage of one or more embodiments described below is to provide an interface for a read-while-write memory to support read-while-write (RWW) capabilities.
+      <br/>
+      Another intended advantage of one or more embodiments includes maintaining software compatibility with prior non-RWW memory interfaces.
+    </p>
+    <p num="17">
+      For one embodiment, read-while-write capability is provided without adding an additional command to the command set used for non-RWW memories.
+      <br/>
+      For this embodiment, an interface receives a first type of memory access request to access a first area of a memory followed by a second type of memory access request to access a second area of the memory.
+      <br/>
+      The sequence of commands along with the locations requested to be accessed enables a read-while-write mode in the memory.
+      <br/>
+      Internal control circuitry operates in conjunction with the interface to enable and control read-while-write operation.
+    </p>
+    <p num="18">
+      For another embodiment, a memory interface is responsive to a discrete read-while-write command to configure the memory as a read-while-write device.
+      <br/>
+      For one embodiment, configuring the memory as a read-while-write device allows a READ command directed to one area of the memory that is received while a WRITE command directed to another area of the memory is being processed to be processed.
+      <br/>
+      For another embodiment, the command assigns one area of the memory array as a read "plane" and another area of the memory array as a write plane.
+      <br/>
+      Read-while-write (RWW) circuitry configures the read and write planes appropriately in response to the discrete read-while-write command for one embodiment.
+      <br/>
+      Each of the above embodiments is described in more detail below.
+    </p>
+    <p num="19">
+      FIG. 1 shows a block diagram of a system 100 in which one embodiment may be implemented.
+      <br/>
+      The system 100 may be a computer system, a cellular phone, an engine control system, or a digital camera, for example.
+      <br/>
+      Other types of systems may also benefit from use of the present invention.
+    </p>
+    <p num="20">
+      The system 100 of FIG. 1 includes a system bus 105, a processor 110 coupled to the system bus 105, and a flash memory 115, also referred to as a flash electrically programmable read only memory (EPROM) also coupled to the system bus 105.
+      <br/>
+      The system 100 may include other peripheral devices 120 coupled to the system bus 105 such as an input and/or output device, for example and/or other memories 125 such as a static random access memory (SRAM), a mass storage device, or a read-only memory (ROM).
+    </p>
+    <p num="21">
+      The flash memory 115 includes a memory array 130 including two sections referred to as a first plane 135 and a second plane 140.
+      <br/>
+      The first and second planes 135 and 140 include different physical memory locations in a contiguous memory array 130 for one embodiment.
+      <br/>
+      For an alternate embodiment, the first and second memory planes are each located on a different integrated circuit device.
+      <br/>
+      Further, for alternate embodiments, there may be more than two planes in the memory array 130.
+    </p>
+    <p num="22">
+      For one embodiment, for example, the planes may be configured in the manner described in copending U.S. patent application Ser.
+      <br/>
+      No. 09/002,649 entitled "Flash Memory Partitioning for Read-While-Write Operation", filed on the same date and assigned to the same assignee as the present application.
+    </p>
+    <p num="23">
+      For one embodiment, when the flash memory 115 is in a read-while-write mode, one of the first or second planes is configured as a read plane while the other plane is configured as a write plane.
+      <br/>
+      Alternatively, when the flash memory 115 is in a read-while-write mode a first type of memory access command directed to one plane can be processed while a second type of memory access command is being processed in another plane of the flash memory 115.
+      <br/>
+      In this case, the configuration of the first and second planes is responsive to the particular memory access commands.
+      <br/>
+      The first and second planes are described in more detail below with reference to FIG. 2.
+    </p>
+    <p num="24">
+      The flash memory 115 also includes an interface 145, alternately referred to as a user interface, and status registers 150.
+      <br/>
+      The interface 145 controls communication between the flash memory 115 and other components such as the processor 110.
+      <br/>
+      The interface receives commands from other components in the system 100 over the bus 105 and controls circuitry within the flash memory 115 to respond to the commands.
+      <br/>
+      Such commands may include memory read, write and erase requests for example.
+    </p>
+    <p num="25">
+      The status registers 150 for one embodiment include a status register corresponding to each of the first plane 135 and the second plane 140.
+      <br/>
+      For alternate embodiments, a single status register may be used for both the first and the second planes.
+      <br/>
+      The status registers 150 provide a status of a memory access operation to a corresponding plane, for example.
+    </p>
+    <p num="26">
+      FIG. 2 is a block diagram showing the flash memory 115 of one embodiment in more detail.
+      <br/>
+      Along with the memory array 130, the interface 145 and the status registers 150, the flash memory 115 includes X decoders 205 and 206 and Y decoders 207 and 208 to determine the memory location(s) to be accessed in response to a memory access request, read and write control circuitry 210 and 215 and output circuitry 220.
+    </p>
+    <p num="27">
+      The interface 145 of one embodiment receives data, control and address information from the bus 105.
+      <br/>
+      For one embodiment, the interface 145 includes a command interface 225 and read-while-write (RWW) circuitry 230.
+      <br/>
+      The command interface 225 includes the command decoding and control circuitry used to interface with the flash memory 115.
+      <br/>
+      The command interface 225 supports the same command set as is used for similar memories that do not include RWW capability.
+      <br/>
+      Thus, the command interface 225 does not support a discrete read-while-write command.
+    </p>
+    <p num="28">
+      For example, the command interface 225 of one embodiment decodes and supports the standard flash memory command set used in conjunction with non-RWW flash memories from Intel Corporation of Santa Clara, Calif.
+      <br/>
+      For other embodiments, the command interface may decode and support a different command set that also does not include a discrete RWw command, and that can be used to interface with non-RWW memories.
+    </p>
+    <p num="29">The RWW circuitry 230 operates together with the command set 225 to enable and control a read-while-write mode in the flash memory 115. "Read-while-write mode" as the terminology is used herein refers to a mode in which each of the first and second planes 135 and 140 are independently configured such that a memory access command directed to the first plane 135 can be performed concurrently with performance of a memory access command to the second plane 135.</p>
+    <p num="30">
+      The RWW circuitry 230 decodes an address associated with a command received by the interface 145 to determine whether a read-while-write mode is to be initiated.
+      <br/>
+      The RWW circuitry 230 further operates to configure the flash memory 115 to provide RWW functionality if a RWW mode is to be initiated.
+      <br/>
+      The operation of the RWW circuitry 230 is described in more detail below.
+    </p>
+    <p num="31">
+      The memory array 130 includes two sections referred to herein as planes as described above.
+      <br/>
+      The first and second planes 135 and 140 may be independently configured and controlled in response to memory access requests directed to the particular planes.
+      <br/>
+      Thus, the voltage level required for a read operation may be supplied to one plane while the voltage level(s) required for a write or erase operation may be supplied to the other plane.
+      <br/>
+      In this manner, read and write operations directed to the memory array 130 may be performed concurrently.
+    </p>
+    <p num="32">
+      For example, when the flash memory 115 is operating in a read-while-write mode, a memory read operation involving memory location(s) in the first plane 135 may be performed concurrently with a memory write operation involving memory location(s) in the second plane 140.
+      <br/>
+      For some embodiments, two memory access operations of the same type (e.g. two reads), one directed to the first plane 135 and one directed to the second plane 140 may be performed concurrently.
+      <br/>
+      For other embodiments, while two memory read operations may be performed concurrently, two memory write operations may not.
+      <br/>
+      Further, for some embodiments, the memory array includes more than two planes, each of which may be independently configured, accessed and controlled.
+    </p>
+    <p num="33">
+      The flash memory 115 includes read and write control circuitry coupled to the interface 145 and to the memory array 130.
+      <br/>
+      The read and write control circuitry includes read and write control circuitry 210 to control memory access operations directed to the first plane 135 and read and write control circuitry 215 to control memory access operations directed to the second plane 140.
+      <br/>
+      Each of the read and write control circuits 210 and 215 includes voltage control circuitry to supply the correct potential to the associated plane for each memory access operation along with other circuitry not shown.
+      <br/>
+      For another embodiment, the flash memory includes only one read control circuit that is selectively coupled to control read accesses to the read plane when the memory is configured in a RWW mode and/or one write control circuit that is selectively coupled to control write or erase accesses to the write plane when the memory is configured in a RWW mode.
+    </p>
+    <p num="34">
+      The flash memory 115 also includes a status register for each of the first and second planes 135 and 140 of the memory array 130 for one embodiment.
+      <br/>
+      The status register 150A is associated with the first plane 135 and the status register 150B is associated with the second plane 140.
+      <br/>
+      The status registers 150A and 150B are coupled to the interface 145, and the output circuitry 220.
+      <br/>
+      The status register 150A is coupled to the read and write control circuitry 210 for the first plane and the status register 150B is coupled to the read and write control circuitry 215 for the second plane.
+    </p>
+    <p num="35">
+      The status register 150A provides a status of memory access operations to the first plane 135 while the status register 150B provides a status of memory access operations to the second plane.
+      <br/>
+      Status register information may be used internally for RWW operation as described below.
+      <br/>
+      Status register information may also be output to the bus 105 in response to a memory status command received by the interface 145 from the bus 105.
+    </p>
+    <p num="36">
+      Output circuitry 220 is coupled to the read and write control circuitry 210 and 215 and to the status registers 150A and 150B.
+      <br/>
+      The output circuitry 220 for one embodiment includes an output multiplexor and output buffers.
+      <br/>
+      The output circuitry 220 operates to communicate data from the flash memory 115 to the bus 105.
+    </p>
+    <p num="37">
+      The operation of the interface 145 of one embodiment is now described with continuing reference to FIG. 2.
+      <br/>
+      A first memory access command of a first type is received by the interface 145 from the bus 105.
+      <br/>
+      An address associated with the first memory access command is also received by the interface 145 and is concurrently forwarded to the X and Y decoders 205, 206, 207 and 208 to determine the memory location(s) to be accessed.
+    </p>
+    <p num="38">
+      For purposes of example, it is assumed that the first memory access command is a memory write request and the address indicates a location in the first plane 135.
+      <br/>
+      It is also assumed that the status register 150A indicates that there are currently no memory access operations in process involving the first plane 135.
+      <br/>
+      The read and write control circuitry 210 then operates to bring the first plane to the proper voltage level for a write operation.
+      <br/>
+      The X decoder 205 and the Y decoder 207 operate in conjunction with the read and write control circuitry 210 to access the requested location(s) in the first plane to service the memory write request.
+    </p>
+    <p num="39">
+      After the memory write request directed to the first plane is received by the interface 145 and while the memory write operation to the first plane is being processed, a second memory access operation of a second type, a memory read operation in this example, is received by the interface 145.
+      <br/>
+      The address of a memory location to be read is concurrently received by the interface 145, the address for this example indicating a location in the second plane 140.
+    </p>
+    <p num="40">
+      The RWW circuitry 230 then initiates a read-while-write mode such that the memory read operation directed to the second plane 140 can be serviced while the memory write operation to the first plane 135 is in process.
+      <br/>
+      For current non-RWW memories, a read command received while a write operation is in process is invalid.
+    </p>
+    <p num="41">
+      The RWW circuitry 230 initiates the RWW mode for one embodiment by causing the read and write control circuitry 215 associated with the second plane 140 to configure the second plane 140 as a read plane.
+      <br/>
+      Thus, the first plane 135 is configured as a write plane while the second plane 140 is configured as a read plane.
+      <br/>
+      For this embodiment, subsequent read operations directed to the second plane 140 continue to be serviced concurrently without requiring reconfiguration of the memory array 130.
+      <br/>
+      For another embodiment, initiation of the RWW mode does not necessarily include configuration of each of the first and second planes 135 and 140.
+      <br/>
+      For this embodiment, RWW configuration enables a first type of memory access command to one of the first or second planes 135 or 140 to be processed while a different type of memory access command is being processed in the other plane.
+    </p>
+    <p num="42">
+      Thus, for one embodiment, the RWW circuitry 230 initiates a read-while-write mode any time a first type of memory access command directed to a first plane is received while a second type of memory access command to a second plane is being processed.
+      <br/>
+      In this case, the types of memory access commands include 1) a read command or 2) a write (program) or erase command.
+      <br/>
+      For another embodiment, two commands of a same type directed to different planes may be concurrently processed.
+      <br/>
+      Also, for one embodiment, for sequences that do not initiate a RWW mode, the flash memory operates in the same manner as a similar, non-RWW flash memory.
+    </p>
+    <p num="43">
+      The interface 145 and the RWW circuitry 230 determine whether a particular command is valid or invalid and whether a read-while-write mode is to be initiated using information from the status registers 150A and 150B and the address of the command received.
+      <br/>
+      The status registers 150A and 150B indicate the status and type of a memory access operation being performed in a particular plane.
+    </p>
+    <p num="44">
+      For one embodiment, for example, if a read request directed to the first plane is received while a write request is being serviced in the first plane, the RWW circuitry 230 determines that the read request is invalid, or cannot be serviced until the write operation has been completed or suspended.
+      <br/>
+      Similarly, if a write request directed to the first plane is received while a read request is being processed in the first plane, the write request will be invalid or will not be serviced until the read request to the first plane is completed.
+    </p>
+    <p num="45">
+      For one embodiment, for successive memory access requests received by the interface that are directed to different planes in the memory array, Table 1 below describes the command sequences that are valid.
+      <br/>
+      The first two valid sequences for this embodiment cause the interface to initiate RWW configuration or otherwise place the memory array in a RWW mode as shown below.
+    </p>
+    <p num="46">
+      -- TABLE 1
+      <br/>
+      -- 1ST           2ND
+      <br/>
+      -- COMMAND       COMMAND       VALID/INVALID      MODE
+      <br/>
+      -- READ          WRITE         VALID              RWW
+      <br/>
+      -- WRITE         READ          VALID              RWW
+      <br/>
+      -- READ          READ          VALID              NON-RWW
+      <br/>
+      -- WRITE         WRITE         INVALID            NON-RWW
+    </p>
+    <p num="47">
+      For this embodiment, the last command sequence shown in Table 1 is invalid because only one write control circuit (or write state machine) is provided such that only one program or erase command may be performed at one time.
+      <br/>
+      For other embodiments, the valid and invalid command sequences may be different from those described above.
+      <br/>
+      For example, for some embodiments, two successive write requests may be valid.
+      <br/>
+      Also, for some embodiments, two successive read requests to different planes may not cause the interface to configure the memory array in a non-read-while-write configuration.
+    </p>
+    <p num="48">
+      The above-described embodiments provide the advantage that a read-while-write mode may be initiated in a memory without adding any commands to an existing command set.
+      <br/>
+      In this manner, software developed to work with existing memories that do not include read-while-write capabilities can be used for such read-while-write memories.
+      <br/>
+      This provides designers with more flexibility in terms of being able to use different types of memories without requiring a software change, and helps to reduce development time in a transition from a system designed for non-RWW memories to a system including RWW memories.
+    </p>
+    <p num="49">Also, by using an address decoding approach (i.e. determining the manner in which the planes are to be configured for RWW operation based on the addresses to which memory requests are directed), the first and second planes are easily configured to provide read-while-write capability.</p>
+    <p num="50">
+      FIG. 3 is a flow diagram showing the read-while-write memory interface method of one embodiment beginning at step 300.
+      <br/>
+      At step 305, a first memory access command of a first type directed to a first plane of a memory array is received.
+      <br/>
+      For one embodiment, the first memory access command is a memory write or memory erase command, but may be a memory read command for other embodiments.
+    </p>
+    <p num="51">
+      At step 310, the first plane is configured to service the first memory access command.
+      <br/>
+      Thus, where the first memory access command is a write or erase command, the first plane is configured as a write plane receiving the proper supply voltage and control signals for performance of the appropriate operation.
+      <br/>
+      At step 315, servicing of the first memory access command begins.
+    </p>
+    <p num="52">
+      At step 320, a second memory access command of a second type (a memory read command if the first command was a memory write or erase command), is received while the first memory access command is being serviced.
+      <br/>
+      At decision block 325, it is determined whether the second memory access command is directed to the first plane of the memory.
+      <br/>
+      If so, then at step 330, the second memory access command is ignored at least while the first memory access command is processing.
+      <br/>
+      This sequence may produce an error.
+      <br/>
+      For some embodiments, the second memory access command is queued until the first memory access operation is completed and, if necessary, the memory is reconfigured to service the second memory access command to the first plane.
+      <br/>
+      At step 335, if the second memory access command is ignored, the memory continues in a non-read-while-write mode.
+    </p>
+    <p num="53">
+      Referring back to decision block 325, if the second memory access command of the second type is not directed to the first plane, then in step 340, a memory read-while-write mode is started.
+      <br/>
+      In step 345, a second memory plane is configured to service the second memory access command.
+      <br/>
+      Where the second memory access command is a read command, the second plane is configured as a read plane receiving the proper supply voltage and control signals for performance of read operations.
+    </p>
+    <p num="54">
+      At step 350, the second memory access command is serviced (i.e. a read operation is performed for one embodiment) in the second plane while the first memory access command is being serviced (i.e. a write or erase operation is performed for one embodiment) in the first plane.
+      <br/>
+      The method ends at step 355.
+    </p>
+    <p num="55">
+      FIG. 4 is a block diagram of a flash memory 400 of an alternate embodiment.
+      <br/>
+      The flash memory 400 may also be used in the system 100 of FIG. 1 as a replacement or in addition to the flash memory 115 or in a different system.
+      <br/>
+      For the flash memory 400 of FIG. 4, elements with similar names operate in a similar manner to like elements described above with reference to FIG. 2 except as discussed below.
+    </p>
+    <p num="56">
+      For the embodiment of FIG. 4, the interface 405 includes a command interface 410.
+      <br/>
+      The command interface 410 of the flash memory 400 includes read-while-write command logic 415 to enable a discrete READ-WHILE-WRITE (RWW) command.
+      <br/>
+      The discrete RWW command supported by the flash memory 400 enables a user to selectively place the flash memory 400 in a read-while-write mode using a single command.
+      <br/>
+      For one embodiment, the discrete RWW command also enables the user to identify the configuration of the memory array 425 to select a read plane and/or a write plane as described below.
+    </p>
+    <p num="57">
+      As in the flash memory 115 of FIG. 2, the flash memory 400 includes a memory array 425 having a first plane 430 and a second plane 435, each of which can be independently accessed and controlled.
+      <br/>
+      The X decoder 440, the Y decoder 445, the read and write control circuitry 450 and the status register 455 provide the access, control and status functions for the first plane 430.
+      <br/>
+      The X decoder 460, the Y decoder 465, the read and write control circuitry 470 and the status register 475 provide the access, control and status functions for the second plane 435.
+      <br/>
+      The output circuitry 480 is coupled to the status registers 455 and 475 and to the read and write control circuitry 450 and 470 for outputting information from the flash memory 400 to the bus 105.
+    </p>
+    <p num="58">
+      The RWW command logic 415 of one embodiment also includes plane configuration control logic 420.
+      <br/>
+      The plane configuration control logic 420 is responsive to user input to select the configuration of the first and second planes 430 and 435.
+      <br/>
+      In other words, the plane configuration control logic 420 controls whether each of the first and second planes 430 and 435 is configured to be a read plane or a write plane.
+    </p>
+    <p num="59">
+      For one embodiment, the plane configuration control logic 420 selects one of the first and second planes 430 and 435 to be a read plane to service memory read requests or a write plane to service memory write or erase requests.
+      <br/>
+      The remaining plane is then selected to be configured in the opposite manner.
+      <br/>
+      For example, if the plane configuration control logic selects the first plane 430 to be configured as a read plane, the second plane 435 is automatically selected to be configured as a write plane.
+      <br/>
+      For an alternate embodiment, the first and second planes 430 and 435 are each individually configurable as either read or write planes.
+    </p>
+    <p num="60">
+      The plane configuration control logic 420 for one embodiment is responsive to the RWW command itself to configure the read and write planes.
+      <br/>
+      For this embodiment, the RWW command itself indicates which of the first and second planes 430 and 435 is to be configured as a read plane.
+      <br/>
+      For this embodiment, the other plane is automatically configured as a write plane.
+    </p>
+    <p num="61">
+      Once the memory array 425 is configured in response to the RWW command, for one embodiment, subsequent read operations to the read plane and write or erase operations to the write plane do not have to be delayed.
+      <br/>
+      Once the planes are configured, the read plane is at the appropriate voltage(s) for read operations, the write plane is at the appropriate voltage(s) for write operations and memory read and write operations to the corresponding planes may be processed concurrently.
+    </p>
+    <p num="62">
+      For an alternative embodiment, the read and/or write planes are not configured until a corresponding memory access to the plane is received.
+      <br/>
+      For this embodiment, the flash memory 400 is in a read-while-write configuration when a memory access command of a first type directed to one of the first or second planes can be processed while a different type of memory access command is being processed in the other plane.
+    </p>
+    <p num="63">
+      For one embodiment, once the flash memory 400 is in a read-while-write configuration, memory read requests directed to the write plane or memory write or erase operations directed to the read plane are invalid.
+      <br/>
+      Such requests must wait to be processed until the flash memory 400 is reconfigured.
+      <br/>
+      Reconfiguration may take place with another RWW command re-assigning the read and/or write planes as described above.
+    </p>
+    <p num="64">
+      The embodiments described with reference to FIG. 4 provide the advantage that the flash memory 400 can be configured to operate in a read-while-write mode with a single command.
+      <br/>
+      Further, each of the first and second planes 430 and 435 can be selectively configured to be a read plane or a write plane depending on the memory access requests that need to be serviced.
+    </p>
+    <p num="65">
+      FIG. 5 is a flow diagram showing the read-while-write memory interface method of an alternate embodiment beginning at step 500.
+      <br/>
+      At step 505, a discrete read-while-write (RWW) command is received.
+      <br/>
+      For one embodiment, the discrete RWW command indicates the manner in which the memory to be accessed is to be configured.
+      <br/>
+      For example, the RWW command indicates whether each of two or more planes of the memory are to be configured to be a read plane or a write plane.
+    </p>
+    <p num="66">
+      At step 510, a read-while-write mode is initiated in response to the RWW command.
+      <br/>
+      Initiation of the RWW mode includes the step 515 of selecting and configuring each of the planes of the memory to be a read plane to service read operations or a write plane to service write and/or erase operations.
+      <br/>
+      This configuration may be indicated in the RWW command itself or responsive to independent user input.
+    </p>
+    <p num="67">
+      At step 520, read commands directed to a read plane and write commands directed to a write plane are serviced concurrently.
+      <br/>
+      In contrast, read commands directed to a write plane and write commands directed to a read plane are ignored at step 525.
+      <br/>
+      Commands that are ignored are queued for one embodiment until the memory is reconfigured to service the pending commands at step 530 where the read and/or write planes are reassigned and reconfigured in response to a second RWW command or independent user input.
+      <br/>
+      The method of this embodiment ends at step 535.
+    </p>
+    <p num="68">
+      In the foregoing specification, the invention has been described with reference to specific exemplary embodiments thereof.
+      <br/>
+      It will, however be appreciated that various modifications and changes may be made thereto without departing from the broader spirit and scope of the invention as set forth in the appended claims.
+      <br/>
+      The specification and drawings are, accordingly, to be regarded in an illustrative rather than a restrictive sense.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A memory device comprising:</claim-text>
+      <claim-text>a single-chip memory array;</claim-text>
+      <claim-text>and an interface responsive to a discrete READ-WHILE-WRITE command to configure the memory array in a read-while-write configuration.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The memory device of claim 1 wherein the memory array includes a first plane and a second plane and wherein, in a read-while-write configuration, one of the first or second planes is configured to be a read plane and the other plane is configured to be a write plane.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method comprising: receiving a discrete read-while-write command at a memory interface of a single-chip memory;</claim-text>
+      <claim-text>and starting a memory read-while-write mode in the memory in response to the discrete read-while-write command.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 3 wherein starting a memory read-while-write mode includes: selecting a read plane and a write plane in the memory, configuring the read plane to service memory read operations, and configuring the write plane to service memory write or erase operations.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 4 further including: servicing read commands directed to memory locations in the read plane;</claim-text>
+      <claim-text>and concurrently with servicing read commands, servicing write and erase commands directed to memory locations in the write plane.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 4 further including: ignoring read commands directed to memory locations in the write plane;</claim-text>
+      <claim-text>and ignoring write and erase commands directed to memory locations in the read plane.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 4 further including reconfiguring the memory to reassign the read plane and the write plane.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A read-while-write memory comprising: a command interface that supports a discrete read-while-write command; a single-chip memory array that is selectively configurable into a read plane and a write plane responsive to the command interface receiving the read-while-write command.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The read-while-write memory of claim 8 further including write control circuitry and read control circuitry, the write control circuitry being coupled to the write plane and the read control circuitry being coupled to the read plane.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The read-while-write memory of claim 8 wherein the memory array includes a first plane and a second plane and the read-while-write command indicates which plane of the first and second planes is the write plane.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A system comprising: a bus; a processor coupled to the bus; a memory array coupled to the bus, the memory array being partitionable into first and second planes;</claim-text>
+      <claim-text>and a read-while-write command interface coupled to the memory array, the read-while-write command interface to place the memory array into a read-while-write mode in response to receiving a discrete read-while-write command from the processor over the bus.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The system of claim 11 wherein the read-while-write command indicates which of the first and second planes to configure as a write plane, the write plane being configured to service memory write or erase operations.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

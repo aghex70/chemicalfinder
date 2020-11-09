@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182156B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182156</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182156</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="13001237" extended-family-id="28129520">
+      <document-id>
+        <country>US</country>
+        <doc-number>08616429</doc-number>
+        <kind>A</kind>
+        <date>19960315</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996US-08616429</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>28781153</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>JP</country>
+        <doc-number>5552895</doc-number>
+        <kind>A</kind>
+        <date>19950315</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1995JP-0055528</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/44        20060101AFI20051220RMJP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>44</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>JP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051220</date>
+        </action-date>
+      </classification-ipcr>
+      <classification-ipcr sequence="2">
+        <text>G06F   9/42        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>42</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>719316000</text>
+        <class>719</class>
+        <subclass>316000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>712E09084</text>
+        <class>712</class>
+        <subclass>E09084</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-009/44F2A</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>009</main-group>
+        <subgroup>44F2A</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20180201</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/449</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>449</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20180203</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>33</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>49</number-of-drawing-sheets>
+      <number-of-figures>49</number-of-figures>
+      <image-key data-format="questel">US6182156</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Object-oriented data processing system allowing dynamic change of one or more ancestors and/or descendents of one or more classes of objects</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>NAMIOKA MIYOKO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313630</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313630</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>TOMITA HIROSHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313633</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313633</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>RYU TADAMITSU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5481718</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5481718</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>KILIS DANNY</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5561803</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5561803</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>EICK STEPHEN G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5564048</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5564048</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>DAIMLER BENZ AG</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>S62273136</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP62273136</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>FUJITSU LTD</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H01240936</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP01240936</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>FUJITSU LTD</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H022426</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP02002426</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Ege, Raimund K., "Programming in an Object-Oriented Environment, " AP Professional, 1992, Chapters 1-3, pp. 11-79.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Fujitsu Limited</orgname>
+            <address>
+              <address-1>Kawasaki, JP</address-1>
+              <city>Kawasaki</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>FUJITSU</orgname>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Togawa, Yoshifusa</name>
+            <address>
+              <address-1>Kawasaki, JP</address-1>
+              <city>Kawasaki</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Staas &amp; Halsey, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Oberley, Alvin E.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A data processing system at least a portion of which operates under control of an object-oriented program.
+      <br/>
+      The data processing system contains an object-oriented system, in which a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      An inheritance coupling information setting unit receives a first request, and sets at least one piece of the inheritance coupling information in a data storage area, in response to the first request.
+      <br/>
+      The inheritance coupling information held in the inheritance coupling information indicating unit can be referred to by at least one of the above plurality of objects.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">(1) Field of the Invention</p>
+    <p num="2">
+      The present invention relates to a data processing system at least a portion of which operates under control of an object-oriented program (a program constructed in the manner of object-oriented programming), and to a process and an apparatus for setting inheritance coupling information in a data processing system containing an object-oriented system. in addition, the present invention relates to a process for executing a function in a data processing system containing an object-oriented system.
+      <br/>
+      Further, the present invention relates to an article of manufacture which, when used with a computer, directs the computer to execute a process for setting inheritance coupling information in a data processing system containing an object-oriented system.
+    </p>
+    <p num="3">(2) Description of the Related Art</p>
+    <p num="4">
+      Operations of an object-oriented system, i.e., a data processing system which operates under control of an object-oriented program, are performed by a plurality of objects, and each object is created from a class as an instance of the class.
+      <br/>
+      A plurality of classes are defined in an object-oriented system, and one or more objects can be created from each class.
+      <br/>
+      At least one member field (variable) and at least one member function (method) are defined as features of each class.
+      <br/>
+      An inheritance relationship can be established between two of the plurality of classes, where one of the two classes is called an ancestor or a parent, and the other is called a descendent or a child.
+      <br/>
+      The ancestor can further has its ancestor, and the above descendent can further has its descendent.
+      <br/>
+      Thus, an inheritance hierarchy can be established among the plurality of classes of in the object-oriented system.
+      <br/>
+      In the above inheritance hierarchy, each descendent may have one or more ancestors.
+      <br/>
+      When a descendent has only one ancestor, the inheritance relationship is called a single inheritance, and when a descendent has more than one ancestor, the inheritance relationship is called a multiple inheritance.
+      <br/>
+      Each descendent inherits all of the features of its ancestor(s).
+    </p>
+    <p num="5">When an object as an instance of one of the classes in the inheritance hierarchy receives a message requesting an execution of a member function, and the member function is not defined for the class to which the object belongs to, the object looks up the methods of the ancestors of the class to which the object belongs to, and delegates the execution of the member function to one of the ancestors where the member function requested by the message is defined.</p>
+    <p num="6">Conventionally, the inheritance hierarchy is a fixed structure, i.e., the inheritance relationships in the inheritance hierarchy cannot be changed unless the object-oriented program per se, in which the inheritance relationships are defined, is changed.</p>
+    <p num="7">
+      Generally, the environment of the object-oriented system will vary.
+      <br/>
+      However, the above conventional object-oriented system cannot be dynamically changed corresponding to the variation in the environment.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="8">A first object of the present invention is to provide a data processing system at least a portion of which operates under control of an object-oriented program, wherein one or more inheritance relationships in at least one inheritance hierarchy can be dynamically changed in response to a request from outside of the inheritance hierarchy.</p>
+    <p num="9">A second object of the present invention is to provide a process and an apparatus for setting inheritance coupling information in a data processing system containing an object-oriented system, whereby one or more inheritance relationships in at least one inheritance hierarchy can be dynamically changed in response to a request from outside of the inheritance hierarchy.</p>
+    <p num="10">A third object of the present invention is to provide a process for executing a function in a data processing system containing an object-oriented system, whereby one or more inheritance relationships in at least one inheritance hierarchy can be dynamically changed in response to a request from outside of the inheritance hierarchy when a request for executing a function is sent to the object-oriented system.</p>
+    <p num="11">A fourth object of the present invention is to provide an article of manufacture which, when used with a computer, directs the computer to execute a process for setting inheritance coupling information in a data processing system containing an object-oriented system, whereby one or more inheritance relationships in at least one inheritance hierarchy in the object-oriented system can be dynamically changed in response to a request from outside of the inheritance hierarchy.</p>
+    <p num="12">
+      (1) According to the first aspect of the present invention, there is provided a data processing system at least a portion of which operates under control of an object-oriented program.
+      <br/>
+      The data processing system contains an object-oriented system, in which a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information; an inheritance coupling information indicating unit for holding therein and indicating the above inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit can be referred to by at least one of the above plurality of objects; and an inheritance coupling information setting unit for receiving a first request, and setting at least one piece of the inheritance coupling information in the inheritance coupling information indicating unit, in response to the first request.
+    </p>
+    <p num="13">(2) According to the second aspect of the present invention, there is provided a data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.</p>
+    <p num="14">The above inheritance coupling information setting system contains an inheritance coupling information indicating unit for holding therein and indicating the above inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit can be referred to by at least one of the above plurality of objects; and an inheritance coupling information setting unit for receiving a first request, and setting at least one piece of the inheritance coupling information in the inheritance coupling information indicating unit, in response to the first request.</p>
+    <p num="15">(3) According to the third aspect of the present invention, there is provided a data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.</p>
+    <p num="16">The above inheritance coupling information setting system contains a data holding area for holding therein and indicating the above inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit can be referred to by at least one of the above plurality of objects; and a programmed logic circuit for receiving a first request, and setting at least one piece of the inheritance coupling information in the inheritance coupling information indicating unit, in response to the first request.</p>
+    <p num="17">(4) According to the fourth aspect of the present invention, there is provided a data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.</p>
+    <p num="18">The above inheritance coupling information setting system contains a data holding area for holding therein and indicating the above inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit can be referred to by at least one of the above plurality of objects; and an inheritance coupling information setting unit, configured to execute a program which is stored in the at least one computer-usable memory, so that the inheritance coupling information setting unit receives a first request, and sets at least one piece of the inheritance coupling information in the inheritance coupling information indicating unit, in response to the first request.</p>
+    <p num="19">(5) According to the fifth aspect of the present invention, there is provided a process for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.</p>
+    <p num="20">The above data processing system further contains a data storage area which can be accessed by at least one of the above plurality of objects.</p>
+    <p num="21">The above process contains the steps of (a) receiving a first request for setting at least one piece of the inheritance coupling information in the above data storage area; and (b) setting the above at least one piece of the inheritance coupling information in the above data storage area, in response to the first request.</p>
+    <p num="22">
+      (6) According to the sixth aspect of the present invention, there is provided an apparatus for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      The above apparatus contains a data storage area which can be accessed by at least one of the above plurality of objects; a request receiving unit for receiving a first request for setting at least one piece of the inheritance coupling information in the above data storage area; and an information setting unit for setting the above at least one piece of the inheritance coupling information in the above data storage area, in response to the first request.
+    </p>
+    <p num="23">
+      (7) According to the seventh aspect of the present invention, there is provided an article of manufacture which, when used with a computer, directs the computer to execute a process for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      The above data processing system further contains a data storage area which can be accessed by at least one of the above plurality of objects.
+      <br/>
+      The above process contains the steps of: (a) receiving a first request for setting at least one piece of the inheritance coupling information in the above data storage area; and (b) setting the above at least one piece of the inheritance coupling information in the above data storage area, in response to the first request.
+    </p>
+    <p num="24">(8) In the above constructions of the first to seventh aspects of the present invention, each of the plurality of objects may contain, as program units realized by the object-oriented program, a message receiving unit for receiving a message which contains a second request for an execution of a function, and a message executing unit for executing the function requested by the second request when the function is defined in one of the plurality of classes to which the above each of the plurality of objects belongs.</p>
+    <p num="25">(9) In the above constructions of (8), the operation of the inheritance coupling information setting unit may be defined in the above one of the plurality of classes by the object-oriented program, as a function which can be performed by instances of the one of the plurality of classes.</p>
+    <p num="26">(10) In the above constructions of (8), when the above one of the plurality of classes is the descendent of another of the plurality of classes, the above one of the plurality of classes may further contain a function lookup unit for looking up functions defined in one or more classes which are coupled to the above one of the plurality of classes on the ancestor side of the above one of the plurality of classes, based on the inheritance coupling information indicated in the inheritance coupling information indicating unit (or in the data storage area), and delegating the execution of the function requested by the second request, to one of the one or more classes which are coupled on the ancestor side when the function requested by the second request is defined in this one of the one or more classes which are coupled on the ancestor side.</p>
+    <p num="27">(11) In the above constructions of (8), the above message can contain both the first and second requests.</p>
+    <p num="28">(12) In the above constructions of (11), the data processing system may further contain a request separating unit for receiving the above message containing both the first and second requests, and separating the first request from the second request to supply the first request to the above inheritance coupling information setting unit.</p>
+    <p num="29">(13) In the above constructions of the first to seventh aspects of the present invention, the above massage receiving unit can receive a message which contains the above first request.</p>
+    <p num="30">(14) In the above constructions of the first to seventh aspects of the present invention, the above inheritance coupling information indicating unit may contain an ancestor information indicating unit for holding therein and indicating the inheritance coupling information with regard to ancestors of each class, and a descendent information indicating unit for holding therein and indicating the inheritance coupling information with regard to descendents of each class.</p>
+    <p num="31">(15) In the above constructions of (14), may further contain a correspondence confirming unit for confirming that there is no contradiction between the inheritance coupling information for the ancestors held in the ancestor information indicating unit and the inheritance coupling information for the descendents held in the descendent information indicating unit.</p>
+    <p num="32">(16) In the above constructions of (15), the above correspondence confirming unit may operate when one of the plurality of objects receives the above first request, and may return a result of the confirmation to the one of the plurality of objects.</p>
+    <p num="33">(17) In the above constructions of the first to seventh aspects of the present invention, the above inheritance coupling information setting unit can receive the above first request independently from the plurality of objects.</p>
+    <p num="34">(18) In the above constructions of (8), the above inheritance coupling information setting unit can receive the above first request independently from one the plurality of objects which receives the above message.</p>
+    <p num="35">(19) In the constructions of the first to seventh aspects of the present invention, the above inheritance coupling information indicating unit may contain a coupled class indicating unit for holding coupled class information which indicates, for each of the plurality of classes, one of the plurality of classes as a coupled class to which the above each of the plurality of classes is to be coupled based on an inheritance relationship, and a pointer indicating unit for indicating pointers to predetermined classes among the plurality of classes which are candidates of the coupled class of the above each of the plurality of classes, so that one of the pointers which points to the above coupled class can be determined based on the above coupled class information.</p>
+    <p num="36">(20) In the construction of (19), the above first request may contain the above coupled class information, and the above at least one piece of inheritance coupling information may be the coupled class information.</p>
+    <p num="37">(21) In the construction of (19), the above coupled class information may comprise flag indications provided for the options, respectively.</p>
+    <p num="38">(22) In the constructions of the first to seventh aspects of the present invention, the above inheritance coupling information indicating unit may be provided outside of the plurality of objects.</p>
+    <p num="39">(23) In the constructions of the first to seventh aspects of the present invention, the above inheritance coupling information indicating unit may be provided outside of the plurality of objects.</p>
+    <p num="40">(24) In the constructions of the first to seventh aspects of the present invention, the above inheritance coupling information indicating unit may comprise a plurality of sub-units corresponding to the plurality of classes, respectively, and the plurality of sub-units may be contained in the respective objects which are instances of the corresponding classes, respectively.</p>
+    <p num="41">(25) In the construction of (19), the above coupled class indicating unit may comprise a plurality of sub-units corresponding to the plurality of classes, respectively, and the plurality of sub-units may be contained in the respective objects which are instances of the corresponding classes, respectively.</p>
+    <p num="42">
+      (26) In the construction of (25), the above first request may contain the above coupled class information, and the above at least one piece of inheritance coupling information may be the coupled class information.
+      <br/>
+      In addition, each of the plurality of objects may further contain a correspondence confirming unit for communicating with another of the plurality of objects which is an instance of the coupled class, and confirming whether or not the sub-unit, in the coupled class, of the coupled class indicating unit indicates the above each of the plurality of objects as a coupled class.
+    </p>
+    <p num="43">
+      (27) According to the eighth aspect of the present invention, there is provided a data processing system at least a portion of which operates under control of an object-oriented program, the above data processing system contains an object-oriented system, in which a plurality of objects are defined by the above object-oriented program,, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      In the data processing system, each of the plurality of objects contains, as program units realized by the object-oriented program; a message receiving unit for receiving a message which contains a request for an execution of a function, and at least one piece of the inheritance coupling information which indicates a first class among the plurality of classes as a parent class among the plurality of classes of a second class among the plurality of classes which the above each of the plurality of objects belongs to; a message executing unit for executing the function requested by the request when the function is defined in the above second class; and a function delegating unit for looking up functions defined in one or more third classes including the above first class, where the above one or more third classes are coupled to the above second class on the ancestor side thereof, when the function requested by the request is not defined in the above second class, and delegating the execution of the function requested by the request, to one of the above one or more third classes when the function requested by the request is defined in the above one of the one or more third classes.
+    </p>
+    <p num="44">(28) in the construction of the eighth aspect of the present invention, the data processing system may further contains a pointer indicating unit for indicating pointers to predetermined options of the parent class of the second class, so that the above each object can refer to one of the pointers which points to the above first class based on the above at least one piece of the inheritance coupling information.</p>
+    <p num="45">(29) In the construction of the eighth aspect of the present invention, the above at least one piece of inheritance coupling information may indicate a pointer to the first class.</p>
+    <p num="46">
+      (30) According to the ninth aspect of the present invention, there is provided a data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      In the data processing system, each of the plurality of objects contains, as program units realized by the object-oriented program; a message receiving unit for receiving a message which contains a request for an execution of a function, and at least one piece of the inheritance coupling information which indicates a first class among the plurality of classes as a parent class of a second class among the plurality of classes which the above each of the plurality of objects belongs to; a message executing unit for executing the function requested by the request when the function is defined in the above second class; and a function delegating unit for looking up functions defined in one or more third classes including the above first class, where the above one or more third classes are coupled to the above second class on the ancestor side thereof, when the function requested by the request is not defined in the above second class, and delegating the execution of the function requested by the request, to one of the above one or more third classes when the function requested by the request is defined in the above one of the one or more third classes.
+    </p>
+    <p num="47">
+      (31) According to the tenth aspect of the present invention, there is provided a process for executing a function in a data processing system containing an object-oriented system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      The above process contains the steps of: (a) receiving, by one of the plurality of objects, a message which contains a request for an execution of a function, and at least one piece of the inheritance coupling information which indicates a first class among the plurality of classes as a parent class of a second class among the plurality of classes which the above one of the plurality of objects belongs to; (b) executing the function requested by the request, in the above one of the plurality of objects, when the function is defined in the above second class; (c) looking up functions defined in one or more third classes including the above first class, where the above one or more third classes are coupled to the above second class on the ancestor side thereof, when the function requested by the request is not defined in the above second class; and (d) delegating the execution of the function requested by the request, to one of the above one or more third classes when the function requested by the request is defined in the above one of the one or more third classes.
+    </p>
+    <p num="48">
+      (32) According to the eleventh aspect of the present invention, there is provided an article of manufacture which, when used with a computer, directs the computer to execute a process for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein the above object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by the above object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+      <br/>
+      The above process contains the steps of: (a) receiving, by one of the plurality of objects, a message which contains a request for an execution of a function, and at least one piece of the inheritance coupling information which indicates a first class among the plurality of classes as a parent class of a second class among the plurality of classes which the above one of the plurality of objects belongs to; (b) executing the function requested by the request, in the above one of the plurality of objects, when the function is defined in the above second classy (c) looking up functions defined in one or more third classes including the above first class, where the above one or more third classes are coupled to the above second class on the ancestor side thereof, when the function requested by the request is not defined in the above second class; and (d) delegating the execution of the function requested by the request, to one of the above one or more third classes when the function requested by the request is defined in the above one of the one or more third classes.
+    </p>
+    <p num="49">
+      (33) According to the twelfth aspect of the present invention, there is provided a data processing system at least a portion of which operates under control of an object-oriented program.
+      <br/>
+      The above data processing system contains an object-oriented system, in which at least one object is defined by the above object-oriented program; a plurality of data units, where each of at least one object can be coupled to one of the plurality of data units, and the above each of at least one object can access the coupled one of the plurality of data units based on coupling information; a coupling information indicating unit for holding therein and indicating the above coupling information, where the coupling information held in the coupling information indicating unit can be referred to by at least one of the above at least one object; and a coupling information setting unit for receiving a first request, and setting at least one piece of the coupling information in the coupling information indicating unit, in response to the first request.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="50">
+      In the drawings:
+      <br/>
+      FIG. 1 is a block diagram illustrating the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 2 is a diagram illustrating a first variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 3 is a block diagram illustrating a second variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 4 is a diagram illustrating a third variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 5 is a diagram illustrating a fourth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 6 is a diagram illustrating a fifth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 7 is a diagram illustrating a sixth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention;
+      <br/>
+      FIG. 8 is diagram illustrating the first embodiment of the present invention;
+      <br/>
+      FIG. 9 is diagram illustrating the second embodiment of the present invention;
+      <br/>
+      FIG. 10 is diagram illustrating the third embodiment of the present invention;
+      <br/>
+      FIG. 11 is diagram illustrating the fourth embodiment of the present invention;
+      <br/>
+      FIG. 12 is diagram illustrating the fifth embodiment of the present invention;
+      <br/>
+      FIG. 13 is diagram illustrating the sixth embodiment of the present invention;
+      <br/>
+      FIG. 14 is diagram illustrating the seventh embodiment of the present invention;
+      <br/>
+      FIG. 15 is diagram illustrating the eighth embodiment of the present invention;
+      <br/>
+      FIG. 16 is diagram illustrating the ninth embodiment of the present invention;
+      <br/>
+      FIG. 17 is diagram illustrating the tenth embodiment of the present invention;
+      <br/>
+      FIG. 18 is diagram illustrating the eleventh and twelfth embodiments of the present invention;
+      <br/>
+      FIG. 19 is diagram illustrating the thirteenth embodiment of the present invention;
+      <br/>
+      FIG. 20 is diagram illustrating the fourteenth embodiment of the present invention;
+      <br/>
+      FIG. 21 is diagram illustrating the fifteenth embodiment of the present invention;
+      <br/>
+      FIG. 22 is diagram illustrating the sixteenth embodiment of the present invention;
+      <br/>
+      FIG. 23 is diagram illustrating the seventeenth embodiment of the present invention;
+      <br/>
+      FIG. 24 is a diagram illustrating the construction of an example of an object-oriented system to which the various aspects of the present invention are applied;
+      <br/>
+      FIG. 25 is diagram illustrating the eighteenth embodiment of the present invention;
+      <br/>
+      FIG. 26 is diagram illustrating the nineteenth embodiment of the present invention;
+      <br/>
+      FIG. 27 is diagram illustrating the twentieth embodiment of the present invention;
+      <br/>
+      FIG. 28 is diagram illustrating the twenty-first embodiment of the present invention;
+      <br/>
+      FIG. 29 is diagram illustrating the twenty-second embodiment of the present invention;
+      <br/>
+      FIG. 30 is diagram illustrating the twenty-third embodiment of the present invention;
+      <br/>
+      FIG. 31 is diagram illustrating the twenty-fourth embodiment of the present invention;
+      <br/>
+      FIG. 32 is diagram illustrating the twenty-fifth embodiment of the present invention;
+      <br/>
+      FIG. 33 is diagram illustrating the twenty-sixth embodiment of the present invention;
+      <br/>
+      FIG. 34 is diagram illustrating the twenty-seventh embodiment of the present invention;
+      <br/>
+      FIG. 35 is diagram illustrating the data structure of the table 163 in the construction of FIG. 34;
+      <br/>
+      FIG. 36 is diagram illustrating the details of the contents of the table 163 in the construction of FIG. 34;
+      <br/>
+      FIG. 37 is diagram illustrating the twenty-eighth embodiment of the present invention;
+      <br/>
+      FIG. 38 is diagram illustrating the data structure of the table 173 in the construction of FIG. 37;
+      <br/>
+      FIG. 39 is diagram illustrating the details of the contents of the table 173 in the construction of FIG. 37;
+      <br/>
+      FIG. 40 is diagram illustrating the twenty-ninth embodiment of the present invention;
+      <br/>
+      FIG. 41 is diagram illustrating the thirtieth embodiment of the present invention;
+      <br/>
+      FIG. 42 is diagram illustrating the thirty-first embodiment of the present invention;
+      <br/>
+      FIG. 43 is diagram illustrating the thirty-second embodiment of the present invention;
+      <br/>
+      FIGS. 44A and 44B are diagrams illustrating the thirty-third embodiment of the present invention;
+      <br/>
+      FIG. 45 is diagram illustrating the thirty-fourth embodiment of the present invention;
+      <br/>
+      FIG. 46 is diagram illustrating the construction of another example of an object-oriented system to which the various aspects of the present invention can be applied;
+      <br/>
+      FIG. 47 is diagram illustrating an example of the hardware construction of the embodiments of the present invention; and
+      <br/>
+      FIG. 48 is diagram illustrating an example of use of the RAM area in the constructions of the embodiments of the present invention.
+    </p>
+    <heading>DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="51">Basic Construction of Invention (FIG. 1)</p>
+    <p num="52">
+      FIG. 1 is a block diagram illustrating the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 1, reference numeral 100 denotes a data processing system, 200 denotes an object-oriented system, 300 denotes an inheritance coupling information indicating unit, and 400 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200, reference numeral 201, 202, and 202 each denote an object defined by an object-oriented program in the object-oriented system 200.
+      <br/>
+      Although not shown, the data processing system 100 may contain another object-oriented system and another non-object-oriented system.
+      <br/>
+      In the object-oriented system 200, a plurality of objects may be defined by an object-oriented program other than the indicated objects 201 to 203.
+      <br/>
+      Each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and one or more inheritance relationships are defined between at least one pair of classes among the plurality of classes based on inheritance coupling information.
+    </p>
+    <p num="53">
+      The inheritance coupling information indicating unit 300 holds therein and indicates the above inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit 300 can be referred to by at least one of the above plurality of objects in the object-oriented system 200.
+      <br/>
+      The inheritance coupling information setting unit 400 can receive a request (indicated in FIG. 1 as "1st request") for setting at least one piece of the inheritance coupling information in the inheritance coupling information indicating unit 300.
+      <br/>
+      The request may be sent from another processing unit (not shown) inside or outside of the data processing system 100.
+    </p>
+    <p num="54">
+      When the inheritance coupling information setting unit 400 receives the request, the inheritance coupling information setting unit 400 sets at least one piece of the inheritance coupling information, which is for example, attached to the request, in the inheritance coupling information indicating unit 300, in response to the first request.
+      <br/>
+      At least one of the plurality of objects in the object-oriented system 200 can refer to the inheritance coupling information indicated in the inheritance coupling information indicating unit 300.
+      <br/>
+      In the situation of FIG. 1, the object 201 determines one of the objects 202 and 203 as an instance in its child class.
+      <br/>
+      However, often, an object may determine one or more of a plurality of objects as an instance in its parent class.
+      <br/>
+      This is the case when an object receives a request of an execution of a function which is not defined in the object, and therefore the objects need to look up functions in other objects in another class which is coupled to the class of the object which receives the request, with an inheritance relationship. in this case, the object which receives the request, refers to the inheritance coupling information indicating unit 300 to obtain a pointer to the parent class.
+    </p>
+    <p num="55">
+      As explained later, the inheritance coupling information indicating unit 300 may comprise a coupled class indicating unit and a pointer indicating unit.
+      <br/>
+      The coupled class indicating unit holds coupled class information which indicates, for each of the plurality of classes, one of the plurality of classes as a coupled class to which the above each of the plurality of classes is to be coupled based on an inheritance relationship.
+      <br/>
+      The pointer indicating unit indicates pointers to predetermined classes among the plurality of classes which are candidates of the coupled class of the above each of the plurality of classes, so that one of the pointers which points to the above coupled class can be determined based on the above coupled class information.
+      <br/>
+      In the construction of FIG. 1, for example, the object 201 first refers to the coupled class information in the coupled class indicating unit in the inheritance coupling information indicating unit 300 to recognize the coupled class to which the class of the object 201 is coupled with an inheritance relationship.
+      <br/>
+      Then, the object 201 refers to the above one of the pointers which points to the above coupled class, based on the recognized coupled class.
+    </p>
+    <p num="56">First Variation of Basic Construction (FIG. 2)</p>
+    <p num="57">
+      FIG. 2 is a diagram illustrating a first variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 2, reference numeral 100-1 denotes a data processing system, 200-1 denotes an object-oriented system, 300-1 denotes an inheritance coupling information indicating unit, and 400-1 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200-1, reference numeral 202, 203, and 204 each denote an object defined by an object-oriented program in the object-oriented system 200-1.
+    </p>
+    <p num="58">
+      As indicated in FIG. 2, the object 204 contains the inheritance coupling information indicating unit 300-1.
+      <br/>
+      The inheritance coupling information indicating unit 300-1 in the object 204 contains inheritance coupling information relating to the class to which the object 204 belongs to, i. e., inheritance coupling information which indicates which coupled class(es) is coupled to the class to which the object 204 belongs to, and pointer(s) to the coupled class(es).
+      <br/>
+      Also, in FIG. 2, the inheritance coupling information setting unit 400-1 can set at least one piece of inheritance coupling information such as the above coupled class(es) and the pointer(s), in the inheritance coupling information indicating unit 300-1 in the object 204.
+      <br/>
+      Although not shown, another object in the object-oriented system 200-1 may also contain an inheritance coupling information indicating unit therein, as the object 204 does.
+    </p>
+    <p num="59">Second Variation of Basic Construction (FIG. 3)</p>
+    <p num="60">
+      FIG. 3 is a block diagram illustrating a second variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 3, reference numeral 100-2 denotes a data processing system, 200-2 denotes an object-oriented system, 300 denotes the same inheritance coupling information indicating unit as the corresponding element 300 in the construction of FIG. 1, and 400-2 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200-3, reference numeral 202, 203, and 205 each denote an object defined by an object-oriented program in the object-oriented system 200-2.
+    </p>
+    <p num="61">
+      In the construction of FIG. 3, the inheritance coupling information setting unit 400-2 is contained in the object 205.
+      <br/>
+      The inheritance coupling information setting unit 400-2 in the object 205 is realized as a function defined in the object 205 (class).
+      <br/>
+      Therefore, the inheritance coupling information setting unit 400-2 can operate in response to a message to the object 205, which message requests an execution of the function of the inheritance coupling information setting unit 400-2.
+      <br/>
+      The function of the inheritance coupling information setting unit 400-2 is the same as the corresponding elements 400 and 400-1 in the constructions of FIGS. 1 and 2.
+      <br/>
+      In addition, the inheritance coupling information indicating unit 300 in the construction of FIG. 3 operates in the same manner as in the construction of FIG. 1.
+    </p>
+    <p num="62">Third Variation of Basic Construction (FIG. 4)</p>
+    <p num="63">
+      FIG. 4 is a diagram illustrating a third variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 4, reference numeral 100-3 denotes a data processing system, 200-3 denotes an object-oriented system, 300-2 denotes an inheritance coupling information indicating unit, and 400-3 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200-3, reference numeral 202, 203, and 206 each denote an object defined by an object-oriented program in the object-oriented system 200-3.
+    </p>
+    <p num="64">
+      In the construction of FIG. 4, both the inheritance coupling information indicating unit 300-2 and the inheritance coupling information setting unit 400-3 are contained in the object 206.
+      <br/>
+      The inheritance coupling information indicating unit 300-2 in the object 206 in the construction of FIG. 4 operates in the same manner as the inheritance coupling information indicating unit 300-1 in the object 204 in the construction of FIG. 2, and the inheritance coupling information setting unit 400-3 in the object 206 in the construction of FIG. 4 operates basically in the same manner as the inheritance coupling information setting unit 400-2 in the object 205 in the construction of FIG. 3.
+      <br/>
+      The only difference is that the inheritance coupling information setting unit 400-2 in the object 205 in the construction of FIG. 3 can set only the inheritance coupling information which is directly related to the object 206, while the inheritance coupling information setting unit 400-2 in the object 205 in the construction of FIG. 3 may set inheritance coupling information which is not directly related to the object 205.
+    </p>
+    <p num="65">
+      Alternatively, when the data processing system of FIG. 4 operates according to the eighth to tenth aspects of the present invention, the inheritance coupling information indicating unit 300-2 may be dispensed with since, in the operations of the eighth to tenth aspects of the present invention, the inheritance coupling information is supplied to the object, together with a request for an execution of a function, and may be temporarily used just for looking up functions in the classes on the ancestor side.
+      <br/>
+      Such operations will be explained later with reference to FIGS. 10, 13, 16, 19, and others.
+    </p>
+    <p num="66">Fourth Variation of Basic Construction (FIG. 5)</p>
+    <p num="67">
+      FIG. 5 is a diagram illustrating a fourth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention, in FIG. 5, reference numeral 100-4 denotes a data processing system, 200-4 denotes an object-oriented system, 300-3 denotes an inheritance coupling information indicating unit, and 400-4 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200-4, reference numeral 201, 202, 203, and 207 each denote an object defined by an object-oriented program in the object-oriented system 200-4.
+    </p>
+    <p num="68">
+      The inheritance coupling information indicating unit 300-3 contains the descendent information indicating unit 301 and the ancestor information indicating unit 302.
+      <br/>
+      The descendent information indicating unit 301 holds therein and indicates the inheritance coupling information with regard to descendents of each class, and the ancestor information indicating unit 302 holds therein and indicates the inheritance coupling information with regard to ancestors of each class.
+      <br/>
+      For example, when the object 207 determines one of the objects 202 and 203 as an instance of a child class of the class to which the object 207 belongs to, the object 207 refers to the inheritance coupling information held in the descendent information indicating unit 301, while, when the object 203 determines one of the objects 201 and 207 as an instance of a parent class of the class to which the object 203 belongs to, the object 203 refers to the inheritance coupling information held in the ancestor information indicating unit 302.
+    </p>
+    <p num="69">
+      In addition, the inheritance coupling information setting unit 400-4 in FIG. 5 may contain the correspondence confirming unit 401, which confirms that there is no contradiction between the inheritance coupling information for the ancestors held in the ancestor information indicating unit and the inheritance coupling information for the descendents held in the descendent information indicating unit.
+      <br/>
+      This confirmation may be performed for a specific one inheritance coupling such as an inheritance coupling between the objects 203 and 207 in FIG. 5 when the inheritance coupling information setting unit 400-4 receives a request for establishing an inheritance coupling between the objects 203 and 207, or when one of the objects 203 and 207 receives a request for executing a function, and needs to confirm the inheritance coupling between the objects 203 and 207.
+    </p>
+    <p num="70">Fifth Variation of Basic Construction (FIG. 6)</p>
+    <p num="71">
+      FIG. 6 is a diagram illustrating a fifth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 6, reference numeral 100-5 denotes a data processing system, 200-5 denotes an object-oriented system, and 400-5 denotes an inheritance coupling information setting unit.
+      <br/>
+      In the object-oriented system 200-5, reference numeral 201, 202, 208, and 209 each denote an object defined by an object-oriented program in the object-oriented system 200-5.
+    </p>
+    <p num="72">
+      The difference in the construction of FIG. 6 form the construction of FIG. 5 is that the inheritance coupling information indicating unit 300-3 in FIG. 5 is contained in the respective objects in the construction of FIG. 6.
+      <br/>
+      Since the interest lies in the inheritance coupling between the objects 208 and 209 in the example of FIG. 6, only the descendent information indicating unit 301-1 is indicated in the object 208, and only the ancestor information indicating unit 302-1 is indicated in the object 209.
+      <br/>
+      In this case, the inheritance coupling information indicating unit 400-5 in FIG. 6 operates in the same manner as the corresponding element 400-4 in FIG. 5, and the correspondence confirming unit 401-1 in FIG. 6 operates in the same manner as the corresponding element 401 in FIG. S.
+    </p>
+    <p num="73">Sixth Variation of Basic Construction (FIG. 7)</p>
+    <p num="74">
+      FIG. 7 is a diagram illustrating a sixth variation of the basic construction of the data processing systems according to the first to fourth aspects of the present invention.
+      <br/>
+      In FIG. 7, reference numeral 100-6 denotes a data processing system, and 200-6 denotes an object-oriented system.
+      <br/>
+      In the object-oriented system 200-6, reference numeral 201, 202, 210, and 211 each denote an object defined by an object-oriented program in the object-oriented system 200-6.
+    </p>
+    <p num="75">
+      In the construction of FIG. 7, the object 210 contains the inheritance coupling information setting unit 400-6, in addition to the descendent information indicating unit 301-2, and the object 211 contains the inheritance coupling information setting unit 400-7, in addition to the ancestor information indicating unit 302-2.
+      <br/>
+      Since the interest lies in the inheritance coupling between the objects 210 and 211 in the example of FIG. 7, only the descendent information indicating unit 301-2 is indicated in the object 210, and only the ancestor information indicating unit 302-2 is indicated in the object 211.
+      <br/>
+      Therefore, each of the objects 210 and 211 has a construction similar to the object 206 in FIG. 4.
+    </p>
+    <p num="76">
+      Further, the object 210 may contain the correspondence confirming unit 401-2, and the object 211 may contain the correspondence confirming unit 401-3.
+      <br/>
+      Due to the provision of the correspondence confirming units 401-2 and 401-3 in the objects 211 and 210, respectively, it is possible to communicate between the correspondence confirming units 401-2 and 401-3 and interchange inheritance coupling information to confirm that there is no contradiction in the inheritance coupling information in the objects 210 and 211 for the inheritance coupling between the objects 210 and 211.
+    </p>
+    <p num="77">First Embodiment (FIG. 8)</p>
+    <p num="78">
+      FIG. 8 is diagram illustrating the first embodiment of the present invention.
+      <br/>
+      In FIG. 8, reference numeral 11, 12, . . . 18 a each denote an object, 2 denotes a set of objects, 3 denotes a message send and receive unit, 4 denotes a pointer table, 5 denotes an information setting unit.
+      <br/>
+      In addition, reference numerals 13 denotes an instruction or request to be supplied to the information setting unit 5, and 14 and 15 each denote a message.
+    </p>
+    <p num="79">
+      In the construction of FIG. 8, the set 2 of objects 11, 12, . . . 18 is provided for realizing a predetermined application program unit in a program at least a portion of which is constructed in the manner of object-oriented programming, and which is executed in a data processing (computer) system.
+      <br/>
+      In FIG. a, the inheritance relationships among classes to which the objects 11, 12, . . . 18 respectively belong, are indicated an if the relationship between the objects 11, 12, . . . 18. The set 2 realizes, for example, an application for word processing, a spread sheet, or the like.
+      <br/>
+      Each object in the set 2 can receive and send a message through the message send and receive unit 3.
+      <br/>
+      The pointer table 4 corresponds to the inheritance coupling information indicating unit 300 in FIG. 1, and the information setting unit 5 corresponds to the inheritance coupling information setting unit 400 in FIG. 1.
+    </p>
+    <p num="80">
+      The request 13 corresponds to the first request in FIG. 1, originating outside the data processing system or another unit in the data processing system.
+      <br/>
+      The request 13 may contain the coupled class information and/or the pointer(s) to predetermined candidates of the parent and/or child classes, which are explained with reference to FIG. 1.
+      <br/>
+      When the request 13 is supplied to the information setting unit 5 (step (1)), the information setting unit 5 sets the information contained in the request 13, in the pointer b le 4 (step (2)).
+      <br/>
+      When the operation of the information setting unit 5 is completed, the information setting unit 5 may return a message to outside the data processing system or the above other unit in the data processing system, at which the above request 13 is originated (step (3)).
+    </p>
+    <p num="81">
+      Then, the message 14 is sent to the message send and receive unit 3 from the above other unit in the data processing system or a further other unit (step (4)).
+      <br/>
+      The message 14 may be generated in response to an input event to the data processing system.
+      <br/>
+      The message 14 contains an object name which indicates a destination object of the message 14, and information on an operation or function which the message requests the destination object to execute.
+      <br/>
+      When the message send and receive unit 3 receives the message 14, the message send and receive unit 3 transfers the message 14 to the destination object, for example, the object 18 (step (5)).
+    </p>
+    <p num="82">
+      When the object 18 receives the message 14, the object 18 looks up functions defined in the object 18 for the function requested by the message 14.
+      <br/>
+      When the requested function is defined in the object 18, the object 18 executes the requested function, and returns a return message to the origin of the message 14 through the message send and receive unit 3 (steps (8) and (9)).
+      <br/>
+      When the requested function is not defined in the object 18, the object 18 looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 18 refers to the pointer to its parent class, in the pointer table 4 (step (6)).
+      <br/>
+      When the requested function is found in one of the ancestor class(es) of the class of the object 18, for example, in the class to which the object 14 belongs, the execution of the requested function is delegated to the object 14 (step (7)).
+      <br/>
+      When the execution of the requested function is completed, the object 18 returns the return message 15 through the message send and receive unit 3 to the origin of the above message 14 (steps (8) and (9)).
+      <br/>
+      The return message 15 contains return information, which indicates the result of the executed function.
+      <br/>
+      When the above requested function is not found in the class of the object 18 and its ancestor class(es), the object 18 returns the return message containing error information.
+    </p>
+    <p num="83">Second Embodiment (FIG. 9)</p>
+    <p num="84">
+      FIG. 9 is diagram illustrating the second embodiment of the present invention.
+      <br/>
+      The construction of FIG. 9 is different from the construction of FIG. 8, in that the pointer table 4-1 contains the pointers only, and at least one object 18 ' contains the coupled class information as explained with reference to FIGS. 1 and 2.
+    </p>
+    <p num="85">
+      In the embodiment of FIG. 9, the request 13 contains the coupled class information.
+      <br/>
+      When the request 13 is supplied to the information setting unit 5-s (step (1)), the information setting unit 5-1 sets the coupled class information contained in the request 13, in the object 18 ' (step (2)).
+      <br/>
+      When the operation of the information setting unit 5-1 is completed, the information setting unit 5-1 may return a message to the origin of the above request 13 (step (3)).
+    </p>
+    <p num="86">
+      Then, the message 14 is sent to the massage send and receive unit 3 from the above other unit in the data processing system or a further other unit (step (4)).
+      <br/>
+      When the object 18 receives the message 14, the object 18 ' looks up functions defined in the object 18 ' for the function requested by the message 14.
+      <br/>
+      When the requested function is defined in the object 18 ', the object 18 ' executes the requested function, and returns a return message to the origin of the message 14 through the message send and receive unit 3 (steps (8) and (9)).
+      <br/>
+      When the requested function is not defined in the object 18 ', the object 18 ' looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 18 ' refers to the coupled class information which is set therein, and to the pointer to its parent class, in an entry for the coupled class in the pointer table 4-1 (step (6)).
+      <br/>
+      The other operations in the embodiment of FIG. 9 are the same as those in the embodiment of FIG. 8.
+    </p>
+    <p num="87">Third Embodiment (FIG. 10)</p>
+    <p num="88">
+      FIG. 10 is diagram illustrating the third embodiment of the present invention.
+      <br/>
+      The construction of FIG. 10 is different from the construction of FIG. 8, in that there is no pointer table, and the information in the pointer table 4 of FIG. 8 is contained in at least one object.
+      <br/>
+      For example, the respective objects may contain the pointers to its parent and/or child classes.
+      <br/>
+      Namely, the embodiment of FIG. 10 corresponds to the construction of FIG. 2.
+    </p>
+    <p num="89">
+      In the embodiment of FIG. 10, the request 13 contains the coupled class information and/or the pointer(s) to predetermined candidates of the parent and/or child classes.
+      <br/>
+      When the request 13 is supplied to the information setting unit 5-2 (step (1)), the information setting unit 5-2 sets the inheritance coupling information contained in the request 13, in the object 18 " (step (2)).
+      <br/>
+      When the operation of the information setting unit 5-2 is completed, the information setting unit 5-2 may return a message to the origin of the above request 13 (step (3)).
+    </p>
+    <p num="90">
+      Then, the message 14 is sent to the message send and receive unit 3 from the above other unit in the data processing system or a further other unit (step (4)).
+      <br/>
+      When the object 18 receives the message 14, the object 18 " looks up functions defined in the object 18 " for the function requested by the message 14.
+      <br/>
+      When the requested function is defined in the object 18 ", the object 18 " executes the requested function, and returns a return message to the origin of the message 14 through the message send and receive unit 3 (steps (8) and (9)).
+      <br/>
+      When the requested function is not defined in the object 18 ", the object 1s " looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 18 " refers to the above inheritance coupling information which is set therein for the pointer to its parent class (step (6)).
+      <br/>
+      The other operations in the embodiment of FIG. 9 are the same as those in the embodiment of FIG. 8.
+    </p>
+    <p num="91">According to the above operations of FIGS. 8 to 10, the origins of the request 13 and the message 14 may be different units, and the request 13 and the message 14 may be generated and sent independently.</p>
+    <p num="92">Fourth Embodiment (FIG. 11)</p>
+    <p num="93">
+      FIG. 11 is diagram illustrating the fourth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 11 is different from the construction of FIG. 8, in that the information contained in the above request 13, is contained in the message 12 which is sent to an object through the message send and receive unit 3, and the function of the information setting unit is realized in the object, as one of functions defined in the class of the object.
+      <br/>
+      The embodiment of FIG. 11 corresponds to the construction of FIG. 3.
+      <br/>
+      The pointer table 4 in FIG. 11 is the same as the pointer table 4 in FIG. 8.
+    </p>
+    <p num="94">When the message 12 is sent to the message send and receive unit 3 from the above other unit in the data processing system or a further other unit (step (1)), the message 12 is transferred to the destination object 19 (step (2)).</p>
+    <p num="95">
+      When the object 19 receives the message 12, the object 19 first executes the function of the above information setting unit.
+      <br/>
+      Namely, the object 19 sets the information on inheritance (inheritance coupling information) contained in the message 12, in the pointer table 4 (stop (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the object 19 looks up functions defined in the object 19 for the function requested by the message 12.
+      <br/>
+      When the requested function is defined in the object 19 the object 19 executes the requested function, and returns a return message to the origin of the message 12 through the message send and receive unit 3 (steps (6) and (7)).
+      <br/>
+      When the requested function is not defined in the object 19, the object 19 looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 19 refers to the pointer to its parent class, in the pointer table 4 (step (4)).
+      <br/>
+      When the requested function is found in one of the ancestor class(es) of the class of the object 19, for example, in the class to which the object 14 belongs, the execution of the requested function is delegated to the object 14 (step (5)).
+      <br/>
+      When the execution of the requested function is completed, the object 19 returns the return message 11 through the message send and receive unit 3 to the origin of the above message 12 (steps (6) and (7)).
+      <br/>
+      The return message 11 contains return information, which indicates the result of the executed function.
+      <br/>
+      When the above requested function is not found in the class of the object 19 and its ancestor class(es), the object 19 returns the return message containing error information.
+    </p>
+    <p num="96">Fifth Embodiment (FIG. 12)</p>
+    <p num="97">
+      FIG. 12 is diagram illustrating the fifth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 12 is different from the construction of FIG. 11, in that the pointer table 4-1 contains the pointers only, and at least one object 19 ' contains the coupled class information as explained with reference to FIGS. 1 and 2.
+    </p>
+    <p num="98">
+      In the embodiment of FIG. 12, the inheritance coupling information contained in the message 12 contains the coupled class information.
+      <br/>
+      When the message 12 is supplied to the object 19 ' (steps (1) and (2)), the function of the information setting unit, which is defined in the class of the object 19 ', sets the coupled class information contained in the message 12, in the object 19 ' (step (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the object 19 ' looks up functions defined in the object 19 ' for the function requested by the message 12.
+      <br/>
+      When the requested function is defined in the object 19 ', the object 19 ' executes the requested function, and returns a return message to the origin of the message 12 through the message send and receive unit 3 (steps (6) and (7)).
+      <br/>
+      When the requested function is not defined in the object 19 ', the object 19 ' looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 19 ' refers to the coupled class information which is set therein, and to the pointer to its parent class, in an entry for the coupled class in the pointer table 4-1 (step (4)).
+      <br/>
+      The other operations in the embodiment of FIG. 12 are the same as those in the embodiment of FIG. 11.
+    </p>
+    <p num="99">Sixth Embodiment (FIG. 13)</p>
+    <p num="100">
+      FIG. 13 is diagram illustrating the sixth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 13 is different from the construction of FIG. 11, in that there is no pointer table, and the information in the pointer table 4 of FIG. 11 is contained in at least one object.
+      <br/>
+      For example, the respective objects may contain the pointers to its parent and/or child classes.
+      <br/>
+      Namely, the embodiment of FIG. 13 corresponds to the construction of FIG. 2.
+    </p>
+    <p num="101">
+      In the embodiment of FIG. 13, the message 12 contains the coupled class information and/or the pointer(s) to predetermined candidates of the parent and/or child classes.
+      <br/>
+      When the message 12 is supplied to the object 19 " (steps (1) and (2)), the function of information setting unit, which is defined in the object 19 ", sets the inheritance coupling information contained in the message 12, in the object 19 " (step (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the object 19 ' looks up functions defined in the object 19 " for the function requested by the message 12.
+      <br/>
+      When the requested function is defined in the object 19 ", the object 19 " executes the requested function, and returns a return message to the origin of the message 12 through the message send and receive unit 3 (steps (5) and (6)).
+      <br/>
+      When the requested function is not defined in the object 19 ", the object 19 " looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 19 " refers to the above inheritance coupling information which is set therein for the pointer to its parent class (step (3)).
+      <br/>
+      The other operations in the embodiment of FIG. 13 are the same as those in the embodiment of FIG. 11.
+    </p>
+    <p num="102">
+      As explained with reference to FIG. 4, the inheritance coupling information indicating unit 300-2 may not be provided in the object 19 ". Namely, the inheritance coupling information contained in the message 12 may not be held in the object 19 ", and may be temporarily used for looking up the ancestor class(es).
+      <br/>
+      In this case, the embodiment of FIG. 13 realizes the eighth aspect of the present invention.
+    </p>
+    <p num="103">Seventh Embodiment (FIG. 14)</p>
+    <p num="104">
+      FIG. 14 is diagram illustrating the seventh embodiment of the present invention.
+      <br/>
+      The construction of FIG. 14 is different from the constructions of FIGS. 8 and 11, in that the information contained in the above request 13 in the embodiment of FIG. 8, is contained in a first message 16 which is sent to an object through the message send and receive unit 3, before a second message containing a request for an execution of a function is sent to the object.
+      <br/>
+      The function of the information setting unit is also realized in the object, as one of functions defined in the class of the object.
+      <br/>
+      The embodiment of FIG. 14 also corresponds to the construction of FIG. 3.
+      <br/>
+      The pointer table 4 in FIG. 14 is the same as the pointer table 4 in FIGS. 8 and 11.
+    </p>
+    <p num="105">When the first message 16 is sent to the message send and receive unit 3 from the above other unit in the data processing system or a further other unit (stop (1)), the first message 16 is transferred to the destination object 110 (step (2)).</p>
+    <p num="106">
+      When the object 110 receives the first message 16, the object 110 first executes the function of the above information setting unit.
+      <br/>
+      Namely, the object 110 sets the information on inheritance (inheritance coupling information) contained in the first message 16, in the pointer table 4 (step (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the information setting unit may return a message to the origin of the first message 16 through the message send and receive unit 3 (steps (4) and (5)).
+    </p>
+    <p num="107">
+      Then, the second message 14, which is the same as the message 14 in the embodiment of FIG. 8, is sent to the message send and receive unit 3 to the object 110 (steps (6) and (7)).
+      <br/>
+      When the object 110 receives the second message 14, the object 110 looks up functions defined in the object 110 for the function requested by the second message 14.
+      <br/>
+      When the requested function is defined in the object 110, the object 110 executes the requested function, and returns a return message to the origin of the second message 14 through the message send and receive unit 3 (steps (10) and (11)).
+      <br/>
+      When the requested function is not defined in the object 110, the object 110 looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 110 refers to the pointer to its parent class, in the pointer table 4 (steps (8)).
+      <br/>
+      When the requested function is found in one of the ancestor class(es) of the class of the object 110, for example, in the class to which the object 14 belongs, the execution of the requested function is delegated to the object 14 (step (9)).
+      <br/>
+      When the execution of the requested function is completed, the object 110 returns the return message 11 through the message send and receive unit 3 to the origin of the above message 14 (steps (11)).
+      <br/>
+      The return message 11 contains return information, which indicates the result of the executed function.
+      <br/>
+      When the above requested function is not found in the class of the object 110 and its ancestor class(es), the object 110 returns the return message containing error information.
+    </p>
+    <p num="108">Eighth Embodiment (FIG. 15)</p>
+    <p num="109">
+      FIG. 15 is diagram illustrating the eighth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 15 is different from the construction of FIG. 14, in that the pointer table 4-1 contains the pointers only, and at least one object 110 ' contains the coupled class information as explained with reference to FIGS. 1 and 2.
+    </p>
+    <p num="110">
+      In the embodiment of FIG. 15, the inheritance coupling information contained in the first message 16 contains the coupled class information.
+      <br/>
+      When the first message 16 is supplied to the object 110 ' (steps (1) and (2)), the function of the information setting unit, which is defined in the class of the object 110 ', sets the coupled class information contained in the first message 16, in the object 110 ' (steps (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the information setting unit may return a message to the origin of the first message 16 through the message send and receive unit 3 (steps (4) and (5)).
+    </p>
+    <p num="111">
+      Then, the second message 14, which is the same as the message 14 in the embodiment of FIG. 8, is sent to the message send and receive unit 3 to the object 110 ' (steps (6) and (7)).
+      <br/>
+      When the object 110 receives the second message 14, the object 110 ' looks up functions defined in the object 110 ' for the function requested by the second message 14.
+      <br/>
+      When the requested function is defined in the object 110 ', the object 110 ' executes the requested function, and returns a return message to the origin of the second message 14 through the message send and receive unit 3 (steps (10) and (11)). when the requested function is not defined in the object 110 ', the object 110 ' looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 110 ' refers to the coupled class information which is set therein, and to the pointer to its parent class, in an entry for the coupled class in the pointer table 4-1 (steps (8)).
+      <br/>
+      The other operations in the embodiment of FIG. 15 are the same as those in the embodiment of FIG. 14.
+    </p>
+    <p num="112">Ninth Embodiment (FIG. 16)</p>
+    <p num="113">
+      FIG. 16 is diagram illustrating the ninth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 16 is different from the construction of FIG. 14, n that there is no pointer table, and the information in the pointer table 4 of FIG. 14 is contained in at least one object.
+      <br/>
+      For example, the respective objects may contain the pointers to its parent and/or child classes.
+      <br/>
+      Namely, the embodiment of FIG. 16 corresponds to the construction of FIG. 2.
+    </p>
+    <p num="114">
+      In the embodiment of FIG. 16, the first message 16 contains the coupled class information and/or the pointer(s) to predetermined candidates of the parent and/or child classes.
+      <br/>
+      When the first message 16 is supplied to the object 110 " (steps (1) and (2)), the function of information setting unit, which is defined in the object 110 ", sets the inheritance coupling information contained in the first message 16, in the object 110 " (steps (3)).
+      <br/>
+      When the operation of the information setting unit is completed, the information setting unit may return a message to the origin of the first message 16 through the message send and receive unit 3 (steps (4) and (5)).
+    </p>
+    <p num="115">
+      Then, the second message 14, which is the same as the message 14 in the embodiment of FIG. 8, is sent to the message send and receive unit 3 to the object 110 " (steps (6) and (7)).
+      <br/>
+      When the object 110 " receives the second message 14, the object 110 " looks up functions defined in the object 110 " for the function requested by the second message 14.
+      <br/>
+      When the requested function is defined in the object 110 ", the object 110 " executes the requested function, and returns a return message to the origin of the second message 14 through the message send and receive unit 3 (steps (5) and (6)).
+      <br/>
+      When the requested function is not defined in the object 110 " the object 110 " looks up functions defined in the ancestor class(es).
+      <br/>
+      For looking up the ancestor class(es), the object 110 " refers to the above inheritance coupling information which is set therein for the pointer to its parent class (steps (8)).
+      <br/>
+      The other operations in the embodiment of FIG. 16 are the same as those in the embodiment of FIG. 14.
+    </p>
+    <p num="116">
+      As explained with reference to FIG. 4, the inheritance coupling information indicating unit 300-2 may not be provided in the object 110 ". Namely, the inheritance coupling information contained in the first message 16 may not be held in the object 110 ", and may be temporarily used for looking up the ancestor class(es).
+      <br/>
+      In this case, the embodiment of FIG. 16 realizes the eighth aspect of the present invention.
+    </p>
+    <p num="117">According to the above operations of FIGS. 14 to 16, the origins of the first message 16 and the second message 14 may be different units, and the first message is 16 and the second message 14 may be generated and sent independently.</p>
+    <p num="118">Tenth Embodiment (FIG. 17)</p>
+    <p num="119">
+      FIG. 17 is diagram illustrating the tenth embodiment of the present invention.
+      <br/>
+      The embodiment of FIG. 17 corresponds to the construction of FIG. S. The construction of FIG. 17 is different from the construction of FIG. 8, in that the information setting unit 5-3 contains a correspondence confirmation unit 6, which corresponds to the correspondence confirming unit 401 in the construction of FIG. 5.
+      <br/>
+      The pointer table 4 in FIG. 17 is the same as the pointer table 4 in FIGS. 8, 11, and 14.
+    </p>
+    <p num="120">
+      When the request 13 is supplied to the information setting unit 5-3 (steps (1)), the correspondence confirmation unit 6 in the inheritance coupling information setting unit 5-3 confirms that no contradiction occurs between the inheritance coupling information for the ancestors held in the pointer table 4 and the inheritance coupling information for the descendents held in the pointer table 4, by setting the inheritance coupling information contained in the request 13, in the pointer table 4.
+      <br/>
+      When no contradiction is confirmed, the information setting unit 5-3 sets the inheritance coupling information contained in the request 13, in the pointer table 4 (steps (2)).
+      <br/>
+      When the operation of the information setting unit 5-3 is completed, the information setting unit 5-3 may return a message to the origin of the request 13 (step (3)).
+      <br/>
+      When the correspondence confirmation unit 6 has determined that at least one contradiction occurs by setting the above inheritance coupling information contained in the request 13, the correspondence confirmation unit 6 returns an error message to the origin of the request 13.
+    </p>
+    <p num="121">The other operations in the embodiment of FIG. 17 are the same as the operations in the embodiment of FIG. 8.</p>
+    <p num="122">Eleventh and Twelfth Embodiments (FIG. 18)</p>
+    <p num="123">FIG. 18 is diagram illustrating the eleventh and twelfth embodiments of the present invention.</p>
+    <p num="124">The construction of the eleventh embodiment is different from the construction of FIG. 17, in that the pointer table contains the pointers only, at least one object 111 ' contains the coupled class information as explained with reference to FIGS. 1 and 2, and the confirmation by the correspondence confirmation unit 6-1 is carried out with regard to the coupled class information set or to be set in a pair of parent and child objects (i.e., objects of a pair of parent and child classes).</p>
+    <p num="125">
+      In the eleventh embodiment, the request 13 contains the coupled class information.
+      <br/>
+      When the request 13 is supplied to the information setting unit 5-4 (steps (1)), the correspondence confirmation unit 6-1 in the inheritance coupling information setting unit 5-4 confirms that no contradiction occurs between the coupled class information for parent class(es) of the class of the object 111 ' hold in the object 111 ' and the coupled class information for the child class(es) of the class of the object 112 ' held in the object 112 ', by setting the inheritance coupling information contained in the request 13, in the objects 111 ' and 112 ', respectively (steps (2)).
+      <br/>
+      When no contradiction is confirmed, the information setting unit 5-4 sets the inheritance coupling information contained in the request 13, in the objects 111 ' and 112 ' and/or the pointer table, respectively.
+      <br/>
+      When the operation of the information setting unit 5-4 is completed, the information setting unit 5-4 may return a message to the origin of the request 13 (steps (3)).
+      <br/>
+      When the correspondence confirmation unit 6-1 determined that at least one contradiction occurs by setting the above inheritance coupling information contained in the request 13, the correspondence confirmation unit 6-1 returns an error message to the origin of the request 13.
+    </p>
+    <p num="126">The other operations in the eleventh embodiment are the same as the operations in the embodiment of FIG. 9.</p>
+    <p num="127">
+      The construction of the twelfth embodiment is different from the construction of FIG. 17, in that there is no pointer table, the information in the pointer table 4 of FIG. 17 is contained in at least one object, and the confirmation by the correspondence confirmation unit 6-1 is carried out with regard to the inheritance coupling information set in a pair of parent and child objects (i. e., objects of a pair of parent and child classes).
+      <br/>
+      For example, the respective objects may contain the pointers to its parent and/or child classes.
+      <br/>
+      Namely, the twelfth embodiment corresponds to the construction of FIG. 6.
+    </p>
+    <p num="128">
+      In the twelfth embodiment, the request 13 contains, as the inheritance coupling information, the coupled class information and/or the pointer(s) to predetermined candidates of the parent and/or child classes.
+      <br/>
+      When the request 13 is supplied to the information setting unit 5 (steps (1)), the correspondence confirmation unit 6-1 in the inheritance coupling information setting unit 5-4 confirms that no contradiction occurs between the inheritance coupling information for parent class(es) of the class of the object 111 ' held in the object 111 ' and the inheritance coupling information for the child class(es) of the class of the object 112 ' held in the object 112 ', by setting the inheritance coupling information contained in the request 13, in the objects 111 ' and 112 ', respectively (steps (2)).
+      <br/>
+      When no contradiction is confirmed, the information setting unit 5-4 sets the inheritance coupling information contained in the request 13, in the objects 111 ' and 112 ', respectively.
+      <br/>
+      When the operation of the information setting unit 5-4 is completed, the information setting unit 5-4 may return a message to the origin of the request 13 (steps (3)).
+      <br/>
+      When the correspondence confirmation unit 6-1 determines that at least one contradiction occurs by setting the above inheritance coupling information contained in the request 13, the correspondence confirmation unit 6-1 returns an error message to the origin of the request 13.
+    </p>
+    <p num="129">The other operations in the twelfth embodiment are the same as the operations in the embodiment of FIG. 10.</p>
+    <p num="130">According to the above operations of the tenth to twelfth embodiments, the origins of the request 13 and the message 14 may be different units, and the request 13 and the message 14 may be generated and sent independently.</p>
+    <p num="131">Thirteenth Embodiment (FIG. 19)</p>
+    <p num="132">
+      FIG. 19 is diagram illustrating the thirteenth embodiment of the present invention.
+      <br/>
+      The thirteenth embodiment corresponds to the construction of FIG. 7.
+      <br/>
+      The construction of the thirteenth embodiment is different from the sixth embodiments of FIG. 13, in that objects (which are to be) in a pair of parent and child classes in the construction of the thirteenth embodiment further comprises the correspondence confirming units 401-2 and 401-3, as indicated in FIG. 7.
+    </p>
+    <p num="133">
+      As explained with reference to FIG. 7, according to the provision of the correspondence confirming units 401-2 and 401-3 in the objects (which are to be) in a pair of parent and child classes in the construction of FIG. 19, when one of these objects receives inheritance coupling information, (i.e., when the object 113 receives the inheritance coupling information for parent class(es) of the class of the object 113, or when the object 114 receives the inheritance coupling information for the child class(es) of the class of the object 114), operations are carried out for confirming that no contradiction occurs between the inheritance coupling information for parent class(es) of the class of the object 113 held in the object 113 and the inheritance coupling information for the child class(es) of the class of the object 114 held in the object 114, by setting the received inheritance coupling information in the object which receives the inheritance coupling information.
+      <br/>
+      These operations can be performed by communication between the correspondence confirming units 401-2 and 401-3 in the objects 113 and 114.
+    </p>
+    <p num="134">
+      When no contradiction is confirmed, the function of the information setting unit, which is defined in the object which receives the inheritance coupling information, sets the inheritance coupling information contained in the request 13, in the objects 113 and 114, respectively.
+      <br/>
+      When the operation of the function of the information setting unit is completed, the object may return a message to the origin of the message which contains the inheritance coupling information (step (3)).
+      <br/>
+      When the correspondence confirming units 401-2 and 401-3 determine that at least one contradiction occurs by setting the above inheritance coupling information in the object, one of the correspondence confirming units 401-2 and 401-3 in the object which receives the inheritance coupling information, returns an error message to the origin of the message containing the inheritance coupling information.
+    </p>
+    <p num="135">The other operations in the thirteenth embodiment are the same as the operations in the embodiment of the sixth embodiments of FIG. 13. Apparently, the above provision can be applied to the ninth embodiment of FIG. 16.</p>
+    <p num="136">The above operations for confirming the correspondence between the inheritance coupling information for parent class(es) of the class of the object 113 held in the object 113 and the inheritance coupling information for the child class(es) of the class of the object 114 held in the object 114, may be replaced with operations for confirming the correspondence between the inheritance coupling information for parent class(es) of the class of the object 113 held in the pointer table as indicated in FIGS. 11, 12, 14, and 15 (corresponding to the inheritance coupling information indicating unit 300-3 in FIG. 5) and the inheritance coupling information for the child class(es) of the class of the object 114 held in the pointer table, when at least a portion of the inheritance coupling information is held outside the objects 113 and 114.</p>
+    <p num="137">Fourteenth Embodiment (FIG. 20)</p>
+    <p num="138">
+      FIG. 20 is diagram illustrating the fourteenth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 20, the function of the confirmation in the above operations in the thirteenth embodiment is commonly provided for all of the objects 11, 12, . . . 18, 111 ', and 114 ' in the set 2-12. in the construction of FIG. 20, when one of these objects receives inheritance coupling information, (i.e., when the object 113 ' receives the inheritance coupling information for parent class(es) of the class of the object 113 ', or when the object 114 ' receives the inheritance coupling information for the child class(es) of the class of the object 114 '), operations are carried out for confirming that no contradiction occurs between the inheritance coupling information for parent class(es) of the class of the object 113 ' held in the object 113 ' and the inheritance coupling information for the child class(es) of the class of the object 114 ' held in the object 114 ', by setting the received inheritance coupling information in the object which receives the inheritance coupling information.
+      <br/>
+      These operations can be performed by communication between the correspondence confirming unit 401-2 in the object 114 ' and the common correspondence confirmation unit 7, and communication between the common correspondence confirmation unit 7 and the correspondence confirming unit 401-3 in the object 113 ', and the confirmation by the common correspondence confirmation unit 7.
+      <br/>
+      Namely, the common correspondence confirmation unit 7 receives the above inheritance coupling information for parent class(es) of the class of the object 113 ' held in the object 113 ' and the inheritance coupling information for the child class(es) of the class of the object 114 ' held in the object 114 ', and determines the correspondence between them (steps (3), (4), and (5)).
+    </p>
+    <p num="139">When no contradiction is confirmed, the function of the information setting unit, which is defined in the object which receives the inheritance coupling information, sets the inheritance coupling information contained in the request 13, in the objects 113 ' and 114 ', respectively, when the common correspondence confirmation unit 7 determines that at least one contradiction occurs by setting the above inheritance coupling information in the object, the common correspondence confirmation unit 7 returns an error message through one of the correspondence confirming units 401-2 and 401-3 in the object which receives the inheritance coupling information, to the origin of the message containing the inheritance coupling information.</p>
+    <p num="140">The other operations in the thirteenth embodiment are the same as the operations in the embodiment of the sixth embodiments of FIG. 13. Apparently, the above provision can be applied to the ninth embodiment of FIG. 16.</p>
+    <p num="141">Fifteenth Embodiment (FIG. 21)</p>
+    <p num="142">
+      FIG. 21 is diagram illustrating the fifteenth embodiment of the present invention.
+      <br/>
+      The embodiment of FIG. 21, is useful, in particular, in the case wherein the information setting unit 5-5 receives inheritance coupling information for more than one inheritance coupling by a request 13-1.
+      <br/>
+      The construction indicated in FIG. 21 is a variation of the construction of FIG. 10.
+    </p>
+    <p num="143">
+      The request 13-1 may contain inheritance coupling information for more than one inheritance coupling.
+      <br/>
+      When the information setting unit 5-5 receives the request 13-1, the information setting unit 5-5 scans the set of the objects in an inheritance hierarchy from the highest level to the lowest level one object by one object, along the inheritance relationships.
+      <br/>
+      When the scanned location reaches one of the inheritance couplings of which the information setting unit 5-5 receives the inheritance coupling information by the request, the information setting unit 5-5 sets the inheritance coupling information in the objects.
+      <br/>
+      Thus, the inheritance coupling information for all of the inheritance couplings can be set in the corresponding objects, respectively.
+    </p>
+    <p num="144">
+      Alternatively, the above operations can be modified to be applicable to the constructions of FIGS. 8 and 9.
+      <br/>
+      In the construction in which all of the inheritance coupling information is held in the pointer table 4, which is provided outside of the objects, as in the construction of FIG. 8, the above scanning and setting operations can be performed on the contents of the pointer table 4.
+      <br/>
+      Similarly, in the construction in which the coupled class information is held in each object, and the pointers are held in the pointer table 4-1, which is provided outside of the objects as in the construction of FIG. 9, the above scanning and setting operations cam be performed on both the coupled class information in each object and the contents of the pointer table 4-1.
+    </p>
+    <p num="145">Sixteenth Embodiment (FIG. 22)</p>
+    <p num="146">
+      FIG. 22 is diagram illustrating the sixteenth embodiment of the present invention.
+      <br/>
+      The embodiment of FIG. 22, is also useful in the case wherein the information setting unit 5-5 receives inheritance coupling information for more than one inheritance coupling by a request 13-2.
+      <br/>
+      The construction indicated in FIG. 22 is also a variation of the construction of FIG. 8.
+    </p>
+    <p num="147">
+      In the construction of FIG. 22, a combination registration unit 8 is provided in the preceding stage of the information setting unit 5-6.
+      <br/>
+      In the combination registration unit 8, a plurality of sets of inheritance coupling information are registered in advance for a plurality of combinations of inheritance couplings so that a set of inheritance coupling information for each combination can be read by inputting a key or code information corresponding to the combination.
+      <br/>
+      For example, the combination registration unit 8 may be in the form of a table.
+      <br/>
+      Therefore, the request 13-2 can contain only the code to instruct any one of the plurality of sets of the inheritance coupling information.
+      <br/>
+      When the combination registration unit 8 receives the code from the request, the combination registration unit 8 outputs one of the plurality of sets of the inheritance coupling information corresponding to the code contained in the request, to the information setting unit 5-6.
+      <br/>
+      Thus, the information setting unit 5-6 can set the set of inheritance coupling information in the corresponding entries in the pointer table 4.
+    </p>
+    <p num="148">Seventeenth Embodiment (FIG. 23)</p>
+    <p num="149">
+      FIG. 23 is diagram illustrating the seventeenth embodiment of the present invention.
+      <br/>
+      In the embodiment of FIG. 23, the above operations of FIG. 22 are applied to the constructions of FIG. 10. In the construction in which all of the inheritance coupling information is hold in the respective objects, as in the construction of FIG. 10, the above setting operations by the information setting unit 5-6 in the corresponding entries in the pointer table 4, are replaced with information setting operations by the information setting unit 5-7 in FIG. 23 in the corresponding objects.
+    </p>
+    <p num="150">Similarly, although not shown, in the construction in which the coupled class information is held in each object, and the pointers are held in the pointer table 4-1, which is provided outside of the objects as in the construction of FIG. 9, the above setting operation can be performed on both the coupled class information in the corresponding objects and the contents of the pointer table 4-1.</p>
+    <p num="151">Example of an Object-Oriented System (FIG. 24)</p>
+    <p num="152">
+      FIG. 24 is a diagram illustrating the construction of an example of an object-oriented system to which the various aspects of the present invention are applied.
+      <br/>
+      In the example of FIG. 24, reference numeral 60 denotes a signal lamp which comprises right and left signals, 61 denotes an object in which a function of lighting the right signal only is defined, 62 denotes an object in which a function of lighting the left signal only is defined, 63 denotes an object in which a function of lighting both the right and left signals is defined, 64 denotes an object in which a function of generally turning on or off one or more signal, 65 denotes an instruction of lighting the right signal, 66 denotes an instruction of lighting the left signal, 67 denotes an instruction of lighting both the right and left signals, 68 denotes a unit for changing inheritance relationships between the "signal" object 64 and the three objects 61, 62, and 63, and 69 denotes an instruction of generally turning on or off a signal.
+      <br/>
+      Hereinafter, each object as an instance of a class is regarded in the same light as the class, for simplicity of explanations.
+    </p>
+    <p num="153">
+      The unit 68 can establish an inheritance coupling between the "signal" object 64 and one of the three objects 61, 62, and 63 in response to reception of one of the instructions 65, 66, and 67, respectively.
+      <br/>
+      When the inheritance coupling is established between the "signal" object 64 and a specific one of the three objects 65, 66, and 67, the function (attribute or feature) of the specific one of the objects 65, 66, and 67 can be performed by sending a request for execution of the function to the "signal" object 64.
+      <br/>
+      Therefore, the attribute which the "signal" object 64 inherits can be changed by changing the instruction supplied to the unit 68.
+    </p>
+    <p num="154">Eighteenth Embodiment (FIG. 25)</p>
+    <p num="155">
+      FIG. 25 is diagram illustrating the eighteenth embodiment of the present invention.
+      <br/>
+      In FIG. 25, reference numeral 60 denotes the same signal lamp as that in FIG. 24, 71 denotes an object in which a function of lighting the right signal only is defined, 72 denotes an object in which a function of lighting the left signal only is defined, 73 denotes an object in which a function of lighting both the right and left signals is defined, 74 denotes an object in which a function of generally turning on or off one or more signal, 75 denotes a message send and receive unit, 76 denotes a pointer table, 77 denotes an inheritance coupling between the "signal" object 74 and the "right signal" object 71, 78 denotes a return message, and 79 denotes a message for requesting for an execution of a function.
+    </p>
+    <p num="156">
+      The message 79 contains an object name, "signal", a function, "ON" of turning on a signal, and information on an attribute to be inherited, "right signal".
+      <br/>
+      The message 79 is sent to the "signal" object 74 through the message send and receive unit 75 (steps (1) and (2)).
+      <br/>
+      When the "signal" object 74 receives the message 79, the object 74 refers to the pointer in the entry for the "right signal" in the pointer table 76 based on the information on the attribute, "right signal" in the message 79 (steps (3) and (4)).
+      <br/>
+      Then, the "signal" object 74 can look up the "right signal" object 71 based on the above pointer.
+      <br/>
+      Namely, an inheritance coupling is established between the "signal" object 74 and the "right signal" object 71 (steps (5)).
+      <br/>
+      Then, the object 74 executes the function requested by the message 79 (step (6)).
+      <br/>
+      When executing the function, the object 74 looks up the "right signal" object 71 with regard to which signal to be lighted, through the established inheritance coupling.
+      <br/>
+      Thus, the execution of the function is delegated to the "right signal" object 71, and the "right signal" object 71 lights the right signal only in the signal lamp 60 (steps (7)).
+      <br/>
+      When the function is completed, the object 74 returns a return message 78 containing the result of the execution of the function through the message send and receive unit 75 to the origin of the message 79.
+      <br/>
+      In this example, the return value "nil" indicates the completion of the function.
+    </p>
+    <p num="157">Nineteenth Embodiment (FIG. 26)</p>
+    <p num="158">
+      FIG. 26 is diagram illustrating the nineteenth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 26, the pointer table 116 has three series of entries respectively corresponding to the attributes, "right", "left", and "both", and generally each series of entries can contain a series of pointers successively establishing inheritance couplings leading to a series of objects from the "signal" object 114.
+    </p>
+    <p num="159">
+      The message 89 can contain one of the three attributes, "right", "left", and "both", as an attribute to be inherited.
+      <br/>
+      In the example indicated in FIG. 26, the message 89 contains the object name, "signal", the function "ON" and the attribute "right".
+      <br/>
+      When this message 89 is sent to the "signal" object 114 through the message send and receive unit 75, the "signal" object 114 refers to the pointer(s) in the series of the attribute "right" in the table 116 (steps (3) and (4)).
+      <br/>
+      By obtaining the series of pointer(s) from the series of entries corresponding to the attribute "right", the "signal" object 114 can look up functions defined in the series of objects having the attribute "right".
+      <br/>
+      In the example of FIG. 26, there is only one object, "right signal", "left signal", or "both signals" on each series.
+      <br/>
+      Therefore, the "signal" object 114 is coupled to only one of the objects 111, 112, and 113 with an inheritance relationship based on the pointer obtained from the table 116.
+      <br/>
+      The other operations in the construction FIG. 26 are the same as those in the construction of FIG. 25.
+    </p>
+    <p num="160">Twentieth Embodiment (FIG. 27)</p>
+    <p num="161">
+      FIG. 27 is diagram illustrating the twentieth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 27, the "signal" object 84 has all of the pointers to the three objects 71, 72, and 73, and also has flag areas 81, 82, and 83, corresponding to the three objects 71, 72, and 73.
+      <br/>
+      The object 84 recognizes that an inheritance coupling is established to one of the three objects 71, 72, and 73 when the flag corresponding to the object is ON (indicated by a circle O).
+    </p>
+    <p num="162">
+      The message 89 can contain one of the three attributes, "right", "left", and "both", as an attribute to be inherited.
+      <br/>
+      In the example indicated in FIG. 27, the message 89 contains the object name, "signal", the function "ON" and the attribute "right".
+      <br/>
+      When this message 89 is sent to the "signal" object 84 through the message send and receive unit 75, the "signal" object 84 sets the flag 81 corresponding to the attribute "right" in the message 89.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 84 to the "right signal" object 71.
+      <br/>
+      The other operations in the construction FIG. 27 are the same as those in the constructions of FIGS. 25 and 26.
+    </p>
+    <p num="163">Twenty-First Embodiment (FIG. 28)</p>
+    <p num="164">
+      FIG. 28 is diagram illustrating the twenty-first embodiment of the present invention.
+      <br/>
+      In FIG. 28, reference numeral 94 denotes a "signal" object, 95 denotes an instruction or a request for changing or setting an inheritance relationship between the "signal" object 94 and one of the three objects 71, 72, and 73, 97 denotes an inheritance change unit, 98 denotes a return message, and 99 denotes a message for requesting for an execution of a function of generally turning ON a signal.
+    </p>
+    <p num="165">
+      First, the instruction 95, which contains attributes, "right signal" and "signal", as information on an attribute to be inherited, is supplied to the inheritance change unit 97.
+      <br/>
+      In response to the instruction 95, the inheritance change unit 97 refers to a pointer in the entry corresponding to the "right signal" in the table 76 (steps (2) and (3)), and sets the pointer in the "signal" object 94.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 94 and the "right signal" object 71 (steps (4)).
+      <br/>
+      When the completion of the establishment of the inheritance coupling is informed to a sender of the message 99 (steps (5)), the message 99 containing the object name "signal" and the function "ON, is sent to the "signal" object 94 through the message send and receive unit 75 (steps (6) and (7)).
+      <br/>
+      Since the inheritance coupling is already established between the objects 94 and 71, the "signal" object 94 can look up the function defined in the "right signal" object 71.
+      <br/>
+      The other operations in the construction FIG. 28 are the same as those in the constructions of FIGS. 25, 26, and 27.
+    </p>
+    <p num="166">In the above construction, the origin of the instruction 95 may send to the sender of the message 99 a signal indicating that the inheritance relationships are now changing.</p>
+    <p num="167">Twenty-Second Embodiment (FIG. 29)</p>
+    <p num="168">
+      FIG. 29 is diagram illustrating the twenty-second embodiment of the present invention.
+      <br/>
+      The construction of FIG. 29 comprises the same table 116 as in the construction of FIG. 26. The instruction 115 can generally instruct to select one of the three series of inheritance relationships from the "signal" object 114.
+      <br/>
+      In this example, the instruction 115 contains the attribute "right" and the object name "signal" to indicate the attribute to be inherited by the "signal" object 114.
+      <br/>
+      When the inheritance change unit 117 receives the instruction 115 (steps (1)), the inheritance change unit 117 refers to one of the series of pointer(a) (steps (2) and (3)) in the series of entries corresponding to the attribute wright" in the table 116 for changing or setting an inheritance relationship from the "signal" object 114.
+      <br/>
+      The inheritance change unit 117 sets the series of pointer(s) (only one pointer in this example) in the "signal" object 114.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 114 and the "right signal" object 111 (steps (4)).
+      <br/>
+      The other operations are the same as those in the construction of FIG. 28.
+    </p>
+    <p num="169">In the above construction, the origin of the instruction 115 may send to the sender of the message 119 a signal indicating that the inheritance relationships are now changing.</p>
+    <p num="170">Twenty-Third Embodiment (FIG. 30)</p>
+    <p num="171">
+      FIG. 30 is diagram illustrating the twenty-third embodiment of the present invention.
+      <br/>
+      Similar to the "signal" object 84 in the construction of FIG. 27, the "signal" object 124 has all of the pointers to the three objects 71, 72, and 73, and also has flag areas 121, 122, and 123, corresponding to the three objects 71, 72, and 73.
+      <br/>
+      The object 124 recognizes that an inheritance coupling is established to one of the three objects 71, 72, and 73 when the flag corresponding to the object is ON (indicated by a circle 0).
+    </p>
+    <p num="172">
+      In the construction of FIG. 30, the instruction 125, instead of the massage 89 in FIG. 27, contains one of the three attributes, "right", "left", and "both", as an attribute to be inherited.
+      <br/>
+      In the example indicated in FIG. 30, the instruction 125 contains the attribute "right" and the object name "signal".
+      <br/>
+      When this instruction 125 is sent to the inheritance change unit 127 (steps (1)), the inheritance change unit 127 sets the flag 121 corresponding to the attribute "right" in the instruction 125.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 124 to the "right signal" object 71.
+      <br/>
+      The other operations in the construction FIG. 30 are the same as those in the constructions of FIG. 27.
+    </p>
+    <p num="173">In the above construction, the origin of the instruction 125 may send to the sender of the message 129 a signal indicating that the inheritance relationships are now changing.</p>
+    <p num="174">Twenty-Fourth Embodiment (FIG. 31)</p>
+    <p num="175">
+      FIG. 31 is diagram illustrating the twenty-fourth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 31, the first message 139-1 contains an instruction for setting or changing an inheritance relationship, and the second message 139-2 contains a request for an execution of a function.
+      <br/>
+      In this example, the first message 139-1 contains the attribute "right signal" and the object name "signal".
+      <br/>
+      This first message 139-1 is sent to the message send and receive unit 75-1.
+      <br/>
+      The message send and receive unit 75-1 in this embodiment contains substantially the same function as the inheritance change unit 97 in the construction of FIG. 28. Namely, this function of the message send and receive unit 75-1 refers to a pointer in the entry corresponding to the "right signal" in the table 136 (steps (2) and (3)), and sets the pointer in the "signal" object 134.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 134 and the "right signal" object 71 (steps (4)).
+      <br/>
+      After the inheritance coupling is established, the second message 139-2 is sent to the "signal", object 134 through the message send and receive unit 75-1.
+      <br/>
+      The second message 139-2 is substantially the same as the message 99 in FIG. 28, and the other operations are the same as those in the construction of FIG. 28. In the above construction of FIG. 28, the message send and receive unit 75-1 can hold the second message 139-2 until the inheritance coupling is established in response to the first message 139-1.
+    </p>
+    <p num="176">Twenty-Fifth Embodiment (FIG. 32)</p>
+    <p num="177">
+      FIG. 32 is diagram illustrating the twenty-fifth embodiment of the present invention.
+      <br/>
+      The table 146 in the construction of FIG. 32 is the same as the table 116 in the constructions of FIGS. 26 and 29. The first message 149-1 contains an instruction for selecting one of the three series of inheritance relationships from the "signal" object 144.
+      <br/>
+      In this example, the first message 149-1 contains the attribute "right" and the object name "signal" to indicate the attribute to be inherited by the "signal" object 144.
+      <br/>
+      The second message 149-2 contains a request for an execution of a function.
+      <br/>
+      The first message 149-1 is sent to the message send and receive unit 75-2.
+      <br/>
+      The message send and receive unit 75-2 in this embodiment contains substantially the same function as the inheritance change unit 117 in the construction of FIG. 29. This function in the message send and receive unit 75-2 refers to one of the series of pointer(s) (steps (2) and (3)) in the series of entries corresponding to the attribute "right" in the table 146 for changing or setting an inheritance relationship from the "uignalo object 144.
+      <br/>
+      The above function in the message send and receive unit 75-2 sets the series of pointer(s) (only one pointer in this example) in the "signal" object 144.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 144 and the "right signal" object 111 (steps (4)).
+      <br/>
+      The other operations are the same as those in the construction of FIG. 29.
+    </p>
+    <p num="178">Twenty-Sixth Embodiment (FIG. 33)</p>
+    <p num="179">
+      FIG. 33 is diagram illustrating the twenty-sixth embodiment of the present invention.
+      <br/>
+      Similar to the "signal" object 124 in the construction of FIG. 30, the "signal" object 154 has all of the pointers to the three objects 71, 72, and 73, and also has flag areas 151, 152, and 153, corresponding to the three objects 71, 72, and 73.
+      <br/>
+      The object 154 recognizes that an inheritance coupling is established to one of the three objects 71, 72, and 73 when the flag corresponding to he object is ON (indicated by a circle O).
+    </p>
+    <p num="180">
+      In the construction of FIG. 33, the first message 159-1 contains the attribute "right" and the object name "signal".
+      <br/>
+      The first message 159-1 is sent to the message send and receive unit 75-3.
+      <br/>
+      The message send and receive unit 75-3 in this embodiment contains substantially the same function as the inheritance change unit 127 in the construction of FIG. 30. This function in the message se nd and receive unit 75-3 sets the flag 151 corresponding to the attribute "right" in the first message 159-1.
+      <br/>
+      Thus, an inheritance coupling is established between the "signal" object 154 to the "right signal" object 71.
+      <br/>
+      The other operations in the construction FIG. 33 are the same as those in the constructions of FIG. 30.
+    </p>
+    <p num="181">Twenty Embodiment (FIGS. 34,, 35,, and 361</p>
+    <p num="182">
+      FIG. 34 is diagram illustrating the twenty-seventh embodiment of the present invention.
+      <br/>
+      The construction of FIG. 34 is different from the construction of FIG. 28 In that the construction of FIG. 34 comprises a main switch 166, a "main switch" object 161 in which a function of turning on or of f the main switch 166 is defined, the inheritance registration unit 162, and the table 163 for holding inheritance coupling information for a plurality of inheritance couplings.
+      <br/>
+      The inheritance registration unit 162 receives an instruction 165 for establishing a set of one or more inheritance couplings, and sets flags in the table 163 according to the instruction 165.
+    </p>
+    <p num="183">
+      FIG. 35 is diagram illustrating the data structure of the table 163 in the construction of FIG. 34. In FIG. 35, the data in each odd-numbered line in the three columns from the left end indicate whether or not each object is used.
+      <br/>
+      When the object is used, the flag is set to one.
+      <br/>
+      The number in the entry in the same odd-numbered line in the fourth column indicates how many objects exist on the higher level side of the above object indicated at the left end, in the inheritance hierarchy, and the number in the entry in the next even-numbered line in the fourth column indicates how-many objects exist on the lower level side of the above object indicated at the left end, in the inheritance hierarchy.
+      <br/>
+      One or more sets of data comprised of an object name, a flag, and a pointer, for the objects located on the higher or lower level side of the above object indicated at the left end, in the inheritance hierarchy, follow the above number on the right side in the table of FIG. 35.
+    </p>
+    <p num="184">
+      FIG. 36 is diagram illustrating the details of the contents of the table 163 in the construction of FIG. 34. The flags in the second column from the left end of FIG. 36 indicates that the "main switch" object, the "right signal" object, and the "signal" object are used.
+      <br/>
+      The number "0" in the first line in the fourth column indicates that no object is located on the higher level side of the "main switch" object, and the number "0" in the second line in the fourth column indicates that three objects exist on the lower level side of the "main switch" object.
+      <br/>
+      The flags in the second line in the sixth, ninth, and twelfth columns indicate that only the "right signal" object is connected to the "main switch" object on the lower level side of the "main switch" object.
+      <br/>
+      The number m1" in the third line in the fourth column indicates that one object is located on the higher level side of the "right signal" object, and the number "1" in the fourth line in the fourth column indicates that one object exists on the lower level side of the "right signal" object.
+      <br/>
+      The flag in the third line in the sixth column indicates that the "main switch" object is connected to the "right signal" object on the higher level side of the "right signal" object.
+      <br/>
+      The flag in the fourth line in the sixth column indicates that the "signal" object is connected to the "right signal" object on the lower level side of the "right signal" object.
+      <br/>
+      The number "3" in the second line from the bottom in the fourth column indicates that three objects are located on the higher level side of the "signal" object, and the number "0" in the bottom line in the fourth column indicates that no object exists on the lower level side of the "signal" object.
+      <br/>
+      The flags in the second line from the bottom in the sixth, ninth, and twelfth columns indicate that the "signal" object is connected to the "right signal" object only on the higher level side of the "signal" object.
+    </p>
+    <p num="185">
+      The above flags in the table 163 are set by the inheritance registration unit 162 in response to the instruction 165.
+      <br/>
+      The instruction 165 indicated in FIG. 34 contains the attributes, "main switch", "right signal", and "signal".
+      <br/>
+      This correspond to the above flag setting indicated in FIG. 36.
+    </p>
+    <p num="186">Based on the above information in the table 163, the inheritance change unit 167 establishes inheritance couplings by setting the pointers in the relating objects (steps (4)).</p>
+    <p num="187">
+      Then, the message 169 containing the object name "signal" and the function SONS is sent to the "signal" object 164 through the message send and receive unit 75.
+      <br/>
+      The object 164 tries to execute the function (steps (8)), looks up the functions defined in the "right signal" object 71 and the "main switch" object 161, and delegates executions of the functions of the "right signal" object 71 and the "main switch" object 161.
+      <br/>
+      When the executions of the functions are completed, the "signal" object 164 returns a return message 168 through the message send and receive unit 75 to the origin of the message 169.
+    </p>
+    <p num="188">Twenty-Eighth Embodiment (FIGS. 37, 38, and 39)</p>
+    <p num="189">
+      FIG. 37 is diagram illustrating the twenty-eighth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 37, the flag areas corresponding to the three attributes, "right", "left", and "both", are provided in the "main switch" object 171 and the "signal" object 174.
+    </p>
+    <p num="190">
+      FIG. 38 is diagram illustrating the data structure of the table 173 in the construction of FIG. 37, and FIG. 39 is diagram illustrating the details of the contents of the table 173 in the construction of FIG. 37. The table 173 indicated in FIGS. 38 and 39 contains entries for the respective attributes, "right", "left", and "both".
+      <br/>
+      The entries in the second column indicate the three attributes.
+      <br/>
+      For example, in FIG. 39, the flag "1" in the first line at the left end indicates that the series of inheritance couplings corresponding to the attribute "right" are to be established.
+      <br/>
+      This flag is set by the inheritance registration unit 172 in response to the instruction 175 which contains the attribute "right".
+      <br/>
+      The number in the entry in each odd-numbered line in the third column, indicates how many objects exist in the series corresponding to the attribute, on the higher level side of the object located at the bottom in the inheritance hierarchy, and the number in the entry in each even-numbered line in the third column, indicates how many objects exist in the series corresponding to the attribute, on the lower level side of the object located at the top in the inheritance hierarchy.
+      <br/>
+      The pointers to the objects in the series corresponding to each attribute follow each of the above numbers.
+    </p>
+    <p num="191">
+      The inheritance change unit 177 can set the pointers obtained from the table 173 in the corresponding objects together with the flags.
+      <br/>
+      Thus, inheritance couplings are established in the series corresponding to the instructed attribute.
+    </p>
+    <p num="192">After the establishment of the inheritance couplings, the functions of the "main switch" object 171 and the "right signal" object 71 are executed in response to the message sending to the "signal" object 174, by using the above established inheritance couplings.</p>
+    <p num="193">Twenty-Ninth Embodiment (FIG. 40)</p>
+    <p num="194">FIG. 40 is diagram illustrating the twenty-ninth embodiment of the present invention.</p>
+    <p num="195">
+      In the construction of FIG. 40, when the inheritance change unit 187 receives the instruction 185 containing the attribute "right signal" and the object name "signal", the inheritance change unit 187 scans the set of the objects in an inheritance hierarchy from the highest level to the lowest level one object by one object (steps (1), (2), and (3)), along the inheritance relationships.
+      <br/>
+      When the scanned location reaches the inheritance coupling corresponding to the attribute "right signal" contained in the instruction 185, the inheritance change unit 187 sets the inheritance coupling information (pointers and/or flags) in at least one of the "right signal" object 71 and the "signal" object 184.
+      <br/>
+      Thus, the inheritance coupling information for all of the inheritance couplings can be set in the corresponding objects, respectively.
+    </p>
+    <p num="196">Thirtieth Embodiment (FIG. 41)</p>
+    <p num="197">
+      FIG. 41 is diagram illustrating the thirtieth embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 41, the inheritance change unit 197 receives the instruction 195 containing the attribute "right" and the object name "signal".
+      <br/>
+      When the inheritance change unit 197 receives this instruction 195, the inheritance change unit 197 scans the set of the objects in an inheritance hierarchy from the highest level to the lowest level one object by one object (steps (1), (2), and (3)), along the inheritance relationships.
+      <br/>
+      When the inheritance change unit 197 finds the inheritance coupling corresponding to the attribute "right" contained in the instruction 195, the inheritance change unit 197 sets the inheritance coupling information (pointers and/or flags) in at least one of the "right signal" object 191 and the "signal" object 194.
+      <br/>
+      Thus, the inheritance coupling information for all of the inheritance couplings can be set in the corresponding objects, respectively.
+    </p>
+    <p num="198">Thirty-First Embodiment (FIG. 42)</p>
+    <p num="199">
+      FIG. 42 is diagram illustrating the thirty-first embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 42, an object 221 of the name "root" is provided at the top level of the inheritance hierarchy, and a series of inheritance couplings can be established from the "root" object 221 for each of the attributes, "right", "left", and "both".
+      <br/>
+      In the example of FIG. 42, flag areas are provided corresponding to the three attributes in each of the "root" object 221 and the "signal" object 224.
+      <br/>
+      In the construction of FIG. 42, the inheritance change unit 227 receives the instruction 225 containing the attribute "right" and the object name "signal".
+      <br/>
+      When the inheritance change unit 227 receives this instruction 225, the scanning by the inheritance change unit 227 begins from the "root" object 221.
+      <br/>
+      Since the "root" object 221 provides a route (inheritance coupling) to each series of inheritance couplings corresponding to each attribute, the inheritance change unit 227 sets the flag of the attribute "right" in the "root" object 221, and scanning can be performed on the route only.
+      <br/>
+      When the inheritance change unit 227 finds the inheritance coupling between the "right signal" object 71 and the "signal" object 224, the inheritance change unit 227 sets the inheritance coupling information (pointers and/or flags) in at least one of the "right signal" object 71 and the "signal" object 224.
+      <br/>
+      Thus, the inheritance coupling information for all of the inheritance couplings can be set in the corresponding objects, respectively.
+    </p>
+    <p num="200">Thirty-Second Embodiment (FIG. 43)</p>
+    <p num="201">
+      FIG. 43 is diagram illustrating the thirty-second embodiment of the present invention.
+      <br/>
+      In the construction of FIG. 43, in addition to the above construction of FIG. 42, a correspondence confirmation unit 236 is provided for confirming that there is no error in the inheritance couplings established in the set of objects in FIG. 43. The construction of FIG. 43 corresponds to the construction of FIG. 6.
+    </p>
+    <p num="202">In the example of FIG. 43, after the inheritance couplings are established as explained with reference to FIG. 42, the correspondence confirmation unit 236 scans the above route in the opposite direction to confirm that there is no error in the inheritance couplings on the route.</p>
+    <p num="203">Thirty-Third Embodiment (FIGS. 44A and 44B)</p>
+    <p num="204">
+      FIGS. 44A and 44B are diagrams illustrating the thirty-third embodiment of the present invention.
+      <br/>
+      In the construction of the thirty-third embodiment, the portion of the construction which is indicated in FIG. 44B, is provided for periodically establishing the inheritance relationship between the "signal" object 254 and the three objects 251, 252, and 253, in turn, and thus periodically lighting the right signal, the left signal, or both signals, in turn.
+      <br/>
+      This portion, indicated in FIG. 44B, is the same as the construction of FIG. 25. only the difference is that the three messages 257, 258, and 259 are periodically and cyclically supplied to the message send and receive unit 225 in turn, where the message 257 contains the attribute "right signal", the message 258 contains the attribute "left signal", and the message 259 contains the attribute "both signals".
+      <br/>
+      Therefore, in response to the reception of these messages, the inheritance coupling is periodically and cyclically established between the "signal" object 254 and the "right signal" object 251, between the "signal" object 254 and the "left signal" object 252, or between the "signal" object 254 and the "both signals" object 253, in turn, and thus, the right signal, the left signal, or both signals are lighted periodically and cyclically by the functions executed by the "right signal" object 251, the "left signal" object 252, or the "both signals" object 253, in turn.
+    </p>
+    <p num="205">
+      The other portion of the construction, which is indicated in FIG. 44A, is provided for periodically confirming the operation of the signal lamp 60, which is driven by the above portion of FIG. 44B. This portion indicated in FIG. 44A has the same configuration as the construction of FIG. 28 although the functions executed therein are different from those in the construction of FIG. 28. In the construction of FIG. 44A, the "watch signal" object 244 is an object in which a function of generally watching a signal is defined, the "watch right signal" object 241 is an object in which a function of watching the right signal is defined, the "watch left signals object 242 is an object in which a function of watching the left signal is defined, and the "watch both signals" object 243 is an object in which a function of watching both the right and left signals is defined.
+      <br/>
+      The instruction 249, which contains the attribute "watch right signal", is supplied to the inheritance change unit 247.
+      <br/>
+      In response to the instruction 249, the inheritance change unit 247 refers to the pointer in the entry corresponding to the attribute "watch right signal". in the table 246, and sets the pointer in the "watch signal" object 244 to establish an inheritance coupling to the "watch right signal".
+      <br/>
+      Thus, when a message 250 requesting for an execution of the function of "watch signal" is sent to the "watch signal" object 244 through the message send and receive unit 245, the "watch signal" object 244 looks up the function "watch right signal" in the "watch right signal" object 241 through the established inheritance coupling, and delegates the execution of the function to the "watch right signal" object 241.
+      <br/>
+      When the ON state of the right signal in the signal lamp 60 is confirmed by the function of the "watch right signal" object 241, the "watch signal" object 244 returns a return message 248 through the message send and receive unit 247, where the return message contains the result of the confirmation, "ON".
+    </p>
+    <p num="206">Thirty-Fourth Embodiment (FIG. 45)</p>
+    <p num="207">
+      FIG. 45 is diagram illustrating the thirty-fourth embodiment of the present invention.
+      <br/>
+      The construction of FIG. 45 is a data search system, which outputs one or more historical events in response to an input of a message containing a year and a genre.
+      <br/>
+      In the construction of FIG. 45, reference numerals 261, 262, and 263 each denote a data object, 264 is an object in which a search function "history is defined, and 270 is a data operation unit.
+      <br/>
+      Each of the data object contains data only, and does not contain a function, Therefore, rigorously, these are not called an object in the field of object-oriented programming.
+      <br/>
+      However, when a pointer to one of these data objects is set in the "history" object 264, the "history" object 264 can look up the data in the data object only.
+      <br/>
+      Therefore, the construction of FIG. 45 is analogous to the construction of the object-oriented system of FIG. 31, as explained below.
+    </p>
+    <p num="208">
+      When the message 269, which contains the year "1880" as the mode of operation and the genre "Japanese history" as the attribute, is sent to the message send and receive unit 265 (steps (1)), the message send and receive unit 265 transfers the message 269 to the data operation unit 270 (steps (2)).
+      <br/>
+      The data operation unit 270 refers to the pointer in the entry corresponding to the attribute "Japanese history", in the table 266 (steps (3) and (4)), and sets the obtained pointer in the "history" object 264 to establish a variation of inheritance coupling between the "history" object 264 and the data object 261 (steps (5)).
+      <br/>
+      Then, the data operation unit 270 sends to the "history" object 264 a request for executing the function of searching for one or more historical events, together with the year "1880" as the operation mode (steps (6)).
+      <br/>
+      Receiving this request and the operation mode "1880", the "history" object 264 searches for one or more historical events in 1880, in the data contained in the data object 261 which is coupled to the "history" object 264 by the above variation of inheritance coupling.
+      <br/>
+      When one or more historical events in 1880 are found in the data object 261 by the execution of the above search function, the data on the one or more historical events in 1880 is read out from the data object 261, and is supplied to the data operation unit 270 (steps (7)).
+      <br/>
+      The data operation unit 270 transfers the data to the message send and receive unit 265 (steps (8)).
+      <br/>
+      In response to the transfer of the data, the message send and receive unit 265 forms and outputs a return message 268 containing the data on the one or more historical events in 1880 (steps (9)).
+    </p>
+    <p num="209">Extension of Inheritance Coupling (FIG. 46)</p>
+    <p num="210">
+      FIG. 46 is diagram illustrating the construction of another example of an object-oriented system to which the various aspects of the present invention can be applied.
+      <br/>
+      Although the above explanations are provided for establishment and changes of inheritance couplings among a predetermined set of a plurality of objects, the inheritance coupling may be established between objects belonging to different groups, as indicated in FIG. 47. It will be apparent that all of the above provisions according to the present invention can also be to such an object-oriented system containing more than one group of objects as indicated in FIG. 47.
+    </p>
+    <p num="211">Other Matters</p>
+    <p num="212">As understood from the above explanations, the establishment or change of an inheritance coupling can be performed independently from the execution of a function of each object as long as it is arranged that the execution of a function and the establishment or change of an inheritance coupling are not performed at the same time, i.e., an exclusive control must be performed between the above two independent operations.</p>
+    <p num="213">
+      In addition, the establishment or change of an inheritance coupling according to the present invention includes a disconnection of an inheritance coupling.
+      <br/>
+      For example, in some of the above embodiments, a disconnection can be performed by setting a flag to zero, instead of one.
+    </p>
+    <p num="214">Hardware Construction (FIGS. 47 and 48)</p>
+    <p num="215">
+      FIG. 47 is diagram illustrating an example of the hardware construction of the embodiments of the present invention.
+      <br/>
+      The present invention can be realized as a data processing system.
+      <br/>
+      The data processing system may be a computer or other programmable apparatus, and can be constructed by hardware logic circuits which may include programmable logic circuits, a programmable computer in which software is installed, and a combination of the hardware logic circuits and the programmable computer.
+      <br/>
+      For example, the hardware construction of the system may be as indicated in FIG. 46. The construction of FIG. 46 contains a CPU 501, a read-only memory (ROM) 502, a random access memories (RAM) 503, a hardware logic circuit 504, a CD-ROM drive interface 505, a CD-RON drive device 506, a display interface 507, a display device 508, a keyboard interface 509, a keyboard 510, a magnetic disk interface 511, a magnetic disk device 512, and a communication interface 513.
+      <br/>
+      All of the operations explained above can be realized by software or hardware logic circuitry, or any combination thereof, and all or any portion of the software can be stored in any kind of product which can store data, such as a CD-ROM, an IC memory card, a ROM, a floppy disk, and the like.
+    </p>
+    <p num="216">FIG. 48 is diagram illustrating an example of use of the RAM area in the constructions of the embodiments of the present invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A data processing system at least a portion of which operates under control of an object-oriented program, said data processing system comprising:</claim-text>
+      <claim-text>an object-oriented system, in which a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; an inheritance coupling information indicating unit for holding therein inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit indicates one or more of the plurality of optional inheritance relationships selected for use, and can be referred to by at least one of said plurality of objects;</claim-text>
+      <claim-text>and an inheritance coupling information setting unit for receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use, and setting at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in the inheritance coupling information indicating unit.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A data processing system according to claim 1, wherein each of the plurality of objects contains, as program units realized by the object-oriented program, a message receiving unit for receiving a message which contains a second request for an execution of a function, and a message executing unit for executing the function requested by the second request when the function is defined in one of the plurality of classes to which said each of the plurality of objects belongs.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A data processing system according to claim 2, wherein the operation of the inheritance coupling information setting unit is defined in said one of the plurality of classes by the object-oriented program, as a function which can be performed by instances of the one of the plurality of classes.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A data processing system according to claim 2, wherein, when said one of the plurality of classes is the descendent of another of the plurality of classes, instances of said one of the plurality of classes comprise a function lookup unit for looking up functions defined in one or more classes which are coupled to said one of the plurality of classes on the ancestor side of said one of the plurality of classes, based on the inheritance coupling information indicated in the inheritance coupling information indicating unit, and delegating the execution of the function requested by the second request, to one of the one or more classes which are coupled on the ancestor side when the function requested by the second request is defined in said one of the one or more classes coupled on the ancestor side.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A data processing system according to claim 2, wherein said message can contain both the first and second requests.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A data processing system according to claim 2, wherein said inheritance coupling information setting unit can receive said first request separately from one the plurality of objects which receives said message.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A data processing system according to claim 2, wherein said message receiving unit can receive a message which contains said first request.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A data processing system according to claim 1, wherein said inheritance coupling information indicating unit comprises, an ancestor information indicating unit for holding therein and indicating the inheritance coupling information with regard to ancestors of each class, and a descendent information indicating unit for holding therein and indicating the inheritance coupling information with regard to descendents of each class.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A data processing system according to claim 1, wherein said inheritance coupling information setting unit can receive said first request separately from the plurality of objects.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A data processing system according to claim 1, wherein said inheritance coupling information indicating unit comprises, a coupled class indicating unit for holding coupled class information which indicates, for each of the plurality of classes, one of the plurality of classes as a coupled class to which said each of the plurality of classes is to be coupled based on an inheritance relationship, and a pointer indicating unit for indicating pointers to predetermined classes among the plurality of classes which are candidates of the coupled class of said each of the plurality of classes, so that one of the pointers which points to said coupled class can be determined based on said coupled class information.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A data processing system according to claim 1, wherein said inheritance coupling information indicating unit is provided outside of the plurality of objects.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A data processing system according to claim 1, wherein said inheritance coupling information indicating unit is provided in at least one of the plurality of objects.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A data processing system according to claim 1, wherein said inheritance coupling information indicating unit is comprised of a plurality of sub-units corresponding to the plurality of classes, respectively, and the plurality of sub-units are contained in the respective objects which are instances of the corresponding classes, respectively.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A data processing system according to claim 5, further comprising a request separating unit for receiving said message containing both the first and second requests, and separating the first request from the second request to supply the first request to said inheritance coupling information setting unit.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A data processing system according to claim 8, wherein the inheritance coupling information setting unit comprises a correspondence confirming unit for confirming that there is no contradiction between the inheritance coupling information for the ancestors held in the ancestor information indicating unit and the inheritance coupling information for the descendents held in the descendent information indicating unit.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A data processing system according to claim 10, wherein said first request contains said coupled class information, and said at least one piece of inheritance coupling information is the coupled class information.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A data processing system according to claim 10, wherein said coupled class information is comprised of flag indications provided for the options, respectively.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A data processing system according to claim 10, wherein said coupled class indicating unit is comprised of a plurality of sub-units corresponding to the plurality of classes, respectively, and the plurality of sub-units are contained in the respective. objects which are instances of the corresponding classes, respectively.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A data processing system according to claim 15, said correspondence unit operates when one of the plurality of objects receives said first request, and returns a result of the confirmation to the one of the plurality of objects.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. A data processing system according to claim 18, wherein said first request contains said coupled class information, and said at least one piece of inheritance coupling information is the coupled class information, each of the plurality of objects further comprises a correspondence confirming unit for communicating with another of the plurality of objects which is an instance of the coupled class, and confirming whether or not the sub-unit, in the coupled class, of the coupled class indicating unit indicates said each of the plurality of objects as a coupled class.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. A data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said inheritance coupling information setting system comprises:</claim-text>
+      <claim-text>- an inheritance coupling information indicating unit for holding therein inheritance coupling information, where the inheritance coupling information held in the inheritance coupling information indicating unit indicates one or more of the plurality of optional inheritance relationships selected for use, and can be referred to by at least one of said plurality of objects;</claim-text>
+      <claim-text>and - an inheritance coupling information setting unit for receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use, and setting at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in the inheritance coupling information indicating unit.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. A data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said inheritance coupling information setting system comprises: - a data holding area for holding therein inheritance coupling information, where the inheritance coupling information held in the data holding area indicates one or more of the plurality of optional inheritance relationships selected for use, and can be referred to by at least one of said plurality of objects;</claim-text>
+      <claim-text>and - a programmed logic circuit for receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use, and setting at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in the inheritance coupling information indicating unit.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. A data processing system containing an object-oriented system and an inheritance coupling information setting system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said inheritance coupling information setting system comprises: - a data holding area for holding therein and indicating said inheritance coupling information, where the inheritance coupling information held in the data holding area indicates one or more of the plurality of optional inheritance relationships selected for use, and can be referred to by at least one of said plurality of objects;</claim-text>
+      <claim-text>and - an inheritance coupling information setting unit, configured to execute a program which is stored in the at least one computer-usable memory, so that th e data holding area receives a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use, and sets at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in the inheritance coupling information indicating unit.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. A process for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said data processing system further comprising a data storage area which can be accessed by at least one of said plurality of objects; said process comprising the steps of: - (a) receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use;</claim-text>
+      <claim-text>and - (b) setting said at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships in said data storage area.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. An apparatus for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belong to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said apparatus comprising: - a data storage area which can be accessed by at least one of said plurality of objects; - a request receiving unit for receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use;</claim-text>
+      <claim-text>and - an information setting unit for setting said at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in said data storage area.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. An article of manufacture which, when used with a computer, directs the computer to execute a process for setting inheritance coupling information in a data processing system containing an object-oriented system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said data processing system further comprising a data storage area which can be accessed by at least one of said plurality of objects; said process comprising the step s of: - (a) receiving a first request which contains selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use;</claim-text>
+      <claim-text>and - (b) setting said at least one piece of the inheritance coupling information indicating the selected at least one of said plurality of predetermined optional inheritance relationships, in said data storage area.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. A data processing system at least a portion of which operates under control of an object-oriented program, said data processing system comprising: an object-oriented system, in which a plurality of objects are de fined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes based on inheritance coupling information, wherein each of the plurality of objects contains, as program units realized by the object-oriented program, a message receiving unit for receiving a message which contains a request for execution of a function, and selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use as an inheritance relationship between a first class which said each of the plurality of objects belongs to, and a second class as a parent of the first class, a message executing unit for executing the function requested by the request when the function is defined in said first class, and a function delegating unit for said function requested by the request, in at least one of said second class and one or more third classes coupled on the ancestor side of said second class, by using the inheritance coupling information, delegating the execution of the function requested by the request, to said second class when the function requested by the request is not defined in said first class, and is defined in said second class, and delegating the execution of the function requested by the request, to one of said one or more third classes when the function requested by the request is not defined in said first and second classes, and is defined in said one of the one or more third classes.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. A data processing system according to claim 27, further comprises a pointer indicating unit for indicating pointers to predetermined options of the parent class of the second class, so that said each object can refer to one of the pointers which points to said first class based on said at least one piece of the inheritance coupling information.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. A data processing system according to claim 27, said at least one piece of inheritance coupling information indicates a pointer to the first class.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. A data processing system containing an object-oriented system and an inheritance coupling information setting system for setting and changing inheritance coupling information, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes, wherein each of the plurality of objects contains, as program units realized by the object-oriented program, said inheritance coupling information setting system for setting and changing inheritance coupling information comprises: - a message receiving unit for receiving a message which contains a request for an execution of a function, and selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use as an inheritance relationship between a first class which said each of the plurality of objects belongs to, and a second class as a parent of the first class, - a message executing unit for executing the function requested by the request when the function is defined in said first class, and - a function delegating unit for looking for said function requested by the request, in at least one of said second class and one or more third classes coupled on the ancestor side of said second class, by using the inheritance coupling information, delegating the execution of the function requested by the request, to said second class when the function requested by the request is not defined in said first class, and is defined in said second class, and delegating the execution of the function requested by the request, to one of said one or more third classes when the function requested by the request is not defined in said first and second classes, and is defined in said one of the one or more third classes.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. A process for executing a function in a data processing system containing an object-oriented system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said process comprising the steps of: - (a) receiving, by one of the plurality of objects, a message which contains a request for an execution of a function, and selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use as an inheritance relationship between a first class which said one of the plurality of objects belongs to, and a second class as a parent of the first class; - (b) executing the function requested by the request, in said one of the plurality of objects, when the function is defined in said first class; - (c) looking for said function requested by the request, in at least one of said second class and one or more third classes coupled on the ancestor side of said second class, by using the inheritance coupling information, where said one or more third classes are coupled to said second class on the ancestor side thereof, when the function requested by the, request is not defined in said first class;</claim-text>
+      <claim-text>and - (d) delegating the execution of the function requested by the request, to said second class when the function requested by the request is not defined in said first class, and is defined in said second class, and delegating the execution of the function requested by the request, to one of said one or more third classes when the function requested by the request is not defined in said first and second classes, and is defined in said one of the one or more third classes.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. An article of manufacture which, when used with a computer, directs the computer to execute a process for setting and changing inheritance coupling information in a data processing system containing an object-oriented system, wherein said object-oriented system is configured to execute an object-oriented program which is stored in at least one computer-usable memory, and in the object-oriented system a plurality of objects are defined by said object-oriented program, each of the plurality of objects belongs to a corresponding one of a plurality of classes as an instance of the corresponding one of the plurality of classes, and a plurality of optional inheritance relationships are predefined at least among a group of classes included in the plurality of classes; said process comprising the steps of: - (a) receiving, by one of the plurality of objects, a message which contains a request for an execution of a function, and selection information indicating that at least one of said plurality of predetermined optional inheritance relationships is selected for use as an inheritance relationship between a first class which said one of the plurality of objects belongs to, and a second class as a parent of the first class; - (b) executing the function requested by the request, in said one of the plurality of objects, when the function is defined in said first class: - (c) looking for said function requested by the request, in at least one of said second class and one or more third classes coupled on the ancestor side of said second class, by using the inheritance coupling information, where said one or more third classes are coupled to said second class on the ancestor side thereof, when the function requested by the, request is not defined in said fist class;</claim-text>
+      <claim-text>and - (d) delegating the execution of the function requested by the request, to said second class when the function requested by the request is not defined in said first class, and is defined in said second class, and delegating the execution of the function requested by the request, to one of said one or more third classes when the function requested by the request is not defined in said first and second classes, and is defined in said one of the one or more third classes.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. A data processing system at least a portion of which operates under control of an object-oriented program, said data processing system comprising: an object-oriented system, in which at least one object is defined by said object-oriented program; a plurality of data units, where a plurality of possible coupling relationships can be defined between the plurality of data units and the at least one object, and said each of at least one object can access the coupled one of the plurality of data units based on coupling information, and; a coupling information indicating unit for holding therein said coupling information, where the coupling information held in the coupling information indicating unit indicates one or more of the plurality of possible coupling relationships selected for use, and can be referred to by at least one of said at least one object;</claim-text>
+      <claim-text>and a coupling information setting unit for receiving a request which contains selection information indicating that at least one of said plurality of possible coupling relationships is selected for use, and setting at least one piece of the coupling information indicating the selected at least one of said plurality of possible coupling relationships, in the coupling information indicating unit.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

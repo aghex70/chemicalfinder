@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185662B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185662</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185662</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25542582" extended-family-id="3876398">
+      <document-id>
+        <country>US</country>
+        <doc-number>08996171</doc-number>
+        <kind>A</kind>
+        <date>19971222</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08996171</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>4008460</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>99617197</doc-number>
+        <kind>A</kind>
+        <date>19971222</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08996171</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/16        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>16</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>711147000</text>
+        <class>711</class>
+        <subclass>147000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>711148000</text>
+        <class>711</class>
+        <subclass>148000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>711167000</text>
+        <class>711</class>
+        <subclass>167000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>711170000</text>
+        <class>711</class>
+        <subclass>170000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/16A8S</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>16A8S</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/1663</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>1663</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>14</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>3</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6185662</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">High availability asynchronous computer system</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>HEUGEL RANDALL W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5495570</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5495570</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>SAKAKURA TAKASHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5625795</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5625795</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>BURKES THERESA A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5651133</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5651133</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>SUDO YOSHIAKI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5692192</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5692192</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>FUNAKI JUN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5708795</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5708795</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>SAITO HIROSHI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5761728</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5761728</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>HAGERSTEN ERIK E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5860109</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5860109</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>MITTAL MILLIND</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5860126</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5860126</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>ZINGUUZI SATOSHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5890007</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5890007</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>GREENSPAN STEVEN JAY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5895492</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5895492</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>BREWER TONY M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5933857</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5933857</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>SCALES DANIEL J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5950228</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5950228</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>BEST DAVID W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4995040</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4995040</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>BRITTON KATHRYN H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5258982</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5258982</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>BROCKMEYER ROGER L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5546582</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5546582</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>BISSETT THOMAS D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5615403</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5615403</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>IBM, et al</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9510805</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9510805</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Nortel Networks Corporation</orgname>
+            <address>
+              <address-1>Montreal, CA</address-1>
+              <city>Montreal</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>NORTEL NETWORKS</orgname>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Beyerlein, Ruth</name>
+            <address>
+              <address-1>Ottawa, CA</address-1>
+              <city>Ottawa</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Baker, Brian N.</name>
+            <address>
+              <address-1>Dunrobin, CA</address-1>
+              <city>Dunrobin</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Newell, Terry E.</name>
+            <address>
+              <address-1>Kanata, CA</address-1>
+              <city>Kanata</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+      </inventors>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Cabeca, John W.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and apparatus for receiving status information from shared logical memory modules in a computer system including redundant memory.
+      <br/>
+      The status information includes whether the shared logical memory modules are in a transitional state and the number of logical memory modules in the mirror set.
+      <br/>
+      When shared logical memory modules are added or removed from redundant memory they go through a transitional state when the memory card may respond to a request for data held on the card, but that data may be unreliable.
+      <br/>
+      Checking this status information allows better error checking of data and fault detection of the shared logical memory module.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The present invention relates to a high availability asynchronous computer system and is particularly concerned with a system employing redundant, shared memory.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      The present invention relates to a high availability or fault tolerant memory system for a computer system.
+      <br/>
+      Such a computer system may be employed in telecommunications network switches, where high availability and fault tolerance is required.
+    </p>
+    <p num="3">
+      In such memory systems, memory is often duplicated in shadow or mirror shared memory cards so that system performance is not halted or degraded by an error or fault in one shared memory card.
+      <br/>
+      It may be necessary in these systems to discover when a shared memory card has an error or fault and to diagnose the error or fault.
+      <br/>
+      As well, the systems need the capability to add or remove redundant shared memory cards, in order to enhance fault tolerance or eliminate excessive redundancy.
+    </p>
+    <p num="4">
+      A common difficulty with systems having redundant shared memory is keeping track of how many redundant copies of data are stored and allowing a variable number of redundant copies to be stored.
+      <br/>
+      Many systems require a fixed number of responses to all memory requests.
+      <br/>
+      This reduces system flexibility and fault tolerance.
+    </p>
+    <p num="5">
+      U.S. Pat. No. 4,995,040 issued Feb. 19, 1991 to Best et al. discloses a fault tolerant, fail-safe computer system including a management unit and buffer to manage asynchronous redundant digital messages, to sort the redundant messages and to compare redundant messages.
+      <br/>
+      The messages are compared by a majority voting scheme.
+      <br/>
+      The system disclosed by Best may provide high integrity but is unlikely to provide high availability or high reliability.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="6">
+      An object of the present invention is to provide a high availability asynchronous memory system.
+      <br/>
+      A benefit of the present invention is that it allows the mirror set of redundant logical memory modules to have a variable number of logical modules.
+      <br/>
+      This increases system flexibility and fault tolerance.
+    </p>
+    <p num="7">In one aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface from a requester and then to the shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where the mirror set comprises the shared logical memory modules; formulating the reply at each shared logical memory module so as also to indicate whether each shared logical memory module is in a transitional state; formulating the reply at each shared logical memory module so as to combine indications of the size of the mirror set and indications whether each shared logical memory module is in a transitional state into a set-mode indicator; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; and forwarding the second message to the requester from the interface.</p>
+    <p num="8">In another aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface and then to the shared logical memory modules from a requester; starting timers when the memory request is sent; formulating a reply at each shared logical memory module indicating whether each shared logical memory module is in a transitional state; formulating the reply at each shared logical memory module so as also to include a data component; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; including a data component of one reply in the second message if each shared logical memory module is not in a transitional state; including a data component of one reply in the second message, if the timers have expired; and forwarding the second message to the requester from the interface.</p>
+    <p num="9">In another aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface and then to the shared logical memory modules from a requester; formulating a reply at each shared logical memory module indicating whether each shared logical memory module is in a transitional state; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; including a data component of one reply in the second message if each shared logical memory module is not in a transitional state; forwarding the second message to the requester from the interface; and initiating an error handler if a comparison of the replies indicates an error condition.</p>
+    <p num="10">In another aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface from a requester and then to the shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where the mirror set comprises the shared logical memory modules; formulating the reply at each shared logical memory module so as also to include a data component; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; including a data component of one reply in the second message if the size of the mirror set, as indicated in the one reply is valid; forwarding the second message to the requester from the interface; and initiating an error handler if a comparison of the replies indicates an error condition.</p>
+    <p num="11">In another aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface from a requester and then to the shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where the mirror set comprises the shared logical memory modules; formulating the reply at each shared logical memory module so as also to include a data component; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; including a data component of one reply in the second message if the number of replies received is equivalent to the size of the mirror set; forwarding the second message to the requester from the interface; and initiating an error handler if a comparison of the replies indicates an error condition.</p>
+    <p num="12">In another aspect there is provided a method for accessing mirrored shared logical memory modules for a read including sending a memory request for a read to an interface from a requester and then to the shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where the mirror set comprises the shared logical memory modules; formulating the reply at each shared logical memory module so as also to indicate whether each shared logical memory module is in a transitional state; sending each reply to the interface; deriving at the interface, from one or more replies, a second message; forwarding the second message to the requester from the interface; and initiating an error handler if a comparison of the replies indicates an error condition.</p>
+    <p num="13">In another aspect there is provided a method for adding a new logical memory module to a mirror set, said mirror set having a mirror set logical address range, said method including (a) setting a status code of a new logical memory module to a transitional value, said new logical memory module having a logical memory module logical address range, said logical memory module logical address range being equivalent in range to said mirror set logical address range, (b) changing an indication of a size of said mirror set at existing logical memory modules to a destination set size, (c) performing a read/write march along said mirror set logical address range and (d) setting an indication of a size of said mirror set at said new logical memory module to the destination set size.</p>
+    <p num="14">In another aspect there is provided a method for removing a given shared logical memory module from a mirror set including changing said given shared logical memory module to a transitional state, changing an indication of a size of said mirror set at remaining shared logical memory modules to a destination set size and disabling said given shared logical memory module.</p>
+    <heading>BRIEF DESCRIPTION OF DRAWINGS</heading>
+    <p num="15">
+      The invention will be further understood with the following description with references to the drawings in which
+      <br/>
+      FIG. 1 is a schematic view of a computer system in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 2 contains Table 1 which lists set mode values in accordance with an embodiment the present invention.
+      <br/>
+      FIG. 3 contains Table 2 which lists legal Mirror Mode Sequences in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 4 contains Table 3 which describes a sequence of steps for adding two logical memory modules to a mirror set in accordance with an embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="16">
+      The preferred embodiment of a fault-tolerant, asynchronous, computer system allows multiple copies of stored memory to be maintained, thus providing a back-up in case of failure of one copy.
+      <br/>
+      Such a system is illustrated in FIG. 1.
+      <br/>
+      In the preferred embodiment there are four main components: processing elements 102, 104; shared memory cards 128, 129, 132; input/output element 106; and interconnect 108.
+      <br/>
+      Processing elements 102, 104 include a processor 110, local memory 112 associated with the processor 110, and a processing element interface chip 114.
+      <br/>
+      The processing element interface chip 114 transmits or receives data in the form of frames from the interconnect 108.
+      <br/>
+      A frame is a structured message that contains well-defined information in particular locations within the frame.
+      <br/>
+      Data may be read from or written to shared memory cards 128, 129, 132 by processing elements or input/output elements.
+      <br/>
+      Shared memory cards have a memory interface chip 116, memory card register table 126 and physical memory modules 118, 120, 122, 124.
+      <br/>
+      The system shown in FIG. 1 is illustrative only and typically there will be a variable number of processing elements, shared memory cards, and input/output elements.
+      <br/>
+      As well, processing elements such as 102 and input/output elements such as 106 function in the same manner in respect of making a memory request, so that when the phrase processing element is used hereafter with respect to making a memory request it should be understood to encompass a memory request by either processing or input/output elements.
+    </p>
+    <p num="17">
+      In the preferred embodiment, each shared memory card contains a number of logical memory modules.
+      <br/>
+      Each logical memory module has a programmable start and end address range.
+      <br/>
+      A single memory card will not have more than one logical memory module with the same address range.
+      <br/>
+      The memory card register table 126 of memory card 128 contains a mapping between logical memory address ranges and physical memory addresses used for accessing physical memory modules, such as physical memory module 118.
+    </p>
+    <p num="18">
+      When a shared memory card is initially connected to the interconnect 108, the shared memory card is in a disabled state.
+      <br/>
+      In the preferred embodiment, the processing element is aware that the shared memory card has been connected to the interconnect 108.
+    </p>
+    <p num="19">
+      A memory request is a message from a requester such as processor 110 requesting access of data, such as a read or write, of data that is located at a particular logical memory address.
+      <br/>
+      The requester could also be a pre-fetcher or additional pipelines.
+      <br/>
+      When memory requests are transmitted onto the interconnect 108, there can be multiple requests and responses occurring simultaneously.
+      <br/>
+      There may be overlap and misordering between the requests and responses.
+      <br/>
+      A transaction identifier is added by the processing element interface chip 114 to the frame containing the request in order to keep track of requests and responses.
+      <br/>
+      Contention between simultaneous requests must be managed.
+      <br/>
+      A system providing such contention management is described in U.S. patent application 08/774,548 titled "Shared Memory Control Algorithm for Mutual Exclusion and Rollback", applicants T. E. Newell et al., filed Dec. 30, 1996 which is hereby incorporated by reference for all purposes.
+    </p>
+    <p num="20">
+      One aspect of the invention deals with the means by which memory requests are made from a processing to a shared memory card on the interconnect.
+      <br/>
+      In the preferred embodiment, the interconnect operates in a point to multipoint fashion.
+      <br/>
+      In other words, the processing element that sends out a memory request will be connected to each of the shared memory cards on the interconnect.
+      <br/>
+      Thus, it is possible that more than one shared memory card may respond to any given memory request.
+      <br/>
+      This is likely to happen, as there is mirror memory set up to help ensure system availability and fault tolerance.
+      <br/>
+      A mirror memory set comprises multiple copies of the same data, each copy having the same logical address.
+      <br/>
+      The mirror set size is the number of copies of the same data.
+      <br/>
+      A mirror set of the memory is set up on the system, so that if there is a fault in one shared memory card, the processing element can refer to other responses to the same memory request in order to attempt to continue processing, with minimal interruption or error, despite the fault.
+    </p>
+    <p num="21">The method by which the memory requests are made for a read from a logical shared memory module comprises the following steps:</p>
+    <p num="22">Step 1</p>
+    <p num="23">The requester such as processor 110 determines that a memory request is needed.</p>
+    <p num="24">Step 2</p>
+    <p num="25">The requester such as processor 110 signals to the processing element interface chip 114 that a memory request is required.</p>
+    <p num="26">Step 3</p>
+    <p num="27">
+      The processing element interface chip 114 assembles the request by constructing a frame containing data showing the frame type (such as shared memory request), a transaction identifier, an identifier of the originating processing or input/output element, a logical memory address, a read code, and status flags.
+      <br/>
+      Processing element interface chip 114 saves information from the frame for later comparison with responses to this memory request.
+    </p>
+    <p num="28">Step 4</p>
+    <p num="29">
+      The memory request is placed on the interconnect 108 by the processing element interface chip 114 where it is transmitted to all the shared memory cards 128, 129, 132 on the interconnect 108.
+      <br/>
+      When the request is sent out, timers 113 are started in order to detect error conditions such as a failure to reply to the memory request.
+    </p>
+    <p num="30">Step 5</p>
+    <p num="31">
+      A shared memory interface chip 116 on the shared memory card 128 receives the request.
+      <br/>
+      The shared memory interface chip 116 checks the memory card register table 126, to see if a logical memory module 119 with the logical address contained in the request is on shared memory card 128.
+      <br/>
+      If the shared memory card 128 does have the logical address, the shared memory interface chip 116 queues the request for execution.
+      <br/>
+      This checking is performed at all memory cards connected to interconnect 108.
+      <br/>
+      If memory card register table 126 does not have the logical address, the shared memory interface chip 116 discards the request.
+      <br/>
+      When the request is executed, a data component is read from the logical memory address.
+      <br/>
+      After the request is executed, a reply frame is generated which contains a data component, which is data stored at the logical address specified in the memory request; a destination identifier which is the identifier of the processing element which made the memory request; the transaction identifier from the memory request frame; the set mode of the responding memory module taken from Table 1, wherein the valid values for the set mode in the preferred embodiment are one module, two modules, three modules, one-update, and two-update; the identifier of the shared memory card; and other status codes.
+      <br/>
+      The set mode is a type of status code that indicates when a shared memory card is in a transitional state and that also indicates how many responses the originating processing element should expect to receive (the mirror set size).
+      <br/>
+      The reply is then transmitted by the shared memory interface chip 116 to the interconnect 108.
+    </p>
+    <p num="32">Step 6</p>
+    <p num="33">
+      The replies are received by the processing element interface chip 114.
+      <br/>
+      As each accepted reply with a particular transaction identifier comes in, it is compared with the previous replies with the same transaction identifier and checked for errors.
+      <br/>
+      If the combination of set modes from the responses form a valid set, then all elements of the mirror set have replied and the memory access is complete.
+    </p>
+    <p num="34">The processing element interface chip 114 indicates an error if any of the following conditions are detected:</p>
+    <p num="35">
+      (a) The timers 113 expire before the replies are received from all members of the set.
+      <br/>
+      A timeout initiates an error handler.
+      <br/>
+      A timeout is a strong indication that there is a hardware fault with one of the shared memory cards 128, 129, 132.
+    </p>
+    <p num="36">(b) Those parts of the replies that are directly compared, such as the data component for the processor, do not match.</p>
+    <p num="37">
+      (c) An error indicator is contained in one or more of the memory replies.
+      <br/>
+      The errors can include the status of the shared memory cards 128, 129, 132 and other error indicators.
+    </p>
+    <p num="38">(d) The processing element interface chip 114 reads the transaction identifier returned as part of the reply, checks it against a table of valid transaction identifier numbers and concludes it is invalid.</p>
+    <p num="39">(e) The processing element interface chip 114 checks the set mode and determines it is not a valid mode, as shown in Table 1.</p>
+    <p num="40">
+      (f) The combination of set modes from the replies with the same transaction identifier do not form a valid set.
+      <br/>
+      Table 2 shows the legal combinations of set modes.
+    </p>
+    <p num="41">Step 7</p>
+    <p num="42">
+      When the processing element interface chip 114 receives a reply it prepares a second message for forwarding to the requester such as processor 110.
+      <br/>
+      The second message is derived from the reply and may contain the data component located at the logical memory address in the memory reply, a status or error code, or some status code derived from the data or status codes or both.
+    </p>
+    <p num="43">The processing element interface chip 114 operates in two distinct modes, fast forward and safe mode, which are discussed below.</p>
+    <p num="44">
+      In safe mode, the processing element interface chip 114 collects all replies before forwarding the data component to the requester such as processor 110.
+      <br/>
+      This prevents the requester such as processor 110 from proceeding until it is certain that no errors were found in step 6.
+    </p>
+    <p num="45">
+      In fast forward mode, the data component from the first reply that contains no error and is not in a transitional state is forwarded to the requester such as processor 110 immediately.
+      <br/>
+      The processing element interface chip 114 stores the reply, and ensures the set modes from all replies with the same transaction identifier form a valid combination and that there are no other errors.
+    </p>
+    <p num="46">
+      The operation in fast forward mode can be significantly faster, but the requester such as processor 110 must be prepared to correct the problem if an error is detected after the data component from the first reply has been forwarded.
+      <br/>
+      The correction is controlled by the error handler and may be by roll-back, correction of the memory system if the error was in the memory system, or by withdrawing the incorrect data from the system.
+    </p>
+    <p num="47">
+      A benefit of the present invention is that it allows the mirror set to have a variable number of logical modules.
+      <br/>
+      This increases system flexibility and fault tolerance.
+    </p>
+    <p num="48">The method by which the memory requests for a write are made comprises the following steps:</p>
+    <p num="49">Step 1</p>
+    <p num="50">The requester such as processor 110 determines that a memory request for a write is needed.</p>
+    <p num="51">Step 2</p>
+    <p num="52">The requester such as processor 110 signals to the processing element interface chip 114 that a memory request for a write is required.</p>
+    <p num="53">Step 3</p>
+    <p num="54">Processing element interface chip 114 sends an acceptance message back to requester such as processor 110 that it has accepted the write request.</p>
+    <p num="55">Step 4</p>
+    <p num="56">
+      The processing element interface chip 114 assembles the memory request by constructing a frame containing data showing the frame type (such as shared memory request), a transaction identifier, an identifier of the originating processing or input/output element, a logical memory address, a write code, and status flags, and the data to be written to the logical memory address.
+      <br/>
+      Processing element interface chip 114 saves information from the request frame for later comparison with responses to the memory request.
+    </p>
+    <p num="57">Step 5</p>
+    <p num="58">
+      The memory request is placed on the interconnect 108 by the processing element interface chip 114 where it is transmitted to all the shared memory cards 128, 129, 132 on the interconnect 108.
+      <br/>
+      When the request is sent out, timers 113 are started in order to detect error conditions such as a failure to reply to the memory request.
+    </p>
+    <p num="59">Step 6</p>
+    <p num="60">
+      A shared memory interface chip 116 on the shared memory card 128 receives the request.
+      <br/>
+      The shared memory interface chip 116 checks the memory card register table 126, to see if a logical memory module 119 with the logical address contained in the request is on shared memory card 128.
+      <br/>
+      If the shared memory card 128 does have the logical address, the shared memory interface chip 116 queues the request for execution.
+      <br/>
+      This checking is performed at all memory cards connected to interconnect 108.
+      <br/>
+      If memory card register table 126 does not have the logical address, the shared memory interface chip 116 discards the request.
+      <br/>
+      When the request is executed the data is written to the logical memory address.
+      <br/>
+      After the request is executed, a reply frame is generated which contains a destination identifier which is the identifier of the processing element which made the memory request; the transaction identifier from the memory request frame; the set mode of the responding memory module taken from Table 1, wherein the valid values for the set mode in the preferred embodiment are one module, two modules, three modules, one-update, and two-update; the identifier of the shared memory card; and other status codes.
+      <br/>
+      The set mode is a type of status code that indicates when a shared memory card is in a transitional state and that also indicates how many responses the originating processing element should expect to receive (the mirror set size).
+      <br/>
+      The reply is then transmitted by the shared memory interface chip 116 to the interconnect 108.
+    </p>
+    <p num="61">Step 7</p>
+    <p num="62">
+      The replies are received by the processing element interface chip 114.
+      <br/>
+      As each accepted reply with a particular transaction identifier comes in, it is compared with the previous replies with the same transaction identifier and checked for errors.
+      <br/>
+      If the combination of set modes from the responses form a valid set, then all elements of the mirror set have replied and the memory access is complete.
+    </p>
+    <p num="63">The processing element interface chip 114 indicates an error if any of the following conditions are detected:</p>
+    <p num="64">
+      (d) The timers 113 expire before the replies are received from all members of the set.
+      <br/>
+      A timeout is a strong indication that there is a hardware fault with one of the shared memory cards 128, 129, 132.
+    </p>
+    <p num="65">(e) Those parts of the replies that are directly compared, do not match.</p>
+    <p num="66">
+      (f) An error indicator is contained in one or more of the memory replies.
+      <br/>
+      The errors can include the status of the shared memory cards 128, 129, 132 and other error indicators.
+    </p>
+    <p num="67">(d) The processing element interface chip 114 reads the transaction identifier returned as part of the reply, checks it against a table of valid transaction identifier numbers and concludes it is invalid.</p>
+    <p num="68">(e) The processing element interface chip 114 checks the set mode and determines it is not a valid mode, as shown in Table 1.</p>
+    <p num="69">
+      (f) The combination of set modes from the replies with the same transaction identifier do not form a valid set.
+      <br/>
+      Table 2 shows the legal combinations of set modes.
+    </p>
+    <p num="70">If an error is indicated an error handler is initiated.</p>
+    <heading>ADDING MIRROR MEMORY MODULES</heading>
+    <p num="71">
+      Another important aspect of the invention is the ability to add or remove mirror logical memory modules from the mirror set.
+      <br/>
+      The ability to add new mirror memory or remove it without impacting system operation is an important characteristic.
+      <br/>
+      It is also important to be able to move logical memory modules from one mirror set to another, so that mirror elements are not overly concentrated in a subset of logical addresses of the system.
+      <br/>
+      This provides the ability to reconfigure the system to the optimal state of reliability.
+    </p>
+    <p num="72">
+      As described above, when the requester such as processor 110 sends out a memory request, it can receive replies from more than one of shared memory cards 128, 129, 132.
+      <br/>
+      Between the time when a mirror logical memory module 119 is disabled and not associated with a logical memory address range and the time when it is fully enabled and is properly and correctly mirroring the other logical memory modules, such as logical memory module 123 associated with the same logical memory address range, the logical memory module is in a transitional state.
+      <br/>
+      When a logical memory module is in the transitional state, it is necessary that the processing element interface chip 114 receives a response from that logical memory module but disregards the data generated by that logical memory module in response to a memory request.
+      <br/>
+      When mirror memory is added to or removed from association with a logical address range, it is necessary to understand or keep track of the status of the logical memory module being added or subtracted, so that the comparison, matching and error checking performed by the processing element interface chip 114 does not inadvertently compare with or attempt to match responses from a logical memory module that is in a transitional state.
+    </p>
+    <p num="73">When a logical memory module is added to a mirror set, the following steps occur:</p>
+    <p num="74">Step 1</p>
+    <p num="75">
+      The set mode of the logical memory module being added is changed to an update state, such as 1-update or 2-update.
+      <br/>
+      The set mode of the logical memory module is changed to the 1-update state, when a simplex mirror memory set is being changed to a duplex set or a triplex set, or to the 2-update state, when a logical memory module is being added to an existing duplex set.
+    </p>
+    <p num="76">Step 2</p>
+    <p num="77">
+      The memory card register table 126 is set up with its logical memory address range of the mirror set.
+      <br/>
+      A signal is then generated to take the logical memory module 119 from the disabled state to an enabled state.
+    </p>
+    <p num="78">Step 3</p>
+    <p num="79">
+      The existing logical module(s) have the set mode changed to the final number of mirror modules in the mirror set.
+      <br/>
+      Thus, for a change from simplex to duplex, in other words, changing from one logical memory address range with a mirror set of size one to a mirror set of size two (one redundant), the existing logical module has its set mode changed from 1 to 2; from a simplex to triplex (two redundant), the existing logical module set mode is changed from 1 to 3 and for a duplex to triplex, the existing logical module set mode is changed from 2 to 3.
+    </p>
+    <p num="80">Step 4</p>
+    <p num="81">
+      The new logical module 119 has a range of logical addresses stored in table 126 which is the logical address range of the mirror set.
+      <br/>
+      The processor 110 initiates a read/write back march through that range of logical addresses.
+      <br/>
+      After this is complete the memory in the new logical module 119 is consistent with the memory in the existing logical module(s) in the mirror set.
+    </p>
+    <p num="82">Step 5</p>
+    <p num="83">The set mode of the new logical module 119 is changed to the final number of modules in the mirror memory set.</p>
+    <p num="84">
+      It can be noted that a shortcut exists when moving from the simplex to triplex or, in other words, from one logical memory module in the mirror set to three logical modules in the mirror set.
+      <br/>
+      Both the new logical modules are added at that same time and, prior to the read/write back march both the new logical modules are in the 1-update state.
+      <br/>
+      The read/write back march then updates both the new logical modules at the same time.
+      <br/>
+      After the march, the set mode of one and then the other of the new logical modules is changed to the final number of modules, which in this case is three.
+    </p>
+    <p num="85">
+      In the preferred embodiment, when moving the mirror set size of the original active module from a mirror set size of one to a mirror set size of three, it is necessary to move through a mirror set size of two to avoid creating a false error condition.
+      <br/>
+      This is illustrated in Table 3.
+    </p>
+    <heading>REMOVING MIRROR MEMORY MODULES</heading>
+    <p num="86">
+      When removing shared logical memory modules from a mirror set it is necessary for the logical module to pass through a transitional state where its data component is not actively compared to other responses from other logical memory modules in the mirror set to a memory request.
+      <br/>
+      This transitional state is required to allow the various logical memory modules in the mirror set to be changed to the destination set size without reporting errors.
+      <br/>
+      Once the remaining logical modules have their set mode indicators set to the destination set size the logical module can be removed.
+    </p>
+    <heading>EXTENSION TO LARGER MIRROR SET SIZES</heading>
+    <p num="87">
+      The preferred embodiment of this invention uses a maximum set size of three.
+      <br/>
+      This meets current requirements but the invention is not restricted to a mirror set size of three.
+      <br/>
+      The mechanism can be extended to an arbitrarily large mirror set size.
+    </p>
+    <p num="88">
+      Extension of the maximum allowed set size to the general case of N modules per mirror set is generally straight forward.
+      <br/>
+      The extension to an arbitrarily large mirror set size can be done by following the following set of rules:
+    </p>
+    <p num="89">the set mode field must contain:</p>
+    <p num="90">
+      N-1 update modes to be included in the mirror mode field labelled 1-U through (N-1)-U according to the previous used naming convention;
+      <br/>
+      codes for mirror set sizes 1 through N;
+    </p>
+    <p num="91">update mode M-U must be used when adding modules to a set size of M (M active cards in the set) to get any other set size, or when removing module from any set size to get to a size of M;</p>
+    <p num="92">when adding modules to sets all non-update mode modules must have a mirror set size equal to the destination set size when the copy is performed;</p>
+    <p num="93">
+      adding modules to a set to go from set size A to set size B (i.e. B&gt;A) requires B-A steps in preparation for copying data starting with A modules in mode A and B-A modules disabled, each step involves adding one to the set size of each module and enabling one more module in A-U update mode such that after the Mth step there are A modules with a set size of A+M, M modules in M-U update mode and B-A-M modules still disabled, after B-A steps (the point where the system is ready to perform the copy) there are A modules in mirror mode B and B-A modules in A-U update mode and a copy of the module can begin.
+      <br/>
+      Once the copy is complete the B-A modules in A-U update mode can be changed to set size B and the operation is complete;
+    </p>
+    <p num="94">when the copy is being performed to add modules to sets all active modules must respond with the set mode bits set to the new set size; and</p>
+    <p num="95">removing modules to go from a set size of A to a set size of B (i.e. B&lt;A) requires all modules in the set that are to be removed to be placed in update mode B then A-B steps must be performed starting with B modules in mode A and A-B modules in update mode, each step involves reducing the set size by one in each module not in update mode and then disabling one of the modules in update mode, such that after the (A-B) step there are B modules with set size B and A-B modules disabled.</p>
+    <p num="96">The error checking used to determine which combinations of mirror set sizes and transitional states are valid is summarized by the following rules:</p>
+    <p num="97">the normal running mode requires all shared logical memory modules in the mirror set to have a mirror set size equal to the number of shared logical memory modules in the mirror set;</p>
+    <p num="98">a response from a shared logical memory module with the set mode indicating it is in transitional mode is counted as a response but the data is not compared to other responses;</p>
+    <p num="99">when a response with set mode in update mode M-U is received, there must be at least M modules responding with set mode set to size M; and</p>
+    <p num="100">in all combinations there must be at least the number of responses coming back as the largest set size.</p>
+    <p num="101">By defining the set mode sequences during the transitional states, it is possible to ensure that new logical memory modules can be brought into a state consistent with existing logical memory modules in a controlled and predictable fashion.</p>
+    <p num="102">
+      Numerous modifications, variations and adaptations may be made to particular embodiments of the invention described above without departing from the scope of the invention which is defined in the claims.
+      <br/>
+      For example, the number of shared memory cards mirroring a logical address space could be greater than three, causing a corresponding change in valid sets of set modes and a corresponding change in the method for adding or removing redundant memory modules.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for accessing mirrored shared logical memory modules for a read comprising:</claim-text>
+      <claim-text>sending a memory request for a read to an interface from a requester and then to said shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where said mirror set comprises said shared logic memory modules; formulating said reply at said each shared logical memory module so as also to indicate whether said each shared logical memory module is in a transitional state; formulating said reply at said each shared logical memory module so as to combine indications of said size of said mirror set and indications whether said each shared logical memory module is in a transitional state into a set-mode indicator; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message;</claim-text>
+      <claim-text>and, forwarding said second message to said requester from said interface.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 further comprising: formulating said reply at said each shared logical memory module so as also to include a data component;</claim-text>
+      <claim-text>and including a data component of one reply in said second message if said set-mode indicator, in said one reply, indicates</claim-text>
+      <claim-text>- a shared logical memory module that formulated said one reply is not in a transitional state;</claim-text>
+      <claim-text>and - said size of said mirror set is valid.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 2 further comprising initiating an error handler if a comparison of said replies indicates an error conditioner.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 further comprising: formulating said reply at said each shared logical memory module so as also to include a data component;</claim-text>
+      <claim-text>and including a data component of one reply in said second message if said set-mode indicators form a valid set.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 4 further comprising initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method for accessing mirrored shared logical memory modules for a read comprising: sending a memory request for a read to an interface and then to said shared logical memory modules from a requester; starting timers when said memory request is sent; formulating a reply at each shared logical memory module indicating whether said each shared logical memory module is in a transitional state; formulating said reply at said each shared logical memory module so as also to include a data component; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message; including a data component of one reply in said second message if said each shared logical memory module is not in a transitional state; including a data component of one reply in said second message, if said timers have expired;</claim-text>
+      <claim-text>and forwarding said second message to said requester from said interface.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 6 further comprising initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method for accessing mirrored shared logical memory modules for a read comprising: sending a memory request for a read to an interface and then to said shared logical memory modules from a requester; formulating a reply at each shared logical memory module indicating whether said each shared logical memory module is in a transitional state; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message; including a data component of one reply in said second message if said each shared logical memory module is not in a transitional state; forwarding said second message to said requester from said interface;</claim-text>
+      <claim-text>and initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method for accessing mirrored shared logical memory modules for a read comprising: sending a memory request for a read to an interface from a requester and then to said shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where said mirror set comprises said shared logical memory modules; formulating said reply at said each shared logical memory module so as also to include a data component; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message; including a data component of one reply in said second message if said size of said mirror set, as indicated in said one reply is valid; forwarding said second message to said requester from said interface;</claim-text>
+      <claim-text>and initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A method for accessing mirrored shared logical memory modules for a read comprising: sending a memory request for a read to an interface from a requester and then to said shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where said mirror set comprises said shared logical memory modules; formulating said reply at said each shared logical memory module so as also to include a data component; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message; including a data component of one reply in said second message if the number of replies received is equivalent to said size of said mirror set; forwarding said second message to said requester from said interface;</claim-text>
+      <claim-text>and initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A method for accessing mirrored shared logical memory modules for a read comprising: sending a memory request for a read to an interface from a requester and then to said shared logical memory modules; formulating a reply at each shared logical memory module indicating a size of a mirror set, where said mirror set comprises said shared logical memory modules; formulating said reply at said each shared logical memory module so as also to indicate whether said each shared logical memory module is in a transitional state; sending each said reply to said interface; deriving at said interface, from one or more replies, a second message; forwarding said second message to said requester from said interface;</claim-text>
+      <claim-text>and initiating an error handler if a comparison of said replies indicates an error condition.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A method for adding a new logical memory module to a mirror set, said mirror set having a mirror set logical address range, said method comprising: (a) setting a status code of a new logical memory module to a transitional value, said new logical memory module having a logical memory module logical address range; said logical memory module logical address range being equivalent in range to said mirror set logical address range; (b) changing an indication of a size of said mirror set at existing logical memory modules to a destination set size; (c) performing a read/write march along said mirror set logical address range;</claim-text>
+      <claim-text>and (d) setting an indication of a size of said mirror set at said new logical memory module to the destination set size.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 12 further comprising: sending a message to said new logical memory module to set said logical memory module logical address range;</claim-text>
+      <claim-text>and after (d), re-setting said status code of said new logical memory module to a non-transitional value.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A method for removing a given shared logical memory module from a mirror set comprising: changing said given shared logical memory module to a transitional state; changing an indication of a size of said mirror set at remaining shared logical memory modules to a destination set size;</claim-text>
+      <claim-text>and disabling said given shared logical memory module.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

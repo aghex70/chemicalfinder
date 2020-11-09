@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185645B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185645</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185645</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22239186" extended-family-id="42113727">
+      <document-id>
+        <country>US</country>
+        <doc-number>09093481</doc-number>
+        <kind>A</kind>
+        <date>19980608</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09093481</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172054</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>9348198</doc-number>
+        <kind>A</kind>
+        <date>19980608</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09093481</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/40        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>40</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710302000</text>
+        <class>710</class>
+        <subclass>302000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/40E2H</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>013</main-group>
+        <subgroup>40E2H</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/4081</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>4081</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>18</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>5</number-of-drawing-sheets>
+      <number-of-figures>6</number-of-figures>
+      <image-key data-format="questel">US6185645</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method for removing power and signals from an inadvertently swapped bus card</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>KELLENBENZ CARL W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4396882</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4396882</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>BELLAMY PAUL D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4747783</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4747783</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>MCNALLY LANCE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4999787</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4999787</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>LOSI CESARE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5157771</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5157771</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>BARTOL THOMAS M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5210855</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5210855</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>HUSAK DAVID J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5317697</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5317697</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>BROWN ALAN E</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5568610</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5568610</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>COULSON RICHARD L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5862350</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5862350</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>LIEN YEONG-CHANG, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5386567</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5386567</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>WEIR STEVEN P</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5473499</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5473499</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>HAMRE JOHN D, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5530302</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5530302</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>ADY ROGER W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5625238</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5625238</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>FAYFIELD ROBERT W</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5644730</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5644730</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>NINOMIYA RYOJI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5664118</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5664118</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>JEFFRIES KENNETH L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5664119</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5664119</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>FUKUDA KIMIO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5764926</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5764926</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>TAKATA KAZUO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5796185</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5796185</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>ELKHOURY BASSAM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5805903</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5805903</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>FUNG LAURIE P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5881251</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5881251</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>THOMPSON GUY ALAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5898844</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5898844</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>SCHULTZ RONALD E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5983298</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5983298</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Micron Electronics, Inc.</orgname>
+            <address>
+              <address-1>Nampa, ID, US</address-1>
+              <city>Nampa</city>
+              <state>ID</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>MICRON ELECTRONICS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Klein, Dean A.</name>
+            <address>
+              <address-1>Eagle, ID, US</address-1>
+              <city>Eagle</city>
+              <state>ID</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Fleming, III, Hoyt A.</name>
+            <address>
+              <address-1>Boise, ID, US</address-1>
+              <city>Boise</city>
+              <state>ID</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Park &amp; Vaughan LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Beausoliel, Jr., Robert W.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      One embodiment of the present invention provides a method for removing power and signals from a bus card in a computer system when the bus card is inadvertently removed from the computer system while the computer system is operating.
+      <br/>
+      The method includes sensing a movement of the bus card from a bus connector in the computer system while the computer system is operating, and in response to the movement, removing power and signals from the bus card.
+      <br/>
+      The present invention can thereby prevent damage or failure of the computer system when a bus card is inadvertently removed from the computer system by powering down the bus card and/or removing signals from the bus card before it is completely removed.
+      <br/>
+      Another embodiment of the present invention includes sensing an insertion of the bus card into the bus connector, and in response to the insertion of the bus card, resetting the bus card.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>RELATED APPLICATION</heading>
+    <p num="1">
+      The subject matter of this application is related to the subject matter in patent application Ser.
+      <br/>
+      No. 09/093,654, filed Jun. 8, 1998, pending.
+    </p>
+    <heading>BACKGROUND</heading>
+    <p num="2">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="3">The present invention relates to fault tolerance in computer systems, and more particularly to a method for removing power and signals from a bus card that is inadvertently removed from a computer system during a "hot swap" operation while the computer system is running.</p>
+    <p num="4">2. Related Art</p>
+    <p num="5">
+      The demand for reliability in computer systems has led to the development of computer systems that support "hot swapping" of bus cards.
+      <br/>
+      This allows a computer system to continue operating while a bus card is removed from the computer system, and while a new bus card is inserted into the computer system.
+      <br/>
+      In this way, failed system components located on bus cards can be replaced without shutting down the computer system.
+      <br/>
+      The other bus cards in the computer system can continue to function while the defective bus card is being replaced.
+    </p>
+    <p num="6">
+      Existing hot swapping systems typically use software routines to remove power from a bus slot before a bus card is removed from the bus slot.
+      <br/>
+      A similar software routine is used to "power up" a new bus card after the new bus card is inserted into the bus slot.
+      <br/>
+      These power removal and power up functions prevent the bus card and the computer system from being damaged when the bus card is removed and/or replaced.
+    </p>
+    <p num="7">
+      However, hot swapping can lead to other problems.
+      <br/>
+      If a computer system operator is not careful during the hot swapping process, the computer system operator may inadvertently remove the wrong bus card.
+      <br/>
+      This is an easy mistake to make because bus cards are typically packed close together and are often similar or identical in appearance.
+      <br/>
+      In order to guard against inadvertent removal, the computer system operator must take special care to power down the proper bus card, and to properly identify the powered down bus card for removal.
+    </p>
+    <p num="8">
+      Some existing systems provide light emitting diodes (LEDs) near each bus card to indicate whether or not the bus card is receiving power.
+      <br/>
+      By examining these diodes, the computer system operator can locate the proper card to remove.
+      <br/>
+      However, these LEDs are often a number of inches from their corresponding bus card connectors, and the bus cards are often packed very closely together.
+      <br/>
+      Consequently, an operator can still easily remove the wrong bus card during the hot swapping process, in spite of the presence of the LEDs.
+    </p>
+    <p num="9">
+      Removal of the bus card while the computer system is operating can have serious consequences.
+      <br/>
+      At a minimum, the system is likely to "hang" while waiting on an uncompleted bus transaction involving the removed bus card.
+      <br/>
+      At worst, removal of the bus card from an operating computer system can cause damage to the computer system and/or the bus card.
+    </p>
+    <p num="10">What is needed is a mechanism that removes power and signals from a bus card before the bus card can be inadvertently removed from a computer system.</p>
+    <heading>SUMMARY</heading>
+    <p num="11">
+      One embodiment of the present invention provides a method for removing power and signals from a bus card in a computer system when the bus card is inadvertently removed from the computer system while the computer system is operating.
+      <br/>
+      The method includes sensing a movement of the bus card from a bus connector in the computer system while the computer system is operating, and in response to the movement, removing power and signals from the bus card.
+      <br/>
+      The present invention can thereby prevent damage or failure of the computer system when a bus card is inadvertently removed from the computer system by powering down the bus card and/or removing signals from the bus card before it is completely removed.
+    </p>
+    <p num="12">
+      Another embodiment of the present invention includes sensing an insertion of the bus card into the bus connector, and in response to the insertion of the bus card, resetting the bus card.
+      <br/>
+      In a variation on this embodiment, resetting the bus card includes reinitializing the bus card to an initial state.
+      <br/>
+      In another variation, removing power from the bus card includes saving state from the bus card to the computer system, and resetting the bus card includes restoring the state to the bus card from the computer system.
+    </p>
+    <p num="13">
+      In another embodiment of the present invention, removing power from the bus card includes waiting until a bus transaction involving the bus card completes before removing the power.
+      <br/>
+      In another embodiment, removing power from the bus card includes waiting until the computer system completes a task involving the bus card before removing power.
+    </p>
+    <p num="14">
+      In another embodiment of the present invention, removing power from the bus card includes isolating the computer system from the bus card using isolation buffers interposed in signal lines coupling the bus connector to the computer system.
+      <br/>
+      Another embodiment of the present invention includes limiting rapid influxes of current into the bus card using an inrush limiter.
+    </p>
+    <p num="15">
+      In another embodiment of the present invention, sensing the movement of the bus card includes sensing a movement of the bus card using a mechanical switch.
+      <br/>
+      In another embodiment, sensing the movement of the bus card includes using an optical switch.
+      <br/>
+      In yet another embodiment, sensing the movement of the bus card includes sensing a movement of the bus card using a switch located inside the bus connector at a furthest insertion distance of the bus card into the bus connector.
+      <br/>
+      In yet another embodiment, sensing the movement of the bus card includes sensing a movement of the bus card using a switch located outside of the bus connector.
+      <br/>
+      In another embodiment, sensing the movement of the bus card includes sensing a movement of the bus card using two switches located at opposing ends of the bus connector.
+    </p>
+    <heading>DESCRIPTION OF THE FIGURES</heading>
+    <p num="16">
+      FIG. 1 illustrates a computer system 100 including a bus connector 120 that automatically removes power from a bus card when the bus card is removed from the computer system in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 2 illustrates part of the internal structure of a bus connector 120 from FIG. 1 in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 3 is a state diagram illustrating the operation of controller 200 from FIG. 2 in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 4 illustrates an embodiment of the present invention including a mechanical switch 406 located outside of bus connector 402.
+      <br/>
+      FIG. 5 illustrates an embodiment of the present invention including two switches 502 and 504 located at opposing ends of bus connector 402 in accordance with an embodiment of the present invention.
+      <br/>
+      FIG. 6 is a flow chart illustrating the operation of one embodiment of the present invention.
+    </p>
+    <heading>DEFINITIONS</heading>
+    <p num="17">Bus Card--any type of removable computer system module in a computer system.</p>
+    <p num="18">
+      Bus Connector--an interface for coupling a bus card into a computer system, sometimes referred to as a bus slot.
+      <br/>
+      A bus connector typically includes electrical contacts for electrically coupling the bus card to the computer system.
+    </p>
+    <p num="19">
+      Computer System Task--a unit of work performed by a central processing unit in a computer system.
+      <br/>
+      A task may include from one to many thousands of central processing unit instructions.
+    </p>
+    <p num="20">Optical Switch--an apparatus including an optical sensor that triggers an electrical relay when light shines on the optical sensor or is removed from the optical sensor.</p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="21">
+      The following description is presented to enable any person skilled in the art to make and use the invention, and is provided in the context of a particular application and its requirements.
+      <br/>
+      Various modifications to the disclosed embodiments will be readily apparent to those skilled in the art, and the general principles defined herein may be applied to other embodiments and applications without departing from the spirit and scope of the present invention.
+      <br/>
+      Thus, the present invention is not intended to be limited to the embodiments shown, but is to be accorded the widest scope consistent with the principles and features disclosed herein.
+    </p>
+    <p num="22">Description of Computer System</p>
+    <p num="23">
+      FIG. 1 illustrates a computer system 100 including a bus connector 120 that automatically removes power from a bus card when the bus card is removed from the computer system in accordance with an embodiment of the present invention.
+      <br/>
+      In this embodiment, computer system 100 includes processor 101, which is coupled to core logic unit 102.
+      <br/>
+      Core logic unit 102 is additionally coupled to memory 104, and bus 106.
+      <br/>
+      Processor 101 may be any type of processor that can be used in a computing system.
+      <br/>
+      This includes, but is not limited to, microprocessors, mainframe processors, and device controllers.
+      <br/>
+      Core logic unit 102 includes circuitry to couple processor 101 to memory 104 and to bus 122.
+      <br/>
+      Memory 104 is any type of random access memory that can be used to store code and data for processor 101.
+    </p>
+    <p num="24">
+      In this embodiment, processor 101 can communicate with additional computer system components across bus 106.
+      <br/>
+      These components are located on bus cards 108, 110, 112 and 116.
+      <br/>
+      Bus card 108 includes a disk drive controller and is coupled to a disk drive 109.
+      <br/>
+      Disk drive 109 can include any type of nonvolatile storage device for storing code and data used by processor 101.
+      <br/>
+      Bus card 110 includes an audio unit that processes audio signals from the computer system for output through speaker 111.
+      <br/>
+      Bus card 112 includes a network interface controller, which can include any type of interface to a computer network 114.
+      <br/>
+      Bus card 116 includes a graphics unit including graphics processing hardware.
+      <br/>
+      Bus card 116 is coupled to display 118, which can include any type of display that can be used with a computer system.
+      <br/>
+      This includes, but is not limited to, a graphical display on a cathode ray tube or a flat panel LCD.
+    </p>
+    <p num="25">
+      In this embodiment, each of bus cards 108, 110, 112 and 116 are coupled to bus 106 through a separate bus connectors 120.
+      <br/>
+      Bus connectors 120 are designed so that power is removed from a bus connector 120 when a bus card located in the bus connector 120 is removed from computer system 100 while computer system 100 operating.
+    </p>
+    <p num="26">Description of Bus Connector</p>
+    <p num="27">
+      FIG. 2 illustrates part of the internal structure of a bus connector 120 in accordance with an embodiment of the present invention.
+      <br/>
+      Bus connector 120 includes a physical slot 204 with signal lines 201 coupled to bus 106 through isolation buffers 202.
+      <br/>
+      Physical slot 204 is coupled to power supplies 208 through inrush limiter and switch 206.
+      <br/>
+      Controller 200 is coupled to bus 106, isolation buffers 202, physical slot 204 and inrush limiter and switch 206.
+      <br/>
+      Bus 106 may be any type of computer system bus 106, including a bus designed according to the PCI standard.
+    </p>
+    <p num="28">
+      In this embodiment, a number of signal lines from bus 106 feed into controller 200.
+      <br/>
+      These include GNT signal 214 and CLK signal 212, which are bus grant and clock signals specified under the PCI bus standard.
+      <br/>
+      Controller 200 additionally receives card detect signal 216 from optical card detector 210 within physical slot 204.
+      <br/>
+      Card detect signal 216 is asserted when a bus card is inserted into physical slot 204 causing optical card detector 210 to detect the presence of the card.
+      <br/>
+      In this embodiment, optical card detector includes a light emitting diode (LED) which shines onto an optical detector when no bus card is present in physical slot 204.
+      <br/>
+      Light from the LED is blocked from the optical sensor when a bus card is inserted into physical slot 204 so that the bus card is interposed between the LED and the optical sensor.
+      <br/>
+      Other embodiments use mechanical switches to detect the presence or absence of a bus card from physical slot 204.
+    </p>
+    <p num="29">
+      Controller 200 generates an enhanced GNT signal 220 and a slot disable signal 218.
+      <br/>
+      In this embodiment, enhanced GNT signal 220 is asserted whenever GNT signal 214 from bus 106 is asserted and card detect signal 216 is asserted.
+      <br/>
+      Enhanced GNT signal 220 is a modified grant signal for a card in physical slot 204.
+      <br/>
+      Enhanced GNT signal 220 is active only when a card is detected in physical slot 204.
+      <br/>
+      Slot disable signal 218 feeds into isolation buffers 202 and inrush limiter and switch 206.
+      <br/>
+      Slot disable signal 218 causes isolation buffers 202 to isolate signal lines 201 from bus 106.
+      <br/>
+      In one embodiment, isolation buffers 202 are implemented as pass transistors.
+      <br/>
+      In response to slot disable signal 218, inrush limiter and switch 206 cause power supplies 208 to be decoupled from physical slot 204.
+      <br/>
+      Inrush limiter and switch 206 additionally limits a surge of current into physical slot 204.
+    </p>
+    <p num="30">
+      During operation of the system in FIG. 2, optical card detector 210 detects a movement of a bus card from physical slot 204, and changes card detect signal 216.
+      <br/>
+      Before the bus card is fully disengaged from physical slot 204, controller 200 responds to the movement by asserting slot disable signal 218, which causes isolation buffers 202 to isolate signal lines 201 from bus 106, and causes inrush limiter and switch 206 to remove power from physical slot 204.
+      <br/>
+      In a variation on this embodiment, slot disable signal 218 is delayed so that computer system 100 (from FIG. 1) can complete a bus transaction or a task involving a card in physical slot 204.
+      <br/>
+      Additionally, when no card is detected in physical slot 204, enhanced GNT signal 220 is disabled.
+      <br/>
+      Note that computer system 100 can determine whether physical slot 204 is disabled by reading slot status from bus 106.
+    </p>
+    <p num="31">Description of Bus Connector Controller</p>
+    <p num="32">
+      FIG. 3 is a state diagram illustrating the operation of controller 200 from FIG. 2 in accordance with an embodiment of the present invention.
+      <br/>
+      In this embodiment, controller 200 takes as input a number of transaction control signals from a bus 106 that conforms to the PCI standard.
+      <br/>
+      These signals include: FRAME, IRDY, TRDY, GNT, IDSEL and DEVSEL.
+      <br/>
+      The FRAME signal is driven by the current bus initiator and indicates the start and duration of a bus transaction.
+      <br/>
+      The IRDY signal is driven by the current bus master.
+      <br/>
+      During a write, IRDY being asserted indicates that the initiator is driving valid data onto the bus.
+      <br/>
+      During a read, IRDY being asserted indicates that the initiator is ready to accept data from the currently addressed target.
+      <br/>
+      The TRDY signal is driven by the currently addressed target on the bus.
+      <br/>
+      It is asserted when the target is ready to complete the current data transfer.
+      <br/>
+      GNT is asserted when the arbiter has determined that the requesting master should be granted control of the PCI bus.
+      <br/>
+      In doing so, the arbiter asserts a GNT line specific to the requesting master.
+      <br/>
+      The IDSEL signal is an input to a PCI device that is used as a chip select during an access to one of the device's configuration registers.
+      <br/>
+      The DEVSEL signal is asserted by the target when the target has decoded its address.
+      <br/>
+      The state machine additionally receives card detect signal 216 from optical card detector 210 from FIG. 1.
+    </p>
+    <p num="33">
+      Assume the state machine in FIG. 3 starts in state 300.
+      <br/>
+      In state 300 the bus card is idle.
+      <br/>
+      If card detect signal 216 is de-asserted, this indicates that the card is being removed from its bus connector; the system proceeds to state 302.
+      <br/>
+      If a FRAME signal is detected, indicating a bus transaction is taking place, the system proceeds to state 304.
+      <br/>
+      Otherwise, the system remains in state 300.
+    </p>
+    <p num="34">
+      In state 302, the slot disable signal is asserted, causing power to be removed from physical slot 204 (from FIG. 2), and causing isolation buffers 202 to decouple signal lines 201 from bus 106.
+      <br/>
+      If card detect signal 216 is asserted again.
+      <br/>
+      This indicates a card has been inserted into physical slot 204, and the system returns to state 300.
+    </p>
+    <p num="35">
+      In state 304, the system looks for two conditions.
+      <br/>
+      Condition A occurs if GNT or IDSEL or /DEVSEL is asserted.
+      <br/>
+      If condition A is true, either bus control is being transferred, or a bus device is being initialized or no target has detected its address.
+      <br/>
+      In this case, the system proceeds to state 306.
+      <br/>
+      Condition B occurs if bus control is not changing, no device is being initialized and a target has decoded its address.
+      <br/>
+      If condition B is true, a normal bus transfer is taking place, and the system proceeds to state 310.
+    </p>
+    <p num="36">
+      In state 306, the system looks for the same two conditions.
+      <br/>
+      If condition A is true the system proceeds to state 308.
+      <br/>
+      If condition B is true, the system proceeds to state 310.
+    </p>
+    <p num="37">
+      In state 308, the system again looks for the same two conditions.
+      <br/>
+      If condition A is true, the system returns to state 300.
+      <br/>
+      If condition B is true, the system proceeds to state 310.
+    </p>
+    <p num="38">
+      In state 310, a bus transaction is taking place.
+      <br/>
+      The system waits for the end of the current PCI bus cycle, which is indicated by /FRAME and IRDY and TRDY.
+      <br/>
+      When the end of the current cycle is detected, the system returns to state 300.
+      <br/>
+      Otherwise, the system remains in state 310.
+    </p>
+    <p num="39">
+      The state diagram illustrated in FIG. 3 effectively causes controller 200 (from FIG. 2) to wait for a bus transaction to complete before disabling physical slot 204.
+      <br/>
+      This prevents the computer system from hanging while waiting for a response from a bus card when the card is disabled in the middle of a bus transaction.
+    </p>
+    <p num="40">Description of Sensor Locations</p>
+    <p num="41">
+      FIG. 4 illustrates an embodiment of the present invention including a mechanical switch 406 located outside of bus connector 402.
+      <br/>
+      In this embodiment, bus card 400 fits into bus connector 402 on printed circuit board (PCB) 404. When bus card 400 is fully inserted into bus connector 402, switch 406 is depressed, which indicates that bus card 400 is seated in bus connector 402.
+    </p>
+    <p num="42">
+      FIG. 5 illustrates an embodiment of the present invention including two switches 502 and 504 located at opposing ends of bus connector 402 in accordance with an embodiment of the present invention.
+      <br/>
+      In this embodiment, the two switches 502 and 504 are located inside of bus connector 402.
+      <br/>
+      Furthermore, switches 502 and 504 are located at a furthest insertion distance of bus card 400 into bus connector 402.
+      <br/>
+      This allows switches 502 and 504 to determine when bus card 400 is being moved from bus connector 402, before bus card 400 is completely removed from bus connector 402.
+      <br/>
+      This enables power to be removed from bus card 400 before the electrical connections from bus card 400 to bus connector 402 are completely disengaged.
+    </p>
+    <p num="43">Providing two switches 502 and 504 at opposing end of bus connector 402 allows the system to detect if either end of bus card 400 is disengaged from bus connector 402.</p>
+    <p num="44">Description of Operation of System</p>
+    <p num="45">
+      FIG. 6 is a flow chart illustrating the operation of one embodiment of the present invention.
+      <br/>
+      In this embodiment, the system starts at state 600 and proceeds to state 602.
+      <br/>
+      In state 602, the system senses a movement of the bus card using a sensor, such as optical card detector 210 from FIG. 2.
+      <br/>
+      The system then proceeds to state 604.
+      <br/>
+      In state 604, the system waits until a bus transaction completes so that the bus card is not disabled while a bus transaction involving the bus card is in progress.
+      <br/>
+      Details of this waiting are described above with reference to the state diagram in FIG. 3.
+      <br/>
+      The system next advances to state 606.
+      <br/>
+      In state 606, the system removes power from the bus card.
+      <br/>
+      The system next advances to state 608.
+      <br/>
+      In state 608, the system senses insertion of a new bus card.
+      <br/>
+      The system next proceeds to state 610.
+      <br/>
+      In state 610, the new bus card is reset.
+      <br/>
+      The system next advances to state 612, which is an end state.
+    </p>
+    <p num="46">
+      The foregoing descriptions of embodiments of the invention have been presented for purposes of illustration and description only.
+      <br/>
+      They are not intended to be exhaustive or to limit the invention to the forms disclosed.
+      <br/>
+      Obviously, many modifications and variations will be apparent to practitioners skilled in the art.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method for removing connections to a bus card in a computer system when the bus card is inadvertently removed from the computer system while the computer system is operating, comprising:</claim-text>
+      <claim-text>sensing a movement of the bus card from a bus connector in the computer system while the computer system is operating; in response to the movement, saving a state from the bus card to the computer system; removing power from the bus card; sensing an insertion of a new bus card into the bus connector; in response to the insertion of the new bus card, resetting the new bus card to an initial state;</claim-text>
+      <claim-text>and restoring the state to the new bus card from the computer system.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1, wherein removing connections to the bus card includes waiting until a bus transaction involving the bus card completes before removing power from the bus card.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The method of claim 1, wherein removing connections to the bus card includes waiting until the computer system completes a task involving the bus card before removing power from the bus card.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1, wherein removing connections to the bus card includes isolating the computer system from the bus card using isolation buffers in signal lines coupling the bus connector to the computer system.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The method of claim 1, wherein sensing the movement of the bus card includes sensing the movement of the bus card using a mechanical switch.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1, wherein sensing the movement of the bus card includes sensing the movement of the bus card using an optical switch.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using a switch located inside the bus connector at a furthest insertion distance of the bus card into the bus connector.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 1, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using a switch located outside of the bus connector.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 1, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using two switches located at opposing ends of the bus connector.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 1, further comprising limiting rapid influxes of current into the bus card using an inrush limiter.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A method for removing connections to a bus card in a computer system when the bus card is inadvertently removed from the computer system while the computer system is operating, comprising: sensing a movement of the bus card from a bus connector in the computer system while the computer system is operating; in response to the movement, waiting until a bus transaction involving the bus card completes; saving a state from the bus card to the computer system; removing power from the bus card; sensing an insertion of a new bus card into the bus connector; in response to the insertion of the new bus card, resetting the new bus card to an initial state;</claim-text>
+      <claim-text>and restoring the state to the new bus card from the computer system.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 11, wherein removing connections to the bus card includes waiting until the computer system completes a task involving the bus card before removing power from the bus card.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 11, wherein sensing the movement of the bus card includes sensing the movement of the bus card using a mechanical switch.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 11, wherein sensing the movement of the bus card includes sensing the movement of the bus card using an optical switch.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method of claim 11, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using a switch located inside the bus connector at a furthest insertion distance of the bus card into the bus connector.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 11, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using a switch located outside of the bus connector.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method of claim 11, wherein sensing the movement of the bus card from the bus connector includes sensing the movement of the bus card using two switches located at opposing ends of the bus connector.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A method for removing connections to a bus card in a computer system when the bus card is inadvertently removed from the computer system while the computer system is operating, comprising: sensing a movement of the bus card from a bus connector in the computer system using two switches located at opposing ends of the bus connector while the computer system is operating; in response to the movement, waiting until a bus transaction involving the bus card completes; saving a state from the bus card to the computer system; removing power from the bus card; sensing an insertion of a new bus card into the bus connector; in response to the insertion of the new bus card, resetting the new bus card by reinitializing the new bus card to an initial state;</claim-text>
+      <claim-text>and restoring the state to the new bus card from the computer system.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

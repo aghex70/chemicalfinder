@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185637B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185637</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185637</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22032099" extended-family-id="42113715">
+      <document-id>
+        <country>US</country>
+        <doc-number>09060844</doc-number>
+        <kind>A</kind>
+        <date>19980415</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09060844</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172038</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>6084498</doc-number>
+        <kind>A</kind>
+        <date>19980415</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09060844</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/28        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710035000</text>
+        <class>710</class>
+        <subclass>035000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710018000</text>
+        <class>710</class>
+        <subclass>018000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710019000</text>
+        <class>710</class>
+        <subclass>019000</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>710033000</text>
+        <class>710</class>
+        <subclass>033000</subclass>
+      </further-classification>
+      <further-classification sequence="4">
+        <text>710058000</text>
+        <class>710</class>
+        <subclass>058000</subclass>
+      </further-classification>
+      <further-classification sequence="5">
+        <text>710060000</text>
+        <class>710</class>
+        <subclass>060000</subclass>
+      </further-classification>
+      <further-classification sequence="6">
+        <text>711167000</text>
+        <class>711</class>
+        <subclass>167000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/28</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/28</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>11</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6185637</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">System for implementing an adaptive burst length for burst mode transactions of a memory by monitoring response times for different memory regions</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>DERBY JEFFREY H, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5274625</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5274625</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>FISCHER LISA L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5289583</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5289583</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>SCOTT MICHAEL, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5469398</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5469398</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>YOUNG DESMOND W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5513320</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5513320</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>LEYRER THOMAS A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5664230</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5664230</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>HARDIN TOM</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5712860</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5712860</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>LORY JAY R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5768622</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5768622</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>TAVALLAEI SIAMAK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5907689</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5907689</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>MURAI YASUMITSU, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5940344</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5940344</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>KUMAR SHAILENDRA, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5970069</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5970069</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>SATOH JUN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5999197</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5999197</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>MERGARD JAMES OLIVER</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6009489</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6009489</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Advanced Micro Devices, Inc.</orgname>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>ADVANCED MICRO DEVICES</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Strongin, Geoffrey S. S.</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Hack, Norm M</name>
+            <address>
+              <address-1>Pflugerville, TX, US</address-1>
+              <city>Pflugerville</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Conley, Rose &amp; Tayon, PC</orgname>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <name>Kivlin, B. Noël</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>An, Meng-Ai T.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A system is disclosed for improving the efficiency of data transactions by permitting the length of burst transactions to be modified based upon system performance.
+      <br/>
+      A bus interface unit monitors the response times of memory devices, and, if WAIT periods are required before the memory device responds, the bus interface unit increases the length of the burst.
+      <br/>
+      Preferably, the bus interface unit includes a table of historical response times of various memory ranges, and determines an optimal burst length for each memory range.
+      <br/>
+      When a data transaction is made to a particular memory location, the BIU accesses the table and asserts a BURST signal for a sufficient period of time to accomplish the optimal burst length.
+      <br/>
+      After the optimal burst length has been reached in the existing memory transaction, the BURST signal is deasserted to end the burst cycle.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">
+      The present invention generally relates to computer systems which include memory devices that are subject to read and write transactions by a central processing unit (CPU) or other system device.
+      <br/>
+      Still more particularly, the present invention relates to a computer system implementation in which data is transferred between memory and the CPU in bursts Still more particularly, the present invention relates to a system in which the burst length of the data stream can be modified based upon a variety of criteria to improve the efficiency of the computer system.
+    </p>
+    <p num="3">2. Description of the Relevant Art</p>
+    <p num="4">
+      For most computer systems, the number of clock cycles required for a data access to a memory device depends upon the component accessing the memory and the speed of the memory unit.
+      <br/>
+      Most of the memory devices in a computer system are slow relative to the clock speed of the central processing unit (CPU).
+      <br/>
+      As a result, the CPU is forced to enter wait states when seeking data from the slower memory devices.
+      <br/>
+      Because of the relative slowness of most memory devices, the efficiency of the CPU can be severely compromised.
+      <br/>
+      As the operating speed of processors increases and as new generations of processors evolve, it is advantageous to minimize wait states in memory transactions to fully exploit the capabilities of these new processors.
+    </p>
+    <p num="5">
+      One technique which has been used and which has gained widespread acceptance in computer systems is the use of one or more high speed cache memory devices.
+      <br/>
+      Typically, the cache memory is placed intermediate the CPU and system memory, and is used to store frequently used, or recently used, data.
+      <br/>
+      While cache memory devices have reduced processor latency times in memory transactions, a problem still exist with latency in memory transactions, especially for memory transactions to other memory sub-systems, such as the system memory.
+    </p>
+    <p num="6">
+      Another technique which has been used to reduce processor latency in memory transactions is to increase the amount of information transferred in each memory access.
+      <br/>
+      Protocols exist for bursting data streams under certain conditions in some systems, such as the PCI (Peripheral Component Interconnect) bus.
+      <br/>
+      The PCI bus has a protocol which permits data to be transferred in a burst mode.
+    </p>
+    <p num="7">
+      The burst mode feature allows reads or writes to consecutive memory locations at high speed, via burst cycles.
+      <br/>
+      The normal procedure for reading or writing from memory is that the CPU in a first clock cycle generates the address signals on the address bus, and then in the following clock cycle, data is transferred to or from system memory.
+      <br/>
+      Since the PCI data bus, for example, is 32-bits wide, a total of four bytes (each byte has 8 bits) of data can be read or written by the CPU for every two clock cycles.
+      <br/>
+      Each set of four bytes transferred on the data bus is referred to as a "double word." In burst mode, additional sequential double words may be transferred during subsequent clock cycles without intervening address phases.
+      <br/>
+      For example, a total of four double words can be read into the CPU using only five clock cycles because only the starting address is sent out on the address bus, and subsequently the first double word of data is read during the second cycle, the next double word of data during the third cycle, and so on.
+      <br/>
+      Thus, where a normal transfer of four double words would take at least eight clock cycles, the burst mode permits four doublewords to be transferred in five clock cycles.
+      <br/>
+      Burst mode operation thereby accommodates relatively high data transfer rates, and significantly reduces the latency involved in a memory transfer.
+    </p>
+    <p num="8">
+      Despite the advantages of operating in burst mode, the burst mode feature has certain limitations.
+      <br/>
+      One limitation inherent in burst mode transfers is that the burst mode length typically is fixed, and cannot be altered.
+      <br/>
+      In addition, the burst mode feature is not responsive to actual latency conditions in the system.
+      <br/>
+      In the devices and busses which use burst mode transactions, the burst length typically is fixed by the system designer.
+      <br/>
+      The optimal burst length value, however, is dependent upon a number of factors that typically are not known during the design process.
+      <br/>
+      Consequently, a system designer does not have all of the information necessary to make a fully informed decision regarding the optimal burst length for a particular memory device.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="9">
+      The present invention solves the shortcomings and deficiencies of the prior art by providing a computer system that includes a bus interface unit (also referred to as "BIU") to orchestrate data accesses between memory devices and a central processing unit (CPU) core.
+      <br/>
+      Preferably, the BIU includes a register with a dedicated bit to indicate whether the adaptive burst mode feature is to be implemented by the BIU.
+      <br/>
+      The bus interface unit preferably includes a table of historical data on the latencies experienced for different memory regions.
+      <br/>
+      A second table also preferably is provided which indicates an optimal burst length for particular latency periods (which may be measured by WAIT states, or other criteria).
+      <br/>
+      The optimal burst length for a latency period can be fixed by the system designer, or can be modified during system operation by a programmer or through a self-executing algorithm.
+      <br/>
+      The table of historical data preferably is accumulated by the bus interface unit based on observations of signals appearing on the CPU local bus and system bus.
+      <br/>
+      When a particular access then is routed through the bus interface unit to a particular memory range, the BIU implements a burst mode transfer with a burst length specified in the look-up table.
+    </p>
+    <p num="10">
+      The actual implementation of the burst transfer may be made through the use of a BURST control signal.
+      <br/>
+      According to this embodiment, the memory continues burst data to as long as the BURST line remains asserted by the BIU.
+      <br/>
+      When the BURST line is deasserted, the target memory unit completes the burst transaction.
+      <br/>
+      The BIU determines how long to assert the BURST signal based upon the look-up table.
+      <br/>
+      Alternatively, the length of the burst data transfer may be indicated by signaling between the BIU and target memory device prior to the time that the memory device drives out the desired data.
+      <br/>
+      In this embodiment, the BIU could indicate to the memory device that a burst data transfer is desired, and the memory device could respond with the expected response time, from which the BIU determines the optimal burst length.
+    </p>
+    <p num="11">
+      The historical data to be monitored preferably includes WAIT states, which define the length of time between the initiation of a memory transaction and the response of the first data item from the targeted memory device.
+      <br/>
+      The BIU then stores, as a running count of clock signals, the WAIT period.
+      <br/>
+      In the preferred embodiment, the BIU stores the WAIT periods on an address range basis.
+      <br/>
+      Alternatively, the WAIT periods (or other latency measurement) can be stored on a component by component basis.
+      <br/>
+      The look-up table preferably includes x bits to define the address range, y bits to define the latency period, and z bits to define the optimal burst length.
+    </p>
+    <p num="12">
+      In addition to the WAIT periods, the BIU also may look at other criteria when assigning the optimal burst length.
+      <br/>
+      For example, the BIU can monitor the number of accesses to a memory range within a predetermined period as an indication of whether to increase the length of the data transfer.
+      <br/>
+      Other criteria which can be monitored by the BIU include (1) the internal state of the CPU, such as pending load, fetch, and store requests; (2) historical data regarding previous execution history; (3) the content of memory responses; and (4) the current state of any CPU special mode bits.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="13">
+      For a more detailed description of the preferred embodiment of the present invention, reference will now be made to the accompanying drawings, wherein:
+      <br/>
+      FIG. 1 depicts a functional block diagram of a computer system constructed in accordance with an exemplary embodiment of the present;
+      <br/>
+      FIG. 2 depicts a look-up table in the bus interface unit of FIG. 1, which is used by the bus interface unit to determine a burst length for each memory address range;
+      <br/>
+      FIG. 3 shows a look-up table for use by the bus interface unit in determining burst length based upon latency;
+      <br/>
+      FIG. 4 depicts an exemplary register for the bus interface unit which functions to indicate whether an adaptive burst mode is to be implemented.
+    </p>
+    <p num="14">
+      While the invention is susceptible to various modifications and alternative forms, specific embodiments thereof are shown by way of example in the drawings and will herein be described in detail.
+      <br/>
+      It should be understood, however, that the drawings and detailed description thereto are not intended to limit the invention to the particular form disclosed, but on the contrary, the intention is to cover all modifications, equivalents and alternatives falling within the spirit and scope of the present invention as defined by the appended claims.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="15">
+      Turning now to the drawings, FIG. 1 is a block diagram of a general computer system 10 for implementing the present invention.
+      <br/>
+      The computer system 10, in accordance with generally known conventions, includes a microprocessor or "processor" 100 which functions as the brains of the computer system 10.
+      <br/>
+      Processor 100 preferably includes a CPU core 50 coupled to a local bus 165.
+      <br/>
+      Although not shown in FIG. 1, the processor 100 also may include a cache memory resident on local bus 165.
+      <br/>
+      CPU core 50 couples to a system bus 125 via a local bus interface unit (BIU) 40. As shown in FIG. 1, a clock 45 may also connect to the local bus 165, or alternatively, may be located on the system bus or some other peripheral bus.
+      <br/>
+      As one skilled in the art will understand, any of the components of the processor 100, such as clock 45, may be located externally from the processor 100 without departing from the principles of the present invention.
+      <br/>
+      Similarly, other components shown as external to the processor 100 in FIG. 1 may be integrated as part of microprocessor 100.
+      <br/>
+      As will be understood by one skilled in the art, in such a situation the system bus 125 may form part of the CPU local bus 165.
+    </p>
+    <p num="16">
+      The computer system 10 also preferably includes a peripheral bus bridge 110 and a memory control unit 150, all connected to the processor 100 via system bus 125 and local bus interface 40.
+      <br/>
+      The peripheral bus bridge 110 provides an interface between an external peripheral bus 120 and the system bus 125 and orchestrates the transfer of data, address and control signals between these busses in accordance with known techniques.
+      <br/>
+      As shown in FIG. 1, memory devices 135 may exist on the peripheral bus 120.
+      <br/>
+      Other memory devices may couple directly to the system bus 125, such as the external cache memory and controller 190.
+      <br/>
+      The cache memory and controller 190 includes both a cache memory and control logic in accordance with conventional techniques.
+    </p>
+    <p num="17">
+      Referring still to FIG. 1, an external system memory 175 also preferably couples to system bus 125 through memory controller 150.
+      <br/>
+      The memory control unit 150 of FIG. 1 couples to the system bus 125 and to a memory bus 170 to control memory transactions between system components and system memory 175.
+      <br/>
+      The system memory 175 typically includes banks of dynamic random access memory (DRAM) circuits.
+      <br/>
+      The DRAM banks, according to normal convention, comprise the working memory of the integrated processor 100.
+      <br/>
+      The memory bus 170, which interconnects the DRAM circuits to the memory controller 150, includes memory address lines, memory data lines, and various control lines.
+      <br/>
+      In accordance with the exemplary embodiment of FIG. 1, the memory control unit 150 may also connect to a read only memory (ROM) device (not shown) via the memory bus 170.
+      <br/>
+      The ROM device may store the BIOS (basic input/output system) instructions for the computer system.
+      <br/>
+      As one skilled in the art will understand, the BIOS ROM may be located elsewhere in the computer system if desired.
+    </p>
+    <p num="18">
+      In its illustrated form, computer system 10 embodies a single processor, single-cache architecture.
+      <br/>
+      It should be understood, however, that the present invention may be adapted to multi-processor and/or multi-cache systems.
+      <br/>
+      It is further understood that a variety of other devices may be coupled to peripheral bus 120.
+      <br/>
+      The peripheral bus may comprise a PCI bus, an ISA bus, an EISA bus, or any other standard bus.
+      <br/>
+      Peripheral memory device 135 may be illustrative of a variety of memory devices.
+      <br/>
+      Exemplary memory devices include hard disk drives, floppy drives, and CD ROM units.
+      <br/>
+      Thus, according to normal convention, the processor 100 couples to other peripheral computer components through one or more external buses, such as system bus 125, peripheral bus 120, and memory bus 170.
+      <br/>
+      Various peripheral devices may reside on these busses.
+      <br/>
+      These peripheral devices may include memory devices, network cards or other structures which could be the target of a read or write request by the CPU core 50 or some other system component.
+    </p>
+    <p num="19">
+      The CPU core 50 is illustrative of, for example, a Pentium-compatible microprocessor, with reduced instruction set computer (RISC) operations, such as the assignee's "K-5" superscalar microprocessor.
+      <br/>
+      The CPU local bus 165 is exemplary of a Pentium-compatible style local bus.
+      <br/>
+      The CPU local bus 165 includes a set of data lines, a set of address lines, and a set of control lines (not shown individually).
+      <br/>
+      Alternatively, the CPU core 50 and CPU local bus 165 may support other instruction set operations, without departing from the principles of the present invention.
+    </p>
+    <p num="20">
+      Referring still to FIG. 1, the present invention preferably includes a cache memory and controller 190.
+      <br/>
+      The cache memory functions as an intermediate storage device to store recently accessed data, as long as that data is determined to be cacheable.
+      <br/>
+      The cache controller includes address tag and state information.
+      <br/>
+      The address tag indicates a physical address in system memory 175 or in external memory (such as may be represented by peripheral memory device 135, for example) corresponding to each entry within cache the memory.
+      <br/>
+      In accordance with normal convention, each entry within the cache memory is capable of storing a line of data.
+      <br/>
+      The cache controller also preferably includes an address tag and state logic circuit that contains and manages the address tag and state information, and a comparator circuit for determining whether a cache hit has occurred.
+      <br/>
+      Although not shown, the cache controller may include other logical elements, including for example a snoop write-back circuit that controls the write-back of dirty data within the cache memory.
+      <br/>
+      It will be appreciated by those skilled in the art that the cache memory and controller may contain other additional conventional circuitry to control well-known caching functions such as various read, write, update, invalidate, copy-back, and flush operations.
+      <br/>
+      Such circuitry may be implemented using a variety of specific circuit configurations.
+      <br/>
+      Examples of such specific circuit configurations may be found in a host of publications of the known prior art, including U.S. Pat. No. 5,091,875 issued to Rubinfeld on Feb. 25, 1992 and U.S. Pat. No. 5,091,876 issued to Sachs et al. on Feb. 25, 1992.
+    </p>
+    <p num="21">
+      In accordance with the preferred embodiment of the present invention, the BIU 40 couples to both the local bus 165 and the system bus 125 for orchestrating the transfer of address, data and control signals between these respective busses.
+      <br/>
+      Referring now to FIGS. 1 and 4, the bus interface unit (BIU) 40 preferably includes a register 210 for indicating whether the adaptive burst feature is enabled.
+      <br/>
+      As shown in FIG. 4, register 210 preferably includes a dedicated bit, marked as bit AB.
+      <br/>
+      If bit AB of register 210 is enabled, then the adaptive burst feature is implemented by the BIU.
+      <br/>
+      If bit AB is not enabled, a fixed length burst may be used.
+      <br/>
+      The status of bit AB may be set as part of the system initialization, or may be subsequently activated by a system programmer.
+      <br/>
+      Although FIG. 4 shows register 210 as an eight bit register, one skilled in the art will understand that register 210 may implemented with a register of any size.
+    </p>
+    <p num="22">
+      In accordance with the principles of the present invention, the BIU 40 monitors certain system parameters for the purpose of determining the optimal burst length for particular memory ranges or devices.
+      <br/>
+      Referring now to FIGS. 1, 3 and 4, the BIU preferably includes a pair of look-up tables 225,250 for assigning optimal burst lengths for particular memory ranges or components.
+      <br/>
+      As one skilled in the art will understand tables 225 and 250 may be combined together in a single table if the BIU is adequately programmed to define a burst length for specific latency periods.
+      <br/>
+      This can be done using a formula, or algorithmic definition for burst length.
+    </p>
+    <p num="23">
+      Referring first to FIG. 3, look-up table 225 represents the optimal burst length for specific measured latency periods.
+      <br/>
+      It should be understood that the values in table 225 are merely intended to be exemplary, and should not be construed as limiting the invention to the values represented.
+      <br/>
+      Thus, according to the example shown in table 225, if a memory response to a CPU request requires the CPU to enter a WAIT period for 2-3 clock signals (which is generated by clock 45 in FIG. 1), then table 225 indicates that the optimal burst length is 8 bytes.
+      <br/>
+      Similarly, if the WAIT period for response comprises 10 clock signals, the example shown in table 225 defines an optimal burst length of 64 bytes.
+      <br/>
+      The values entered in table 225 may be fixed by a system designer, or may be variable.
+      <br/>
+      If the values in table 225 are variable, they can be varied either by a programmer, or by the system itself, based upon an algorithmic definition.
+    </p>
+    <p num="24">
+      Referring now to FIG. 4, table 250 represents the actual historical values determined by the BIU 40, or associated circuitry, representing the historical time for servicing memory requests to particular address ranges.
+      <br/>
+      Once again, it should be understand that the values depicted in table 250 are meant only as an illustration.
+      <br/>
+      Table 250 may be formatted into particular address ranges, with as much granularity as desired.
+      <br/>
+      Thus, for example, system memory may be defined on a page by page basis, or the entire contents may be defined as a single memory range.
+      <br/>
+      The BIU 40 monitors addresses within the defined address ranges, and stores information in column 2 indicative of the period of response.
+      <br/>
+      The value in column 2 may be based upon the most current access to that memory range, or may represent an average of previous accesses.
+      <br/>
+      In the preferred embodiment, the unit of measurement is the number of clock signals received from clock 45 between the initial memory request, and the beginning of the response from the memory unit.
+      <br/>
+      As will be apparent, other units of measurements may used, as well as other definitions of the period to measure.
+    </p>
+    <p num="25">
+      Once the latency value has been determined and stored in table 250, the BIU 40 (or associated circuitry) accesses the look-up table 225 to determine the optimal burst length based on the measure latency period.
+      <br/>
+      In the preferred embodiment, this value for burst length then is stored in column 3 of table 250.
+      <br/>
+      It should be understand that while "columns" of look-up table 250 are discussed, in the preferred embodiment table 250 is implemented by a memory map, or by registers.
+      <br/>
+      Thus, each "column" in actuality comprises a predetermined number of bits dedicated to represent values.
+      <br/>
+      Thus, for example, eight bits may be dedicated to represent the optimal burst length (column 3 of table 250), thus providing 256 possible values for burst length.
+      <br/>
+      In the preferred embodiment, if no historical information is provided for the latency of a particular address range, then preferably a default value is used for the optimal burst length.
+    </p>
+    <p num="26">
+      The manner in which the system implements the adaptive burst mode feature, and the optimal burst length value of table 250 may vary.
+      <br/>
+      In the embodiment shown in FIG. 1, a BURST control line is provided by the BIU 40.
+      <br/>
+      In this exemplary embodiment, the BURST signal is asserted by the BIU 40 to indicate a burst transaction is desired.
+      <br/>
+      The responding memory device preferably responds by bursting data until the BURST control signal is deasserted by the BIU 40.
+      <br/>
+      As an alternative, the burst length may be defined by signaling between the CPU and the target memory device prior to the response of the memory device.
+      <br/>
+      This signaling could be transmitted over existing control, address and data lines through the use of unique combinations of signals, or additional lines could be defined specifically for this type of encoding of the burst length.
+      <br/>
+      Thus, in this alternative embodiment, the BIU 40 could signal the target device that a burst transaction is desired of x bytes.
+      <br/>
+      As yet another alternative, the BIU 40 could communicate to the target memory device that a burst transaction is desired, and the associated memory control unit (or bus bridge) would then be responsible for defining the optimal burst length, based on similar criteria monitored by the bus interface unit in the embodiment discussed above.
+      <br/>
+      Thus, the memory device would be responsible for monitoring the response times for various address ranges and providing that information to the CPU at the beginning of a cycle.
+      <br/>
+      In response, the BIU would then determine the optimal burst length, based on the concepts described in tables 225 and 250.
+    </p>
+    <p num="27">
+      As an alternative to the use of the tables depicted in FIGS. 3 and 4, the elapsed time period from the start of a memory cycle can be monitored by the BIU 40.
+      <br/>
+      If the elapsed time exceeded a historical or programmed limit, then the BIU would assume that the address resulted in a cache miss of the cache memory 190 (or any other cache in the system).
+      <br/>
+      In response to this assumption, the BIU would increase the burst length to amortize the higher overhead involved in the memory access over a larger number of bytes.
+      <br/>
+      As an alternative to measuring the elapsed time period, the BIU may be configured to monitor a cache miss signal from the cache memory 190.
+      <br/>
+      If the cache miss signal was received (as shown in FIG. 1), then the BIU 40 would increase the burst length.
+    </p>
+    <p num="28">
+      As another alternative, the nature of the program flow can be monitored.
+      <br/>
+      If, for example, an interrupt signal is generated which results in a miss of the internal cache in the processor 100, then the BIU sets the burst length longer, anticipating that the memory accesses will be to a different location than those previously cached.
+    </p>
+    <p num="29">
+      The present invention also contemplates the possibility of changing the length of a burst during a burst transaction, if a memory request with a higher priority appears at the BIU 40.
+      <br/>
+      Thus, in this embodiment, and referring again to FIG. 1, the BIU 40 includes a mechanism, such as a register, for assigning priority levels to requests from particular devices.
+      <br/>
+      If the BIU 40 is acting as a bus arbiter, and a request is made to a memory location on the system bus 125 by an external bus master, the BIU 40 preferably responds by asserting the BURST signal to implement an optimal burst length transfer.
+      <br/>
+      If during that transaction, the CPU core 50 makes a memory request, the BIU 40 may provide an early termination of the existing burst cycle by deasserting the BURST signal, thus enabling the BIU 40 to process the memory request of the CPU core 50.
+    </p>
+    <p num="30">
+      Numerous variations and modifications will become apparent to those skilled in the art once the above disclosure is fully appreciated.
+      <br/>
+      It is intended that the following claims be interpreted to embrace all such variations and modifications.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A system for providing adaptive burst lengths of data, comprising:</claim-text>
+      <claim-text>a CPU core coupled to a local bus; a bus interface unit coupled between said local bus and a system bus, wherein said bus interface unit is configured to receive a memory request from the CPU core via the local bus and to perform a memory operation via said system bus in response to said memory request; a memory device coupled to said system bus, wherein said memory device is configured to respond to said memory operation; wherein said bus interface unit is configurable to:</claim-text>
+      <claim-text>- use a stored value maintained in the bus interface unit to control a burst length for the memory operation; - measure a response time of said memory device during said memory operation;</claim-text>
+      <claim-text>and - modify the stored value used to control the burst length for the memory operation dependent upon the response time maintain information correlating:</claim-text>
+      <claim-text>(i) address ranges of the memory device, (ii) values indicative of responsive times of memory operations comprising memory addresses falling within the address ranges of the memory device, and (iii) burst lengths to be used during memory operations comprising memory addresses falling within the address ranges of the memory device.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The system as in claim 1, wherein said bus interface unit comprises a look-up table correlating:</claim-text>
+      <claim-text>(i) values indicative of response times of memory operations comprising memory addresses falling within the address ranges of the memory device, and (ii) burst lengths to be used during memory operations comprising memory addresses falling within the address ranges of the memory device.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The system as in claim 2, wherein the burst lengths within the look-up table are determined by a programmer.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The system as in claim 2, wherein the memory device is coupled to a peripheral bus.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The system as in claim 1, wherein said bus interface unit is configured to assert a control signal indicative of the burst length during the memory operation.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The system as in claim 5, wherein the bus interface unit is configured to deassert the control signal to end the memory operation.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The system as in claim 1, wherein the memory device comprises the system memory.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The system as in claim 1, wherein the memory device comprises a cache memory.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A method for selecting a burst length for a memory sub-system, sub-system having a plurality of memory locations defining a plurality of contiguous ranges of addresses, the method comprising: determining a response time for each of the plurality of contiguous ranges of addresses of the memory sub-system during a memory operation;</claim-text>
+      <claim-text>and selecting a burst length for each of the plurality of contiguous ranges of addresses of the memory sub-system dependent upon the response time for each of the plurality of contiguous ranges of addresses.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method as in claim 9, wherein a first burst length is selected if the response time is less than or equal to a predetermined value, and wherein a second burst length is selected if the response time is greater than the predetermined value.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method as in claim 9, wherein the response time contributes to an average response time for the memory sub-system, and wherein the average response time for the memory sub-system is used to select the burst length for the memory subsystem.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

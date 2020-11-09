@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184936B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184936</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184936</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="25480231" extended-family-id="42112887">
+      <document-id>
+        <country>US</country>
+        <doc-number>08943772</doc-number>
+        <kind>A</kind>
+        <date>19971006</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08943772</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43170875</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>94377297</doc-number>
+        <kind>A</kind>
+        <date>19971006</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08943772</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06T  11/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>11</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>348453000</text>
+        <class>348</class>
+        <subclass>453000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>348391100</text>
+        <class>348</class>
+        <subclass>391100</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>348393100</text>
+        <class>348</class>
+        <subclass>393100</subclass>
+      </further-classification>
+      <further-classification sequence="3">
+        <text>348441000</text>
+        <class>348</class>
+        <subclass>441000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06T-011/00C</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>011</main-group>
+        <subgroup>00C</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06T-011/001</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>T</subclass>
+        <main-group>11</main-group>
+        <subgroup>001</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>2</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>8</number-of-drawing-sheets>
+      <number-of-figures>12</number-of-figures>
+      <image-key data-format="questel">US6184936</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Multi-function USB capture chip using bufferless data compression</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MALINOWSKI CHRISTOPHER W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5574572</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5574572</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>LINZER ELLIOT N</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5638130</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5638130</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HUANG SI JUN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5650824</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5650824</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>PRABHAKAR RAMASWAMY, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832120</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832120</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>FANDRIANTO JAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5982459</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5982459</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>IMEL MICHAEL T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4823260</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4823260</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>OWEN ROBERT E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4876660</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4876660</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>SAKAGAMI KOUBUN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5142380</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5142380</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>NGUYEN JULIEN T</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5528309</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5528309</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>EASTMAN KODAK CO</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9210911</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9210911</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Tsai Y T: "Color Image Compression for Single-Chip Cameras" IEEE Transactions on Electron Devices, vol. 38, No. 5, May, 1, 1991, pp. 1226-1232, XP000200683, see abstract; figures 1, 6.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Sigma Designs, Inc.</orgname>
+          </addressbook>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SIGMA DESIGNS</orgname>
+          </addressbook>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Hu, Xiaoping</name>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Swernofsky Law Group</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lee, Michael</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A method and system for capturing live video signal data using bufferless data compression is disclosed.
+      <br/>
+      Live video signal data is vertically scaled.
+      <br/>
+      A 4:2:2 to 4:2:0 color format conversion is performed simultaneous with the vertical scaling step.
+      <br/>
+      A one-dimensional bufferless discrete cosine transform is performed on the scaled live video signal data to create a plurality of scaled DCT coefficients.
+      <br/>
+      Each of the plurality of scaled DCT coefficients are then Huffman coded.
+      <br/>
+      Each of the Huffman encoded DCT coefficients may then be sent via a USB interface to a USB bus.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OP THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention relates to bufferless compression of video data.</p>
+    <p num="3">2. The Prior Art</p>
+    <p num="4">
+      With the development of multi-media systems, the prospect of inputting live video into a computer system has become common.
+      <br/>
+      Video capture chips are used for capturing still image or live video, and may be used together with a video sensor and signal processing circuit to create a video camera.
+      <br/>
+      Although it would be desirable to include a USB interface in the video capture chip to interface with a computer, the USB interface has a much smaller bandwidth than the camera generates.
+    </p>
+    <p num="5">
+      At present, a USB interface has a bandwidth of 12 M bits per second, and only 8 M bits per second can be allocated to a single isochronous channel.
+      <br/>
+      In order to capture live video at a high resolution, the image data could be compressed.
+      <br/>
+      For example, a data rate for Common Interchange Format (CIF) resolution video (352 * 288) in 4:2:0 format at a rate of 30 frames per second is approximately 35.6 M bits/s. One way to transmit this data across a USB using a 8 M bits/s channel is to compress this data at a compression ratio of approximately 4.5:1. However, known lossless compression engines are not generally this effective, and all lossy compression engines utilize an intermediate buffer for compression of video data.
+      <br/>
+      This intermediate buffer substantially increases the manufacturing costs of such a system.
+      <br/>
+      Accordingly, hardware costs could be substantially reduced if this intermediate buffer were eliminated.
+      <br/>
+      Moreover, less CPU power is required to decompress the data.
+    </p>
+    <p num="6">
+      During MPEG I and MPEG II encoding, each macroblock is processed.
+      <br/>
+      Each macroblock comprises a plurality of pixels, each of which is defined by color space components.
+      <br/>
+      A color space is a mathematical representation for a color.
+      <br/>
+      For example, RGB, YIQ, and YUV are different color spaces which provide different ways of representing a color which will ultimately be displayed in a video system.
+      <br/>
+      A macroblock in YUV format contains data for all Y, U, V components.
+      <br/>
+      Y is the luma component, or black and white portion, while U and V are color difference components.
+    </p>
+    <p num="7">
+      Pixels in each macroblock are traditionally stored in blocks since they are compressed.
+      <br/>
+      Each block comprises 8 lines, each line having 8 pixels.
+      <br/>
+      Three types of macroblocks are available in MPEG 2.
+      <br/>
+      The 4:2:0 macroblock consists of four Y blocks, one U block, and one V block.
+      <br/>
+      A 4:2:2 macroblock consists of four Y blocks, two U blocks, and two V blocks.
+      <br/>
+      A 4:4:4 macroblock consists of four Y blocks, four U blocks, and four V blocks.
+    </p>
+    <p num="8">
+      During encoding, a Discrete Cosine Transform (DCT) is performed on each 8 * 8 block of pixels within each macroblock, resulting in an 8 * 8 block of horizontal and vertical frequency coefficients.
+      <br/>
+      Typically, the DCT process is two dimensional, where DCT is performed on each row and column of pixels.
+      <br/>
+      However, the two dimensional process is difficult to perform without an intermediate buffer to store 8 lines of video data.
+      <br/>
+      It would be desirable to perform the DCT process without this intermediate buffer, resulting in an increase in efficiency of the DCT process and a decrease in hardware costs.
+    </p>
+    <p num="9">
+      Resolution of video is often different from the resolution of the computer display on which the video will be displayed.
+      <br/>
+      In order to display the video on various computer displays, the video resolution often should be scaled to fit within a desired window, such as by vertical and horizontal scaling.
+      <br/>
+      Scaling down can be performed by averaging, while scaling up can be accomplished by interpolation.
+    </p>
+    <p num="10">
+      Various color formats have been developed for use with image and video encoding and decoding.
+      <br/>
+      To facilitate the transfer of data, most MPEG II video encoders accept various video formats, such as the 4:2:2 YUV video format, and use the 4:2:0 format for data storage.
+      <br/>
+      Therefore, color format conversion from the 4:2:2 format to the 4:2:0 format is known to be performed.
+      <br/>
+      In known systems, color format conversion and scaling are performed in two separate processes.
+      <br/>
+      It would be extremely advantageous if vertical scaling and color format conversion could be combined into one process.
+      <br/>
+      Through combining these two processes, efficiency of the video capture chip could be improved with a reduced hardware cost.
+    </p>
+    <p num="11">
+      Accordingly, it would be desirable to provide a method and system for capturing still images or live video with improved efficiency and reduced hardware costs.
+      <br/>
+      These advantages are achieved in an embodiment of the invention in which color format conversion and vertical scaling are performed in one process, in which a one-dimensional DCT process is performed without an intermediate buffer, and in which Huffman coding is tailored to the particular DCT.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE INVENTION</heading>
+    <p num="12">
+      The present invention provides a video capture chip with a USB interface.
+      <br/>
+      When combined with a video sensor and signal processing circuit, the video capture chip is capable of capturing live video and still images, and sending the data through a USB to a computer.
+      <br/>
+      With the addition of application software, the present invention may be used in a video camera, surveillance watcher, scanner, copier, fax machine, digital still picture camera, or other similar device.
+    </p>
+    <p num="13">
+      According to a first aspect of the present invention, a method for combining vertical scaling and color format conversion is disclosed.
+      <br/>
+      Vertical scaling and 4:2:2 to 4:2:0 color format conversion are simultaneously performed on incoming Y, U, and V data.
+      <br/>
+      According to a presently preferred embodiment of the present invention, each byte of the Y, U, and V data are separated.
+      <br/>
+      A scaling factor is determined, the scaling factor indicating a number of bytes to average.
+      <br/>
+      When the scaling factor is equal to 1, a 2:1 scale down is performed for each U and V byte.
+      <br/>
+      When the scaling factor is equal to f, where f is greater than 1, a 2f:1 scale down is performed for each U and V byte when the scaling factor is equal to f. In addition, when the scaling factor is equal to f, where f is greater than 1, an f:1 scale down is performed for each Y byte.
+      <br/>
+      Through the reduction of the vertical scaling and color format conversion into one process, the line buffer size and logical gate count may be reduced by half.
+    </p>
+    <p num="14">
+      According to a second aspect of the present invention, a method for performing a one dimensional DCT on a line of pixels to create a DCT coefficient y(u) is disclosed.
+      <br/>
+      According to a presently preferred embodiment of the present invention, a sequence of pixels is accepted.
+      <br/>
+      A cosine operation is then performed on adjacent sets of the sequence of pixels to generate a sequence of one dimensional DCT coefficients.
+      <br/>
+      This is accomplished without storing the sequence in a buffer through use of a register.
+      <br/>
+      Through elimination of the buffer required in the traditional two dimensional DCT, efficiency is improved, and manufacturing costs are substantially reduced.
+    </p>
+    <p num="15">
+      According to a third aspect of the present invention, a method for compressing DCT coefficients, or other data, is disclosed to offset the lower compression ratio resulting from the one dimensional DCT.
+      <br/>
+      According to a presently preferred embodiment of the present invention, a plurality of DCT coefficients are accepted.
+      <br/>
+      A pattern code is then generated for the plurality of DCT coefficients.
+      <br/>
+      The pattern code comprises a plurality of bits, each one of the plurality of bits corresponding to one of the plurality of DCT coefficients.
+      <br/>
+      Each one of the plurality of bits is 0 when the DCT coefficient is 0, and is otherwise 1.
+      <br/>
+      Nonzero DCT coefficients are identified using the pattern code.
+      <br/>
+      Each zero DCT coefficient is encoded with zero bits.
+      <br/>
+      A coefficient table is prepared, the coefficient table having a plurality of code pairs, each of the plurality of pairs having a length code and a Huffman code.
+      <br/>
+      In addition, a pattern table is prepared, the pattern table having a plurality of code pairs, each of the plurality of pairs having a length code and a Huffman code.
+      <br/>
+      A table lookup is performed for each non-zero DCT coefficient within the coefficient table.
+      <br/>
+      Similarly, a table lookup is performed for each pattern code within the pattern table.
+      <br/>
+      Optimum compression is achieved since a majority of the non-zero coefficients have common values which can be compressed through Huffman encoding.
+    </p>
+    <p num="16">
+      Therefore, the present invention provides a method and system for vertically scaling the live video signal data and performing a 4:2:2 to 4:2:0 color format conversion simultaneous with the vertical scaling step.
+      <br/>
+      Moreover, a one-dimensional bufferless discrete cosine transform is performed on the scaled live video signal data to create a plurality of scaled DCT coefficients.
+      <br/>
+      Each of the plurality of the scaled DCT coefficients is then Huffman encoded.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="17">
+      FIG. 1 illustrates a USB video capture chip according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 2 illustrates a scaler according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 3 illustrates an implementation of the vertical scaler according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 4 illustrates a compression engine according to the present invention.
+      <br/>
+      FIG. 5 is a flow diagram illustrating a method for performing a one-dimensional DCT according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 6 illustrates an interface between a scaled one dimensional DCT and Huffman Encoder according to the present invention.
+      <br/>
+      FIG. 7 illustrates a Huffman Encoder according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 8 illustrates a coefficient selection module of the Huffman Encoder according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 9 illustrates a presently preferred embodiment of DC adjustment performed during the coefficient selection.
+      <br/>
+      FIG. 10 is a flow diagram illustrating the DC adjustment performed according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 11 illustrates a pattern code generation module of the Huffman Encoder according to a presently preferred embodiment of the present invention.
+      <br/>
+      FIG. 12 illustrates a table lookup module of the Huffman Encoder according to a presently preferred embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="18">
+      In the following description, a preferred embodiment of the invention is described with regard to preferred process steps and data structures.
+      <br/>
+      However, those skilled in the art would recognize, after perusal of this application, that embodiments of the invention may be implemented using a set of general purpose computers operating under program control, and that modification of a set of general purpose computers to implement the process steps and data structures described herein would not require undue invention.
+    </p>
+    <p num="19">
+      Referring first to FIG. 1, a USB video capture chip according to a presently preferred embodiment of the present invention is shown.
+      <br/>
+      A video sensor and signal processor 20 provides color space component data 22 to the USB video capture chip.
+      <br/>
+      The USB video capture chip comprises a scaler 24, a DCT module 26, a Huffman coding module 28, and a sync and syntax control module 30.
+      <br/>
+      According to a presently preferred embodiment of the present invention, still image data 32 bypasses the video capture chip and goes directly to a USB interface 34 for transmitting data to a CPU.
+      <br/>
+      However, live video is compressed by the USB video capture chip before being sent to the USB interface 34.
+      <br/>
+      A software driver may then decompress the video data and send the decompressed data to an application.
+    </p>
+    <p num="20">
+      Referring now to FIG. 2, a scaler according to a presently preferred embodiment of the present invention is shown.
+      <br/>
+      Each line of incoming color space component data 36 comprises first color space component data, second color space component data, and third color space component data.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the first, second, and third color space component data correspond to Y, U, and V data, respectively, and each line of 4:2:2 YUV data is split by a color space component separator, or YUV separator 38 into Y 40, U 42, and V 44 buffers.
+      <br/>
+      However, one of ordinary skill in the art will readily recognize that the present invention may be easily modified without undue experimentation to accomodate other color space components and formats.
+      <br/>
+      According to a presently preferred embodiment, the Y, U and V buffers each comprise a four-byte buffer.
+      <br/>
+      A horizontal sync signal 46 indicates the start of a new horizontal scan line of a video frame.
+      <br/>
+      Scaling is synchronized with a video clock signal 48.
+      <br/>
+      Tracking of the Y, U, and V components is performed by counting each byte received at the horizontal sync signal 46.
+      <br/>
+      According to a presently preferred embodiment, input data is interleaved YUYV data.
+      <br/>
+      Therefore, even bytes comprise Y bytes, while odd bytes comprise U or V bytes.
+      <br/>
+      The separator may be implemented with a multiplexer, or equivalent means for separating the Y, U and V bytes.
+    </p>
+    <p num="21">
+      The Y, U, and V data is then multiplexed by a 3:1 32-bit multiplexer 50.
+      <br/>
+      The multiplexer 50 controls buffer selection and sends 4 bytes of Y, U or V data to be scaled.
+      <br/>
+      When the Y buffer 40 is selected, the Y buffer 40 is accessed twice before switching to the U 42 or V 44 buffer.
+      <br/>
+      The multiplexed data is then processed by a horizontal scaler 52 and a vertical scaler 54 according to the present invention.
+      <br/>
+      The horizontal 52 and vertical 54 scalers may be implemented in pipeline.
+    </p>
+    <p num="22">
+      The horizontal scaler 52 is adapted for performing a 2:1 or 4:1 averaging operation on each color component, depending on a horizontal scale factor.
+      <br/>
+      When the horizontal scale factor is 2, two bytes are selected from one of the four byte buffers 40-44.
+      <br/>
+      When the horizontal scale factor is 4, all four bytes are selected from one of the four byte buffers 40-44.
+      <br/>
+      The selected bytes are then averaged and rounded.
+      <br/>
+      The horizontal scaler 52 then outputs a single averaged byte.
+    </p>
+    <p num="23">
+      The vertical scaler 54 is adapted for performing vertical scaling and color format conversion on the horizontally scaled data in a single process according to the present invention.
+      <br/>
+      A 2f:1 scale down on each byte of the U and V components is performed for a scaling factor equal to f. A f:1 scale down is performed on each byte of the Y component where f is an integer greater than 1, since no scaling is required where f is equal to 1.
+      <br/>
+      This scaled data is then sent to a DCT module.
+    </p>
+    <p num="24">
+      A line buffer control module 56 controls data flow to a YUV line buffer, or DCT buffer 58.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the line buffer control module 56 comprises a multiplexer which dispatches data to the YUV line buffer, or DCT input buffer 58, for use by a DCT module.
+      <br/>
+      Moreover, the YUV line buffer 58 may be used to store intermediate accumulation results for the vertical scaler 54.
+      <br/>
+      According to a presently preferred embodiment of the present invention, data is dispatched in 10 bit blocks.
+      <br/>
+      However, one of ordinary skill in the art will readily recognize that blocks comprising greater or fewer bits may be dispatched.
+      <br/>
+      The multiplexer dispatches YUV data from the vertical scaler to a Y, U, or V block, respectively, within the YUV line buffer.
+      <br/>
+      The DCT module may then process selected bytes 60 within the YUV line buffer.
+    </p>
+    <p num="25">
+      Referring now to FIG. 3, an implementation of the vertical scaler 54 according to a presently preferred embodiment of the present invention is presented.
+      <br/>
+      According to the present invention, a means for vertically scaling the live video signal data and means for performing a 4:2:2 to 4:2:0 color format conversion simultaneous with the vertical scaling step are provided.
+      <br/>
+      Incoming color space component data 62 is obtained from the horizontal scaler.
+    </p>
+    <p num="26">
+      According to a preferred embodiment, a means for adding vertically aligned component values is provided.
+      <br/>
+      A 10-bit accumulator 64 performs adding required during averaging of this color space component data to produce a sum.
+      <br/>
+      An accumulator 64 is provided having a first input operatively coupled to the incoming color space component data 62, a second input operatively coupled to an initializer value 66 for rounding accumulated data, a third input operatively coupled to a component signal 68 adapted for selecting the first, second, or third color space component to be scaled, a fourth input operatively coupled to a set_initial signal 70 used to reset the accumulator, a fifth input 72 for receiving intermediate accumulation results, and an output 74 producing the sum of the color space component data to be averaged.
+      <br/>
+      Rounding is performed by adding an initializer value to the sum.
+    </p>
+    <p num="27">
+      In addition, a shifting means is provided.
+      <br/>
+      A shifter 76 is provided having a first input 78 operatively coupled to the accumulator output, a second input 80 indicating a number of bits to shift the sum right, and an output 82.
+      <br/>
+      Thus, the shifter shifts the sum right by a number of bits equal to shift_bits to divide the sum by a multiple of 2 to produce an averaged sum.
+    </p>
+    <p num="28">
+      A multiplexing means, multiplexer FMUX 84, is operatively coupled to the shifter 76 and accumulator 64 for selecting YUV data to be sent to a line buffer control module.
+      <br/>
+      The multiplexer 84 includes a first input 86 operatively coupled to the accumulator output, a second input 88 operatively coupled to the shifter output, a select line 90 operatively coupled to a final_shift signal indicating when a final shift is to be performed, and an output 92, the select line 90 selecting the second input 88 when the final shift is to be performed, and otherwise selecting the first input 86.
+    </p>
+    <p num="29">
+      A buffer control module 94 is provided for storing the multiplexer output, the buffer control module 94 adapted for providing the multiplexer output to a DCT module when the final_shift signal indicates the final shift is to be performed, and otherwise providing the multiplexer output to the fifth accumulator input.
+      <br/>
+      Thus, the line buffer control module is operatively coupled to the accumulator to store intermediate accumulation results.
+      <br/>
+      The buffer control module 94 is adapted for storing the multiplexer output in a YUV line buffer 96.
+      <br/>
+      An extract bits module 98 sends this data to the DCT module.
+    </p>
+    <p num="30">
+      Control logic 100 generates necessary control signals for the accumulator 64, shifter 76, multiplexer 84 and line buffer control module 94.
+      <br/>
+      For example, the number of bits to shift the data, shift_bits, is sent to the shifter 76.
+      <br/>
+      The control logic is regulated by a scaling factor 102, a vertical_sync signal 104 indicating the start of a frame, and the rate 106 the vertical scaler receives bytes from the horizontal scaler.
+      <br/>
+      The scaling factor 102 is an integer, and will generally be 1 or 2.
+    </p>
+    <p num="31">
+      During vertical scaling, the control logic 100 generates three signals for use by the accumulator 64.
+      <br/>
+      First, the initializer value is generated indicating a value to initialize the accumulator 64 for rounding.
+      <br/>
+      Second, a y_comp signal indicates that the present component being scaled is the Y component.
+      <br/>
+      For example, if the component is a Y component, the y_comp signal is 1.
+      <br/>
+      In all other instances, the y_comp signal is 0.
+      <br/>
+      As described above, this is performed by clock counting.
+      <br/>
+      Third, a set_initial signal is used to reset the accumulator 64 to the initializer value at the beginning of scaling each Y, U, or V component.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the initializer value=shift_bits=scale_factor minus y_comp.
+    </p>
+    <p num="32">
+      Data flow during vertical scaling varies according to the scale factor.
+      <br/>
+      The control logic 100 generates a two bit path_select signal 108 indicating the direction of the data flow, since data may flow in three directions: from the FMUX 84 to the line buffer 96, from the line buffer 96 to the extract bits module 98, and from the line buffer 96 to the accumulator 64.
+      <br/>
+      During 1:1 scaling, data flows from the FMUX 84 to the line buffer 96.
+      <br/>
+      During 2:1 scaling, data flows from the FMUX 84 to the line buffer 96 for even lines.
+      <br/>
+      For odd lines, data flows sequentially from the line buffer 96 to the extract bits module 98, and from the line buffer 96 to the accumulator 64.
+      <br/>
+      During 4:1 scaling, four input lines are processed.
+      <br/>
+      For the first line, data flows from the FMUX 84 to the line buffer 96.
+      <br/>
+      For the second and third lines, data flows from the line buffer 96 to the accumulator 64 and from the FMUX 84 to the line buffer 96, sequentially.
+      <br/>
+      For the fourth line, data flows sequentially from the line buffer 96 to the accumulator 64 and from the line buffer 96 to the extract bits module 98.
+      <br/>
+      According to a preferred embodiment, the control logic 100 sends a final_shift signal to the FMUX 84 indicating when the accumulation process is complete.
+      <br/>
+      Therefore, when final_shift is 1, the FMUX 84 selects the output of the shifter 76, and otherwise selects the output of the accumulator 64.
+      <br/>
+      The control logic 100 further generates a lineout_parity 110 indicating a line number of the line after scaling is completed, as well as a signal 112 indicating a start of a new horizontal line.
+      <br/>
+      During DCT data access, data flows from the line buffer 96 to an extract bits module 98.
+      <br/>
+      According to a presently preferred embodiment, the lowest 8 bits from the 10-bit line buffer data are extracted.
+    </p>
+    <p num="33">
+      Referring now to FIG. 4, a compression engine according to the present invention is presented.
+      <br/>
+      The compression engine comprises a one dimensional DCT 114 integrated with quantizers, a Huffman encoding block 116, and a syntax protocol and sync control block 118 coupled to the USB interface 120.
+      <br/>
+      The compression engine encodes each frame on a scaline basis.
+      <br/>
+      Each line comprises 8-pixel segments.
+      <br/>
+      According to a presently preferred embodiment of the present invention, each frame starts with a picture_start_code and each scanline starts with a line_start_code.
+      <br/>
+      The line_start_code distinguishes between even lines comprising Y components only and odd lines comprising Y, U and V components.
+    </p>
+    <p num="34">
+      Referring now to FIG. 5, a flow diagram illustrating a method for performing a one-dimensional DCT according to a presently preferred embodiment of the present invention is presented.
+      <br/>
+      A means for performing a one-dimensional bufferless discrete cosine transform on the scaled live video signal data to create a plurality of scaled DCT coefficients is provided.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the one dimensional DCT is performed on each line of 8 pixels to create a DCT coefficient y(u).
+      <br/>
+      First, a plurality of pixels is accepted at step 122, each of the plurality of pixels xi designated by an integer i, where i is an integer selected from the group consisting of 0, 1, 2, 3, 4, 5, 6, and 7.
+      <br/>
+      At step 124, a DCT coefficient selector, u, is initialized.
+      <br/>
+      In addition, a pixel is selected and intermediate values are initialized at step 126.
+      <br/>
+      Next, at step 128, a cosine operation is performed on ((2i+1) * u PI /16) to create a result, where u is an integer selected from the group consisting of 0, 1, 2, 3, 4, 5, 6, and 7, and where u designates a DCT coefficient.
+      <br/>
+      Next, at step 130, the pixel xi and the result of the cosine operation are multiplied to create a value for summation.
+      <br/>
+      In addition, the value for summation is successively added to create a summed value at step 132.
+      <br/>
+      If it is determined at step 134 that steps 128-132 have not been performed for all pixels, a next pixel is select at step 136, and steps 128-132 are repeated.
+      <br/>
+      Once calculations are performed for all pixels, a DCT coefficient y(u) is determined at step 138.
+      <br/>
+      First, at step 140, a constant is determined, the constant being 1/sqrt(2) when u is 0, the constant otherwise being 1.
+      <br/>
+      The summed value is multiplied by the constant to create a product at step 142.
+      <br/>
+      The product is then divided by 2 at step 144.
+      <br/>
+      The steps of performing and multiplying are repeated for each of the plurality of pixels until all DCT coefficients u are determined to be calculated at step 146.
+      <br/>
+      These steps are performed for each DCT coefficient u at step 148 until the process is completed at step 150.
+    </p>
+    <p num="35">
+      According to a presently preferred embodiment of the present invention, the scaled DCT is further divided by a quantizer.
+      <br/>
+      A quantizer q(u) corresponding to the DCT coefficient y(u) is selected, where u is an integer selected from the group consisting of 0, 1, 2, 3, 4, 5, 6, and 7, where the quantizer q(0) is 5.656, the quantizer q(1) is 11.0, the quantizer q(2) is 13.0, the quantizer q(3) is 15.0, the quantizer q(4) is 17.0, the quantizer q(5) is 19.0, the quantizer q(6) is 21.0, and the quantizer q(7) is 23 0 (slashed zero)  The DCT coefficient y(u) is then divided by the quantizer q(u).
+      <br/>
+      According to a preferred embodiment, the method for performing a one-dimensional DCT may be implemented in software or firmware, as well as in programmable gate array devices, ASIC and other hardware.
+    </p>
+    <p num="36">
+      Referring now to FIG. 6, an interface between the scaled one dimensional DCT 26 and Huffman Encoder 28 shown in FIG. 1 is illustrated.
+      <br/>
+      The one dimensional DCT 26 outputs each DCT coefficient, which is stored in a buffer 152 for use by the Huffman Encoder 28.
+      <br/>
+      The buffer 152 is provided to store accumulated DCT coefficients, since according to a presently preferred embodiment, the Huffman Encoder 28 uses a greater number of clock cycles than the DCT module to process each 8 bytes of DCT coefficients.
+      <br/>
+      According to a presently preferred embodiment of the present invention, each DCT coefficient byte is written to the buffer in synchronization with a DCT clock when enabled by a WRITE_ENABLE signal.
+      <br/>
+      The Huffman Encoder reads each byte from the buffer when enabled by a READ_ENABLE signal.
+      <br/>
+      The READ_ENABLE signal is enabled during coefficient selection, and disabled during Huffman encoding.
+    </p>
+    <p num="37">
+      Referring now to FIG. 7, a Huffman Encoder according to the present invention is illustrated.
+      <br/>
+      A coefficient to be Huffman encoded is selected at 154.
+      <br/>
+      Next, pattern code generation is performed at 156.
+      <br/>
+      Finally, table lookup is performed at 158.
+      <br/>
+      Therefore, a means for Huffman encoding each of the plurality of scaled DCT coefficients includes a means for selecting a coefficient to be Huffman encoded, means for pattern code generation, and table lookup means.
+    </p>
+    <p num="38">
+      Referring now to FIG. 8, coefficient selection means of the Huffman Encoder according to a presently preferred embodiment of the present invention is presented.
+      <br/>
+      A multiplexer DC_MUX 160 has a select line 162, a first input 164 coupled to an incoming DCT coefficient received from the one dimensional DCT output, a second input 166 coupled to a DC Adjustment block 168, and an output 170.
+      <br/>
+      When the incoming DCT coefficient is a DC component Z0, the select line 162 is 1.
+      <br/>
+      In all other instances, the select line 162 is 0.
+      <br/>
+      When the select line 162 is 1, the multiplexer DC_MUX 160 selects the second input 166 and places it at the multiplexer output 170.
+      <br/>
+      When the select line 162 is 0, the first input 164 is selected and passed through to the multiplexer output 170.
+    </p>
+    <p num="39">
+      Referring now to FIG. 9, a DC component adjustment block according to a presently preferred embodiment of the present invention is illustrated.
+      <br/>
+      When the incoming DCT coefficient is a DC component 172, the DC component 172 is adjusted.
+      <br/>
+      The DC adjustment block 168 includes a DC prediction block 174 and a subtraction block 176.
+    </p>
+    <p num="40">
+      The DC prediction block 174 includes a horizontal sync input 178 indicating the start of a new line, a component_id input 180 indicating a Y, U or V component, an initial_pred input 182 used for initialization, a DC component input 184 providing the Y, U, or V component as indicated by the component_id input 180, and a DC_pred output 186.
+      <br/>
+      According to a presently preferred embodiment, a plurality of registers is provided for initialization, with each one of the plurality of registers allocated for each of the Y, U, and V components.
+      <br/>
+      When the horizontal sync input 178 indicates the start of a new line, the DC prediction block 174 initializes each of the plurality of registers with the initial_pred input 182 value.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the initial_pred input value is 64.
+    </p>
+    <p num="41">
+      The subtraction block 176 has a first input coupled to the DC component input 172, a second input coupled to the DC prediction block output 186, and an output 188.
+      <br/>
+      For each 8-byte Y, U, and V component, the second input, or corresponding register value, is subtracted from the first input, or DC component value 172.
+      <br/>
+      The plurality of registers are then initialized to contain the DC component input value 172.
+    </p>
+    <p num="42">
+      The DC adjustment process is illustrated in FIG. 10. The horizontal sync signal indicates the start of a new line.
+      <br/>
+      At step 190, each one of the plurality of registers is initialized.
+      <br/>
+      For each 8-byte component segment, steps 192-196 are performed.
+      <br/>
+      At step 192, the most recent DC component value is assigned to a temporary memory location.
+      <br/>
+      Next, at step 194, the register value corresponding to the Y, U, or V component is subtracted from the most recent DC component value and sent to the DC_MUX 160.
+      <br/>
+      At step 196, the value stored in the temporary memory location is stored in the register corresponding to the Y, U, or V component.
+      <br/>
+      For example, the component_id 0, 1, and 2 may be provided for components Y, U, and V, respectively.
+      <br/>
+      A state machine may provide the component_id in the sequence of +0, 1, 0, 2, 0, 1, 0, 2, . . . } where the Huffman encoding block will process each scanline on an 8-pixel basis in the order of Y, U, Y, V, Y, U, Y, V . . . However, one of ordinary skill in the art will readily recognize that components may be received in an alternative order.
+    </p>
+    <p num="43">
+      Referring now to FIG. 11, pattern code generation means according to a presently preferred embodiment of the present invention is illustrated.
+      <br/>
+      A plurality of DCT coefficients are generated by the DCT module.
+      <br/>
+      A pattern code is then generated for each of the plurality of DCT coefficients to identify which coefficients are coded, since only the nonzero coefficients are coded.
+      <br/>
+      The pattern code generated includes a plurality of bits, each one of the plurality of bits corresponding to one of the plurality of DCT coefficients.
+      <br/>
+      According to a presently preferred embodiment of the present invention, each one of the plurality of bits is 0 when the DCT coefficient is 0.
+      <br/>
+      In all other instances, the corresponding bit is 1.
+      <br/>
+      This pattern code may be generated by performing a bitwise OR operation for each one of the plurality of DCT coefficients.
+    </p>
+    <p num="44">
+      According to a presently preferred embodiment of the present invention, an adjusted DCT coefficient 198 is provided by the multiplexer DC_MUX.
+      <br/>
+      A bitwise OR operation 200 is performed on the adjusted DCT coefficient 198 to produce an output comprising one of the plurality of bits in the pattern code.
+      <br/>
+      A 1:n 1-bit MUX 202 having an input 204, a plurality of select lines 206, and n outputs 208 is provided.
+      <br/>
+      According to a presently preferred embodiment, for each 8 bytes of DCT coefficient, a pattern code byte 210 will be generated.
+      <br/>
+      Therefore, the 1:n MUX 202 comprises a 1:8 MUX to accomodate 8 DCT coefficients and a corresponding 8 bit pattern code.
+      <br/>
+      The output of the bitwise OR operation 200 is operatively coupled to the 1:8 1-bit MUX 202.
+      <br/>
+      A coefficient id is operatively coupled to the 1:8 1-bit MUX and 1:8 8-bit MUX select lines 206 for selecting which one of 8 coefficients is to be processed.
+      <br/>
+      The output of the bitwise OR operation 200 is then placed in the corresponding bit in the pattern code 210.
+    </p>
+    <p num="45">
+      The adjusted DCT coefficient is similarly stored in a corresponding byte in an n byte Huffman Input Buffer 212.
+      <br/>
+      A delay 214 of one clock is provided for synchronization with the pattern code generation.
+      <br/>
+      A 1:n MUX n-bit 216 having an input 218, n outputs 220, and a plurality of select lines 206 coupled to the coefficient id is provided for storing the adjusted DCT coefficient in the Huffman Input Buffer 212.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the MUX 216 comprises a 1:8 8-bit MUX.
+      <br/>
+      The adjusted DCT coefficient 198 is passed through the input of the 8-bit MUX 216 to a byte in the n byte Huffman Input Buffer 212 corresponding to the coefficient id.
+    </p>
+    <p num="46">
+      Referring now to FIG. 12, a Table Lookup module, or table lookup means, for Huffman-coding the pattern code and DCT coefficients according to a presently preferred embodiment of the present invention is shown.
+      <br/>
+      A coefficient table is prepared including a plurality of code pairs, each of the plurality of pairs having a length code and a Huffman code.
+      <br/>
+      A pattern table is prepared including a plurality of code pairs, each of the plurality of pairs having a length code and a Huffman code.
+      <br/>
+      A multiplexer HMUX 222 having a plurality of inputs 224 operatively coupled to the pattern code and the Huffman Input Buffer, a plurality of select lines 226 coupled to the coefficient id and a selection bit 228 for selecting a pattern code 230 or a DCT coefficient 232 for Huffman coding, and an output is provided.
+      <br/>
+      According to a presently preferred embodiment of the present invention, the selection bit 228 indicates the start of the 1 byte pattern code 230 and 8 bytes of DCT coefficients 232 which form a segment.
+      <br/>
+      The pattern code 230 is operatively coupled to a first one of the plurality of inputs and each of the DCT coefficients in the Huffman Input Buffer 232 are operatively coupled to a different one of the plurality of inputs.
+      <br/>
+      When the selection bit 228 is in a first state, the pattern code 230 is passed through to the multiplexer 222 output.
+      <br/>
+      When the selection bit 228 is in a second state, one of the plurality of bytes in the Huffman Input Buffer 232 corresponding to the coefficient id 226 is passed through to the multiplexer 222 output.
+      <br/>
+      Nonzero DCT coefficients are then identified using the pattern code.
+      <br/>
+      Table select 234 selects a pattern table or coefficient table.
+      <br/>
+      When the timing condition coincides, the selection bit 228 and table select 234 can be made the same signal.
+      <br/>
+      Thus, when the selection bit, or table select 234, is in the second state, a table lookup 236 is performed for each non-zero DCT coefficient within the coefficient table to Huffman encode the non-zero DCT coefficient.
+      <br/>
+      Each zero DCT coefficient is encoded with zero bits, meaning that the coefficient is skipped in the bitstream.
+      <br/>
+      However, the pattern code is always coded and transmitted.
+      <br/>
+      When the selection bit, or table select 234, is in the first state, a table lookup 236 is performed for the pattern code within the pattern table to Huffman encode the pattern code.
+      <br/>
+      According to a presently preferred embodiment, Huffman encoding of the pattern code and DCT coefficients produces a 4 bit length code 238 and a 14 bit Huffman code 240.
+      <br/>
+      The length and Huffman code for a zero DCT coefficient are zero.
+      <br/>
+      The Huffman encoded pattern code and DCT coefficients are then sent to a Sync and Syntax control block 242.
+    </p>
+    <p num="47">
+      The sync and syntax control block provides control logic for sending each Huffman Code to a USB FIFO buffer.
+      <br/>
+      The sync and control block provides a line dropping mechanism, a state machine, and a data multiplexer.
+      <br/>
+      The line dropping mechanism drops a line if the USB FIFO almost full condition is true and the current line is an even line.
+      <br/>
+      Thus, a Y line is dropped to prevent the USB FIFO buffer from becoming full and allowing incoming data to be discarded.
+      <br/>
+      For example, the USB FIFO almost full condition may be true if the USB FIFO has less than 256 bytes of free space.
+    </p>
+    <p num="48">
+      The state machine and data multiplexer provide a compressed bitstream to the USB interface from the Huffman-Encoder.
+      <br/>
+      If the compressed bitstream does not lie on a byte boundary, the bitstream is stuffed with 1's.
+      <br/>
+      The resulting bitstream is then output to the USB Bus.
+    </p>
+    <p num="49">
+      While embodiments and applications of this invention have been shown and described, it would be apparent to those skilled in the art that many more modifications than mentioned above are possible without departing from the inventive concepts herein.
+      <br/>
+      The invention, therefore, is not to be restricted except in the spirit of the appended claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>An apparatus for simultaneously performing vertical scaling and 4:2:2 to 4:2:0 color format conversion on incoming 4:2:2 color space component data of a video frame, the incoming color space component data having first color space component data, second color space component data, and third color space component data, the apparatus comprising:</claim-text>
+      <claim-text>an accumulator having a first input operatively coupled to the incoming color space component data, a second input operatively coupled to an initializer value for rounding accumulated data, a third input operatively coupled to a component signal adapted for selecting the first, second, or third color space component to be scaled, a fourth input operatively coupled to a set_initial signal used to reset the accumulator, a fifth input for receiving intermediate accumulation results, and an output producing a sum of the incoming color space component data; a shifter having a first input operatively coupled to the accumulator output, a second input indicating a number of bits to shift the sum right, and an output; a multiplexer having a first input operatively coupled to the accumulator output, a second input operatively coupled to the shifter output, a select line operatively coupled to a final_shift signal indicating when a final shift is to be performed, and an output, the select line selecting the second input when the final shift is to be performed, and otherwise selecting the first input;</claim-text>
+      <claim-text>and a buffer control module for storing the multiplexer output, the buffer control module adapted for providing the multiplexer output to a DCT module when the final_shift signal indicates the final shift is to be performed, and otherwise providing the multiplexer output to the fifth accumulator input.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. An apparatus for simultaneously performing vertical scaling and 4:2:2 to 4:2:0 color format conversion on incoming 4:2:2 color space component data of a video frame, the incoming color space component data having first color space component data, second color space component data, and third color space component data, the apparatus comprising: means for adding vertically aligned component data values to produce a sum; shifting means for shifting the sum right to average the sum over a number of lines for a given scaling factor;</claim-text>
+      <claim-text>and multiplexing means for providing the averaged sum to a DCT module.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

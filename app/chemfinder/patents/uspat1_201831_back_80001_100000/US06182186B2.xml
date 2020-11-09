@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182186B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182186</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182186</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="22320082" extended-family-id="50410306">
+      <document-id>
+        <country>US</country>
+        <doc-number>09108064</doc-number>
+        <kind>A</kind>
+        <date>19980630</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09108064</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>51622441</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>10806498</doc-number>
+        <kind>A</kind>
+        <date>19980630</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09108064</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F   9/46        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>46</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710200000</text>
+        <class>710</class>
+        <subclass>200000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>710108000</text>
+        <class>710</class>
+        <subclass>108000</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>710240000</text>
+        <class>710</class>
+        <subclass>240000</subclass>
+      </further-classification>
+    </classification-national>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-009/52</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>9</main-group>
+        <subgroup>52</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130828</date>
+        </action-date>
+      </patent-classification>
+      <patent-classification sequence="2">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>Y10S-707/99938</classification-symbol>
+        <section>Y</section>
+        <class>10</class>
+        <subclass>S</subclass>
+        <main-group>707</main-group>
+        <subgroup>99938</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>A</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130518</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>20</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>13</number-of-drawing-sheets>
+      <number-of-figures>13</number-of-figures>
+      <image-key data-format="questel">US6182186</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Method and apparatus that utilizes lock states to lock resources</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>STIFFLER JACK J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5115499</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5115499</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>BARTH PAUL S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5263161</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5263161</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>SIMCOE ROBERT J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5313641</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5313641</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>YOKOTA HARUO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5440743</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5440743</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>CHEN MING-SYAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5450595</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5450595</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>SHAUGHNESSY STEVEN T</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5692178</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5692178</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>BARKER KENT D</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5832483</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5832483</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="8">
+          <text>KELLY JR JAMES W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5297283</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5297283</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>IBM Technical Disclosure Bulletin, vol. 34, No. 2, Jul. 1991.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>"Concurrency Filter" IBM Technical Disclosure Bulletin, US, IBM Corp. New York, vol. 34, No. 2, p. 333-339 XP000211129 ISSN: 0018-8689.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Sun Microsystems, Inc.</orgname>
+            <address>
+              <address-1>Palo Alto, CA, US</address-1>
+              <city>Palo Alto</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>SUN MICROSYSTEMS</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Daynes, Laurent</name>
+            <address>
+              <address-1>Sunnyvale, CA, US</address-1>
+              <city>Sunnyvale</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>The Hecker Law Group</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Etienne, Ario</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Method and apparatus for locking by sharing lock states.
+      <br/>
+      Each resource or object has an associated lock state (that may be cached) comprised of transactions that own a lock in a specific mode for the resource.
+      <br/>
+      Several resources may share the same lock state.
+      <br/>
+      In one embodiment of the invention, a table of immutable lock states (TILS) is utilized to maintain the correct association of locked resources and immutable lock states.
+      <br/>
+      To acquire a lock, a new lock state is computed by adding the current transaction to the old lock state.
+      <br/>
+      If the new lock state is already in the TILS, the association between the resource and the lock state is updated to reflect the new lock state.
+      <br/>
+      If the new lock state is not in the TILS, the new lock state is added to the TILS.
+      <br/>
+      To release a lock, the transaction determines the new lock state that will result after removal from the lock state for that resource.
+      <br/>
+      The association between the resource and the lock state is then updated to reflect the change.
+      <br/>
+      When a transaction has completed execution, all resources associated with the transaction are released.
+      <br/>
+      The transaction may maintain a lock set (which may be implemented in a stack) containing information regarding each resource the transaction obtained a lock for and then release each identified resource.
+      <br/>
+      Alternatively, a lock set may not be maintained and the TILS is scanned upon transaction completion to determine the lock states that contained the transaction as an owner.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">This invention relates to the field of computer software, and, more specifically, to transaction processing and object or resource locking.</p>
+    <p num="3">
+      Portions of the disclosure of this patent document contain material that is subject to copyright protection.
+      <br/>
+      The copyright owner has no objection to the facsimile reproduction by anyone of the patent document or the patent disclosure as it appears in the Patent and Trademark Office file or records, but otherwise reserves all copyright rights whatsoever.
+      <br/>
+      Sun, Sun Microsystems, the Sun logo, Solaris, Java, JavaOS, JavaStation, HotJava Views and all Java-based trademarks and logos are trademarks or registered trademarks of Sun Microsystems, Inc. in the United States and other countries.
+    </p>
+    <p num="4">2. Background Art</p>
+    <p num="5">
+      In modern computing environments, it is commonplace to store and access a variety of diverse information and data.
+      <br/>
+      To efficiently utilize the information, the information is stored in a database and is structured in a manner that provides a user with the ability to interpret and manipulate the information (referred to as a "data structure").
+      <br/>
+      One type of database structure is in the form of a table, where each row of the table contains a record and each column specifies a field in the record.
+      <br/>
+      For example, a table can be used to store information regarding a company's inventory where each record is a specific item in the inventory and each field specifies information about the item (e.g., the name of the product, the price of the product, etc.).
+      <br/>
+      Data structures may vary depending on the application and type of database utilized.
+      <br/>
+      As a result of the diverse types of information being utilized (e.g., text, images, sound, video, etc.), data structures have grown increasingly complex.
+    </p>
+    <p num="6">
+      Each time a computer system performs an activity, the activity is referred to as a transaction.
+      <br/>
+      For example, when a customer order is entered, or an inventory item is updated, a transaction for each activity is executed by the computer system.
+      <br/>
+      Thus, when information in a data structure is accessed or manipulated, a transaction is executed by the computer system.
+      <br/>
+      A transaction may need access to a record in a database or a portion of information in a database.
+      <br/>
+      Alternatively, a transaction may modify the entire database.
+      <br/>
+      When executing transactions, a computer system may execute a group of transactions at one time (referred to as batch processing), or may execute each transaction immediately after the transaction is received by the system (referred to as transaction processing).
+      <br/>
+      Transactions contain certain properties that must be adhered to.
+      <br/>
+      For example, transactions must be isolated such that each transaction must be contained separately from each other transaction.
+      <br/>
+      Additionally, transactions must provide for recoverability (the ability to establish a previous or new status from which execution can be resumed in the event of a system or execution failure ).
+      <br/>
+      Required transaction properties are also referred to as low level details of a transaction.
+    </p>
+    <p num="7">
+      In many modem applications, increasingly complex data structures coupled with transaction processing capabilities is becoming a common requirement.
+      <br/>
+      The complexity of these applications, in terms of the data structures, algorithms, and type of the transactions used, does not fit well in the framework offered by traditional database systems.
+      <br/>
+      Persistent programming languages (PPL) (programming languages that provide for data to have a lifetime that persists for a specified amount of time) that support transaction processing may be utilized by programmers as an alternative or in combination with traditional database systems.
+      <br/>
+      To provide adequate support, some PPLs automatically enforce required transaction properties.
+      <br/>
+      Thus, low level transaction details (e.g., enforcing a transaction's properties) are automatically performed without input from a programmer.
+    </p>
+    <p num="8">
+      One automated low level detail consists of the acquisition and release of a lock.
+      <br/>
+      A lock is a mechanism that restricts use of a resource to the holder of the lock.
+      <br/>
+      By locking a resource, the integrity of the data in the resource is ensured by preventing more than one user (or transaction) from accessing or changing the same data or object at the same time.
+      <br/>
+      There are several types of locks that may be used.
+    </p>
+    <p num="9">
+      One type of lock is a shared lock.
+      <br/>
+      A shared lock permits multiple transactions to read (view) an item simultaneously without any modification or addition to the item (no writing is permitted).
+      <br/>
+      A shared lock is referred to as permitting concurrent (or concurrency) control by a transaction (i.e., multiple transactions are permitted to concurrently access a resource).
+      <br/>
+      Another type of lock is an exclusive lock.
+      <br/>
+      An exclusive lock permits one transaction to read and write to an item while excluding all other transactions from reading or writing to the item.
+    </p>
+    <p num="10">
+      The locking and unlocking of resources must be administered to ensure that any required lock properties are complied with.
+      <br/>
+      For example, two or more different transactions cannot each acquire an exclusive lock at the same time for the same resource.
+      <br/>
+      Additionally, locks must be administered to provide a queue for transactions that are waiting to acquire a lock, and to rollback any executed actions if a deadlock results (i.e., when each of two transactions are waiting for a lock release from the other before continuing).
+      <br/>
+      For example, a deadlock occurs if transaction 1 has a lock on resource A and is waiting to acquire a lock on resource B, and transaction 2 has a lock on resource B and is waiting to acquire a lock on resource A.
+    </p>
+    <p num="11">
+      A locking protocol partially determines the administration of a locking and unlocking of resources.
+      <br/>
+      A locking protocol determines how and when a transaction is granted (or acquires) a lock for a resource and when the resource is unlocked (i.e., the lock is released allowing other transactions to acquire a lock on that resource).
+      <br/>
+      A lock manager administers a locking protocol.
+    </p>
+    <p num="12">
+      For example, in a two-phase locking protocol, each transaction issues a lock and unlock request in two phases.
+      <br/>
+      In one phase, referred to as the growing phase, a transaction may obtain locks but may not release any lock.
+      <br/>
+      In the second phase, referred to as the shrinking phase, a transaction may release locks but may not obtain any new locks.
+    </p>
+    <p num="13">
+      Another protocol, referred to as a graph-based protocol, a partial ordering of information in a database is performed.
+      <br/>
+      For example, a set R of resources consisting of R1, R2, R3, . . . , Rh is ordered such that Ri --&gt; Rj.
+      <br/>
+      In this manner, any transaction accessing both Ri and Rj must access Ri before accessing Rj.
+      <br/>
+      With this ordering, the set R may be viewed as a directed acyclic graph, called a database or resource graph.
+      <br/>
+      A directed graph may be viewed as the tree of FIG. 2, where each node of the tree is a resource.
+      <br/>
+      Each resource descends from another resource (referred to as a parent resource) up to the root of the tree that has no parents (resource A 200).
+      <br/>
+      In a graph-based protocol, the following rules are followed: (1) the first lock by a transaction T may be on any data item, (2) subsequently, a data item or resource R can be locked by T only if the parent of R is currently locked by T, (3) resources can be unlocked at any time, and (4) a resource that has been locked and unlocked by T cannot subsequently be relocked by T. For example, referring to FIG. 2, if T needs access to resource C 204, both resource C 204 and resource A 200 must be locked.
+      <br/>
+      Similarly, if T needs access to resource J 218, in addition to locking resource J 218, all of the parents of resource J 218 must be locked (i.e., resources H 214, D 208, B 202, and A 200).
+      <br/>
+      Thus, in some cases, a transaction must lock resources that it does not access (i.e., the parent resources of a resource being accessed).
+    </p>
+    <p num="14">
+      FIG. 3 demonstrates an example of lock acquisition according to a traditional protocol.
+      <br/>
+      In the traditional protocol, each resource is allocated a lock data structure.
+      <br/>
+      This lock data structure is updated every time a lock operation changes the state of the resource's lock.
+      <br/>
+      FIG. 3 demonstrates a scenario where two resources, O1 300 and O2 302, have been read by a transaction T1, and O2 302 is about to be read by transaction T2.
+      <br/>
+      The state of the lock of each resource is shown before (304-306) and after (308-310) the acquisition of the lock on O2 302 by T2.
+      <br/>
+      When transaction T2 requests the lock on resource O2 302 in read mode, the lock data structure associated with O2 302 is updated to reflect the new lock state (i.e., lock owned by T1 and T2 in read mode).
+    </p>
+    <p num="15">
+      Each of the lockable resources may be a record in a database, a field of a record, an entire database, or in an object oriented system (discussed in detail below) a single object, for example.
+      <br/>
+      The size or level of the lockable resource is referred to as the granularity of the resource (e.g., the field level v. the record level v. the table level).
+    </p>
+    <p num="16">
+      A lock is comprised of a data structure that records the identity of the transactions that are given the right to execute operations on the resource the lock protects.
+      <br/>
+      Each time a lock is acquired, memory is used for the lock data structure.
+      <br/>
+      The memory utilized by the lock remains unavailable until released through garbage collection or some other method.
+      <br/>
+      Consequently, one goal in lock administration is to minimize the memory locks consume, which usually translates in minimizing the number of locks.
+    </p>
+    <p num="17">
+      The process of creating and manipulating a lock is time consuming.
+      <br/>
+      Thus, another goal in lock processing is to minimize the lock processing cost for acquiring and releasing a lock.
+    </p>
+    <p num="18">
+      As resource granularity becomes finer, more resources are available for transactions.
+      <br/>
+      Such resource availability occurs because locks are placed on smaller resource units, freeing remaining resources that may be locked if the resource is coarser.
+      <br/>
+      Consequently, another objective in lock processing is to utilize a fine resource granularity.
+    </p>
+    <p num="19">
+      Locking may be performed manually by programmers who then explicitly put lock requests in their programs, or automatically at runtime without input from programmers.
+      <br/>
+      When applied in the context of general purpose programing languages, both solutions may result in many unnecessary redundant lock requests (i.e., a lock request for a lock already owned) because of the complex data structures and algorithms these programming languages enable.
+      <br/>
+      Consequently, one goal of lock management is to minimize the processing time spent to process redundant lock requests.
+    </p>
+    <p num="20">The objective of a lock management implementation is to obtain the best combination of low memory consumption, low processing costs, and fine granularity of locking.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="21">
+      The present invention provides for low space-overhead locking for transaction processing systems by sharing lock states.
+      <br/>
+      Each resource or object has an associated lock state.
+      <br/>
+      A lock state is comprised of a set of transactions that own a lock in a specific mode.
+      <br/>
+      Among other modes, a locking mode may comprise a read mode or a write mode.
+    </p>
+    <p num="22">
+      Resources may share the same lock state if the state of their respective lock is equal.
+      <br/>
+      During its lifetime, a resource may be associated with various lock states, each lock state being the representation of the lock of that resource at a given time.
+      <br/>
+      Locking operations change the association between a resource and a lock state, should such a change be necessary.
+    </p>
+    <p num="23">
+      In one embodiment of the invention, a table of immutable lock states (TILS) records all of the immutable lock states that were created by lock operations in order to avoid duplication of lock states with equal value.
+      <br/>
+      Locking operations (e.g., acquire, release) that yield new lock state values must consult the TILS to retrieve the corresponding immutable lock state.
+    </p>
+    <p num="24">
+      To acquire a lock on a resource R, after ensuring that there is no conflicts, the value of a new lock state is computed by adding the current transaction to the lock state currently associated with R. The computed lock state value is used to retrieve an immutable lock state from the TILS (if no such lock state exists, a new one is registered to the TILS and is returned).
+      <br/>
+      The lock acquisition completes by updating the association of the resource to the new lock states returned by the TILS.
+    </p>
+    <p num="25">
+      To release a lock for a specific resource, the transaction determines the lock state value that will result after removing itself from the lock state for that resource.
+      <br/>
+      The computed lock state value is used to retrieve an immutable lock state from the TILS (if no such lock state exists, a new one is registered to the TILS and is returned).
+      <br/>
+      The lock release completes by updating the association of the resource to the new lock states returned by the TILS.
+    </p>
+    <p num="26">
+      As described, all lock operations perform transitions of lock states that are both deterministic and independent of the locked resource.
+      <br/>
+      If a locking operation for a transaction T on a lock state S1 yields a state S2, it will always do so, independently of the resource the operation applies to.
+      <br/>
+      For instance, acquiring a read lock for a transaction T1 on a resource R associated with a lock state consisting of a read owner set that contains T2 will always yield a lock state made of a lock owner set that contains T2 and T1, whatever the resource R is.
+      <br/>
+      In one embodiment of the invention, lock state transitions (e.g., acquire (T1, Read):Owner(Read)=+T2} --&gt; Owner(Read)=+T2,T1}) are cached to avoid both computation of lock states and look up in the TILS.
+      <br/>
+      Each transaction maintains one lock state transition cache per locking operation.
+    </p>
+    <p num="27">
+      When a transaction has completed execution, all resources associated with the transaction must be released.
+      <br/>
+      In one embodiment, the transaction maintains a lock set that maintains information regarding each resource for which it has obtained a lock.
+      <br/>
+      The transaction then releases each resource in the lock set as described above.
+      <br/>
+      In one embodiment, the lock set is implemented in a stack where each reference is pushed onto the stack when the lock is acquired and popped when the lock is released.
+      <br/>
+      In another embodiment, lock sets are not maintained and the TILS is scanned upon transaction completion to determine which lock states contained the transaction as an owner.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="28">
+      FIG. 1 is a block diagram of one embodiment of a computer system capable of providing a suitable execution environment for an embodiment of the invention.
+      <br/>
+      FIG. 2 demonstrates a tree for a graph based locking protocol.
+      <br/>
+      FIG. 3 demonstrates the locks in a traditional protocol before and after a transaction acquires a lock.
+      <br/>
+      FIG. 4 demonstrates sharing of lock states before and after a transaction acquires a lock.
+      <br/>
+      FIG. 5 illustrates the access path of three transactions through a graph of resources and a history of operations that corresponds to one possible execution of the three transactions traversing this graph.
+      <br/>
+      FIG. 6 demonstrates the sharing of lock states of the resources of FIG. 5 at four time intervals
+      <br/>
+      FIG. 7 illustrates the lock acquisition process according to one embodiment of the invention.
+      <br/>
+      FIG. 8 illustrates the lock release process according to one embodiment of the invention.
+      <br/>
+      FIG. 9 illustrates the lock release process without using lock sets according to one embodiment of the invention.
+      <br/>
+      FIG. 10 demonstrates lock states and the TILS and Duplicates table when lock management is used without lock sets according to one embodiment of the invention.
+      <br/>
+      FIG. 11 demonstrates the lock manager's data structures according to one embodiment of the invention.
+      <br/>
+      FIG. 12 illustrates the use of a stack for a lock set according to one embodiment of the invention.
+      <br/>
+      FIG. 13 demonstrates dispatching to specialized code and non-blocking synchronizations according to one embodiment of the invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="29">
+      The invention is a method and apparatus for low space overhead locking for transaction systems.
+      <br/>
+      In the following description, numerous specific details are set forth to provide a more thorough description of embodiments of the invention.
+      <br/>
+      It is apparent, however, to one skilled in the art, that the invention may be practiced without these specific details.
+      <br/>
+      In other instances, well known features have not been described in detail so as not to obscure the invention.
+    </p>
+    <p num="30">Embodiment of Computer Execution Environment (Hardware)</p>
+    <p num="31">
+      An embodiment of the invention can be implemented as computer software in the form of computer readable code executed on a general purpose computer such as computer 100 illustrated in FIG. 1, or in the form of bytecode class files running on such a computer.
+      <br/>
+      A keyboard 110 and mouse 111 are coupled to a bidirectional system bus 118.
+      <br/>
+      The keyboard and mouse are for introducing user input to the computer system and communicating that user input to processor 113.
+      <br/>
+      Other suitable input devices may be used in addition to, or in place of, the mouse 111 and keyboard 110. I/O (input/output) unit 119 coupled to bidirectional system bus 118 represents such I/O elements as a printer, A/V (audio/video) I/O, etc.
+    </p>
+    <p num="32">
+      Computer 100 includes a video memory 114, main memory 115 and mass storage 112, all coupled to bidirectional system bus 118 along with keyboard 110, mouse 111 and processor 113.
+      <br/>
+      The mass storage 112 may include both fixed and removable media, such as magnetic, optical or magnetic optical storage systems or any other available mass storage technology.
+      <br/>
+      Bus 118 may contain, for example, thirty-two address lines for addressing video memory 114 or main memory 115.
+      <br/>
+      The system bus 118 also includes, for example, a 32-bit data bus for transferring data between and among the components, such as processor 113, main memory 115, video memory 114 and mass storage 112.
+      <br/>
+      Alternatively, multiplex data/address lines may be used instead of separate data and address lines.
+    </p>
+    <p num="33">
+      In one embodiment of the invention, the processor 113 is a microprocessor manufactured by Motorola, such as the 680X0 processor or a microprocessor manufactured by Intel, such as the 80X86, or Pentium processor.
+      <br/>
+      However, any other suitable microprocessor or microcomputer may be utilized.
+      <br/>
+      Main memory 115 is comprised of dynamic random access memory (DRAM).
+      <br/>
+      Video memory 114 is a dual-ported video random access memory.
+      <br/>
+      One port of the video memory 114 is coupled to video amplifier 116.
+      <br/>
+      The video amplifier 116 is used to drive the cathode ray tube (CRT) raster monitor 117.
+      <br/>
+      Video amplifier 116 is well known in the art and may be implemented by any suitable apparatus.
+      <br/>
+      This circuitry converts pixel data stored in video memory 114 to a raster signal suitable for use by monitor 117.
+      <br/>
+      Monitor 117 is a type of monitor suitable for displaying graphic images.
+    </p>
+    <p num="34">
+      Computer 100 may also include a communication interface 120 coupled to bus 118.
+      <br/>
+      Communication interface 120 provides a two-way data communication coupling via a network link 121 to a local network 122.
+      <br/>
+      For example, if communication interface 120 is an integrated services digital network (ISDN) card or a modem, communication interface 120 provides a data communication connection to the corresponding type of telephone line, which comprises part of network link 121.
+      <br/>
+      If communication interface 120 is a local area network (LAN) card, communication interface 120 provides a data communication connection via network link 121 to a compatible LAN.
+      <br/>
+      Wireless links are also possible.
+      <br/>
+      In any such implementation, communication interface 120 sends and receives electrical, electromagnetic or optical signals which carry digital data streams representing various types of information.
+    </p>
+    <p num="35">
+      Network link 121 typically provides data communication through one or more networks to other data devices.
+      <br/>
+      For example, network link 121 may provide a connection through local network 122 to local server computer 123 or to data equipment operated by an Internet Service Provider (ISP) 124. ISP 124 in turn provides data communication services through the world wide packet data communication network now commonly referred to as the "Internet" 125.
+      <br/>
+      Local network 122 and Internet 125 both use electrical, electromagnetic or optical signals which carry digital data streams.
+      <br/>
+      The signals through the various networks and the signals on network link 121 and through communication interface 120, which carry the digital data to and from computer 100, are exemplary forms of carrier waves transporting the information.
+    </p>
+    <p num="36">
+      Computer 100 can send messages and receive data, including program code, through the network(s), network link 121, and communication interface 120.
+      <br/>
+      In the Internet example, remote server computer 126 might transmit a requested code for an application program through Internet 125, ISP 124, local network 122 and communication interface 120.
+      <br/>
+      In accord with the invention, one such application is that of remotely configuring a computer.
+    </p>
+    <p num="37">
+      The received code may be executed by processor 113 as it is received, and/or stored in mass storage 112, or other non-volatile storage for later execution.
+      <br/>
+      In this manner, computer 100 may obtain application code in the form of a carrier wave.
+    </p>
+    <p num="38">
+      Application code may be embodied in any form of computer program product.
+      <br/>
+      A computer program product comprises a medium configured to store or transport computer readable code, or in which computer readable code may be embedded.
+      <br/>
+      Some examples of computer program products are CD-ROM disks, ROM cards, floppy disks, magnetic tapes, computer hard drives, servers on a network, and carrier waves.
+    </p>
+    <p num="39">
+      The computer systems described above are for purposes of example only.
+      <br/>
+      An embodiment of the invention may be implemented in any type of computer system or programming or processing environment.
+    </p>
+    <p num="40">Utilization of Computer Software</p>
+    <p num="41">
+      Resources and transactions may contain multiple related functions and data structures.
+      <br/>
+      One embodiment of the invention utilizes a standard object oriented programming (OOP) language to write and encapsulate an application's transactions, functions, and data structures.
+      <br/>
+      To provide an understanding of encapsulation of related data structures and methods, an overview of object-oriented programming is provided below.
+    </p>
+    <p num="42">Object-Oriented Programming</p>
+    <p num="43">
+      Object-oriented programming is a method of creating computer programs by combining certain fundamental building blocks, and creating relationships among and between the building blocks.
+      <br/>
+      The building blocks in object-oriented programming systems are called "objects." An object is a programming unit that groups together a data structure (one or more instance variables) and the operations (methods) that can use or affect that data.
+      <br/>
+      Thus, an object consists of data and one or more operations or procedures that can be performed on that data.
+      <br/>
+      The joining of data and operations into a unitary building block is called "encapsulation."
+    </p>
+    <p num="44">
+      An object can be instructed to perform one of its methods when it receives a "message." A message is a command or instruction sent to the object to execute a certain method.
+      <br/>
+      A message consists of a method selection (e.g., method name) and a plurality of arguments.
+      <br/>
+      A message tells the receiving object what operations to perform.
+    </p>
+    <p num="45">
+      One advantage of object-oriented programming is the way in which methods are invoked.
+      <br/>
+      When a message is sent to an object, it is not necessary for the message to instruct the object how to perform a certain method.
+      <br/>
+      It is only necessary to request that the object execute the method.
+      <br/>
+      This greatly simplifies program development.
+    </p>
+    <p num="46">
+      Object-oriented programming languages are predominantly based on a "class" scheme.
+      <br/>
+      The class-based object-oriented programming scheme is generally described in Lieberman, "Using Prototypical Objects to Implement Shared Behavior in Object-Oriented Systems," OOPSLA 86 Proceedings, September 1986, pp. 214-223.
+    </p>
+    <p num="47">
+      A class defines a type of object that typically includes both variables and methods for the class.
+      <br/>
+      An object class is used to create a particular instance of an object.
+      <br/>
+      An instance of an object class includes the variables and methods defined for the class.
+      <br/>
+      Multiple instances of the same class can be created from an object class.
+      <br/>
+      Each instance that is created from the object class is said to be of the same type or class.
+    </p>
+    <p num="48">
+      To illustrate, an employee object class can include "name" and "salary" instance variables and a "set_salary" method.
+      <br/>
+      Instances of the employee object class can be created, or instantiated for each employee in an organization.
+      <br/>
+      Each object instance is said to be of type "employee." Each employee object instance includes "name" and "salary" instance variables and the "set_salary" method.
+      <br/>
+      The values associated with the "name" and "salary" variables in each employee object instance contain the name and salary of an employee in the organization.
+      <br/>
+      A message can be sent to an employee's employee object instance to invoke the "set_salary" method to modify the employee's salary (i.e., the value associated with the "salary" variable in the employee's employee object).
+    </p>
+    <p num="49">
+      A hierarchy of classes can be defined such that an object class definition has one or more subclasses.
+      <br/>
+      A subclass inherits its parent's (and grandparent's etc.) definition.
+      <br/>
+      Each subclass in the hierarchy may add to or modify the behavior specified by its parent class.
+      <br/>
+      Some object-oriented programming languages support multiple inheritance where a subclass may inherit a class definition from more than one parent class.
+      <br/>
+      Other programming languages support only single inheritance, where a subclass is limited to inheriting the class definition of only one parent class.
+    </p>
+    <p num="50">
+      An object is a generic term that is used in the object-oriented programming environment to refer to a module that contains related code and variables.
+      <br/>
+      A software application can be written using an object-oriented programming language whereby the program's functionality is implemented using objects.
+      <br/>
+      The encapsulation provided by objects in an object-oriented programming environment may be extended to the notion of resources, locks and lock states as described below.
+      <br/>
+      Object locking provides for the association of each object with a distinct lock.
+    </p>
+    <p num="51">Embodiment of Software Apparatus for Lock States</p>
+    <p num="52">One embodiment of the invention provides for a method and apparatus for a lock manager to utilize lock states that represent the state of a lock.</p>
+    <p num="53">
+      As described above, a lock is a data structure that records the identity of the transactions that are given the right to execute operations on the resource the lock protects.
+      <br/>
+      The transactions recorded by a lock are called the owners of that lock.
+      <br/>
+      A transaction is recorded by the locking modes (e.g., read or write mode) the transaction is granted to.
+      <br/>
+      There is one locking mode defined per kind of operation (locking modes and operations are discussed below).
+      <br/>
+      As a result, a lock has one set of owners (transactions that are granted the lock) for each locking mode that the lock must keep track of.
+      <br/>
+      The set of the values of each of the owners of a lock is referred to as the state of a lock (or lock state).
+    </p>
+    <p num="54">
+      As described above, prior art methods provide for the creation of locks in lock data structures.
+      <br/>
+      The present invention does not utilize locks with a material existence in the form of lock data structures but provides for immutable lock states (lock states that are not capable of or susceptible to change).
+      <br/>
+      Each lock state represents a particular state of one or more locks.
+      <br/>
+      Resources share the same immutable lock state if the state of their respective lock is equal.
+      <br/>
+      During its lifetime, a resource may be associated with various lock states, each lock state being the representation of the lock of that resource at a given time.
+      <br/>
+      Locking operations change the association between a resource and a lock state, should a change of state be necessary.
+      <br/>
+      This association materializes the resource's lock.
+      <br/>
+      Prior to granting a lock, a determination is made as to whether the lock to be granted conflicts with an existing lock.
+    </p>
+    <p num="55">
+      Lock states may also be viewed as follows: a transaction T is granted the lock 1 protecting a resource R in a mode M according to some conflict detection function that determines whether the request &lt;T,M&gt;conflicts with the current state of the lock 1.
+      <br/>
+      When a lock 1 is granted in mode M to a transaction T, T is added to the owner set that corresponds to M to reflect the new state of the lock.
+      <br/>
+      Inversely, when a transaction releases a lock, it is removed from all the owner sets in which it appears.
+      <br/>
+      Examples of lock states are discussed below.
+    </p>
+    <p num="56">
+      The role of the lock manager in a lock state environment is to maintain the correct association of locked resources and immutable lock states.
+      <br/>
+      For this purpose, the lock manager maintains an associative table of immutable lock states, we will refer to as the TILS hereafter.
+      <br/>
+      The TILS contains all of the available immutable lock states.
+      <br/>
+      To access an entry in the TILS, a key that is unique for every lock state in the table is utilized.
+      <br/>
+      One key that may be utilized is the value of the lock state itself since this is the only information known when changing the state of the lock of a resource.
+      <br/>
+      Lock states are added or removed from the TILS as needed.
+      <br/>
+      Garbage collection techniques determine unused lock states and remove them from the TILS.
+    </p>
+    <p num="57">
+      As described above, lock states are immutable, and can therefore be shared between several resources.
+      <br/>
+      The association between a resource and a lock state is changed whenever a locking operation changes the state of a resource's lock.
+      <br/>
+      The most commonly used locking modes are read and write.
+      <br/>
+      In the description of the invention, only these two modes are considered for concision though the invention works with additional arbitrary locking modes.
+      <br/>
+      Hence, for the remainder of the description, a lock state is made up of two owner sets: a read owner set and a write owner set.
+    </p>
+    <p num="58">EXAMPLE 1</p>
+    <p num="59">
+      FIG. 4 demonstrates the scenario described above with respect to FIG. 3 using lock states instead of locks.
+      <br/>
+      Two resources, O1 400 and O2 402 have been read by a transaction T1, and O2 402 is about to be read by T2.
+      <br/>
+      Before the read by T2, FIG. 4 demonstrates that both O1 400 and O2 402 are read by transaction T1 and thus have the same lock state 404, a set consisting of T1 for a read mode.
+      <br/>
+      After T2 has performed a read of O2 402, both resources O1 400 and O2 402 share the same lock state which corresponds to the state each data structure representing their respective lock would be in.
+      <br/>
+      The acquisition Of O2 's lock by T2 changes O2 's lock state association 404 to a new lock state 408.
+      <br/>
+      Since that new lock state does not exist yet in the TILS, a lock state 408 with an empty write owner set and a read owner set made of T1 and T2 is created as the result of the lock operation on O2 402.
+      <br/>
+      Comparing FIGS. 3 and 4, before the execution of T2, FIG. 3 demonstrates the use of two locks 304 and 306, compared to the one lock state 404 of FIG. 4.
+      <br/>
+      After the execution of T2, FIG. 3 demonstrates two locks 308 and 310 (that are the same locks as locks 304 and 306 respectively), and FIG. 4 demonstrates two lock states 406 (the same lock state as lock state 404) and 408.
+      <br/>
+      The next time a resource's lock changes to the same state, for instance, if T2 acquires a read lock on O1 400, the lock state will already be available.
+    </p>
+    <p num="60">EXAMPLE 2</p>
+    <p num="61">
+      FIG. 5 demonstrates the flow of several transactions T1-T3 through various resource objects O1-Oz (the object graph).
+      <br/>
+      Triangles rooted at resource objects O3, O5 and O6 represent sub-graphs containing, respectively, N1, N2 and N3 resource objects.
+    </p>
+    <p num="62">
+      A history of a possible execution of three transactions, T1, T2 and T3, that traverse different overlapping portions of the graph is shown as the history prefix of FIG. 5.
+      <br/>
+      A curved line corresponding to each transaction shows the path followed through the object graph by each transaction.
+    </p>
+    <p num="63">
+      FIG. 6 demonstrates the state of each object lock of FIG. 5 at four different times in the history (t1, t2, t3, and t4).
+      <br/>
+      Only the non empty owner sets of the state of each lock is shown.
+      <br/>
+      Each owner set shown is tagged with a letter that indicates the corresponding locking mode: R for read mode and W for write mode.
+    </p>
+    <p num="64">
+      At time t1, the states of O1 's lock and O2 's lock are identical, as are the state of O3 'S and O4 'S locks as indicated by O1 and O2 pointing to the same lock state and O3 and O4 pointing to the same lock state.
+      <br/>
+      All other objects have their lock in an unlocked state, i.e., all the owner sets of these locks are empty, and thus point to the same lock state.
+      <br/>
+      Conceptually, objects that are not manipulated by any transactions are given an empty lock, though in one embodiment, no lock is allocated for such objects.
+      <br/>
+      Instead, locks are allocated on demand whenever a lock request is issued for an unlocked object.
+      <br/>
+      The object is then dynamically associated with that lock.
+      <br/>
+      The lock data structure is freed when the object it protects is unlocked.
+      <br/>
+      In the following, we will omit unlocked states when discussing space overhead but for clarity, we have represented them in FIG. 6.
+    </p>
+    <p num="65">
+      -- TABLE 1
+      <br/>
+      -- Number of locks vs. number of lock states
+      <br/>
+      -- time             - of locks   - of lock states
+      <br/>
+      -- t1               4                2
+      <br/>
+      -- t2               6                3
+      <br/>
+      -- t3               6                3
+      <br/>
+      -- t4               9 + N1 + N2 + N3 6
+    </p>
+    <p num="66">
+      Table 1 reports for each given time in the history of FIG. 6 the number of locks and the number of lock states.
+      <br/>
+      From this table, one can see that on average, based on the history prefix, the number of lock states is at worse 50% smaller than the total number of locks (assuming N1, N2, N3 are all greater or equal to 1).
+      <br/>
+      The total number of lock states can be as small as 1, (e.g., when the working sets of all active transactions overlap exactly).
+      <br/>
+      However, when the working sets of transactions don't overlap at all, the number of lock states is the number of active transactions.
+    </p>
+    <p num="67">
+      Assuming that no constraint exists to define what combination is a valid lock state, and that conflicts never happen, the maximum number of possible lock states may be computed as follows: Let T(t) be the set of active transactions at time t. The value of an owner set can be any subset of T(t).
+      <br/>
+      Thus, the number of possible values for one owner set is the cardinality of p(T(t)), the power set of T(t), which has cardinality .vertline.p(T(t)).vertline.=2.vertline.T(t).vertline.. Assuming M different locking modes, the total number of possible lock states is (2.vertline.T(t).vertline.)M =2M.vertline.T(t).vertline.. With M=2 and 10 active transactions, there are approximately 1 million possible states for a lock.
+    </p>
+    <p num="68">In a transaction processing system, two factors may reduce the number of lock states:</p>
+    <p num="69">
+      1.
+      <br/>
+      Constraints imposed by the transaction model on what constitutes a valid lock state: transaction models prevent some lock states from ever happening since they correspond to situations the locking protocol prevents from happening (e.g., two owners in exclusive mode).
+      <br/>
+      2. The regularity of data structures and algorithms prevents some lock states from ever happening.
+    </p>
+    <p num="70">
+      As an example, let us assume the ACID transaction model (a system that utilizes transactions that maintain atomicity, consistency, isolation, and durability (ACID)) with the two locking modes, read and write.
+      <br/>
+      This model prevents any lock states with more than one transaction in the owner sets corresponding to the exclusive mode (the isolation property).
+      <br/>
+      Thus, a valid lock state has either its write owner set empty, or its read owner set empty and a singleton as a write owner set.
+      <br/>
+      If such a model is used, then, the total number of possible lock states is the sum of:
+      <br/>
+      2.vertline.T(t).vertline., the number of lock states corresponding to locks granted in read mode only, and
+      <br/>
+      .vertline.T(t).vertline., the number of lock states corresponding to locks granted in write mode only,
+    </p>
+    <p num="71">that is, 2.vertline.T(t).vertline. +.vertline.T(t).vertline..</p>
+    <p num="72">As described, the total number of lock states cannot exceed the total number of locks, should each existing lock be in a distinct state.</p>
+    <p num="73">Lock Operation</p>
+    <p num="74">
+      A general description of lock states is set forth above.
+      <br/>
+      The detailed operation of locks including the acquisition and release of locks according to one embodiment of the invention are described below.
+    </p>
+    <p num="75">Lock Acquisition</p>
+    <p num="76">
+      FIG. 7 illustrates the lock acquisition process according to one embodiment of the invention.
+      <br/>
+      At step 700, the lock manager determines if the transaction requesting the lock already owns the lock in the requested mode.
+      <br/>
+      If the transaction already owns the lock in the requested mode, then there is no change in the lock state and processing continues at step 718.
+    </p>
+    <p num="77">
+      If the transaction does not own the requested lock, the lock manager checks for any conflicts with the existing locks and for the absence of any pending lock requests (by other transactions) at step 702.
+      <br/>
+      If there is a conflict but no pending lock request (determined at step 704), a new lock state with a queue is created and entered in the TILS at step 704.a. This new lock state differs only from the previous lock state that caused the conflict by the addition of a queue of pending requests.
+      <br/>
+      The association between the requested resource and a lock state is updated accordingly at step 704.b, and the lock request is added to the queue at step 704.c. If a queue was located for the lock state (at step 704), the lock manager adds the request to the queue at step 704.c. In one embodiment, the queue is processed in first-in-first-out (FIFO) order.
+      <br/>
+      At step 706, the lock manager waits for the requested lock to become available.
+      <br/>
+      In one embodiment, a lock may become available when the conflict is cleared (e.g., when the lock is released by another transaction) and when transactions that were ahead of the current requestor in the queue have been processed.
+    </p>
+    <p num="78">
+      Once all conflicts have been cleared and the lock manager determines that the current transaction may be granted the desired lock, the value of the new lock state is determined at step 708.
+      <br/>
+      The new lock state value is determined by adding the transaction that is granted the lock to the owner set corresponding to the requested lock mode.
+      <br/>
+      This new lock state value (stored in a temporary variable) is used as a key to lookup if a corresponding immutable lock state value has already been registered in the TILS at step 710.
+      <br/>
+      If such a lock state does not exist in the TILS, a new one is created with this value and registered in the TILS and returned at step 712.
+      <br/>
+      At step 714, the association between the resource and the lock state representing its lock is then updated to refer to the lock state retrieved (at step 710) or created (at step 712).
+    </p>
+    <p num="79">At step 716, the resource is added to the set of locks (referred to as lock set) owned by the requestor.</p>
+    <p num="80">The above steps are further illustrated by the following pseudo code:</p>
+    <p num="81">
+      --
+      <br/>
+      -- 1         acquire_lock(Resource R, LockingMode M, Transaction T)
+      <br/>
+      -- 2              begin
+      <br/>
+      -- 3              LockState l  &lt;--  lock(R);
+      <br/>
+      -- 4              if   (T  EPSILON  Owner(l,M))
+      <br/>
+      -- 5                   return GRANTED
+      <br/>
+      -- 6              endif
+      <br/>
+      -- 7              if ( Q(l) = .O slashed.V IOwner(l,M) +character pullout}
+      <br/>
+      --  +T})
+      <br/>
+      -- 8              /* wait case */
+      <br/>
+      -- 9              endif
+      <br/>
+      -- 10             LockState l2  &lt;--  l
+      <br/>
+      -- 11             Owner(l2,M)  &lt;-- Owner(l2,M) .orgate. +T}
+      <br/>
+      -- 12             lock(R)  &lt;--  TILS.lookup(l2)
+      <br/>
+      -- 13             lockset(T)  &lt;--  lockset(T) .orgate. +R}
+      <br/>
+      -- 14             return GRANTED
+      <br/>
+      -- 15             end
+    </p>
+    <p num="82">
+      In the above pseudo code, the state of a lock is comprised of one owner set per locking mode.
+      <br/>
+      Owner (1,M) is defined as the owner set of lock 1 that corresponds to the locking mode M. Each owner set records the transactions that were granted the lock in the corresponding mode.
+      <br/>
+      When considering only read and write locking modes, a lock state is a pair &lt;Owner (1, Read), Owner (1, Write)&gt;. The state of locks with pending lock requests due to a conflict(s) is augmented with a set Q(1) of pairs &lt;T,M&gt;, where T is the suspended transaction, and M is the mode requested by T.
+    </p>
+    <p num="83">
+      In one embodiment of the invention, a compatibility matrix defines the compatibility between locking modes.
+      <br/>
+      This matrix can be represented as a function Compatible (M1, M2) that states whether a mode M1 is compatible with M2.
+      <br/>
+      Using the compatibility matrix, IOwner (1,M) is defined as the set of transactions that own lock 1 in a mode incompatible (I) with mode M. This set is defined as:  (Equation image '1' not included in text)
+    </p>
+    <p num="84">
+      For instance, IOwner (1,Write)=Owner(1,Write)  Angstrom  Owner(1,Read).
+      <br/>
+      This equation illustrates that if a write lock exists, the set of incompatible owners consists of the owners of other write locks and read locks (since a read and write lock on the same resource are incompatible with each other).
+    </p>
+    <p num="85">
+      The absence of a conflict between a request for a lock 1 in a mode M by a transaction T and the state of I is given by:
+      <br/>
+      IOwner(1,M) .OR right. +T}
+    </p>
+    <p num="86">In other words, if the above condition is complied with, then the lock can be granted.</p>
+    <p num="87">
+      In addition to updating the lock states as described above, the lock manager records, for each transaction T, the locks that have been granted to T in order to release the granted locks upon T's completion (irrespective of how T completes).
+      <br/>
+      However, since locks have no material existence, in one embodiment they cannot be recorded and the transactions themselves keep track of the resources they have a lock on.
+      <br/>
+      Releasing a lock on a resource R operates as a change of the association between R and the lock state that embodies R's lock.
+      <br/>
+      As described above, lock (R) is defined as the lock state associated to resource R, and lockset (T) is defined as the set of resources for which transaction T has acquired a lock.
+      <br/>
+      Lockset (T) is referred to as the lock set of the transaction T. The lock set of a transaction is defined as:
+      <br/>
+      lockset(T)=+R.vertline..A-inverted.M,.A-inverted.l:lock(R)=l LAMBDA T .di-elect cons.
+      <br/>
+      Owner(l,M)}
+    </p>
+    <p num="88">Lock Release</p>
+    <p num="89">
+      To release a lock, the lock state of the resource being unlocked must be updated and the resource must be removed from the lock set of the transaction that is releasing the lock.
+      <br/>
+      This lock release process is illustrated in FIG. 8 and the following pseudo code according to one embodiment of the invention:
+    </p>
+    <p num="90">
+      --
+      <br/>
+      -- 1                release_lock(Resource R, Transaction T)
+      <br/>
+      -- 2                     begin
+      <br/>
+      -- 3                     LockState l  &lt;--  lock(R);
+      <br/>
+      -- 4                     LockState l2  &lt;--  l
+      <br/>
+      -- 5                     for each M
+      <br/>
+      -- 6                          if T  EPSILON  Owner(l2,M)
+      <br/>
+      -- 7                               Owner(l2,M)  &lt;--  Owner(l2,M)
+      <br/>
+      --   THETA  +T}
+      <br/>
+      -- 8                          endif
+      <br/>
+      -- 9                     endfor
+      <br/>
+      -- 10                    lock(R)  &lt;--  TILS.lookup(l2)
+      <br/>
+      -- 11                    lockset(T)  &lt;--  lockset(T)  THETA  +R}
+      <br/>
+      -- 12                    if (Q(l) = .O slashed. )
+      <br/>
+      -- 13                         return
+      <br/>
+      -- 14                    endif
+      <br/>
+      -- 15                    /* process waiting queue here */
+      <br/>
+      -- 16                    end
+    </p>
+    <p num="91">
+      Referring to step 800 of FIG. 8, the value of the new lock state that the resource will be associated with is computed.
+      <br/>
+      The new value is obtained by removing the transaction from any owner set of the lock state where it appears in.
+      <br/>
+      Referring to the pseudo code, to obtain the new value, the current value of the lock state is obtained and copied into a local variable (lines 3-4).
+      <br/>
+      The new value is obtained by removing the transaction from the owner sets (of the lock states indicated in the local variable) (lines 5-9 of the pseudo code).
+      <br/>
+      At step 802 and line 10 of the pseudo code, the new lock state is obtained from the TILS.
+      <br/>
+      At step 804 and line 11, the resource's association with the TILS is updated to reflect the retrieved lock state.
+      <br/>
+      Transactions waiting in the queue for the lock release are then processed at step 806 and line 15 of the pseudocode.
+      <br/>
+      These waiting transactions will resume at step 708 of FIG. 7.
+    </p>
+    <p num="92">Lock Set Elimination</p>
+    <p num="93">
+      As described above, each transaction maintains a lock set containing the locks that each transaction has acquired.
+      <br/>
+      In one embodiment of the invention, transactions don't keep track of the resources they have locked and the lock manager does not maintain any lock sets.
+      <br/>
+      In such an embodiment, lock acquisition proceeds as described above without the addition or modification of a lock set.
+    </p>
+    <p num="94">
+      FIG. 9 demonstrates the release of a lock without using lock sets.
+      <br/>
+      At step 900 the transaction ends.
+      <br/>
+      At step 902, the TILS is scanned to find all of the lock states in which the transaction appears.
+      <br/>
+      At step 904, for each lock state found, the transaction is removed from all owner sets where it appears.
+      <br/>
+      By removing the transaction from the owner set, the value of the lock state is modified.
+      <br/>
+      Since TILS's keys are based on the value of a lock state, this modification necessitates reentry in the TILS as a new lock state.
+      <br/>
+      At step 906, a determination is made regarding whether the TILS already has a lock state with a value equal to that of the modified lock state.
+      <br/>
+      If so, the modified lock state is not re-entered in the TILS but put instead in a duplicate table at step 910.
+      <br/>
+      The associations between the resources and the lock states that are updated after a lock release do not need to be changed (the lock state of the association may now belong to the duplicate table).
+      <br/>
+      If the modified lock state is not in the TILS, it is registered to the TILS at step 908.
+      <br/>
+      Processing then continues.
+      <br/>
+      Eventually, garbage collection is initiated (which may be asynchronous) at step 912.
+      <br/>
+      During garbage collection, the duplicates in the duplicate table are removed and the associations with the TILS are updated.
+    </p>
+    <p num="95">
+      Using the above lock release method, the table of duplicates are updated in addition to the TILS when other transactions release their locks.
+      <br/>
+      FIG. 10 demonstrates lock release without lock sets.
+      <br/>
+      The Figure shows resources (small circles) and the lock states that represent their lock.
+      <br/>
+      Before the end of transaction T1, there are two lock states that represent locks owned by T1 (lock states l1 and l2).
+      <br/>
+      When T1 completes, it is taken out of the owner sets of these two lock states.
+      <br/>
+      However, the new updated value of these lock states is already represented in the TILS, so these lock states will remain out of the TILS and will not be used for updating the association of a resource upon a lock operation.
+      <br/>
+      After release of T1 's locks, l1 duplicates l3, and l2 duplicates l4.
+      <br/>
+      The duplicates must be recorded in a table of duplicates in order to update them too when other transactions subsequently release their locks.
+      <br/>
+      For instance, after T1 's termination, both the TILS and the table of duplicates contains lock states that represent locks owned by T2.
+      <br/>
+      When T2 terminates and releases its locks, it will create two additional duplicates of the "unlocked" lock state (i.e., l3): l4 will turn into a duplicate of l3 and will be taken out of the TILS and recorded in the table of duplicates, and l2 will also turn into another duplicate of l3 but no table management will be necessary since l2 is already in the table of duplicates.
+    </p>
+    <p num="96">Implementation of Lock Manager</p>
+    <p num="97">
+      In one embodiment of the invention, lock owner sets are represented as bitmaps.
+      <br/>
+      A bitmap is an array of binary digits (either a 1 or 0 in the binary number system; also referred to as bits).
+      <br/>
+      Additionally, each transaction is assigned a locking context that uniquely identifies the transaction.
+    </p>
+    <p num="98">
+      Bitmaps are used to map specific bits to a locking context.
+      <br/>
+      All bitmaps use the same mapping from locking contexts to bit numbers, i.e. the ith bit always represents the same locking context.
+      <br/>
+      Bits that are set to 1 in a bitmap indicate the membership of the owner set that the bitmap represents.
+      <br/>
+      FIG. 11 illustrates an overview of the data structure of the lock manager and will be discussed below.
+    </p>
+    <p num="99">Locking Context</p>
+    <p num="100">
+      Transactions request services to the lock manager using their locking context.
+      <br/>
+      A locking context is associated with a unique bit number (in a bitmap) that identifies it, and so its transaction, within the lock manager.
+    </p>
+    <p num="101">Referring to FIG. 11, a locking context is comprised of the following.</p>
+    <p num="102">
+      (1) The bit number 1102 that currently identifies it.
+      <br/>
+      This number is also an index to a table of locking contexts 1100.
+      <br/>
+      When changing the locking context's identifier (i.e., its bit number), the locking context location in the locking context table is changed accordingly.
+      <br/>
+      (2) Links to other locking contexts 1112-1116.
+      <br/>
+      (3) A lock set 1118.
+      <br/>
+      The present description assumes a variant of the lock manager than maintains lock sets to keep track of locks acquired by transactions.
+      <br/>
+      If lock sets are not utilized (as described above), the lock set reference in the locking context may be eliminated.
+      <br/>
+      (4) References to specific exclusive lock states 1122 that were solely acquired using the present locking context (referred to as single-owner lock states).
+      <br/>
+      There is one single-owner lock state per locking mode.
+      <br/>
+      Single-owner lock states are used to avoid looking up the lock state in the TILS when acquiring a lock on an unlocked resource.
+      <br/>
+      With two lock modes, each locking context maintains two single-owner lock states, called single-read owner (SRO) 1120 and single-write owner (SWO) 1122.
+    </p>
+    <p num="103">
+      As described above, the reference to an SRO 1120 or SWO 1122 is present to denote a lock state for the one transaction identified by the locking context.
+      <br/>
+      Thus, if a resource has no associated locks (i.e., it is unlocked), the reference in the locking context may be utilized instead of looking up the lock state in the TILS.
+    </p>
+    <p num="104">Lock States</p>
+    <p num="105">
+      Each lock state 1120-1126 is made of a header 1128-1134 that contains information, such as a type tag (type tags are discussed in detail below) and other extra data used for the maintenance of the TILS.
+      <br/>
+      Each lock state also contains an array of bitmaps, each bitmap representing an owner set for a given locking mode.
+      <br/>
+      When only read and write locking modes are used, a lock state contains two such bitmaps only (a Read bitmap and a Write bitmap).
+    </p>
+    <p num="106">Lock Set</p>
+    <p num="107">
+      A lock set 1118 identifies the locks that a current transaction owns.
+      <br/>
+      In one embodiment lock sets are maintained in a linked list.
+      <br/>
+      A linked list is a list of elements (e.g., a reference to a resource) and a link pointing to another element.
+    </p>
+    <p num="108">
+      In another embodiment, lock sets are implemented as segmented stacks of references to resources.
+      <br/>
+      A stack is a data structure such that information added or pushed onto the stack is the last to be moved or popped off of the stack (referred to as First-In-Last-Out or FILO).
+      <br/>
+      In one embodiment, each element pushed onto the lock set stack 1136 is comprised of a reference to a resource 1138-1144.
+      <br/>
+      When a transaction acquires a new lock, the resource must be added to the stack 1136.
+      <br/>
+      FIG. 12 demonstrates the addition of a resource to a lock set.
+      <br/>
+      At step 1200, the top of the current stack segment is incremented, and at step 1202 a boundary check is conducted to determine whether the end of the current segment is reached (i.e., whether there is enough room in the current segment to add the resource's reference).
+      <br/>
+      If the check succeeds (i.e., there is enough room), the reference to the resource is stored on top of the stack (at the location where the stack pointer points) at step 1208.
+      <br/>
+      Otherwise, a new segment is allocated at step 1204.
+      <br/>
+      At step 1206, the first location of the new segment is used to link to the previous current segment of the stack, and the new segment becomes the new current segment.
+      <br/>
+      The top of the stack is then incremented at step 1206 and the reference of the resource is put at that location at step 1208.
+    </p>
+    <p num="109">
+      When a transaction is complete, each element of the stack (which contains a reference to a resource) is popped off of the stack and the associated resource is unlocked.
+      <br/>
+      Each element is popped off of the stack in this manner until the transaction's stack is empty.
+    </p>
+    <p num="110">Table of Immutable Lock States (TILS)</p>
+    <p num="111">
+      The lock manager maintains an associative table of immutable lock states 1146, the TILS.
+      <br/>
+      In one embodiment, the TILS can be implemented as a hash table.
+      <br/>
+      A hash table is a table of information that is indexed by a unique number (referred to as a hash code) that is obtained by a hash function.
+      <br/>
+      A hash function takes known information as input, and numerically manipulates the information to produce the hash code as output.
+      <br/>
+      In one embodiment, the input for the hash function consists of the lock state information (e.g., the bitmaps of each lock state).
+    </p>
+    <p num="112">Lock Manager Execution</p>
+    <p num="113">
+      The lock manager cooperates with a resource manager (a utility that manages all resources) to initialize associations between resources and lock states, and to garbage collect unused lock states.
+      <br/>
+      Unlocked resources are associated with a lock state that represents the unlocked state.
+      <br/>
+      In one embodiment, upon encountering an unlocked object or resource, a direct pointer to the "unlocked" lock state is stored in the object.
+    </p>
+    <p num="114">Locking Operations</p>
+    <p num="115">In one embodiment, locking operations may make use of two techniques to improve performance: dispatching to specialized code according to lock state type, and non-blocking synchronizations.</p>
+    <p num="116">
+      Dispatch to Specialized Code
+      <br/>
+      Dispatching to specialized code comprises executing specific or specialized code depending on the type of lock state encountered.
+      <br/>
+      The lock manager assigns to each lock state a type that corresponds to one of the six following categories:
+    </p>
+    <p num="117">
+      - 1. unlocked (U): the lock state type that represents the lock of an unlocked resource.
+      <br/>
+      There is only one lock state of this type.
+      <br/>
+      - 2. single read owner (SRO): the lock state type that represents ownership by a single owner in read mode only.
+      <br/>
+      There is one lock state of this type per active transaction.
+      <br/>
+      - 3. single write owner (SRO): the lock state type that represents ownership by a single owner in write mode.
+      <br/>
+      There is one lock state of this type per active transaction.
+      <br/>
+      - 4. multiple read owner (MRO): the lock state type that represents ownership by multiple owners in read mode only.
+      <br/>
+      - 5. multiple write owner (MWO): the lock state type that represents ownership by multiple owners in write mode.
+      <br/>
+      Lock states in this category exist only when conflicts with other transactions are ignored.
+      <br/>
+      - 6. non-empty queue (Q): the lock state type that represents a lock with a non empty set of pending lock requests, irrespective of the value of the lock's owner sets.
+    </p>
+    <p num="118">
+      The type of a lock state is assigned at the time the lock state is created.
+      <br/>
+      The type indicates the data structure and representation of the lock states.
+      <br/>
+      For instance, lock states of type Q have additional data structures related to the management of the pending queue of waiting lock requests, that lock states of any other types do not have.
+    </p>
+    <p num="119">
+      The type also determines the implementation of each locking operation that may be used.
+      <br/>
+      In other words, the type specifies the implementation of the locking operation for that lock state (e.g., lock acquisition or lock release).
+      <br/>
+      The implementations of the operations are stored in memory with a specific starting point and ending point.
+      <br/>
+      It is possible to jump to a certain location within the memory by specifying an offset (a number that tells how far from a starting point a particular item is located).
+      <br/>
+      Thus, the type specifies the desired implementation by storing a vector (a variable that has both distance and direction) of offsets, with one offset per locking operation (e.g., lock acquisitions and release).
+    </p>
+    <p num="120">
+      By storing the offset, a locking operation Op on a resource R may use a specific implementation of the lock operation.
+      <br/>
+      The locking operation uses the desired implementation by loading the offset corresponding to Op from the type of the lock state currently associated with R. The lock manager then dispatches the execution of the locking operation Op to additional code that specializes in handling lock states of that type.
+      <br/>
+      The lock manager dispatches the execution by adding the offset from the Op type to Op's starting point (referred to as a base address) and jumping to the resulting location.
+    </p>
+    <p num="121">
+      The code for this dispatching mechanism, in the case of a read lock acquisition, is shown on the first six lines of the code illustrated in FIG. 13. The code for dispatching according to a lock state's type takes 3 instructions (lines 2, 4 and 5 of FIG. 13).
+      <br/>
+      By dispatching the execution of the locking operation in this manner (i.e., using offsets and jumping to the appropriate location), there is no need to use conditions at the beginning of each specialized code sequence to determine whether the specialized code is the appropriate code.
+      <br/>
+      For example, if the lock state type is "unlocked", then there is no need to find out in what mode the lock is owned, or testing for ownership, or to do conflict detection.
+      <br/>
+      All that is required is to change the resource's lock state for the lock state corresponding to a single ownership by the current transaction.
+    </p>
+    <p num="122">
+      The number of lock state types may be extended to allow for varying bitmap sizes, and to dispatch operations to code specialized in handling bitmaps made of a single word, or two words or an arbitrary number of words. (The size of a word in this context is the size of one machine register, either 32 bits or 64 bits on more recent 64 bit processors such as the UltraSparc (tm) . The space consumed by each lock state is adjusted to the minimal number of words required to represent the owner sets of that lock state.
+      <br/>
+      For instance, if a transaction whose locking context is assigned a bit number smaller than 63 executes a locking operation on a lock state made of 64-bit bitmaps, the dispatching mechanism would jump to a version of the code that requires only one 64-bit register (a register is a named region in memory that is required and used to hold information during the execution of instructions) per bitmap to execute set operations.
+    </p>
+    <p num="123">Non-blocking Synchronizations</p>
+    <p num="124">
+      In one embodiment, lock state sharing enables the usage of non-blocking synchronizations to change the lock state of a resource.
+      <br/>
+      A non-blocking synchronization requires an implementation using an atomic compare and swap operation (such as the cas instruction of the Sparc V9 processor, or the cmpxchg instruction of the Intel486 and Pentium family of processors).
+    </p>
+    <p num="125">
+      FIG. 13 shows how non-blocking synchronizations are used on a case of lock acquisition, namely, read lock acquisition on an unlocked resource.
+      <br/>
+      A lock operation starts by reading the lock state associated with a resource (line 3).
+      <br/>
+      The header of the resource's lock state is used to dispatch to the execution code specialized for handling that type of lock state.
+      <br/>
+      Assuming the lock state was of type "unlocked", the lock manager then jumps to the code starting at line 7.
+      <br/>
+      Since the lock state associated with the resource was found to be the "unlocked" state, the lock manager uses the SRO lock state of the caller's locking context as the new lock state for that resource (the SRO is pre-loaded on line 6).
+      <br/>
+      The cas instruction is then used to test if the resource's lock state is the "unlocked" lock state and to swap it with the locking context's SRO if it is the case.
+      <br/>
+      If the compare-and-swap fails (given by a test at line 9), it means that at least one other transaction has managed to set its own lock while the transaction was executing instructions at lines 3 to 8.
+      <br/>
+      The lock manager must then retry the lock acquisition with the new lock state (lines 13 and 14 initiate the retry and jump to line 4 to redispatch to specialized code best suited to handle the type of the new lock state returned by the compare-and-swap instructions).
+      <br/>
+      Otherwise, if the compare-and-swap succeeds, the lock manager completes the lock acquisition by recording the locked resource in its lock set.
+    </p>
+    <p num="126">
+      In the more general case of lock acquisition, such as when the current lock state is of type MRO or MWO, the lock manager performs ownership testing on the lock state first.
+      <br/>
+      If the test succeeds, nothing needs to be done because even if a lock state transition is performed by a concurrent transaction, it will not remove the ownership of the lock for this transaction.
+    </p>
+    <p num="127">
+      If the ownership test fails, conflict detection may be required, depending on the type of the locking mode requested and the type of the lock state (e.g., conflict detection is not required for a read-lock request on a MRO lock state).
+      <br/>
+      If the request can be granted, a new lock state value is built and used to retrieve the corresponding lock state from the TILS.
+      <br/>
+      The resource's lock state is then changed using the cas instruction in a similar way to that described earlier.
+      <br/>
+      If the cas instruction fails to swap the two lock states, the lock manager retries the operation with the more recent lock state returned by the cas instruction.
+    </p>
+    <p num="128">
+      If a conflict is detected, a new lock state of type Q is created and the cas instruction is used again to install it.
+      <br/>
+      In one embodiment, to guarantee that scheduling decisions are taken in an indivisible manner, all operations on a lock state of type Q are required to take a latch on the lock state to manipulate the queue of pending request.
+    </p>
+    <p num="129">Conflict Detection</p>
+    <p num="130">
+      Before granting a lock to a transaction, a determination is made as to whether the granting of the lock would conflict with an existing lock.
+      <br/>
+      A conflict may arise when a transaction owns an exclusive type of lock (e.g., a SWO), for example.
+      <br/>
+      Conflict detection may occur by viewing the type of lock that is held by a resource (which is stored in the lock state).
+    </p>
+    <p num="131">
+      In one embodiment, upon completion of a transaction T, instead of releasing T's locks and updating associations between all of the resources locked by T and their lock states, the transaction T notifies each active transaction AT that it no longer conflicts with AT.
+      <br/>
+      Thus, when an AT has a conflict with a resource's lock because of a terminated transaction T that didn't change the lock states representing its locks, AT can ignore the conflict with T. Referring to FIG. 11, for this to work, the lock manager maintains in a global variable a set ICW 1148 of ignore-conflict-with transactions.
+      <br/>
+      When a transaction T completes, all it has to do is add its bit number in the global ICW set 1148.
+    </p>
+    <p num="132">
+      In addition to the above, each locking context maintains its private copy of the set ICW 1148, and updates this copy only if a conflict with a lock can't be resolved.
+      <br/>
+      This changes conflict detection so that an absence of conflict for a transaction T for a lock I in a mode M is given now by:
+      <br/>
+      IOwner(l,M) .OR right.T.orgate.ICW(T)
+    </p>
+    <p num="133">If after the update, the conflict still can't be resolved, it means that the conflict is not due to a terminated transaction and that the lock request must wait until the conflict is clear (as described earlier, and in FIG. 7).</p>
+    <p num="134">Memory Management</p>
+    <p num="135">
+      Lock states are data structures and therefore occupy memory.
+      <br/>
+      The memory area used for lock states is divided into three spaces: a static space, a from-space and a to-space.
+      <br/>
+      The static space is used to hold lock states that are always required, such as the lock state representing the lock of "unlocked" resources, or the single-owner lock states of each locking context.
+      <br/>
+      The static space is occupied at the startup of the lock manager.
+      <br/>
+      The from-space and to-space are used for memory allocation and garbage collection.
+      <br/>
+      Any garbage collection routine may be used.
+      <br/>
+      Garbage collection routines accumulate unused objects or memory and free up the space.
+    </p>
+    <p num="136">
+      The lock manager provides each locking context with a private area of memory for allocating lock states.
+      <br/>
+      Lock states are allocated linearly with a private memory area.
+      <br/>
+      When an area becomes full, a new area is allocated from the current from-space.
+      <br/>
+      Synchronizations are required only around allocation of an area to a locking context.
+    </p>
+    <p num="137">
+      Garbage collections use the locking contexts of active transactions as roots.
+      <br/>
+      When garbage collection completes, the TILS is scanned to remove any references to lock states left in the from-space.
+      <br/>
+      The triggering of garbage collections is correlated to the recycling of bit numbers (discussed below).
+    </p>
+    <p num="138">Recycling of Bit Numbers</p>
+    <p num="139">
+      To avoid exhaustion of bit numbers (which are used to identify locking contexts), one embodiment of the invention provides for the recycling of inactive bit numbers (inactive bits are discussed below).
+      <br/>
+      By recycling inactive bit numbers, the size of the bitmap (and the number of lock states) may be maintained as small as possible.
+      <br/>
+      Further, operations may be performed more quickly using a small bitmap compared to operations performed on a large bitmap.
+    </p>
+    <p num="140">
+      A locking context is active if it is allocated to an active transaction.
+      <br/>
+      A lock state may potentially be used as long as all the bit numbers that appear in its owner sets are used by active locking contexts.
+      <br/>
+      A bit number is active if it used to identify an active locking context, and inactive if it does not identify an active locking context.
+    </p>
+    <p num="141">
+      In one embodiment, the recycling of bit numbers is performed during garbage collection.
+      <br/>
+      During garbage collection, the garbage collector checks if any owner sets of the lock state (to be copied to another location) contains inactive bit numbers (e.g., bits that mapped to locking contexts of terminated transactions (as described above) that did not delete their bits from the lock states representing the locks these transactions owned upon their completion).
+      <br/>
+      If no inactive bit numbers are found, garbage collection proceeds as usual.
+    </p>
+    <p num="142">
+      If inactive bit numbers are found, a new lock state value is built in a temporary area.
+      <br/>
+      This lock state value is obtained by removing all inactive bit numbers (i.e., setting the corresponding bits the owner set bitmaps to 0).
+      <br/>
+      Then, the TILS is searched for an existing lock state with that value.
+      <br/>
+      If the lookup fails, a new lock state with that value is created in the to-space and acts as the copy of the original lock state.
+      <br/>
+      Otherwise, the lock state retrieved from the TILS is promoted to the to-space (if it wasn't already).
+      <br/>
+      In both cases, the pointer to original lock state is set to refer to the copy of the equivalent lock state, cleaned from inactive bit numbers.
+      <br/>
+      Once garbage collection has completed, inactive bit numbers are removed from any active locking contexts where they appear, and recycled for allocation to incoming transactions.
+    </p>
+    <p num="143">In one embodiment, garbage collection is triggered when the number of active bit numbers has decreased significantly.</p>
+    <p num="144">TILS Lookup Elimination</p>
+    <p num="145">
+      As described above, to access a lock state in the TILS, a lock state value that will be used as a key to retrieve the corresponding immutable lock state must be constructed (through a hash function).
+      <br/>
+      The performance of lookups depends highly on the quality of the lock state hashing functions.
+      <br/>
+      A poor hash function increases the size of the collision chain (a collision chain contains elements with hashcodes of equal value, i.e., when the hash function takes two different inputs and produces the same output which is supposed to be unique).
+      <br/>
+      Long collision chains degrade the performance of TILS lookup because a collision chain may be entirely scanned to determine whether a lock state is in the TILS.
+    </p>
+    <p num="146">
+      In one embodiment, caching is used.
+      <br/>
+      Caching provides for the storage of information in a special location that may be used for quick access by future operations.
+      <br/>
+      Caching may store the most frequently used information or the information that was used last.
+      <br/>
+      By utilizing caching for lock states, the lock manager is provided with rapid access to frequently used or previously used lock states.
+      <br/>
+      If it can be determined that a specific lock state is used or likely to be used, by storing the lock state in cache, a TILS look up may be avoided.
+    </p>
+    <p num="147">
+      To utilize caching, each locking context is augmented with a lock state transition cache.
+      <br/>
+      The lock state transition cache has one entry per type of lock state (e.g., U, SRO, SWO, MRO, MWO, and Q) and per locking operation (e.g., lock acquire or release).
+      <br/>
+      Each entry is comprised of the last lock state of each type that was used during a locking operation.
+      <br/>
+      Additionally, each entry stores the new lock state resulting from the execution of the locking operation.
+      <br/>
+      The last lock state is used for a comparison with the current lock state of a resource (to quickly locate the lock state).
+      <br/>
+      The new lock state is used to avoid building a new state and looking up in the TILS.
+    </p>
+    <p num="148">
+      Cache entries corresponding to SRO and SWO lock states are immutable and used only for acquiring the lock of an unlocked resource (since both SRO and SWO are single owner lock states).
+      <br/>
+      Each of these cache entries is comprised of the unlocked lock state and the single-owner lock state corresponding to the transaction this cache belongs to.
+    </p>
+    <p num="149">
+      The cache of a transaction T for a non-single-owner lock state (e.g., MRO) is solicited if and only if the working set of T overlaps with those of another transaction.
+      <br/>
+      In such a situation, it is likely that successive locking operations performed by T will perform the same lock state transition as another transaction.
+      <br/>
+      This likelihood results because the overlapping of the transaction's working sets correspond to shared paths in an object graph.
+      <br/>
+      If two transactions follow the same path but not at the same time, then the second will meet the same lock state, installed by the previous transaction, for all of the objects on that path.
+      <br/>
+      FIG. 5 illustrates overlapping of similar transaction paths for the three transactions T1, T2 and T3.
+      <br/>
+      On the portion of the path that overlaps, each transaction will have a hit on their lock state transition cache if they follow the overlapping portion of the path in sequential order.
+      <br/>
+      The same heuristic applies when releasing the locks of a transaction.
+    </p>
+    <p num="150">
+      In another embodiment, use of the TILS is avoided when performing lock operations.
+      <br/>
+      Assuming the caching mechanism just described, a new lock state is allocated whenever there is a cache miss (i.e., the lock state is not in the cache).
+      <br/>
+      The TILS is used at garbage collection time only, to eliminate redundant lock states.
+    </p>
+    <p num="151">
+      Thus, a method and apparatus for locking for transaction processing systems is described in conjunction with one or more specific embodiments.
+      <br/>
+      The invention is defined by the claims and their full scope of equivalents.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method configured to manage access to a plurality of resources comprising:</claim-text>
+      <claim-text>obtaining a first lock state comprising a first set of transactions that access a first member of said plurality of resources; obtaining an association between said first lock state and said first member; obtaining a second lock state comprising a second set of transactions that access a second member of said plurality of resources; obtaining an association wherein said association comprises sharing said first lock state between said first member and said second member when said first lock state and said second lock state are equivalent.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 further comprising: denying a new transaction access to said resource if said new transaction conflicts with one or more members of said first lock state associated with said first member.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The system of claim 2 wherein said set of resources is implemented in a stack.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 1 wherein said plurality of resources is implemented in a stack.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The computer program product of claim 4 wherein said set of resources is implemented in a stack.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The method of claim 1 wherein said set of resources is implemented in a stack.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 1 wherein said first lock state is stored in a cache.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The method of claim 1 wherein said first lock state is stored in a table of sets.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 8 further comprising: scanning said table of sets;</claim-text>
+      <claim-text>and associating a member of said table of sets with said second member when said member is equivalent said second lock state.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 9 further comprising adding said second lock state to said table of sets if no member of said table is equivalent to said second lock state.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 9 wherein said table of sets is implemented as a hash table.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A method for managing access to a resource comprising: obtaining a first lock state comprising a first set of transactions associated with a resource; obtaining a second lock state comprising a second set of transactions that access said resource, said second set of transactions comprising the addition of a new transaction to said first set of transactions, wherein said new transaction requests access to said resource;</claim-text>
+      <claim-text>and obtaining an association between said second lock state and said resource.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A method for managing access to a resource comprising: obtaining first lock state comprising a firs set of transactions, wherein one or more members of said first set of transactions are releasing a resource; obtaining a second lock state comprising a second set of transactions that access said resource, said second set of transactions comprising the subtraction of said one or more members from said first set of transactions;</claim-text>
+      <claim-text>and obtaining an association between said second lock state and said resource.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 13 wherein said first lock state is stored in a table of sets.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A system comprising: a processor; a memory coupled to said processor; computer program code executed by said processor configured to manage access to a resource, said computer program code comprising:</claim-text>
+      <claim-text>- computer program code configured for a new transaction to request access to said resource; - computer program code configured to obtain a first lock state comprising a first set of transactions associated with said resource; - computer program code configured to obtain a second lock state comprising a second set of transactions that access said resource, said second set of transaction comprising the addition of said new transaction to said first set of transactions; - computer program code configured to obtain an association between said second lock state and said resource.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. A system comprising: a processor; a memory coupled to said processor; computer program code executed by said processor configured to manage access to a resource, said computer program code comprising: - computer program code configured to obtain a first lock state comprising a first set of transactions, wherein one or more members of said first set of transactions is releasing said resource; - computer program code configured to obtain a second lock state comprising a second set of transactions that access said resource, said second set of transaction comprising the subtraction of said one or more members from said first set of transactions;</claim-text>
+      <claim-text>and - computer program code configured to obtain an association between said first lock state and said resource.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A system comprising: a processor; a memory coupled to said processor; computer program code executed by said processor configured to manage access to a resource, said computer program code comprising: - computer program code configured to obtain a first lock state comprising a first set of transactions, wherein one or more members of said first set of transactions are releasing said resource, wherein said first lock state is stored in a table of sets; - computer program code configured to obtain a second lock state comprising a second set of transactions that access said resource, said second set of transaction comprising the subtraction of said one or more members from said first set of transactions;</claim-text>
+      <claim-text>and - computer program code configured to obtain an association between said first lock state and said resource.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. A computer program product comprising: a computer usable medium having computer readable program code embodied therein configured to manage access to a resource comprising: - computer readable program code configured to request access to said resource by a new transaction; - computer readable program configured to cause a computer to obtain a first lock state comprising a first set of transactions associated with said resource; - computer readable program configured to cause a computer to obtain a second lock state comprising a second set of transactions that access said resource, said second set of transactions comprising the addition of said new transaction to said first set of transactions; - computer readable program code configured to cause a computer to obtain an association between said second lock state and said resource.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. A computer program product comprising: a computer usable medium having computer readable program code embodied therein configured to manage access to a resource comprising: - computer readable code configured to cause a computer to obtain a first lock state comprising a first set of transactions, wherein one or more members of said first set of transactions are releasing said resource; - computer readable code configured to cause a computer to obtain a second lock state comprising a second set of transactions that access said resource, said second set of transaction comprising the subtraction of said one or more members from said first of transactions;</claim-text>
+      <claim-text>and - computer readable program code configured to cause a computer to obtain an association between said second lock state and said resource.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The computer program product of claim 19 wherein said first lock state is stored in a table of sets.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

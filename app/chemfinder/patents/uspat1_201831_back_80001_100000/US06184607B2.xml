@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06184607B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06184607</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6184607</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="22834954" extended-family-id="3915081">
+      <document-id>
+        <country>US</country>
+        <doc-number>09223082</doc-number>
+        <kind>A</kind>
+        <date>19981229</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09223082</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>4049693</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>22308298</doc-number>
+        <kind>A</kind>
+        <date>19981229</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09223082</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H02N   1/00        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>02</class>
+        <subclass>N</subclass>
+        <main-group>1</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>310309000</text>
+        <class>310</class>
+        <subclass>309000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H02N-001/00B2</text>
+        <section>H</section>
+        <class>02</class>
+        <subclass>N</subclass>
+        <main-group>001</main-group>
+        <subgroup>00B2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H02N-001/006</classification-symbol>
+        <section>H</section>
+        <class>02</class>
+        <subclass>N</subclass>
+        <main-group>1</main-group>
+        <subgroup>006</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>18</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>4</number-of-drawing-sheets>
+      <number-of-figures>9</number-of-figures>
+      <image-key data-format="questel">US6184607</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Driving strategy for non-parallel arrays of electrostatic actuators sharing a common electrode</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>SCHROEDER CHARLES E, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>2975307</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US2975307</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>ELKUCH FRANZ</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3641373</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3641373</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>ELKUCH F</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3769531</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3769531</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>BOBBIO STEPHEN M</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5206557</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5206557</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>HIGUCHI TOSHIRO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5541465</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5541465</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>WHITEHEAD LORNE A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5642015</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5642015</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>FUJI ELECTRIC CO LTD</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H05219760</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP05219760</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>INST MAT SO AN SSSR</text>
+          <document-id>
+            <country>SU</country>
+            <doc-number>744877</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>SU-744877</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <text>BONNE ULRICH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5176358</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5176358</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>KONNO SHINJI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5552654</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5552654</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>ASMO CO LTD</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0744821</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-744821</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>C. Cabuz, et al., "High Reliability Touch-Mode Electrostatic Actuators", Technical Digest of the Solid State Sensor and Actuator Workshop, Hilton Head, S.C., Jun. 8-11, 1998, pp. 296-299.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>C. Cabuz, "Tradeoffs in MOEMS Materials" Proceedings of the SPIE, vol. 2881, pp. 160-170, Austin, TX.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Minami K et al: "Fabrication of Distributed Electrostatic Micro Actuator (DEMA)" Journal of Microelectromechanical Systems, US, IEEE Inc. New York, vol. 2, No. 3, Sep. 1, 1993 (1993-09-01), pp. 121-127, XP000426532, ISSN: 1057-7157.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>"Large-Scale Linearization Circuit For Electrostatic Motors" IBM Technical Disclosure Bulletin, US, IBM Corp. New York, vol. 37, No. 10, Oct. 1, 1994 (1994-10-01) pp. 563-564, XP000475777, ISN: 0018-8689.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Honeywell International Inc.</orgname>
+            <address>
+              <address-1>Morristown, NJ, US</address-1>
+              <city>Morristown</city>
+              <state>NJ</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>HONEYWELL INTERNATIONAL</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Cabuz, Cleopatra</name>
+            <address>
+              <address-1>Edina, MN, US</address-1>
+              <city>Edina</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Cabuz, Eugen I.</name>
+            <address>
+              <address-1>Edina, MN, US</address-1>
+              <city>Edina</city>
+              <state>MN</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Shudy, Jr., John G.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Dougherty, Thomas M.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>GRANTED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An electrostatic actuator array having at least one cell, in which the individual cells share a common electrode.
+      <br/>
+      Each cell includes first and second electrodes separated by a distance and having a moveable diaphragm mounted there between for conducting a voltage potential thereto.
+      <br/>
+      One of the pair is movable with respect to the other, and the pair are positioned to move upon application of a voltage potential thereto by electrodes attached thereto.
+      <br/>
+      A voltage potential producing an alternate polarity field generated from a single DC power supply is selectively provided to the electrodes to cause the movement.
+      <br/>
+      The preferred signals from the power supply are uni-polar square wave signals, preferably deriving the alternate polarity field from a DC current having time allocation of signals to present alternating fields to each actuator.
+      <br/>
+      The individual cells are configured in an actuator array wherein some cells operate out of phase with adjoining cells.
+      <br/>
+      The plurality of actuation cells equals n, having 2n electrodes, where n is an integer of at least 2.
+      <br/>
+      A preferred actuator array comprises n actuation cells working out of phase with 2n electrodes driven with n+1 unipolar signals.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">
+      The present invention relates to an electrostatic actuator array in which the individual cells share a common electrode and wherein an alternate polarity field is generated from a single DC power supply.
+      <br/>
+      More particularly the invention relates to a driving means for such an array, wherein an alternate polarity field is derived from a DC current having time allocation of signals to present alternating fields to each actuator.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      Electrostatic actuators have become selected and are the solution of choice for actuators that employ low power, operate at high speed, require low cost to produce, and are of small size.
+      <br/>
+      These devices present significant advantages: over thermal devices by requiring much less power; over electromagnetic devices by using less power and having smaller size; over piezoelectric actuators that have a higher cost and have a much smaller amplitude of motion.
+    </p>
+    <p num="3">
+      To date, however, there are no commercially available electrostatic actuators.
+      <br/>
+      Of particular concern are electrostatic actuation in the presence of dielectrically isolated electrodes, where specific problems are incurred.
+    </p>
+    <p num="4">
+      In electrostatic actuators, the desired displacement is the result of the attractive electrostatic force generated by the interaction between a distribution of opposite sign charges placed on two bodies, at least one of which is moveable.
+      <br/>
+      For the purposes of this invention, these two bodies are known as actuator plates.
+      <br/>
+      The actuator plates are placed apart by a predetermined distance.
+      <br/>
+      The charge distribution is then generated by applying a potential difference between two conductive electrodes that are part of the actuator plates.
+      <br/>
+      The actuator will be in the ON state or mode when a potential difference is applied between the electrodes and the two plates move toward each other.
+      <br/>
+      The actuator will be in the OFF state when the electrodes are at the same potential (shorted).
+    </p>
+    <p num="5">
+      A DC voltage is theoretically capable of inducing the "ON" state of the actuation cycle.
+      <br/>
+      Practical problems, however, limit the application of a DC voltage for the actuation of some electrostatic actuators.
+      <br/>
+      In real devices, DC driving shows memory effects, such that the behavior of the actuators depends strongly on the history of the actuation process.
+      <br/>
+      DC driving also induces stiction (1) through charges injected in the dielectric at the dielectric/metal electrode interface, and (2) through charges trapped at the dielectric/air interface.
+    </p>
+    <p num="6">
+      In our commonly owned copending application entitled DRIVING DEVICE AND METHOD FOR ELECTROSTATIC ACTUATORS, and having Ser.
+      <br/>
+      No. 08/948,337, a method and apparatus was proposed for use with an AC signal.
+      <br/>
+      The AC signal method of driving an electrostatic actuator was designed for actuators having a pair of actuator plates having electrodes for conducting a voltage potential thereto.
+      <br/>
+      At least one of the pair of actuator plates was movable with respect to the other, so that the actuator plates were positioned to move upon application of an AC voltage potential thereto by electrodes attached thereto.
+      <br/>
+      The driving device in this application produced a compounded AC signal with a rise section at least 10 to 100 times mechanical response time of the actuator and a fall time at least 10 to 100 times the mechanical response time of the actuator.
+      <br/>
+      Advantages of this invention are spelled out in the above referenced copending application.
+      <br/>
+      However, the invention worked best in driving arrays of actuators working in parallel.
+    </p>
+    <p num="7">Descriptions of various prior art patents are also contained therein and are incorporated herein by reference.</p>
+    <p num="8">
+      There are, however, possible array configurations where the individual cells have one common electrode but have to operate out of phase.
+      <br/>
+      If the common electrode is grounded, in order to generate alternate fields between the electrodes of the electrostatic actuator, a dual power supply is needed, providing positive and negative potentials.
+      <br/>
+      The relatively high voltages needed for use in electrostatic activators would expectedly involve the use of DC/DC converters to scale up the voltage supplied by a battery or another available voltage.
+      <br/>
+      These DC/DC converters are bulky and expensive.
+    </p>
+    <p num="9">
+      Because of this, use of a single power supply would be of great advantage in designing electrostatic actuators, in part because favorable system size, weight and cost parameters would result.
+      <br/>
+      It would be of great advantage to the art to resolve the conflict for operating requirements for electrostatic actuators having different cells using a common electrode with an electrically floating potential.
+    </p>
+    <p num="10">It would be another great advance in the art if an improved driving method for electrostatic actuators could be provided with a desired alternate polarity fields to all the actuator cells based on a single DC power supply and a single DC/DC converter.</p>
+    <p num="11">Other advantages will appear hereinafter.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="12">
+      It has now been discovered that the above and other advantages of the present invention may be realized in the following manner.
+      <br/>
+      Specifically, the present invention comprises an actuator drive for electrostatic actuators driven with alternate polarity fields, in which the cells have one shared electrode, and the power supply is a single DC power supply.
+      <br/>
+      The invention reverses the field polarity without using a second power supply, thereby substantially saving size and cost factors, such as in mesopumps where the membranes employ a single conductive layer.
+    </p>
+    <p num="13">
+      The device is used in electrostatic actuators that have at least one pair of actuator plates and electrodes for conducting a voltage potential thereto.
+      <br/>
+      At least one of the pair is movable with respect to the other.
+      <br/>
+      The plates are positioned to move upon application of a voltage potential through the electrodes.
+      <br/>
+      A driving means provides a voltage potential to the electrodes to cause the movement of the at least one plate.
+      <br/>
+      In a typical cell configuration, an upper electrode and a lower electrode have a moveable diaphragm between them.
+      <br/>
+      DC voltage is selectively applied to the upper and lower electrodes and to the diaphragm, which is shared with both upper and lower electrodes.
+      <br/>
+      By the use of a properly selected time allocation, each electrode is driven from the same DC power supply for part of the cycle to produce alternate polarity fields at all times on each actuator.
+    </p>
+    <p num="14">
+      The use of a alternate driving voltage, with zero continue component, provides a much improved driving scheme with reduction of charge injection and minimizes the power dissipation in touch-mode electrostatic actuators.
+      <br/>
+      The voltage may be derived from a square wave signal, but may also be of other wave forms such as arcuate, triangular, truncated triangular, and the like.
+      <br/>
+      The invention herein allows the driving of arrays of electrostatic actuators working out of phase with alternate fields using a single high voltage DC supply.
+      <br/>
+      This is distinguished over prior systems in which DC driving induces charging and premature failure of actuators, or when real AC driving is used based on dual power supplies.
+      <br/>
+      Increased reliability, reduced cost and size or volume is achieved.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="15">
+      For a more complete understanding of the invention, reference is hereby made to the drawings, in which:
+      <br/>
+      FIG. 1 is a schematic view of a typical single bi-directional electrostatic actuator cell useful in the present invention;
+      <br/>
+      FIG. 2 is a graphical illustration of the voltage over time of the driving signal in the actuator cell shown in FIG. 1;
+      <br/>
+      FIGS. 3-8 are graphical illustrations similar to that in FIG. 2, using different duty cycles and periods; and
+      <br/>
+      FIG. 9 is a schematic view of one circuit illustrating the use of four cells such as those shown in FIG. 1, being configured for a peristaltic mesopump application for a specific duty cycle.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p num="16">
+      The present invention provides an improved driving method for touch mode electrostatic actuators bassed on the use of a single DC power source.
+      <br/>
+      The actuator comprises a plurality of cells, such as the one shown in FIG. 1, connected as described below.
+      <br/>
+      The present invention operates with one cell, or arrays of any desired number of cells.
+      <br/>
+      Arrays having a three by three or four by four configuration are contemplated, as are actuators with 100 by 100 cells, or even many more, depending upon the intended use of the final product into which the electrostatic actuator is incorporated.
+    </p>
+    <p num="17">
+      The invention is contemplated for use with any such actuator, made from any material, with any number of cells, in any configuration.
+      <br/>
+      The present invention relates to a driving strategy for non-parallel arrays of electrostatic actuators sharing a common electrode, and therefore the actual construction is shown in FIG. 1 only schematically.
+      <br/>
+      FIG. 1 illustrates the preferred cell, but it is fully within the scope of this invention to have an embodiment in which there is only one common electrode and one seperate electrode per cell.
+    </p>
+    <p num="18">
+      As shown in FIG. 1, a cell 11 includes an upper electrode 13 and a lower electrode 15, which support a moveable or flexible diaphragm 17.
+      <br/>
+      The pair of electrode 13 and diaphragm 17 forms an actuator unit or pair, as does the pair of electrode 15 and diaphragm 17.
+      <br/>
+      In accordance with the present invention, an unipolar signal with reference to ground or to a common reference point is applied to electrodes 13 and 15, and to diaphragm 17, in a manner described below to cause a difference of potential between pairs.
+      <br/>
+      The actuator will be in the ON state when a potential difference is applied between the electrodes and will be in an OFF state when the electrodes are at the same potential.
+    </p>
+    <p num="19">
+      FIG. 2 illustrates the basic operation where unipolar, square wave signals are applied to electrodes 13 and 15 and to diaphragm 17 to drive the actuator.
+      <br/>
+      Adjustment of the actuation cycle, in milliseconds (ms), and the duty cycle, as a fraction of the total cycle, is made over an extremely wide range, depending on the application of the device.
+      <br/>
+      In FIG. 2, a positive or plus DC voltage 21 is applied to the diaphragm 17 with a period of 18 ms, and a duty cycle of 50%.
+      <br/>
+      At the same time, a similar positive voltage 23 is applied to the upper electrode 13 and delayed with three ms, versus the signal 21.
+      <br/>
+      This means that the signal 23 is 60 (degree)  out of phase of signal 21.
+      <br/>
+      Also at the same time, the positive voltage 25 is applied to the lower electrode 15 with a delay of 12 ms versus signal 21, or with a phase shift of 240 (degree) .
+    </p>
+    <p num="20">
+      As noted above, voltages 21, 23 and 25 all come from the same single DC power supply and all are positive with reference to the ground or common electrode of the power supply when not zero.
+      <br/>
+      However, the potential difference 27 between the upper electrode 13 and diaphragm 17 operates between a positive potential and a negative potential, as is the potential difference 29 between lower electrode 15 and diaphragm 17.
+      <br/>
+      Thus, even though the electrodes 13 and 15, and the diaphragm 17 are all driven with unipolar square-wave signals, with an amplitude depending on the application of course, the resulting field between actuators is bipolar.
+    </p>
+    <p num="21">
+      FIG. 3 illustrates a similar use of uni-polar square-wave signals 31,33 and 35 to produce bipolar fields 37 and 39 between the actuator plates, this time with a different duty cycle of the bipolar signals 37 and 39.
+      <br/>
+      Other examples include square wave signals of periods of 10 to 100 ms, along with other fractional duty cycles.
+    </p>
+    <p num="22">
+      Turning now to FIGS. 4, 5 and 6, examples of other square wave signals as the ON signal are illustrated.
+      <br/>
+      In FIG. 4, as in all the embodiments of this invention where there is a common electrode formed by the diaphragm, the potential 41 of the diaphragm is either positive or zero.
+      <br/>
+      Potentials 43 and 45 from an appropriately selected square wave for the upper electrode and lower electrode, respectively, again produce bipolar potentials 47 and 49 between pairs of electrodes and the diaphragm as set forth above.
+      <br/>
+      Similarly, FIG. 5 uses positive and zero potential inputs to electrodes 51 and 53, and common electrode diaphragm 55, to result in bipolar potentials 57 and 59.
+      <br/>
+      Finally, FIG. 6 illustrates the same use of unipolar potentials on electrodes 61 and 63, with common diaphragm 65, to produce potentials 67 and 69 between the fixed and moveable actuator plates.
+      <br/>
+      In the case of FIG. 6, the ON condition for each actuator pair is realized with an actual square wave, AC signal.
+    </p>
+    <p num="23">
+      The signals defined in FIG. 7 are used to drive four cells of the type shown in FIG. 1 for a peristaltic mesopump application using a duty cycle of 1/3.
+      <br/>
+      The direction of the field on a particular cell is dictated by the phase difference between the signals on the involved electrodes.
+      <br/>
+      Electrodes Va, Vb, Vc and Vd, in both upper and lower relationships to the diaphragms, cooperate with diaphragms Vd1 and Vd2, to operate the mesopump.
+      <br/>
+      The legend 70 on the right side of the illustrated electrical potential cycles illustrates the cooperative relationship between the electrodes and diaphragms of the four cells.
+    </p>
+    <p num="24">
+      The actual array is shown schematically in FIG. 9.
+      <br/>
+      It should be noted that this circuit of FIG. 9 is illustrative, and many other such circuits can be devised to accomplish the same or similar results, depending on the application to which the invention is put.
+      <br/>
+      In FIG. 9, a single five volt DC source 91 provides a potential to DC/DC converter 93.
+      <br/>
+      A microcontroller 95 feeds buffers 97 for actuation of cells 99a, 99b, 99c and 99d, as illustrated.
+      <br/>
+      Fluid enters the activator array of FIG. 9 at inlet 101 and cell 99a, then is passed to cells 99b, 99c and 99d in sequence, exiting by outlet 103.
+      <br/>
+      The generated driving signals have the period of 18 ms (.about.55 HZ) and a nominal amplitude of 40 volts for all of the electrodes and diaphragms.
+      <br/>
+      The direction of the field on a particular cell is dictated by the phase difference between the signals on the individual electrodes involved, as described with respect to FIG. 7.
+      <br/>
+      In addition, because there is a common electrode and the potential applied to each electrode, as shown in FIG. 7, is either positive or zero, the signals on each actuator of FIG. 9, for example, have the characteristics of an alternating or bi-polar form, shown in the legend 80 on the right side of FIG. 8 as each signal acts on each actuator.
+      <br/>
+      Buffer 97a provides a common voltage potential to the moveable diaphragms in cells 99a and 99d while buffer 97b provides a common voltage potential to the moveable diaphragms in cells 99b and 99c, such that the commonly driven diaphragms function as a common electrode with the first and second electrodes of each cell.
+    </p>
+    <p num="25">
+      As will become apparent from the foregoing detailed description, the present invention is admirably suited for use in almost any electrostatic actuators.
+      <br/>
+      Of particular advantage in touch mode application, the invention is useful in electrostatic actuators used as valves, pumps, switches, shutters, wobble motors, mirrors, relays, linear actuators and many similar devices.
+      <br/>
+      Such devices will have a far superior ability to function and last over a longer period of time because of the present invention's ability to reduce stiction by selection of an optimum driving voltage.
+      <br/>
+      Again, it is intended that many wave forms are suitable for the present invention, though square wave signals have been used for purposes of illustration.
+      <br/>
+      It can readily be appreciated that other wave forms also provide relative potential between common electrodes in the same manner.
+    </p>
+    <p num="26">While particular embodiments of the present invention have been illustrated and described, it is not intended to limit the invention, except as defined by the following claims.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>An electrostatic actuator array having a plurality of individual cells sharing a common electrode, said cells each comprising:</claim-text>
+      <claim-text>first and second electrodes separated by a distance and having a moveable diaphragm mounted there between for conducting a voltage potential thereto, said moveable diaphragm being a common electrode with said first and second electrodes to form a pair of actuator units said pairs of actuator units being positioned to move upon application of a voltage potential thereto;</claim-text>
+      <claim-text>and a voltage source operably connected for selectively providing a repeating cycle of voltage potential to said first and second electrodes and said moveable diaphragm to cause said movement, said voltage source producing an alternate polarity field generated from a single DC power supply by applying a zero voltage component and a DC voltage component to said first and second electrodes and said moveable diaphragm at different times in said repeating cycle to produce said alternate polarity field.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The actuator array of claim 1, wherein said diaphragm, first electrode and second electrode are all driven by uni-polar square wave signals.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The actuator array of claim 1, wherein said alternate polarity field is derived from a DC power supply having time allocation of signals to present alternating fields to each of said first and second electrodes a nd said diaphragm.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The actuator array of claim 1 wherein at least one of said array configuration operates out of phase with at least one adjoining cell.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The actuator array of claim 1, wherein said plurality of cells n cells and includes 2n electrodes, where n is an integer of at least 2.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The actuator array of claim 5, wherein said n cells work out of phase with said 2n electrodes and are driven with n+1 unipolar signals.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. In a touch-mode electrostatic actuator having a plurality of individual cells sharing a common electrode, said cells each having first and second electrodes separated by a distance and having a moveable diaphragm mounted there between for conducting a voltage potential thereto, said moveable diaphragm being a common electrode with said first and second electrodes to form a pair of actuator units, said pairs of actuator units being positioned to move upon application of a voltage potential thereto, the improvement comprising: a driving means comprising a voltage source for selectively providing a repeating cycle of voltage potential to said first and second electrodes and said moveable diaphragm to cause said movement, said voltage source producing an alternate polarity field generated from a single DC power supply by applying a zero voltage component and a DC voltage component to said first and second electrodes and said moveable diaphragm at different times in said repeating cycle to produce said alternate polarity field.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The driving means of claim 7, wherein said diaphragm, first electrode and second electrode are all driven by uni-polar square wave signals.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The driving means of claim 7, wherein said alternate polarity field is derived from a DC power supply having time allocation of signals to present alternating fields to each of said first and second electrodes and said diaphragm.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The driving means of claim 7 wherein at least one of said array configuration operates out of phase with at least one adjoining cell.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The driving means of claim 7, wherein said plurality of cells comprises n cells and includes 2n electrodes, where n is an integer of at least 2.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The driving means of claim 11, wherein said n cells work out of phase with said 2n electrodes and are driven with n+1 unipolar signals.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A method of driving an electrostatic actuator array having a plurality of individual cells sharing a common electrode comprising: providing first and second electrodes separated by a distance and having a moveable diaphragm mounted there between for conducting a voltage potential thereto, said moveable diaphragm being a common electrode with said first and second electrodes to form a pair of actuator units, said pairs of actuator units being positioned to move upon application of a voltage potential thereto;</claim-text>
+      <claim-text>and providing a voltage source operably connected for selectively providing a repeating cycle of voltage potential to said first and second electrodes and said moveable diaphragm to cause said movement, said driving means producing an alternate polarity field generated from a single DC power supply by applying a zero voltage component and a DC voltage component to said first and second electrodes and said moveable diaphragm at different times in said repeating cycle to produce said alternate polarity field.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 13, wherein said diaphragm, first electrode and second electrode are all driven by uni-polar square wave signals.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method of claim 13, wherein said alternate polarity field is derived from a single DC power supply having time allocation of signals to present alternating fields to each of said first and second electrodes and said diaphragm.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 13 wherein at least one of said array configuration operates out of phase with at least one adjoining cell.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The method of claim 13, wherein said plurality of cells comprises n cells and includes 2n electrodes, where n is an integer of at least 2.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 17, wherein said n cells work out of phase with said 2n electrodes and are driven with n+1 unipolar signals.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

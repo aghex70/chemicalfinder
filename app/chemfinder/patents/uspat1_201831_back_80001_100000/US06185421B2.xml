@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185421B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185421</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185421</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="22345190" extended-family-id="1400544">
+      <document-id>
+        <country>US</country>
+        <doc-number>09112663</doc-number>
+        <kind>A</kind>
+        <date>19980709</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09112663</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>1454607</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>11266398</doc-number>
+        <kind>A</kind>
+        <date>19980709</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09112663</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>H04W  68/00        20090101A I20090105RMEP</text>
+        <ipc-version-indicator>
+          <date>20090101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>68</main-group>
+        <subgroup>00</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20090105</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>455433000</text>
+        <class>455</class>
+        <subclass>433000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>455456600</text>
+        <class>455</class>
+        <subclass>456600</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>H04W-068/00</text>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>68</main-group>
+        <subgroup>00</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>H04W-068/00</classification-symbol>
+        <section>H</section>
+        <class>04</class>
+        <subclass>W</subclass>
+        <main-group>68</main-group>
+        <subgroup>00</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>43</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>2</number-of-figures>
+      <image-key data-format="questel">US6185421</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">System, apparatus and method for paging optimization using sub-location areas</invention-title>
+    <references-cited>
+      <citation srep-phase="applicant">
+        <patcit num="1">
+          <text>NOKIA TELECOMMUNICATIONS OY, et al</text>
+          <document-id>
+            <country>WO</country>
+            <doc-number>9511577</doc-number>
+            <kind>A1</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>WO9511577</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="1">
+          <text>Kwan L. Yeung and Tak-Shing P. Yum; A Comparative Study on Location Tracking Strategies in Cellular Mobile Radio Systems; IEEE Global Telecommunications Conference, Singapore, Nov. 14-16, 1995, vol. 1, Nov. 14, 1999; pp. 22-28.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Hai Xie, Sami Tabbane and David J. Goodman; Dynamic Location Area Management and Performance Analysis; IEEE Personal Communication-Freedom Though Wireless Technology, Secaucus, New Jersey; May 18-20, 1993, Conf. No. 43, May 18, 1993; pp. 536-539.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>PCT International Search Report dated Nov. 3, 1999.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Ericsson Inc.</orgname>
+            <address>
+              <address-1>Research Triangle Park, NC, US</address-1>
+              <city>Research Triangle Park</city>
+              <state>NC</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>ERICSSON</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Alperovich, Vladimir</name>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Borg, Gunnar</name>
+            <address>
+              <address-1>Dallas, TX, US</address-1>
+              <city>Dallas</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Jenkens &amp; Gilchrist, P.C.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Eisenzopf, Reinhard J.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A telecommunications system, apparatus and method is disclosed for optimizing the use of paging channels within the network by dividing location areas (LAs) into sub-location areas (sub-LAs) and providing a more efficient and flexible method of paging mobile subscribers.
+      <br/>
+      The amount of usage of the paging channels and the number of location updates performed by a mobile subscriber can be monitored by the network to determine either statistical data or a subscriber category, e.g., heavy-user or light-user, which can be stored within the Subscriber Identity Module (SIM) card within the mobile station (MS).
+      <br/>
+      The sub-LA information along with the LA information for the cell that the mobile terminal is in is broadcast and monitored by the SIM card within the MS, which can then perform location updates based upon the category or data.
+      <br/>
+      The Mobile Switching Center/Visitor Location Register can also use the data or category for paging purposes, e.g., either page within the entire LA or within only the sub-LA, for more focused paging.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>BACKGROUND OF THE PRESENT INVENTION</heading>
+    <p num="1">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="2">The present invention relates generally to a telecommunications system, apparatus and method for paging mobile terminals within a cellular network, and specifically to optimizing use of paging channels by dividing location areas into sub-location areas and providing a more flexible and efficient method of paging mobile subscribers.</p>
+    <p num="3">2. Background and Objects of the Present Invention</p>
+    <p num="4">
+      Cellular telecommunications is one of the fastest growing and most demanding telecommunications applications ever.
+      <br/>
+      Today it represents a large and continuously increasing percentage of all new telephone subscriptions around the world.
+      <br/>
+      A standardization group, European Telecommunications Standards Institute (ETSI), was established in 1982 to formulate the specifications for the Global System for Mobile Communication (GSM) digital mobile cellular radio system.
+    </p>
+    <p num="5">
+      With reference now to FIG. 1 of the drawings, there is illustrated a GSM Public Land Mobile Network (PLMN), such as cellular network 10, which in turn is composed of a plurality of areas 12, each with a Mobile Services Center (MSC) 14 and an integrated Visitor Location Register (VLR) 16 therein.
+      <br/>
+      The MSC/VLR areas 12, in turn, include a plurality of Location Areas (LA) 18, which are defined as that part of a given MSC/VLR area 12 in which a mobile station (MS) 20 may move freely without having to send update location information to the MSC/VLR area 12 that controls the LA 18.
+      <br/>
+      Each Location Area 12 is divided into a number of cells 22.
+    </p>
+    <p num="6">
+      Mobile Station (MS) 20 is the physical equipment, e.g., a car phone or other portable phone, used by mobile subscribers to communicate with the cellular network 10, each other, and users outside the subscribed network, both wireline and wireless.
+      <br/>
+      The MS 20 may also include a Subscriber Identity Module (SIM) card 13, or other memory, which provides storage of subscriber related information, such as a subscriber authentication key, temporary network data, and service related data (e.g. language preference).
+    </p>
+    <p num="7">
+      The MSC 14 is in communication with at least one Base Station Controller (BSC) 23, which, in turn, is in contact with at least one Base Transceiver Station (BTS) 24. The BTS 24 is the physical equipment, illustrated for simplicity as a radio tower, that provides radio coverage to the geographical part of the cell 22 for which it is responsible.
+      <br/>
+      It should be understood that the BSC 23 may be connected to several base transceiver stations 24, and may be implemented as a stand-alone node or integrated with the MSC 14.
+      <br/>
+      In either event, the BSC 23 and BTS 24 components, as a whole, are generally referred to as a Base Station System (BSS) 25.
+    </p>
+    <p num="8">
+      With further reference to FIG. 1, the PLNN Service Area or cellular network 10 includes a Home Location Register (HLR) 26, which is a database maintaining all subscriber information, e.g., user profiles, current location information, International Mobile Subscriber Identity (IMSI) numbers, and other administrative information.
+      <br/>
+      The HLR 26 may be co-located with a given MSC 14, integrated with the MSC 14, or alternatively can service multiple MSCs 14, the latter of which is illustrated in FIG. 1.
+    </p>
+    <p num="9">
+      The VLR 16 is a database containing information about all of the Mobile Stations 20 currently located within the MSC/VLR area 12.
+      <br/>
+      If an MS 20 roams into a new MSC/VLR area 12, the MSC 14 will request data about that Mobile Station 20 from the HLR database 26 (simultaneously informing the HLR 26 about the current location of the MS 20) and store the data in the VLR 16 connected to that MSC 14.
+      <br/>
+      Accordingly, if the user of the MS 20 then wants to make a call, the local VLR 16 will have the requisite identification information without having to reinterrogate the HLR 26.
+      <br/>
+      In the aforedescribed manner, the VLR and HLR databases 16 and 26, respectively, contain various subscriber information associated with a given MS 20.
+    </p>
+    <p num="10">
+      The radio interface is the general name of the connection between the MS 20 and the BTS 24, which utilizes timeslots (TS) within each allocated frequency to transmit speech, data and control signaling, with each TS being referred to as a physical channel.
+      <br/>
+      Different types of information, e.g., speech, user data and control signaling, must be transmitted on these physical channels through the use of logical channels, which are mapped onto the physical channels.
+      <br/>
+      The logical channels can be divided into two groups: control channels and traffic channels.
+      <br/>
+      Speech is sent on the traffic channels, while user data and control signaling are transmitted on control channels.
+    </p>
+    <p num="11">
+      One type of control channel is a paging channel (PCH) to which the MS 20 listens to see if the network 10 wants to get in contact with the MS 20.
+      <br/>
+      For example, the network 10 may wish to get in contact with the MS 20 because the network 10 is receiving an incoming call or a Short Message Service (SMS) message for the MS 20.
+      <br/>
+      The information on a PCH is a paging message, which includes the MS's identity number.
+      <br/>
+      The paging message is transmitted to the MS 20 on the downlink (from the BTS 24 to the MS 20), as a broadcast message.
+    </p>
+    <p num="12">
+      The paging channels are a valuable network resource, and thus, optimization of their use will lead to better network frequency utilization and traffic throughput.
+      <br/>
+      With the increase in traffic, such as point-to-point SMS messages, the paging capacity is likely to become a bottleneck in the system.
+    </p>
+    <p num="13">
+      When a subscriber moves from one LA 18 to another, a procedure called Location Update is performed to inform the network 10 where to page the MS 20 in case of an incoming call or message.
+      <br/>
+      In general, the smaller the LA 18, the more Location Updates are generated by MS's 20 moving between LA's 18.
+      <br/>
+      However, if the LA 18 is large, which corresponds to a large number of cells 22, when a mobile terminating call comes into the network 10, the called subscriber (MS 20) is paged within the entire LA 18, which includes every cell 22 in the LA 18.
+      <br/>
+      Therefore, each BTS 24 within each cell 22 sends a paging message on a separate PCH.
+    </p>
+    <p num="14">
+      Thus, the larger the LA 18, the more network resources (paging channels) are used to page a MS 20 within the LA 18.
+      <br/>
+      In sum, there is a trade-off between paging efficiency (most efficient when the LA 18 is small) and the Location Update load (most efficient when the LA 18 is large).
+      <br/>
+      However, the size of the LA 18 is typically configured for an average subscriber, while in reality, there are some subscribers, such as business subscribers, who use the MS 20 heavily.
+      <br/>
+      For these heavy-use subscribers, a smaller LA 18 is preferred, because these subscribers are paged frequently.
+      <br/>
+      In addition, there are also some subscribers who only use the MS 20 for emergencies.
+      <br/>
+      For these light-use subscribers, a large LA 18 is preferred, because the paging activity is minimal.
+      <br/>
+      Existing technology has not provided a way to maximize network resources (paging channels) based upon the subscriber usage.
+    </p>
+    <p num="15">It is, therefore, an object of the present invention to optimize the use of paging channels based upon the usage characteristics for subscribers within the network.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="16">
+      The present invention is directed to a telecommunications system, apparatus and method for optimizing the use of paging channels within the network by dividing location areas (LAs) into sub-location areas (sub-LAs) and providing a more flexible and efficient method of paging mobile subscribers.
+      <br/>
+      The amount of usage of the paging channels and the number of location updates performed by a mobile subscriber can be monitored by the network to determine either a ratio of the number of pages to the number of location updates, or a subscriber category associated with the mobile subscriber.
+      <br/>
+      The ratio or subscriber category, e.g., heavy-user or light-user and high-mobility or low-mobility, can be stored within the Subscriber Identity Module (SIM) card within the mobile terminal.
+      <br/>
+      Alternatively, the SIM card itself can monitor the paging and location update activity over time and make a determination as to the ratio or subscriber category.
+      <br/>
+      When the LA is divided into sub-LAs, the sub-LA information is broadcast over the broadcast channel together with the LA information.
+      <br/>
+      The SIM card within the MS can then monitor the broadcast channel and perform location updates based upon the subscriber category or ratio.
+      <br/>
+      For example, if the subscriber category is set to heavy/business-use or the ratio is above a threshold percentage for sub-LA location updating, e.g., the number of pages attempted by the subscriber is greater than the number of location updates attempted by the subscriber by a certain percentage, the mobile terminal performs location updates when the boundary between two sub-LA's is crossed.
+      <br/>
+      However, for light-use subscribers or if the ratio is below the threshold for sub-LA location updating, location updates are only performed when a boundary between two LAs is crossed.
+      <br/>
+      When a location update is performed, the subscriber category or ratio for that mobile terminal is passed onto the MSC/VLR for paging purposes, e.g., either page within the entire LA or within only the sub-LA.
+      <br/>
+      As a result, more focused paging is performed for the subscribers who are paged more frequently.
+      <br/>
+      It should be noted that the paging (either LA or sub-LA) can also be tailored by location, time and mobility of the subscriber.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="17">
+      The disclosed inventions will be described with reference to the accompanying drawings, which show important sample embodiments of the invention and which are incorporated in the specification hereof by reference, wherein:
+      <br/>
+      FIG. 1 is a block diagram of a conventional terrestrially-based wireless telecommunications system; and
+      <br/>
+      FIG. 2 is a block diagram illustrating the division of Location Areas into sub-Location Areas in order to maximize efficient usage of paging channels.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PRESENTLY PREFERRED EXEMPLARY EMBODIMENTS</heading>
+    <p num="18">
+      The numerous innovative teachings of the present application will be described with particular reference to the presently preferred exemplary embodiments.
+      <br/>
+      However, it should be understood that this class of embodiments provides only a few examples of the many advantageous uses of the innovative teachings herein.
+      <br/>
+      In general, statements made in the specification of the present application do not necessarily delimit any of the various claimed inventions.
+      <br/>
+      Moreover, some statements may apply to some inventive features but not to others.
+    </p>
+    <p num="19">
+      With reference now to FIG. 2 of the drawings, optimization of the use of paging channels 215 within a cellular network 205 can be achieved by dividing location areas (LA) 250 into sub-location areas (sub-LA) 260 and providing a more flexible and efficient method of paging Mobile Stations (MS) 200 within the cellular network 205 related to the amount of usage of the paging channels 215 by the MS's 200.
+      <br/>
+      In one embodiment, the cellular network, e.g., a Home Location Register (HLR) 240, can maintain statistical data for each MS 200, which can include, for example, the number of pages 215 to a specific MS 200 over a predefined period of time, the number of pages 215 for that specific MS 200 per LA 250, the mobility of the subscriber, e.g., the number of location updates performed by that MS 200, and the peak time(s) of paging activity for that subscriber.
+    </p>
+    <p num="20">
+      From this statistical data, the network 205 can determine, for example, a ratio 248 for the MS 200 of the number of paging attempts by the network 205 to the number of location update attempts by the MS 200.
+      <br/>
+      The higher the ratio 248, the more focused the paging activity should be.
+      <br/>
+      Thus, the ratio 248 can be compared with threshold ratios 245 to determine whether the MS 200 should be paged within the entire LA 250 or within the sub-LA 260 and whether the MS 200 should perform location updates between LA's 250 or between sub-LA's 260.
+    </p>
+    <p num="21">
+      This ratio 248 and threshold information 245 can be sent to the MS 200 for storage in, for example, a Subscriber Identity Module (SIM) card 202, or other memory, therein in order for the MS 200 to determine when to perform location updates.
+      <br/>
+      In addition, when the MS 200 performs a location update, the MS 200 and the HLR 240 can send this ratio 248 and threshold information 245 to a Mobile Switching Center/Visitor Location Register (MSC/VLR) 230 serving the LA 250 that the MS 200 is currently located in to enable the MSC/VLR 230 to determine whether to page the MS 200 within the entire LA 250 or only within the sub-LA 260.
+      <br/>
+      If the ratio 248 and threshold information 245 sent by the MS 200 differs from that sent by the HLR 240, the MSC/VLR 230 can then send the new ratio 248 and threshold information 245, corresponding to the information 248 and 245 sent by the HLR 240, to the MS 200 for storage in the SIM card 202.
+      <br/>
+      Alternatively, the MSC/VLR 230 can maintain its own threshold information 245 for comparison with the ratio information sent by the MS 200 and HLR 240.
+    </p>
+    <p num="22">
+      In an alternative embodiment, the HLR 240 can use the statistical data to determine a subscriber category 208, e.g., heavy-user or light-user, which can then be sent to the MS 20 and stored within the SIM card 202 within the MS 200.
+      <br/>
+      It should be understood that other subscriber categories can be used instead of the heavy-user and light-user categories discussed herein.
+      <br/>
+      For example, the subscriber category can be broken down into two categories 208, one for the paging activity and one for the location update activity, e.g., either heavy-user or light-user, and either high-mobility or light-mobility.
+      <br/>
+      The MS 200 can use the high-mobility or light-mobility categories 208 for location updating, while the MSC/VLR 230 can use the heavy-user or light-user categories 208 for paging purposes.
+    </p>
+    <p num="23">
+      In a further alternative embodiment, the subscriber category 208 (heavy-user or light-user) can be determined at the time of subscription, which can be based upon the subscription plan chosen.
+      <br/>
+      As an example, if a subscriber chooses a plan with 500 or more minutes a month, a heavy-user subscriber category 208 can be assigned to that MS 200 and stored in the SIM card 202.
+      <br/>
+      This subscriber category 208 can also be stored in the subscriber's Home Location Register (HLR) 240, which can then transfer the subscriber category 208 to a Mobile Switching Center/Visitor Location Register (MSC/VLR) 230 serving the LA 250 that the MS 200 is currently located in.
+    </p>
+    <p num="24">
+      In another alternative embodiment, the SIM card 202 itself can monitor the paging and location update activity of the MS 200 over time and make a determination as to the ratio 248 or subscriber category 208.
+      <br/>
+      For example, if the MS 200 receives at least a threshold amount of paging messages 215 as compared to the number of location updates within a predefined period of time, the SIM card 202 can assign a heavy-user subscriber category 208 to the MS 200.
+      <br/>
+      By allowing the SIM card 202 to monitor the paging and location update activity, the subscriber category 208 can change dynamically depending upon the paging channel 215 usage by that MS 200 during predefined periods of time.
+    </p>
+    <p num="25">In another alternative embodiment, the utilization of the paging channels 215 in general can be monitored by the cellular network 205, e.g., Base Station Controllers (BSC) 220 and/or Base Transceiver Stations (BTS) 210 within the LA 250, and this paging channel utilization information can then be sent to the serving MSC/VLR 230, which can then modify the subscriber categories 208 for subscribers in the LA 250 based upon the high utilization of the paging resources 215 in general, instead of the individual paging utilization.</p>
+    <p num="26">
+      When the ratio 248 and threshold information 245 or subscriber category 208 for the MS 200 is first determined or changes, this information 248 and 245 or 208 can then be sent to the MS 200, using, for example, an Unstructured Supplementary Service Data (USSD) message or a Short Message Service (SMS) message, to be stored in the SIM card 202 or other memory of the MS 200.
+      <br/>
+      In addition, if the ratio 248, threshold information 245 or subscriber category 208 for the MS 200 changes based upon the time of day, the SIM card 202 can store each ratio 248, threshold information 245 or subscriber category 208 along with the associated time of day and change the current ratio 248, threshold information 245 or subscriber category 208 itself based upon the time stamp information sent over the broadcast channel by the serving BTS 210.
+    </p>
+    <p num="27">
+      When each LA 250 is divided into sub-LA's 260, each BTS 210 within the cellular network 205 can broadcast the sub-LA 260 information along with the LA 250 information associated with a cell 225 that the BTS 210 is located in.
+      <br/>
+      The SIM card 202 within the MS 200 can then monitor the broadcast channel and perform location updates based upon the ratio 248 or subscriber category 208 stored in the MS 200.
+      <br/>
+      For example, if the ratio 248 is below the threshold 245 for performing sub-LA 260 location updates, e.g., the number of pages is low as compared with the number of location updates, or the subscriber category 208 is high-mobility or light-user, location updates can be performed by the MS 200 when the boundary 270 between two sub-LAs 260 is crossed.
+      <br/>
+      Alternatively, for high ratios 248 (more pages than location updates) or low-mobility of heavy-user subscriber categories 208, location updates need to be performed only when the boundary 280 between two LAs 250 is crossed.
+    </p>
+    <p num="28">
+      As discussed hereinbefore, the MSC/VLR 230 also stores the ratio 248 and threshold information 245 or subscriber category information 208 for the MS 200, which can be sent by the MS 200 in the location update, sent by the HLR 240 along with additional subscriber information after the MS 200 performs the location update if the subscriber category 208 is new or different than the subscriber category 208 sent by the MS 200 in the location update, or determined by the MSC/VLR 230 based upon the overall paging utilization.
+      <br/>
+      If the ratio 248 or subscriber category 208 sent by the HLR 240 is new or different from the ratio 248 or subscriber category 208 sent by the MS 200 in the location update, the MSC/VLR 230 can then send this new ratio 248 or subscriber category 208 to the MS 200 for use by the MS 200 in future location updates.
+    </p>
+    <p num="29">
+      The MSC/VLR 230 uses this ratio 248 or subscriber category 208 to determine whether to page 215 the MS 200 within the entire LA 250 or within only one sub-LA 260.
+      <br/>
+      For example, if the ratio 248 is high or the subscriber category 208 is heavy-user, the MSC/VLR 230 can page 215 the MS 200 in the sub-LA 260, thus reducing the amount of network resources (paging channels 215) utilized by the network 205 to get in contact with the MS 200.
+      <br/>
+      However, if the ratio 248 is low or the subscriber category 208 is light-user, the MSC/VLR 230 can page 215 the MS 200 within the entire LA 250.
+    </p>
+    <p num="30">
+      As a result, more focused paging 215 is performed for the subscribers who are paged more frequently.
+      <br/>
+      It should be noted that the ratio 248 or subscriber category 208 can also be tailored by location, time and mobility of the subscriber.
+      <br/>
+      In addition, sub-LAs 260 can in turn be divided into further sub-LA's (not shown) along with associated thresholds 245 or subscriber categories 208.
+    </p>
+    <p num="31">
+      As will be recognized by those skilled in the art, the innovative concepts described in the present application can be modified and varied over a wide range of applications.
+      <br/>
+      Accordingly, the scope of patented subject matter should not be limited to any of the specific exemplary teachings discussed.
+    </p>
+    <p num="32">For example, it should be understood that the paging channel efficiency systems and methods disclosed herein can be utilized by any cellular network, including, but not limited to the Global System for Mobile Communications (GSM) network, the Personal Communications Systems (PCS) network, the AMPS network and the D-AMPS network.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A telecommunications system for optimizing the use of paging channels within a cellular network, said telecommunications system comprising:</claim-text>
+      <claim-text>at least one location area within said cellular network, said location area being divided into at least two sub-location areas; a mobile terminal in wireless communication with a mobile switching center within said cellular network, said mobile terminal being located within a given one of said sub-location area;</claim-text>
+      <claim-text>and a memory having threshold information and paging and updating information associated with said mobile terminal stored therein, said paging and updating information comprising a ratio of the number of pages attempted by said mobile switching center to said mobile terminal to the number of location updates attempted by said mobile terminal to said mobile switching center; wherein said mobile switching center pages said mobile terminal on said paging channels within said given sub-location area and not on said paging channels within at least one other of said at least two sub-location areas when the value of said ratio is above said threshold information; wherein said mobile switching center pages said mobile terminal on said paging channels within said location area when the value of said ratio is below said threshold information.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The telecommunications system of claim 1, wherein said paging and updating information is associated with the amount of usage of said paging channels by said mobile terminal.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The telecommunications system of claim 1, wherein said memory is within said mobile terminal.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The telecommunications system of claim 3, wherein said memory is a Subscriber Identity Module card.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The telecommunications system of claim 3, wherein said paging and updating information is determined by said memory within said mobile terminal.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The telecommunications system of claim 1, wherein said paging and updating information is associated with a predefined time period, said paging and updating information being updated at the end of said predefined time period.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The telecommunications system of claim 1, further comprising at least one base station in wireless communication with said mobile terminal and connected to said mobile switching center, said base station being located within said given sub-location area, said paging channels being associated with said base station, said base station broadcasting information associated with said location area and said given sub-location area.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. The telecommunications system of claim 1, wherein said mobile terminal performs a location update to said mobile switching center when said mobile terminal enters said location area but not when said mobile terminal enters one of said at least two sub-location areas when the value of said ratio is below said threshold information.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The telecommunications system of claim 1, further comprising a home location register connected to said mobile switching center, said memory being within said home location register.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The telecommunications system of claim 9, wherein said home location register sends, via said mobile switching center, said paging and updating information to said mobile terminal to be stored in a memory therein.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The telecommunications system of claim 9, wherein said home location register sends paging and updating information to said mobile switching center, said mobile switching center using said paging and updating information to determine whether to page said mobile terminal within said location area or within said given sub-location area.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The telecommunications system of claim 1, wherein said memory is within said mobile terminal, said paging and updating information being determined and sent to said mobile terminal by said mobile switching center.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The telecommunications system of claim 1, wherein each of said sub-location areas are further divided into at least two additional sub-location areas.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The telecommunications system of claim 1, wherein said memory stores a location update threshold and wherein said mobile terminal performs a location update to said mobile switching center when said mobile terminal enters said given sub-location area but not when said mobile terminal enters said location area when the value of said ratio is below said threshold information and the number of location updates attempted by said mobile terminal is above said location update threshold.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The telecommunications system of claim 1, wherein said paging and updating information is associated with at least one subscriber category, said paging and updating information resulting in sub-location area paging when said subscriber category is set to heavy-user, said paging and updating information resulting in location area paging when said subscriber category is set to light-user.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The telecommunications system of claim 1, wherein said mobile terminal performs a location update to said mobile switching center when said mobile terminal enters said given sub-location area but not when said mobile terminal enters said location area when the value of said ratio is above said threshold information.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. A method for optimizing the use of paging channels within a cellular network, said method comprising the step of: dividing at least one location area within said cellular network into at least two sub-location areas; determining paging and updating information associated with a mobile terminal in wireless communication with a mobile switching center within said cellular network, said mobile terminal being located within a given one of said sub-location areas, said paging and updating information comprising a ratio of the number of Pages attempted by said mobile switching center to said mobile terminal to the number of location updates attempted by said mobile terminal to said mobile switching center; paging, by said mobile switching center, said mobile terminal on said paging channels within said given sub-location area and not paging said mobile terminal on said paging channels within at least one other of said at least two sub-location areas when the value of said ratio is above threshold information;</claim-text>
+      <claim-text>and paging, by said mobile switching center, said mobile terminal on said paging channels within said location area when the value of said ratio is below said threshold information.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The method of claim 17, wherein said paging and updating information is associated with the amount of usage of said paging channels by said mobile terminal.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The method of claim 17, wherein said paging and updating information and said threshold information are stored in a memory within said mobile terminal.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The method of claim 19, wherein said memory is a Subscriber Identity Module card.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The method of claim 19, wherein said step of determining is performed by said memory within said mobile terminal.</claim-text>
+    </claim>
+    <claim num="22">
+      <claim-text>22. The method of claim 17, wherein said step of determining is performed with a predefined time period.</claim-text>
+    </claim>
+    <claim num="23">
+      <claim-text>23. The method of claim 17, further comprising, after said step of determining, the step of: broadcasting, by at least one base station in wireless communication with said mobile terminal and connected to said mobile switching center, information associated with said location area and said sub-location area, said base station being located within said given sub-location area, said paging channels being associated with said base station.</claim-text>
+    </claim>
+    <claim num="24">
+      <claim-text>24. The method of claim 17, further comprising the step of: performing, by said mobile terminal, a location update to said mobile switching center when said mobile terminal enters said location area but not when said mobile terminal enters one of said at least two sub-location areas when the value of said ratio is below said threshold.</claim-text>
+    </claim>
+    <claim num="25">
+      <claim-text>25. The method of claim 17, wherein said paging and updating information is stored in a home location register connected to said mobile switching center.</claim-text>
+    </claim>
+    <claim num="26">
+      <claim-text>26. The method of claim 25, further comprising, after said step of determining, the step of: sending, by said home location register, via said mobile switching center, said paging and updating information to said mobile terminal to be stored in a memory therein.</claim-text>
+    </claim>
+    <claim num="27">
+      <claim-text>27. The method of claim 25, further comprising, after said step of determining, the step of: sending, by said home location register, said paging and updating information to said mobile switching center, said mobile switching center using said paging and updating information to determine whether to page said mobile terminal within said location area or within said given sub-location area.</claim-text>
+    </claim>
+    <claim num="28">
+      <claim-text>28. The method of claim 17, wherein said step of determining is performed by said mobile switching center, and further comprising, after said step of determining, the step of: sending, by said mobile switching center, said paging and updating information to said mobile terminal for storage in a memory therein.</claim-text>
+    </claim>
+    <claim num="29">
+      <claim-text>29. The method of claim 17, further comprising, after said step of dividing, the step of: further dividing each of said sub-location areas into at least two additional sub-location areas.</claim-text>
+    </claim>
+    <claim num="30">
+      <claim-text>30. The method of claim 17, further comprising the step of: performing, by said mobile terminal, a location update to said mobile switching center when said mobile terminal enters said given sub-location area but not when said mobile terminal enters said location area when the value of said ratio is below said threshold information and the number of location update attempts by said mobile terminal is above a location update threshold.</claim-text>
+    </claim>
+    <claim num="31">
+      <claim-text>31. The method of claim 17, wherein said paging and updating information is associated with at least one subscriber category, said paging and updating information resulting in sub-location area paging when said subscriber category is set to heavy-user, said paging and updating information resulting in location area paging when said subscriber category is set to light-user.</claim-text>
+    </claim>
+    <claim num="32">
+      <claim-text>32. The method of claim 17, further comprising the step of: performing, by said mobile terminal, a location update to said mobile switching center when said mobile terminal enters said given sub-location area but not when said mobile terminal enters said location area when the value of said ratio is above said threshold information.</claim-text>
+    </claim>
+    <claim num="33">
+      <claim-text>33. A mobile terminal within a cellular network, said cellular network having at least one location area therein, said location area being divided into at least two sub-location areas, said mobile terminal comprising: a memory for storing paging and updating information associated with said mobile terminal and threshold information, said paging and updating information comprising a ratio of the number of Pares attempted towards said mobile terminal to the number of location updates attempted by said mobile terminal; sending means for sending a location update message to a mobile switching center in wireless communication with said mobile terminal within said cellular network, said mobile terminal sending said location update message when said mobile terminal enters one of said at least two sub-location areas but not when said mobile terminal enters said location area when the value of said ratio is above said threshold information;</claim-text>
+      <claim-text>and receiving means for receiving a paging message from said mobile switching center, said mobile switching center transmitting said paging message on paging channels within one of said at least two sub-location areas but not in at least one other of said at least two sub-location areas when the value of said ratio is above said threshold information.</claim-text>
+    </claim>
+    <claim num="34">
+      <claim-text>34. The mobile terminal of claim 33, wherein said memory is a Subscriber Identity Module card.</claim-text>
+    </claim>
+    <claim num="35">
+      <claim-text>35. The mobile terminal of claim 33, further comprising determining means for determining said paging and updating information.</claim-text>
+    </claim>
+    <claim num="36">
+      <claim-text>36. The mobile terminal of claim 33, wherein said determining means determines said paging and updating information within a predefined time period.</claim-text>
+    </claim>
+    <claim num="37">
+      <claim-text>37. The mobile terminal of claim 33, wherein said paging and updating information is associated with the amount of usage of said paging channels within said cellular network by said mobile terminal.</claim-text>
+    </claim>
+    <claim num="38">
+      <claim-text>38. The mobile terminal of claim 33, wherein said mobile terminal sends said location update message when said mobile terminal enters said location area but not when said mobile terminal enters one of said at least two sub-location areas when the value of said ratio is below said threshold information.</claim-text>
+    </claim>
+    <claim num="39">
+      <claim-text>39. The mobile terminal of claim 33, wherein said mobile switching center transmits said paging message on paging channels within said location area when the value of said ratio is below said threshold information.</claim-text>
+    </claim>
+    <claim num="40">
+      <claim-text>40. The mobile terminal of claim 33, wherein said mobile switching center sends said paging and updating information to said mobile terminal for storage in said memory therein.</claim-text>
+    </claim>
+    <claim num="41">
+      <claim-text>41. The mobile terminal of claim 33, wherein said receiving means receives a broadcast message from at least one base station in wireless communication with said mobile terminal and connected to said mobile switching center, said broadcast message containing information associated with said location area and one of said at least two sub-location areas, said sending means using said information to send said location update message, said paging channels being associated with said at least one base station.</claim-text>
+    </claim>
+    <claim num="42">
+      <claim-text>42. The mobile terminal of claim 33, wherein said memory further stores a location update threshold, said mobile terminal sending said location update message when said mobile terminal enters one of said at least two sub-location areas but not when said mobile terminal enters said location area when the value of said ratio is below said threshold information and the number of location updates attempted by said mobile terminal is above said location update threshold.</claim-text>
+    </claim>
+    <claim num="43">
+      <claim-text>43. The mobile terminal of claim 33, wherein said paging and updating information is associated with at least one subscriber category, said paging and updating information resulting in sub-location area paging when said subscriber category is set to heavy-user, said paging and updating information resulting in location area paging when said subscriber category is set to light-user.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

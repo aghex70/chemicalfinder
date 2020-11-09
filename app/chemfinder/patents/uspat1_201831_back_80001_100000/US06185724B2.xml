@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185724B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185724</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185724</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25529557" extended-family-id="42113836">
+      <document-id>
+        <country>US</country>
+        <doc-number>08982847</doc-number>
+        <kind>A</kind>
+        <date>19971202</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08982847</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172213</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>98284797</doc-number>
+        <kind>A</kind>
+        <date>19971202</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08982847</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/50        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>50</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>716123000</text>
+        <class>716</class>
+        <subclass>123000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>716130000</text>
+        <class>716</class>
+        <subclass>130000</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/50L1</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>017</main-group>
+        <subgroup>50L1</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/5072</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>5072</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>16</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>5</number-of-drawing-sheets>
+      <number-of-figures>12</number-of-figures>
+      <image-key data-format="questel">US6185724</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Template-based simulated annealing move-set that improves FPGA architectural feature utilization</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>CHENE MON R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5224056</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5224056</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>TRIMBERGER STEPHEN M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5513124</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5513124</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>ROY KAUSHIK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5598343</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5598343</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>FULLER CHRISTINE MARIE, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5764954</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5764954</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>GAD EL-KARIM GEORGE J, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5768479</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5768479</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>RHIM HOTAEK, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6006022</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6006022</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>FURTEK FREDERICK C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6014509</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6014509</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>CARRUTHERS COLIN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6035106</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6035106</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="9">
+          <document-id>
+            <country>US</country>
+            <doc-number>RE34363</doc-number>
+            <kind>E</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>USRE34363</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="10">
+          <text>CARTER WILLIAM S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4642487</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4642487</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="11">
+          <text>CARTER WILLIAM S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4706216</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4706216</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="12">
+          <text>EL GAMAL ABBAS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4758745</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4758745</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="13">
+          <text>FREEMAN ROSS H</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4870302</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4870302</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="14">
+          <text>GREENE JOHATHAN W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5073729</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5073729</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="15">
+          <text>CAMAROTA RAFAEL C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5144166</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5144166</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="16">
+          <text>EBELING WILLIAM H C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5208491</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5208491</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="17">
+          <text>KEAN THOMAS A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5243238</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5243238</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="18">
+          <text>PEDERSEN BRUCE B, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260610</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260610</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="19">
+          <text>CLIFF RICHARD G, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260611</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260611</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="20">
+          <text>AGRAWAL OM P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5260881</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5260881</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="21">
+          <text>HSIEH HUNG-CHENG, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5267187</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5267187</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="22">
+          <text>NEW BERNARD J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5349250</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5349250</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="23">
+          <text>CHIANG DAVID, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5357153</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5357153</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="24">
+          <text>GOETTING F ERICH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5365125</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5365125</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="25">
+          <text>HO WALFORD W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5455525</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5455525</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="26">
+          <text>TING BENJAMIN S</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5457410</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5457410</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="27">
+          <text>KEAN THOMAS A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5469003</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5469003</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="28">
+          <text>PIERCE KERRY M, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5581199</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5581199</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="29">
+          <text>NEW BERNARD J</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5629886</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5629886</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="30">
+          <text>ADVANCED MICRO DEVICES INC</text>
+          <document-id>
+            <country>EP</country>
+            <doc-number>0461798</doc-number>
+            <kind>A2</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>EP-461798</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Shahookar et al. ("VLSI Cell Placement Techniques", ACM Computing Surveys, vol. 23, No. 2, Jun. 1991, pp. 143-220).</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="2">
+          <text>Xilinx, Inc., "The Programmable Logic Data Book" 1996, available from Xilinx, Inc., 2100 Logic Drive, San Jose, CA 95124, pp. 4-11 to 4-23 and 4-32 to 4-37, Jul. 30, 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="3">
+          <text>Lucent Technologies, Microelectronics Group, ORCA, "Field-Programmable Gate Arrays Data Book," Oct. 1996, pp. 2-9 to 2-20.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="4">
+          <text>Altera Corporation, "FLEX 10K Embedded Programmable Logic Family Data Sheet" from the Altera Digital Library, 1996, available from Altera Corporation, 2610 Orchard Parkway, San Jose, CA 95134-2020, pp. 31-53, Jun. 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <nplcit num="5">
+          <text>G. De Micheli et al., "Design Systems for VLSI Circuits, Logic Synthesis and Silicon Compilation" 1987, Martinus Nijhoff Publishers, Dordrecht, pp. 113-195. ISBN 90-247-3561-0, Jan. 1987.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Xilinx, Inc.</orgname>
+            <address>
+              <address-1>San Jose, CA, US</address-1>
+              <city>San Jose</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>XILINX</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Ochotta, Emil S.</name>
+            <address>
+              <address-1>Campbell, CA, US</address-1>
+              <city>Campbell</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Tachner, Esq., Adam H.</name>
+          </addressbook>
+        </agent>
+        <agent sequence="2" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Crosby, Heafey, Roach &amp; May</orgname>
+          </addressbook>
+        </agent>
+        <agent sequence="3" rep-type="agent">
+          <addressbook lang="en">
+            <name>Cartier, Lois D.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lintz, Paul R.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A modification to the available simulated annealing algorithm is provided to better utilize direct connects and other architecture-specific features of a Field Programmable Gate Array.
+      <br/>
+      A preferred embodiment comprises adding a template-based move to the SA move-set that recognizes a specific pattern or template in the user's design after mapping, and arranges the components into the optimal configuration for the specific template discovered.
+      <br/>
+      The present invention increases the intelligence of the SA move-set by selectively supplementing the random moves in the move-set with moves that produce locally good solutions.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+    <p num="1">
+      This application is related to concurrently filed and commonly assigned U.S. patent application Ser.
+      <br/>
+      No. 08/982,636, now U.S. Pat. No. 6,069,490, invented by Emil S. Ochotta and Douglas P. Wieland, entitled "ROUTING ARCHITECTURE USING A DIRECT CONNECT ROUTING MESH", which is incorporated herein by reference.
+    </p>
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="2">The present invention relates generally to the field of logic mapping, placement and routing in programmable logic devices, and particularly to mapping, placement and routing in Field Programmable Gate Arrays ("FPGAs").</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="3">
+      Simulated annealing ("SA") is a method of optimizing properties of large, complex systems.
+      <br/>
+      Essentially, SA is optimization via random search.
+      <br/>
+      New states in the system are chosen at random, then compared to the current state and either accepted in place of the current state, or rejected.
+      <br/>
+      This random search continues until the system has converged to a final state that is acceptable based on a problem-specific cost function.
+    </p>
+    <p num="4">
+      SA derives its name from a useful analogy drawn from the annealing of solids involving melting a substance, then carefully cooling it until a highly regular crystalline structure is formed.
+      <br/>
+      Making an analogy to the optimization of large, complex systems (such as the placement and routing of circuit elements in an FPGA), the cost function that describes the quality of a particular state of the system (implementation efficiency, or quality of the place and route solution) corresponds to the energy in the substance being annealed, variables in a system correspond to atoms in the substance being annealed, and the minimum in the cost function discovered during the optimization process corresponds to the highly regular crystalline structure that results from annealing.
+    </p>
+    <p num="5">
+      The key innovation in SA was the introduction of effective temperature, T, into complex system optimization via random search.
+      <br/>
+      As with annealing of solids, the simulated annealing process begins with a high effective temperature and slowly reduces it.
+      <br/>
+      When the effective temperature has decreased such that the system being optimized has settled into a minimum in the cost function, C, the optimization process is complete.
+    </p>
+    <p num="6">Given an initial problem state, X0 and an initial temperature, T0, a pseudo-code description of an available SA algorithm is shown in FIG. 1.</p>
+    <p num="7">
+      At the core of the algorithm shown in FIG. 1 are the two functions generate and accept.
+      <br/>
+      How the annealer generates a new problem state given the current state is encoded in the function generate (on line 4 of FIG. 1).
+      <br/>
+      Function accept on line 5 determines whether the newly generated problem state replaces the current problem state.
+      <br/>
+      Using SA, new states are accepted not only when they cause a decrease (i.e., an improvement) in the cost, but, with a probability based on the temperature, also when they cause an increase in the cost.
+      <br/>
+      The probability of acceptance of states that increase cost lowers as temperature decreases.
+      <br/>
+      This behavior is codified in the accept function for SA, which is defined in Equation 1:  (Equation image '1' not included in text)
+    </p>
+    <p num="8">
+      In Equation 1, random is a function that returns a uniform random number on the interval �0,1�. The behavior of Equation 1 is shown conceptually in FIGS. 2A and 2B. Downhill moves are moves to a new state with a lower cost than the present state, while uphill moves increase the cost.
+      <br/>
+      For a downhill move, C(x)-C(x+ DELTA x) is positive, and the exponent in Equation 1 will be positive, so the function on the right of the inequality will yield a value larger than one.
+      <br/>
+      Since the range of random is �0,1�, these downhill moves are accepted.
+      <br/>
+      The probability of accepting an uphill move depends on the ratio of the change in the cost function to the present temperature.
+      <br/>
+      For very hot temperatures, this ratio is small (the denominator in the exponent is far greater than the numerator) and almost all uphill moves are accepted.
+      <br/>
+      When the temperature has cooled such that it is only warm (FIG. 2A), the probability of accepting a large uphill move is substantially reduced, but many smaller uphill moves are still accepted.
+      <br/>
+      When the temperature is reduced further to cool, the probability of accepting uphill moves also decreases, as illustrated in FIG. 2B. This probability continues to drop until almost no uphill moves are accepted.
+      <br/>
+      At this point, the problem settles into the bottom of a valley in the cost surface and is considered to be frozen.
+      <br/>
+      Hot, warm, and cool temperatures are problem-specific; i.e., different systems will accept or reject states at different temperatures.
+    </p>
+    <p num="9">
+      Returning again to FIG. 1, the functions frozen, update_temp, and done_at_temperature determine when annealing is finished, how the temperature is updated, and how many moves should be performed at each temperature, respectively.
+      <br/>
+      The initial temperature, T0, and these critical control functions are collectively referred to as the cooling schedule.
+      <br/>
+      Optimal cooling schedules have been the subject of much research and selection of an appropriate schedule is crucial to an efficient implementation.
+      <br/>
+      However, discussion of cooling schedules is beyond the scope of this background discussion and will be understood by one skilled in the art to which the present invention pertains without additional discussion.
+    </p>
+    <p num="10">Any SA solution to a specific problem can be described in terms of the four principal components of the algorithm:</p>
+    <p num="11">
+      x, the problem representation, which maps the problem being solved into the current state within the annealer;
+      <br/>
+      generate, which implements the annealer's move-set (the set of possible perturbations referred to in Equation 1 as  DELTA x, used by the annealer to manipulate the current state;
+      <br/>
+      C(x), the cost function, which determines how the cost is calculated and what its components are;
+      <br/>
+      and the cooling schedule, which controls T, directing the overall cooling process.
+    </p>
+    <p num="12">
+      The most important decision to be made when designing an annealing implementation is how to handle constraints inherent in the problem being solved.
+      <br/>
+      For example, when trying to optimally place transistors on an integrated circuit (IC), the final solution is constrained such that none of the transistors can overlap.
+      <br/>
+      One way to handle these constraints within an annealing formulation is to penalize problem states that violate these constraints, by including penalty terms in the cost function.
+      <br/>
+      These penalty terms can be weighed against the other design objectives by using scalar weights, resulting in a weighted penalty function.
+      <br/>
+      However, not all constraints need be handled with a weighted penalty function; many constraints can be implemented either in the cost function or in the move-set.
+      <br/>
+      For example, simple bounds on the decision variables can be easily implemented in the move-set by simply not generating moves beyond the variable bounds.
+      <br/>
+      However, for more complex constraints, implementation is not so straightforward.
+      <br/>
+      In the case of optimal transistor placement on ICs, the constraint that transistors cannot overlap can be implemented by designing the move-set such that they never overlap, or by designing a cost function that penalizes illegal overlaps.
+      <br/>
+      Although the move-set approach is the most obvious solution, the cost function solution is easier to implement and is generally accepted as superior.
+      <br/>
+      The designer of any SA solution to a realistic problem will be faced with similar design trade-offs.
+    </p>
+    <p num="13">Annealing for FPGA Placement</p>
+    <p num="14">
+      The placement problem in FPGAs is often solved with SA.
+      <br/>
+      An FPGA is a regular, two-dimensional grid of logic blocks ("LBs").
+      <br/>
+      Each LB can be programmed to perform a single, small function.
+      <br/>
+      Programmable routing connects the LBs.
+    </p>
+    <p num="15">
+      The initial state of the user=s design and FPGA are shown conceptually in FIG. 3.
+      <br/>
+      The user's design is on the left and is a collection of interconnected gates.
+      <br/>
+      The grid on the right shows the empty FPGA, where each square (defined by a unique coordinate pair) is an LB.
+      <br/>
+      The routing structure is not shown.
+      <br/>
+      A user's complete digital design is typically implemented on the FPGA in three steps: mapping, placement, and routing.
+    </p>
+    <p num="16">
+      The mapping step comprises collecting gates into interconnected pieces called components.
+      <br/>
+      The results of the mapping step are shown in FIG. 4.
+      <br/>
+      Each component is small enough to fit within a single LB.
+    </p>
+    <p num="17">
+      Placement determines which LB in the FPGA to use for each component.
+      <br/>
+      The results of the placement step are shown in FIG. 5.
+      <br/>
+      The placement problem starts with a set of unplaced components.
+      <br/>
+      When complete, placement produces an (x,y) location for each component.
+      <br/>
+      These (x,y) locations are the grid co-ordinates of the LB that the component will occupy on the FPGA.
+    </p>
+    <p num="18">The final step, routing (not shown), determines how to program the programmable interconnect structure of the device such that the connections on the FPGA are compatible with those in the user's design.</p>
+    <p num="19">
+      In SA terms of move-set, cost function, and cooling schedule, the FPGA placement problem is typically formulated as follows:
+      <br/>
+      Problem representation: The problem is represented as the set of (x,y) co-ordinates that comprise the LB locations for all components in the user's design.
+      <br/>
+      Initial locations are assigned randomly for all the components, ensuring simply that the locations are legal (e.g., each location is unique).
+      <br/>
+      Thus, throughout the SA run, a component will always have a valid LB location.
+    </p>
+    <p num="20">
+      Move-set: The usual move-set typically contains only random swaps.
+      <br/>
+      A random swap first selects two LB locations randomly, then swaps the components at those locations. (One of these locations can be empty, with no ill effect).
+    </p>
+    <p num="21">
+      Cost function: The typical goal for a good implementation of a user's design on an FPGA is to minimize the interconnect delay (a function of distance and complexity of the interconnect path) between components.
+      <br/>
+      The actual interconnect delays cannot be known until the FPGA is routed, which is not performed until after placement.
+      <br/>
+      As a result, the placer's cost function simply estimates delay.
+    </p>
+    <p num="22">
+      Cooling schedule: Cooling schedules can be formulated that are independent of the particular problem domain.
+      <br/>
+      Assuming that such a schedule is used, further discussion of cooling schedules is not relevant to this background discussion.
+    </p>
+    <p num="23">Architecture-Specific Feature Utilization</p>
+    <p num="24">
+      One approach to avoiding complicated routing structures in FPGAs is the inclusion of special structures called direct connects between logic elements.
+      <br/>
+      For example, in the XC3000 device from Xilinx, Inc., assignee of the present invention, each LB connects to the four LBs to its north, south, east and west, as illustrated in FIG. 6.
+      <br/>
+      The X output may be connected directly (i.e., through only one programmable interconnect point (PIP)) to the B input of the LB immediately to its right and the C input of the LB immediately to its left.
+      <br/>
+      Similarly, the Y output may be connected directly (through only one PIP) to the D input of the LB immediately above and the A input of the LB immediately below.
+      <br/>
+      Similarly, the Xilinx XC4000EX includes four direct connects per LB: two vertical and two horizontal.
+      <br/>
+      A simplified view of this structure is illustrated in FIG. 7.
+      <br/>
+      Horizontal direct connects 4 connect subject LB 2 to adjacent LB 6 on the right, and vertical direct connects 8 connect subject LB 2 to LB 10 adjacent below.
+      <br/>
+      A new direct connect structure is also disclosed by Ochotta and Wieland in U.S. Pat. No. 6,069,490 entitled ROUTING ARCHITECTURE USING A DIRECT CONNECT ROUTING MESH, which is incorporated herein by reference.
+    </p>
+    <p num="25">
+      There have been a number of approaches taken to FPGA placement utilizing simulated annealing.
+      <br/>
+      To attempt to improve utilization of special architectural features such as direct connects, three kinds of techniques have been used.
+    </p>
+    <p num="26">
+      A first approach is to modify the cost function to encourage direct connects and other architecture-specific features to be used.
+      <br/>
+      In this manner, placements that use these architecture-specific features are assigned low cost, so that the normal annealing algorithm will tend to create placements that use these features.
+      <br/>
+      However, with a completely random move-set, the probability that a significant number of desired, architecture specific features will be used remains quite small.
+    </p>
+    <p num="27">
+      A second approach is to recognize patterns in the user's design and place some components in locally optimal locations before SA is executed.
+      <br/>
+      The pre-placed components are not moved during annealing.
+      <br/>
+      One problem with this technique is that the pre-placed components may be optimally placed with respect to each other, but may be non-optimal in the context of the overall design.
+    </p>
+    <p num="28">
+      A third available approach is to perform annealing as usual and then attempt to optimize the final placement to use more architecture specific features.
+      <br/>
+      The problem with this technique is that the locations needed to use the architecture-specific features may be occupied by other uninvolved components.
+      <br/>
+      Finding new locations for the displaced components is very difficult, and the new locations for those components may displace yet more components.
+      <br/>
+      In fact, in the general case, using this technique is tantamount to starting the entire placement process over again.
+    </p>
+    <p num="29">
+      Thus, key to effective utilization of architecture-specific features such as direct connects is awareness of their existence and location.
+      <br/>
+      Second, and just as important, is proper and advantageous use of the direct connects, since an implementation of a design is only as fast as the slowest path.
+      <br/>
+      For example, if the critical path for a signal is actually an 8-bit bus, all 8 bits in the bus must take similar advantage of direct connects.
+      <br/>
+      No advantage is gained if one of the bits uses direct connects to be faster than the other seven bits, since all bits on the bus must be received before processing can continue.
+    </p>
+    <p num="30">
+      Direct connect utilization is most effectively addressed during placement, since it is assumed that if logic blocks are placed so that they can be routed with direct connects, the router will find this direct connection without any difficulty.
+      <br/>
+      Unfortunately, when using optimization techniques such as available simulated annealing algorithms, placing components so that they can take advantage of direct connects is fairly unlikely.
+      <br/>
+      This is particularly true when there are only two possible relative placements of a pair of blocks that can use a direct connect.
+      <br/>
+      Because available SA algorithms move blocks randomly, trying to find one of only two ideal solutions in a large number of random perturbations makes SA a highly inefficient mechanism for utilizing valuable device resources.
+    </p>
+    <p num="31">
+      We can therefore see that architecture-specific features such as direct connects are used only under very specific circumstances and SA by its nature is not effective for finding special cases.
+      <br/>
+      For example, a direct connect can be used only when a component and its signal driving mate are placed into directly connected LBs.
+      <br/>
+      Given the number of possible valid placements of components in LBs on a real FPGA, random placements would rarely utilize direct connects.
+      <br/>
+      Given that the standard SA algorithm is driven by random moves, direct connect utilization in placement done by available SA algorithms is likely to be poor.
+    </p>
+    <p num="32">Thus, efficient and effective utilization of direct connect resources in FPGAs requires improvements in the available art.</p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="33">
+      To address the shortcomings of the available art, the present invention provides modifications to the available SA algorithm to better utilize direct connects and other architecture-specific features of an FPGA.
+      <br/>
+      A preferred embodiment comprises adding a template-based move to the SA move-set.
+      <br/>
+      A template-based move is a move that recognizes a specific pattern or template (i.e., a predetermined correlation) in the user's design after mapping, and arranges the components into the optimal configuration for the specific template discovered.
+    </p>
+    <p num="34">
+      More specifically, the present invention increases the intelligence of the SA move-set by selectively supplementing the random moves in the move-set with moves that produce locally good solutions.
+      <br/>
+      The cost function mechanism then determines whether the locally good solutions are also good globally.
+    </p>
+    <p num="35">
+      In a specific example dealing with direct connects, the present invention provides for adding a move that traces an output signal with low fanout and transfers all of its loads so that they can be driven with a direct connect.
+      <br/>
+      This move works in concert with the random moves being used by the annealer and results in significant improvements in direct connect utilization when compared with annealing that uses only random moves.
+    </p>
+    <p num="36">It is therefore a first advantage of the present invention that certain desired device features are utilized when appropriate, creating a more efficient circuit implementation.</p>
+    <p num="37">Another advantage of the present invention is allowance of the natural annealing action and the cost function to determine the best overall placement while introducing the locally optimal placements for consideration.</p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="38">
+      The aforementioned advantages of the present invention as well as additional advantages thereof will be more clearly understood hereinafter as a result of a detailed description of a preferred embodiment of the invention when taken in conjunction with the following drawings in which:
+      <br/>
+      FIG. 1 is a prior art pseudo-code description of a Simulated Annealing algorithm;
+      <br/>
+      FIGS. 2A and 2B illustrate the function of the Simulated Annealing algorithm of FIG. 1;
+      <br/>
+      FIG. 3 illustrates the initial conditions encountered before mapping a design to an FPGA;
+      <br/>
+      FIG. 4 illustrates the result of mapping a design to an FPGA;
+      <br/>
+      FIG. 5 illustrates the result of placing a mapped design in an FPGA;
+      <br/>
+      FIG. 6 illustrates a first prior art direct connect interconnect structure;
+      <br/>
+      FIG. 7 illustrates a second prior art direct connect interconnect structure;
+      <br/>
+      FIGS. 8A-8D illustrate the effect and proper function of a preferred embodiment of the improved optimization algorithm of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="39">
+      Referring first to the example in FIGS. 8A-D, partial results of mapping the user's design are shown in FIG. 8A, which shows a subset of the components created by mapping.
+      <br/>
+      FIG. 8B shows a direct-connect mesh built into example FPGA hardware, as described in U.S. patent application Ser.
+      <br/>
+      No. 08/982,636.
+      <br/>
+      In this example, the connections from component A to components B and C can be sped up by using the direct-connect mesh.
+      <br/>
+      A template-based move recognizes configuration of components A, B and C as a candidate for using direct connects and re-arranges the components on the FPGA to take advantage of the direct connects, as illustrated in FIGS. 8C and 8D. FIG. 8C shows the placement of some of the components in the user's design before the template-based move is performed.
+      <br/>
+      Here, the components Q and R are other components in some other part of the user's design not shown.
+      <br/>
+      FIG. 8D shows the placement of these same components after the template-based move has been completed.
+      <br/>
+      The template-based move recognized that the connection between components A and B could utilize a direct-connect if components B and Q were swapped, so it performed the swap.
+      <br/>
+      A similar swap was performed for components C and R.
+    </p>
+    <p num="40">
+      In general, for an FPGA architecture with a direct-connect mesh or other architecture-specific features, the improved simulated annealing algorithm of the present invention only modifies the existing SA algorithm by addition of template-based moves to the move-set (also requiring at least some tuning of the algorithm implementation due to the concomitant change in algorithmic properties accompanying a move-set alteration).
+      <br/>
+      The addition of template-based moves to random moves will be readily understood by one skilled in the art to which the present invention pertains because in most prior art annealers there are already a plurality of random move types.
+      <br/>
+      For example, annealers often define small, medium, and large moves based on the distance the component moves.
+    </p>
+    <p num="41">Prior art annealers typically choose among the kinds of moves to use with one of the following techniques:</p>
+    <p num="42">
+      Cycle through the available kinds of moves.
+      <br/>
+      In this case, a given kind of move is performed at fixed intervals.
+    </p>
+    <p num="43">Place a move type in the list of available move types more than once to allow more frequent performance of some moves.</p>
+    <p num="44">
+      Assign a fixed probability to each move, instead of having a fixed list of move types.
+      <br/>
+      A random number generator is then employed to randomly select the move type with a frequency based on its assigned probability.
+    </p>
+    <p num="45">
+      Instead of using a fixed probability, the probability of selecting a given move type is varied over the course of the algorithm.
+      <br/>
+      For example, probabilities can be assigned in proportion to the effectiveness of the given move type.
+    </p>
+    <p num="46">A general description of the template-based move of the present invention is that it performs the following steps:</p>
+    <p num="47">
+      1.
+      <br/>
+      Study the mapped user's design to determine where template-based moves can be applied.
+      <br/>
+      For increased efficiency, this step is preferably performed at the beginning of the placement run.
+      <br/>
+      2. Randomly select an LB location that has a component assigned to it that participates in one of the templates found in step 1 (e.g., component A in FIG. 8C).
+      <br/>
+      3. Identify the other components that participate in the template (e.g., components B and C in FIG. 8A), and determine their current locations.
+      <br/>
+      4. To take advantage of a specific feature on the FPGA, dictate the optimal configuration for the set of components identified in step 2 (e.g., the direct connect mesh in FIG. 8B dictates that components B and C must be adjacent to component A).
+      <br/>
+      5. Move all the components identified in step 2 into their locally optimal configuration.
+      <br/>
+      If some of the needed LBs are occupied, swap out those components (e.g., the direct connect mesh in FIG. 8B dictates that components B and C must be adjacent to component A).
+    </p>
+    <p num="48">
+      It should be noted here that, at the end of a placement, not every component will end up in a locally optimal location for at least the following reasons:
+      <br/>
+      1.
+      <br/>
+      There may be components that are not part of any template.
+      <br/>
+      2. There may be components that are in more than one template and the templates conflict.
+      <br/>
+      3. The cost function ultimately controls the overall placement.
+      <br/>
+      The template-based moves produce solutions that are optimal only for the components involved with the template, and these may not be optimal in the context of the overall placement.
+      <br/>
+      Since random moves are still part of the move-set, the interaction of the random moves and the cost function may still create solutions where components are not in the locations dictated by any template-based moves.
+    </p>
+    <p num="49">
+      In a preferred embodiment, templates are created for a large variety of possible configurations of components in the user's design.
+      <br/>
+      Components in a user's design are not limited to components that fit into LBs.
+      <br/>
+      Component is a generic name that can be applied to groups of logic that fit into input/output blocks (IOBs), tristate buffers (TBUFs), carry logic, RAM, or any other hardware element on the FPGA.
+      <br/>
+      As such, templates that recognize any structure for which there is specific hardware support on the FPGA are contemplated as coming within the scope of the present invention.
+      <br/>
+      Examples include busses implemented with TBUFs, carry logic chains, gates wider than can fit in a single LB, bus structures, and arithmetic functions such as multipliers.
+    </p>
+    <p num="50">
+      Recognizing templates in the user's design is accomplished in one of several ways.
+      <br/>
+      Preferably, this task is a pre-processing step before annealing begins, saving the locations of the recognized patterns.
+      <br/>
+      The preferable algorithm for recognizing patterns in the user's design is to treat the problem as one of graph isomorphism by hashing.
+      <br/>
+      Hashing is the process of creating a single number that represents the pattern.
+      <br/>
+      The preferred embodiment includes hashing the available templates, then hashing the user's design looking for matching hash values.
+      <br/>
+      For example, a simple hash function might be to count 1 for components that can fit into LBs, then add 10 for each driven LB component.
+      <br/>
+      Thus, the hash value for component A in FIG. 8A is 1+10+10=21.
+      <br/>
+      This process is performed initially for all of the patterns of components that define template-based moves.
+      <br/>
+      Then, the process is repeated for each component in the user's design.
+      <br/>
+      If the hash value for a particular component matches the hash value for one of the template-based moves, a more detailed comparison is performed to determine whether the template is actually applicable.
+      <br/>
+      In practice, a much more sophisticated hash function might be used to decrease the likelihood of false matches.
+      <br/>
+      Such hash functions are well-known to those of ordinary skill in the programming art.
+    </p>
+    <p num="51">
+      Finally, a few of the important features which distinguish the template-based moves of the present invention from any previous work are: 1) there are no mathematical gradients used in template-based moves (since there is no closed form cost function for FPGA placement, gradients are not practical in the FPGA placement domain); 2) template-based moves move components into a configuration that is optimal only for the components involved in the move.
+      <br/>
+      The overall placement as a result of this move may be either better or worse, as determined by the cost function in a manner independent of the move-set.
+      <br/>
+      This type of move is distinct from gradient-based moves because the gradients point towards local minima for the global cost function; and 3) template-based moves are targeted specifically at taking advantage of architecture-specific features of FPGA hardware that would otherwise be difficult to utilize.
+    </p>
+    <p num="52">
+      While the present invention has been described with reference to certain preferred embodiments, those skilled in the art will recognize that various modifications and other embodiments may be provided.
+      <br/>
+      For example, the template-based moves added to the move-set may be compatible with features other than direct connects.
+      <br/>
+      These and other embodiments are intended to fall within the scope of the present invention, which is limited only by the following claims.
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A method of allocating a plurality of integrated circuit device elements to implement a circuit design in a programmable device having a localized routing structure, each such element having a position on the device, the method comprising the steps of:</claim-text>
+      <claim-text>a) mapping the design into a plurality of blocks, each of the blocks corresponding to a single element on the device; b) placing the blocks according to an iterative algorithm;</claim-text>
+      <claim-text>and c) during said placing step, scanning the design for a plurality of design elements that can be advantageously interconnected using the localized routing structure, and upon locating such a plurality of design elements, altering the placement of the blocks in a non-random fashion to accommodate the localized routing structure.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The method of claim 1 further comprising the steps of: d) comparing the altered placement of the blocks to a pre-altered placement of the blocks;</claim-text>
+      <claim-text>and e) based on the results of comparing the altered placement of the blocks to the pre-altered placement of the blocks, canceling the altered placement.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A method of allocating a plurality of integrated circuit device elements to implement a circuit design in a programmable device, each such element having a position on the device, the method comprising the steps of: a) mapping the design into a plurality of blocks, each of the blocks corresponding to a single element on the device; b) placing the blocks according to an iterative algorithm;</claim-text>
+      <claim-text>and c) during said placing step, scanning the design for a plurality of design elements having a predetermined correlation with one another, and upon locating such a plurality of design elements, altering the placement of the blocks in a non-random fashion to accommodate the predetermined correlation in the implemented circuit, wherein in step b) the iterative algorithm is simulated annealing.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The method of claim 3 wherein the design is scanned for a plurality of design elements having a predetermined correlation with one another at the beginning of the simulated annealing process.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A method of allocating a plurality of integrated circuit device elements to implement a circuit design in a programmable device having a localized routing structure, each such element having a position on the device, the method comprising the steps of: a) segmenting the design into a plurality of blocks, each of said blocks corresponding to a single element on the device; b) placing said blocks among said elements on the device; c) randomly swapping said blocks to improve an estimated efficiency of an implementation resulting from said placement;</claim-text>
+      <claim-text>and d) scanning the design for a plurality of design elements that can be advantageously interconnected using the localized routing structure, and upon locating said plurality of design elements, non-randomly altering the placement of said blocks to accommodate said localized routing structure.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A method of re-allocating a plurality of components previously allocated to logic blocks in an FPGA design, the FPGA having a localized routing structure, the method comprising the steps of: a) studying the design to determine where a template can be applied in order to take advantage of the localized routing structure; b) selecting one such template; c) randomly selecting a logic block having a component assigned to it to participate in the selected template; d) identifying other components that participate in the selected template; e) determining the current location of the other components participating in the selected template;</claim-text>
+      <claim-text>and f) moving the components participating in the selected template in a non-random fashion, the moving resulting in a configuration matching the configuration of the template.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The method of claim 6, wherein step f) further comprises exchanging at least one component participating in the selected template with another component not participating in the template, thereby making room for the participating component.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method of iteratively placing a plurality of components from a logic circuit into a programmable device, the programmable device comprising an array of logic blocks, each component including logic that can be implemented in one logic block, each component being assigned to one logic block in the array, thereby creating an initial placement, the method comprising; performing a random iteration, the random iteration comprising:</claim-text>
+      <claim-text>- randomly swapping the assignments of at least two logic blocks, whereby creating a first resulting placement;</claim-text>
+      <claim-text>and - evaluating the first resulting placement;</claim-text>
+      <claim-text>and performing a non-random iteration, the non-random iteration comprising: - scanning the logic circuit and locating a plurality of components having a predetermined correlation according to a predetermined template; - non-randomly swapping the assignments of at least two logic blocks such that the predetermined correlation is preserved, thereby creating a second resulting placement;</claim-text>
+      <claim-text>and - evaluating the second resulting placement.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 8, wherein the step of performing a random iteration precedes the step of performing a non-random iteration.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 9, further comprising: after performing the non-random iteration, comparing the second resulting placement to the first resulting placement; calculating an accept function value for the second resulting placement;</claim-text>
+      <claim-text>and based on the results of comparing the second resulting placement to the first resulting placement, and further based on the accept function value, returning to the first resulting placement.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 8, wherein the step of performing a random iteration follows the step of performing a non-random iteration.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 11, further comprising: after performing the random iteration, comparing the first resulting placement to the second resulting placement; calculating an accept function value for the first resulting placement;</claim-text>
+      <claim-text>and based on the results of comparing the first resulting placement to the second resulting placement, and further based on the accept function value, returning to the second resulting placement.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 8, further comprising: creating a library of predetermined templates;</claim-text>
+      <claim-text>and prior to the step of scanning the logic circuit, selecting the predetermined template from the library of predetermined templates.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A method of iteratively placing a plurality of components from a logic circuit into a programmable device comprising an array of logic blocks, each component including logic that can be implemented in one logic block, the method comprising: assigning each component to one logic block in the array;</claim-text>
+      <claim-text>and changing the assignments of at least two logic blocks using a modified simulated annealing algorithm, the modified simulated annealing algorithm including a series of swapping steps, - a first group of the swapping steps randomly swapping the assignments of at least two logic blocks, and - a second group of the swapping steps non-randomly swapping the assignments of at least two logic blocks by scanning the logic circuit, locating a plurality of components having a predetermined correlation according to a predetermined template, and swapping the assignments of the at least two logic blocks to correlate the logic blocks according to the template.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. The method of claim 14, wherein each of the first group of swapping steps results in a random placement, and each of the second group of swapping steps results in a non-random placement, the step of changing the assignments of at least two logic blocks using a modified simulated annealing algorithm further comprising: comparing a first non-random placement to a first random placement; calculating an accept function value for the first non-random placement;</claim-text>
+      <claim-text>and based on the results of comparing the first non-random placement to the first random placement, and further based on the accept function value, returning to the first random placement.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The method of claim 14, further comprising: creating a library of predetermined templates;</claim-text>
+      <claim-text>and prior to the step of changing the assignments of at least two logic blocks using a modified simulated annealing algorithm, selecting the predetermined template from the library of predetermined templates.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

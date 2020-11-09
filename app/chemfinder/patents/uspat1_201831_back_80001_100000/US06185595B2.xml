@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185595B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185595</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185595</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference family-id="15151731" extended-family-id="42113663">
+      <document-id>
+        <country>US</country>
+        <doc-number>08952653</doc-number>
+        <kind>A</kind>
+        <date>19980310</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996US-08952653</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171977</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>JP</country>
+        <doc-number>13543895</doc-number>
+        <kind>A</kind>
+        <date>19950601</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1995JP-0135438</doc-number>
+      </priority-claim>
+      <priority-claim kind="international" sequence="2">
+        <country>WO</country>
+        <doc-number>JP9600461</doc-number>
+        <kind>A</kind>
+        <date>19960228</date>
+        <priority-linkage-type>W</priority-linkage-type>
+        <priority-active-indicator>N</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="2">
+        <doc-number>1996WO-JP00461</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/14        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>14</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>708402000</text>
+        <class>708</class>
+        <subclass>402000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/14M</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>017</main-group>
+        <subgroup>14M</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/147</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>147</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>3</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>10</number-of-drawing-sheets>
+      <number-of-figures>10</number-of-figures>
+      <image-key data-format="questel">US6185595</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Discrete cosine transformation operation circuit</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MIYAZAKI TAKASHI</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5181183</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5181183</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>IWAMA MASAHIRO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5291429</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5291429</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>TOYOKURA MASAKI, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5596518</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5596518</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="4">
+          <text>NEC CORP</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H03211604</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP03211604</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="5">
+          <text>FUJITSU LTD</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H04280368</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP04280368</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="6">
+          <text>NEC CORP</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H04277932</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP04277932</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="applicant">
+        <patcit num="7">
+          <text>NEC CORP</text>
+          <document-id>
+            <country>JP</country>
+            <doc-number>H05181896</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>JP05181896</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Hitachi, Ltd.</orgname>
+            <address>
+              <address-1>Tokyo, JP</address-1>
+              <city>Tokyo</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="original" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>Hitachi Device Engineering Co., Ltd.</orgname>
+            <address>
+              <address-1>Chiba, JP</address-1>
+              <city>Chiba</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="3">
+          <addressbook lang="en">
+            <orgname>HITACHI</orgname>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="4">
+          <addressbook lang="en">
+            <orgname>HITACHI DEVICE ENGINEERING</orgname>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Hori, Toyokazu</name>
+            <address>
+              <address-1>Kodaira, JP</address-1>
+              <city>Kodaira</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Sumi, Nario</name>
+            <address>
+              <address-1>Sendai, JP</address-1>
+              <city>Sendai</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Hase, Masaru</name>
+            <address>
+              <address-1>Kokubunji, JP</address-1>
+              <city>Kokubunji</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Mattingly, Stanger &amp; Malur, P.C.</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Ngo, Ohuong Dinh</name>
+      </primary-examiner>
+    </examiners>
+    <pct-or-regional-filing-data>
+      <document-id>
+        <country>WO</country>
+        <doc-number>JP9600461</doc-number>
+        <date>19960228</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996WO-JP00461</doc-number>
+      </document-id>
+    </pct-or-regional-filing-data>
+    <pct-or-regional-publishing-data>
+      <document-id>
+        <country>WO</country>
+        <doc-number>9638794</doc-number>
+        <kind>A1</kind>
+        <date>19961205</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>WO9638794</doc-number>
+      </document-id>
+    </pct-or-regional-publishing-data>
+    <lgst-data>
+      <lgst-status>LAPSED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      One multiplier 13 operated at a normalized frequency 4 is provided to multiply the elements of DCT transformation coefficients and the elements of input data, and the multiplication results are added by a cumulative adder 15 to determine cumulative addition results corresponding to the sum (x0+x7) and the difference (x0-x7) of a pair of elements (x0, x7) of data to be outputted from a one-dimensional DCT operation circuit 1.
+      <br/>
+      The paired cumulative addition results are added and subtracted by an adder 17 and a subtracter 18, respectively, to determine the elements (x0, x7).
+      <br/>
+      The operations are performed specific times the number of which is one half of the number of elements of a column of the matrix of the input data to determine the elements of a column of the matrix of the output data and are performed specific times the number of which is equal to the number of elements of a row of the matrix or the input data to determine all the elements of the matrix of the output data.
+      <br/>
+      As a result, the scale of the DCT operation circuit is reduced, thereby reducing the power consumption.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>TECHNICAL FIELD</heading>
+    <p num="1">The present invention relates to a technique for processing image data and a technique for decompressing the compressed image data and, more particularly, to a technique which is useful when applied to a discrete cosine transformation operation circuit in the JPEG (Joint Photographic Experts Group) system or the MPEG (Motion Picture Experts Group) system.</p>
+    <heading>BACKGROUND ART</heading>
+    <p num="2">In the prior art, the discrete cosine transformation (DCT) operation circuit is equipped with a plurality of multipliers for multiplying input data and DCT transformation coefficients.</p>
+    <p num="3">In the case of a DCT matrix operation composed of 8 rows and 8 columns (8 * 8), as generally used in the JPEG system or the MPEG system, for example, there are provided eight multipliers.</p>
+    <p num="4">
+      However, the multiplier is equipped with a number of gates to raise a drawback that the gate scale of the entire operation circuit is enlarged.
+      <br/>
+      In addition, the operating frequency of the multipliers is equal to the frequency (which is equal to the frequency of the inputting timing of the input data) of the outputting timing of the DCT operation result, and the product of their ratio (i.e., "1") and the number of multipliers is as large as "8" to raise another drawback that the power consumption is increased.
+      <br/>
+      Specifically, the multipliers are driven with a high operating frequency, so that they consume a high power when driven.
+      <br/>
+      The number of the multipliers is as large as eight in the prior art so that the power consumption is further increased.
+    </p>
+    <p num="5">
+      As a measure for improvement, there is disclosed in Japanese Patent Laid-Open No. 4-280368, a DCT operation circuit which is constructed by using two multipliers operated with a frequency four times as high as that of the inputting timing of the data inputted to the DCT operation circuit.
+      <br/>
+      In this DCT operation circuit, for example, an input data x11 is multiplied by DCT transformation coefficients d11, d21, d31 and d41 by one multiplier, and by DCT transformation coefficients d51, d61, d71 and d81 by the other multiplier, thereby obtaining four multiplication results x11 d11, x11 d21, x11 d31 and x11 d41, and four multiplication results x11 d51, x11 d61, x11 d71 and x11 d81.
+      <br/>
+      The eight multiplication results thus obtained are stored in eight registers.
+    </p>
+    <p num="6">
+      Another input data x21 is also multiplied by DCT transformation coefficients d12, d22, d32 and d42 by one multiplier and by DCT transformation coefficients d52, d62, d72 and d82 by the other multiplier, thereby obtaining four multiplication results x21 d22, x21 d22, x21 d32 and x21 d42, and four multiplication results x21 d52, x21 d62, x21 d72 and x21 d82.
+      <br/>
+      The eight multiplication results thus obtained are stored in eight registers.
+      <br/>
+      Moreover, the eight multiplication results x21 d12, x21 d22, x21 d32, x21 d42, x21 d52, x21 d62, x21 d72 and x21 d82 and the preceding eight multiplication results x11 d11, x11 d21, x11 d31, x11 d41, x11 d51, x11 d61, x11 d71 and x11 d81 read out from the foregoing eight registers are added by adders, and the addition results are stored again in the aforementioned eight registers.
+    </p>
+    <p num="7">
+      By repeating the operation composed of such multiplication and cumulative addition eight times, the elements y11 to y81 of the matrix are determined.
+      <br/>
+      By repeating the operation eight times, moreover, all the elements of the matrix are determined.
+      <br/>
+      Thus, the one-dimensional 8 * 8 DCT matrix operation is ended.
+    </p>
+    <p num="8">
+      In the DCT operation circuit disclosed in Japanese Patent Laid-Open No. 4-280368, however, two multipliers are used and therefor improvement in the circuit scale is still needed.
+      <br/>
+      In other words, the number of multipliers is desirably reduced to one so that the circuit scale may be minimized.
+    </p>
+    <p num="9">
+      In the DCT operation circuit of the aforementioned Laid-Open, moreover, the multipliers are operated with a frequency four times as high as that of the inputting timing of the data inputted to the DCT operation circuit.
+      <br/>
+      As a result, the product of the ratio (hereinafter referred to as the "normalized frequency") of the operating frequency of the multipliers to the frequency of the inputting timing of the data and the number of multipliers is "8", and no improvement has been made in the power consumption.
+      <br/>
+      In order to reduce the power consumption, the product of the normalized frequency and the number of multipliers is desired to be minimized as much as possible.
+    </p>
+    <p num="10">The invention has been made in view of the circumstances and has a main object to provide a discrete cosine transformation operation circuit whose power consumption is reduced by setting the product of the number of multipliers of a one-dimensional discrete cosine transformation operation circuit and the normalized frequency at 4 and to reduce the circuit scale by setting the number of multiplier at 1.</p>
+    <p num="11">The foregoing and other objects and novel features of the invention will become apparent from the following description to be made with reference to the accompanying drawings.</p>
+    <heading>DISCLOSURE OF INVENTION</heading>
+    <p num="12">The summary of representatives of the aspects of the invention to be disclosed herein will be described in the following.</p>
+    <p num="13">
+      In the discrete cosine transformation operation circuit of the invention, more specifically, there is provided one multiplier which is operated with a frequency four times as high as that of the inputting timing of the data to be inputted to the discrete cosine transformation operation circuit to sequentially multiply the elements of the DCT transformation coefficients and the elements of the input data respectively.
+      <br/>
+      The multiplication results are added by the cumulative adder to determine a pair of cumulative addition results which correspond to the sums and differences of the paired elements of the data to be outputted from the discrete transformation operation circuit.
+      <br/>
+      The operations for determining the paired elements of the output data by adding and subtracting the cumulative addition results by the adder and the subtracter specific times the number of which is one-half of the number of elements of the column of the matrix of the input data.
+      <br/>
+      All the elements of the matrix of the output data are determined by performing those operations specific times the number of which is equal to the number of elements of the row of the matrix of the input data.
+    </p>
+    <p num="14">
+      In the discrete cosine transformation operation circuit of the invention, more specifically, there is provided one multiplier which is operated with a frequency four times as high as that of the inputting timing of the data to be inputted to the discrete cosine transformation operation circuit to sequentially multiply the elements of the DCT transformation coefficients by the elements of the input data respectively.
+      <br/>
+      The multiplication results are added as they are by the first cumulative adder, and the signs are alternately inverted to perform addition by the second cumulative adder specific times the number of which is one-half of the number of elements of the row of the matrix of the input data, and thereby to determine the elements of the column of the matrix of the output data.
+      <br/>
+      These operations are performed specific times the number of which is equal to the number of elements of the column of the matrix of the input data to determine all the elements of the matrix of the output data.
+    </p>
+    <p num="15">Moreover, there are provided two multipliers to be operated with a frequency two times as high as that of the inputting timing of the data to be inputted to the discrete cosine transformation operation circuit, the DCT transformation coefficients are divided into two sets and stored in a ROM so that the respective multiplications of the elements of the sets of the DCT transformation coefficients and the elements of the input data may be simultaneously performed by the two multipliers.</p>
+    <p num="16">One or both of the discrete cosine transformation operation circuits are used to construct a two-dimensional discrete cosine transformation operation circuit comprising: a pair of one-dimensional discrete cosine transformation operation circuits; and an inverted RAM for performing the matrix operations, in which the elements of a row and the elements of a column of a matrix composed of operation results x00, x01, x02, . . . received from the one-dimensional DCT operation circuit on the input side, are exchanged, to output the operation results x00, x10, x20, . . . to the one-dimensional DCT operation circuit on the output side.</p>
+    <p num="17">
+      According to the above-specified means, the product of the number of multipliers and the normalized frequency is 4 in the one-dimensional discrete cosine transformation operation circuit, so that the power consumption can be reduced.
+      <br/>
+      Thanks to the single multiplier, moreover, the scale of the discrete cosine transformation operation circuit is reduced.
+    </p>
+    <heading>BRIEF DESCRIPTION OF DRAWINGS</heading>
+    <p num="18">
+      FIG. 1 is a block diagram showing a DCT operation circuit of a first embodiment schematically;
+      <br/>
+      FIG. 2 is a time chart showing a part of the operation timings of the DCT operation circuit;
+      <br/>
+      FIG. 3 is a block diagram showing a DCT operation circuit of a second embodiment schematically;
+      <br/>
+      FIG. 4 is a time chart showing a part of the operation timings of the DCT operation circuit;
+      <br/>
+      FIG. 5 is a block diagram showing a DCT operation circuit of a third embodiment schematically;
+      <br/>
+      FIG. 6 is a time chart showing a part of the operation timings of the DCT operation circuit;
+      <br/>
+      FIG. 7 is a block diagram showing a DCT operation circuit of a fourth embodiment schematically;
+      <br/>
+      FIG. 8 is a time chart showing a part of the operation timings of the DCT operation circuit;
+      <br/>
+      FIG. 9 is a block diagram showing a DCT operation circuit of a fifth embodiment schematically; and
+      <br/>
+      FIG. 10 is a time chart showing a part of the operation timings of the DCT operation circuit.
+    </p>
+    <heading>BEST MODE FOR CARRYING OUT THE INVENTION</heading>
+    <p num="19">
+      FIG. 1 is a block diagram showing a discrete cosine transformation (DCT) operation circuit of a first embodiment schematically.
+      <br/>
+      In this DCT operation circuit 1, input data are inputted through a shift register 10, a hold register 11 and a multiplexer 12 to a multiplier 13, and DCT transformation coefficients, read out of a coefficient storage ROM 14, are inputted to the multiplier 13, so that those input data and the DCT transformation coefficients are multiplied.
+    </p>
+    <p num="20">The results of multiplication are added by a cumulative adder 15 and are outputted through a demultiplexer 16 to an adder 17 and a subtracter 18, so that the output data, determined by the addition and subtraction, are outputted through registers 19A, 19B and 20 and a multiplexer 21.</p>
+    <p num="21">An address counter 23 is connected with the multiplexer 12 and the coefficient storage ROM 14, the DCT transformation coefficient corresponding to an address designated by incrementing the address counter 23 is outputted from the coefficient storage ROM 14, and the data corresponding to the address are outputted from the hold register 11 by the multiplexer 12.</p>
+    <p num="22">
+      The input/output timings of the data in the individual registers 10, 11, 19A, 19B and 20, the multiplexers 12 and 21 and the cumulative adder 15 and the increment timing of the address counter 23 are controlled according to timing signals generated from a timing control unit 22.
+      <br/>
+      Here, FIG. 1 is a table prepared by using a reference clock CLK (frequency:  PHI 0) inputted to the timing control unit 22 and the frequencies expressed using  PHI  ( PHI  is the frequency of the input timings of data to the shift register 10) of the timing signals outputted from the timing control unit 22 to the shift register 10, the hold register 11, the multiplexers 12 and 21, the cumulative adder 15, the registers 19A, 19B and 20 and the address counter 23.
+    </p>
+    <p num="23">This DCT operation circuit 1 produces two DCT operation results, when one column of data of an input matrix are inputted to the multiplier 13, by exploiting the regularity of the DCT transformation coefficients.</p>
+    <p num="24">The regularity of the DCT transformation coefficients will be described at first.</p>
+    <p num="25">For example, one-dimensional inverse DCT operations of 8 * 8 are expressed by a product of a matrix of the DCT transformation coefficients and an input coefficient matrix, as by Formula (1).  (Equation image '1' not included in text)</p>
+    <p num="26">
+      In this Formula, the 8 * 1 matrix on the lefthand side is the one-dimensional inverse DCT operation result, and the 8 * 8 matrix and the 8 * 1 matrix on the righthand side are the DCT transformation coefficients and the input data, respectively.
+      <br/>
+      Here, the coefficients a, b, c, d, e, f and g in the DCT transformation matrix are expressed as follows.
+    </p>
+    <p num="27">
+      a=cos ( PI /16)/2
+      <br/>
+      b=cos (2 PI /16)/2
+      <br/>
+      c=cos (3 PI /16)/2
+      <br/>
+      d=cos (4 PI /16)/2
+      <br/>
+      e=cos (5 PI /16)/2
+      <br/>
+      f=cos (6 PI /16)/2
+      <br/>
+      g=cos (7 PI /16)/2
+    </p>
+    <p num="28">
+      Formula (1) can be transformed into Formula (2).
+      <br/>
+      The DCT operation circuit 1 produces the one-dimensional inverse DCT operation results by using the regularity of Formula (2).
+      <br/>
+      Here in Formula (1) and Formula (2), only the first column of the 8 * 8 matrix is expressed for the input data and the output data, but the second to eighth columns are similar to the first column.  (Equation image '2' not included in text)
+    </p>
+    <p num="29">
+      The DCT operation circuit 1 will be described in detail for the case of Formula (2), for example, with reference to the timing chart shown in FIG. 2.
+      <br/>
+      Here, input timings X0', X1', X2', X3', X4', X5' and X6' of the shift register 10 denote the data to be newly inputted to the shift register 10 while data X0, X1, X2, X3, X4, X5, X6 and X7 inputted at the immediately preceding cycle to the shift register 10, are subjected to the DCT transformation (this holds for FIGS. 4, 6 and 8).
+    </p>
+    <p num="30">
+      The individual data (elements) X0, X1, X2, X3, X4, X5, X6 and X7 of the input data are sequentially inputted to the shift register 10.
+      <br/>
+      When these eight data are held in the shift register 10, they are transmitted from the shift register 10 to the hold register 11.
+      <br/>
+      Until the eight data of the next column are held in the shift register 10, the hold register 11 holds the eight data transmitted from the shift register 10.
+      <br/>
+      As a result, even if the data are consecutively inputted to the shift register 10, the data of one column can be held in the hold register 11.
+    </p>
+    <p num="31">
+      The data fetching and shifting timings of the shift register 10 and the data fetching timings of the hold register 11 are controlled by the timing signals which are generated and outputted by the timing control unit 22.
+      <br/>
+      In the shift register 10, for example, the data are inputted and shifted at timings of a period T (frequency:  PHI ).
+      <br/>
+      The hold register 11 receives the data from the shift register 10 at timings of a period 8T (frequency:  PHI /8).
+    </p>
+    <p num="32">
+      The eight data held in the hold register 11 are sequentially selected by the multiplexer 12 according to the addresses designated by the address counter 23, so that they are transmitted to the multiplier 13.
+      <br/>
+      In synchronism with the inputs of the eight data, the multiplier 13 reads the DCT transformation coefficients corresponding to the addresses designated by the address counter 23 from the coefficient storage ROM 14, and performs the multiplication of the DCT transformation coefficients b, f, d, d, a, c, e and g and the data X2, X6, X0, X4, X1, X3, X5 and X7 sequentially transmitted from the multiplexer 12.
+      <br/>
+      The multiplication results bX2, fX6, dX0, dX4, aX1, cX3, eX5 and gX7 are sequentially transmitted to an adder 15A of the cumulative adder 15.
+      <br/>
+      Of the DCT transformation coefficients thus read out, the four coefficients of the first half are the elements of the first to fourth columns of the first row of Formula (2), and the four coefficients of the second half are the elements of the fifth to eighth columns of the fifth row of Formula (2).
+    </p>
+    <p num="33">
+      The inputting timings of the data to be inputted from the multiplexer 12 to the multiplier 13 is controlled by the timing signal generated by and outputted from the timing control unit 22, and they are timings (frequency: 4 PHI ) of a quarter of the aforementioned input period T of the data inputted to the shift register 10 (frequency: 4 PHI ).
+      <br/>
+      Moreover, the multiplication results are sequentially transmitted at timings of a quarter of T of (T/4) (frequency: 4 PHI ) from the multiplier 13 to the cumulative adder 15.
+      <br/>
+      As a result, the product of the number of the multipliers and the normalized frequency in the first embodiment is �1 * 4=4�.
+    </p>
+    <p num="34">
+      The cumulative adder 15 comprises of the adder 15A and a register 15B and cumulatively adds the four multiplication results bX2, fX6, dX0 and dX4 of the first half inputted from the multiplier 13.
+      <br/>
+      Specifically, the first multiplication result bX2 is temporarily held in the register 15B.
+      <br/>
+      In synchronism with the next multiplication result fX6 inputted from the multiplier 13, the multiplication result bX2 is transmitted from the register 15B to the adder 15A, in which the addition of �bX2+fX6� is effected, and this addition result is temporarily held again in the register 15B.
+      <br/>
+      Like this, for the individual multiplication results dX0 and dX4, the multiplication result dX0 is added to the sum �bX2+fX6� temporarily held in the register 15B, and the addition result �bX2+fX6+dX0� is temporarily held in the register 15B.
+      <br/>
+      The multiplication result dX4 is further added to obtain �bX2+fX6+dX0+dX4�. This cumulative addition result obtained by adding the four multiplication results is transmitted to the demultiplexer 16, so that it is distributed and inputted to the adder 17 and the subtracter 18.
+    </p>
+    <p num="35">
+      The four multiplication results aX1, cX3, eX5 and gX7 of the second half inputted from the multiplier 13 are likewise cumulatively added by the cumulative adder 15.
+      <br/>
+      The cumulative addition result �aX1+cX3+eX5+gX7� thus obtained is transmitted to the demultiplexer 16, so that it is distributed and inputted to the adder 17 and the subtracter 18.
+    </p>
+    <p num="36">The outputting timings from the cumulative adder 15 to the demultiplexer 16 are controlled by the timing signals generated by and outputted from the timing control unit 22, and are identical to the input period T (frequency:  PHI ) of the input data.</p>
+    <p num="37">
+      The adder 17 and the subtracter 18 respectively adds and subtracts the two inputted cumulative addition results �bX2+fX6+dX0+dx4� and �aX1+cX3+eX5+gX7�. More specifically, the results of the cumulative adder 15 are individually inputted in sets of two to the adder 17 and the subtracter 18, so that the adder 17 determines their sum whereas the subtracter 18 sequentially determines the differences of the first input values from the next input values, that is, the differences of the values inputted n-th (n is an odd number) from the values inputted m-th (m is an even number).
+      <br/>
+      Here, as apparent from Formula (2), the double of the first cumulative addition result �bX2+fX6+dX0 and dX4� and the double of the second cumulative addition result �aX1+cX3+eX5+gX7� are equal to the sum �x0+x7� and the difference �x0-x7�, which are the elements of the output data (the inverse DCT operation results), respectively.
+      <br/>
+      As a result, the element x0 is obtained from the adder 17, and the element x7 is obtained from the subtracter 18.
+      <br/>
+      These two operation results x0 and x7 are simultaneously stored at the double period (2T) of the input period T of the input data in the registers 19A and 19B.
+    </p>
+    <p num="38">Such operations are also performed for the combinations of the elements of the first to fourth columns of the second row of the DCT transformation matrix of Formula (2) and the elements of the fifth to eighth columns of the sixth row, the combinations of the elements of the first to fourth columns of the third row and the elements of the fifth to eighth columns of the seventh row, and the combinations of the elements of the first to fourth columns of the fourth row and the elements of the fifth to eighth columns of the eighth row, so that the elements x0, x7, x1, x6, x2, x5, x3 and x4 of the first column of the output data are obtained.</p>
+    <p num="39">
+      As a result, the register 19A holds the elements x0, x1, x2 and x3 of the output data outputted from the adder 17.
+      <br/>
+      The register 19B holds the elements x7, x6, x5 and x4 of the output data outputted from the subtracter 18.
+      <br/>
+      The eight data (elements) of the first column of the data are transmitted, when held in the registers 19A and 19B, from the registers 19A and 19B to the register 20.
+      <br/>
+      Until the register 20 holds the eight data of the next column, it holds the eight data transmitted from the registers 19A and 19B.
+      <br/>
+      Here, the transmission timings of the data from the adder 17 and the subtracter 18 to the registers 19A and 19B are controlled by the timing signals generated by and outputted from the timing control unit 22, at a period (2T) twice the input period T of the input data.
+      <br/>
+      Moreover, the data transmissions from the registers 19A and 19B to the register 20 are performed in a cycle of 8T (frequency:  PHI /8).
+    </p>
+    <p num="40">
+      The individual elements x0, x1, x2, x3, x4, x5, x6 and x7 of the output data held in the register 20 are sequentially selected by the multiplexer 21 and outputted at timings of the period T (frequency:  PHI ).
+      <br/>
+      As a result, for the elements X0, X1, X2, X3, X4, X5, X6 and X7 of the first column of the input data inputted for the period T (frequency:  PHI ) to the DCT operation circuit 1, there are sequentially outputted in a cycle of T (frequency:  PHI ) the individual elements x0, x1, x2, x3, x4, x5, x6, x6 and x7 of the first column of the one-dimensional (inverse) DCT operation result.
+    </p>
+    <p num="41">By repeating the aforementioned operations from the second to eighth columns of the input data, it is possible to obtain the one-dimensional (inverse) DCT operation results of 8 * 8.</p>
+    <p num="42">
+      FIG. 3 is a block diagram schematically showing a DCT operation circuit of a second embodiment according to the invention.
+      <br/>
+      In a DCT operation circuit 2 of this second embodiment, as in the DCT operation circuit 1 of the foregoing first embodiment, the data inputted through the shift register 10, the hold register 11 and the multiplexer 12, and the DCT transformation coefficients read out from the coefficient storage ROM 14 are multiplied in the multiplier 13.
+      <br/>
+      The combination of the input data and the DCT transformation coefficients to be multiplied is selected by the address counter 23 which is connected with the multiplexer 12 and the coefficient storage ROM 14.
+      <br/>
+      Moreover, the output data determined by adding the multiplication results by two cumulative adders 30 and 31 are outputted through the registers 19A, 19B and 20 and the multiplexer 21.
+      <br/>
+      Here, in one cumulative adder (a first cumulative adder) 30, the multiplication results sequentially inputted from the adder 13 are added as they are.
+      <br/>
+      In the other cumulative adder (a second cumulative adder) 31, the multiplication results sequentially inputted from the adder 13 are added after the sign of every other result is inverted by a sign inverter 32.
+    </p>
+    <p num="43">
+      The input/output timings of the data in the individual registers 10, 11, 19A, 19B and 20, the multiplexers 12 and 21 and the cumulative adders 30 and 31, the sign inverting timings of the sign inverter 32, and the increment timing of the address counter 23 are controlled according to the timing signals generated from a timing control unit 22.
+      <br/>
+      Here, FIG. 3 is a table prepared by using a reference clock CLK (frequency:  PHI 0) inputted to the timing control unit 22; and the frequencies expressed by using  PHI  ( PHI  is the frequency of the input timings of data to the shift register 10) of the timing signals outputted from the timing control unit 22 to the shift register 10, the hold register 11, the multiplexers 12 and 21, the cumulative adders 30 and 31, the sign inverter 32, the registers 19A, 19B and 20 and the address counter 23.
+    </p>
+    <p num="44">This DCT operation circuit 2 produces two DCT operation results, when one column of data of an input matrix are inputted to the multiplier 13, by exploiting the regularity of the DCT transformation coefficients expressed by Formula (1).</p>
+    <p num="45">The DCT operation circuit 2 will be described in detail for the case of Formula (1), for example, with reference to the timing chart shown in FIG. 4.</p>
+    <p num="46">The descriptions of the shift register 10, the hold register 11, the multiplexers 12 and 21, the coefficient storage ROM 14, the multiplier 13, the registers 19A, 19B and 20, the timing control unit 22 and the address counter 23 will be omitted by designating them by the same reference numerals because of the similar construction to the first embodiment.</p>
+    <p num="47">
+      The individual data (or elements) X0, X1, X2, x3, X4, X5, X6 and X7 of the input data are sequentially inputted at timings of T/4 (frequency: 4 PHI ) to the multiplier 13 through the shift register 10, the hold register 11 and the multiplexer 12.
+      <br/>
+      In synchronism with the input timings of the data X1, X1, X2, X3, X4, X5, X6 and X7, the DCT transformation coefficients d, a, b, c, d, e, f and g of the first row of Formula (1) are sequentially inputted to the multiplier 13 from the coefficient storage ROM 14.
+    </p>
+    <p num="48">
+      The individual multiplication results dX0, aX1, bX2, cX3, dX4, eX5, fX6 and gX7 obtained by the multiplications in the multiplier 13 are sequentially transmitted at timings of T/4 (frequency: 4 PHI ) to an adder 30A of the first cumulative adder 30, and further to an adder 31A of the second cumulative adder 31 after the sign of every other result are inverted by the sign inverter 32.
+      <br/>
+      By the adders 30A and 31A and registers 30B and 31B of the individual cumulative adders 30 and 31, moreover, the eight multiplication results are added to obtain �dX0+aX1+bX2+cX3+dX4+eX5+fX6+gX7� from the first cumulative adder 30 and �dX0-aX1+bX2-cX3+dX4-eX5+fX6-gX7� from the second cumulative adder 31.
+      <br/>
+      Here, the accumulative additions are similar to those in the cumulative adder 15 of the foregoing first embodiment excepting that the number of cumulative additions is seven.
+    </p>
+    <p num="49">
+      As apparent from Formula (1), the first cumulative adder result �dX0+aX1+bX2+cX3+dX4+eX5+fX6+gX7� and the second cumulative adder result �dX0-aX1+bX2-cX3+dX4-eX5+fX6-gX7� are equal to the elements x0 and x7 of the output data (the inverse DCT operation results), respectively.
+      <br/>
+      As a result, the element x0 is obtained from the first cumulative adder 30, and the element x7 is obtained from the second cumulative adder 31.
+      <br/>
+      These two operation results x0 and x7 are stored in the registers 19A and 19B.
+    </p>
+    <p num="50">
+      By performing such operations for the second to fourth rows (the seven to fifth rows) of the DCT transformation matrix of Formula (1), there are obtained the elements x0, x1, x2, x3, x4, x5, x6 and x7 of the first column of the output data.
+      <br/>
+      The eight data (elements) of the first column of the output data are transmitted, when held in the registers 19A and 19B, to the register 20, so that they are sequentially selected by and outputted from the multiplexer 21.
+      <br/>
+      As a result, for the elements X0, X1, X2, X3, X4, X5, X6 and X7 of the first column of the input data inputted for the period T (frequency:  PHI ) to the DCT operation circuit 1, the elements x0, x1, x2, x3, x4, x5, x6 and x7 of the first column of the one-dimensional inverse DCT operation results are sequentially outputted in a cycle of the period T (frequency:  PHI ).
+    </p>
+    <p num="51">By repeating the aforementioned operations for the second to eighth columns of the input data, it is possible to obtain the one-dimensional DCT operation results of 8 * 8.</p>
+    <p num="52">
+      Here, the data and the DCT transformation coefficients are inputted to the multiplier 13 at timings of a quarter (T/4) of the input period T of the data (frequency: 4 PHI ) inputted to the shift register 10.
+      <br/>
+      The multiplication results are sequentially transmitted at timings of a quarter (T/4) of the period T (frequency: 4 PHI ) from the multiplier 13 to the cumulative adders 30 and 31.
+      <br/>
+      Therefore, the product of the number of multipliers and the normalized frequency in this second embodiment is �1 * 4=4�. The cumulative addition results are outputted at timings of 2T (frequency:  PHI /2) from the cumulative adders 30 and 31 to the registers 19A and 19B.
+      <br/>
+      The timing control unit 22 generates the sign inverting signals at timings of T/2 (frequency: 2 PHI ) and outputs them to the sign inverter 32.
+      <br/>
+      As a result, the sign of every other multiplication results out of the results inputted in a cycle of T/4 (frequency: 4 PHI ) to the cumulative adder 31 is alternately inverted.
+    </p>
+    <p num="53">
+      FIG. 5 is a block diagram showing a third embodiment of the DCT operation circuit according to the invention.
+      <br/>
+      In a DCT operation circuit 3 of this third embodiment, a pair of multiplexers 40 and 41 are connected with the hold register 11 for holding, for example, eight data inputted through the shift register 10; multipliers 42 and 45 are connected with the multiplexers 40 and 41, respectively; and coefficient storage ROMs 43 and 46 are connected with the multipliers 42 and 45, respectively.
+      <br/>
+      Although the number is not especially limited, the thirty two DCT transformation coefficients (excepting "0") of Formula (2), for example, are divided into two groups, so that sixteen coefficients are stored in each of the coefficient storage ROMs 43 and 46.
+    </p>
+    <p num="54">
+      In the multiplier 42, moreover, the data inputted from the shift register 10, the hold register 11 and the multiplexer 40, and the DCT transformation coefficients read out of the coefficient storage ROM 43 are multiplied.
+      <br/>
+      In the multiplier 45, the data inputted through the hold register 11 and the multiplexer 41, and the DCT transformation coefficients read out of the coefficient storage ROM 46 are multiplied.
+      <br/>
+      These operations in the multipliers 42 and 45 are processed in parallel.
+      <br/>
+      The combinations, multiplied in the individual multipliers 42 and 45, of the input data and the DCT transformation coefficient are selected by the address counter 23 which is commonly connected with the multiplexers 40 and 41 and the coefficient storage ROMs 43 and 46.
+    </p>
+    <p num="55">
+      An adder 47 is connected with the multipliers 42 and 45, and it adds the multiplication results outputted from the multipliers 42 and 45.
+      <br/>
+      With the adder 47, there is connected the cumulative adder 15 which further adds the two addition results consecutively outputted from the adder 47.
+    </p>
+    <p num="56">The addition result outputted from the cumulative adder 15 is outputted, as in the DCT operation circuit 1 of the foregoing first embodiment, through the demultiplexer 16 to the adder 17 and the subtracter 18, and the output data determined by the addition and the subtraction are outputted through the registers 19A, 19B and 20 and the multiplexer 21.</p>
+    <p num="57">
+      The input/output timings of the data in the individual registers 10, 11, 19A, 19B and 20, the multiplexers 40, 41 and 21 and the cumulative adder 15, and the increment timings of the address counter 23 are controlled according to the timing signals generated from the timing control unit 22.
+      <br/>
+      Here, FIG. 5 is a table prepared by using a reference clock CLK (frequency  PHI 0) inputted to the timing control unit 22, and the frequencies expressed using  PHI  (the frequencies of the input timings of data to the shift register 10) of the timing signals outputted from the timing control unit 22 to the shift register 10, the hold register 11, the multiplexers 40, 41 and 21, the cumulative adder 15, the registers 19A, 19B and 20 and the address counter 23.
+    </p>
+    <p num="58">This DCT operation circuit 3 produces two DCT operation results, when half data of one column in an input matrix are inputted to the multiplier 42 and when the other half data of one column in the input matrix are inputted to the multiplier 45, by exploiting the regularity of the DCT transformation coefficients expressed by Formula (2).</p>
+    <p num="59">The DCT operation circuit 3 will be described in detail for the case of Formula (2), for example, with reference to the timing chart shown in FIG. 6.</p>
+    <p num="60">The descriptions of the shift register 10, the hold register 11, the cumulative adder 15, the demultiplexer 16, the adder 17, the subtracter 18, the registers 19A, 19B and 20, the multiplexer 21, the timing control unit 22 and the address counter 23 will be omitted by designating them by the same reference numerals because of the similar construction to the foregoing first embodiment.</p>
+    <p num="61">
+      Half (four) data X2, X0, X1 and X5 of the eight data inputted through the shift register 10 and held in the hold register 11 are sequentially selected and transmitted to the multiplier 42 by the multiplexer 40 on the basis of the addresses designated by the address counter 23.
+      <br/>
+      In synchronism with the individual transfer timings of those data X2, X0, X1 and X5, the other four data X6, X4, X3 and X7 of the hold register 11 are sequentially selected and transmitted to the multiplier 45 by the multiplexer 41 on the basis of the address designation of the address counter 23.
+    </p>
+    <p num="62">
+      In synchronism with the inputs of the four data, the multiplier 42 sequentially reads out the DCT transformation coefficients corresponding to the addresses designated by the address counter 23, from the coefficient storage ROM 43, and operates the multiplications of the DCT transformation coefficients b, d, a and e (of which b and d are the DCT transformation coefficients of the first and third columns of the first row of Formula (2), and a and e are the DCT transformation coefficients of the fifth and seventh columns of the fifth row of Formula (2)) and the data X2, X0, X1 and X5 sequentially transmitted from the multiplexer 40.
+      <br/>
+      In synchronism with the inputs of the four data, the multiplier 45 sequentially reads out the DCT transformation coefficients corresponding to the addresses designated by the address counter 23, from the coefficient storage ROM 46, and operates the multiplications of the DCT transformation coefficients f, d, c and g (of which f and d are the DCT transformation coefficients of the second and fourth columns of the first row of Formula (2), and c and g are the DCT transformation coefficients of the sixth and eight columns of the fifth row of Formula (2)) and the data X6, X4, X3 and X7 sequentially transmitted from the multiplexer 41.
+    </p>
+    <p num="63">
+      The inputting timings of the data inputted from the multiplexers 40 and 41 to the multipliers 42 and 45 are controlled by the timing signals generated by and outputted from the timing control unit 22, and they are timings of one-half (T/2) of the input period T of the data inputted to the shift register 10 (frequency: 2 PHI ).
+      <br/>
+      In short, the operating frequency of the multipliers 42 and 45 is 2 PHI .
+      <br/>
+      As a result, the product of the number of multipliers and the normalized frequency in this third embodiment is �2 * 2=4�.
+    </p>
+    <p num="64">
+      The multiplication results bX2 and fX6, dX0 and dX4, aX1 and cX3, and eX5 and gX7 are in pairs inputted to the adder 47 synchronously from the multiplier 42 and the multiplier 45.
+      <br/>
+      Then, the adder 47 performs additions to output �bX2+fX6�, �dX0+dX4�, �aX1+cX3) and �eX5+gX7� sequentially to the cumulative adder 15.
+      <br/>
+      The input/output timings of the data of the adder 47 are controlled at timings of T/2 (frequency: 2 PHI ) by the timing signals generated by and outputted from the timing control unit 22.
+    </p>
+    <p num="65">
+      The cumulative adder 15 cumulatively adds the two multiplication results �bX2+fX6� and �dX0+dX4� of the first half inputted from the adder 47.
+      <br/>
+      The operation result �bX2+fX6+dX0+dX4� are transmitted to the demultiplexer 16, and distributed and inputted to the adder 17 and the subtracter 18.
+      <br/>
+      The two multiplication results �aX1+cX3� and �eX5+gX7� of the second half inputted from the adder 47 are also added by the cumulative adder 15, so that the operation result �aX1+cX3+eX5+gX7� is fed to the demultiplexer 16, and distributed and inputted to the adder 17 and the subtracter 18.
+    </p>
+    <p num="66">The outputting timings from the cumulative adder 15 to the demultiplexer 16 are controlled by the timing signal generated by and outputted from the timing control unit 22, and are timings of T/2 (frequency: 2 PHI ).</p>
+    <p num="67">The two cumulative addition results inputted to the adder 17 and the subtracter 18, are then processed as in the foregoing first embodiment through the adder 17, the subtracter 18 and the registers 19A, 19B and 20, and outputted as the output data (the inverse DCT operation results) from the multiplexer 21.</p>
+    <p num="68">Such operations are also performed for the combinations of the elements of the first to fourth columns of the second row of the DCT transformation matrix of Formula (2) and the elements of the fifth to eighth columns of the sixth row, the combinations of the elements of the first to fourth columns of the third row and the elements of the fifth to eighth columns of the seventh row, and the combinations of the elements of the first to fourth columns of the fourth row and the elements of the fifth to eighth columns of the eighth row, and the elements x0, x7, x1, x6, x2, x5, x3 and x4 of the first column of the output data are obtained.</p>
+    <p num="69">By repeating the aforementioned operations from the second to eighth columns of the input data, it is possible to obtain the one-dimensional DCT operation results of 8 * 8.</p>
+    <p num="70">
+      FIG. 7 is a block diagram showing a fourth embodiment of the DCT operation circuit according to the invention.
+      <br/>
+      In a DCT operation circuit 4 of this fourth embodiment, a pair of multiplexers 40 and 41 are connected with the hold register 11 for holding, e.g., eight data inputted through the shift register 10; multipliers 42 and 45 are connected with the multiplexers 40 and 41, respectively; and coefficient storage ROMs 43 and 46 are connected with the multipliers 42 and 45, respectively.
+      <br/>
+      Although the number is not especially limited, the sixty four DCT transformation coefficients of Formula (1), for example, are divided into two groups, so that thirty two DCT transformation coefficients are stored in each of the coefficient storage ROMs 43 and 46.
+    </p>
+    <p num="71">
+      In the multiplier 42, moreover, the data inputted from the shift register 10, the hold register 11 and the multiplexer 40, and the DCT transformation coefficients read out of the coefficient storage ROM 43 are multiplied.
+      <br/>
+      In the multiplier 45, the data inputted through the shift register 10, the hold register 11 and the multiplexer 41, and the DCT transformation coefficients read out of the coefficient storage ROM 46 are multiplied.
+      <br/>
+      These operations in the multipliers 42 and 45 are processed in parallel.
+      <br/>
+      The combinations, multiplied in the multipliers 42 and 45, of the input data and the DCT transformation coefficient are selected by the address counter 23 which is commonly connected with the multiplexers 40 and 41 and the coefficient storage ROMs 43 and 46.
+    </p>
+    <p num="72">
+      An adder 47 is connected with the multipliers 42 and 45, and it adds the multiplication results outputted from the multipliers 42 and 45.
+      <br/>
+      The cumulative adder 30 is connected with the adder 47, and the cumulative adder 31 is connected with the adder 47 through the sign inverter 32.
+    </p>
+    <p num="73">
+      The four addition results consecutively outputted from the adder 47 are added as they are in the cumulative adder 30, and added in the cumulative adder 31 after the sign of every other result is inverted by the sign inverter 32.
+      <br/>
+      The output data determined by the two cumulative adders 30 and 31 are outputted through the registers 19A, 19B and 20 and the multiplexer 21.
+    </p>
+    <p num="74">
+      The input/output timings of the data of the registers 10, 11, 19A, 19B and 20, the multiplexers 40, 41 and 21 and the cumulative adders 30 and 31, the sign inverting timings of the sign inverter 32, and the increment timings of the address counter 23 are controlled by the timing signals generated from the timing control unit 22.
+      <br/>
+      Here, FIG. 7 is a table prepared by using a reference clock CLK (frequency  PHI 0) inputted to the timing control unit 22, and the frequencies expressed using  PHI  (the frequencies of the input timings of data to the shift register 10) of the timing signals outputted from the timing control unit 22 to the shift register 10, the hold register 11, the multiplexers 40, 41 and 21, the cumulative adders 30 and 31, the sign inverter 32, the registers 19A, 19B and 20 and the address counter 23.
+    </p>
+    <p num="75">This DCT operation circuit 4 produces two DCT operation results, when one-half data of one column in an input matrix are inputted to the multiplier 42 and when the other half data of one column in the input matrix are inputted to the multiplier 45, by exploiting the regularity of the DCT transformation coefficients expressed by Formula (1).</p>
+    <p num="76">The DCT operation circuit 4 will be described in detail for the case of Formula (1), for example, with reference to a timing chart shown in FIG. 8.</p>
+    <p num="77">
+      The descriptions of the shift register 10, the hold register 11, the registers 19A, 19B and 20, the multiplexer 21 and the timing control unit 22 will be omitted by designating them by the same reference numerals because of the similar construction to the foregoing first embodiment.
+      <br/>
+      Moreover, the descriptions of the cumulative adders 30 and 31, the sign inverter 32 and the address counter 23 will be omitted by designating them by the same reference numerals because of the similar construction to the foregoing second embodiment.
+    </p>
+    <p num="78">
+      Half (four) data X0, X1, X4 and X5 out of the eight data inputted through the shift register 10 and held in the hold register 11 are sequentially selected and transmitted to the multiplier 42 by the multiplexer 40 on the basis of the addresses designated by the address counter 23.
+      <br/>
+      In synchronism with the individual transfer timings of those data X0, X1, X4 and X5, the other four data X2, X3, X6 and X7 of the hold register 11 are sequentially selected and transmitted to the multiplier 45 by the multiplexer 41 on the basis of the address designation of the address counter 23.
+    </p>
+    <p num="79">
+      In synchronism with the inputs of the four data, the multiplier 42 sequentially reads out the DCT transformation coefficients corresponding to the addresses designated by the address counter 23 from the coefficient storage ROM 43, and operates the multiplications of the DCT transformation coefficients d, a, d and e (which are in this order the DCT transformation coefficients of the first, second, fifth and sixth columns of the first row of Formula (1)) and the data X0, X1, X4 and X5 sequentially transmitted from the multiplexer 40.
+      <br/>
+      In synchronism with the inputs of the four data, the multiplier 45 sequentially reads out the DCT transformation coefficients corresponding to the addresses designated by the address counter 23 from the coefficient storage ROM 46, and operates the multiplications of the DCT transformation coefficients b, c, f and g (which are in this order the DCT transformation coefficients of the third, fourth, seventh and eighth columns of the first row of Formula (1)) and the data X2, X3, X6 and X7 sequentially transmitted from the multiplexer 41.
+    </p>
+    <p num="80">
+      The inputting timings of the data individually inputted from the multiplexers 40 and 41 to the multipliers 42 and 45 are controlled by the timing signals generated by and outputted from the timing control unit 22, and are the timings of one-half (T/2) of the input period T of the data inputted to the shift register 10 (frequency: 2 PHI ).
+      <br/>
+      In short, the operating frequency of the multipliers 42 and 45 is 2 PHI .
+      <br/>
+      As a result, the product of the number of multipliers and the normalized frequency in this fourth embodiment is �2 * 2=4�.
+    </p>
+    <p num="81">
+      The multiplication results dX0 and bX2, aX1 and cX3, dX4 and fX6, and eX5 and gX7 are in pairs inputted to the adder 47 synchronously from the multiplier 42 and the multiplier 45.
+      <br/>
+      Then, the adder 47 performs additions to output �dX0+bX2�, �aX1+cX3�, �dX4+fX6� and �eX5+gX7� sequentially.
+      <br/>
+      The input/output of the data of the adder 47 are controlled at timings of one-half (T/2) of the input period T of the data inputted to the shift register 10 (frequency: 2 PHI ) by the timing signals generated by and outputted from the timing control unit 22.
+    </p>
+    <p num="82">
+      The addition results outputted from the adder 47 are transmitted to the one cumulative adder 30 and through the sign inverter 32 to the other cumulative adder 31.
+      <br/>
+      The cumulative adder 30 cumulatively adds the four addition results sequentially transmitted from the adder 47, and outputs the result �dX0+bX2+aX1+cX3+dX4+fX6+eX5+gX7� to the register 19A.
+      <br/>
+      The sign of every other addition result out of the four addition results sequentially transmitted from the adder 47 is inverted by the sign inverter 32.
+      <br/>
+      The cumulative adder 31 cumulatively adds the four addition results, and outputs the result �dX0+bX2-aX1-cX3+dX4+fX6-eX5-gX7� to the register 19B.
+    </p>
+    <p num="83">These two cumulative addition results inputted to the registers 19A and 19B are processed as in the foregoing second embodiment and outputted as the output data (the inverse DCT operation results) from the multiplexer 21 through the register 20.</p>
+    <p num="84">
+      By performing such operations for the second to fourth rows (the seven to fifth rows) of the DCT transformation matrix of Formula (1), there are obtained the elements x0, x1, x2, x3, x4, x5, x6 and x7 of the first column of the output data.
+      <br/>
+      The eight data (elements) of the first column of the output data are transmitted, when held in the registers 19A and 19B, to the register 20, and they are sequentially selected by and outputted from the multiplexer 21.
+      <br/>
+      As a result, for the elements X0, X1, X2, X3, X4, X5, X6 and X7 of the first column of the input data inputted in a cycle of T (frequency:  PHI ) to the DCT operation circuit 1, the elements x0, x1, x2, x3, x4, x5, x6 and x7 of the first column of the one-dimensional inverse DCT operation results are sequentially outputted in a cycle of T (frequency:  PHI ).
+    </p>
+    <p num="85">By repeating such operations for the second to eighth columns of the input data, it is possible to obtain the one-dimensional DCT operation results of 8 * 8.</p>
+    <p num="86">
+      Here, the cumulative addition results are outputted at timings of 2T (frequency:  PHI /2) from the cumulative adders 30 and 31 to the registers 19A and 19B.
+      <br/>
+      Moreover, the timing control unit 22 generates the sign inverting signals at timings of T (frequency:  PHI ) and outputs them to the sign inverter 32.
+      <br/>
+      As a result, the sign of every other addition result out of the addition results inputted in a cycle of T/2 (frequency: 2 PHI ) from the adder 47 to the cumulative adder 31 is inverted.
+    </p>
+    <p num="87">Here, the DCT operation circuits of the foregoing first, second, third and fourth embodiments execute the inverse DCT operations when these embodiments are applied to an image data decoding process conforming of the MPEG or its corresponding standards.</p>
+    <p num="88">
+      FIG. 9 is a block diagram showing a fifth embodiment of the DCT operation circuit according to the invention.
+      <br/>
+      A DCT operation circuit 5 of this fifth embodiment executes two-dimensional DCT operations by using the one-dimensional DCT operation circuit 1, 2, 3 or 4 of the foregoing first, second, third or fourth embodiment.
+      <br/>
+      In this two-dimensional operation circuit 5, the data of an input matrix are inputted to one one-dimensional DCT operation circuit 1 (2, 3 or 4) to effect the one-dimensional DCT operations, as described in conjunction with the first, second, third or fourth embodiment.
+      <br/>
+      This output is inputted to an inverted RAM 6, the output of which is inputted to the other one-dimensional DCT operation circuit 1 (2, 3 or 4).
+      <br/>
+      Then, the one-dimensional DCT operations described in conjunction with the first, second, third or fourth embodiment, so that the two-dimensional DCT operation results are obtained.
+    </p>
+    <p num="89">
+      FIG. 10 is a time chart showing examples of the operation timings of the two-dimensional DCT operation circuit of the fifth embodiment.
+      <br/>
+      Upon receiving sixty four input data X00, X01, X02, . . . of an 8 * 8 matrix, the one-dimensional DCT operation circuit 1 (2, 3 or 4) on the input side of the two-dimensional DCT operation circuit 5 shown in FIG. 9 performs the one-dimensional DCT operations and outputs the operation results x00, x01, x02, . . . to the inverted RAM 6 after a fixed delay D1.
+      <br/>
+      Upon receiving to the sixty four operation results x00, x01, x02, . . . from the one-dimensional DCT operation circuit 1 (2, 3 or 4) on the input side, the inverted RAM 6 performs the matrix operations for exchanging the column elements and the row elements of the matrix comprising the received operation results, and outputs the results x00, x10, x20, . . . to the one-dimensional DCT operation circuit 1 (2, 3 or 4) on the output side.
+      <br/>
+      Upon receiving the sixty four operation results x00, x10, x20, . . . from the inverted RAM 6, the one-dimensional DCT operation circuit 1 (2, 3 or 4) on the output side performs an additional one-dimensional DCT operations for the received operation results, and outputs the operation results y00, y10, y20, . . . after a fixed delay D2.
+      <br/>
+      By these operations, it is possible to provide the two-dimensional DCT operation results.
+    </p>
+    <p num="90">
+      When this embodiment is applied to the image data decoding process comforming to the MPEG or its corresponding standards, for example, each one-dimensional DCT operation circuit 1 (2, 3 or 4) executes the inverted DCT operations.
+      <br/>
+      In this case, the data of the matrix inputted to the two-dimensional DCT operation circuit 5 of this embodiment are the data which are prepared, although not specifically shown, by converting the data of an input image into DCT coefficients by another coding two-dimensional DCT operation circuit, quantizing and compressing the DCT coefficients by a quantizer, and decompressing the compressed coefficients by a reverse-quantizer.
+      <br/>
+      Moreover, the data outputted from the two-dimensional DCT operation circuit 5 are transmitted to the motion compensation predicting unit (not shown).
+    </p>
+    <p num="91">
+      As has been described in detail, the one-dimensional DCT operation circuit 1 or 2 has either of the two constructions: a construction where there is provided one multiplier 13 operated with the normalized frequency 4 to multiply the elements of the DCT transformation coefficients and the elements of the input data sequentially, the multiplication results are added by the cumulative adder 15 to determine a pair of cumulative addition results which correspond to the respective sums and differences of the paired elements of the data to be outputted from the DCT operation circuit 1, the operations for determining the paired elements of the output data by adding and subtracting the cumulative addition results by the adder 17 and the subtracter 18 specific times the number of which is one-half of the number of elements of the column of the matrix of the input data, and all the elements of the matrix of the output data are determined by performing those operations predetermined times the number of which is equal to the number of elements of the row of the matrix of the input data; and a construction where the multiplication results obtained by the multiplier 13 operating with the normalized frequency 4 are added as they are by the first cumulative adder 30, and the sign of every other addition result is inverted to perform the additions by the second cumulative adder 31 specific times the number of which is one-half of the number of elements of the row of the matrix of the input data thereby to determine the elements of the column of the matrix of the output data, and these operations are performed specific times the number of which is equal to the number of elements of the column of the matrix of the input data to determine all the elements of the matrix of the output data.
+      <br/>
+      As a result, only one multiplier is used to reduce the scale of the DCT operation circuit 1 or 2, and the product of the number of multipliers and the normalized frequency is 4 at most, so that the power consumption can be reduced.
+    </p>
+    <p num="92">
+      The one-dimensional DCT operation circuits 3 or 4 has either of the two constructions: a construction where there are provided the one-dimensional DCT operation circuits 3 and 4 which are equipped with the paired multipliers 42 and 45 to be operated with the normalized frequency 2 to effect the multiplications of the elements of one-half of the DCT transformation coefficients and the elements of one-half of the input data sequentially in parallel by the multipliers 42 and 45, thereby to determine the paired cumulative addition results corresponding to the respective sums and differences of the paired elements of the data outputted from the DCT operation circuits, the operations for determining the paired elements of the output data by adding and subtracting the addition results by the adder 17 and the subtracter 18, respectively, to determine the elements of the column of the matrix of the output data, and the operations are performed specific times the number of which is equal to the number of elements of the column of the matrix of the input data to determine all the elements of the matrix of the output data; and a construction where the multiplication results obtained from the paired multipliers 42 and 45 operated with the normalized frequency 2 are added by the adder 47, the resultant sums are added as they are by the first cumulative adder 30 and added by the second cumulative adder 31 after the sign of every other resultant sum is inverted.
+      <br/>
+      These additions are performed for one-half of the number of elements of the column of the matrix of the input data to determine the elements of the column of the matrix of the output data, the operations are performed specific times the number of which is equal to the number of elements of the column of the matrix of the input data to determine all the elements of the matrix of the output data.
+      <br/>
+      As a result, the product of the number of multipliers and the normalized frequency is 4 at most so that the power consumption can be reduced.
+    </p>
+    <p num="93">
+      Moreover, the two-dimensional DCT operation circuit 5 is given one or two of the aforementioned four constructions including the two one-dimensional DCT operation circuits 1 (or 2, 3 or 4) and the inverted RAM 6.
+      <br/>
+      As a result, the total number of multipliers in the two one-dimensional DCT operation circuits 1 (or 2, 3 or 4) can be reduced to two or four, thereby reducing the scale of the two-dimensional DCT operation circuit 5.
+      <br/>
+      Moreover, the product of the number of multipliers in the two-dimensional DCT operation circuit 5 and the normalized frequency is 8 at most, so that the power consumption can be reduced.
+    </p>
+    <p num="94">Although the invention has been specifically described in conjunction with its embodiments, the invention should not be limited to the embodiments but can naturally be modified in various manners without departing from the gist thereof.</p>
+    <p num="95">For example, the shift register 10, the hold register 11, the multiplexers 12 and 21, the registers 19A, 19B and 20, the timing control unit 22, the address counter 23 and so on should not be limited to those of the foregoing embodiments but can be modified in various manners.</p>
+    <p num="96">Moreover, the invention should not be limited to the DCT transformation of 8 * 8 but can also be applied to a circuit for the DCT transformations of 4 * 4 and 16 * 16.</p>
+    <p num="97">
+      Our invention has been described mainly on the background which is the field of is application assumed to be applied to the decoding technique by the inverse DCT operations of coded image data.
+      <br/>
+      Despite of this description, however, the invention should not be limited to the application but can be utilized in a data processing system for the DCT transformation operations or the inverse DCT transformation operations.
+    </p>
+    <heading>INDUSTRIAL APPLICABILITY</heading>
+    <p num="98">According to the invention, as has been described hereinbefore, only one multiplier is used in the one-dimensional discrete cosine transformation operation circuit, so that the scale of the discrete cosine transformation operation circuit can be reduced, the produce of the number of multipliers and the normalized frequency is 4 at most, and hence the power consumption can be reduced.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A discrete cosine transformation operation circuit comprising:</claim-text>
+      <claim-text>an input data holding circuit which holds input data from outside in synchronization with a first timing signal having a first frequency; a coefficient storage unit storing predetermined transformation coefficients; a multiplier which multiplies a transformation coefficient from said coefficient storage unit and an input data from said input data holding circuit in synchronization with a second timing signal having a second frequency which is substantially four times as high as the first frequency; a cumulative adder which executes cumulative adding operations for the multiplication results sequentially outputted from said multiplier and sequentially provides cumulative adding results;</claim-text>
+      <claim-text>and an output circuit which operates in synchronization with a third timing signal having a third frequency lower than the second frequency and which includes operation circuits executing predetermined operations between the cumulative adding results sequentially outputted from said cumulative adder, to output a discrete cosine transformation operation result, wherein the predetermined transformation coefficients are DCT transformation coefficients, and wherein the output circuit includes an adder which executes an adding operation between the cumulative adding results; a subtracter which executes a subtracting operation between the cumulative adding results; a plurality of registers each of which holds one of an output from the adder and an output from the subtracter;</claim-text>
+      <claim-text>and a multiplexer for selecting one of the outputs of said registers, wherein a discrete cosine transformation operation result is provided from said adder by adding a first cumulative adding result with a second cumulative adding result in the cumulative adding results, the other discrete cosine transformation operation result is provided from said subtracter by subtracting the first cumulative adding result with the second cumulative adding, the provided discrete cosine transformation operation results are stored in the registers and one of the discrete cosine transformation operation results held in the registers is outputted from the multiplexer.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A two-dimensional discrete cosine transformation operation circuit comprising: a first operation circuit including a discrete cosine transformation operation circuit according to claim 1, and executing an operation of a discrete cosine transformation for data provided from a matrix including a plurality of input data; an inverted RAM receiving data which are output from said first discrete cosine transformation operation circuit and which are output so as to form an input matrix, and generating an inverted matrix in which elements of a row and elements of a column of said input matrix are exchanged;</claim-text>
+      <claim-text>and a second operation circuit including a discrete cosine transformation operation circuit according to claim 1, and executing an operation of a discrete cosine transformation for data provided from said inverted matrix.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A discrete cosine transformation operation circuit according to claim 1, wherein the cumulative adder operates in accordance with the second frequency and sequentially provides the cumulative adding results in accordance with the first frequency.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

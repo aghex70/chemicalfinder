@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185633B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185633</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185633</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="26717198" extended-family-id="42113709">
+      <document-id>
+        <country>US</country>
+        <doc-number>09040585</doc-number>
+        <kind>A</kind>
+        <date>19980318</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09040585</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43172033</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>4058598</doc-number>
+        <kind>A</kind>
+        <date>19980318</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09040585</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="2">
+        <country>US</country>
+        <doc-number>4132997</doc-number>
+        <kind>P</kind>
+        <date>19970320</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="2">
+        <doc-number>1997US-60041329</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  13/28        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>710022000</text>
+        <class>710</class>
+        <subclass>022000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-013/28</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-013/28</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>13</main-group>
+        <subgroup>28</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>9</number-of-claims>
+    <exemplary-claim>2</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>19</number-of-drawing-sheets>
+      <number-of-figures>35</number-of-figures>
+      <image-key data-format="questel">US6185633</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">DMA configurable receive channel with memory width N and with steering logic compressing N multiplexors</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>FLYNN RICHARD T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4240144</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4240144</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>KINDELL JERRY L, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4268909</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4268909</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>FLYNN RICHARD T, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4276596</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4276596</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>TAGUE STEVEN A, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4426680</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4426680</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>VO TRI T</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5168561</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5168561</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>PETERSEN BRIAN, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5392406</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5392406</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="7">
+          <text>PETERSEN BRIAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5517627</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5517627</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="8">
+          <text>THAYER JOHN S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5590378</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5590378</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="9">
+          <text>LEE CHING S, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5594927</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5594927</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="10">
+          <text>WELKER MARK W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5598579</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5598579</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="11">
+          <text>WELKER MARK W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5812876</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5812876</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="12">
+          <text>YARCH MARK A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5859990</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5859990</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="13">
+          <text>JOHNSON MARK A</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6065070</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6065070</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <related-documents>
+      <related-publication>
+        <document-id>
+          <country>US</country>
+          <doc-number>60/041,329</doc-number>
+          <date>19970320</date>
+        </document-id>
+        <document-id>
+          <country>US</country>
+          <doc-number>60/041329</doc-number>
+          <date>19970320</date>
+        </document-id>
+      </related-publication>
+    </related-documents>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>National Semiconductor Corp.</orgname>
+            <address>
+              <address-1>Santa Clara, CA, US</address-1>
+              <city>Santa Clara</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>NATIONAL SEMICONDUCTOR</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Johnson, Mark A.</name>
+            <address>
+              <address-1>Austin, TX, US</address-1>
+              <city>Austin</city>
+              <state>TX</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Limbach &amp; Limbach, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Lee, Thomas C.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      A descriptor controlled transmit and receive scatter/gather Direct Memory Access Controller efficiently moves data frames comprised of scattered blocks of data from within memory to a destination interface via a multibyte-wide buffer.
+      <br/>
+      The transfer of frames into a transmit buffer and out of a receive buffer is optimized regardless of the total length of the component data blocks and regardless of whether the data blocks include an odd or even number of bytes, whether the data blocks begin at an odd or even address, or whether the data blocks are misaligned with regard to memory width boundaries.
+      <br/>
+      A DMAC in accordance with an embodiment of the present invention stores information provided by a descriptor before frame processing takes place.
+      <br/>
+      This information in conjunction with steering logic and accumulator registers is used to control the steering and storing of the frame data as it passes through the DMAC to the transmit buffer or from the receive buffer.
+      <br/>
+      An alternate embodiment of the present invention performs these functions based on the present values of the descriptor fields.
+      <br/>
+      Using predetermined data block descriptor information, the present invention is able to determine on the fly the most efficient way to arrange the bytes of data within the data buffers or memory and concatenate the component data buffers in a buffer or memory to assemble the frames, while inserting frame delineating control words to circumvent the necessity for logic to keep track of these boundaries.
+      <br/>
+      The use of the descriptor to steer the data into the transmit buffer or out of the receive buffer allows a simplified hardware implementation as compared to prior art methods that must examine and count the data as it is transferred.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>RELATED DOCUMENTS</heading>
+    <p num="1">This application claims priority from Provisional Application Number 60/041,329 filed Mar. 20, 1997 and entitled TRANSMIT AND RECEIVE CHANNEL SCATTER/GATHER CONTROL METHOD AND APPARATUS.</p>
+    <p num="2">This application includes two appendices.</p>
+    <p num="3">Microfiche Appendix A includes a computer listing in hardware definition language code of a specific embodiment of the present invention.</p>
+    <p num="4">Appendix B includes a document written by the inventor that contains notes regarding a specific implementation of the present invention.</p>
+    <p num="5">
+      The appendices contain copyrighted material, consisting of one (1) microfiche with thirty-five (35) frames and one document containing seventeen (17) pages.
+      <br/>
+      The copyright owner has no objection to the facsimile reproduction by anyone of the patent document or the patent disclosure, as it appears in the Patent and Trademark Office patent file or records, but otherwise reserves all copyright rights whatsoever in the appendices.
+    </p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="6">
+      1.
+      <br/>
+      Field of the Invention
+    </p>
+    <p num="7">
+      The present invention relates to the high speed transfer of information within a data processing system and in particular, it relates to Direct Memory Access (DMA) transfers.
+      <br/>
+      More specifically the present invention relates to optimizing DMA transfers between a memory system and a First-In, First-Out (FIFO) Random Access Memory (RAM) buffer.
+    </p>
+    <p num="8">2. Description of the Related Art</p>
+    <p num="9">
+      Program controlled data transfers within a data processing system such as a computer require a significant amount of the central processor's time to transfer a relatively small amount of data per unit time, i.e., a low data rate.
+      <br/>
+      In addition, the central processor cannot execute any other processing functions during program controlled Input/Output (I/O) operations.
+      <br/>
+      Although interrupts increase the attainable data rate, require less software, and allow concurrent processing, applications exist where the required data rate is simply too high to be achieved by using interrupts or where the data rate is such that the time spent in interrupt service routines impacts the concurrent processing to an unacceptable degree.
+    </p>
+    <p num="10">
+      However, Direct Memory Access (DMA) facilitates maximum I/O data rates and maximum concurrency.
+      <br/>
+      Unlike the programmed I/O and interrupt I/O transfer methods that route data through the processor, a system that supports a DMA transfer method directly transfers data between memory and an I/O device.
+      <br/>
+      To implement a DMA transfer method, additional logic external to the central processor, called a DMA Controller (DMAC), is required.
+    </p>
+    <p num="11">
+      DMACs, typically embodied as specialized dedicated I/O processors, include counters to provide the memory and port addresses and to count the number of words transferred.
+      <br/>
+      Before a transfer can occur, the central processor must initialize the DMAC to specify the direction and type of transfer, the source and destination addresses, and the number of bytes or words to be transferred.
+      <br/>
+      Once this initialization is completed, the central processor releases the system buses, the DMAC takes control of the buses, and the DMAC performs the entire transfer.
+    </p>
+    <p num="12">
+      Unlike a data transfer performed by the central processor, no instructions need to be fetched during the transfer to tell the DMAC how to perform the transfer.
+      <br/>
+      Thus, all memory cycles are available for transferring data, and the transfer can be performed at the maximum speed possible, i.e. the memory access speed.
+      <br/>
+      The peripheral device or I/O system that is either the destination or source of the transferred data generally operates at a slower rate than this maximum.
+      <br/>
+      Thus, the DMAC can allow the central processor to run for a few cycles in between transfers while the DMAC waits for the device or I/O system to be ready to transfer the next byte.
+    </p>
+    <p num="13">
+      After the DMAC has been initialized by the microprocessor, the peripheral (such as a LAN interface or disk controller) can initiate the transfer at any time by asserting the DMA REQUEST input to the DMAC.
+      <br/>
+      The DMAC then asserts BUS REQUEST to the central processor (this signal is called HOLD in some systems).
+      <br/>
+      The central processor completes the instruction it is currently executing, disables its address, data, and control bus outputs, and asserts the BUS ACKNOWLEDGE signal.
+      <br/>
+      The DMAC then takes control of the buses to perform the transfer.
+      <br/>
+      The DMAC controls the buses in the same manner as the microprocessor.
+    </p>
+    <p num="14">
+      Upon taking control of the buses, the DMAC is said to establish a channel between memory and the target or source device.
+      <br/>
+      A transmit channel allows the DMAC to transfer of data out of memory while a receive channel allows the transfer of data into memory.
+      <br/>
+      DMACs can be designed to support multiple pairs of transmit and receive channels so as to support multiple devices.
+      <br/>
+      In addition, channels can be bidirectional.
+      <br/>
+      Prior art DMACs are further disclosed in M. Slater, Microprocessor-Based Design, Mayfair Publishing Co., (1987) and K. L. Short, Microprocessors and Programmed Logic, Prentice-Hall, Inc. (2nd ed. 1990), which are both incorporated herein by reference.
+    </p>
+    <p num="15">
+      Typically, a transmit channel requires the use of a RAM buffer to temporarily store a unit of data, called a frame, as it is transferred from memory to an interface having a bus width different than memory.
+      <br/>
+      Likewise, receive channels also employ a buffer when transferring data from an interface to memory.
+      <br/>
+      This buffer is usually required due to bus latency, characteristic of any multi-user bus.
+    </p>
+    <p num="16">
+      Most digital communication protocols run on LAN or WAN adapters require data to be arranged in data frames, or data packets, having a characteristic maximum size.
+      <br/>
+      Although data frames are usually defined as having a maximum length, hardware systems that support different protocols must be able to handle frames of any length.
+      <br/>
+      However, to optimize the use of memory, most computer operating systems typically allocate blocks of memory for temporary data storage in sizes smaller than the size of typical data frames.
+      <br/>
+      Thus, a single data frame will usually be comprised of data contained in several different blocks of memory.
+      <br/>
+      The blocks of memory each contain a data buffer and can be scattered non-sequentially throughout memory.
+      <br/>
+      Memory typically has a width that is equal to an even number of bytes and the bytes define addressable boundaries across the width of the memory.
+    </p>
+    <p num="17">
+      Usually, the system will maintain a list of the data buffers that comprise a data frame.
+      <br/>
+      The data buffers themselves are defined by descriptors.
+      <br/>
+      Descriptors are small tables stored in memory, each associated with a particular data buffer, that define the size, location and status of the data buffers.
+      <br/>
+      As indicated above, a single data frame may be comprised of several data buffers scattered through out memory, it may be of any number of bytes in length, and it may start on any address boundary.
+      <br/>
+      In addition, data buffers may be of any number of bytes in length and may start and end on any byte boundary within memory.
+    </p>
+    <p num="18">
+      FIG. 9 depicts a typical descriptor's 930A relationship to its associated data buffer 902 and the relative position a data buffer 902 may occupy within a block of memory 900.
+      <br/>
+      The total shaded region of FIG. 9 represents the bytes that comprise a data frame.
+      <br/>
+      Each shaded region within the memory blocks 900, 910, 920 represents a data buffer 902, 912, 922.
+      <br/>
+      As depicted, the data frame is comprised of three data buffers 902, 912, 922 and the data buffers 902, 912, 922 do not begin on memory width boundaries.
+    </p>
+    <p num="19">
+      The list of descriptors 930 together identify the data frames to the system.
+      <br/>
+      Each descriptor 930A, 930B, 930C contains information about its corresponding data buffer 902, 912, 922.
+      <br/>
+      Referring to both FIGS. 9 and 10, the descriptors 1000, 1010, 1020 hold the address pointer 1002 and length 1004 of the data buffer 902, along with a status and command field 1006.
+      <br/>
+      This information can be read from memory and stored in registers within a DMA controller as each data buffer 902 is processed.
+      <br/>
+      Because there may be more than one data buffer 902 per data frame as described above, the system will typically maintain an End of Frame status bit within the status and command field 1026 of the descriptor 1020 to indicate that a particular data buffer is the last data buffer in a given frame.
+    </p>
+    <p num="20">
+      Different computer systems will typically have memory subsystems with different widths.
+      <br/>
+      Four bytes wide is currently a popular dimension for a memory but it is anticipated that future systems will be much wider.
+      <br/>
+      The width of a memory system defines natural boundaries in the addressing system used to access the memory.
+      <br/>
+      A data bus coupled to a memory that is four bytes wide will have thirty-two signal paths, each able to carry one bit of data.
+      <br/>
+      The system can access a memory location and, in one cycle, read or write all of the bytes within the memory width boundaries of the accessed location.
+    </p>
+    <p num="21">
+      Thus, if a four byte wide system is required to provide four bytes of data starting at a memory location aligned on a memory width boundary, the processor will be able to read all four bytes in just one cycle.
+      <br/>
+      If however, the desired four bytes of data does not begin at a byte location that is also a memory width boundary, the system will require two cycles to access the data.
+    </p>
+    <p num="22">
+      This concept can be more easily visualized with reference to FIG. 9.
+      <br/>
+      A four byte wide memory system is depicted indicated by memory blocks 900, 910, and 920.
+      <br/>
+      Each block 900, 910, 920 represents a portion of memory space within the four byte wide memory system.
+      <br/>
+      The columns drawn with dashed lines on the blocks 900, 910, 920 represent the byte boundaries within the memory system.
+      <br/>
+      Each column is labeled with a byte number zero through three from right to left.
+      <br/>
+      The solid horizontal lines, shown in block 900, in conjunction with the vertical dashed lines define the individual byte storage locations of the memory system.
+    </p>
+    <p num="23">
+      The four bytes of any one row of a memory block 900 can be read simultaneously in one cycle.
+      <br/>
+      Thus, if four consecutive bytes must be accessed and the first byte is located in the column labeled byte zero, the system will only require one cycle to read or write this byte.
+      <br/>
+      If, on the other hand, the four bytes that must be accessed start with byte one, two, or three, the system will have to first access the bytes on the row of the starting byte and then, in a second memory access cycle, access the bytes on the next row.
+      <br/>
+      If the data had been aligned within memory as above, this four byte access would have taken only half the time.
+    </p>
+    <p num="24">
+      Thus, when data is aligned with regard to memory width boundaries, it can be accessed faster.
+      <br/>
+      What is needed is a method of storing data in memory, transmit buffers, and receive buffers, that quickly and efficiently aligns the data along memory width boundaries as the data is transferred and thus, allows optimized accesses of the data.
+      <br/>
+      What is further needed is a system that ascertains the data buffer's characteristics via the descriptors in terms of variables, that do not change state during the data buffer transfer process.
+      <br/>
+      This would allow for faster circuitry, thus facilitating the silicon synthesis process.
+    </p>
+    <p num="25">
+      Prior art DMA systems necessitate the use of wait states during the transfer while the frame is properly assembled for transfer into in the destination memory.
+      <br/>
+      Other prior art systems require the use of complex feedback circuitry to realign the bytes during transfers.
+      <br/>
+      What is needed is a simple, efficient system that does not require wait states or complex feedback circuitry to align data as it is transferred.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="26">
+      In accordance with the present invention, a descriptor controlled transmit and receive scatter/gather Direct Memory Access Controller (DMAC) efficiently moves data frames comprised of scattered blocks of data from within memory to a destination interface via a multibyte-wide "First-In, First-Out" (FIFO) Random Access Memory (RAM) buffer.
+      <br/>
+      The present invention optimizes the transfer of frames into transmit buffer RAM and out of receive buffer RAM regardless of the total length of the component data blocks and regardless of whether the data blocks include an odd or even number of bytes, whether the data blocks begin at an odd or even address, or whether the data blocks are misaligned with regard to memory width boundaries.
+    </p>
+    <p num="27">
+      An apparatus with a DMAC in accordance with an embodiment of the present invention stores information provided by a descriptor before frame processing takes place.
+      <br/>
+      This information in conjunction with steering logic and accumulator registers is used to control the steering and storing of the frame data as it passes through the DMAC to the transmit buffer or from the receive buffer.
+      <br/>
+      An alternate embodiment of the present invention performs these functions based on the present values of the descriptor fields.
+    </p>
+    <p num="28">
+      Using predetermined data block descriptor information, the present invention is able to determine on the fly the most efficient way to arrange the bytes of data within the data buffers or memory and concatenate the component data buffers in a buffer or memory to assemble the frames.
+      <br/>
+      Thus, the present invention avoids a number of inherent inefficiencies of prior art methods.
+      <br/>
+      Most notably, the use of the descriptor to steer the data into the transmit buffer or out of the receive buffer allows a simplified hardware implementation as compared to prior art methods that must examine and count the data as it is transferred.
+    </p>
+    <p num="29">
+      The present invention reduces the complexity of implementing the necessary logical operations as a hardware circuit as compared to prior art methods. These and other features and advantages of the present invention will be understood upon consideration of the following detailed description of the invention and the accompanying drawings.
+      <br/>
+      BRIEF DESCRIPTION OF THE DRAWINGS
+      <br/>
+      FIG. 1 is a block diagram depicting a data processing system including a direct memory access controller (DMAC) according to an example embodiment of the present invention.
+      <br/>
+      FIG. 2 is a block diagram depicting a DMAC according to an example embodiment of the present invention.
+      <br/>
+      FIG. 3 is a block diagram depicting the transmit portion of a DMAC according to an example embodiment of the present invention.
+      <br/>
+      FIG. 4 is a block diagram depicting a circuit for configuring the transmit channel according to an example embodiment of the present invention.
+      <br/>
+      FIG. 5 is a diagram depicting the possible transmit channel steering configurations for an example four byte wide system according to an example embodiment of the present invention.
+      <br/>
+      FIG. 6 is a table depicting an example clocking calculation according to an example embodiment of the present invention.
+      <br/>
+      FIG. 7 is a diagram depicting "dead byte" padding requirements for different steering configurations and frame lengths according to an example embodiment of the present invention.
+      <br/>
+      FIG. 8 is a flow chart depicting the steps required to perform an optimized transfer from memory according to an example embodiment of the present invention.
+      <br/>
+      FIG. 9 is a diagram depicting transmit descriptors and associated data buffers according to an example embodiment of the present invention.
+      <br/>
+      FIG. 10 is a diagram depicting the detail of transmit descriptors describing a frame according to an example embodiment of the present invention.
+      <br/>
+      FIG. 11 is a diagram depicting a transmit buffer format example according to an example embodiment of the present invention.
+      <br/>
+      FIG. 12 is a block diagram depicting the receive portion of a DMAC according to an example embodiment of the present invention.
+      <br/>
+      FIG. 13 is a diagram depicting receive descriptors and associated data buffers according to an example embodiment of the present invention.
+      <br/>
+      FIG. 14 is a diagram depicting the detail of receive descriptors describing a frame according to an example embodiment of the present invention.
+      <br/>
+      FIG. 15 is a block diagram depicting a circuit for configuring the receive channel according to an example embodiment of the present invention.
+      <br/>
+      FIG. 16 is a diagram depicting the possible receive channel steering configurations for an example four byte wide system according to an example embodiment of the present invention.
+      <br/>
+      FIG. 17 is a diagram depicting the possible receive channel shuffle steering configurations for an example four byte wide system according to an example embodiment of the present invention.
+      <br/>
+      FIG. 18 is a diagram depicting a receive buffer format example according to an example embodiment of the present invention.
+      <br/>
+      FIG. 19 is a truth table defining when the receive accumulator register initial clock is enabled according to an example embodiment of the present invention.
+      <br/>
+      FIG. 20 is a block diagram depicting an example circuit implementing the truth table of FIG. 19 according to an example embodiment of the present invention.
+      <br/>
+      FIG. 21 is a truth table defining when the receive accumulator register clock is inhibited according to an example embodiment of the present invention.
+      <br/>
+      FIG. 22 is a block diagram depicting an example circuit implementing the truth table of FIG. 21 according to an example embodiment of the present invention.
+      <br/>
+      FIG. 23 is a block diagram depicting an example clocking circuit for exceptions according to an example embodiment of the present invention.
+      <br/>
+      FIG. 24 is a block diagram depicting a second example clocking circuit for exceptions according to an example embodiment of the present invention.
+      <br/>
+      FIG. 25 is a flow chart depicting the steps required to perform an optimized transfer to memory according to an example embodiment of the present invention.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p num="30">
+      The present invention involves a process for moving data with maximum efficiency out of memory into a transmit buffer or into memory from a receive buffer.
+      <br/>
+      A process for moving data via a transmit channel into a transmit buffer is described first and then a process for moving data from a receive buffer via a receive channel is disclosed.
+    </p>
+    <p num="31">
+      Referring to FIG. 1, data bound for a local area network or other data processing device 150 is typically arranged in data frames comprised of a plurality of data buffers as discussed above with reference to FIGS. 9 and 10. The process of transmitting a data frame includes a device driver running on a processor 115 that assembles the frame in memory 110.
+      <br/>
+      Next, the driver software will set up descriptors with all the necessary information to describe the data buffers.
+      <br/>
+      At this point, the frame is ready to be transmitted.
+    </p>
+    <p num="32">
+      Upon receiving a DMA request signal 122 from the target device 150, the DMAC 125 will request control of the buses 130, 132, 134 from the processor 115 via a bus request signal 127.
+      <br/>
+      The processor 115 will relinquish control of the buses 130, 132, 134 and signal the DMAC 125 indicating as such via the bus acknowledge signal 129.
+      <br/>
+      Then, the DMAC 125 will set up a transmit channel from memory 110, over the data bus 130, through the DMAC 125, into the transmit buffer 135 and out to the target device 150.
+    </p>
+    <p num="33">
+      As will be described in more detail below, the DMAC 125 can also operate in a receive mode where data flows from a source device 150 through a receive channel created by the DMAC 125 to the memory 110 of the system.
+      <br/>
+      When the DMAC 125 is operating in a receive mode, the data from the source device 150 flows through the receive buffer 140, out the DMAC 125, and into memory 110.
+    </p>
+    <p num="34">
+      Referring to the upper half of FIG. 2, a more detailed diagram of the DMAC 125 of FIG. 1 is depicted.
+      <br/>
+      The transmit channel within the DMAC 125 is comprised of the transmit steer logic 205 connected to the data bus 200, and the transmit accumulation registers 210 connected between the transmit steer logic 205 and the transmit buffer 215.
+      <br/>
+      The transmit buffer 215 is typically implemented as a first-in, first-out random access memory.
+      <br/>
+      The transmit steer logic 205 and the transmit accumulation registers 210 are used to quickly and efficiently align the data on memory width boundaries as it passes through the transmit channel.
+    </p>
+    <p num="35">
+      Also connected to the data bus 200 are the transmit data buffer address register 220 and the transmit data buffer length register 225.
+      <br/>
+      These registers 220, 225 store the memory address and length from the descriptors of the data buffer currently being transferred and feed them into the logic 230, 235, 240, 245 that calculates the information needed by the steer logic 205 to align the data buffer and also generate the clocking signals that trigger the transfer of bytes of the data buffer into the transmit buffer 215 and out of the transmit buffer 215 to the target device 150 of FIG. 1.
+      <br/>
+      In particular, the least significant bits 220A and 225A of the transmit data buffer address register 220 and the transmit data buffer length register 225 respectively are stored in register 230 where they are accessible by the transmit logic 235 which is driven by the bus control state machine 245.
+      <br/>
+      The transmit logic 235 feeds control signals to the steer logic 205 as described above and it also controls the transmit buffer 215 by sending signals to the transmit buffer clock logic 240 and the transmit buffer control bits 215A.
+    </p>
+    <p num="36">
+      FIG. 3 is a more detailed diagram of the transmit portion of the DMAC 125 of FIG. 1.
+      <br/>
+      As depicted in FIG. 3, the transmit channel within the DMAC 125 includes multiplexors 305, 306, 307, 308, connected between the data bus 300 and accumulator registers 310, 311.
+      <br/>
+      The multiplexors 305, 306, 307, 308 represent an embodiment of the transmit steer logic 205 represented in FIG. 2.
+      <br/>
+      The accumulator registers 310, 311 are connected to the transmit buffer 315.
+      <br/>
+      The number of multiplexors 305, 306, 307, 308, and accumulator registers 310, 311 required to implement the invention will depend upon the width of the memory system 110 of FIG. 1.
+      <br/>
+      Generally, the wider the memory system 110, the wider the data bus 300, and consequently the more multiplexors 305, 306, 307, 308 and accumulator registers 310, 311 will be desired.
+    </p>
+    <p num="37">
+      FIG. 3 depicts an example embodiment of the invention that will support a four byte wide memory system 110.
+      <br/>
+      Thus, the embodiment depicted includes four one-byte wide multiplexors 305, 306, 307, 308 each with four one-byte wide outputs; one multiplexor for each byte of the width of the memory system 110 and one output from each multiplexor for each byte of the width of the memory system 110.
+    </p>
+    <p num="38">
+      Likewise, the number of Accumulator registers 310, 311 depends on the byte width of memory 110.
+      <br/>
+      Accumulator register 311 can store a number of bytes equal to the width of the memory 110 and the pre-accumulator register 310 only needs to hold one less byte of storage.
+      <br/>
+      Thus, in the pictured embodiment, the accumulator register 311 is comprised of four one-byte wide registers 360, 361, 362, 363 and the pre-accumulator register 310 is comprised of three one-byte wide registers.
+    </p>
+    <p num="39">The outputs of the multiplexors 305, 306, 307, 308 are connected to the pre-accumulator register 310 and the high byte 363 of the accumulator register 311 such that if four bytes of data are present on the data bus 300, they can be written into these four byte locations of the registers 310, 311 in any order arrangement desired.</p>
+    <p num="40">The pre-accumulator register 310 is connected to the three low order bytes 360, 361, 362 of the accumulator register 311 such that the data stored in the pre-accumulator register 310 can be transferred directly into the accumulator register 311.</p>
+    <p num="41">
+      The transmit steer logic 205, i.e. the multiplexors 305, 306, 307, 308, are controlled by a steer bits calculator circuit contained in the transmit logic 235 of FIG. 2.
+      <br/>
+      The steer bits calculator contained in the transmit logic 235 is embodied in FIG. 3 as an arithmetic logic unit (ALU) 335 fed by the �A� register 330 and the �RL� register 344.
+      <br/>
+      These two latched registers hold values directly from the descriptor or computed from information in the descriptor.
+      <br/>
+      The �A� register 330 is fed by the low order bits of the transmit data buffer address register 325 which is loaded directly from the descriptor.
+      <br/>
+      ALU 342 computes a value called the next running length (NRL) based upon a previous latched version of the NRL stored in the �RL� register 344 and the value held in the �L� register 332.
+    </p>
+    <p num="42">
+      The �L� register 332 is fed by the low order bits of the transmit data buffer length register 320.
+      <br/>
+      As with the transmit data buffer address register 325, the transmit data buffer length register 320 is loaded from the descriptor.
+      <br/>
+      ALU 340 sums the value in the �L� register 332 with the steer bits generated by ALU 335.
+      <br/>
+      The resulting value, along with a number of other calculated values described below, are used to generate the clocking signals that indicate when the bytes of the data buffer are to be moved through the accumulator registers 310, 311 and transferred into the transmit buffer 315.
+    </p>
+    <p num="43">
+      A specific example embodiment of the method of the present invention, in which the memory 110 of the computer system is four bytes wide, will now be described in detail.
+      <br/>
+      Symbols used through out the remainder of this specification in describing the method of the present invention are defined as follows:
+    </p>
+    <p num="44">
+      "A" represents the least significant bits of the data buffer address.
+      <br/>
+      In this example embodiment these are the two least significant bits of the data buffer's address.
+      <br/>
+      In FIG. 3, this is the value that will be latched into �A� register 330.
+    </p>
+    <p num="45">
+      �A� represents the least significant latched data buffer address bits.
+      <br/>
+      In this example embodiment these are the two least significant bits of the data buffer's address.
+      <br/>
+      These bits are captured and held when the data buffer address field is read from the descriptor.
+      <br/>
+      In FIG. 3, this is the value that is stored in �A� register 330.
+    </p>
+    <p num="46">
+      �L� represents the least significant latched bits of the data buffer's length.
+      <br/>
+      In this example embodiment, these are the two least significant bits of the data buffer's length.
+      <br/>
+      These bits are captured and held when the data buffer length field is read from the descriptor.
+      <br/>
+      In FIG. 3, this is the value that is stored in �L� register 332.
+    </p>
+    <p num="47">
+      �RL� represents the running length bits.
+      <br/>
+      In this example embodiment only two bits are required.
+      <br/>
+      This value is used in successive calculations of the steer bits described below.
+      <br/>
+      In FIG. 3, this is the value that is stored in �RL� register 344.
+    </p>
+    <p num="48">
+      NRL represents the next running length bits.
+      <br/>
+      In this example embodiment only two bits are required.
+      <br/>
+      This value is used in the calculation of the �RL� running length bits, and to determine how many place holder, or "dead bytes," should be inserted at the end of a frame so as to cause the start of each successive frame transferred into the transmit buffer to be aligned on transmit buffer width boundaries.
+      <br/>
+      In FIG. 3, this is the value that will be latched in the �RL� register 344.
+    </p>
+    <p num="49">
+      STX represents the steer bits which control how the data is steered into the transmit accumulator registers.
+      <br/>
+      In this example embodiment, only two bits are required for the steer bits because the memory is four bytes wide.
+      <br/>
+      Thus, only two bits are required to specify the four possible alignments of the data into the accumulator registers.
+      <br/>
+      In FIG. 3, this is the value that is generated by ALU 335.
+    </p>
+    <p num="50">
+      Note that some symbols are square bracketed (i.e. �A�) to indicate that they are latched.
+      <br/>
+      The unlatched variables are determined by the following two equations:
+      <br/>
+      STX =�RL�-�A�
+      <br/>
+      NRL=�RL�+�L�
+    </p>
+    <p num="51">
+      The values of STX and NRL are computed whenever any of the registers on the right side of the equations are reloaded.
+      <br/>
+      This occurs before the transfer of each data buffer begins.
+      <br/>
+      The logic circuitry used to accomplish these calculations is shown in FIG. 4.
+      <br/>
+      FIG. 4 depicts an embodiment of the steer bits calculator 235 and the clock logic 240 of FIG. 2.
+      <br/>
+      These are more detailed versions of the circuits depicted in FIG. 3 in that the width of the registers are specified.
+      <br/>
+      In other words, these two circuits as depicted in FIG. 3, represent a generalized version of the present invention that can support a memory system of any width.
+      <br/>
+      Meanwhile these circuits, as depicted in FIG. 4, support a memory system that is exactly four bytes wide.
+      <br/>
+      Also, the circuits as depicted in FIG. 4 are isolated from the rest of the transmit channel circuitry for clarity.
+    </p>
+    <p num="52">
+      The steer bits calculator 235 is embodied in FIG. 4 as an arithmetic logic unit (ALU) 435 fed by the �A� register 430 and the �RL� register 444.
+      <br/>
+      These two latched registers hold two bit wide values directly from the descriptor or computed from information in the descriptor.
+      <br/>
+      The �A� register 430 is fed by the two low order bits of the transmit data buffer address register 425 which is loaded directly from the descriptor.
+      <br/>
+      ALU 442 computes the NRL based upon a previous latched version of the NRL stored in the �RL� register 444 and the two bit wide value held in the �L� register 432.
+    </p>
+    <p num="53">
+      The �L� register 432 is fed by the two low order bits of the transmit data buffer length register 420 which is sixteen bits wide.
+      <br/>
+      As with the transmit data buffer address register 425, the transmit data buffer length register 420 is loaded from the descriptor.
+      <br/>
+      ALU 440 sums the value in the �L� register 432 with the steer bits generated by ALU 435.
+      <br/>
+      The resulting value, along with a number of other calculated values described below, are used to generate the clocking signals that indicate when the bytes of the data buffer are to be moved through the accumulator registers and transferred into the transmit buffer.
+    </p>
+    <p num="54">
+      FIG. 5 depicts the four possible realignment configurations for the different steer bit values.
+      <br/>
+      In each case, four byte wide data is transferred from the data bus 502A, 502B, 502C, 502D through the steer logic 504A, 504B, 504C, 504D where each byte can be directed by the steer bits to a desired byte location in the accumulator registers 506A, 506B, 506C, 506D; 508A, 508B, 508C, 508D and then the data is transferred into the transmit buffer 51 OA, 510B, 510C, 510D, respectively.
+    </p>
+    <p num="55">
+      In the first configuration 500A, where S=002 (steer equals zero) and the data buffer was initially aligned in memory on a memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins.
+      <br/>
+      For example, if the data buffer n ends on address 401 and data buffer n+1 starts on address 202, the four bytes of data are passed straight through the accumulator registers 506A, 508A.
+      <br/>
+      This happens in one phase.
+    </p>
+    <p num="56">
+      In the second configuration 500B, where S=012 (steer equals one) and the start of the data buffer was misaligned by one byte relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated one byte by the steering logic 504B.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the three low order bytes from the data bus 502B are transferred into the three high order byte positions of the accumulator register 508B and the byte in the low order byte position in the pre-accumulator register 506B is simultaneously transferred into the low order byte position of the accumulator register 508B.
+      <br/>
+      Second, the high order byte from the data bus 502B is transferred into the low order byte position of the pre-accumulator register 506B.
+      <br/>
+      The accumulator register 508B now holds four bytes of the data frame that are boundary aligned and ready to be transferred into the transmit buffer 510B, while the byte in the low order byte position in the pre-accumulator register 506B is now ready for the next transfer.
+    </p>
+    <p num="57">
+      In the third configuration 500C, where S=102 (steer equals two) and the start of the data buffer was misaligned by two bytes relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated two bytes by the steering logic 504C.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the two low order bytes from the data bus 502C are transferred into the two high order byte positions of the accumulator register 508C and the two bytes in the two low order byte positions in the pre-accumulator register 506C are simultaneously transferred into the two low order byte positions of the accumulator register 508C.
+      <br/>
+      Second, the two high order bytes from the data bus 502C are transferred into the two low order byte positions of the pre-accumulator register 506C.
+      <br/>
+      The accumulator register 508C now holds four bytes of the data frame that are boundary aligned and ready to be transferred into the transmit buffer 510C, while the bytes in the two low order byte positions in the pre-accumulator register 506C are now ready for the next transfer.
+    </p>
+    <p num="58">
+      In the fourth configuration 500D, where S=112 (steer equals three) and the start of the data buffer was misaligned by three bytes relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated three bytes by the steering logic 504D.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the low order byte from the data bus 502D is transferred into the high order byte position of the accumulator register 508D and the three bytes in the pre-accumulator register 506D are simultaneously transferred into the three low order byte positions of the accumulator register 508D.
+      <br/>
+      Second, the three high order bytes from the data bus 502D are transferred into the pre-accumulator register 506D.
+      <br/>
+      The accumulator register 508D now holds four bytes of the data frame that are boundary aligned and ready to be transferred into the transmit buffer 51 OD, while the bytes in the pre-accumulator register 506D are now ready for the next transfer.
+    </p>
+    <p num="59">
+      Together, the accumulator and the pre-accumulator are used to accumulate four consecutive, valid bytes of the data buffer for transfer into the transmit buffer.
+      <br/>
+      Further, the accumulator registers allow unneeded, non-data buffer bytes to be discarded without introducing delay into the process of realigning the four bytes.
+      <br/>
+      Instead of a slow, complex logic circuit to determine which bytes are valid or to track the valid bytes, the present invention uses the accumulator registers to dynamically accumulate the valid data.
+      <br/>
+      In other words, in terms of performance, the accumulator registers help align the data without any negative impact on the performance of the overall system.
+      <br/>
+      They merely function as a zero time delay buffering stage into the transmit buffer.
+    </p>
+    <p num="60">
+      The transfers that result in the realigning of data described above are driven by a clock signal called the accumulator register clock.
+      <br/>
+      The generation of this clock signal is based on the following equation for an N byte wide memory system:
+      <br/>
+      -Cn &amp;(((L&gt;0)&amp;(STX +A+(N-n)=(N-1)2)).vertline.
+      <br/>
+      ((L&gt;1)&amp;(STX +A+(N-n)=(N-2)2)).vertline.
+      <br/>
+      ((L&gt;2)&amp;(STX +A+(N-n)=(N-3)2)).vertline. . . . .vertline.
+      <br/>
+      ((L&gt;N-1)&amp;(STX +A+(N-n)=02)))
+    </p>
+    <p num="61">
+      where N equals the width of the memory in bytes coded in binary;
+      <br/>
+      n equals the particular byte number of the N bytes of data being transferred coded in binary;
+      <br/>
+      A (as previously defined) is a binary value equivalent to the least significant bits of the address of the start of the data in memory necessary to specify the position of the start of the data relative to the N-byte wide boundaries of memory;
+      <br/>
+      L is a binary value equivalent to the least significant bits of a value equal to the length of the data in bytes necessary, along with A, to specify the position of the end of the data relative to the N-byte wide boundaries of memory;
+      <br/>
+      STX (as previously defined) is a binary value calculated based on the position of the data in memory relative to the N-byte word boundaries that indicates one of the N possible arrangements of the N bytes of data being transferred through the configurable channel; and
+      <br/>
+      Cn is equal to the carry bit from computing the binary addition of A+STX +(N-n).
+    </p>
+    <p num="62">When the above expression is true, data from the data bus is clocked into the accumulator byte registers specified by the byte number n.</p>
+    <p num="63">
+      FIG. 6 depicts a truth table of the above logic expression for a four byte wide memory system.
+      <br/>
+      When N=4 the above expression can be simplified to:
+      <br/>
+      -Cn &amp;(((L&gt;0)&amp;(STX +A+(4-n)=(3)2)).vertline.((L&gt;1)&amp;(STX +A+(4-n)=(2)2)).vertline.((L&gt;2)&amp;(STX +A+(4-n)=(1)2)).vertline.((L&gt;3)&amp;(STX +A+(4-n)=02)))
+    </p>
+    <p num="64">Note that the accumulator register is clocked into the transmit buffer each time byte three (n=3) accumulator byte register 363 in FIG. 3, is clocked according to the above expression.</p>
+    <p num="65">
+      The present invention accounts for frames that do not end evenly on memory width boundaries by selectively appending "dead byte" padding to the end of such frames.
+      <br/>
+      FIG. 7 depicts all the possible states of the pre-accumulator register and the accumulator register following the last transfer of a frame.
+      <br/>
+      In addition, all the possible dead byte padding configurations for different steering configurations and data buffer lengths in a four byte wide memory are shown.
+      <br/>
+      The four length columns and four steer rows in FIG. 7 define sixteen possibilities for the amount of padding required to be appended to insure that subsequent frames start on an even memory width boundary.
+    </p>
+    <p num="66">
+      Each of the sixteen possibilities are represented by the pre-accumulator register drawn next to the accumulator register.
+      <br/>
+      The letters contained in the byte positions of the registers represent the final valid bytes of data that will be transferred into the transmit buffer.
+      <br/>
+      The solid squares represent dead bytes that will also be transferred into the transmit buffer as padding.
+      <br/>
+      The number located at the bottom of each pre-accumulator register/accumulator register pair is equal to the sum of the steer plus the length.
+    </p>
+    <p num="67">
+      Turning now to FIG. 8, a preferred example embodiment of the process of moving a variable size frame held in one or more memory data buffers into a temporary transmit buffer is now described.
+      <br/>
+      Bit notation is used to refer to the bytes that make up the four bytes (double word) that get transferred with each clock cycle.
+      <br/>
+      For example, Byte 0 is the lowest order byte and is reference in bit notation by specifying bits seven through zero or �7:0�. As another example, �31:8� refers to the three high order bytes, Bytes 3, 2 and 1.
+      <br/>
+      In FIG. 8, the numbers contained in the square brackets refer to the byte numbers that are to be transferred.
+      <br/>
+      AR means accumulator register, PAR means pre-accumulator register, Data_Bus means the memory location currently accessible via the data bus, and TX_buffer means transmit buffer.
+    </p>
+    <p num="68">
+      In Step S1, the �A�, �L�, and �RL� bits are initialized to zero each time a new frame is started.
+      <br/>
+      In Step S2, NRL is transferred to �RL�. In Step S3, the descriptor of the current data buffer is read from memory, causing Step S4 wherein the �A� and �L� bits and the End of Frame indicator bit is latched.
+      <br/>
+      As a result of S4, the system flows to Step S5, wherein the steer bits become valid.
+      <br/>
+      This causes the system to flow to one of Step S6, S7, S8 or S9 depending on the value of the steer bits.
+      <br/>
+      In the selected one of these four Steps S6, S7, S8 or S9, the system configures the steering logic so that the accumulator register (AR) and the pre-accumulator register (PAR) will receive the proper bytes from the data bus.
+    </p>
+    <p num="69">
+      The following transfers will occur in Step S10 in response to the specified byte being clocked according to the above described accumulator clocking expression.
+      <br/>
+      If S=002 in Step S5, then Data Bus�31:0� will be set to transfer into the accumulator register�31:0� in Step S6.
+      <br/>
+      If S=012 in Step S5, then the Data Bus�23:0� will be set to transfer into the accumulator register�31:8�; the Pre-accumulator register�7:0� will be set to transfer into the accumulator register�7:0�; and the Data Bus�31:24� will be set to transfer into the Pre-accumulator register�7:0�, all in Step S7.
+      <br/>
+      If S=102 in Step S5, then the Data Bus�15:0� will be set to transfer into the accumulator register�31:16�; the Pre-accumulator register�15:0� will be set to transfer into the accumulator register�15:0�; and the Data Bus�31:16� will be set to transfer into the Pre-accumulator register�15:0�, all in Step S8.
+      <br/>
+      Finally, If S=112 in Step S5, then the Data Bus�7:0� will be set to transfer into the accumulator register�31:24�; the Pre-accumulator register�23:0� will be set to transfer into the accumulator register�23:0�; and the Data Bus�31:8� will be set to transfer into the Pre-accumulator register�23:0�, all in Step S9.
+    </p>
+    <p num="70">
+      In Step S10, the accumulator register clocks are derived from the table of FIG. 6 based on the accumulator register clock logic expression above.
+      <br/>
+      After each transfer caused by the clock signal generated in S10, the system checks if the high byte of the accumulator register was clocked in S11.
+      <br/>
+      If it was, then the accumulator register is immediately transferred to the transmit buffer in Step S12.
+      <br/>
+      If not, the transfers continue in Step S13.
+    </p>
+    <p num="71">
+      The transmit buffer write clock is activated after each time the high byte of the accumulator register clock activates.
+      <br/>
+      Each transmit buffer write clock causes the transmit buffer to advance to its next address.
+      <br/>
+      Each transmit buffer address is formatted with 32 data bits and three transmit buffer control bits.
+      <br/>
+      Bits 31:0 are Frame data bits, Bits 33:32 DB indicate the number of dead bytes that are at the end of a frame, and Bit 34 EoFC (End of Frame Control) indicates the last transmit buffer entry in the frame.
+      <br/>
+      This bit is set in a null entry that may be used for frame status.
+      <br/>
+      The null entry is used to delineate frame boundaries.
+      <br/>
+      An example of the use of the control bits is described below with reference to FIG. 11.
+    </p>
+    <p num="72">
+      After each transfer, the system checks to see if the data buffer has been completely transferred in Step S14.
+      <br/>
+      If not, the system flows back to Step S10 and continues clocking the data through.
+      <br/>
+      If the data buffer has been depleted the system moves to Step S15 where it is determined whether the current data buffer is the last in the frame.
+      <br/>
+      If the current data buffer is not the last in the frame, the Descriptor's Status field is updated to indicate that the data buffer has been processed and the system flows back to Step S2 to begin on the next data buffer in the frame.
+    </p>
+    <p num="73">
+      If the current data buffer is the last in the frame, then the high byte in the accumulator register maybe clocked if needed to transfer any data remaining in the accumulator registers in Step S17.
+      <br/>
+      An extra transmit buffer write clock may be needed due to different combinations of the steer bits and the number of bytes remaining in the data buffer during the last transfer (this value is found in the data buffer Length register).
+      <br/>
+      FIG. 7 shows the accumulator registers as they appear after the last data transfer of a frame.
+      <br/>
+      As explained in Step S12, a transmit buffer write clock is activated immediately following an accumulator register clock for the high byte position.
+      <br/>
+      However, for cases shown in FIG. 7, where the sum of steer plus Length is greater than four, there is no accumulator register clock for the high byte position.
+      <br/>
+      Therefore, an extra transmit buffer write clock is required to close out the frame.
+      <br/>
+      An extra transmit buffer write clock is required when the sum of steer plus Length is greater than four because this means that there is valid frame data in the Pre-accumulator register on the last transfer.
+    </p>
+    <p num="74">
+      Dead bytes are inserted at the end of a frame to realign the next frame on a double-word boundary in the transmit buffer.
+      <br/>
+      The solid square in FIG. 7 is used to represent the insertion of a dead byte.
+      <br/>
+      In Step S18, the number of dead bytes to be inserted is calculated by taking the two's complement of the value of the NRL bits, i.e. the number of unused bytes for a given transmit buffer address.
+      <br/>
+      In Step S19, the required number of dead bytes are appended to the end of the frame.
+    </p>
+    <p num="75">
+      In Step S20, the system waits for a status signal from the target device.
+      <br/>
+      Once status is received from the destination interface, the descriptor's Status field is updated in Step 21 to indicate that the frame has been processed, and the system returns to Step S1 to process the next frame if any remain.
+    </p>
+    <p num="76">
+      FIG. 11 depicts a portion of the transmit buffer 215 of FIG. 2 that has been loaded according to the process described above.
+      <br/>
+      The shaded blocks 1102, 1104 represent frame data.
+      <br/>
+      Note that dead bytes 1106 are used to end the frame evenly on a memory width boundary so that the next frame 1104 starts on a memory width boundary.
+      <br/>
+      The control bits 1110 correspond to the control bits 215A of FIG. 2.
+      <br/>
+      The control bits 1110 indicate what is contained in each double word of the transmit buffer 215.
+      <br/>
+      In this particular example embodiment of the control bits 1110, 0002 is used to indicate frame data, 1XX2 (where X represents "don't care") is used to indicate the End of Frame Control Word 1108, and 0YY2 (where YY represents a binary number from 1 to 3) is used to indicate the number of dead bytes 1106 that have been appended to the end of the frame 1102.
+      <br/>
+      Inserting an end of frame control word enables the DMAC to stack multiple frames in the transmit buffer without keeping track of their characteristics.
+    </p>
+    <p num="77">
+      Turning back to FIG. 1, the details of a receive channel according to the present invention will now be described.
+      <br/>
+      Similar to the transmit channel, upon receiving a receive DMA request signal 120 from the source device 150, the DMAC 125 will request control of the buses 130, 132, 134 from the processor 115 via a bus request signal 127.
+      <br/>
+      The processor 115 will relinquish control of the buses 130, 132, 134 and signal the DMAC 125 indicating as such via the bus acknowledge signal 129.
+      <br/>
+      Then, the DMAC 125 will set up a receive channel from the source device 150, into the receive buffer 135, through the DMAC 125, out over the data bus 130, and into memory 110.
+    </p>
+    <p num="78">
+      The lower half of FIG. 2 depicts a block diagram of a receive channel within a DMAC 125 of FIG. 1.
+      <br/>
+      The receive channel with the DMAC 125 is comprised of receive steer logic 255 connected to the receive buffer 250 and the receive accumulation registers 260 connected between the receive steer logic 255 and the data bus 200.
+      <br/>
+      The receive buffer 250 is typically implemented using a first-in, first-out random access memory.
+      <br/>
+      The receive steer logic 255 and the receive accumulation registers 260 are used to quickly and efficiently align the data on memory width boundaries as it passes through the receive channel.
+    </p>
+    <p num="79">
+      Also connected to the data bus 200 are the receive data buffer address register 275 and the receive data buffer length register 280.
+      <br/>
+      These registers 275, 280 store the memory address and length from the descriptors of the data buffer currently being transferred and feed them into the logic 285, 270, 265, 245 that calculates the information needed by the receive steer logic 255 to align the data buffer and also generate the clocking signals that trigger the transfer of bytes from the source device 150 of FIG.
+      <br/>
+      I into the receive buffer 250 and then out of the receive buffer 250 onto the data bus 200 and into memory 110 of FIG. 1.
+      <br/>
+      In particular, the least significant bits 275A and 280A of the receive data buffer address register 275 and the receive data buffer length register 280 respectively are stored in register 285 where they are accessible by the receive logic 270 which is driven by the bus control state machine 245.
+      <br/>
+      The receive logic 270 feeds control signals to the receive steer logic 255 as described above and it also controls the receive buffer 250 by sending signals to the receive buffer clock logic 265 and the receive buffer control bits 250A.
+    </p>
+    <p num="80">
+      FIG. 12 is a more detailed diagram of the receive portion of the DMAC 125 of FIG. 1.
+      <br/>
+      As depicted in FIG. 12, the receive channel within the DMAC 125 includes multiplexors 1274, 1275, 1276, 1277, 1205, 1206, 1207, 1208, connected between the receive buffer 1215 and the accumulator registers 1210, 1211.
+      <br/>
+      In addition, there are a second set of multiplexors 1270, 1271, 1272, 1273 that provide a connection between the outputs of the accumulator registers 1210, 1211 and the inputs of the multiplexors 1205, 1206, 1207, 1208.
+      <br/>
+      All together the multiplexors 1205, 1206, 1207, 1208, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, represent an embodiment of the receive steer logic 255 represented in FIG. 2.
+      <br/>
+      The receive accumulator registers 1210, 1211 are connected to the data bus 1200.
+      <br/>
+      The number of multiplexors 1205, 1206,1207,1208,1270, 1271,1272,1273,1274, 1275,1276, 1277, and accumulator registers 1210, 1211 required to implement the invention will depend upon the width of the memory system 110 of FIG. 1.
+      <br/>
+      As with the transmit portion of the DMAC 125, the wider the memory system 110, the wider the data bus 1200, and consequently the more multiplexors 1205, 1206, 1207, 1208,1270, 1271,1272,1273, 1274, 1275, 1276, 1277, and accumulator registers 1210, 1211 will be desired.
+    </p>
+    <p num="81">The outputs of the multiplexors 1205, 1206, 1207, 1208 are connected to the pre-accumulator register 1210 and the high byte 1263 of the accumulator register 1211 such that if four bytes of data are presented by the receive buffer 1215, they can be written into these four byte locations of the registers 1210, 1211 in any order arrangement desired.</p>
+    <p num="82">The pre-accumulator register 1210 is connected to the three low order bytes 1260, 1261, 1262 of the accumulator register 1211 such that the data stored in the pre-accumulator register 1210 can be transferred directly into the accumulator register 1211.</p>
+    <p num="83">
+      The receive steer logic 255, i.e. the multiplexors 1205, 1206, 1207, 1208, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, are controlled by steer and shuffle steer bits calculators contained within the receive logic 270 of FIG. 2.
+      <br/>
+      The steer bits calculator contained within the receive logic 270 is embodied in FIG. 12 as an ALU 1235 fed by the �A� register 1230 and the �RL� register 1244.
+      <br/>
+      These two latched registers hold values directly from the descriptor or computed from information in the descriptor.
+      <br/>
+      The �A� register 1230 is fed by the low order bits of the receive data buffer address register 1225 which is loaded directly from the descriptor.
+      <br/>
+      ALU 1242 computes a value called the next running length (NRL) based upon a previous latched version of the NRL stored in the �RL� register 1244 and the value held in the �L� register 1232.
+    </p>
+    <p num="84">
+      The �L� register 1232 is fed by the low order bits of the receive data buffer length register 1220.
+      <br/>
+      As with the receive data buffer address register 1225, the receive data buffer length register 1220 is loaded from the descriptor.
+      <br/>
+      ALU 1240 combines the value in the �PS� register 1246 with the steer bits generated by ALU 1235.
+      <br/>
+      The resulting value is called the shuffle steer.
+      <br/>
+      The shuffle steer bits control the multiplexors 1270, 1271, 1272, 1273 to determine which bytes are selected to be fed back to and stored back into the receive accumulator register 1211.
+      <br/>
+      The �PS� register 1246 is fed from ALU 1235 which generates the steer bits as mentioned above.
+      <br/>
+      The �PS� register 1246 holds the previous value of the steer bits.
+      <br/>
+      The receive logic 1248 takes �L�, �S�, �PS�, �A�, �DB� and Bit 34 as inputs and generates the clock control signal that is fed to the receive buffer 1215 and the steer logic control signal that controls the multiplexors 1205, 1206, 1207, 1208.
+      <br/>
+      The �DB� value and Bit 34 value from the control bits are generated by a transmit DMAC as described above with regard to the transmit portion of the present invention.
+    </p>
+    <p num="85">
+      Turning to FIGS. 13 and 14, data buffers 1300, 1302 are defined by descriptors 1304 which, as with descriptors used by the transmit portion described above, are small tables in memory that define the size 1306, location 1308 and status 1310 of the data buffers 1300, 1302.
+      <br/>
+      The receive channel of the present invention properly aligns the received data in the data buffers 1300, 1302.
+      <br/>
+      A single frame may be composed of several data buffers 1300, 1302.
+      <br/>
+      The data buffers 1300, 1302 may be of any number of bytes in length, and start on any address boundary 1312A, 1312B, 1312C, 1312D, i.e. in a four byte wide system where the data is not aligned on double-word boundaries 1312A.
+      <br/>
+      As described above, receive accumulator registers and steering logic are located between the bus interface and the receive buffer to realign the bytes.
+    </p>
+    <p num="86">
+      Each descriptor 1304 contains information about its corresponding data buffers 1300.
+      <br/>
+      The descriptors 1304 hold the address pointer 1308 and length 1306 of the data buffer 1300 along with a status/command field 1310.
+      <br/>
+      This information is read from memory into the corresponding address and length registers on the DMAC as each data buffer 1300 is processed.
+      <br/>
+      Note that there may be more than one data buffer 1300 per frame.
+      <br/>
+      The number of data buffers 1300 per frame is determined by an End of Frame indicator bit written to the status/command field 1310 of each descriptor entry after the data buffer 1300 has been processed.
+      <br/>
+      The amount of memory used is also written to the data buffer Length field 1306 at this time.
+      <br/>
+      To receive a frame, the driver of the peripheral device, i.e. the source device 150 in FIG. 1, is first required to set up a sufficient number of data buffers 1300 in memory 110.
+      <br/>
+      Next, the descriptors 1304 are set up with all the necessary information describing the data buffers 1300.
+      <br/>
+      Once these tasks are completed, the frame is ready to begin being received according to the present invention.
+    </p>
+    <p num="87">
+      The following symbols will be used throughout the remainder of this specification.
+      <br/>
+      SRX represents the steer bits for aligning the bytes in the receive accumulator register along a memory width boundary. �PS� represents latched steer bits used in successive calculations of the shuffle steer bits.
+      <br/>
+      SS represents shuffle steer bits used to determine how frame data is shuffled in the receive accumulator register for alignment when starting a new data buffer.
+      <br/>
+      These values are computed based on the equations:
+      <br/>
+      SRX =�RL�+�A�
+      <br/>
+      SS=�PS�-S=�PS�-(�RL�+�A�)
+    </p>
+    <p num="88">
+      These equations change whenever any of the values on the right side of the equations are reloaded.
+      <br/>
+      This occurs before the data buffer processing begins.
+    </p>
+    <p num="89">
+      FIG. 15 illustrates a specific example embodiment of the steer and shuffle steer calculators of the present invention for a memory system that is four bytes wide.
+      <br/>
+      The steer bits calculator contained within the receive logic 270 is embodied in FIG. 15 as an ALU 1535 connected to compute the sum of the two bit wide �A� register 1530 and the two bit wide �RL� register 1544.
+      <br/>
+      These two latched registers hold values directly from the descriptor or computed from information in the descriptor.
+      <br/>
+      The �A� register 1530 is fed by the two low order bits of the four byte wide receive data buffer address register 1525 which is loaded directly from the descriptor.
+      <br/>
+      ALU 1542 computes the next RL value based upon the difference between a previous latched version of the RL stored in the �RL� register 1544 and the value held in the two bit wide �L� register 1532.
+      <br/>
+      The �L� register 1532 is fed by the two low order bits of the two byte wide receive data buffer length register 1520.
+      <br/>
+      As with the four byte wide receive data buffer address register 1525, the receive data buffer length register 1520 is loaded from the descriptor.
+    </p>
+    <p num="90">
+      The shuffle steer calculator is embodied as ALU 1540 connected to compute the difference between the value in the two bit wide �PS� register 1546 and the steer bits generated by ALU 1535.
+      <br/>
+      The �PS� register 1546 is fed from ALU 1535 which generates the steer bits as mentioned above.
+      <br/>
+      The �PS� register 1546 holds the previous value of the steer bits.
+    </p>
+    <p num="91">
+      FIG. 16 depicts the four possible realignment configurations for the different receive steer bit values.
+      <br/>
+      In each case, four byte wide data is transferred from the receive buffer 1602A, 1602B, 1602C, 1602D through the receive steer logic 1604A, 1604B, 1604C, 1604D where each byte can be directed by the steer bits to a desired byte location in the receive accumulator registers 1606A, 1606B, 1606C, 1606D; 1608A, 1608B, 1608C, 1608D.
+      <br/>
+      This is done in preparation to transfer the data onto the data bus 1610A, 1610B, 1610C, 1610D, respectively.
+    </p>
+    <p num="92">
+      In the first configuration 1600A, where S=002 (steer equals zero) and the data buffer was initially aligned in memory on a memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins.
+      <br/>
+      For example, data buffer n ends on address 401 and data buffer n+1 starts on address 202, the four bytes of data are passed straight through the accumulator registers 1606A, 1608A.
+      <br/>
+      This happens in one phase.
+    </p>
+    <p num="93">
+      In the second configuration 1600B, where S=012 (steer equals one) and the start of the data buffer was misaligned by one byte relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated one byte by the steering logic 1604B.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the three low order bytes from the receive buffer 1602B are transferred into the three high order byte positions of the accumulator register 1608B and the byte in the low order byte position in the pre-accumulator register 1606B is simultaneously transferred into the low order byte position of the accumulator register 1608B.
+      <br/>
+      Second, the high order byte from the receive buffer 1602B is transferred into the low order byte position of the pre-accumulator register 1606B.
+      <br/>
+      The accumulator register 1608B now holds four bytes of the data frame that are boundary aligned and ready to be aligned with the data buffer and then transferred onto the data bus 1610B, while the byte in the low order byte position in the pre-accumulator register 1606B is now ready for the next transfer.
+    </p>
+    <p num="94">
+      In the third configuration 1600C, where S=102 (steer equals two) and the start of the data buffer was misaligned by two bytes relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated two bytes by the steering logic 1604C.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the two low order bytes from the receive buffer 1602C are transferred into the two high order byte positions of the accumulator register 1608C and the two bytes in the two low order byte positions in the pre-accumulator register 1606C are simultaneously transferred into the two low order byte positions of the accumulator register 1608C.
+      <br/>
+      Second, the two high order bytes from the receive buffer 1602C are transferred into the two low order byte positions of the pre-accumulator register 1606C.
+      <br/>
+      The accumulator register 1608C now holds four bytes of the data frame that are boundary aligned and ready to be aligned with the data buffer and then transferred onto the data bus 1610C, while the bytes in the two low order byte positions in the pre-accumulator register 1606C are now ready for the next transfer.
+    </p>
+    <p num="95">
+      In the fourth configuration 1600D, where S=112 (steer equals three) and the start of the data buffer was misaligned by three bytes relative to the memory width boundary, or the previous data buffer's last transfer ended on a byte boundary previous to where the new data buffer begins, the four bytes being transferred are rotated three bytes by the steering logic 1604D.
+      <br/>
+      This happens in two phases.
+      <br/>
+      First, the low order byte from the receive buffer 1602D is transferred into the high order byte position of the accumulator register 1608D and the three bytes in the pre-accumulator register 1606D are simultaneously transferred into the three low order byte positions of the accumulator register 1608D.
+      <br/>
+      Second, the three high order bytes from the receive buffer 1602D are transferred into the pre-accumulator register 1606D.
+      <br/>
+      The accumulator register 1608D now holds four bytes of the data frame that are boundary aligned and ready to be aligned with the data buffer and then transferred onto the data bus 1610D, while the bytes in the pre-accumulator register 1606D are now ready for the next transfer.
+    </p>
+    <p num="96">
+      Together, the receive accumulator and the receive pre-accumulator are used to accumulate four consecutive, valid bytes of the receive buffer for alignment with the data buffer and then transferred onto the data bus.
+      <br/>
+      Further, the receive accumulator registers allow unneeded, non-data buffer bytes to be discarded without introducing delay into the process of realigning the four bytes.
+      <br/>
+      Instead of a slow, complex logic circuit to determine which bytes are valid or to track the valid bytes, the present invention uses the receive accumulator registers to dynamically accumulate the valid data.
+      <br/>
+      In other words, in terms of performance, the receive accumulator registers help align the data without any negative impact on the performance of the overall system.
+      <br/>
+      They merely function as a zero time delay buffering stage into the transmit buffer.
+    </p>
+    <p num="97">
+      Turning to FIG. 17, before the contents of the receive accumulator register can be transferred to the data bus to be stored in memory, the data in the receive accumulator must be realigned with the data bus each time a new data buffer is needed as the frame is stored into memory.
+      <br/>
+      Recall that data buffers do not necessarily start evenly on memory width boundaries.
+      <br/>
+      Each time a data buffer fills up a new one is started.
+      <br/>
+      The shuffle steer logic is used to realign the data in the receive accumulator register so that it will be properly transferred into memory so as to start at the beginning of the data buffer.
+      <br/>
+      FIG. 17 illustrates the four possible cases with a four byte wide memory.
+      <br/>
+      In the first case 1700A, where the shuffle steer value equals zero, no shuffling takes place because the data buffer is aligned with the memory width boundaries as is the data in the receive accumulator register.
+      <br/>
+      In the second case 1700B, where the shuffle steer value equals one, the bytes in the receive accumulator register are rotated by one byte.
+      <br/>
+      In the third case 1700C, where the shuffle steer value equals two, the bytes in the receive accumulator register are rotated by two bytes.
+      <br/>
+      In the fourth case 1700D, where the shuffle steer value equals three, the bytes in the receive accumulator register are rotated by three bytes.
+    </p>
+    <p num="98">
+      Turning to FIG. 18, in a system with a four byte wide memory, each receive buffer address 1800A, 1800B, 1800C is formatted with thirty-two data bits 1802 and three receive buffer control bits 1804.
+      <br/>
+      These three receive buffer control bits include two bits labeled DB which indicate the number of dead bytes required at the end of a frame to make the frame end on a memory width boundary and one bit labeled EoFC that indicates the last receive buffer entry in the frame.
+      <br/>
+      This bit is set in a null entry that may be used for frame status.
+      <br/>
+      The null entry is used to delineate frame boundaries.
+      <br/>
+      Inserting an end of frame control word enables the DMAC to stack multiple frames in the receive buffer without keeping track of their characteristics.
+    </p>
+    <p num="99">
+      There are four clocks needed to load the contents of the receive buffer into the receive accumulator register and the receive pre-accumulator register.
+      <br/>
+      These include: a receive accumulator register initial clock (ARCI); a receive accumulator register running clock (ARCR); a receive accumulator register end of frame clock (ARCE); and a receive accumulator register look ahead clock (ARCL).
+      <br/>
+      The activation of any of these clocks causes the receive buffer to advance to its next address.
+      <br/>
+      The logic for generating each of these clocks is described in detail below.
+    </p>
+    <p num="100">
+      Once the steer and shuffle steer logic is configured, the receive accumulator register needs to have initial data loaded into it.
+      <br/>
+      This is done with the ARCI which occurs (1) at the beginning of every frame and (2) in the case where all the data residing in the receive accumulator register was written out to the previous data buffer in memory, as expressed in the following equation:
+      <br/>
+      (S&gt;�A�).vertline.((S=�A�)&amp;(�PS�=0))
+    </p>
+    <p num="101">
+      Turning to FIG. 19, this second case is derived from the a truth table indicating when ARCI should assert because all the data residing in the receive accumulator register was written out to the previous data buffer in memory.
+      <br/>
+      Once the ARCI clocks, the state machine is ready to initiate transfers to memory.
+    </p>
+    <p num="102">
+      Turning to FIG. 20, an example logic circuit implementing the truth table of FIG. 19 is depicted.
+      <br/>
+      S 2000 and �A� 2002 are compared by comparator 2008.
+      <br/>
+      If S 2000 is greater than �A� 2002 a signal is asserted to the OR gate 2014.
+      <br/>
+      If they are equal, a signal is asserted to the AND gate 2012. �PS� 2004 is compared to zero 2006 by comparator 2010.
+      <br/>
+      If �PS� 2004 is equal to zero 2006, then a signal is asserted to the AND gate 2012.
+      <br/>
+      The output of AND gate 2012 is fed to the second input of OR gate 2014.
+      <br/>
+      The result generated by the OR gate 2014 is the ARCI 2016.
+    </p>
+    <p num="103">
+      The ARCR is activated with each bus cycle except the last bus cycle of a data buffer and in the case where the second to last transfer of a data buffer occurs and the data in the receive accumulator register will not be transferred to the data buffer in memory during the last data buffer transfer.
+      <br/>
+      This is expressed in the following equation:
+      <br/>
+      (S&gt;(�A�+�L�))&amp;((�A�+�L�)�=0)
+    </p>
+    <p num="104">
+      This equation is derived from the truth table depicted in FIG. 21 and an example of a logic circuit implementing this equation is depicted in FIG.22. �A� 2202 and �L� 2204 are summed by ALU 2208.
+      <br/>
+      The result is compared with S 2200 and with zero 2206.
+      <br/>
+      If S 2200 is greater than the result, a signal is asserted to the NAND gate 2214.
+      <br/>
+      If the result is equal to zero, an inverted signal is asserted to the NAND gate 2214.
+      <br/>
+      The result of the NAND gate 2214 is ARCR inhibit 2216.
+    </p>
+    <p num="105">
+      The possibility of a frame ending at any time always exists.
+      <br/>
+      If this occurs during either of the inhibits indicated above, and there are dead bytes in the receive accumulator register and all the frame data has already been written out to the data buffer, the inhibits are preferably overridden.
+      <br/>
+      This is desirable because if it were not done, a data buffer would be wasted.
+      <br/>
+      In other words, dead bytes would be placed in a new data buffer and the data buffer's descriptor would indicate zero length and consequently be closed.
+    </p>
+    <p num="106">
+      This exception is handled by the ARCE.
+      <br/>
+      It is activated with each bus cycle if the following equation is satisfied:
+      <br/>
+      (�DB�&gt;0)&amp;((�DB�+�L�-S)&gt;4)
+    </p>
+    <p num="107">
+      This equation is expressed in the example logic circuit of FIG. 23. �DB� 2300 and �L� 2302 are summed by ALU 2304.
+      <br/>
+      The result is feed to ALU 2312 where S 2308 is subtracted out and the result is passed to comparator 2316.
+      <br/>
+      Comparator 2316 compares the result with 1002 2314 and if it is greater than 1002, a signal is asserted to the AND gate 2318.
+      <br/>
+      Meanwhile, �DB� 2300 is compared to zero 2306 in comparator2310, and if it is greater than zero 2306, a signal is asserted to the second input of AND gate 2318.
+      <br/>
+      The result of the AND gate 2318 is ARCE 2320.
+    </p>
+    <p num="108">
+      Once the end of a data buffer has been reached, the ARCL is used to determine if the total frame has fit within the confines of the current data buffer.
+      <br/>
+      If so, the EoFC word placed in the receive buffer must be clocked and the receive accumulator register must be aligned with the beginning of a new frame.
+      <br/>
+      This is desirable because if it were not done, a data buffer would be wasted because dead bytes would be placed in a new data buffer and the data buffer's descriptor would indicate zero length and consequently be closed.
+    </p>
+    <p num="109">
+      The ARCL is activated during the last data buffer transfer if the following criteria apply:
+      <br/>
+      (EOFC in receive Buffer)&amp;(S=0)&amp;((�A�+�L�)=0)
+    </p>
+    <p num="110">
+      This is the case where the steer bits are zero and there are a multiple of four bytes in the frame, but the End of Frame control word has not yet been clocked out of the receive buffer.
+      <br/>
+      FIG. 24 depicts an example logic circuit implementing this expression. �A� 2400 and �L� 2402 are summed in ALU 2404, the result is compared to zero 2406 in comparator 2408.
+      <br/>
+      If it is equal to zero, a signal is asserted to AND gate 2410.
+      <br/>
+      If S2412 is equal to zero 2414 as a result of comparator 2420, then a signal is asserted to a second input of AND gate 2410.
+      <br/>
+      Finally, Bit 342416 of the control bits is applied directly to a third input of AND gate 2410.
+      <br/>
+      The result of AND gate 2410 is ARCL 2418.
+    </p>
+    <p num="111">
+      Turning to FIG. 25, a preferred example embodiment of the process of moving a variable size frame temporarily held in a receive buffer into predefined data buffers in memory is now described.
+      <br/>
+      As with the description of the process for moving data from memory, bit notation is used to refer to the bytes that make up the four bytes (double word) that get transferred with each clock cycle.
+      <br/>
+      For example, Byte 0 is the lowest order byte and is reference in bit notation by specifying bits seven through zero or �7:0�. As another example, �31:8� refers to the three high order bytes, Bytes 3, 2 and 1.
+      <br/>
+      In FIG. 25, the numbers contained in the square brackets refer to the byte numbers that are to be transferred.
+      <br/>
+      AR means accumulator register, PAR means preaccumulator register, and RX_buffer means receive buffer.
+    </p>
+    <p num="112">
+      In Step S50, the �A�, �L�, �RL�, and �PS� bits are initialized to zero each time a new frame is started.
+      <br/>
+      In Step S51, �RL�-�L� is transferred into �RL� and Sis transferred into �PS�. In Step S3, the Descriptor for the next available data buffer in memory is read.
+      <br/>
+      This causes the �A� and �L� bits and the End of Frame indicator to be latched in Step S53.
+      <br/>
+      After Step S53, the steer bits are now valid in Step S54, causing the receive accumulator registers to be aligned with the proper bytes from the receive buffer based on the current value of S.
+    </p>
+    <p num="113">If S=002, then the state machine flows to Step S55 where the channel is configured to make four bytes at a time transfer straight from the current receive buffer location into the accumulator register.</p>
+    <p num="114">If S=012, then the state machine flows to Step S56 where the channel is configured to transfer the receive buffer�23:0� into the receive accumulator register�31:8�, the receive pre-accumulator register�7:0� into the receive accumulator register�7:0�, and the receive buffer�31:24� into the receive pre-accumulator register�7:0�.</p>
+    <p num="115">If S=102, then the state machine flows to Step S57 where the channel is configured to transfer the receive buffer�15:0� into the receive accumulator register�31:16�, the receive pre-accumulator register�15:0� into the receive accumulator register�15:0�, and the receive buffer�31:24� into the receive preaccumulator register�15:0�.</p>
+    <p num="116">If S=112, then the state machine flows to Step S58 where the channel is configured to transfer the receive buffer�7:0� into the receive accumulator register�31:24�, the receive pre-accumulator register�23:0� into the receive accumulator register�23:0�, and the receive buffer�31:8� into the receive pre-accumulator register�23:0�.</p>
+    <p num="117">
+      Next the receive accumulator register is realigned with the data bus each time a new data buffer is needed because the previous data buffer is filled as the frame is being stored into memory.
+      <br/>
+      This one step process is not necessary the first time through.
+      <br/>
+      However, the system is simplified by not trying to skip this step.
+      <br/>
+      The shuffle steer bits �SS� computed and evaluated in Step S59, control which bytes are selected to be fed back to and stored back into the receive accumulator register.
+    </p>
+    <p num="118">If SS=002, then the state machine flows to Step S60 where the channel is configured not to rearrange the bytes in the accumulator registers.</p>
+    <p num="119">If SS=012, then the state machine flows to Step S61 where the channel is configured to transfer the contents of the receive pre-accumulator register�7:0� into the receive accumulator register�31:24�, the receive accumulator register�31:24� into the receive accumulator register�23 :16�, the receive pre-accumulator register�23:16� into the receive accumulator register�15:8�, and the receive pre-accumulator register�15:8� into the receive accumulator register�7:0�.</p>
+    <p num="120">If SS=102, then the state machine flows to Step S62 where the channel is configured to transfer the contents of the receive pre-accumulator register�23:16� into the receive accumulator register�31:24�, the receive preaccumulator register�15:8� into the receive accumulator register�23:16�, the receive pre-accumulator register�7:0� into the receive accumulator register�15:8�, and the receive accumulator register�31:24� into the receive accumulator register�7:0�.</p>
+    <p num="121">If SS=112, then the state machine flows to Step S63 where the channel is configured to transfer the contents of the receive pre-accumulator register�15:8� into the receive accumulator register�31:24�, the receive pre-accumulator register�7:0� into the receive accumulator register�23:16�, the receive accumulator register�31:241� into the receive accumulator register�15:8�, and the receive pre-accumulator register�23:16� into the receive accumulator register�7:0�.</p>
+    <p num="122">
+      In every case, the next step is Step S64 in which the contents of the receive accumulator register�23:0� are transferred into the receive preaccumulator register�23:0�. At this point, the receive accumulator register needs to have initial data loaded.
+      <br/>
+      This is done with the receive accumulator register initial clock (ARCI) which occurs at the beginning of every frame, or in the case where all the data residing in the receive accumulator register was written out to the previous data buffer in memory.
+      <br/>
+      In Step S65, the state machine checks whether the data is at the start of a new frame or if the data in the accumulator register has already been transferred into memory.
+      <br/>
+      If either case is true, the ARCI is activated in Step S66 and as a result the initial data is loaded into the accumulator register in Step S67.
+      <br/>
+      At this point, the state machine is ready to initiate transfers to memory.
+      <br/>
+      Control then returns to Step S65.
+      <br/>
+      It should be noted that each clock causes the receive buffer to advance to its next address and each receive buffer address is formatted to include 32 data bits and three receive buffer control bits are discussed above.
+    </p>
+    <p num="123">
+      The receive accumulator register running clock (ARCR) is activated with each bus cycle except the last transfer of a data buffer and in the case where the second to last transfer of a data buffer occurs and the data in the receive accumulator register will not be transferred to the data buffer in memory during the last data buffer transfer.
+      <br/>
+      If the machine is not at the start of a new frame and the data in the accumulator register has not been transferred to memory in Step S65, then the system enables the ARCR which causes a transfer by activating with each bus cycle.
+    </p>
+    <p num="124">
+      After each activation of ARCR, the system checks to see if the current data buffer will be filled after the current bus cycle in Step S69.
+      <br/>
+      If not, the system checks to see if this is the second to last transfer before the current data buffer is filled and the data in the accumulator register will not all be transferred to memory during the last transfer in Step S70.
+      <br/>
+      If not, the system transfers the accumulator register contents to memory and the contents of the current receive buffer location to the accumulator register in response to the ARCR.
+      <br/>
+      In this case, the system returns to step S69.
+      <br/>
+      If this is the second to last transfer before the current data buffer is filled and the data in the accumulator register will not all be transferred to memory during the last transfer, then the system flows to Step S72 where the ARCR is inhibited.
+      <br/>
+      Likewise, if the current data buffer will be filled after the current bus cycle, then the system flows to Step S72 where the ARCR is inhibited.
+    </p>
+    <p num="125">
+      The possibility of a frame ending at any time always exists.
+      <br/>
+      If this occurs during either of the inhibits expressed in the previous steps, there are dead bytes in the receive accumulator register, and all the frame data has already been written out to the data buffer, the inhibits are preferably over-ridden.
+      <br/>
+      This is desirable because if it were not done, a data buffer would be wasted.
+      <br/>
+      In other words, dead bytes would be placed in a new data buffer and the data buffer's descriptor would indicate zero length, and as a consequence the data buffer would be closed.
+    </p>
+    <p num="126">
+      This gives rise to the need for a receive accumulator register end of frame clock (ARCE).
+      <br/>
+      The system checks to see if the end of the frame has been reached, there are only dead bytes in the accumulator register, and all of the data of the current frame has been transferred into memory in Step S73.
+      <br/>
+      If so, the ARCE is activated in Step S74 and the system flows to Step S75.
+      <br/>
+      If not, the system flows directly to Step S75.
+    </p>
+    <p num="127">
+      Once the end of a data buffer has been reached, the receive accumulator register look-ahead clock (ARCL) is used to determine if the total frame has fit within the confines of the current data buffer.
+      <br/>
+      If so, the end of frame word placed in the receive buffer must be clocked and the receive accumulator register must be aligned with the beginning of a new frame.
+      <br/>
+      This is desirable because if it were not done, a data buffer would be wasted; dead bytes would be placed in a new data buffer, the descriptor would indicate zero length and consequently be closed.
+      <br/>
+      Therefore the ARCL is activated during the last data buffer transfer if the steer bits are zero and there are a multiple of four bytes in the frame but the end of frame control word has not yet been clocked out of the receive buffer.
+    </p>
+    <p num="128">
+      Thus, in Step S75, the system checks to see if the data buffer is full.
+      <br/>
+      If not, the ARCL is generated in Step S77, and then system proceeds to check to see if the current frame fits within the current data buffer in Step S78.
+      <br/>
+      If it does fit, then the end of frame control word is clocked in the receive buffer and control returns to Step S51 to start a new data buffer.
+      <br/>
+      Otherwise, the system goes directly to Step S51 to start a new data buffer.
+    </p>
+    <p num="129">
+      If back in Step S75 the data buffer is found not to be full, the system proceeds to Step S81 where the current data buffer is closed out and the status and length fields in the last data buffer's descriptor are updated in Step S82.
+      <br/>
+      The status field indicates whether or not the end of the frame had been reached within the confines of the current data buffer in memory.
+      <br/>
+      The system then checks to see if the end of the current frame has been reached in Step S83.
+      <br/>
+      If not, control returns to Step 51 to start filling a new data buffer.
+      <br/>
+      If so, control returns to Step S50 to start a new frame.
+    </p>
+    <p num="130">
+      Various other modifications and alterations in the structure and method of operation of this invention will be apparent to those skilled in the art without departing from the scope and spirit of the invention.
+      <br/>
+      Although the invention has been described in connection with specific preferred embodiments, it should be understood that the invention as claimed should not be unduly limited to such specific embodiments.
+      <br/>
+      It is intended that the following claims define the scope of the present invention and that structures and methods within the scope of these claims and their equivalents be covered thereby.       (Vertical spacing image '1' not included in text)  (Vertical spacing image '2' not included in text)  (Vertical spacing image '3' not included in text)  (Vertical spacing image '4' not included in text)  (Vertical spacing image '5' not included in text)  (Vertical spacing image '6' not included in text)  (Vertical spacing image '7' not included in text)  (Vertical spacing image '8' not included in text)  (Vertical spacing image '9' not included in text)  (Vertical spacing image '10' not included in text)  (Vertical spacing image '11' not included in text)  (Vertical spacing image '12' not included in text)  (Vertical spacing image '13' not included in text)  (Vertical spacing image '14' not included in text)  (Vertical spacing image '15' not included in text)  (Vertical spacing image '16' not included in text)  (Vertical spacing image '17' not included in text)
+    </p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2.</claim-text>
+      <claim-text>A direct memory access data transfer apparatus comprising: a configurable channel from a receive buffer to a memory;</claim-text>
+      <claim-text>and channel configuration means for configuring the channel to transfer data from the receive buffer aligned evenly on memory width boundaries, coupled to the channel, wherein the configurable channel includes:</claim-text>
+      <claim-text>- steering logic coupled to the receive buffer;</claim-text>
+      <claim-text>and - accumulator registers coupled to the steering logic and the memory;</claim-text>
+      <claim-text>and wherein the steering logic includes N multiplexors each having a single one byte-wide input coupled to the receive buffer, N one byte-wide outputs coupled to the accumulator registers, and ln(N)ln(2) control steering inputs coupled to the channel configuration means, wherein N equals the width of the memory in bytes.</claim-text>
+      <claim-text>1. A method of optimizing a data transfer to an N-byte wide memory system within a data processing system from an M-byte wide receive buffer using a bus master controller, wherein the data includes a plurality of control bits and is organized in data frames, wherein each data frame is to be stored in one or more data buffers in the memory system, and wherein each data buffer includes an associated descriptor block having a memory system address pointer field for holding an address pointer, a length field for holding a length value, a status field for holding a status value, and a command field for holding a command value, the method comprising the steps of:</claim-text>
+      <claim-text>initializing first and second latched storage registers capable of holding the least significant bits of the address pointer and the length value, which together indicate the alignment of the start and end of the data buffer relative to N-byte wide boundaries within the memory system, to zero; initializing third and fourth latched storage registers capable of holding intermediate values used to calculate the byte arrangement for transferring data into data buffers in the memory from the receive buffer; loading the descriptor block values including the address pointer to the next data buffer to be filled, the length value of the next data buffer to be filled, the status value of the next data buffer to be filled, and the command value of the next data buffer to be filled, into the bus master controller; loading and latching the first, second, third and fourth latched storage registers in response to loading the descriptor block values; calculating a steer value based upon the values stored in the latched storage registers; steering N bytes of the data into accumulator registers based upon the calculated steer value; calculating a shuffle steer value based upon the values stored in the latched storage registers; rearranging the data in the accumulator registers based upon the calculated shuffle steer value to align the data with the data buffer in memory; transferring the rearranged data from the accumulator registers into the current data buffer in memory; repeating the steps of loading the descriptor block values, loading and latching the first, second, third and fourth latched storage registers, calculating a steer value, steering N bytes of the data, calculating a shuffle steer value, rearranging the data in the accumulator registers, and transferring the rearranged data until the current data buffer is full; repeating the steps of initializing the first, second, third, and fourth latched storage registers, loading the descriptor block values, loading and latching the first, second, third and fourth latched storage registers, calculating a steer value, steering N bytes of the data, calculating a shuffle steer value, rearranging the data in the accumulator registers, and transferring the rearranged data until the entire frame is transferred from the receive buffer into one or more data buffers writing one or more place holder bytes into the data buffer after the end of the transferred data frame to insure that the frame ends within a data buffer on a memory width boundary;</claim-text>
+      <claim-text>and writing a value into the status field of the descriptor block of the last data buffer of the transferred data frame to indicate that the frame has been transferred.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The apparatus of claim 2 wherein the steering logic further includes shuffle steering logic including a plurality of multiplexors having data inputs coupled to the outputs of the accumulator registers and data outputs coupled to the inputs of the accumulator registers, wherein the plurality of multiplexors are controllable to rearrange data stored in the accumulator registers.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The apparatus of claim 2 wherein the accumulator registers include: a first set of N-1 one byte wide shift registers coupled to the steering logic;</claim-text>
+      <claim-text>and a second set of N one byte wide shift registers wherein N-1 shift registers are coupled to the first set of shift registers and the memory;</claim-text>
+      <claim-text>and the remaining one shift register of the second set of shift registers is coupled to the steering logic and the memory whereby N equals the width of the memory in bytes.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A direct memory access data transfer apparatus comprising: a configurable channel from a receive buffer to a memory;</claim-text>
+      <claim-text>and channel configuration means for configuring the channel to transfer data from the receive buffer aligned evenly on memory width boundaries, coupled to the channel, and wherein the configurable channel includes: - steering logic coupled to receive buffer;</claim-text>
+      <claim-text>and - accumulator registers coupled to the steering logic and the memory, and wherein the steering logic includes N multiplexors each having a single one byte-wide input coupled to the receive buffer, N one byte-wide outputs coupled to the accumulator registers, and ln(N)/ln(2) control steering inputs coupled to the channel configuration means, wherein N equals the width of the memory in bytes, and wherein the channel configuration means includes: - one or more data descriptor registers;</claim-text>
+      <claim-text>and - means for computing an arrangement of the data that will result in the data being written into the memory aligned on memory width boundaries, coupled to the data descriptor registers and the configurable channel.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The apparatus of claim 5 wherein the data descriptor registers comprise: a data address register coupled to the means for computing;</claim-text>
+      <claim-text>and a data length register coupled to the means for computing.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The apparatus of claim 5 wherein the means for computing comprises: a steer bits calculator coupled to the configurable channel and the data descriptor registers;</claim-text>
+      <claim-text>and a shuffle steer bits calculator coupled to the configurable channel, the data descriptor registers, and the steer bits calculator.</claim-text>
+      <claim-text>8.The apparatus of claim 7 wherein the means for computing includes logic for determining the number of dead bytes to append to a frame to cause it to end on a memory width boundary.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The apparatus of claim 8 wherein the means for computing further includes logic for preventing the appending of dead bytes that cause an additional data buffer in memory to be used.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

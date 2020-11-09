@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06185608B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06185608</doc-number>
+        <kind>B2</kind>
+        <date>20010206</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6185608</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="22256757" extended-family-id="42113666">
+      <document-id>
+        <country>US</country>
+        <doc-number>09096305</doc-number>
+        <kind>A</kind>
+        <date>19980612</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1998US-09096305</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43171976</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>9630598</doc-number>
+        <kind>A</kind>
+        <date>19980612</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1998US-09096305</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010206</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  17/30        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>30</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>709216000</text>
+        <class>709</class>
+        <subclass>216000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>707999010</text>
+        <class>707</class>
+        <subclass>999010</subclass>
+      </further-classification>
+      <further-classification sequence="2">
+        <text>707E17120</text>
+        <class>707</class>
+        <subclass>E17120</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-017/30W9C</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>017</main-group>
+        <subgroup>30W9C</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-017/30902</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>17</main-group>
+        <subgroup>30902</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>14</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>4</number-of-drawing-sheets>
+      <number-of-figures>4</number-of-figures>
+      <image-key data-format="questel">US6185608</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Caching dynamic web pages</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>MA HENRY CHI-TO, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5920725</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5920725</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>TAGAWA NORIO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5991773</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5991773</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>HOUSEL III BARRON CORNELIUS, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6003087</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6003087</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>HUITEMA CHRISTIAN</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>6016512</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US6016512</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Active transaction integrated with real-time transactions according to data freshness, Shimakawa et al., ieeexplore.ieee.org, pp. 321-328 and, 1997.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>A distributed web server and its performance analysis on multiple platforms, Liu et al., ieeexplorer.ieee.org, pp. 665-672, 1996.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>International Business Machines Corporation</orgname>
+            <address>
+              <address-1>Armonk, NY, US</address-1>
+              <city>Armonk</city>
+              <state>NY</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>IBM</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Hon, Lenny K.</name>
+            <address>
+              <address-1>Waterloo, CA</address-1>
+              <city>Waterloo</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Kuperman, Leon</name>
+            <address>
+              <address-1>Thornhill, CA</address-1>
+              <city>Thornhill</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Mau, Louis S.</name>
+            <address>
+              <address-1>Burnaby, CA</address-1>
+              <city>Burnaby</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Mohelsky, Alexander</name>
+            <address>
+              <address-1>Toronto, CA</address-1>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <name>Ray-Yarletts, Jeanine S.</name>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Rinehart, Mark</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      Web pages for commercial applications, such as electronic retail, are built "on-the-fly" in Hypertext Markup Language (HTML) from product data stored in the merchant's database.
+      <br/>
+      To reduce costs in time and computing resources and to improve customer access to data from the merchant's web site, pages created in HTML are cached on the merchant server.
+      <br/>
+      On a customer request for a page, the merchant server checks the cache first for the page, and if it isn't found there, generates a new page from the database.
+      <br/>
+      To maintain the validity of the content of the cached pages, the database tables include triggers that cause identifying information for any changes made on the stored data to be forwarded to a cache log.
+      <br/>
+      A synchronization daemon walks the cache log from time to time to locate pages that should be purged from the cache because their content is no longer synchronous with the data stored in the database.
+      <br/>
+      By setting preferences for identifiable customers in advance, data generated from the database can be selected for specific customer groups.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">This invention relates to improvements in presenting data over the Internet, and in particular, provides a mechanism for dynamically caching and validating web pages generated from data stored in a database.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      The Internet is a vast computer network consisting of many smaller networks spanning the globe.
+      <br/>
+      It is well known "lore" that the Internet was started in the late 1960's as development project of the U.S. Department of Defense to provide a back-up communications system that would be virtually impossible to destroy in the event of a major catastrophe.
+      <br/>
+      The Internet has grown exponentially, and millions of private users and corporations now use it daily for all kinds of communications needs.
+    </p>
+    <p num="3">
+      The World Wide Web (WWW) was developed in 1991 as a information system running over the Internet.
+      <br/>
+      The WWW is based on the concept of "hypertext" and a transfer method known as HTTP (Hypertext Transfer Protocol).
+      <br/>
+      HTTP is designed to run primarily over TCP/IT (Transmission Control Protocol/Internet Protocol), a networking protocol that permits use of the Internet.
+      <br/>
+      One increasing use of the WWW is commercial--with recent improvements in secure transactions as well as graphical presentation, merchants can display and sell their goods and services over the Internet.
+    </p>
+    <p num="4">
+      One format for information transfer over the WWW is to create documents using Hypertext Markup Language (HTML), a programming language that supports navigational linking ("hypertext links").
+      <br/>
+      HTML is a structured language, based on SGML (Standard Generalized Markup Language), a document processing system.
+      <br/>
+      Like SGML, HTML describes the structure of the document through a system of tags; HTML pages are made up of standard text as well as formatting codes for headings, paragraphs, lists, tables and character styles, that indicate how the page should be displayed.
+      <br/>
+      HTML includes a tag called a "link tag" that provides the programming for nonlinear navigational links.
+      <br/>
+      One example of the use of HTML pages with navigational links in the context of business documents is described in U.S. Pat. No. 5,692,073 to Xerox Corporation for "Formless Forms and Paper Web Using a Reference-Based Mark Extracting Technique".
+    </p>
+    <p num="5">
+      The WWW makes use of Uniform Resource Locator (URL) to define the address of a particular page on the Internet.
+      <br/>
+      The URL naming system consists of three parts: the transfer format (often "http") followed by a colon and two forward slashes (://), the name of the host machine that holds the file, and finally, the path to the file on the host machine.
+      <br/>
+      In a typical piece of hypertext, the data stored in the hypertext link is a label pointing to a remote destination.
+      <br/>
+      This is programmed in HTML by embedding the address of the link destination, the URL, in the link tag.
+    </p>
+    <p num="6">
+      When a client accesses a web page, it does so through a software program called a browser which establishes the connection with the server hosting the page.
+      <br/>
+      The server executes corresponding server software which presents information to the client in a transfer format (eg., http) response corresponding with the web page or other data generated by the server.
+      <br/>
+      As the web page is initialized on the client machine, the browser renders the text and graphics for it from the HTML data.
+    </p>
+    <p num="7">
+      While HTML is used to deliver data on the web, most of the underlying information is not stored in HTML, but in other, richer storage formats, such as SGML and legacy systems such as databases.
+      <br/>
+      The data in these other formats must often be converted to HTML dynamically.
+      <br/>
+      Methods for converting files from SGML to HTML, including adding "anchors" or navigational links referencing other files during the conversion, are discussed in U.S. Pat. No. 5,530,852 of Sun Microsystems, Inc., titled "Method for Extracting Profiles and Topics from a First File Written in a First Markup Language and Generating Files in Different Markup Languages Containing the Profiles and Topics for use in Accessing Data and Described by the Profiles and Topics", and in "HTML makes a great delivery vehicle for Web-based information.
+      <br/>
+      It just isn't a sensible place for much of that information to live in." by R. Light, Archives and Museums Informatics, vol. 9, no. 4, pp. 381-387, 1995.
+    </p>
+    <p num="8">
+      In a commercial web site, a store sells its products to potentially millions of customers on the Internet by displaying the products through HTML documents.
+      <br/>
+      It is common that a merchant may have thousands of products in its catalog to sell.
+      <br/>
+      It is tedious, error prone and nearly impossible to manually create and manage the static HTML documents for navigating to and displaying these large number of products.
+    </p>
+    <p num="9">
+      A merchant server system helps merchant manage the catalog data and provides the support to sell products on the merchant's web site.
+      <br/>
+      In a merchant server system, the merchants catalog data are commonly stored in a relational database.
+      <br/>
+      There are database tables for storing product information, tables for grouping related products together into category and related categories together into higher level category, and tables for storing category information.
+      <br/>
+      When a shopper goes to the merchant's web site from his browser, the merchant server accesses the data in the database through a structured query (SQL) and dynamically generates HTML documents to show the category and product pages as the shopper navigates through the merchant's store.
+      <br/>
+      For example, U.S. Pat. No. 5,692,181 of NCR Corporation for "System and Method for Generating Reports from a Computer Database" discusses the problems associated with organizing interrelated data in database tables, and generating customized HTML documents, in this case, reports, from data stored in relational databases.
+    </p>
+    <p num="10">
+      In an electronic retail situation, a shopper usually enters the web site for a department store, for example, at the store's home page.
+      <br/>
+      From the home page, the shopper can click on a link to visit a top level category such as the Men's Wear department.
+      <br/>
+      From the Men's Wear page, he can choose the Pant section among other links to second level categories on the page.
+      <br/>
+      As the shopper navigates down the category hierarchy, he reaches a product page that shows a dress pant of a certain brand and the available sizes and colors.
+      <br/>
+      He can now pick the size and color he wants, and order the pant.
+      <br/>
+      The merchant server will take him through the ordering pages where he can provide the payment and shipping information.
+      <br/>
+      When the ordering steps are done, the order information will be recorded in the database and the merchant will be able to use this information to fulfill the order later.
+    </p>
+    <p num="11">
+      While dynamically generating the category and product pages are desirable so that the merchant only needs to manage the catalog information in the database, it takes up processing cycles in the merchant server to access the database and dynamically create the HTML pages the shopper wants to see.
+      <br/>
+      If the web site receives heavy traffic, this can significantly slow the shopping experience.
+      <br/>
+      A category or product page is the same one whether it is generated the first time or subsequent times until the corresponding catalog data in the database is changed.
+    </p>
+    <p num="12">
+      It can significantly reduce the load on the merchant server and improve the system performance if the generated pages can be saved for subsequent access and are re-generated only when the corresponding catalog data is changed.
+      <br/>
+      The shoppers will see a much better response time in navigating through the category and product pages because the pages are readily displayable from the web site once they have been "cached".
+    </p>
+    <p num="13">
+      However, one problem for the merchant server is being able to maintain the validity of the cached pages automatically so that the caching function becomes completely transparent to the merchant, who will manage the catalog data as usual.
+      <br/>
+      That is, when the data in the database used for cached pages is changed, it would be preferable if the merchant server was able to purge invalid cache pages automatically and re-generate new ones as they are needed.
+    </p>
+    <heading>SUMMARY OF THE INVENTION</heading>
+    <p num="14">It is an object the present invention to address the design of caching the dynamically generated pages for future use while maintaining the validity of the cached pages.</p>
+    <p num="15">
+      Accordingly, the present invention provides a document processing system for transmitting data for display on a client machine from a server.
+      <br/>
+      The system consists of data storage connected to the server, a converter program in the server for transforming data from the data storage into transmissible form, such as HTML, for display on the client machine, a cache on the server for storing one or more copies of the transformed data in transmissible form, and means in the server for checking the cache for a copy of the transformed data in transmissible form before activating the converter program on receiving a request for data transmission from the client.
+      <br/>
+      Preferably, the data storage is a database which includes a trigger mechanism to notify the server of a change to the stored data.
+      <br/>
+      The server would include a synchronizer adapted to purge from the cache copies of the transformed data affected by the change to the stored data.
+      <br/>
+      Preferably, also, the converter program includes means for querying the client's identity, locating preferences corresponding to the client's identity and selecting data from the data storage according to the located preferences.
+    </p>
+    <p num="16">
+      According to another aspect, the present invention provides a method for maintaining a valid cache of data generated in displayable form from a computer data storage.
+      <br/>
+      The method is executed in a computer by storing in cache at least one copy of data generated from the data storage in displayable form.
+      <br/>
+      On receiving a request for transmission of data in displayable form, the request is compared with the data in the cache.
+      <br/>
+      If a match is found, the data is transmitted from the cache.
+      <br/>
+      Otherwise, a copy of data from the data storage is generated in displayable form for transmission.
+      <br/>
+      Also, on receiving notification of a change to data in the data storage, the notification is compared with the data in the cache and, if matched, is purged from the cache.
+    </p>
+    <p num="17">
+      The invention also provides a computer implemented method for generating data in displayable form from a computer data storage according to user preferences in response to a client request.
+      <br/>
+      The method consists of identifying the client, matching the client's identity with a predetermined preferences file, selecting data from the data storage according to the preferences file and generating the selected data in displayable form for transmission to the client.
+    </p>
+    <heading>BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p num="18">
+      Embodiments of the invention will now be described in detail in association with the accompanying drawings, in which:
+      <br/>
+      FIG. 1 is a flow diagram illustrating the steps for obtaining a page from a merchant server for display by a shopper's browser;
+      <br/>
+      FIG. 2 is a flow diagram illustrating a method for creating cache files based on special parameters;
+      <br/>
+      FIG. 3 is a schematic diagram showing elements of the preferred embodiment of the invention; and
+      <br/>
+      FIG. 4 is a flow diagram illustrating a method for maintaining validity of the cache when updates to the data stored in the database have been made.
+    </p>
+    <heading>DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="19">
+      The invention is described in the context of function provided by the Net.Commerce product of International Business Machines Corporation.
+      <br/>
+      This product enables merchants to develop electronic sales channels of the type described above.
+      <br/>
+      However, as will be appreciated by the person skilled in the art, the concept of the invention is applicable to similar systems that perform dynamic generation of HTML pages by accessing data in a database.
+    </p>
+    <p num="20">
+      In Net.Commerce, there are two command URLs to display category pages and product pages respectively.
+      <br/>
+      The former is ;display/category and the latter is ;display/item.
+      <br/>
+      The category command takes two parameters, one is the category reference number and another is the merchant reference number.
+      <br/>
+      Similarly, the product command takes two parameters, one is the product reference number and another is the merchant reference number.
+      <br/>
+      A reference number in Net.Commerce is a primary key in a database table.
+      <br/>
+      A category reference number uniquely qualifies which category to display, and a product reference number for which product to display.
+    </p>
+    <p num="21">
+      As shown in FIG. 1, cache pages are created on demand.
+      <br/>
+      This means that they are not stored into the file system until requested.
+      <br/>
+      With the help of the caching function in Net.Commerce, each time a user requests a product or category page, upon receiving the URL request (block 100), the web server calls a customized API extension provided by Net.Commerce to search a cache directory (the location has been configured during installation) for the requested file (blocks 102, 104).
+      <br/>
+      If the file exists in the cache, it is immediately sent to the user's browser (blocks 106, 108).
+      <br/>
+      If the file is not in the cache, it must be generated dynamically in the usual way.
+      <br/>
+      The database is queried to build the HTML document (blocks 106, 110).
+      <br/>
+      It is then returned to the user's browser (block 108), and is also captured and stored in a file in the cache directory, where it will be available the next time it is requested (block 112).
+    </p>
+    <p num="22">File names created in the cache will typically look like this:</p>
+    <p num="23">
+      cgmenbr1_cgrfnbr5_.ncibm
+      <br/>
+      prmenbr1_prrfnbr8_.ncibm
+    </p>
+    <p num="24">
+      These files would be created by caching the results of the commands
+      <br/>
+      ;display/category?cgmenbr=1&amp;cgrfnbr=5 and
+      <br/>
+      ;display/item?prmenbr=1&amp;prrfnbr=8, respectively.
+    </p>
+    <p num="25">
+      In the above examples, "5" is the value of the category reference number (cgrfnbr) in the first command and "8" is the value of the product reference number (prrfnbr) in the second.
+      <br/>
+      In both cases, the merchant reference number is "1".
+    </p>
+    <p num="26">
+      By default, files are only cached based on product or category reference numbers.
+      <br/>
+      Anyone requesting a product or category page using the display command would receive the same file from the cache.
+      <br/>
+      However, the present invention provides a means to display different product or category pages based on parameters other than the products or categories themselves, and this is illustrated in FIG. 2 and discussed below.
+      <br/>
+      The additional parameters are termed as "significances" here.
+    </p>
+    <p num="27">
+      The way that files are cached can be customized by setting the significances in a configuration file (block 200).
+      <br/>
+      To do this, significances on the following lines can be entered in the configuration file, separated by commas, using the following syntax:
+      <br/>
+      .NC--CAT_SIG_PARMS parameter_name(s) (if the parameter is for the display category command)
+      <br/>
+      NC_ITEM_SIG_PARMS parameter_name(s) (if the parameter is for the display product command)
+    </p>
+    <p num="28">where "parameter_name" is the name of an additional parameter passed to the display command.</p>
+    <p num="29">
+      Significances affect the file names of the cached files, refining the way they can be displayed, and they are passed to the caching utility as display commands.
+      <br/>
+      The significance causes the HTML files generated by the display command (blocks 202, 108) to be stored in the cache using file names that contain the parameter name and its value on the command (block 204).
+      <br/>
+      When the user requests a page containing those parameters, the caching utility will now be able to distinguish that page in the cache by its file name following the method described above and illustrated in FIG. 1.
+    </p>
+    <p num="30">
+      An example to illustrate the use of significance follows.
+      <br/>
+      A merchant needs to display unique product pages to members of different shopper groups in its store.
+      <br/>
+      A Shopper Group table is provided in the Net.Commerce database for storing the shopper group information.
+      <br/>
+      In the present example, there three shopper groups in the table under the names "Gold", "Silver" and "Platinum".
+      <br/>
+      Their shopper group reference numbers are "1", "2" and "3", respectively.
+      <br/>
+      Because category and product pages with different contents will be dynamically created for different shopper groups, a significance is added to the configuration file to distinguish the different shopper groups, so that different files will be stored in the cache for different shopper groups.
+      <br/>
+      The following line is added to the configuration file:
+      <br/>
+      NC_ITEM_SIG_PARMS sgrfnbr
+    </p>
+    <p num="31">where "sgrfnbr" is the parameter to differentiate the shopper groups.</p>
+    <p num="32">
+      Next, the parameter "sgrfnbr" is added to the ;display/item command.
+      <br/>
+      For example, the command ;display/item?prrffnbr=10&amp;prmenbr=1&amp;sgrfnbr=3 requests a page for a member of the third shopper group, the "Platinum" group.
+      <br/>
+      It passes parameter for the shopper group in addition to the default product and merchant reference numbers.
+      <br/>
+      When a significance such as sgrfnbr in this example is added, the cached file name would appear as:
+      <br/>
+      prmenbr1_prrfnbr10_sgrfnbr3_.ncibm
+    </p>
+    <p num="33">where "10" is the product reference number and "3" is the value of the name/value pair (sgrfnbr=3) in the ;display/item command.</p>
+    <p num="34">
+      By adding the significance, file names are created in the cache that the caching utility will recognize.
+      <br/>
+      A separate file will be cached, and can therefore be served, based on each significance.
+    </p>
+    <p num="35">
+      To maintain the validity of the cache files, a synchronization daemon, a housekeeping or maintenance utility, in Net.Commerce automatically handles file purging by deleting cache files that contain product or category information that has been changed or deleted.
+      <br/>
+      The daemon relies on the records in a specific table called CACHLOO in the Net.Commerce database to identify cache files that contain product or category information that has been changed or deleted.
+    </p>
+    <p num="36">The records in CACHLOG are created as illustrated in FIGS. 3 and 4 and described below.</p>
+    <p num="37">
+      As shown in FIG. 3, the Net.Commerce product provides web page delivery for product information contained in a number of tables 302 in a relational database 300.
+      <br/>
+      The CACHLOG table 308 is for identifying what cache pages 306 need to be purged from cache 304 as a result of changes in the data contained in tables 302 in the database 300.
+    </p>
+    <p num="38">
+      Information that a change has been made is propagated by triggers installed on the database tables.
+      <br/>
+      In the preferred embodiment, triggers are installed on the following product- and category-related tables:
+      <br/>
+      PRODUCT (the product table)
+      <br/>
+      PRODPRCS (the product price table)
+      <br/>
+      PRODATR (the product attribute table)
+      <br/>
+      PRODDSTATR (the product distinct attribute table)
+      <br/>
+      PRODSGP (the product shopper group template table)
+      <br/>
+      CATEGORY (the category table)
+      <br/>
+      CGRYREL (the category relationship table)
+      <br/>
+      CGPRREL (the category product relationship table)
+      <br/>
+      CATESGP (the category shopper group template table)
+    </p>
+    <p num="39">
+      A record 310b in the CACHLOG table 308 contains a name-value pair which identifies one or more cached pages that need to be purged.
+      <br/>
+      The same name-value pair was used to generate the file names 310a of these pages in the ;display commands previously.
+    </p>
+    <p num="40">
+      For example, a page resulted from the command ;display/item?prrfnbr=123&amp;prmenbr=2 is cached with a file name containing the name-value pair "prrfnbr" and "123".
+      <br/>
+      As shown in FIG. 4, when a database record associated with the product of product reference number equal "123" is changed (block 400) for a page previously generated in HTML (block 402), a record having the name-value pair "prrfnbr" and "123" will be created in the CACHLOG table by the corresponding database trigger (block 406).
+    </p>
+    <p num="41">
+      The synchronization daemon periodically queries the CACHLOG table to determine whether any new log records have been added (block 408), and purges cache files which may be affected by the changes in the database (block 410).
+      <br/>
+      In the example above, the daemon will purge all pages having the name-value pair "prrfnbr" and "123" on their file names.
+      <br/>
+      In fact, in the preferred embodiment, the synchronization daemon purges more pages in order to maintain cache validity.
+      <br/>
+      In this example, all cache pages of the categories to which the product "123" is belonged will be purged.
+    </p>
+    <p num="42">
+      The merchant may need to create a custom trigger if a custom table has been created from which information is retrieved to create product or category pages.
+      <br/>
+      For example, the merchant may create a table, PRODEXTINFO, that contains extra text information about products to be included in the displayed pages.
+      <br/>
+      The table contains a column, PEPRNBR, that is a foreign key to the product reference number, and another column, PETEXT, that contains the text itself.
+      <br/>
+      Because column PETEXT is selected in an SQL query when generating the product page, a cache file created from information retrieved must be purged when the PETEXT value for a product has changed.
+      <br/>
+      If the merchant server updates PETEXT in the record with PEPRNBR equal 10, the custom trigger created on this table will log the following record to the CACHLOG table:
+      <br/>
+      (`prrfnbr`, 10, CURRENT TIMESTAMP)
+    </p>
+    <p num="43">Now, when the synchronization daemon accesses the CACHLOG table, it will discover a new record and will delete all product pages pertaining to the product with reference number "10".</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>The embodiments of the invention in which an exclusive property or privilege is claimed are defined as follows:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A document processing system for transmitting data for display on a client machine from a server, comprising:</claim-text>
+      <claim-text>data storage connected to the server, said data storage including a trigger mechanism to notify the server of a change to the stored data; a converter program in the server for transforming data from the data storage into transmissible form for display on the client machine; a cache on the server for storing one or more copies of the transformed data in transmissible form;</claim-text>
+      <claim-text>and means in the server for checking the cache for a copy of the transformed data in transmissible form before activating the converter program on receiving a request for data transmission from the client wherein said server further comprises a synchronized adapter to purge from the cache copies of the transformed data affected by the change to the stored data.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A document processing system, according to claim 1, wherein the transmissible form is Hypertext Markup Language.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A document processing system, according to claim 1, wherein the data storage is a database.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A document processing system, according to claim 3, wherein the database is a relational database.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A document processing system, according to claim 1 or 3, wherein the server further comprises: log identifying copies of transformed data affected by the change to the stored data;</claim-text>
+      <claim-text>and a synchronizer adapted to walk the log to identify said copies of the transformed data affected by the change to the stored data and to purge said identified copies.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A document processing system, according to claim 1, wherein the converter program includes means for: querying the client's identity; locating preferences corresponding to the client's identity;</claim-text>
+      <claim-text>and selecting data from the data storage according to the located preferences.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A document processing system, according to claim 1, wherein the means in the server for checking the cache includes means for: querying the client's identity; locating preferences corresponding to the client's identity;</claim-text>
+      <claim-text>and selecting data from the data storage according to the located preferences.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A document processing system for transmitting data for display on a client machine from a server, comprising: data storage connected to the server, wherein the data storage includes a trigger mechanism to notify the server of a change in the stored data; means for selecting data from the data storage in response to receiving a request for data transmission from the client; a converter program in the server for transforming the selected data from the data storage into transmissible form for display on the client machine; a cache on the server for storing one or more copies of the transformed selected data in transmissible form;</claim-text>
+      <claim-text>and means in the server for checking the cache for the copy of the transformed selected data in transmissible form before activating the converter program on receiving a request for data transmission from the client wherein the server further comprises a synchronizer adapted to purge from the cache the copy of the transformed selected data if said selected data is affected by the change to the stored data.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A document processing system, according to claim 8, wherein the transmissible form is Hypertext Markup Language.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A document processing system, according to claim 8, wherein the data storage is a database.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A document processing system, according to claim 10, wherein the database is a relational database.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A document processing system, according to claim 8 or 10, wherein the server further comprises: a log identifying the copy of the transformed selected data if said selected data is affected by the change to the stored data;</claim-text>
+      <claim-text>and a synchronizer adapted to walk the log and to purge the transformed selected data if said transformed selected data is identified in the log.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A document processing system, according to claim 8, wherein the converter program includes means for: querying the client's identity; locating preferences corresponding to the client's identity;</claim-text>
+      <claim-text>and selecting data from the data storage according to the located preferences.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A document processing system, according to claim 8, wherein the means in the server for checking the cache includes means for: querying the client's identity; locating preferences corresponding to the client's identity;</claim-text>
+      <claim-text>and selecting data from the data storage according to the located preferences.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>

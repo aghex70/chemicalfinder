@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06182107B2.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as second publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06182107</doc-number>
+        <kind>B2</kind>
+        <date>20010130</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6182107</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B2</original-publication-kind>
+    <application-reference is-representative="YES" family-id="25351262" extended-family-id="42108908">
+      <document-id>
+        <country>US</country>
+        <doc-number>08868221</doc-number>
+        <kind>A</kind>
+        <date>19970603</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1997US-08868221</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>43165495</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>86822197</doc-number>
+        <kind>A</kind>
+        <date>19970603</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1997US-08868221</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010130</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>G06F  12/02        20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>12</main-group>
+        <subgroup>02</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>718100000</text>
+        <class>718</class>
+        <subclass>100000</subclass>
+      </main-classification>
+      <further-classification sequence="1">
+        <text>711E12010</text>
+        <class>711</class>
+        <subclass>E12010</subclass>
+      </further-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>G06F-012/02D2G2</text>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>012</main-group>
+        <subgroup>02D2G2</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>G06F-012/0261</classification-symbol>
+        <section>G</section>
+        <class>06</class>
+        <subclass>F</subclass>
+        <main-group>12</main-group>
+        <subgroup>0261</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>21</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>11</number-of-drawing-sheets>
+      <number-of-figures>12</number-of-figures>
+      <image-key data-format="questel">US6182107</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Management of reference object lifetimes in object oriented programs</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>THATTE SATISH, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4695949</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4695949</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>OXLEY DONALD W, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>4775932</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US4775932</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>MOELLER CHRISTOPHER P, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5519867</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5519867</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="4">
+          <text>HILDEBRANDT THOMAS H</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5535390</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5535390</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="5">
+          <text>ADCOCK JAMES L</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5652883</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5652883</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="6">
+          <text>KIRSHENBAUM EVAN R, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5918235</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5918235</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="1">
+          <text>Martin, Johannes J., "Explicit Reference Counts," pp. 707-710, IEEE Press, Sep. 1996.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="2">
+          <text>Com/Corba Interworking, Digital Equipment Corporation, OMG TC Document 95.8.18, pp. 1-50, Aug. 22, 1995.</text>
+        </nplcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <nplcit num="3">
+          <text>The Component Object Model Specification version 0.9, Microsoft Corportion, pp. 35-50, Oct. 1995.</text>
+        </nplcit>
+      </citation>
+    </references-cited>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Object Technology Licensing Corporation</orgname>
+            <address>
+              <address-1>Cupertino, CA, US</address-1>
+              <city>Cupertino</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>OBJECT TECHNOLOGY LICENSING</orgname>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Atsatt, Bryan P.</name>
+            <address>
+              <address-1>Redwood City, CA, US</address-1>
+              <city>Redwood City</city>
+              <state>CA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>US</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Kudirka &amp; Jobse, LLP</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Harrell, Robert B.</name>
+      </primary-examiner>
+    </examiners>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p id="P-EN-00001" num="00001">
+      <br/>
+      An object oriented system manages the life of objects referenced by other objects in the computer memory.
+      <br/>
+      A compiler compiles the various classes that are to be included in the object oriented program to be run on the computer.
+      <br/>
+      Some classes are the counted object class type that provides a count of the number of objects referencing a target counted object.
+      <br/>
+      Other classes are the uncounted object class type that does not provide a count of the number of objects referencing a target uncounted object.
+      <br/>
+      A counter wrapper class is included, whose instantiated object provides a count of the number of objects referencing a target uncounted object when the counter wrapper object is associated with the target uncounted object.
+      <br/>
+      A means is provided to determine whether a new target object is from the uncounted object class and, if so, that selectively causes the counter wrapper object to be associated with the new target object.
+      <br/>
+      The detection means may be a compiler program that performs the detection while the object oriented program is being compiled.
+      <br/>
+      Alternately, the detection means may be a universal class whose instantiated object performs the detection during the running of the compiled program.
+      <br/>
+      The counter wrapper object associated with the new target object, counts the number of objects referencing the new target object and initiates the destruction of the new target object when the number of objects referencing the new target object diminishes to none.
+    </p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+    <p num="1">The invention broadly relates to data processing systems and methods and more particularly relates to object oriented programming.</p>
+    <heading>BACKGROUND OF THE INVENTION</heading>
+    <p num="2">
+      1.
+      <br/>
+      Related Patents
+    </p>
+    <p num="3">The invention disclosed herein is related to the invention described in U.S. Pat. No. 5,315,703, entitled "OBJECT-ORIENTED NOTIFICATION FRAMEWORK SYSTEM", by David R. Anderson, et al., assigned to the same assignee as the invention disclosed herein and incorporated herein by reference.</p>
+    <p num="4">The invention disclosed herein is related to the invention described in U.S. Pat. No. 5,519,867, entitled "OBJECT-ORIENTED MULTITASKING SYSTEM", by Eugenie L. Bolton, et al., assigned to the same assignee as the invention disclosed herein and incorporated herein by reference.</p>
+    <p num="5">2. Discussion of the Background</p>
+    <p num="6">
+      A program in a procedural language such as Fortran or Basic, is a list of instructions that tell the computer to perform an operation.
+      <br/>
+      Large procedural programs are broken into subroutines with smaller lists of instructions.
+      <br/>
+      In a procedural language program, the emphasis is on performing operations, such as to display a text or read a disk.
+      <br/>
+      Variables in the procedural instructions are assigned values when instructions are executed, those values being derived from units of data read into the computer.
+      <br/>
+      The variables and the data are exposed to and can be manipulated by instructions in any part of the procedural program.
+    </p>
+    <p num="7">
+      A program in an object oriented language such as C++ or Smailtalk, combines data and the instructions or methods that operate on the data into a single unit, the object.
+      <br/>
+      Typically, the programmer can limit the methods within the object to be the only route to manipulate the data contained in that object.
+      <br/>
+      This is the principle of encapsulation.
+      <br/>
+      In an object oriented program, the emphasis is on the entities that perform, represented by objects, not on the performance of operations, as in a procedural program.
+    </p>
+    <p num="8">
+      The methods and variables for a particular object are defined by a class template.
+      <br/>
+      All objects which are instances of a given class are identical in form and behavior, but contain different data in their variables.
+      <br/>
+      Classes are organized in a tree structure representing the relationships among a set of classes.
+      <br/>
+      Classes higher in the hierarchy are superclasses.
+      <br/>
+      Classes lower in the hierarchy are subclasses.
+      <br/>
+      They can make use of the methods and variables defined in all classes above them on their branch of the class hierarchy, through the principle of inheritance.
+      <br/>
+      Subclasses inherit the methods and variables from their superclasses.
+    </p>
+    <p num="9">
+      One object can signal another object to perform the methods contained in the receiving object, by sending a message.
+      <br/>
+      The message consists of the name of the receiver, the method it is to carry out, and any parameters the method may require to fulfill the request.
+    </p>
+    <p num="10">
+      The variables within a method in an object may be assigned values by reference.
+      <br/>
+      A reference provides an alias for a variable.
+      <br/>
+      Instead of a value being passed to the function, a reference is passed to the original variable in the calling program.
+      <br/>
+      The programmer can have the function access the actual variables in the calling program.
+      <br/>
+      Another way to pass arguments to functions is to use pointers.
+      <br/>
+      A pointer variable, or simply a pointer, is a variable that holds an address value to data or to an object.
+      <br/>
+      Passing a pointer as an argument to a function is somewhat similar to passing a reference.
+      <br/>
+      They both permit the variable in the calling program to be modified by the function.
+      <br/>
+      However, whereas a reference is an alias for the original variable, a pointer is the address of the variable.
+      <br/>
+      This can be useful in accessing arrays of data.
+      <br/>
+      Pointers can point to objects as well as to simple data types.
+      <br/>
+      For example, an array of pointers allows easy access to a group of objects, and is more flexible than placing the objects themselves in an array.
+      <br/>
+      For instance, a group of objects can be sorted by sorting an array of pointers to the objects, instead of sorting the objects themselves.
+    </p>
+    <p num="11">
+      The object oriented program written in source code by the programmer in the C++ or Smalltalk language, is compiled with a C++ or Smalltalk compiler.
+      <br/>
+      Then the compiled program is executed at runtime.
+      <br/>
+      During the running of the program, memory space can be unnecessarily occupied by objects that are no longer used.
+      <br/>
+      When an object is instantiated from a class that includes a pointer to a target class, an instance of the target class must also be instantiated, unless it already exists in the system memory.
+      <br/>
+      In early object oriented environments available in the prior art, when the referencing object was later destroyed, there was no way provided by the object oriented environment to also remove the target object.
+      <br/>
+      Unused objects would then accumulate in the system memory reducing the available free memory space.
+      <br/>
+      Later prior object oriented environments provided an automatic mechanism to reclaim memory space, by associating an up-down counter with each object that is the target of a pointer reference from another object.
+      <br/>
+      The counter is incremented with each additional referencing object.
+      <br/>
+      The counter is decremented when the referencing object is destroyed.
+      <br/>
+      When the counter returns to zero the target object is destroyed, thereby freeing the portion of the memory that it occupied.
+    </p>
+    <p num="12">
+      Frequently, object oriented programs will load other programs, libraries, or other modules that contain objects that do not have the up-down counter destruction feature.
+      <br/>
+      The prior art does not have a way to automatically clear such objects from the memory after they are no longer used.
+      <br/>
+      What is needed is a mechanism to monitor objects during their lifetime in the memory, to manage those objects that do not have an up-down counter destruction feature.
+    </p>
+    <p num="13">The following references give some additional background on object oriented programming principles:</p>
+    <p num="14">
+      Booch, Grady.
+      <br/>
+      Object Oriented Design and Applications. 2d ed. Redwood City, Calif.: Benjamin/Cummings, 1994.
+    </p>
+    <p num="15">
+      Budd, Timothy.
+      <br/>
+      Introduction to Object-Oriented Programming.
+      <br/>
+      Reading, Mass.: Addison-Wesley, 1991.
+    </p>
+    <p num="16">
+      Goldstein, Neil, and Jeff Alger.
+      <br/>
+      Developing Object-Oriented Software for the Macintosh.
+      <br/>
+      Reading, Mass.: Addison-Wesley, 1992.
+    </p>
+    <p num="17">
+      Meyer, Bertrand.
+      <br/>
+      Object-Oriented Software Construction.
+      <br/>
+      Englewood Cliffs, N.J.: Prentice Hall, 1988.
+    </p>
+    <p num="18">
+      Taylor, David A. Object-Oriented Information Systems: Planning and Implementation.
+      <br/>
+      Reading, Mass.: Addison-Wesley, 1992.
+    </p>
+    <p num="19">
+      Wirfs-Brock, Rebecca, et al.
+      <br/>
+      Designing Object-Oriented Software.
+      <br/>
+      Englewood Cliffs, N.J.: Prentice Hall, 1990.
+    </p>
+    <p num="20">ISO/ANSI C++ Draft Standard, April 1995, American National Standards Institute.</p>
+    <p num="21">SUMMARY OF THE INVENTION:</p>
+    <p num="22">
+      The invention is a mechanism added to the object oriented environment, that monitors objects during their lifetime in the memory.
+      <br/>
+      It detects those target objects that do not have an up-down counter destruction feature and then adaptively provides a wrapper for the uncounted objects, the wrapper including an up-down counter destruction feature.
+      <br/>
+      In one embodiment, the detection takes place while the object oriented program is being compiled.
+      <br/>
+      In another embodiment, the detection takes place during the running of the compiled program.
+      <br/>
+      In this manner, all target objects that are no longer in use, are automatically removed from the memory.
+    </p>
+    <p num="23">
+      An object oriented system is disclosed for managing the life of objects referenced by other objects in the computer memory.
+      <br/>
+      A compiler compiles the various classes that are to be included in the object oriented program to be run on the computer.
+      <br/>
+      Some classes are the counted object class type that provides a count of the number of objects referencing a target counted object.
+      <br/>
+      Other classes are the uncounted object class type that does not provide a count of the number of objects referencing a target uncounted object.
+      <br/>
+      In accordance with the invention, a counter wrapper class is included, whose instantiated object provides a count of the number of objects referencing a target uncounted object when the counter wrapper object is associated with the target uncounted object.
+      <br/>
+      Further in accordance with the invention, a means is provided to determine whether a new target object is from the uncounted object class and, if so, that selectively causes the counter wrapper object to be associated with the new target object.
+      <br/>
+      The detection means may be a compiler program that performs the detection while the object oriented program is being compiled.
+      <br/>
+      Alternately, the detection means may be a universal class whose instantiated object performs the detection during the running of the compiled program.
+      <br/>
+      The counter wrapper object associated with the new target object, counts the number of objects referencing the new target object and initiates the destruction of the new target object when the number of objects referencing the new target object diminishes to none.
+    </p>
+    <p num="24">In one aspect of the invention, the universal class includes a constructor calling code that initiates instantiation of a referencing object for a new target object and increments the recorded number of objects referencing the new target object.</p>
+    <p num="25">
+      In another aspect of the invention, the constructor calling code determines whether the new target object is from the uncounted object class.
+      <br/>
+      If so, then the constructor calling code selectively invokes a constructor object to instantiate the counter wrapper object to be associated with the new target object.
+      <br/>
+      Then, the constructor calling code invokes the constructor object to instantiate a referencing object.
+      <br/>
+      Then, the constructor calling code initiates incrementing in the counter wrapper, the recorded number of objects referencing the new target object.
+    </p>
+    <p num="26">
+      In another aspect of the invention, the constructor calling code determines whether the new target object is from the counted object class.
+      <br/>
+      If so, then the constructor calling code invokes the constructor object to instantiate a referencing object and initiates incrementing in the new target object, the recorded number of objects referencing the new target object.
+    </p>
+    <p num="27">
+      In another aspect of the invention, the universal class includes a destructor calling code for invoking a destructor object to destroy an object referencing the new target object.
+      <br/>
+      The destructor calling code determines whether the new target object is from the uncounted object class.
+      <br/>
+      If so, then the destructor calling code selectively initiates decrementing in the counter wrapper, the recorded number of objects referencing the new target object.
+      <br/>
+      Then, the destructor calling code invokes a destructor object to destroy the counter wrapper object and the new target object if the number of objects referencing the new target object diminishes to none.
+    </p>
+    <p num="28">
+      In another aspect of the invention, the universal class includes a destructor calling code for invoking a destructor object to destroy an object referencing the new target object.
+      <br/>
+      The destructor calling code determines whether the new target object is from the counted object class.
+      <br/>
+      If so, then the destructor calling code selectively initiates decrementing in the new target object, the recorded number of objects referencing the new target object.
+      <br/>
+      Then, the destructor calling code invokes a destructor object to destroy the new target object if the number of objects referencing the new target object diminishes to none.
+    </p>
+    <heading>DESCRIPTION OF THE FIGURES</heading>
+    <p num="29">
+      The invention can be more fully appreciated with reference to the accompanying figures.
+      <br/>
+      FIG. 1 is an architectural diagram of the host computer 100 running the compiler 115 to compile the various classes of the object oriented program 124 in the memory 102. FIGS. 1 through 5 describe the first embodiment, where the detection means is a universal class whose instantiated object performs the detection during the running of the compiled program.
+      <br/>
+      FIG. 1A shows some details of the universal class 150 and other classes that have been complied in the memory 102.
+      <br/>
+      FIG. 1B shows some additional details of the universal class 150.
+      <br/>
+      FIG. 1C shows the universal object 150' and the messages it issues to the constructor object 140' and the destructor object 142'.
+      <br/>
+      FIG. 2 shows the operation of the constructor calling code 152 in the universal object 150' in initiating the instantiation of objects OC-1 and OC-2 that reference the counted object OA.
+      <br/>
+      FIG. 3 shows the operation of the constructor calling code 152 in the universal object 150' in initiating the instantiation of objects OD-1 and OD-2 that reference the uncounted object OB. The universal object 150' initiates the instantiation of the counter wrapper object 130' that will count the number of objects referencing the uncounted object OB.
+      <br/>
+      FIG. 4 shows the operation of the destructor calling code 154 in the universal object 150' in initiating the destruction of objects OC-1 and OC-2 that reference the counted object OA. If the number of referencing objects becomes zero, then the destructor calling code 154 in the universal object 150' initiates the destruction of the referenced object OA.
+      <br/>
+      FIG. 5 shows the operation of the destructor calling code 154 in the universal object 150' in initiating the destruction of objects OD-1 and OD-2 that reference the uncounted object OB. If the number of referencing objects becomes zero, then the destructor calling code 154 in the universal object 150' initiates the destruction of the referenced object OB and the counter wrapper object 130'.
+      <br/>
+      FIG. 6 illustrates the progressive de-referencing of an MreferenceCounted subclass. FIGS. 6 through 9 describe the second embodiment, where the detection means is a compiler program that performs the detection while the object oriented program is being compiled.
+      <br/>
+      FIG. 7 illustrates the inheritance relationship of TcountedVoidPointer class to MrcferenceCounted class.
+      <br/>
+      FIG. 8 illustrates the inheritance relationship of Tcounted class and TNotCounted class to MreferenceCounted class.
+      <br/>
+      FIG. 9 shows structures for TCounted instances and TNotCounted instances.
+    </p>
+    <heading>DISCUSSION OF THE PREFERRED EMBODIMENTS</heading>
+    <p num="30">
+      The invention is a mechanism added to the object oriented environment, that monitors objects during their lifetime in the memory.
+      <br/>
+      It detects those target objects that do not have an up-down counter destruction feature and then adaptively provides a wrapper for the uncounted objects, the wrapper including an up-down counter destruction feature.
+      <br/>
+      A means is provided to determine whether a new target object is from the uncounted object class and, if so, that selectively causes the counter wrapper object to be associated with the new target object.
+      <br/>
+      In the first disclosed embodiment described in FIGS. 1 through 5, the detection means is a universal class whose instantiated object performs the detection during the running of the compiled program.
+      <br/>
+      In the second disclosed embodiment described in FIGS. 6 through 9, the detection means is a compiler program that performs the detection while the object oriented program is being compiled.
+      <br/>
+      The counter wrapper object associated with the new target object, counts the number of objects referencing the new target object and initiates the destruction of the new target object when the number of objects referencing the new target object diminishes to none.
+      <br/>
+      In this manner, all target objects that are no longer in use, are automatically removed from the memory.
+    </p>
+    <p num="31">
+      FIG. 1 is an architectural diagram of the host computer 100, which includes the memory 102 connected by the bus 104, to the disk drive storage 106, the I/O adapter 108, the processor 110, and the network adapter 112.
+      <br/>
+      The network adapter 112 is connected to the network 113.
+      <br/>
+      The logical path 114 illustrates the path of a stream of instructions and data that are transferred from the disk drive storage 106 to the compiler 115 in the memory 102.
+      <br/>
+      The compiler 115 includes a class reader 116, that reads in the various classes of the object oriented program 124 and compiles the classes for runtime execution.
+      <br/>
+      As the class reader reads in the various classes, it builds a class registry 118.
+      <br/>
+      Some classes, such as class A, class C, and class D, are of the counted object class type that provides a count of the number of objects referencing a target counted object.
+      <br/>
+      Other classes, such as class B, are of the uncounted object class type that does not provide a count of the number of objects referencing a target uncounted object.
+    </p>
+    <p num="32">In accordance with the invention, a counter wrapper class 130 is included, whose instantiated object 130' provides a count of the number of objects referencing a target uncounted object when the counter wrapper object is associated with the target uncounted object.</p>
+    <p num="33">
+      Further in accordance with the invention, a universal class 150 is provided, whose instantiated object 150' determines whether a new target object is from the uncounted object class and, if so, that selectively causes the counter wrapper object 130' to be associated with the new target object.
+      <br/>
+      The counter wrapper 130' object associated with the new target object, counts the number of objects referencing the new target object and initiates the destruction of the new target object when the number of objects referencing the new target object diminishes to none.
+    </p>
+    <p num="34">Other classes compiled in FIG. 1 include the object constructor class 140 and the object destructor class 142.</p>
+    <p num="35">
+      FIG. 1A shows some details of the universal class 150 and other classes that have been complied in the memory 102.
+      <br/>
+      FIG. 1B shows some additional details of the universal class 150.
+      <br/>
+      The universal class 150 includes the constructor calling code 152 and the destructor calling code 154.
+      <br/>
+      FIG. 1C shows the universal object 150' that is instantiated from the universal class 150 of FIG. 1B. The code 152 and 154 is represented in the universal object 150 ' of FIG. 1C, but it may actually remain in the universal class 150, to be invoked when needed by the universal object 150'. The constructor calling code 152 includes steps 158, 160, 164, and 166.
+      <br/>
+      FIG. 1C shows the messages 160' and 164' issued by steps 160 and 164, respectively to the constructor object 140'. The destructor calling code 154 includes steps 170, 172, 174, 176, and 178.
+      <br/>
+      FIG. 1C shows the messages 176' and 178' issued by steps 176 and 178, respectively to the destructor object 142'.
+    </p>
+    <p num="36">
+      FIG. 2 shows the operation of the constructor calling code 152 in the universal object 150' in initiating the instantiation of objects OC-1 and OC-2 that reference the counted object OA.
+      <br/>
+      The constructor calling code 152 initiates instantiation of a referencing object OC-2 in step 164 and increments in the counter in object OA, the number of objects referencing the new target object in step 166.
+      <br/>
+      The constructor calling code 152 determines in step 158 whether the new target object OA is from the counted object class.
+      <br/>
+      If so, then the constructor calling code 152 invokes the constructor object 140' to instantiate a referencing object OC-1 and initiates incrementing in the counter of the object OA, increasing the recorded number of objects referencing the new target object OA.
+    </p>
+    <p num="37">
+      FIG. 3 shows the operation of the constructor calling code 152 in the universal object 150' in initiating the instantiation of objects OD-1 and OD-2 that reference the uncounted object OB.
+      <br/>
+      The universal object 150' initiates the instantiation of the counter wrapper object 130' that will count the number of objects referencing the uncounted object OB.
+      <br/>
+      In FIG. 1B and FIG. 1C, the constructor calling code 152 determines in step 158 whether the new target object OB is from the uncounted object class.
+      <br/>
+      If so, then the constructor calling code 152 selectively invokes a constructor object 140' in step 160 to instantiate the counter wrapper object 130' to be associated with the new target object OB.
+      <br/>
+      Then, the constructor calling code 152 invokes the constructor object 140' to instantiate a referencing object OD-1 in step 164.
+      <br/>
+      Then, the constructor calling code 152 initiates incrementing in the counter of the counter wrapper object 130', increasing the recorded number of objects referencing the new target object OB, in step 166.
+    </p>
+    <p num="38">
+      FIG. 4 shows the operation of the destructor calling code 154 in the universal object 150' in initiating the destruction of objects OC-1 and OC-2 that reference the counted object OA.
+      <br/>
+      If the number of referencing objects becomes zero, then the destructor calling code 154 in the universal object 150' initiates the destruction of the referenced object OA.
+      <br/>
+      The destructor calling code 154 invokes the destructor object 142' to destroy an object OC-2 referencing the new target object OA.
+      <br/>
+      The destructor calling code 154 invokes the destructor object 142' to destroy an object OC-1 or OC-2 referencing the new target object OA.
+      <br/>
+      The destructor calling code 154 determines whether the new target object OA is from the counted object class.
+      <br/>
+      If so, then the destructor calling code 154 selectively initiates in step 174, decrementing the counter in the object OA, decreasing the recorded number of objects referencing the new target object OA.
+      <br/>
+      Then, the destructor calling code 154 invokes the destructor object 142' to destroy the new target object OA if the recorded number of objects in the counter in object OA, referencing the new target object OA, diminishes to none.
+    </p>
+    <p num="39">
+      FIG. 5 shows the operation of the destructor calling code 154 in the universal object 150' in initiating the destruction of objects OD-1 and OD-2 that reference the uncounted object OB.
+      <br/>
+      If the number of referencing objects becomes zero, then the destructor calling code 154 in the universal object 150' initiates the destruction of the referenced object OB and the counter wrapper object 130'. The destructor calling code 154 determines whether the new target object OA is from the uncounted object class in step 170.
+      <br/>
+      If so, then the destructor calling code 154 selectively initiates decrementing the counter in the counter wrapper 130', reducing the recorded number of objects referencing the new target object OB.
+      <br/>
+      Then, the destructor calling code 154 invokes a destructor object 142' to destroy the counter wrapper object 130' and the new target object OB if the recorded number of objects in the counter in the wrapper 130', referencing the new target object OB, diminishes to none.
+    </p>
+    <p num="40">
+      In the second disclosed embodiment described in FIGS. 6 through 9, the detection means is a compiler program that performs the detection while the object oriented program is being compiled.
+      <br/>
+      It detects those target objects that do not have an up-down counter destruction feature and then adaptively provides a wrapper for the uncounted objects, the wrapper including an up-down counter destruction feature.
+    </p>
+    <p num="41">
+      C++ templates are a powerful tool for design reuse: they provide a boiler-plate mechanism for designing and implementing a class or function over an open-ended set of types.
+      <br/>
+      True to its flexible nature, C++ also supports the ability to provide custom template implementation for particular types.
+      <br/>
+      The invention introduces a technique which allows class template designers to provide custom implementation for families of types.
+    </p>
+    <p num="42">Background: Given the following function template:</p>
+    <p num="43">
+      template &lt;class A type&gt; void Foo (const A Type&amp; it)
+      <br/>
+      +
+    </p>
+    <p num="44">
+      - it.AFunction();
+      <br/>
+      }
+      <br/>
+      The code:
+      <br/>
+      TBar aBar;
+      <br/>
+      Foo (aBar);
+      <br/>
+      results in a call to TBar::AFunction().
+      <br/>
+      When the compiler first sees the call to Foo(const TBar&amp;) it uses the template to generate the function:
+      <br/>
+      void Foo (const TBar&amp; it)//Compiler generated from template
+      <br/>
+      +
+      <br/>
+      - it.AFunction();
+      <br/>
+      }
+      <br/>
+      Similarly, calling Foo(Const TWidge&amp;) causes the generation of another function:
+      <br/>
+      void Foo (const TWidget &amp; it)//Compiler generated from template
+      <br/>
+      +
+      <br/>
+      - it.AFunction();
+      <br/>
+      }
+    </p>
+    <p num="45">
+      where only the type differs.
+      <br/>
+      This is the normal behavior expected with C++ templates.
+      <br/>
+      It is called `implicit specialization`.
+    </p>
+    <p num="46">
+      What if you want a different implementation for a particular type? C++ supports this through what is called `explicit specialization`. Just provide your own version of the function:
+      <br/>
+      void Foo&lt; &gt;(const TWidget&amp; it)//You write
+      <br/>
+      +
+      <br/>
+      - it.AnotherFunction();
+    </p>
+    <p num="47">and any call to Foo() which passes a TWidget will result in a call to TWidget::Another-Function().</p>
+    <p num="48">
+      Explicit specializations are more obviously useful when you consider class templates. C++ allows you to replace a single member function, multiple member functions, or the entire class using explicit specializations.
+      <br/>
+      This comes in quite handy when a class template is almost, but not quite, what you want: you can replace the appropriate functions and still take advantage of the provided ones.
+    </p>
+    <p num="49">Given the above specialization, what happens when you call Foo() with a class derived from TWidget: does the compiler call your specialization or generate a new function from the template? Overload resolution will match your function and the compiler will call it.</p>
+    <p num="50">
+      For class templates, the answer is different.
+      <br/>
+      Generated classes (those generated from a class template) have no inheritance relationship.
+      <br/>
+      Given the following class template:
+      <br/>
+      template &lt;class AType&gt; class TKeyFor+public:
+      <br/>
+      - TKeyFor (const AType*aKeyAlias);.about.TKeyFor();
+      <br/>
+      - HashResult ComputeHash() const;
+      <br/>
+      private:
+      <br/>
+      - AType*fkey;
+      <br/>
+      };
+      <br/>
+      template &lt;class AType&gt;
+      <br/>
+      HashResult TKeyFor&lt;AType&gt;::ComputeHash() const
+      <br/>
+      +
+      <br/>
+      - return fKey --&gt; Hash();//Use AType::Hash().
+      <br/>
+      }
+      <br/>
+      TKeyFor&lt;TBase&gt; is unrelated to TKeyFor&lt;TDerived&gt;, even though TBase is the parent of TDerived.
+      <br/>
+      Let's suppose that TBase has a different hash function and that you've specialized ComputeHash() for TBase:
+      <br/>
+      HashResult TKeyFor&lt;TBase&gt;::ComputeHash()
+      <br/>
+      +
+      <br/>
+      - return fKey --&gt; GetHashKey();//Use TBase::GetHashKey().
+      <br/>
+      }
+      <br/>
+      and you instantiate a TKeyFor&lt;TDerived&gt;, the compiler will not use your specialization.
+      <br/>
+      So what do you do? You could provide another specialization for TDerived, but what happens when you introduce TVeryDerived and TVeryVeryDerived, etc.? This presents a problem.
+    </p>
+    <p num="51">
+      As with function templates, the answer to this problem lies with overload resolution: get the compiler to pick the correct function for you.
+      <br/>
+      Using our TKeyFor&lt;AType&gt; example, we first add a pair of private overloaded functions:
+      <br/>
+      template &lt;class AType&gt; class TKeyFor +
+      <br/>
+      public:
+      <br/>
+      - TKeyFor (const AType*aKeyAlias);
+      <br/>
+      - .about.TKeyFor();
+      <br/>
+      - HashResult ComputeHash() const;
+      <br/>
+      - . . .
+      <br/>
+      private:
+      <br/>
+      - static HashResult Hash (const void*);
+      <br/>
+      - static HashResult Hash (const TBase*);
+      <br/>
+      - AType*fKey;
+      <br/>
+      };
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      HashResult TKeyFor&lt;AType&gt;::Hash (const void*)
+      <br/>
+      +
+      <br/>
+      - return fKey --&gt; Hash();//Use AType::Hash().
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      HashResult TKeyFor&lt;AType&gt;:: Hash (const TBase*)
+      <br/>
+      +
+      <br/>
+      - return fKey --&gt; GetHashKey();//Use TBase::GetHaslKey().
+      <br/>
+      }
+      <br/>
+      and re-implement ComputeHash to call them:
+      <br/>
+      template &lt;class AType&gt;
+      <br/>
+      HashResult TKeyFor&lt;AType&gt;::ComputeHash()const
+      <br/>
+      +
+      <br/>
+      - return Hash(fKey);//Use TKeyFor&lt;AType&gt;::Hash( . . . ).
+      <br/>
+      }
+    </p>
+    <p num="52">Now your specialization is built-in: when the compiler generates code for the ComputeHash function, it will call AType::GetHashKey() for any AType which is-a TBase, and will call AType::Hash() for any AType which is not.</p>
+    <p num="53">This technique can be extended to support multiple type families by providing additional overloaded functions for each family.</p>
+    <p num="54">
+      This technique exploits a unique advantage of templates: at class generation time, the compiler can statically determine which of the overloaded functions to call.
+      <br/>
+      This means that the compiler does not need to emit code for the unused functions, thus reducing code bloat.
+      <br/>
+      In addition, we can make the overloaded functions inline, eliminating the runtime-overhead of a function call dispatch.
+      <br/>
+      What's left is an implementation customized for a whole family of types (TBase and all subclasses) or a generic implementation for all other types, with zero runtime or footprint overhead.
+    </p>
+    <p num="55">
+      To further illustrate this last point, imagine that we want to add the ability to test whether or not AType is-a TBase.
+      <br/>
+      Again, we use function overloading to add the following (probably private) functions:
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      bool TKeyFor&lt;AType&gt;::IsTBase (const TBase*it) const
+      <br/>
+      +
+      <br/>
+      - return true;
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      bool TKeyFor&lt;AType&gt;::TsTBase (const void*it) const
+      <br/>
+      +
+      <br/>
+      - return false;
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      bool TKeyFor&lt;ATpe&gt;::IsTBase() const
+      <br/>
+      55
+      <br/>
+      - return IsTBase (fKey);
+      <br/>
+      }
+      <br/>
+      Now, suppose we want to use this functionality to conditionally execute some code:
+      <br/>
+      +
+      <br/>
+      - if (IsTBaseo)
+      <br/>
+      - +
+    </p>
+    <p num="56">
+      -  //Some TBase related code . . .
+      <br/>
+      - }
+      <br/>
+      - else
+      <br/>
+      +
+      <br/>
+      -  //Some generic code . . .
+      <br/>
+      - }
+      <br/>
+      }
+    </p>
+    <p num="57">
+      Since the compiler can statically determine the result of calling IsTBase ()for any given AType, the conditional code can be eliminated and the entire statement reduced to either:
+      <br/>
+      +
+      <br/>
+      - Some TBase related code . . .
+      <br/>
+      }
+      <br/>
+      if AType is-a TBase, or;
+      <br/>
+      +
+      <br/>
+      - //Some generic code . . .
+      <br/>
+      - }
+      <br/>
+      - otherwise.
+    </p>
+    <p num="58">An example implementation of the invention follows:</p>
+    <p num="59">
+      The Common Point (tm)  application system architecture is described by Sean Cotter and Mike Potel in the book Inside Taligent Technology, Addison Wesley, 1995.
+      <br/>
+      Common Point (tm)  contains an abstract class MReferencedCounted, Which enables a style of lifetime-management called reference counting:
+      <br/>
+      class MReferencedCounted +
+      <br/>
+      public:
+      <br/>
+      - void AddReference();
+      <br/>
+      - void RemoveReference();
+      <br/>
+      - . . .
+      <br/>
+      - virtual.about.MReferenceCounted();
+      <br/>
+      protected:
+      <br/>
+      - MReferencedCounted (ReferenceCount initial=0);
+      <br/>
+      - . . .
+      <br/>
+      };
+    </p>
+    <p num="60">
+      The idea is that an instance (of a subclass of MReferenceCounted) can be shared by multiple objects, each of whom calls AddReferenceo when a pointer to the shared instance is acquired, and each of whom calls RemoveReferenceo when the shared instance is no longer referenced.
+      <br/>
+      When RemoveReferenceo detects that there are zero remaining references, it calls its own destructor:
+    </p>
+    <p num="61">
+      See FIG. 6 which illustrates the progressive de-referencing of an MreferenceCounted subclass.
+      <br/>
+      This behavior enables objects to share an instance without concern for lifetime--the instance self-destructs when the last reference to it goes away.
+    </p>
+    <p num="62">
+      CommoniPoint (tm)  also contains a `smart` pointer class which ensures that AddReference() and RemoveReference() are called at the appropriate times: TCountedPointerTo&lt;AType&gt;. This class behaves much like a raw pointer (defines operator --&gt; , etc.), with the additional behavior of calling AddReference() on construction and RemoveReference() on destruction or assignment:
+      <br/>
+      TCountedPointerTo&lt;TFoo&gt; aFooPtr=new TFoo;//Count==1
+      <br/>
+      aFooPtr --&gt; AFunction(),//Call TFoo::AFunction().
+      <br/>
+      +
+      <br/>
+      TCountedPointerTo&lt;TFoo&gt; anotherFooPtr=aFooPtr;//Count ==2
+      <br/>
+      //Count==1 (anotherFooPtr destroyed st scope exit)
+      <br/>
+      aFooPtr=NIL;//Count==0, TFoo destroyed.
+    </p>
+    <p num="63">A simple implementation of this class template could assume that AType is--a MReferenceCounted, but it can be extremely useful to have the TCountedPointerTo Behavior over instances of classes which are not MReferenceCounted.</p>
+    <p num="64">
+      We could implement a different class template, say TUniversalCountedPointerTo&lt;AType&gt;, which assumes that AType is not MReferenceCounted.
+      <br/>
+      Its implementation would wrap the AType instance in an object which is MreferenceCounted.
+      <br/>
+      FIG. 7 illustrates the inheritance relationship of TcountedVoidPointer class to MreferenceCounted class.
+    </p>
+    <p num="65">
+      Of course, it would be easier for clients to deal with only one class, irrespective of AType.
+      <br/>
+      With our new technique, we can provide such a class template which works efficiently for AType's which are MReferenceCounted and those that are not--the TCountedPointerTo&lt;AType&gt; class template provided by CommonPoint (tm)  does just that.
+    </p>
+    <p num="66">
+      Here is a partial declaration for TCountedPointerTo&lt;AType&gt;:
+      <br/>
+      template&lt;class AType&gt; class TCountedPointerTo +
+      <br/>
+      public:
+      <br/>
+      - TContedPointerTo (AType*adopt);
+      <br/>
+      - TContedPointerTo (const TContedPointerTo &lt;AType&gt;&amp; share);
+      <br/>
+      - .about.TContedPointerTo();
+      <br/>
+      - AType*GetAlias() const;
+      <br/>
+      - AType*operator --&gt; () const;
+      <br/>
+      private:
+      <br/>
+      - void Wraplt (MReferencedCounted*it) const;
+      <br/>
+      - void WrapIT (void*it) const;
+      <br/>
+      - MReferencedCounted*GetCounted () const;
+      <br/>
+      - bool IsWrapped () const;
+      <br/>
+      - bool IsWrapped (MReferencedCounted*) const;
+      <br/>
+      - bool IsWrapped (void*it) const;
+      <br/>
+      - . . .
+      <br/>
+      - union
+      <br/>
+      - +
+      <br/>
+      -  AType*fDirect;
+      <br/>
+      -  TCountedVoidPointer*fIndirect;
+      <br/>
+      - };
+      <br/>
+      };
+    </p>
+    <p num="67">
+      The (simplified) implementations for the key functions follow:
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      TCountedPointerTo&lt;AType&gt;::TCountedPointerTo(AType*adopt)
+      <br/>
+      - fdirect (adopt)
+      <br/>
+      +
+      <br/>
+      - WrapIT(adopt);
+      <br/>
+      - GetCounted() --&gt; AddReferenced();
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline void
+      <br/>
+      TCountedPointerTo&lt;AType&gt;::TCountedPointerTo(avoid*it) const
+      <br/>
+      +
+      <br/>
+      - fIndirect=new TCountedPointerTo(it);//Make a wrapper.
+    </p>
+    <p num="68">
+      template &lt;class AType&gt; inline
+      <br/>
+      MReferenceCounted*TCountedPointerTo&lt;AType&gt;::
+      <br/>
+      GetCounted()const
+      <br/>
+      +
+      <br/>
+      - if (IsWrapped())
+      <br/>
+      - }
+      <br/>
+      -  return findirect;
+      <br/>
+      - }
+      <br/>
+      - else
+      <br/>
+      - +
+      <br/>
+      -  return (MReferenceCounted*) fdirect;
+      <br/>
+      - }
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      TCountedPointerTo&lt;AType&lt;::.about.TCountedPointerTo()
+      <br/>
+      +
+      <br/>
+      - GetCounted() --&gt; RemoveReference();
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      AType*TCountedPointerTo&lt;AType&gt;::GetAlias() const
+      <br/>
+      +
+      <br/>
+      - IF (IsWrapped())
+      <br/>
+      - +
+      <br/>
+      -  return (AType*)flndirect --&gt; Getit();
+      <br/>
+      - }
+      <br/>
+      - else
+      <br/>
+      - +
+      <br/>
+      -  return fDirect;
+      <br/>
+      - }
+      <br/>
+      }
+      <br/>
+      template &lt;class AType&gt; inline
+      <br/>
+      AType*TCountedPointerTo&lt;AType&gt;::operator --&gt; () const
+      <br/>
+      +
+      <br/>
+      - return GetAlias();
+      <br/>
+      }
+      <br/>
+      Where Is Wrapped() is implemented as in the TKeyFor&lt;AType&gt;::IsTBase() example.
+    </p>
+    <p num="69">
+      Given the existence of a class TCounted, which is-a MReferenceCounted, and a class TNotCounted which is not MreferenceCounted.
+      <br/>
+      FIG. 8 illustrates the inheritance relationship of Tcounted class and TNotCounted class to MreferenceCounted class.
+    </p>
+    <p num="70">Counted pointer instances can now be created for both types:</p>
+    <p num="71">
+      TCountedPointerTo&lt;TCounted&gt; counted1=new TCounted;
+      <br/>
+      TCountcdPointerTo&lt;TCounted&gt; counted2=counted1;
+      <br/>
+      TCountcdPointerTo&lt;TNotCountcd&gt; notCounted1=new TNotCounted;
+      <br/>
+      TCountedPointerTo&lt;TNotCounted&gt; notCounted2=notCounted1
+    </p>
+    <p num="72">
+      This results in the following structures.
+      <br/>
+      FIG. 9 shows structures for TCounted instances and TNotCounted instances.
+    </p>
+    <p num="73">The code generated for each is exactly as efficient as if two separate class templates had been written, without the attendant documentation, learning-curve and namespace clutter of an additional class.</p>
+    <p num="74">Although a specific embodiment of the invention has been disclosed, it will be understood by those having skill in the art that changes can be made to that specific embodiment without departing from the spirit and the scope of the invention.</p>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>What is claimed is:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>Apparatus for managing the life of objects referenced by other objects in a computer including a memory having therein counted classes that maintain an internal count of the number of other objects referencing a counted object constructed therefrom and uncounted classes which do not maintain an internal count of the number of other objects referencing an uncounted object constructed therefrom, the apparatus comprising:</claim-text>
+      <claim-text>a counter wrapper class that includes an internal counter and an object reference storage;</claim-text>
+      <claim-text>and a universal object in the memory that responds to a runtime request for constructing a new target object from a target class and includes a method which responds to the runtime request by constructing a counter wrapper object from the counter wrapper class when the target class is an uncounted class and then constructing an object from the target class and storing a reference thereto in the counter wrapper object, the counter wrapper object providing a count of the number of other objects referencing the target object, the universal object further including a method that responds to the runtime request by constructing a new target object from the target class when the target class is a counted class.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. The apparatus of claim 1, which further comprises constructor code in a referencing object class that is operable during construction of a referencing object for incrementing the number of objects referencing the new target object stored in the new target object when the new target object is created from a counted class.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. The apparatus of claim 2, which further comprises destructor code in the referencing object that decrements the number of objects referencing the new target object stored in the new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. The apparatus of claim 3, which further comprises destructor code in the new target object which destroys the new target object when the number of referencing objects stored in the new target object decreases to zero.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. The apparatus of claim 1, which further comprises constructor code in a referencing object class which is operable during the construction of a referencing object for incrementing the number of objects referencing the new target object stored in the counter wrapper object when the new target object is constructed from an uncounted class.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. The apparatus of claim 5, which further comprises destructor code in the referencing object that decrements the number of objects referencing the new target object stored in the counter wrapper object new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. The apparatus of claim 6, which further comprises destructor code in the counter wrapper object that destroys the counter wrapper object and the new target object when the number of referencing objects stored in the counter wrapper object decreases to zero.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A method for managing the life of objects referenced by other objects in a computer including a memory having therein counted classes that maintain an internal count of the number of other objects referencing a counted object constructed therefrom and uncounted classes which do not maintain an internal count of the number of other objects referencing an uncounted object constructed therefrom, the method comprising: (a) creating in the memory a counter wrapper class that includes an internal counter and an object reference storage;</claim-text>
+      <claim-text>and (b) creating a universal object in the memory that responds to a runtime request for constructing a new target object from a target class and includes a method which responds to the runtime request by constructing a counter wrapper object from the counter wrapper class when the target class is an uncounted class and then constructing an object from the target class and storing a reference thereto in the counter wrapper object, the counter wrapper object providing a count of the number of other objects referencing the target object, the universal object further including a method that responds to the runtime request by constructing a new target object from the target class when the target class is a counted class.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. The method of claim 8, which further comprises using constructor code in a referencing object during construction of the referencing object for incrementing the number of objects referencing the new target object stored in the new target object when the new target object is created from a counted class.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. The method of claim 9, which further comprises using destructor code in the referencing object to decrement the number of objects referencing the new target object stored in the new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. The method of claim 10, which further comprises using destructor code in the new target object which destroys the new target object when the number of referencing objects stored in the new target object decreases to zero.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. The method of claim 8, which further comprises using constructor code in a referencing object class which is operable during the construction of a referencing object for incrementing the number of objects referencing the new target object stored in the counter wrapper object when the new target object is constructed from an uncounted class.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. The method of claim 12, which further comprises using destructor code in the referencing object that decrements the number of objects referencing the new target object stored in the counter wrapper object new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. The method of claim 13, which further comprises using destructor code in the counter wrapper object that destroys the counter wrapper object and the new target object when the number of referencing objects stored in the counter wrapper object decreases to zero.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. A computer program product for managing the life of objects referenced by other objects in a computer including a memory having therein counted classes that maintain an internal count of the number of other objects referencing a counted object constructed therefrom and uncounted classes which do not maintain an internal count of the number of other objects referencing an uncounted object constructed therefrom, the computer program product comprising a computer usable medium having computer readable program code thereon including: counter wrapper class code that includes an internal counter and an object reference storage;</claim-text>
+      <claim-text>and program code for instantiating a universal object in the memory that responds to a runtime request for constructing a new target object from a target class and includes a method which responds to the runtime request by constructing a counter wrapper object from the counter wrapper class when the target class is an uncounted class and then constructing an object from the target class and storing a reference thereto in the counter wrapper object, the counter wrapper object providing a count of the number of other objects referencing the target object, the universal object further including a method that responds to the runtime request by constructing a new target object from the target class when the target class is a counted class.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. The computer program product of claim 15, which further comprises constructor code in a referencing object class that is operable during construction of a referencing object for incrementing the number of objects referencing the new target object stored in the new target object when the new target object is created from a counted class.</claim-text>
+    </claim>
+    <claim num="17">
+      <claim-text>17. The computer program product of claim 16, which further comprises destructor code in the referencing object that decrements the number of objects referencing the new target object stored in the new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="18">
+      <claim-text>18. The computer program product of claim 17, which further comprises destructor code in the new target object which destroys the new target object when the number of referencing objects stored in the new target object decreases to zero.</claim-text>
+    </claim>
+    <claim num="19">
+      <claim-text>19. The computer program product of claim 15, which further comprises constructor code in a referencing object class which is operable during the construction of a referencing object for incrementing the number of objects referencing the new target object stored in the counter wrapper object when the new target object is constructed from an uncounted class.</claim-text>
+    </claim>
+    <claim num="20">
+      <claim-text>20. The computer program product of claim 19, which further comprises destructor code in the referencing object that decrements the number of objects referencing the new target object stored in the counter wrapper object new target object before destroying the referencing object.</claim-text>
+    </claim>
+    <claim num="21">
+      <claim-text>21. The computer program product of claim 15, which further comprises destructor code in the counter wrapper object that destroys the counter wrapper object and the new target object when the number of referencing objects stored in the counter wrapper object decreases to zero.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>
