@@ -47,10 +47,9 @@ class NERManager:
         if not NER.objects.filter(text=data[0], label=data[1], ner_type="NER").exists():
             return NER.objects.create(text=data[0], label=data[1], ner_type="NER")
 
-    # TODO
     @staticmethod
-    def retrieve_all_patents():
-        return Patent.objects.all()
+    def list_ners():
+        return NER.objects.filter(ner_type="NER").values()
 
 
 class ChemNERManager:
@@ -60,8 +59,8 @@ class ChemNERManager:
             NER.objects.create(text=data[0], label=data[1], ner_type="ChemNER")
 
     @staticmethod
-    def retrieve_all_patents():
-        return Patent.objects.all()
+    def list_ners():
+        return NER.objects.filter(ner_type="ChemNER").values()
 
 
 class TrainedNERManager:
@@ -71,5 +70,5 @@ class TrainedNERManager:
             NER.objects.create(text=data[0], label=data[1], ner_type="TrainedNER")
 
     @staticmethod
-    def retrieve_all_patents():
-        return Patent.objects.all()
+    def list_ners():
+        return NER.objects.filter(ner_type="TrainedNER").values()
