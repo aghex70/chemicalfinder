@@ -11,9 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-import sys
 from urllib.parse import urlparse
-from celery.schedules import crontab
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -42,7 +40,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'celery',
-    # 'django_celery_results',
 ]
 
 MIDDLEWARE = [
@@ -143,4 +140,5 @@ if celery_url_parse.scheme == 'rediss':
 
 PATENTS_PATH = os.environ["PATENTS_PATH"]
 TRAIN_DATA_PATH = os.environ["TRAIN_DATA_PATH"]
+TRAINED_MODEL_PATH = os.environ["TRAINED_MODEL_PATH"]
 TRAINED_MODEL_DESTINATION_PATH = os.environ["TRAINED_MODEL_DESTINATION_PATH"]

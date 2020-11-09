@@ -1,10 +1,10 @@
 from __future__ import absolute_import, unicode_literals
 import logging
-from django.conf import settings
 import celery
 from celery import chain, shared_task, task
-from celery import exceptions as celery_exceptions
+
 from patentparser.celery import app
+from django.conf import settings
 
 from .utils import (
     parser,
@@ -16,7 +16,7 @@ from .utils import (
 
 
 tz = 'Europe/Madrid'
-logger = logging.getLogger('msd')
+logger = logging.getLogger('chemfinder')
 
 
 class HandlerTask(celery.Task):
@@ -41,17 +41,47 @@ def initiate_parsing(self):
             parsing = chain(
                 parse_patent.s(filepath) |
                 persist_patent.s()).apply_async()
-                # persist_patent.s() |
-                # generate_ner.s() |
-                # persist_ner.s()).apply_async()
-                # generate_chemner.s(),
-                # persist_chemner.s().apply_async()
-
-        # TODO
         except Exception as exc:
             logger.error(f"[ERROR] on global task: {exc}")
 
     return "Started patent parsing"
+
+
+@shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
+def ner_creation(self, data, **kwargs):
+    try:
+        chain(
+            generate_ner.s(data) |
+            persist_ner.s()).apply_async()
+    except Exception as exc:
+        logger.error(f"[ERROR] on global task: {exc}")
+
+    return "Started NER creation"
+
+
+@shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
+def chemner_creation(self, data, **kwargs):
+    # for ner_data in data:
+    try:
+        chain(
+            generate_chemner.s(data) |
+            persist_chemner.s()).apply_async()
+    except Exception as exc:
+        logger.error(f"[ERROR] on global task: {exc}")
+
+    return "Started ChemNER creation"
+
+
+@shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
+def trained_ner_creation(self, data, **kwargs):
+    try:
+        chain(
+            generate_trained_ner.s(data) |
+            persist_trained_ner.s()).apply_async()
+    except Exception as exc:
+        logger.error(f"[ERROR] on global task: {exc}")
+
+    return "Started TrainedNER creation"
 
 
 @shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
@@ -96,9 +126,9 @@ def persist_ner(self, data):
 
 
 @shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
-def generate_chemner(self, generator, data):
-    entities = generator.generate_named_entities(data)
-    persist_chemner(entities)
+def generate_chemner(self, data):
+    chem_ner_generator = processor.ChemNERGenerator()
+    entities = chem_ner_generator.generate_named_entities(data)
     return entities
 
 
@@ -106,8 +136,8 @@ def generate_chemner(self, generator, data):
 def persist_chemner(self, data):
     # Persist ChemNER
     ner_manager = manager.ChemNERManager()
-    for ner in data:
-        ner_manager.create(ner)
+    for chemner in data:
+        ner_manager.create(chemner)
 
 
 @shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
@@ -118,8 +148,9 @@ def train_ner(self):
 
 
 @shared_task(base=HandlerTask, bind=True, max_retries=3, default_retry_delay=20, queue='chemfinder')
-def generate_trained_ner(self, generator, data):
-    entities = generator.generate_named_entities(data)
+def generate_trained_ner(self, data):
+    trained_ner_generator = processor.TrainedNERGenerator(settings.TRAINED_MODEL_DESTINATION_PATH)
+    entities = trained_ner_generator.generate_named_entities(data)
     return entities
 
 

@@ -23,8 +23,8 @@ from rest_framework import permissions
 
 TITLE = "Chemfinder API"
 
-admin.site.site_header = 'Placeholder'
-admin.site.index_title = 'Placeholder'
+admin.site.site_header = 'Chemical finder API'
+admin.site.index_title = 'Chemical finder API'
 
 SchemaView = get_schema_view(
     info=openapi.Info(

@@ -1,5 +1,5 @@
-#TODO develop
 from datetime import datetime
+
 from ..models import (
     Inventor,
     Patent,
@@ -16,6 +16,10 @@ class InventorManager:
             inventor = Inventor.objects.create(name=data["name"], address=data["address"])
 
         return inventor
+
+    @staticmethod
+    def wipe_inventors():
+        Inventor.objects.all().delete()
 
 
 class PatentManager:
@@ -40,6 +44,11 @@ class PatentManager:
     def retrieve_all_patents():
         return Patent.objects.all()
 
+    @staticmethod
+    def wipe_patents():
+        InventorManager.wipe_inventors()
+        Patent.objects.all().delete()
+
 
 class NERManager:
     @staticmethod
@@ -50,6 +59,10 @@ class NERManager:
     @staticmethod
     def list_ners():
         return NER.objects.filter(ner_type="NER").values()
+
+    @staticmethod
+    def wipe_ners():
+        NER.objects.filter(ner_type="NER").delete()
 
 
 class ChemNERManager:
@@ -62,6 +75,10 @@ class ChemNERManager:
     def list_ners():
         return NER.objects.filter(ner_type="ChemNER").values()
 
+    @staticmethod
+    def wipe_chemners():
+        NER.objects.filter(ner_type="ChemNER").delete()
+
 
 class TrainedNERManager:
     @staticmethod
@@ -72,3 +89,17 @@ class TrainedNERManager:
     @staticmethod
     def list_ners():
         return NER.objects.filter(ner_type="TrainedNER").values()
+
+    @staticmethod
+    def wipe_trained_ners():
+        NER.objects.filter(ner_type="TrainedNER").delete()
+
+
+class GodManager:
+    @staticmethod
+    def wipe_database():
+        InventorManager.wipe_inventors()
+        PatentManager.wipe_patents()
+        NERManager.wipe_ners()
+        ChemNERManager.wipe_chemners()
+        TrainedNERManager.wipe_trained_ners()

@@ -1,7 +1,5 @@
-# import scispacy
 import spacy
-from spacy.matcher import Matcher, PhraseMatcher
-from spacy.attrs import IS_PUNCT, LOWER
+
 
 class NLPProcessor:
     def __init__(self, model):

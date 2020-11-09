@@ -9,7 +9,7 @@ services:
     ports:
       - 8000:8000
     env_file:
-      - ./.env.dev
+      - ./.env.chemfinder
     depends_on:
     - mongodb
   mongodb:
@@ -21,10 +21,9 @@ services:
   celery:
     build: ./app
     env_file:
-      - ./.env.dev
+      - ./.env.chemfinder
     command: >
       bash -c "celery -A patentparser.celery worker --loglevel=INFO --concurrency=10 -n worker1@%h -Q chemfinder"
-#      bash -c "celery worker -A patentparser.celery -n agp@ -Q chemfinder -l info --heartbeat-interval 10"
     depends_on:
       - mongodb
       - redis
@@ -34,7 +33,7 @@ services:
     build: ./app
     image: flower:latest
     env_file:
-      - ./.env.dev
+      - ./.env.chemfinder
     command: [ "flower", "--broker=redis://redis:6379/0", "--port=5555" ]
     depends_on:
       - redis

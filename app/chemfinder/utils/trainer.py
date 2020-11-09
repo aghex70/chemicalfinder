@@ -1,9 +1,9 @@
 from __future__ import unicode_literals, print_function
-
 import csv
 import random
 import warnings
 from pathlib import Path
+
 import spacy
 from spacy.util import minibatch, compounding
 from django.conf import settings
@@ -23,7 +23,6 @@ class ModelTrainer:
             print("Created blank 'en' model")
 
     def generate_training_data(self):
-        from datetime import datetime
         training_data = []
         with open(self._train_data_path, mode='r') as csv_file:
             csv_reader = csv.DictReader(csv_file)
@@ -36,8 +35,7 @@ class ModelTrainer:
         training_data.pop()
         return training_data
 
-    # def train_entity_recognizer(self, train_data, n_iter=100):
-    def train_entity_recognizer(self, train_data, n_iter=50):
+    def train_entity_recognizer(self, train_data, n_iter=1):
         """Set up the pipeline and train the entity recognizer."""
 
         # create the built-in pipeline components and add them to the pipeline
@@ -79,7 +77,7 @@ class ModelTrainer:
                     )
                 print("Losses", losses)
         # save model to output directory
-        output_dir = Path(settings.TRAINED_MODEL_DESTINATION_PATH)
+        output_dir = Path(settings.TRAINED_MODEL_PATH)
         if not output_dir.exists():
             output_dir.mkdir()
         self._processor.to_disk(output_dir)
