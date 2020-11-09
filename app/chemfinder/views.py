@@ -33,7 +33,7 @@ class BaseViewSet(viewsets.ViewSet):
         self._logger = value
 
     def wipe_database(self, request):
-        manager.TrainedNERManager.wipe_trained_ners()
+        manager.GodManager.wipe_database()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 

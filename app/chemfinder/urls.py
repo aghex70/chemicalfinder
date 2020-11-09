@@ -25,5 +25,8 @@ urlpatterns = [
         'post': 'create_trained_ner',
         'delete': 'destroy_trained_ner',
     }), name='chemner'),
+    path('database/truncate/', views.BaseViewSet.as_view({
+        'delete': 'wipe_database',
+    }), name='wipe_database'),
 ]
 
