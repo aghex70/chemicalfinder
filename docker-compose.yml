@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+  web:
+    build: ./app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./app/:/usr/src/app/
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    depends_on:
+    - mongodb
+  mongodb:
+    image: mongo
+    volumes:
+      - ./data-db:/data/db
+    ports:
+      - 27017:27017
+  celery:
+    build: ./app
+    env_file:
+      - ./.env.dev
+    command: >
+      bash -c "celery -A patentparser.celery worker --loglevel=INFO --concurrency=10 -n worker1@%h -Q chemfinder"
+#      bash -c "celery worker -A patentparser.celery -n agp@ -Q chemfinder -l info --heartbeat-interval 10"
+    depends_on:
+      - mongodb
+      - redis
+  redis:
+    image: redis:alpine
+  flower:
+    build: ./app
+    image: flower:latest
+    env_file:
+      - ./.env.dev
+    command: [ "flower", "--broker=redis://redis:6379/0", "--port=5555" ]
+    depends_on:
+      - redis
+    ports:
+      - "5555:5555"
