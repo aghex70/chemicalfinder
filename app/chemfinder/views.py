@@ -8,7 +8,6 @@ from drf_yasg.utils import swagger_auto_schema
 from .utils import manager
 from . import (
     tasks,
-    models,
     serializers,
     constants
 )
@@ -43,7 +42,7 @@ class PatentParserViewSet(BaseViewSet):
     """
 
     def list(self, request):
-        patents = models.Patent.objects.all().values()
+        patents = manager.PatentManager.retrieve_patents_details()
         return Response(data=patents, status=status.HTTP_200_OK)
 
     def create(self, request):
@@ -54,6 +53,33 @@ class PatentParserViewSet(BaseViewSet):
     def destroy(self, request):
         manager.PatentManager.wipe_patents()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+class InventorViewSet(BaseViewSet):
+    """
+    Viewset in charge of inventors management.
+    """
+
+    @swagger_auto_schema(query_serializer=serializers.InventorSerializer)
+    def list(self, request):
+        if request.query_params:
+            serializer = serializers.InventorSerializer(data=request.query_params)
+            if not serializer.is_valid():
+                self.logger.error(f"Validation error: {serializer.errors}")
+                return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            inventions = manager.InventorManager.get_inventions(serializer.validated_data.get("name"))
+            return Response(data=inventions, status=status.HTTP_200_OK)
+        patents = manager.InventorManager.retrieve_all_inventors()
+        return Response(data=patents, status=status.HTTP_200_OK)
+
+    # @swagger_auto_schema(query_serializer=serializers.InventorSerializer)
+    # def get_inventor_inventions(self, request):
+    #     serializer = serializers.NERSerializer(data=request.query_params)
+    #     if not serializer.is_valid():
+    #         self.logger.error(f"Validation error: {serializer.errors}")
+    #         return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    #     inventions = manager.InventorManager.get_inventions(serializer.validated_data.get("name"))
+    #     return Response(data=inventions, status=status.HTTP_200_OK)
 
 
 class NERViewSet(BaseViewSet):

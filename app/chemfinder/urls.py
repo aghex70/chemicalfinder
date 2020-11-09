@@ -3,10 +3,10 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('patents/generate/', views.PatentParserViewSet.as_view({
+    path('patent/generate/', views.PatentParserViewSet.as_view({
         'post': 'create',
     }), name='generate_patents'),
-    path('patents/', views.PatentParserViewSet.as_view({
+    path('patent/', views.PatentParserViewSet.as_view({
         'get': 'list',
     }), name='patents'),
     path('ner/', views.NERViewSet.as_view({
@@ -28,5 +28,8 @@ urlpatterns = [
     path('database/truncate/', views.BaseViewSet.as_view({
         'delete': 'wipe_database',
     }), name='wipe_database'),
+    path('inventor/', views.InventorViewSet.as_view({
+        'get': 'list',
+    }), name='inventors'),
 ]
 

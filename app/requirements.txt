@@ -15,10 +15,12 @@ dataclasses==0.6
 decorator==4.4.2
 Django==2.2.9
 django-celery-results==1.2.1
+django-cors-headers==3.5.0
 djangorestframework==3.9.2
 djongo==1.3.0
 drf-yasg==1.13.0
-en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.3.0/en_core_sci_md-0.3.0.tar.gz
+en-core-sci-sm @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.3.0/en_core_sci_sm-0.3.0.tar.gz
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 flower==0.9.5
 humanize==3.1.0
 idna==2.10

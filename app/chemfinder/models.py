@@ -2,7 +2,7 @@ from djongo import models
 
 
 class Inventor(models.Model):
-    name = models.CharField(primary_key=True, max_length=255)
+    name = models.CharField(max_length=255)
     address = models.TextField()
 
     def __str__(self):

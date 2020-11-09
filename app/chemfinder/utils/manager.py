@@ -21,6 +21,18 @@ class InventorManager:
     def wipe_inventors():
         Inventor.objects.all().delete()
 
+    @staticmethod
+    def retrieve_all_inventors():
+        return Inventor.objects.values()
+
+    @staticmethod
+    def get_inventions(inventor_name):
+        inventor = Inventor.objects.get(name=inventor_name)
+        filtered_values = (
+            "file_name", "country", "document_number", "kind", "date", "title", "abstract", "description")
+        return Patent.objects.filter(
+            inventors={"name": inventor_name, "address": inventor.address}).values(*filtered_values)
+
 
 class PatentManager:
     @staticmethod
@@ -43,6 +55,12 @@ class PatentManager:
     @staticmethod
     def retrieve_all_patents():
         return Patent.objects.all()
+
+    @staticmethod
+    def retrieve_patents_details():
+        filtered_values = (
+            "file_name", "country", "document_number", "kind", "date", "title", "abstract", "description")
+        return Patent.objects.values(*filtered_values)
 
     @staticmethod
     def wipe_patents():
