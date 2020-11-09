@@ -30,7 +30,7 @@ class NERGenerator(NLPProcessor):
 
 class ChemNERGenerator(NLPProcessor):
     def __init__(self):
-        # TODO comment ¡¡!!
+        # TModel consisting of biomedical data in order to improve entity generation
         super().__init__("en_core_sci_sm")
 
     def generate_named_entities(self, data):
