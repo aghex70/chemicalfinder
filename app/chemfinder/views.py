@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import authentication_classes
 from drf_yasg.utils import swagger_auto_schema
 
-from . import tasks, models, serializers
+from . import tasks, models, serializers, constants
 from .utils import parser, helper, trainer, processor, manager
 
 
@@ -35,10 +35,6 @@ class PatentParserViewSet(BaseViewSet):
     permission_classes = ()
 
     def list(self, request):
-        serializer = self.serializer_class(data=request.data)
-        if not serializer.is_valid():
-            self.logger.error(f"Validation error: {serializer.errors}")
-            return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         patents = models.Patent.objects.all().values()
         return Response(data=patents, status=status.HTTP_200_OK)
 
@@ -59,8 +55,13 @@ class NERViewSet(BaseViewSet):
 
     @swagger_auto_schema(query_serializer=serializers.NERSerializer)
     def list(self, request):
+        serializer = serializers.NERSerializer(data=request.data)
+        if not serializer.is_valid():
+            self.logger.error(f"Validation error: {serializer.errors}")
+            return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        ners = manager.NERManager.list_ners()
+        ner_manager = constants.TYPE_TO_NER_MANAGER.get(serializer.validated_data.get("type"))
+        ners = ner_manager.list_ners()
         return Response(data=ners, status=status.HTTP_200_OK)
 
 
